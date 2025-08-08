@@ -6,7 +6,7 @@ from .models import Users, UserProfile
 @admin.register(Users)
 class UserAdmin(BaseUserAdmin):
     """Admin configuration for User model."""
-    
+
     list_display = ('email', 'username', 'first_name', 'last_name', 'is_active', 'date_joined')
     list_filter = ('is_active', 'is_staff', 'is_superuser', 'date_joined')
     search_fields = ('email', 'username', 'first_name', 'last_name')
