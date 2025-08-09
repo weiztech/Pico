@@ -1,11 +1,15 @@
+import logging
+
+import googlemaps
+from django.conf import settings
 from rest_framework.viewsets import ViewSet
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
 from drf_spectacular.utils import extend_schema
-import googlemaps
-from django.conf import settings
-import logging
+
+from apps.app.permissions import AppPermission
 
 from .serializers import (
     LocationSearchInputSerializer,
@@ -21,7 +25,9 @@ logger = logging.getLogger(__name__)
 
 
 class GMapViewSet(ViewSet):
-    # permission_classes = None
+    permission_classes = [IsAuthenticated, AppPermission]
+    url_prefix = 'gmaps'
+    api_basename = 'gmap_tools'
     
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

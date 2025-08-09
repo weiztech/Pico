@@ -8,11 +8,17 @@ from .views import (
     UserToolDetailView,
     user_tool_stats
 )
-from .apis.gmaps.api import GMapViewSet
+from .apis import TOOLS_APIS
 
 
 router = DefaultRouter()
-router.register(r'gmaps', GMapViewSet, basename='gmap_tools')
+
+for view_set in TOOLS_APIS:
+    router.register(
+        f'{view_set.url_prefix}',
+        view_set,
+        basename=view_set.api_basename
+    )
 
 urlpatterns = [
     # Tool categories

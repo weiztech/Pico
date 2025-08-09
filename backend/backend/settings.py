@@ -38,6 +38,7 @@ LOCAL_APPS = [
     'apps.tools',
     'apps.chat',
     'apps.common',
+    'apps.app',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -124,8 +125,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Django REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
         'rest_framework.authentication.SessionAuthentication',
+        'apps.app.authentications.AppTokenAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
@@ -210,6 +212,9 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'API documentation for the PicoChat-API project',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
+    'EXTENSIONS': [
+        'apps.app.extensions.AppTokenAuthenticationExtension',
+    ],
     # 'SWAGGER_UI_DIST': 'SIDECAR',  # SIDECAR, CDN
     # 'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
     # 'REDOC_DIST': 'SIDECAR',
