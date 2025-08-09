@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-me-in-production')
 DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = config(
-    'DJANGO_ALLOWED_HOSTS', default='localhost,127.0.0.1'
+    'DJANGO_ALLOWED_HOSTS', default='localhost,127.0.0.1,web'
 ).split(',')
 
 # Application definition
@@ -161,7 +161,7 @@ SIMPLE_JWT = {
 # CORS Settings
 CORS_ALLOWED_ORIGINS = config(
     'CORS_ALLOWED_ORIGINS',
-    default='http://localhost:3000,http://127.0.0.1:3000'
+    default='http://localhost:3000,http://127.0.0.1:3000,http://open-webui:3000'
 ).split(',')
 
 CORS_ALLOW_CREDENTIALS = True
@@ -215,5 +215,6 @@ SPECTACULAR_SETTINGS = {
     # 'REDOC_DIST': 'SIDECAR',
 }
 
-# Fernet Encryption Key - Replace with a real generated key
-FERNET_KEY = config('FERNET_KEY', default='')
+# GOOGLE MAPS API KEY
+GOOGLE_MAPS_API_KEY = config('GOOGLE_MAPS_API_KEY', default='')
+

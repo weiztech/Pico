@@ -11,5 +11,8 @@ uv run python manage.py collectstatic --noinput
 echo "Running database migrations..."
 uv run python manage.py migrate --noinput
 
+echo "load fixtures... for easier to test the app"
+uv run python manage.py loaddata apps/auth/fixtures/users.json
+
 echo "Starting Django development server..."
 uv run python manage.py runserver 0.0.0.0:8000

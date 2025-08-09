@@ -1,5 +1,5 @@
-
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 from .views import (
     ToolCategoryListView,
     ToolListView,
@@ -8,8 +8,11 @@ from .views import (
     UserToolDetailView,
     user_tool_stats
 )
+from .apis.gmaps.api import GMapViewSet
 
-app_name = 'tools'
+
+router = DefaultRouter()
+router.register(r'gmaps', GMapViewSet, basename='gmap_tools')
 
 urlpatterns = [
     # Tool categories
@@ -23,4 +26,7 @@ urlpatterns = [
     path('user/', UserToolListView.as_view(), name='user-tools'),
     path('user/<int:pk>/', UserToolDetailView.as_view(), name='user-tool-detail'),
     path('user/stats/', user_tool_stats, name='user-tool-stats'),
+
+    # Google Maps API
+    path('', include(router.urls)),
 ]
