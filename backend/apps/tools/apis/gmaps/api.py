@@ -141,23 +141,28 @@ class GMapViewSet(ViewSet):
             )
 
     @staticmethod
-    def _format_geocoding_result(result: dict):
+    def _format_geocoding_result(results: dict):
         """Helper method to format geocoding results"""
-        formatted_result = {
-            'formatted_address': result['formatted_address'],
-            'address_components': result['address_components'],
-            'types': result['types'],
-            'place_id': result['place_id']
-        }
-
-        if geometry := result.get('geometry'):
-            formatted_result['geometry'] = {
-                'location': geometry['location'],
-                'location_type': geometry['location_type'],
-                'bounds': geometry.get('bounds'),
-                'viewport': geometry['viewport']
+        formatted_results = []
+        for result in results:
+            formatted_result = {
+                'formatted_address': result['formatted_address'],
+                'address_components': result['address_components'],
+                'types': result['types'],
+                'place_id': result['place_id']
             }
-        return formatted_result
+
+            if geometry := result.get('geometry'):
+                formatted_result['geometry'] = {
+                    'location': geometry['location'],
+                    'location_type': geometry['location_type'],
+                    'bounds': geometry.get('bounds'),
+                    'viewport': geometry['viewport']
+                }
+
+            formatted_results.append(formatted_result)
+
+        return formatted_results
 
     @extend_schema(
         request=GeocodingInputSerializer,
@@ -220,7 +225,7 @@ class GMapViewSet(ViewSet):
                 )
 
             results = self._format_geocoding_result(map_result)
-
+            logger.info(f"{action_type} results: {results}")
             response_data = {
                 "status": "success",
                 "type": action_type,
