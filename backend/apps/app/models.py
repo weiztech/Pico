@@ -76,6 +76,14 @@ class App(models.Model):
         list_tools_url_prefix = self.list_tools_url_prefix
         return url_prefix in list_tools_url_prefix
 
+    def is_request_rate_limit(self):
+        from .rate_limits import allow_request
+
+        return allow_request(
+            self.app_id,
+            self.tier.rps,
+        )
+
     def save(self, *args, **kwargs):
         if not self.pk:
             if not self.token:

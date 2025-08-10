@@ -22,15 +22,11 @@ class AppTokenAuthentication(TokenAuthentication):
     keyword = 'Bearer'
 
     def authenticate(self, request):
-        from .rate_limits import allow_request
-
         credentials = super().authenticate(request)
         if credentials:
             request.access_app = credentials[1]
-            if not allow_request(
-                request.access_app.app_id,
-                request.access_app.tier.rps,
-            ):
+            print("RATE LIMIT", request.access_app.is_request_rate_limit())
+            if request.access_app.is_request_rate_limit():
                 raise exceptions.Throttled()
         return credentials
 

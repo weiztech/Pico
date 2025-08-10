@@ -4,12 +4,15 @@ Django settings for backend project.
 from datetime import timedelta
 from pathlib import Path
 from decouple import config
+from redis import from_url as redis
 
 
 # Build paths inside the project
 BASE_DIR = Path(__file__).resolve().parent.parent
 HOST = config('HOST', default='http://localhost:8000')
 REDIS_URL = config('REDIS_URL', default='redis')
+REDIS_CLIENT = redis(REDIS_URL, decode_responses=True)
+
 # Security settings
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-me-in-production')
 DEBUG = config('DEBUG', default=True, cast=bool)
@@ -29,7 +32,6 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     'rest_framework',
-    'rest_framework_simplejwt',
     'corsheaders',
     'drf_spectacular',
 ]
@@ -37,8 +39,6 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'apps.auth',
     'apps.tools',
-    'apps.chat',
-    'apps.common',
     'apps.app',
 ]
 
@@ -126,7 +126,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Django REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         'apps.app.authentications.AppTokenAuthentication',
     ],
@@ -139,26 +138,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 20,
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
-}
-
-# JWT Settings
-SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(
-        minutes=config('JWT_ACCESS_TOKEN_LIFETIME_MINUTES', default=60, cast=int)
-    ),
-    'REFRESH_TOKEN_LIFETIME': timedelta(
-        days=config('JWT_REFRESH_TOKEN_LIFETIME_DAYS', default=30, cast=int)
-    ),
-    'ROTATE_REFRESH_TOKENS': True,
-    'BLACKLIST_AFTER_ROTATION': True,
-    'UPDATE_LAST_LOGIN': True,
-    'ALGORITHM': 'HS256',
-    'SIGNING_KEY': SECRET_KEY,
-    'VERIFYING_KEY': None,
-    'AUTH_HEADER_TYPES': ('Bearer',),
-    'AUTH_HEADER_NAME': 'HTTP_AUTHORIZATION',
-    'USER_ID_FIELD': 'id',
-    'USER_ID_CLAIM': 'user_id',
 }
 
 # CORS Settings

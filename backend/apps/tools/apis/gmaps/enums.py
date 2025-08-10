@@ -9,3 +9,8 @@ class GeoCodingAction(str, Enum):
     @classmethod
     def choices(cls) -> List[Tuple[str, str]]:
         return [(action.value, action.value) for action in cls]
+
+
+class EmbedUrlType(str, Enum):
+    place = 'place'
+    direction = 'direction'

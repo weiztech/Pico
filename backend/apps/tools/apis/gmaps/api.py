@@ -1,6 +1,11 @@
 import logging
+from urllib.parse import urlencode, quote
 
 import googlemaps
+import requests
+
+from django.shortcuts import get_object_or_404
+from django.http import HttpResponse
 from django.conf import settings
 from rest_framework.viewsets import ViewSet
 from rest_framework.decorators import action
@@ -22,11 +27,15 @@ from .serializers import (
     DistanceDirectionsOutputSerializer,
     ErrorSerializer
 )
-from .enums import GeoCodingAction
+from .enums import (
+    GeoCodingAction,
+    EmbedUrlType,
+)
 from.exceptions import GMapUnexpectedError, QuotaExceededError
 
 logger = logging.getLogger(__name__)
 
+EMBED_URL_TYPES = (EmbedUrlType.place.value, EmbedUrlType.direction.value)
 
 GMAP_RETRY = Retry(
     total=3,
@@ -39,6 +48,8 @@ API_EXCEPTIONS = (
     googlemaps.exceptions.HTTPError,
     googlemaps.exceptions.ApiError,
 )
+
+BASE_EMBED_URL = "https://www.google.com/maps/embed/v1/"
 
 class GMapViewSet(ViewSet):
     permission_classes = [IsAuthenticated, AppPermission]
@@ -73,6 +84,14 @@ class GMapViewSet(ViewSet):
 
         raise exception_class
 
+    def generate_google_map_link(self, embed_type: EmbedUrlType, **kwargs):
+        if embed_type == EmbedUrlType.place:
+            return f"https://www.google.com/maps/search/?api=1&query={kwargs.get('query')}"
+        elif embed_type == EmbedUrlType.direction:
+            return (
+                f"https://www.google.com/maps/dir/?api=1&origin={kwargs.get('origin')}"
+                f"&destination={kwargs.get('destination')}&travelmode={kwargs.get('mode')}"
+            )
 
     @extend_schema(
         request=LocationSearchInputSerializer,
@@ -155,12 +174,13 @@ class GMapViewSet(ViewSet):
                 
             result = place_details.get('result', {})
             opening_hours = result.get('opening_hours', {})
-                
+
+            location = result.get('geometry', {}).get('location', {})
             detailed_place = {
                 'place_id': place_id,
                 'name': result.get('name'),
                 'address': result.get('formatted_address'),
-                'location': result.get('geometry', {}).get('location', {'lat': 0, 'lng': 0}),
+                'location': location,
                 'rating': result.get('rating'),
                 'user_ratings_total': result.get('user_ratings_total'),
                 'price_level': result.get('price_level'),
@@ -176,7 +196,11 @@ class GMapViewSet(ViewSet):
                         'time': review.get('time', 0)
                     }
                     for review in result.get('reviews', [])[:3]
-                ]
+                ],
+                "url": self.generate_google_map_link(
+                    EmbedUrlType.place,
+                    query=quote(result.get('name', '')),
+                )
             }
             detailed_places.append(detailed_place)
             
@@ -363,6 +387,8 @@ class GMapViewSet(ViewSet):
                         }
                         steps.append(formatted_step)
 
+                overview_polyline = route.get('overview_polyline')
+                overview_polyline.pop('points', None)
                 formatted_route = {
                     'summary': route['summary'],
                     'legs': [{
@@ -373,7 +399,7 @@ class GMapViewSet(ViewSet):
                         'start_location': leg['start_location'],
                         'end_location': leg['end_location']
                     } for leg in route['legs']],
-                    'overview_polyline': route['overview_polyline'],
+                    'overview_polyline': overview_polyline,
                     'warnings': route.get('warnings', []),
                     'waypoint_order': route.get('waypoint_order', []),
                     'steps': steps
@@ -386,6 +412,12 @@ class GMapViewSet(ViewSet):
                 "mode": data['mode'],
                 "directions": directions_result,
                 "distance_matrix": distance_matrix,
+                "url": self.generate_google_map_link(
+                    EmbedUrlType.direction,
+                    origin=quote(data['origins']),
+                    destination=quote(data['destinations']),
+                    mode=data.get('mode')
+                )
             })
 
         output_serializer = DistanceDirectionsOutputSerializer({"results": response_data})

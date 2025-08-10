@@ -5,7 +5,7 @@
     "fields": {
         "name": "Basic",
         "description": "Minimal RPS provided",
-        "rps": 3,
+        "rps": 100,
         "created_at": "2025-08-09T07:48:31.801Z",
         "updated_at": "2025-08-10T09:46:37.775Z"
     }

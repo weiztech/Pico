@@ -93,6 +93,7 @@ class PlaceDetailSerializer(serializers.Serializer):
     )
     is_open_now = serializers.BooleanField(allow_null=True)
     reviews = ReviewSerializer(many=True, required=False)
+    url = serializers.URLField(required=False)
 
 
 class LocationSearchOutputSerializer(serializers.Serializer):
@@ -336,6 +337,7 @@ class DistanceDirectionsSerializer(serializers.Serializer):
     distance_matrix = DistanceMatrixSerializer(required=False)
     mode = serializers.CharField(required=False)
     directions = DirectionRouteSerializer(many=True, required=False)
+    url = serializers.URLField(required=False)
 
 
 class DistanceDirectionsOutputSerializer(serializers.Serializer):

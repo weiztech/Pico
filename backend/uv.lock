@@ -45,6 +45,7 @@ dependencies = [
     { name = "psycopg2-binary" },
     { name = "python-decouple" },
     { name = "redis" },
+    { name = "requests" },
 ]
 
 [package.optional-dependencies]
@@ -71,6 +72,7 @@ requires-dist = [
     { name = "pytest-django", marker = "extra == 'dev'", specifier = ">=4.7.0" },
     { name = "python-decouple", specifier = ">=3.8" },
     { name = "redis", specifier = ">=6.4.0" },
+    { name = "requests", specifier = ">=2.32.4" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.1.0" },
 ]
 provides-extras = ["dev"]
