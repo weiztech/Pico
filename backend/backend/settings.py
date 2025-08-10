@@ -9,7 +9,7 @@ from decouple import config
 # Build paths inside the project
 BASE_DIR = Path(__file__).resolve().parent.parent
 HOST = config('HOST', default='http://localhost:8000')
-REDIS_HOST = config('REDIS_HOST', default='redis')
+REDIS_URL = config('REDIS_URL', default='redis')
 # Security settings
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-me-in-production')
 DEBUG = config('DEBUG', default=True, cast=bool)
