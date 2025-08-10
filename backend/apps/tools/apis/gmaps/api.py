@@ -9,6 +9,8 @@ from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from drf_spectacular.utils import extend_schema
 
+from requests.adapters import HTTPAdapter, Retry
+
 from apps.app.permissions import AppPermission
 
 from .serializers import (
@@ -20,9 +22,18 @@ from .serializers import (
     DistanceDirectionsOutputSerializer,
     ErrorSerializer
 )
+from .enums import GeoCodingAction
+from.exceptions import GMapUnexpectedError, QuotaExceededError
 
 logger = logging.getLogger(__name__)
 
+
+GMAP_RETRY = Retry(
+    total=3,
+    backoff_factor=0.5,
+    status_forcelist=googlemaps.client._RETRIABLE_STATUSES
+)
+GMAP_CUSTOM_ADAPTER = HTTPAdapter(max_retries=GMAP_RETRY)
 
 class GMapViewSet(ViewSet):
     permission_classes = [IsAuthenticated, AppPermission]
@@ -31,7 +42,32 @@ class GMapViewSet(ViewSet):
     
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.gmaps = googlemaps.Client(key=getattr(settings, 'GOOGLE_MAPS_API_KEY', ''))
+        self.gmaps = googlemaps.Client(
+            key=getattr(settings, 'GOOGLE_MAPS_API_KEY', ''),
+            retry_over_query_limit=False,
+        )
+        self.gmaps.session.mount('https://', GMAP_CUSTOM_ADAPTER)
+
+    @staticmethod
+    def raise_on_invalid_map_status(
+        map_status: str,
+        error_message: str | None = None
+    ):
+        if map_status in ("OK", "ZERO_RESULTS"):
+            return
+
+        exception_class = None
+        if "LIMIT" in map_status:
+            exception_class = QuotaExceededError
+        else:
+            exception_class = GMapUnexpectedError
+
+        # Raise exception for send issue to logs with error message
+        if error_message:
+            raise exception_class(error_message)
+
+        raise exception_class
+
 
     @extend_schema(
         request=LocationSearchInputSerializer,
@@ -59,92 +95,88 @@ class GMapViewSet(ViewSet):
                 status=status.HTTP_400_BAD_REQUEST
             )
         
-        try:
-            data = serializer.validated_data
-            
-            # Get location coordinates
-            if data.get('lat') and data.get('lng'):
-                location = {'lat': data['lat'], 'lng': data['lng']}
-            else:
-                location = data['location']
-                # Convert location to lat/lng if it's an address
-                geocode_result = self.gmaps.geocode(location)
-                if not geocode_result:
-                    return Response(
-                        {"error": "Could not geocode the provided location"},
-                        status=status.HTTP_400_BAD_REQUEST
-                    )
-                location = geocode_result[0]['geometry']['location']
 
-            # Search for nearby places
-            places_result = self.gmaps.places_nearby(
-                location=location,
-                radius=data['radius'],
-                type=data.get('type'),
-                keyword=data.get('keyword'),
-                name=data.get('name'),
-                min_price=data.get('min_price'),
-                max_price=data.get('max_price'),
-                open_now=data.get('open_now')
-            )
+        data = serializer.validated_data
             
-            # Get detailed information for each place
-            detailed_places = []
-            for place in places_result.get('results', []):
-                place_id = place['place_id']
-                
-                # Get place details
-                place_details = self.gmaps.place(
-                    place_id=place_id,
-                    fields=[
-                        'name', 'rating', 'formatted_phone_number', 'website',
-                        'opening_hours', 'geometry', 'formatted_address',
-                        'price_level', 'user_ratings_total', 'reviews'
-                    ]
+        # Get location coordinates
+        if data.get('lat') and data.get('lng'):
+            location = {'lat': data['lat'], 'lng': data['lng']}
+        else:
+            location = data['location']
+            # Convert location to lat/lng if it's an address
+            geocode_result = self.gmaps.geocode(location)
+            if not geocode_result:
+                return Response(
+                    {"error": "Could not geocode the provided location"},
+                    status=status.HTTP_400_BAD_REQUEST
                 )
+            location = geocode_result[0]['geometry']['location']
+
+        # Search for nearby places
+        places_result = self.gmaps.places_nearby(
+            location=location,
+            radius=data['radius'],
+            type=data.get('type'),
+            keyword=data.get('keyword'),
+            name=data.get('name'),
+            min_price=data.get('min_price'),
+            max_price=data.get('max_price'),
+            open_now=data.get('open_now')
+        )
+        api_status = places_result.get('status')
+        self.raise_on_invalid_map_status(
+            api_status,
+            f"Error searching for nearby places ({api_status})"
+        )
+            
+        # on OK status, Get detailed information for each place
+        detailed_places = []
+        for place in places_result.get('results', []):
+            place_id = place['place_id']
                 
-                result = place_details.get('result', {})
-                opening_hours = result.get('opening_hours', {})
-                
-                detailed_place = {
-                    'place_id': place_id,
-                    'name': result.get('name'),
-                    'address': result.get('formatted_address'),
-                    'location': result.get('geometry', {}).get('location', {'lat': 0, 'lng': 0}),
-                    'rating': result.get('rating'),
-                    'user_ratings_total': result.get('user_ratings_total'),
-                    'price_level': result.get('price_level'),
-                    'phone_number': result.get('formatted_phone_number'),
-                    'website': result.get('website'),
-                    'opening_hours': opening_hours.get('weekday_text'),
-                    'is_open_now': opening_hours.get('open_now'),
-                    'reviews': [
-                        {
-                            'author_name': review.get('author_name', ''),
-                            'rating': review.get('rating', 0),
-                            'text': review.get('text', ''),
-                            'time': review.get('time', 0)
-                        }
-                        for review in result.get('reviews', [])[:3]
-                    ]
-                }
-                detailed_places.append(detailed_place)
-            
-            response_data = {
-                "status": "success",
-                "places": detailed_places,
-                "next_page_token": places_result.get('next_page_token')
-            }
-            
-            output_serializer = LocationSearchOutputSerializer(response_data)
-            return Response(output_serializer.data)
-            
-        except Exception as e:
-            logger.error(f"Error in location search: {str(e)}")
-            return Response(
-                {"error": "An error occurred while searching for places"}, 
-                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            # Get place details
+            place_details = self.gmaps.place(
+                place_id=place_id,
+                fields=[
+                    'name', 'rating', 'formatted_phone_number', 'website',
+                    'opening_hours', 'geometry', 'formatted_address',
+                    'price_level', 'user_ratings_total', 'reviews'
+                ]
             )
+                
+            result = place_details.get('result', {})
+            opening_hours = result.get('opening_hours', {})
+                
+            detailed_place = {
+                'place_id': place_id,
+                'name': result.get('name'),
+                'address': result.get('formatted_address'),
+                'location': result.get('geometry', {}).get('location', {'lat': 0, 'lng': 0}),
+                'rating': result.get('rating'),
+                'user_ratings_total': result.get('user_ratings_total'),
+                'price_level': result.get('price_level'),
+                'phone_number': result.get('formatted_phone_number'),
+                'website': result.get('website'),
+                'opening_hours': opening_hours.get('weekday_text'),
+                'is_open_now': opening_hours.get('open_now'),
+                'reviews': [
+                    {
+                        'author_name': review.get('author_name', ''),
+                        'rating': review.get('rating', 0),
+                        'text': review.get('text', ''),
+                        'time': review.get('time', 0)
+                    }
+                    for review in result.get('reviews', [])[:3]
+                ]
+            }
+            detailed_places.append(detailed_place)
+            
+        response_data = {
+            "results": detailed_places,
+        }
+
+        output_serializer = LocationSearchOutputSerializer(response_data)
+        return Response(output_serializer.data)
 
     @staticmethod
     def _format_geocoding_result(results: dict):
@@ -196,58 +228,43 @@ class GMapViewSet(ViewSet):
                 {"error": serializer.errors}, 
                 status=status.HTTP_400_BAD_REQUEST
             )
-        
-        try:
-            data = serializer.validated_data
+
+        data = serializer.validated_data
             
-            if data.get('address'):
-                # Geocoding: address to coordinates
-                action_type = "geocoding"
-                map_data = {
-                    "address": data['address'],
-                    "components": data.get('components'),
-                    "bounds": data.get('bounds'),
-                    "region": data.get('region')
-                }
-                map_func = self.gmaps.geocode
-                error_msg = "No results found for the provided address"
-                
-            else:
-                # Reverse geocoding: coordinates to address
-                action_type = "reverse_geocoding"
-                map_data = {
-                    "latlng": (data['lat'], data['lng']),
-                    "result_type": data.get('result_type'),
-                    "location_type": data.get('location_type')
-                }
-                map_func = self.gmaps.reverse_geocode
-                error_msg = "No address found for the provided coordinates"
-
-            map_result = map_func(**map_data)
-            if not map_result:
-                return Response(
-                    {"error": error_msg},
-                    status=status.HTTP_404_NOT_FOUND
-                )
-
-            results = self._format_geocoding_result(map_result)
-            logger.info(f"{action_type} results: {results}")
-            response_data = {
-                "status": "success",
-                "type": action_type,
-                "results": results
+        if data.get('address'):
+            # Geocoding: address to coordinates
+            action_type = GeoCodingAction.GEOCODING
+            map_data = {
+                "address": data['address'],
+                "components": data.get('components'),
+                "bounds": data.get('bounds'),
+                "region": data.get('region')
             }
-            
-            output_serializer = GeocodingOutputSerializer(response_data)
-            return Response(output_serializer.data)
+            map_func = self.gmaps.geocode
                 
-        except Exception as e:
-            raise e
-            logger.error(f"Error in geocoding: {str(e)}")
-            return Response(
-                {"error": "An error occurred during geocoding"}, 
-                status=status.HTTP_500_INTERNAL_SERVER_ERROR
-            )
+        else:
+            # Reverse geocoding: coordinates to address
+            action_type = GeoCodingAction.REVERSE_GEOCODING
+            map_data = {
+                "latlng": (data['lat'], data['lng']),
+                "result_type": data.get('result_type'),
+                "location_type": data.get('location_type')
+            }
+            map_func = self.gmaps.reverse_geocode
+
+        try:
+            map_result = map_func(**map_data)
+        except googlemaps.exceptions.HTTPError as e:
+            map_result = []
+
+        results = self._format_geocoding_result(map_result)
+        response_data = {
+            "type": action_type,
+            "results": results
+        }
+
+        output_serializer = GeocodingOutputSerializer(response_data)
+        return Response(output_serializer.data)
 
     @extend_schema(
         request=DistanceDirectionsInputSerializer,
@@ -278,17 +295,7 @@ class GMapViewSet(ViewSet):
         
         try:
             data = serializer.validated_data
-            # Get distance matrix
-            distance_matrix = self.gmaps.distance_matrix(
-                origins=data['origins'],
-                destinations=data['destinations'],
-                mode=data['mode'],
-                units=data['units'],
-                avoid=data.get('avoid'),
-                departure_time=data.get('departure_time'),
-                arrival_time=data.get('arrival_time'),
-            )
-            
+            distance_matrix = None
             # Get detailed directions origin and destination
             directions_result = self.gmaps.directions(
                 origin=data['origins'],
@@ -304,6 +311,17 @@ class GMapViewSet(ViewSet):
 
             # Format directions for better readability
             if directions_result:
+                # Get distance matrix
+                distance_matrix = self.gmaps.distance_matrix(
+                    origins=data['origins'],
+                    destinations=data['destinations'],
+                    mode=data['mode'],
+                    units=data['units'],
+                    avoid=data.get('avoid'),
+                    departure_time=data.get('departure_time'),
+                    arrival_time=data.get('arrival_time'),
+                )
+
                 formatted_directions = []
                 for route in directions_result:
                     steps = []
@@ -340,14 +358,17 @@ class GMapViewSet(ViewSet):
                 directions_result = formatted_directions
             
             response_data = {
-                "status": "success",
-                "distance_matrix": distance_matrix,
+                "status": "failed",
                 "mode": data['mode']
             }
             
             if directions_result:
-                response_data["directions"] = directions_result
-            
+                response_data.update({
+                    "status": "success",
+                    "directions": directions_result,
+                    "distance_matrix": distance_matrix,
+                })
+
             output_serializer = DistanceDirectionsOutputSerializer(response_data)
             return Response(output_serializer.data)
             

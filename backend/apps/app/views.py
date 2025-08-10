@@ -15,6 +15,7 @@ class AppSchemaView(SpectacularAPIView):
 
     @extend_schema(**SCHEMA_KWARGS)
     def get(self, request, *args, **kwargs):
+        # continue get object
         if isinstance(self.urlconf, list) or isinstance(self.urlconf, tuple):
             ModuleWrapper = namedtuple('ModuleWrapper', ['urlpatterns'])
             if all(isinstance(i, str) for i in self.urlconf):

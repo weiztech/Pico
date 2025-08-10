@@ -1,5 +1,7 @@
 from rest_framework import serializers
-from typing import List, Dict, Any, Optional
+
+
+from .enums import GeoCodingAction
 
 
 class LocationInputSerializer(serializers.Serializer):
@@ -95,9 +97,7 @@ class PlaceDetailSerializer(serializers.Serializer):
 
 class LocationSearchOutputSerializer(serializers.Serializer):
     """Output serializer for location search endpoint"""
-    status = serializers.CharField()
-    places = PlaceDetailSerializer(many=True)
-    next_page_token = serializers.CharField(allow_null=True)
+    results = PlaceDetailSerializer(many=True)
 
 
 class GeocodingInputSerializer(serializers.Serializer):
@@ -193,8 +193,7 @@ class GeocodeResultSerializer(serializers.Serializer):
 
 class GeocodingOutputSerializer(serializers.Serializer):
     """Output serializer for geocoding endpoint"""
-    status = serializers.CharField()
-    type = serializers.ChoiceField(choices=['geocoding', 'reverse_geocoding'])
+    type = serializers.ChoiceField(choices=GeoCodingAction.choices())
     results = GeocodeResultSerializer(many=True)
 
 
@@ -335,7 +334,7 @@ class DirectionRouteSerializer(serializers.Serializer):
 class DistanceDirectionsOutputSerializer(serializers.Serializer):
     """Output serializer for distance and directions endpoint"""
     status = serializers.CharField()
-    distance_matrix = DistanceMatrixSerializer()
+    distance_matrix = DistanceMatrixSerializer(required=False)
     mode = serializers.CharField()
     directions = DirectionRouteSerializer(many=True, required=False)
 

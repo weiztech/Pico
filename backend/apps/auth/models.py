@@ -48,6 +48,11 @@ class Users(AbstractUser):
         """Return full name of the user."""
         return f"{self.first_name} {self.last_name}".strip()
 
+    @property
+    def has_admin_access(self):
+        """Check if the user is a superuser."""
+        return self.is_superuser or self.is_staff
+
 
 class UserProfile(models.Model):
     """Extended user profile information."""
