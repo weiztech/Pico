@@ -1,6 +1,5 @@
 import time
 import redis
-import uuid
 
 from django.conf import settings
 
