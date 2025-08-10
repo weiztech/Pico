@@ -1,0 +1,64 @@
+[
+{
+    "model": "access_app.requestaccesstier",
+    "pk": 2,
+    "fields": {
+        "name": "Basic",
+        "description": "Minimal RPS provided",
+        "rps": 3,
+        "created_at": "2025-08-09T07:48:31.801Z",
+        "updated_at": "2025-08-10T09:46:37.775Z"
+    }
+},
+{
+    "model": "access_app.app",
+    "pk": 7,
+    "fields": {
+        "app_id": "lGAszCLIS86WyxYdqbt0iQ",
+        "user": 1,
+        "token": "35012d1caf474685b3a2a5c2f7cd8b98",
+        "tier": 2,
+        "schema_title": "Lucky API Tools",
+        "schema_name": "",
+        "schema_description": "Lucky API Tools for finding lucky text and numbers",
+        "tools": "[\"lucky_tools\"]",
+        "last_used_at": "2025-08-10T09:47:26.205Z",
+        "created_at": "2025-08-09T07:54:10.339Z",
+        "updated_at": "2025-08-10T08:40:35.597Z"
+    }
+},
+{
+    "model": "access_app.app",
+    "pk": 8,
+    "fields": {
+        "app_id": "CHR0D2qZTwW6JtWPuR6WbQ",
+        "user": 1,
+        "token": "9c30263926024b3f92ad71f87ee6bd13",
+        "tier": 2,
+        "schema_title": "GMAP API TOOLS",
+        "schema_name": "",
+        "schema_description": "Google MAP API TOOLS",
+        "tools": "[\"gmap_tools\"]",
+        "last_used_at": "2025-08-10T08:58:44.344Z",
+        "created_at": "2025-08-09T07:54:16.926Z",
+        "updated_at": "2025-08-10T08:39:08.639Z"
+    }
+},
+{
+    "model": "access_app.app",
+    "pk": 9,
+    "fields": {
+        "app_id": "R016KlOORjqO66HJFWK66A",
+        "user": 1,
+        "token": "ebfc5ccc9af446d7ba7c2c3f4fee896c",
+        "tier": 2,
+        "schema_title": "My Combo ToolBOX",
+        "schema_name": "",
+        "schema_description": "Combo ToolBox contains Google Map API Tools and Lucky Tools",
+        "tools": "[\"gmap_tools\", \"lucky_tools\"]",
+        "last_used_at": "2025-08-10T08:59:25.110Z",
+        "created_at": "2025-08-09T09:15:22.495Z",
+        "updated_at": "2025-08-10T08:39:52.321Z"
+    }
+}
+]

@@ -13,6 +13,7 @@ uv run python manage.py migrate --noinput
 
 echo "load fixtures... for easier to test the app"
 uv run python manage.py loaddata apps/auth/fixtures/users.json
+uv run python manage.py loaddata apps/app/fixtures/access_app.json
 
 echo "Starting Django development server..."
 uv run python manage.py runserver 0.0.0.0:8000
