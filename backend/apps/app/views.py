@@ -7,6 +7,7 @@ from django.utils import translation
 from drf_spectacular.settings import patched_settings
 from drf_spectacular.utils import extend_schema
 from drf_spectacular.views import SCHEMA_KWARGS, SpectacularAPIView
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from .models import App
@@ -15,6 +16,7 @@ from .schema_generators import AppSchemaGenerator
 
 class AppSchemaView(SpectacularAPIView):
     generator_class = AppSchemaGenerator
+    permission_classes = [IsAuthenticated]
 
     def _get_schema_response(self, request, app):
         # version specified as parameter to the view always takes precedence. after
@@ -37,7 +39,14 @@ class AppSchemaView(SpectacularAPIView):
 
     @extend_schema(**SCHEMA_KWARGS)
     def get(self, request, app_id, *args, **kwargs):
-        app = get_object_or_404(App, app_id=app_id)
+        access_app = getattr(request, "access_app", None)
+        query = {"app_id": app_id}
+
+        # validate token on using app authentication
+        if access_app:
+            query["token"] = access_app.token
+
+        app = get_object_or_404(App, **query)
 
         # continue get object
         if isinstance(self.urlconf, list) or isinstance(self.urlconf, tuple):

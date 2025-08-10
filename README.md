@@ -138,8 +138,6 @@ Tool endpoints are available under `/api/tools/`. Access is granted based on the
 
 ## Development
 
-## Development
-
 #### Login
 
 To access the admin panel at `/admin`, use the following credentials:
@@ -163,4 +161,8 @@ uv run --active ruff format backend && ruff check backend
 
 ### Short Video Preview
 
+ensure to check the short video preview on `assets` folder
+
 [![Short Video Preview](assets/tools.png)](assets/output.mp4)
+
+
