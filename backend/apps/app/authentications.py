@@ -25,7 +25,7 @@ class AppTokenAuthentication(TokenAuthentication):
         credentials = super().authenticate(request)
         if credentials:
             request.access_app = credentials[1]
-            print("RATE LIMIT", request.access_app.is_request_rate_limit())
+            print("AUTHENTICATED", credentials)
             if request.access_app.is_request_rate_limit():
                 raise exceptions.Throttled()
         return credentials
