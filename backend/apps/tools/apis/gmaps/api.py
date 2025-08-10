@@ -35,6 +35,11 @@ GMAP_RETRY = Retry(
 )
 GMAP_CUSTOM_ADAPTER = HTTPAdapter(max_retries=GMAP_RETRY)
 
+API_EXCEPTIONS = (
+    googlemaps.exceptions.HTTPError,
+    googlemaps.exceptions.ApiError,
+)
+
 class GMapViewSet(ViewSet):
     permission_classes = [IsAuthenticated, AppPermission]
     url_prefix = 'gmaps'
@@ -124,7 +129,7 @@ class GMapViewSet(ViewSet):
                 max_price=data.get('max_price'),
                 open_now=data.get('open_now')
             )
-        except (googlemaps.exceptions.HTTPError, googlemaps.exceptions.ApiError):
+        except API_EXCEPTIONS:
             places_result = {}
 
         api_status = places_result.get('status')
@@ -258,10 +263,7 @@ class GMapViewSet(ViewSet):
 
         try:
             map_result = map_func(**map_data)
-        except (
-            googlemaps.exceptions.HTTPError,
-            googlemaps.exceptions.ApiError
-        ):
+        except API_EXCEPTIONS:
             map_result = []
 
         results = self._format_geocoding_result(map_result)
@@ -316,10 +318,7 @@ class GMapViewSet(ViewSet):
                 arrival_time=data.get('arrival_time'),
                 alternatives=data['alternatives'],
             )
-        except (
-            googlemaps.exceptions.HTTPError,
-            googlemaps.exceptions.ApiError
-        ):
+        except API_EXCEPTIONS:
             directions_result = []
 
         response_data = {}
@@ -345,9 +344,7 @@ class GMapViewSet(ViewSet):
                 if isinstance(e, GMapUnexpectedError):
                     logger.error(f"Distance matrix failed unexpectedly ({distance_matrix['status']})")
 
-                distance_matrix = None
-
-            if distance_matrix.get("status") == "ZERO_RESULTS":
+            if distance_matrix.get("status") != "OK":
                 distance_matrix = None
 
             formatted_directions = []
