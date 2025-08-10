@@ -1,4 +1,3 @@
-import random
 import time
 
 from django.conf import settings
@@ -12,23 +11,20 @@ lua_script_micro = """
 -- ARGV[1] = current timestamp (microseconds)
 -- ARGV[2] = window size (microseconds)
 -- ARGV[3] = max allowed requests
--- ARGV[4] = nonce
 
 local key = KEYS[1]
 local now = tonumber(ARGV[1])
 local window = tonumber(ARGV[2])
 local max_requests = tonumber(ARGV[3])
-local nonce = ARGV[4]
 
 -- Calculate window start time
 local window_start = now - window
 
--- Remove old entries
+-- Remove old entries and count in one atomic operation
 redis.call("ZREMRANGEBYSCORE", key, "-inf", window_start)
 
--- Add current request with a unique member to handle requests at the same microsecond
-local member = ARGV[1] .. "-" .. nonce
-redis.call("ZADD", key, now, member)
+-- Add current request first (optimistic approach)
+redis.call("ZADD", key, now, now)
 
 -- Count current requests in the window
 local count = redis.call("ZCARD", key)
@@ -36,7 +32,7 @@ local count = redis.call("ZCARD", key)
 -- Check if we've exceeded the limit after adding
 if count > max_requests then
     -- Remove the request we just added
-    redis.call("ZREM", key, member)
+    redis.call("ZREM", key, now)
     -- Set expiration for cleanup
     redis.call("PEXPIRE", key, math.ceil(window / 1000) + 100)
     return 0
@@ -49,7 +45,6 @@ return 1
 """
 
 rate_limiter_micro = redis.register_script(lua_script_micro)
-
 
 def allow_request(api_key: str, max_rps: int) -> bool:
     """
@@ -64,8 +59,6 @@ def allow_request(api_key: str, max_rps: int) -> bool:
     """
     now_us = int(time.time() * 1_000_000)
     key = f"rps:{api_key}"
-    nonce = random.randint(0, 100_000_000)
 
-    allowed = rate_limiter_micro(keys=[key], args=[now_us, WINDOW_US, max_rps, nonce])
-    print("ALLOWED", allowed, type(allowed))
+    allowed = rate_limiter_micro(keys=[key], args=[now_us, WINDOW_US, max_rps])
     return allowed == 1

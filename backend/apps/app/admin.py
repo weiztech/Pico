@@ -16,7 +16,7 @@ class RequestAccessTierAdmin(admin.ModelAdmin):
 class AppAdmin(admin.ModelAdmin):
     """Admin configuration for App model."""
     form = AppAdminForm
-    list_display = ('app_id', 'user', 'tier', 'tools', 'last_used_at', 'created_at', 'updated_at')
+    list_display = ('app_id', 'user', 'tier', 'schema_title', 'tools', 'last_used_at', 'updated_at')
     search_fields = ('app_id', 'user__email')
     list_filter = ('created_at', 'tier')
 
