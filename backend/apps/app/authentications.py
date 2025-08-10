@@ -20,13 +20,16 @@ class AppTokenAuthentication(TokenAuthentication):
     """
     
     keyword = 'Bearer'
+    api_schema_prefix = "/api/app/schema"
 
     def authenticate(self, request):
         credentials = super().authenticate(request)
         if credentials:
             request.access_app = credentials[1]
-            print("AUTHENTICATED", credentials)
-            if request.access_app.is_request_rate_limit():
+            if (
+                request.access_app.is_request_rate_limit() and
+                not request.path.startswith(self.api_schema_prefix)
+            ):
                 raise exceptions.Throttled()
         return credentials
 

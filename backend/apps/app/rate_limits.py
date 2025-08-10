@@ -1,3 +1,4 @@
+import random
 import time
 
 from django.conf import settings
@@ -11,35 +12,37 @@ lua_script_micro = """
 -- ARGV[1] = current timestamp (microseconds)
 -- ARGV[2] = window size (microseconds)
 -- ARGV[3] = max allowed requests
+-- ARGV[4] = nonce
 
 local key = KEYS[1]
 local now = tonumber(ARGV[1])
 local window = tonumber(ARGV[2])
 local max_requests = tonumber(ARGV[3])
+local nonce = ARGV[4]
 
 -- Calculate window start time
 local window_start = now - window
 
--- Remove old entries outside the current window
+-- Remove old entries
 redis.call("ZREMRANGEBYSCORE", key, "-inf", window_start)
+
+-- Add current request with a unique member to handle requests at the same microsecond
+local member = ARGV[1] .. "-" .. nonce
+redis.call("ZADD", key, now, member)
 
 -- Count current requests in the window
 local count = redis.call("ZCARD", key)
 
--- Check if we've exceeded the limit
-if count >= max_requests then
-    -- Set a shorter expiration for throttled keys to ensure cleanup
+-- Check if we've exceeded the limit after adding
+if count > max_requests then
+    -- Remove the request we just added
+    redis.call("ZREM", key, member)
+    -- Set expiration for cleanup
     redis.call("PEXPIRE", key, math.ceil(window / 1000) + 100)
     return 0
 end
 
--- Generate a unique member to avoid collisions
-local unique_member = now .. ":" .. math.random(1000000, 9999999)
-
--- Add current request
-redis.call("ZADD", key, now, unique_member)
-
--- Set expiration with some buffer time
+-- Set expiration with buffer time
 redis.call("PEXPIRE", key, math.ceil(window / 1000) + 1000)
 
 return 1
@@ -47,19 +50,22 @@ return 1
 
 rate_limiter_micro = redis.register_script(lua_script_micro)
 
+
 def allow_request(api_key: str, max_rps: int) -> bool:
     """
     Check if a request should be allowed based on rate limiting.
-    
+
     Args:
         api_key: The API key to rate limit
         max_rps: Maximum requests per second allowed
-        
+
     Returns:
         bool: True if request is allowed, False if rate limited
     """
     now_us = int(time.time() * 1_000_000)
     key = f"rps:{api_key}"
+    nonce = random.randint(0, 100_000_000)
 
-    allowed = rate_limiter_micro(keys=[key], args=[now_us, WINDOW_US, max_rps])
+    allowed = rate_limiter_micro(keys=[key], args=[now_us, WINDOW_US, max_rps, nonce])
+    print("ALLOWED", allowed, type(allowed))
     return allowed == 1

@@ -79,7 +79,7 @@ class App(models.Model):
     def is_request_rate_limit(self):
         from .rate_limits import allow_request
 
-        return allow_request(
+        return not allow_request(
             self.app_id,
             self.tier.rps,
         )
