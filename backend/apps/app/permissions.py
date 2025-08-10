@@ -11,7 +11,7 @@ class AppPermission(BasePermission):
         """
         Check if the app has permission to access the tool.
         """
-        app = getattr(request, 'access_app', None)
+        app = getattr(request, "access_app", None)
 
         # admin site user always allow access for easier testing purpose
         if request.user and request.user.has_admin_access and not app:
@@ -20,7 +20,7 @@ class AppPermission(BasePermission):
         if not app:
             return False
 
-        api_basename = getattr(view, 'api_basename', None)
+        api_basename = getattr(view, "api_basename", None)
         if not api_basename:
             return False
 

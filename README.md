@@ -2,7 +2,6 @@
 
 Pico-Tools is a powerful Django-based backend designed to serve and manage various tools through a flexible API. It allows users to create custom "Apps", each with its own authentication token and a curated set of tools. The backend dynamically generates an OpenAPI schema for each App, exposing only the selected tools.
 
-This project was formerly known as "Backend Django Project" with "MCP (Model Control Protocol) tools management".
 
 ## Features
 
@@ -153,12 +152,15 @@ To access the admin panel at `/admin`, use the following credentials:
 This project uses `ruff` for linting and formatting.
 
 ```bash
-# Run linting
-ruff check .
+# Install ruff  using pip if not already installed, using uv should already installed following above command
 
-# Auto-fix issues
-ruff check --fix .
+# Run linting (pip)
+ruff format backend && ruff check backend
 
-# Format code
-ruff format .
+# Run linting (uv)
+uv run --active ruff format backend && ruff check backend
 ```
+
+### Short Video Preview
+
+[![Short Video Preview](assets/tools.png)](assets/demo.mov)

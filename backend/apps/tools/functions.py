@@ -15,7 +15,4 @@ def get_tool_choices():
 def get_tool_prefix_map():
     from apps.tools.apis import TOOLS_APIS
 
-    return {
-        tool.api_basename: tool.url_prefix
-        for tool in TOOLS_APIS
-    }
+    return {tool.api_basename: tool.url_prefix for tool in TOOLS_APIS}

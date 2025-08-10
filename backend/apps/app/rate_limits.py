@@ -46,6 +46,7 @@ return 1
 
 rate_limiter_micro = redis.register_script(lua_script_micro)
 
+
 def allow_request(api_key: str, max_rps: int) -> bool:
     """
     Check if a request should be allowed based on rate limiting.

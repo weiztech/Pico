@@ -7,7 +7,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -16,34 +15,96 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='RequestAccessTier',
+            name="RequestAccessTier",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=100)),
-                ('description', models.TextField()),
-                ('rps', models.IntegerField(default=100)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('updated_at', models.DateTimeField(auto_now=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=100)),
+                ("description", models.TextField()),
+                ("rps", models.IntegerField(default=100)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("updated_at", models.DateTimeField(auto_now=True)),
             ],
         ),
         migrations.CreateModel(
-            name='App',
+            name="App",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('app_id', models.CharField(max_length=100)),
-                ('token', models.CharField(max_length=100, unique=True)),
-                ('schema_title', models.CharField(blank=True, help_text='Title of the API Schema.', max_length=100)),
-                ('schema_name', models.CharField(blank=True, help_text='Description for API Schema.', max_length=100)),
-                ('schema_description', models.TextField(blank=True)),
-                ('tools', django.contrib.postgres.fields.ArrayField(base_field=models.CharField(choices=[('gmap_tools', 'GMAP_TOOLS'), ('lucky_tools', 'LUCKY_TOOLS')], max_length=50), blank=True, default=list, help_text='Select the tools to be use for the app.', size=None)),
-                ('last_used_at', models.DateTimeField(null=True)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('updated_at', models.DateTimeField(auto_now=True)),
-                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='apps', to=settings.AUTH_USER_MODEL)),
-                ('tier', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='access_app.requestaccesstier')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("app_id", models.CharField(max_length=100)),
+                ("token", models.CharField(max_length=100, unique=True)),
+                (
+                    "schema_title",
+                    models.CharField(
+                        blank=True, help_text="Title of the API Schema.", max_length=100
+                    ),
+                ),
+                (
+                    "schema_name",
+                    models.CharField(
+                        blank=True,
+                        help_text="Description for API Schema.",
+                        max_length=100,
+                    ),
+                ),
+                ("schema_description", models.TextField(blank=True)),
+                (
+                    "tools",
+                    django.contrib.postgres.fields.ArrayField(
+                        base_field=models.CharField(
+                            choices=[
+                                ("gmap_tools", "GMAP_TOOLS"),
+                                ("lucky_tools", "LUCKY_TOOLS"),
+                            ],
+                            max_length=50,
+                        ),
+                        blank=True,
+                        default=list,
+                        help_text="Select the tools to be use for the app.",
+                        size=None,
+                    ),
+                ),
+                ("last_used_at", models.DateTimeField(null=True)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("updated_at", models.DateTimeField(auto_now=True)),
+                (
+                    "user",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="apps",
+                        to=settings.AUTH_USER_MODEL,
+                    ),
+                ),
+                (
+                    "tier",
+                    models.ForeignKey(
+                        blank=True,
+                        null=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="access_app.requestaccesstier",
+                    ),
+                ),
             ],
             options={
-                'constraints': [models.UniqueConstraint(fields=('app_id', 'user'), name='unique_app_id_per_user')],
+                "constraints": [
+                    models.UniqueConstraint(
+                        fields=("app_id", "user"), name="unique_app_id_per_user"
+                    )
+                ],
             },
         ),
     ]

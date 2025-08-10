@@ -1,17 +1,16 @@
+from drf_spectacular.generators import EndpointEnumerator
 from drf_spectacular.plumbing import alpha_operation_sorter
 from drf_spectacular.settings import spectacular_settings
-from drf_spectacular.generators import  EndpointEnumerator
 
 from apps.tools.constants import API_TOOLS_URL_PREFIX
 
 
 class CustomEndpointEnumerator(EndpointEnumerator):
-
     def __init__(self, patterns, urlconf, app):
         super().__init__(patterns, urlconf)
         self.app = app
 
-    def get_api_endpoints(self, patterns=None, prefix=''):
+    def get_api_endpoints(self, patterns=None, prefix=""):
         raw_api_endpoints = self._get_api_endpoints(patterns, prefix)
         # filter tools endpoints
         api_endpoints = []
@@ -30,7 +29,12 @@ class CustomEndpointEnumerator(EndpointEnumerator):
         api_endpoints_deduplicated = {}
         for path, path_regex, method, callback in api_endpoints:
             if (path, method) not in api_endpoints_deduplicated:
-                api_endpoints_deduplicated[path, method] = (path, path_regex, method, callback)
+                api_endpoints_deduplicated[path, method] = (
+                    path,
+                    path_regex,
+                    method,
+                    callback,
+                )
 
         api_endpoints = list(api_endpoints_deduplicated.values())
 
@@ -40,6 +44,7 @@ class CustomEndpointEnumerator(EndpointEnumerator):
             return sorted(api_endpoints, key=alpha_operation_sorter)
         else:
             return api_endpoints
+
 
 class AppSchemaGenerator(spectacular_settings.DEFAULT_GENERATOR_CLASS):
     endpoint_inspector_cls = CustomEndpointEnumerator
@@ -53,7 +58,9 @@ class AppSchemaGenerator(spectacular_settings.DEFAULT_GENERATOR_CLASS):
 
     def _initialise_endpoints(self):
         if self.endpoints is None:
-            self.inspector = self.endpoint_inspector_cls(self.patterns, self.urlconf, app=self.app)
+            self.inspector = self.endpoint_inspector_cls(
+                self.patterns, self.urlconf, app=self.app
+            )
             self.endpoints = self.inspector.get_api_endpoints()
 
     def get_schema(self, request=None, public=False):
