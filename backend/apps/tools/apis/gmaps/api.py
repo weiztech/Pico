@@ -51,9 +51,9 @@ class GMapViewSet(ViewSet):
     @staticmethod
     def raise_on_invalid_map_status(
         map_status: str,
-        error_message: str | None = None
+        error_message: str | None = None,
     ):
-        if map_status in ("OK", "ZERO_RESULTS"):
+        if not map_status or map_status in ("OK", "ZERO_RESULTS"):
             return
 
         exception_class = None
@@ -113,16 +113,20 @@ class GMapViewSet(ViewSet):
             location = geocode_result[0]['geometry']['location']
 
         # Search for nearby places
-        places_result = self.gmaps.places_nearby(
-            location=location,
-            radius=data['radius'],
-            type=data.get('type'),
-            keyword=data.get('keyword'),
-            name=data.get('name'),
-            min_price=data.get('min_price'),
-            max_price=data.get('max_price'),
-            open_now=data.get('open_now')
-        )
+        try:
+            places_result = self.gmaps.places_nearby(
+                location=location,
+                radius=data['radius'],
+                type=data.get('type'),
+                keyword=data.get('keyword'),
+                name=data.get('name'),
+                min_price=data.get('min_price'),
+                max_price=data.get('max_price'),
+                open_now=data.get('open_now')
+            )
+        except (googlemaps.exceptions.HTTPError, googlemaps.exceptions.ApiError):
+            places_result = {}
+
         api_status = places_result.get('status')
         self.raise_on_invalid_map_status(
             api_status,
@@ -254,7 +258,10 @@ class GMapViewSet(ViewSet):
 
         try:
             map_result = map_func(**map_data)
-        except googlemaps.exceptions.HTTPError as e:
+        except (
+            googlemaps.exceptions.HTTPError,
+            googlemaps.exceptions.ApiError
+        ):
             map_result = []
 
         results = self._format_geocoding_result(map_result)
@@ -293,10 +300,11 @@ class GMapViewSet(ViewSet):
                 status=status.HTTP_400_BAD_REQUEST
             )
         
+
+        data = serializer.validated_data
+        distance_matrix = None
+        # Get detailed directions origin and destination
         try:
-            data = serializer.validated_data
-            distance_matrix = None
-            # Get detailed directions origin and destination
             directions_result = self.gmaps.directions(
                 origin=data['origins'],
                 destination=data['destinations'],
@@ -308,73 +316,80 @@ class GMapViewSet(ViewSet):
                 arrival_time=data.get('arrival_time'),
                 alternatives=data['alternatives'],
             )
+        except (
+            googlemaps.exceptions.HTTPError,
+            googlemaps.exceptions.ApiError
+        ):
+            directions_result = []
 
-            # Format directions for better readability
-            if directions_result:
-                # Get distance matrix
-                distance_matrix = self.gmaps.distance_matrix(
-                    origins=data['origins'],
-                    destinations=data['destinations'],
-                    mode=data['mode'],
-                    units=data['units'],
-                    avoid=data.get('avoid'),
-                    departure_time=data.get('departure_time'),
-                    arrival_time=data.get('arrival_time'),
-                )
-
-                formatted_directions = []
-                for route in directions_result:
-                    steps = []
-                    for leg in route['legs']:
-                        for step in leg['steps']:
-                            formatted_step = {
-                                'instruction': step['html_instructions'],
-                                'distance': step['distance'],
-                                'duration': step['duration'],
-                                'start_location': step['start_location'],
-                                'end_location': step['end_location'],
-                                'maneuver': step.get('maneuver'),
-                                'travel_mode': step['travel_mode']
-                            }
-                            steps.append(formatted_step)
-
-                    formatted_route = {
-                        'summary': route['summary'],
-                        'legs': [{
-                            'distance': leg['distance'],
-                            'duration': leg['duration'],
-                            'start_address': leg['start_address'],
-                            'end_address': leg['end_address'],
-                            'start_location': leg['start_location'],
-                            'end_location': leg['end_location']
-                        } for leg in route['legs']],
-                        'overview_polyline': route['overview_polyline'],
-                        'warnings': route.get('warnings', []),
-                        'waypoint_order': route.get('waypoint_order', []),
-                        'steps': steps
-                    }
-                    formatted_directions.append(formatted_route)
-
-                directions_result = formatted_directions
-            
-            response_data = {
-                "status": "failed",
-                "mode": data['mode']
-            }
-            
-            if directions_result:
-                response_data.update({
-                    "status": "success",
-                    "directions": directions_result,
-                    "distance_matrix": distance_matrix,
-                })
-
-            output_serializer = DistanceDirectionsOutputSerializer(response_data)
-            return Response(output_serializer.data)
-            
-        except Exception as e:
-            logger.error(f"Error in distance and directions: {str(e)}")
-            return Response(
-                {"error": "An error occurred while calculating distances and directions"}, 
-                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+        response_data = {}
+        # Format directions for better readability
+        if directions_result:
+            # Get distance matrix
+            distance_matrix = self.gmaps.distance_matrix(
+                origins=data['origins'],
+                destinations=data['destinations'],
+                mode=data['mode'],
+                units=data['units'],
+                avoid=data.get('avoid'),
+                departure_time=data.get('departure_time'),
+                arrival_time=data.get('arrival_time'),
             )
+            # on directions exists and failed distance matrix, only log error message
+            try:
+                self.raise_on_invalid_map_status(
+                    distance_matrix['status'],
+                    f"Error calculating distance matrix ({distance_matrix['status']})"
+                )
+            except (QuotaExceededError, GMapUnexpectedError) as e:
+                if isinstance(e, GMapUnexpectedError):
+                    logger.error(f"Distance matrix failed unexpectedly ({distance_matrix['status']})")
+
+                distance_matrix = None
+
+            if distance_matrix.get("status") == "ZERO_RESULTS":
+                distance_matrix = None
+
+            formatted_directions = []
+            for route in directions_result:
+                steps = []
+                for leg in route['legs']:
+                    for step in leg['steps']:
+                        formatted_step = {
+                            'instruction': step['html_instructions'],
+                            'distance': step['distance'],
+                            'duration': step['duration'],
+                            'start_location': step['start_location'],
+                            'end_location': step['end_location'],
+                            'maneuver': step.get('maneuver'),
+                            'travel_mode': step['travel_mode']
+                        }
+                        steps.append(formatted_step)
+
+                formatted_route = {
+                    'summary': route['summary'],
+                    'legs': [{
+                        'distance': leg['distance'],
+                        'duration': leg['duration'],
+                        'start_address': leg['start_address'],
+                        'end_address': leg['end_address'],
+                        'start_location': leg['start_location'],
+                        'end_location': leg['end_location']
+                    } for leg in route['legs']],
+                    'overview_polyline': route['overview_polyline'],
+                    'warnings': route.get('warnings', []),
+                    'waypoint_order': route.get('waypoint_order', []),
+                    'steps': steps
+                }
+                formatted_directions.append(formatted_route)
+
+            directions_result = formatted_directions
+            
+            response_data.update({
+                "mode": data['mode'],
+                "directions": directions_result,
+                "distance_matrix": distance_matrix,
+            })
+
+        output_serializer = DistanceDirectionsOutputSerializer({"results": response_data})
+        return Response(output_serializer.data)

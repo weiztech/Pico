@@ -37,7 +37,7 @@ class LuckyViewSet(ViewSet):
         responses=inline_serializer(
             name='LuckyTextResponse',
             fields={
-                'text': serializers.CharField(help_text="A lucky text for the day")
+                'lucky_text': serializers.CharField(help_text="A lucky text for the day")
             }
         ),
         tags=['Lucky Tools']
@@ -51,6 +51,6 @@ class LuckyViewSet(ViewSet):
         """
         texts = ["I'm feeling lucky!", "I feel Great!"]
         lucky_text = random.choice(texts)
-        return Response({'text': lucky_text}, status=status.HTTP_200_OK)
+        return Response({'lucky_text': lucky_text}, status=status.HTTP_200_OK)
 
 

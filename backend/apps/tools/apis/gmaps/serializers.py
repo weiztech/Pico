@@ -331,12 +331,16 @@ class DirectionRouteSerializer(serializers.Serializer):
     steps = DirectionStepSerializer(many=True)
 
 
+class DistanceDirectionsSerializer(serializers.Serializer):
+    """Output serializer for directions endpoint"""
+    distance_matrix = DistanceMatrixSerializer(required=False)
+    mode = serializers.CharField(required=False)
+    directions = DirectionRouteSerializer(many=True, required=False)
+
+
 class DistanceDirectionsOutputSerializer(serializers.Serializer):
     """Output serializer for distance and directions endpoint"""
-    status = serializers.CharField()
-    distance_matrix = DistanceMatrixSerializer(required=False)
-    mode = serializers.CharField()
-    directions = DirectionRouteSerializer(many=True, required=False)
+    results = DistanceDirectionsSerializer(required=False)
 
 
 class ErrorSerializer(serializers.Serializer):
