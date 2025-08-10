@@ -163,4 +163,4 @@ uv run --active ruff format backend && ruff check backend
 
 ### Short Video Preview
 
-[![Short Video Preview](assets/tools.png)](assets/demo.mov)
+[![Short Video Preview](assets/tools.png)](assets/output.mp4)
