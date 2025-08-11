@@ -61,11 +61,7 @@ Tool endpoints are available under `/api/tools/`. Access is granted based on the
 
 ### `tools` app
 
-*(Note: The model definitions for the `tools` app were not provided in the context, but serializers and other files suggest their existence.)*
-
--   **ToolCategory**: For organizing tools into categories.
--   **Tool**: Represents an available tool in the system.
--   **UserTool**: A user's specific configuration for a tool (not currently used by the API tools, but part of the original design).
+This app contains the implementation of the tools themselves and does not have any database models. The available tools are registered as API views.
 
 ## Quick Start
 
