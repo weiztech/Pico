@@ -1,0 +1,63 @@
+.content-inner-column {
+    padding: 10px;
+    border: 1px solid #E7ECF5;
+    box-shadow: 0px 1px 4px rgba(19, 42, 87, 0.08);
+    border-radius: 8px;
+    width: 50%;
+}
+
+.content-inner-column .search-form {
+    width: 100%;
+}
+
+.content-inner-column .devices-list  {
+    max-height: 250px;
+}
+
+.interval-select-wrapper .custom-options {
+    position: static;
+    margin-top: 5px;
+}
+
+.tooltip .tooltiptext {
+    max-width: max-content;
+}
+
+.form-content {
+    overflow-x: visible;
+}
+
+input[type="search"] {
+    width: 300px;
+}
+
+.similar-competitors-section input[type="search"] {
+    width: 100%;
+}
+
+.project-icon {
+    width: max-content;
+    padding: 0px;
+}
+
+.project-icon img{
+    width: 36px;
+    height: 40px;
+    min-height: auto;
+}
+
+.additional-devices-search {
+    width: 100%;
+}
+
+.similar-competitors-section {
+    align-items: start;
+}
+
+.no-reviews-alert {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 20px;
+    display: block;
+}

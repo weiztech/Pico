@@ -1,0 +1,218 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=vitom+and+ICG&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 33230583
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210525
+LR  - 20210525
+IS  - 1432-1335 (Electronic)
+IS  - 0171-5216 (Linking)
+VI  - 147
+IP  - 6
+DP  - 2021 Jun
+TI  - Sentinel lymph node detection by means of indocyanine green using the Karl Storz 
+      VITOM((R)) fluorescence camera: a comparison between primary sentinel lymph node 
+      biopsy versus sentinel lymph node biopsy after neoadjuvant chemotherapy.
+PG  - 1813-1823
+LID - 10.1007/s00432-020-03461-x [doi]
+AB  - PURPOSE: The usage of radioactive Technetium(99m) (Tc(99m)) colloid for the
+      purpose of sentinel lymph node biopsy (SLNB) in early breast cancer is considered
+      the gold standard in Germany. However, new tracers, such as near-infrared (NIR)
+      imaging agents like indocyanine green (ICG) could offer an alternative in future,
+      as they overcome drawbacks associated with radioactive Technetium(99m) (Tc(99m)) 
+      like limited availability, high costs and radioactivity exposure for both
+      patients and surgeons. METHODS: In this double-arm retrospective study, we sought
+      to establish the usefulness of indocyanine green as an alternative or an addition
+      to the conventional Technetium(99m) (Tc(99m)) in the identification of the SLN in
+      early breast cancer. RESULTS: Among the 161 patients who underwent primary SLNB, 
+      34 patients had at least 1 SLN with metastasis. Among these patients with SLN
+      metastasis, 33 had the SLN detected by ICG; while 31 had the SLN detected by
+      Tc(99m). The conventional Technetium(99m) radiotracer failed to detect 2 patients
+      with metastasis in this Arm of the study. Among the 87 patients who underwent
+      SLNB after NACT, 13 patients had at least 1 SLN with metastasis. Among these 13
+      patients with SLN metastasis, ICG and Tc(99m) had detected the SLN among 12
+      patients, while 1 patient had been detected by ICG alone. CONCLUSIONS: Our
+      results show that ICG is as effective as the radioisotope for SLNB even among
+      patients who have undergone NACT. This trial is registered with the German
+      Clinical Trial Register, ID: DRKS00013606.
+FAU - Staubach, Petronilla
+AU  - Staubach P
+AD  - Department of Obstetrics and Gynecology, St. Marien Hospital, Amberg, Germany.
+      petronillastaubach@gmx.de.
+FAU - Scharl, Anton
+AU  - Scharl A
+AD  - Department of Obstetrics and Gynecology, St. Marien Hospital, Amberg, Germany.
+FAU - Ignatov, Atanas
+AU  - Ignatov A
+AD  - Department of Obstetrics and Gynecology, University Hospital Regensburg,
+      Landshuter Str. 65, 93053, Regensburg, Germany.
+FAU - Ortmann, Olaf
+AU  - Ortmann O
+AD  - Department of Obstetrics and Gynecology, University Hospital Regensburg,
+      Landshuter Str. 65, 93053, Regensburg, Germany.
+FAU - Inwald, Elisabeth C
+AU  - Inwald EC
+AD  - Department of Obstetrics and Gynecology, University Hospital Regensburg,
+      Landshuter Str. 65, 93053, Regensburg, Germany.
+FAU - Hildebrandt, Thomas
+AU  - Hildebrandt T
+AD  - Department of Obstetrics and Gynecology, University Hospital Erlangen-Nuremberg, 
+      Maximilianspl. 2, 91054, Erlangen, Germany.
+FAU - Gerken, Michael
+AU  - Gerken M
+AD  - Tumor Center of the University of Regensburg, Institute for Quality Assurance and
+      Health Services Research, Regensburg, Germany.
+FAU - Klinkhammer-Schalke, Monika
+AU  - Klinkhammer-Schalke M
+AD  - Tumor Center of the University of Regensburg, Institute for Quality Assurance and
+      Health Services Research, Regensburg, Germany.
+FAU - Scharl, Sophia
+AU  - Scharl S
+AD  - Department of Radiooncology and Radiotherapy, Technical University Hospital
+      Munich, Ismaninger Str. 22, 81675, Munich, Germany.
+FAU - Papathemelis, Thomas
+AU  - Papathemelis T
+AUID- ORCID: http://orcid.org/0000-0003-1805-2610
+AD  - Department of Obstetrics and Gynecology, St. Marien Hospital, Amberg, Germany.
+LA  - eng
+SI  - DRKS/DRKS00013606
+PT  - Comparative Study
+PT  - Evaluation Study
+PT  - Journal Article
+DEP - 20201123
+PL  - Germany
+TA  - J Cancer Res Clin Oncol
+JT  - Journal of cancer research and clinical oncology
+JID - 7902060
+RN  - 0 (Coloring Agents)
+RN  - 7440-26-8 (Technetium)
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Antineoplastic Combined Chemotherapy Protocols/*pharmacology/therapeutic use
+MH  - Breast Neoplasms/drug therapy/*pathology
+MH  - Coloring Agents/analysis/pharmacokinetics
+MH  - Diagnostic Imaging/instrumentation/methods
+MH  - Female
+MH  - Fluorescence
+MH  - Humans
+MH  - Indocyanine Green/analysis/pharmacokinetics
+MH  - Lymphatic Metastasis
+MH  - Middle Aged
+MH  - Neoadjuvant Therapy
+MH  - Optical Imaging/instrumentation/methods
+MH  - Predictive Value of Tests
+MH  - Retrospective Studies
+MH  - Sentinel Lymph Node/*diagnostic imaging/*drug effects/metabolism/pathology
+MH  - *Sentinel Lymph Node Biopsy/instrumentation/methods
+MH  - Technetium/analysis/pharmacokinetics
+OTO - NOTNLM
+OT  - Breast cancer
+OT  - Indocyanine green
+OT  - Neoadjuvant therapy
+OT  - Sentinel biopsy
+EDAT- 2020/11/25 06:00
+MHDA- 2021/05/26 06:00
+CRDT- 2020/11/24 06:05
+PHST- 2020/09/29 00:00 [received]
+PHST- 2020/11/06 00:00 [accepted]
+PHST- 2020/11/25 06:00 [pubmed]
+PHST- 2021/05/26 06:00 [medline]
+PHST- 2020/11/24 06:05 [entrez]
+AID - 10.1007/s00432-020-03461-x [doi]
+AID - 10.1007/s00432-020-03461-x [pii]
+PST - ppublish
+SO  - J Cancer Res Clin Oncol. 2021 Jun;147(6):1813-1823. doi:
+      10.1007/s00432-020-03461-x. Epub 2020 Nov 23.
+
+PMID- 29780827
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180926
+LR  - 20181114
+IS  - 2314-6141 (Electronic)
+VI  - 2018
+DP  - 2018
+TI  - Sentinel Lymph Node Biopsy in Breast Cancer Patients by Means of Indocyanine
+      Green Using the Karl Storz VITOM(R) Fluorescence Camera.
+PG  - 6251468
+LID - 10.1155/2018/6251468 [doi]
+AB  - Currently, the use of radioisotope and blue dye for sentinel lymph node biopsy
+      (SLNB) for axillary staging in breast cancer is common. Recently, indocyanine
+      green (ICG) has been proposed as an alternative sentinel lymph node (SLN)
+      tracking agent. We evaluated the clinical value of ICG as an additional tracer in
+      combination with Technetium(99m) and as an alternative to Technetium(99m) for the
+      identification of SLN in 104 breast cancer patients. 21 patients had at least 1
+      histologically tumor-positive SLN. All 21 patients were detected by ICG; in one
+      of these 21 sentinel-positive patients, Technetium(99m) was unable to identify
+      lymph node involvement. Our results show that ICG is as effective as the
+      radioisotope for SLNB. In addition, as a near-infrared dye, it has the advantages
+      of real-time visualization, lower cost, and wider availability, since no
+      radioactive material needs to be handled. This trial is registered with German
+      Clinical Trial Register Main ID: DRKS00013606.
+FAU - Papathemelis, Thomas
+AU  - Papathemelis T
+AUID- ORCID: 0000-0003-1805-2610
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany.
+FAU - Jablonski, Evi
+AU  - Jablonski E
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany.
+FAU - Scharl, Anton
+AU  - Scharl A
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany.
+FAU - Hauzenberger, Tanja
+AU  - Hauzenberger T
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany.
+FAU - Gerken, Michael
+AU  - Gerken M
+AD  - Tumorzentrum der Universitat Regensburg, Institut fur Qualitatssicherung und
+      Versorgungsforschung, Regensburg, Germany.
+FAU - Klinkhammer-Schalke, Monika
+AU  - Klinkhammer-Schalke M
+AUID- ORCID: 0000-0001-5066-2051
+AD  - Tumorzentrum der Universitat Regensburg, Institut fur Qualitatssicherung und
+      Versorgungsforschung, Regensburg, Germany.
+FAU - Hipp, Matthias
+AU  - Hipp M
+AD  - Klinik fur Strahlentherapie, Klinikum St. Marien Amberg, Amberg, Germany.
+FAU - Scharl, Sophia
+AU  - Scharl S
+AD  - Klinik fur Radioonkologie und Strahlentherapie Munchen, Technische Universitat
+      Munchen, Munchen, Germany.
+LA  - eng
+PT  - Clinical Trial
+PT  - Journal Article
+DEP - 20180326
+PL  - United States
+TA  - Biomed Res Int
+JT  - BioMed research international
+JID - 101600173
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - Adult
+MH  - Breast Neoplasms/*pathology
+MH  - Cell Tracking/*methods
+MH  - Female
+MH  - Humans
+MH  - Indocyanine Green/*chemistry
+MH  - Microscopy, Fluorescence/instrumentation/methods
+MH  - Retrospective Studies
+MH  - Sentinel Lymph Node Biopsy/*methods
+MH  - Staining and Labeling/*methods
+PMC - PMC5892256
+EDAT- 2018/05/22 06:00
+MHDA- 2018/09/27 06:00
+CRDT- 2018/05/22 06:00
+PHST- 2017/11/04 00:00 [received]
+PHST- 2018/02/12 00:00 [revised]
+PHST- 2018/02/20 00:00 [accepted]
+PHST- 2018/05/22 06:00 [entrez]
+PHST- 2018/05/22 06:00 [pubmed]
+PHST- 2018/09/27 06:00 [medline]
+AID - 10.1155/2018/6251468 [doi]
+PST - epublish
+SO  - Biomed Res Int. 2018 Mar 26;2018:6251468. doi: 10.1155/2018/6251468. eCollection 
+      2018.

@@ -1,0 +1,85 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27Karl+storz%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 30721173
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190617
+LR  - 20190617
+IS  - 0042-4668 (Print)
+IS  - 0042-4668 (Linking)
+VI  - 83
+IP  - 6
+DP  - 2018
+TI  - [The innovative surgical technologies for the treatment of chronic suppurative
+      otitis media].
+PG  - 4-7
+LID - 10.17116/otorino2018830614 [doi]
+AB  - Chronic suppurative otitis media (CSOM) is a most common pathology among all
+      other ENT diseases that accounts for approximately 48% of the total number of
+      their cases. Modern surgery witnesses the advent of new methods for the
+      management of these conditions in parallel with the modification of the known
+      techniques intended to improve the post-operative outcomes of the treatment and
+      rehabilitation of the patients. The objective of the present study was to enhance
+      the effectiveness of the surgical treatment of the patients presenting with
+      chronic suppurative otitis media by making use of the relevant navigation
+      systems. A total of 29 patients presenting with CSOM underwent the surgical
+      intervention on 31 ears. The open variant of sanation surgery on the middle ear
+      was chosen including the hearing-improving component or without it depending on
+      the extension of the pathological process under control of the Navigation Panel
+      Unit ('Karl Storz', Germany) and KICK ('BrainLab', Gerfmany) navigation systems. 
+      Special emphasis is placed on the selected peculiar features of their
+      application. It was shown that the use of the aforementioned navigation systems
+      considerably improved the field of vision and the orientation in all compartments
+      of the middle ear which made it possible to prevent the potential intra-operative
+      (in all 31 cases) and post-operative complications. None of the patients suffered
+      complications within 2 months after the onset of the treatment. The
+      microotoscopice examination revealed the signs of the inflammatory process in
+      three patients 6 months after surgery. Only one patient was suspected to have a
+      recurrent cholesteatoma 12 months after the surgical intervention. The second
+      operation included the removal of the cholesteatoma pearl, revision of the
+      post-operative cavity, and re-tympanoplasty. The most important positive effects 
+      expected from the application of the navigation systems include the improved
+      orientation in three dimensions that gives assurance to the surgeon thereby
+      making his actions more accurate and precise and the reduction of the duration of
+      the surgical intervention.
+FAU - Ovchinnikov, A Yu
+AU  - Ovchinnikov AY
+AD  - A.I. Evdokimov Moscow State Medial Stomatological University, Ministry of Health 
+      of the Russian Federation, Moscow, Russia, 127473.
+FAU - Khon, E M
+AU  - Khon EM
+AD  - A.I. Evdokimov Moscow State Medial Stomatological University, Ministry of Health 
+      of the Russian Federation, Moscow, Russia, 127473.
+FAU - Shcherbakov, A Yu
+AU  - Shcherbakov AY
+AD  - A.I. Evdokimov Moscow State Medial Stomatological University, Ministry of Health 
+      of the Russian Federation, Moscow, Russia, 127473.
+LA  - rus
+PT  - Journal Article
+TT  - Innovatsionnye khirurgicheskie tekhnologii lecheniia khronicheskogo gnoinogo
+      srednego otita.
+PL  - Russia (Federation)
+TA  - Vestn Otorinolaringol
+JT  - Vestnik otorinolaringologii
+JID - 0416577
+SB  - IM
+MH  - *Cholesteatoma, Middle Ear/surgery
+MH  - Chronic Disease
+MH  - Ear, Middle
+MH  - Humans
+MH  - *Otitis Media, Suppurative/surgery
+MH  - Tympanoplasty
+OTO - NOTNLM
+OT  - chronic suppurative otitis media
+OT  - navigation support
+OT  - navigation system
+EDAT- 2019/02/06 06:00
+MHDA- 2019/06/18 06:00
+CRDT- 2019/02/06 06:00
+PHST- 2019/02/06 06:00 [entrez]
+PHST- 2019/02/06 06:00 [pubmed]
+PHST- 2019/06/18 06:00 [medline]
+AID - 10.17116/otorino2018830614 [doi]
+PST - ppublish
+SO  - Vestn Otorinolaringol. 2018;83(6):4-7. doi: 10.17116/otorino2018830614.

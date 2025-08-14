@@ -1,0 +1,46 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+{% block title%}
+    <title>CiteMed - Message Details</title>
+{% endblock %}
+{% block body %}
+    <div class="content__container" id="content">
+        <div class="sub-navbar-home">
+            <div class="sub-navbar-home-item-text">
+                {% if action %}
+                    Message Details - {{action.project.lit_review.device.name}} - {{user.client.name}}
+                {% else %}
+                    Message Details - {{user.username}}
+                {% endif %}
+            </div>
+        </div>
+        <div class="message-detail-section">
+            {% if action %}
+            <div class="message-detail-section-header">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Type:</span> {{ action.type }}
+                </div>
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Date Sent:</span> {{ action.date_sent }}
+                </div>
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Resolved Status:</span> {{ action.resolved_status }}
+                </div>
+            </div>
+            <div class="message-detail-section-body">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">message:</span>
+                </div>
+                <div class="message-detail-section-header-item-message">
+                    {{ action.message }}
+                </div>
+            </div>
+            {% else %}
+                <div class="no-project-text">Not found.</div>
+            {% endif %}
+        </div>
+    <button class="details__btn" style="padding: 10px 25px;" onclick="window.history.back();">Back</button>
+    </div>
+{% endblock %}
+{% block script %}
+{% endblock %}

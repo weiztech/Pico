@@ -1,0 +1,781 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%E2%80%98Robotic+surgery%E2%80%99+and+%E2%80%98ICG+imaging%E2%80%99+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8470452
+PMID- 34575708
+IS  - 2075-4426 (Electronic)
+VI  - 11
+IP  - 9
+DP  - 2021 Sep
+TI  - Does 3D-Assisted Operative Treatment of Pelvic Ring Injuries Improve Patient
+      Outcome?—A Systematic Review of the Literature.
+LID - 930
+AB  - Background: There has been an exponential growth in the use of advanced
+      technologies for three-dimensional (3D) virtual pre- and intra-operative planning
+      of pelvic ring injury surgery but potential benefits remain unclear. The purpose 
+      of this study was to evaluate differences in intra- and post-operative results
+      between 3D and conventional (2D) surgery. Methods: A systematic review was
+      performed including published studies between 1 January 2010 and 22 May 2020 on
+      all available 3D techniques in pelvic ring injury surgery. Studies were assessed 
+      for their methodological quality according to the Modified McMaster Critical
+      Review form. Differences in operation time, blood loss, fluoroscopy time, screw
+      malposition rate, fracture reduction and functional outcome between 3D-assisted
+      and conventional (2D) pelvic injury treatment were evaluated and a best-evidence 
+      synthesis was performed. Results: Eighteen studies fulfilled the inclusion
+      criteria, evaluating a total of 988 patients. Overall quality was moderate.
+      Regarding intra-operative results of 3D-assisted versus conventional surgery: The
+      weighted mean operation time per screw was 43 min versus 52 min; for overall
+      operation time 126 min versus 141 min; blood loss 275 ± 197 mL versus 549 ± 404
+      mL; fluoroscopy time 74 s versus 125 s and fluoroscopy frequency 29 ± 4 versus 63
+      ± 3. In terms of post-operative outcomes of 3D-assisted versus conventional
+      surgery: weighted mean screw malposition rate was 8% versus 18%; quality of
+      fracture reduction measured by the total excellent/good rate by Matta was 86%
+      versus 82% and Majeed excellent/good rate 88% versus 83%. Conclusion: The
+      3D-assisted surgery technologies seem to have a positive effect on operation
+      time, blood loss, fluoroscopy dose, time and frequency as well as accuracy of
+      screw placement. No improvement in clinical outcome in terms of fracture
+      reduction and functional outcome has been established so far. Due to a wide range
+      of methodological quality and heterogeneity between the included studies, results
+      should be interpreted with caution.
+FAU - Banierink, Hester
+AU  - Banierink H
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+FAU - Meesters, Anne M. L.
+AU  - Meesters AML
+AUID- ORCID: https://orcid.org/0000-0001-6882-0054
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+FAU - ten Duis, Kaj
+AU  - ten Duis K
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+FAU - Doornberg, Job N.
+AU  - Doornberg JN
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+FAU - El Moumni, Mostafa
+AU  - El Moumni M
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+FAU - Heineman, Erik
+AU  - Heineman E
+AD  - Department of Surgery, University Medical Center Groningen, University of
+      Groningen, 9713 GZ Groningen, The Netherlands; e.heineman@umcg.nl
+FAU - Reininga, Inge H. F.
+AU  - Reininga IHF
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+FAU - IJpma, Frank F. A.
+AU  - IJpma FFA
+AD  - Department of Trauma Surgery, University Medical Center Groningen, University of 
+      Groningen, 9713 GZ Groningen, The Netherlands; a.m.l.meesters@umcg.nl (A.M.L.M.);
+      k.ten.duis@umcg.nl (K.t.D.); j.n.doornberg@umcg.nl (J.N.D.); m.el.moumni@umcg.nl 
+      (M.E.M.); i.h.f.reininga@umcg.nl (I.H.F.R.); f.f.a.ijpma@umcg.nl (F.F.A.I.)
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20210918
+PHST- 2021/07/26 [received]
+PHST- 2021/09/17 [accepted]
+TA  - J Pers Med
+JT  - Journal of Personalized Medicine
+AID - 10.3390/jpm11090930 [doi]
+AID - jpm-11-00930 [pii]
+SO  - J Pers Med. 2021 Sep 18;11(9):. doi:10.3390/jpm11090930.
+
+PMC - PMC8026021
+PMID- 33826657
+IS  - 1932-6203 (Electronic)
+VI  - 16
+IP  - 4
+DP  - 2021
+TI  - Whose shoulders is health research standing on? Determining the key actors and
+      contents of the prevailing biomedical research agenda.
+LID - e0249661
+AB  - Background: Conflicts of interest in biomedical research can influence research
+      results and drive research agendas away from public health priorities. Previous
+      agenda-setting studies share two shortfalls: they only account for direct
+      connections between academic institutions and firms, as well as potential bias
+      based on researchers’ personal beliefs. This paper’s goal is to determine the key
+      actors and contents of the prevailing health and biomedical sciences (HBMS)
+      research agenda, overcoming these shortfalls. Methods: We performed a
+      bibliometric and lexical analysis of 95,415 scientific articles published between
+      1999 and 2018 in the highest impact factor journals within HBMS, using the Web of
+      Science database and the CorText platform. HBMS’s prevailing knowledge network of
+      institutions was proxied with network maps where nodes represent affiliations and
+      edges the most frequent co-authorships. The content of the prevailing HBMS
+      research agenda was depicted through network maps of prevalent multi-terms found 
+      in titles, keywords, and abstracts. Results: The HBMS research agendas of large
+      private firms and leading academic institutions are intertwined. The prevailing
+      HBMS agenda is mostly based on molecular biology (40% of the most frequent
+      multi-terms), with an inclination towards cancer and cardiovascular research (15 
+      and 8% of the most frequent multi-terms, respectively). Studies on pathogens and 
+      biological vectors related to recent epidemics are marginal (1% of the most
+      frequent multi-terms). Content of the prevailing HBMS research agenda prioritizes
+      research on pharmacological intervention over research on socio-environmental
+      factors influencing disease onset or progression and overlooks, among others, the
+      study of infectious diseases. Conclusions: Pharmaceutical corporations contribute
+      to set HBMS’s prevailing research agenda, which is mainly focused on a few
+      diseases and research topics. A more balanced research agenda, together with
+      epistemological approaches that consider socio-environmental factors associated
+      with disease spreading, could contribute to being better prepared to prevent and 
+      treat more diverse pathologies and to improve overall health outcomes.
+FAU - Testoni, Federico E.
+AU  - Testoni FE
+AD  - Facultad de Filosofía y Letras (FFyL), Instituto de Lingüística, Universidad de
+      Buenos Aires (UBA), Buenos Aires, Argentina
+FAU - García Carrillo, Mercedes
+AU  - García Carrillo M
+AD  - Facultad de Ciencias Exactas y Naturales (FCEyN), Departamento de Fisiología,
+      Biología Molecular y Celular (DFBMC), Instituto de Biociencias, Biotecnología y
+      Biología Traslacional (iB3), Universidad de Buenos Aires (UBA), Buenos Aires,
+      Argentina
+FAU - Gagnon, Marc-André
+AU  - Gagnon MA
+AD  - School of Public Policy and Administration, Carleton University, Ottawa, Canada
+FAU - Rikap, Cecilia
+AU  - Rikap C
+AD  - Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina
+FAU - Blaustein, Matías
+AU  - Blaustein M
+AUID- ORCID: https://orcid.org/0000-0001-6309-6888
+AD  - Facultad de Ciencias Exactas y Naturales (FCEyN), Departamento de Fisiología,
+      Biología Molecular y Celular (DFBMC), Instituto de Biociencias, Biotecnología y
+      Biología Traslacional (iB3), Universidad de Buenos Aires (UBA), Buenos Aires,
+      Argentina
+LA  - eng
+PT  - Journal Article
+DEP - 20210407
+PHST- 2020/09/09 [received]
+PHST- 2021/03/22 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0249661 [doi]
+AID - PONE-D-20-28417 [pii]
+SO  - PLoS One. 2021 Apr 7;16(4):. doi:10.1371/journal.pone.0249661.
+
+PMC - PMC7908247
+PMID- 33499127
+IS  - 1661-7827 (Print)
+IS  - 1660-4601 (Electronic)
+VI  - 18
+IP  - 3
+DP  - 2021 Feb
+TI  - A Bibliometric Network Analysis of Coronavirus during the First Eight Months of
+      COVID-19 in 2020.
+LID - 952
+AB  - The COVID-19 pandemic has affected all aspects of society. Researchers worldwide 
+      have been working to provide new solutions to and better understanding of this
+      coronavirus. In this research, our goal was to perform a Bibliometric Network
+      Analysis (BNA) to investigate the strategic themes, thematic evolution structure 
+      and trends of coronavirus during the first eight months of COVID-19 in the Web of
+      Science (WoS) database in 2020. To do this, 14,802 articles were analyzed, with
+      the support of the SciMAT software. This analysis highlights 24 themes, of which 
+      11 of the more important ones were discussed in-depth. The thematic evolution
+      structure shows how the themes are evolving over time, and the most developed and
+      future trends of coronavirus with focus on COVID-19 were visually depicted. The
+      results of the strategic diagram highlight ‘CHLOROQUINE’, ‘ANXIETY’, ‘PREGNANCY’ 
+      and ‘ACUTE-RESPIRATORY-SYNDROME’, among others, as the clusters with the highest 
+      number of associated citations. The thematic evolution. structure presented two
+      thematic areas: “Damage prevention and containment of COVID-19” and
+      “Comorbidities and diseases caused by COVID-19”, which provides new perspectives 
+      and futures trends of the field. These results will form the basis for future
+      research and guide decision-making in coronavirus focused on COVID-19 research
+      and treatments.
+FAU - Furstenau, Leonardo B.
+AU  - Furstenau LB
+AUID- ORCID: https://orcid.org/0000-0001-8984-7774
+AD  - Graduate Program of Industrial Systems and Processes, University of Santa Cruz do
+      Sul, Santa Cruz do Sul 96816-501, Brazil; sott.mk@gmail.com
+FAU - Rabaioli, Bruna
+AU  - Rabaioli B
+AUID- ORCID: https://orcid.org/0000-0003-1844-8420
+AD  - Department of Medicine, University of Santa Cruz do Sul, Santa Cruz do Sul
+      96816-501, Brazil; brunarabbaioli@gmail.com
+FAU - Sott, Michele Kremer
+AU  - Sott MK
+AUID- ORCID: https://orcid.org/0000-0002-7428-3993
+AD  - Graduate Program of Industrial Systems and Processes, University of Santa Cruz do
+      Sul, Santa Cruz do Sul 96816-501, Brazil; sott.mk@gmail.com
+FAU - Cossul, Danielli
+AU  - Cossul D
+AD  - Department of Psychology, University of Santa Cruz do Sul, Santa Cruz do Sul
+      96816-501, Brazil; daniellicossul@mx2.unisc.br
+FAU - Bender, Mariluza Sott
+AU  - Bender MS
+AD  - Multiprofessional Residency Program in Urgency and Emergency, Santa Cruz
+      Hospital, Santa Cruz do Sul 96810-072, Brazil; maribendersott@hotmail.com
+FAU - Farina, Eduardo Moreno Júdice De Mattos
+AU  - Farina EMJDM
+AUID- ORCID: https://orcid.org/0000-0002-3935-6077
+AD  - Scientific Writing Office Department, Higher School of Sciences of Santa Casa de 
+      Misericórdia de Vitória, Vitória 29025-023, Brazil; eduardofarina61@gmail.com
+      (E.M.J.D.M.F.); fabiano.filho@edu.emescam.br (F.N.B.F.)
+FAU - Filho, Fabiano Novaes Barcellos
+AU  - Filho FNB
+AD  - Scientific Writing Office Department, Higher School of Sciences of Santa Casa de 
+      Misericórdia de Vitória, Vitória 29025-023, Brazil; eduardofarina61@gmail.com
+      (E.M.J.D.M.F.); fabiano.filho@edu.emescam.br (F.N.B.F.)
+FAU - Severo, Priscilla Paola
+AU  - Severo PP
+AUID- ORCID: https://orcid.org/0000-0002-0170-0151
+AD  - Graduate Program in Law, University of Santa Cruz do Sul, Santa Cruz do Sul
+      96816-501, Brazil; priscillasevero@hotmail.com
+FAU - Dohan, Michael S.
+AU  - Dohan MS
+AD  - Faculty of Business Administration, Lakehead University, Thunder Bay, ON P7B 5E1,
+      Canada; msdohan@lakeheadu.ca
+FAU - Bragazzi, Nicola Luigi
+AU  - Bragazzi NL
+AUID- ORCID: https://orcid.org/0000-0001-8409-868X
+AD  - Laboratory for Industrial and Applied Mathematics (LIAM), Department of
+      Mathematics and Statistics, York University, Toronto, ON M3J 1P3, Canada
+LA  - eng
+PT  - Journal Article
+DEP - 20210122
+PHST- 2020/12/15 [received]
+PHST- 2021/01/20 [accepted]
+TA  - Int J Environ Res Public Health
+JT  - International Journal of Environmental Research and Public Health
+AID - 10.3390/ijerph18030952 [doi]
+AID - ijerph-18-00952 [pii]
+SO  - Int J Environ Res Public Health. 2021 Feb;18(3):. Epub 2021 Jan 22
+      doi:10.3390/ijerph18030952.
+
+PMC - PMC7821336
+PMID- 32997815
+IS  - 0022-3751 (Print)
+IS  - 1469-7793 (Electronic)
+VI  - 599
+IP  - 1
+DP  - 2021 Jan 01
+TI  - Circadian actions of orexins on the retinorecipient lateral geniculate complex in
+      rat.
+PG  - 231-52
+AB  - Key points: Rhythmic processes in living organisms are controlled by biological
+      clocks. The orexinergic system of the lateral hypothalamus carries circadian
+      information to provide arousal for the brain during the active phase.Here, we
+      show that orexins exert an excitatory action in three parts of the lateral
+      geniculate nucleus (LGN), in particular upon directly retinorecipient neurons in 
+      the non‐image forming visual structures.We provide evidence for the high
+      nocturnal levels of orexins with stable circadian expression of predominant
+      orexin receptor 2 in the LGN.Our data additionally establish the convergence of
+      orexinergic and pituitary adenylate cyclase (PAC)‐activating peptide/PAC1
+      receptor systems (used by melanopsin‐expressing retinal ganglion cells), which
+      directly regulates responses to the retinal input.These results help us better
+      understand circadian orexinergic control over the non‐image forming subcortical
+      visual system, forming the animal's preparedness for the behaviourally active
+      night. Abstract: The orexinergic system of the lateral hypothalamus is tightly
+      interlinked with the master circadian clock and displays daily variation in
+      activity to provide arousal‐related excitation for the plethora of brain
+      structures in a circadian manner. Here, using a combination of
+      electrophysiological, optogenetic, histological, molecular and neuronal tracing
+      methods, we explore a particular link between orexinergic and visual systems in
+      rat. The results of the present study demonstrate that orexinergic fibre density 
+      at the area of subcortical visual system exerts a clear day to night variability,
+      reaching a maximum at behaviourally active night. We also show pronounced
+      electrophysiological activations of neurons in the lateral geniculate nucleus by 
+      orexin A through 24 h, via identified distinct orexin receptors, with the
+      ventrolateral geniculate displaying a daily cycle of responsiveness. In addition,
+      for the first time, we provide a direct evidence for orexins to act on
+      retinorecipient neurons with a high convergence of orexinergic and putatively
+      retinal pituitary adenylate cyclase (PAC)‐activating peptide/PAC1 receptor
+      systems. Altogether, the present study ties orexins to non‐image forming visual
+      structures with implications for circadian orexinergic modulation of neurons,
+      which process information on ambient light levels.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Chrobok, Lukasz
+AU  - Chrobok L
+AUID- ORCID: https://orcid.org/0000-0002-0118-2833
+AD  - Department of Neurophysiology and ChronobiologyInstitute of Zoology and
+      Biomedical ResearchJagiellonian University in KrakowKrakowPoland
+FAU - Jeczmien‐Lazur, Jagoda Stanislawa
+AU  - Jeczmien‐Lazur JS
+AD  - Department of Neurophysiology and ChronobiologyInstitute of Zoology and
+      Biomedical ResearchJagiellonian University in KrakowKrakowPoland
+FAU - Pradel, Kamil
+AU  - Pradel K
+AD  - Department of Neurophysiology and ChronobiologyInstitute of Zoology and
+      Biomedical ResearchJagiellonian University in KrakowKrakowPoland
+FAU - Klich, Jasmin Daniela
+AU  - Klich JD
+AUID- ORCID: https://orcid.org/0000-0003-2951-3582
+AD  - Department of Neurophysiology and ChronobiologyInstitute of Zoology and
+      Biomedical ResearchJagiellonian University in KrakowKrakowPoland
+FAU - Bubka, Monika
+AU  - Bubka M
+AD  - Department of Glycoconjugate BiochemistryInstitute of Zoology and Biomedical
+      ResearchJagiellonian University in KrakowKrakowPoland
+FAU - Wojcik, Michal
+AU  - Wojcik M
+AD  - Department of Neurophysiology and ChronobiologyInstitute of Zoology and
+      Biomedical ResearchJagiellonian University in KrakowKrakowPoland
+FAU - Kepczynski, Mariusz
+AU  - Kepczynski M
+AD  - Department of Physical Chemistry and ElectrochemistryFaculty of
+      ChemistryJagiellonian University in KrakowKrakowPoland
+FAU - Lewandowski, Marian Henryk
+AU  - Lewandowski MH
+AUID- ORCID: https://orcid.org/0000-0003-1461-9392
+AD  - Department of Neurophysiology and ChronobiologyInstitute of Zoology and
+      Biomedical ResearchJagiellonian University in KrakowKrakowPoland
+LA  - eng
+PT  - Journal Article
+DEP - 20201014
+GR  - POIG.02.01.00‐12‐023/08
+PHST- 2020/06/01 [received]
+PHST- 2020/09/29 [accepted]
+TA  - J Physiol
+JT  - The Journal of Physiology
+AID - 10.1113/JP280275 [doi]
+AID - TJP14416 [pii]
+SO  - J Physiol. 2021 Jan 01;599(1):231-52. Epub 2020 Oct 14 doi:10.1113/JP280275.
+
+PMC - PMC7816548
+PMID- 32964768
+IS  - 1526-6028 (Print)
+IS  - 1545-1550 (Electronic)
+VI  - 28
+IP  - 1
+DP  - 2021 Feb
+TI  - Image Fusion During Standard and Complex Endovascular Aortic Repair, to Fuse or
+      Not to Fuse? A Meta-analysis and Additional Data From a Single-Center
+      Retrospective Cohort.
+PG  - 78-92
+AB  - Purpose:: To determine if image fusion will reduce contrast volume, radiation
+      dose, and fluoroscopy and procedure times in standard and complex
+      (fenestrated/branched) endovascular aneurysm repair (EVAR). Materials and
+      Methods:: A search of the PubMed, Embase, and Cochrane databases was performed in
+      December 2019 to identify articles describing results of standard and complex
+      EVAR procedures using image fusion compared with a control group. Study
+      selection, data extraction, and assessment of the methodological quality of the
+      included publications were performed by 2 reviewers working independently.
+      Primary outcomes of the pooled analysis were contrast volume, fluoroscopy time,
+      radiation dose, and procedure time. Eleven articles were identified comprising
+      1547 patients. Data on 140 patients satisfying the study inclusion criteria were 
+      added from the authors’ center. Mean differences (MDs) are presented with the 95%
+      confidence interval (CI). Results:: For standard EVAR, contrast volume and
+      procedure time showed a significant reduction with an MD of −29 mL (95% CI −40.5 
+      to −18.5, p<0.001) and −11 minutes (95% CI −21.0 to −1.8, p<0.01), respectively. 
+      For complex EVAR, significant reductions in favor of image fusion were found for 
+      contrast volume (MD −79 mL, 95% CI −105.7 to −52.4, p<0.001), fluoroscopy time
+      (MD −14 minutes, 95% CI −24.2 to −3.5, p<0.001), and procedure time (MD −52
+      minutes, 95% CI −75.7 to −27.9, p<0.001). Conclusion:: The results of this
+      meta-analysis confirm that image fusion significantly reduces contrast volume,
+      fluoroscopy time, and procedure time in complex EVAR but only contrast volume and
+      procedure time for standard EVAR. Though a reduction was suggested, the radiation
+      dose was not significantly affected by the use of fusion imaging in either
+      standard or complex EVAR.
+FAU - Doelare, Sabrina A. N.
+AU  - Doelare SAN
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - Smorenburg, Stefan P. M.
+AU  - Smorenburg SPM
+AUID- ORCID: https://orcid.org/0000-0002-4754-3016
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - van Schaik, Theodorus G.
+AU  - van Schaik TG
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - Blankensteijn, Jan D.
+AU  - Blankensteijn JD
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - Wisselink, Willem
+AU  - Wisselink W
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - Nederhoed, Johanna H.
+AU  - Nederhoed JH
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - Lely, Rutger J.
+AU  - Lely RJ
+AD  - Department of Radiology, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije 
+      Universiteit, Amsterdam, the Netherlands
+FAU - Hoksbergen, Arjan W. J.
+AU  - Hoksbergen AWJ
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+FAU - Yeung, Kak Khee
+AU  - Yeung KK
+AD  - Department of Surgery, Amsterdam Cardiovascular Sciences, Amsterdam UMC, Vrije
+      Universiteit, Amsterdam, the Netherlands
+LA  - eng
+PT  - Journal Article
+DEP - 20200923
+TA  - J Endovasc Ther
+JT  - Journal of Endovascular Therapy
+AID - 10.1177/1526602820960444 [doi]
+AID - 10.1177_1526602820960444 [pii]
+SO  - J Endovasc Ther. 2021 Feb;28(1):78-92. Epub 2020 Sep 23
+      doi:10.1177/1526602820960444.
+
+PMC - PMC6445566
+PMID- 31123490
+IS  - 1754-6605 (Electronic)
+VI  - 13
+DP  - 2019
+TI  - Petroclival meningiomas: radiological features essential for surgeons.
+LID - 907
+AB  - Petroclival meningiomas (PCMs) have always been a challenge for surgeons because 
+      of their difficult anatomical location. The role of radiology in providing
+      precise indications regarding the tumour site and aggressiveness plays a major
+      part in guiding the subsequent therapeutic process. The purpose of this review is
+      to provide a set of the main radiological features helpful in the management of
+      PCMs towards the most correct therapeutic approach.We aim to offer a radiological
+      overview to allow the patient to be directed to surgery with the least possible
+      risk of complications.
+FAU - Nicosia, Luca
+AU  - Nicosia L
+AD  - Breast Radiology Department, European Institute of Oncology, 2014, Via G
+      Ripamonti 435, Milano, Italy
+FAU - Pietro, Salvatore Di
+AU  - Pietro SD
+AD  - Breast Radiology Department, European Institute of Oncology, 2014, Via G
+      Ripamonti 435, Milano, Italy
+FAU - Catapano, Michele
+AU  - Catapano M
+AD  - Breast Radiology Department, European Institute of Oncology, 2014, Via G
+      Ripamonti 435, Milano, Italy
+FAU - Spadarella, Gaia
+AU  - Spadarella G
+AD  - Breast Radiology Department, European Institute of Oncology, 2014, Via G
+      Ripamonti 435, Milano, Italy
+FAU - Sammut, Lara
+AU  - Sammut L
+AD  - Medical Imaging Department, Mater Dei Hospital, Triq Dun Karm, MSD 2090 Msida,
+      Malta
+FAU - Cannataci, Christine
+AU  - Cannataci C
+AD  - Medical Imaging Department, Mater Dei Hospital, Triq Dun Karm, MSD 2090 Msida,
+      Malta
+FAU - Resta, Federico
+AU  - Resta F
+AD  - Neuroradiology Unit, San Giuseppe Hospital, Milano Via San Vittore 12, 20123
+      Milano, Italy
+FAU - Reganati, Paolo
+AU  - Reganati P
+AD  - Neuroradiology Unit, San Giuseppe Hospital, Milano Via San Vittore 12, 20123
+      Milano, Italy
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190305
+PHST- 2018/09/06 [received]
+TA  - Ecancermedicalscience
+JT  - ecancermedicalscience
+AID - 10.3332/ecancer.2019.907 [doi]
+AID - can-13-907 [pii]
+SO  - Ecancermedicalscience. 2019 Mar 05;13:. doi:10.3332/ecancer.2019.907.
+
+PMC - PMC6850389
+PMID- 30653801
+IS  - 1464-4096 (Print)
+IS  - 1464-410X (Electronic)
+VI  - 124
+IP  - 2
+DP  - 2019 Aug
+TI  - Consensus statements on the management of clinically localized prostate cancer
+      from the Hong Kong Urological Association and the Hong Kong Society of
+      Uro‐Oncology.
+PG  - 221-41
+AB  - Objective: To formulate consensus statements to facilitate physician management
+      strategies for patients with clinically localized prostate cancer (PCa) in Hong
+      Kong by jointly convening a panel of 12 experts from the two local professional
+      organizations representing PCa specialists, who had previously established
+      consensus statements on the management of metastatic PCa for the locality.
+      Methods: Through a series of meetings, the panellists discussed their clinical
+      experience and the published evidence regarding various areas of the management
+      of localized PCa, then drafted consensus statements. At the final meeting, each
+      drafted statement was voted on by every panellist based on its practicability of 
+      recommendation in the locality. Results: A total of 76 consensus statements were 
+      ultimately accepted and established by panel voting. Conclusion: Derived from the
+      recent evidence and major overseas guidelines, along with local clinical
+      experience and practicability, the consensus statements were aimed to serve as a 
+      practical reference for physicians in Hong Kong for the management of localized
+      PCa.
+FAU - Ma, Wai‐Kit
+AU  - Ma W
+AUID- ORCID: 0000-0002-5523-9735
+AD  - Department of SurgeryQueen Mary HospitalUniversity of Hong KongHong KongHong Kong
+FAU - Poon, Darren Ming‐Chun
+AU  - Poon DM
+AD  - State Key Laboratory in Oncology in South ChinaDepartment of Clinical OncologySir
+      YK Pao Centre for CancerHong Kong Cancer Institute and Prince of Wales
+      HospitalChinese University of Hong KongHong KongHong Kong
+FAU - Chan, Chi‐Kwok
+AU  - Chan C
+AD  - Division of UrologyDepartment of SurgeryPrince of Wales HospitalChinese
+      University of Hong KongHong KongHong Kong
+FAU - Chan, Tim‐Wai
+AU  - Chan T
+AD  - Department of Clinical OncologyQueen Elizabeth HospitalHong KongHong Kong
+FAU - Cheung, Foon‐Yiu
+AU  - Cheung F
+AD  - Hong Kong Integrated Oncology CentreHong KongHong Kong
+FAU - Ho, Lap‐Yin
+AU  - Ho L
+AD  - Asia ClinicHong KongHong Kong
+FAU - Lee, Eric Ka‐Chai
+AU  - Lee EK
+AD  - Department of Clinical OncologyTuen Mun HospitalHong KongHong Kong
+FAU - Leung, Angus Kwong‐Chuen
+AU  - Leung AK
+AD  - AMO Oncology CentreHong KongHong Kong
+FAU - Leung, Simon Yiu‐Lam
+AU  - Leung SY
+AD  - Central Urology ClinicHong KongHong Kong
+FAU - So, Hing‐Shing
+AU  - So H
+AD  - Division of UrologyDepartment of SurgeryUnited Christian HospitalHong KongHong
+      Kong
+FAU - Tam, Po‐Chor
+AU  - Tam P
+AD  - Department of SurgeryQueen Mary HospitalThe University of Hong KongHong KongHong 
+      Kong
+FAU - Kwong, Philip Wai‐Kay
+AU  - Kwong PW
+AD  - Department of Clinical OncologyQueen Mary HospitalUniversity of Hong KongHong
+      Kong
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190205
+TA  - BJU Int
+JT  - Bju International
+AID - 10.1111/bju.14681 [doi]
+AID - BJU14681 [pii]
+SO  - BJU Int. 2019 Aug;124(2):221-41. Epub 2019 Feb 05 doi:10.1111/bju.14681.
+
+PMC - PMC6754740
+PMID- 30376678
+IS  - 0340-6245 (Print)
+IS  - 2567-689X (Electronic)
+VI  - 118
+IP  - 12
+DP  - 2018 Dec
+TI  - Predicting Thromboembolic and Bleeding Event Risk in Patients with Nonvalvular
+      Atrial Fibrillation: A Systematic Review.
+PG  - 2171-87
+AB  - Background:: Atrial fibrillation (AF) is a common cardiac arrhythmia that
+      increases the risk of stroke. Medical therapy for decreasing stroke risk involves
+      anticoagulation, which may increase bleeding risk for certain patients. In
+      determining optimal therapy for stroke prevention for patients with AF,
+      clinicians use tools with various clinical, imaging, and patient characteristics 
+      to weigh stroke risk against therapy-associated bleeding risk. Aim:: Review
+      published literature and summarize available risk stratification tools for stroke
+      and bleeding prediction in patients with AF. Methods:: We searched for
+      English-language studies in PubMed®, Embase®, and the Cochrane Database of
+      Systematic Reviews published between January 1, 2000, and February 14, 2018. Two 
+      reviewers screened citations for studies that examined tools for predicting
+      thromboembolic and bleeding risks in patients with AF. Data regarding study
+      design, patient characteristics, interventions, outcomes, quality and
+      applicability were extracted. Results:: 61 studies were relevant to predicting
+      thromboembolic risk and 38 to predicting bleeding risk. Data suggest that CHADS2,
+      CHA2DS2-VASc, and ABC risk scores have the best evidence predicting
+      thromboembolic risk (moderate strength of evidence for limited prediction ability
+      of each score) and that HAS-BLED has the best evidence for predicting bleeding
+      risk (moderate strength of evidence). Limitations:: Studies were heterogeneous in
+      methodology and populations of interest, setting, interventions, and outcomes
+      analyzed. Conclusion:: CHADS2, CHA2DS2-VASc, and ABC stroke have the best
+      prediction for stroke events, and HAS-BLED provides the best prediction for
+      bleeding risk. Future studies should define the role of imaging tools and
+      biomarkers in enhancing the accuracy of risk prediction tools. Primary Funding
+      Source:: Patient-Centered Outcomes Research Institute (PROSPERO #CRD42017069999)
+FAU - Borre, Ethan D.
+AU  - Borre ED
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Goode, Adam
+AU  - Goode A
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Raitz, Giselle
+AU  - Raitz G
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Shah, Bimal
+AU  - Shah B
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Lowenstern, Angela
+AU  - Lowenstern A
+AD  - Duke University Clinical Research Institute, Duke University School of Medicine, 
+      Durham, NC
+FAU - Chatterjee, Ranee
+AU  - Chatterjee R
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Sharan, Lauren
+AU  - Sharan L
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Allen LaPointe, Nancy M.
+AU  - Allen LaPointe NM
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Yapa, Roshini
+AU  - Yapa R
+AD  - University of Colorado, Department of Medicine, Aurora, CO
+FAU - Davis, J. Kelly
+AU  - Davis JK
+AD  - Duke-Margolis Center for Health Policy, Duke University, Durham, NC
+FAU - Lallinger, Kathryn
+AU  - Lallinger K
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Schmidt, Robyn
+AU  - Schmidt R
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+FAU - Kosinski, Andrzej
+AU  - Kosinski A
+AD  - Department of Biostatistics & Bioinformatics, Duke University School of Medicine,
+      Durham, NC
+FAU - Al-Khatib, Sana M.
+AU  - Al-Khatib SM
+AD  - Duke University Clinical Research Institute, Duke University School of Medicine, 
+      Durham, NC
+FAU - Sanders, Gillian D.
+AU  - Sanders GD
+AD  - Department of Medicine, Duke University School of Medicine, Durham, NC
+LA  - eng
+PT  - Journal Article
+DEP - 20181030
+TA  - Thromb Haemost
+JT  - Thrombosis and haemostasis
+AID - 10.1055/s-0038-1675400 [doi]
+MID - NIHMS1049951
+SO  - Thromb Haemost. 2018 Dec;118(12):2171-87. Epub 2018 Oct 30
+      doi:10.1055/s-0038-1675400.
+
+PMC - PMC6085003
+PMID- 30092056
+IS  - 1932-6203 (Electronic)
+VI  - 13
+IP  - 8
+DP  - 2018
+TI  - “We might get a lot more families who will agree”: Muslim and Jewish perspectives
+      on less invasive perinatal and paediatric autopsy.
+LID - e0202023
+AB  - Background: Perinatal and paediatric autopsy rates are at historically low levels
+      with declining uptake due to dislike of the invasiveness of the procedure, and
+      religious objections particularly amongst Muslim and Jewish parents. Less
+      invasive methods of autopsy including imaging with and without tissue sampling
+      have been shown to be feasible alternatives. We sought to investigate attitudes
+      including religious permissibility and potential uptake amongst members of the
+      Muslim and Jewish communities in the United Kingdom. Methods: Semi-structured
+      interviews with religious and faith-based authorities (n = 16) and bereaved
+      parents from the Jewish community (n = 3) as well as 10 focus groups with
+      community members (60 Muslim participants and 16 Jewish participants) were
+      conducted. Data were analysed using thematic analysis to identify key themes.
+      Findings: Muslim and Jewish religious and faith-based authorities agreed that
+      non-invasive autopsy with imaging was religiously permissible because it did not 
+      require incisions or interference with the body. A minimally invasive approach
+      was less acceptable as it still required incisions to the body, although in those
+      circumstances where it was required by law it was more acceptable than a full
+      autopsy. During focus group discussions with community members, the majority of
+      participants indicated they would potentially consent to a non-invasive autopsy
+      if the body could be returned for burial within 24 hours, or if a family had
+      experienced multiple fetal/pregnancy losses and the information gained might be
+      useful in future pregnancies. Minimally invasive autopsy was less acceptable but 
+      around half of participants might consent if a non-invasive autopsy was not
+      suitable, with the exception of the Jewish Haredi community who unanimously
+      stated they would decline this alternative. Conclusions: Our research suggests
+      less invasive autopsy offers a viable alternative to many Muslim and Jewish
+      parents in the UK who currently decline a full autopsy. The findings may be of
+      importance to other countries with significant Muslim and/or Jewish communities
+      as well as to other religious communities where concerns around autopsy exist.
+      Awareness-raising amongst religious leaders and community members will be
+      important if these methods become routinely available.
+FAU - Lewis, Celine
+AU  - Lewis C
+AUID- ORCID: 0000-0001-7169-1521
+AD  - North East Thames Regional Genetics Service, Great Ormond Street Hospital for
+      Children NHS Foundation Trust, London, United Kingdom
+FAU - Latif, Zahira
+AU  - Latif Z
+AD  - College of Medical and Dental Sciences, University of Birmingham, Birmingham,
+      United Kingdom
+FAU - Hill, Melissa
+AU  - Hill M
+AD  - North East Thames Regional Genetics Service, Great Ormond Street Hospital for
+      Children NHS Foundation Trust, London, United Kingdom
+FAU - Riddington, Megan
+AU  - Riddington M
+AD  - Department of Psychological Services, Great Ormond Street Hospital for Children
+      NHS Foundation Trust, London, United Kingdom
+FAU - Lakhanpaul, Monica
+AU  - Lakhanpaul M
+AD  - Faculty of Population Health Sciences, UCL Great Ormond Street Institute of Child
+      Health, London, United Kingdom
+FAU - Arthurs, Owen J.
+AU  - Arthurs OJ
+AUID- ORCID: 0000-0003-1213-3516
+AD  - Faculty of Population Health Sciences, UCL Great Ormond Street Institute of Child
+      Health, London, United Kingdom
+FAU - Hutchinson, John C.
+AU  - Hutchinson JC
+AUID- ORCID: 0000-0002-1708-2634
+AD  - Department of Histopathology, Great Ormond Street Hospital for Children NHS
+      Foundation Trust, London, United Kingdom
+FAU - Chitty, Lyn S.
+AU  - Chitty LS
+AD  - North East Thames Regional Genetics Service, Great Ormond Street Hospital for
+      Children NHS Foundation Trust, London, United Kingdom
+FAU - Sebire, Neil J.
+AU  - Sebire NJ
+AD  - Department of Histopathology, Great Ormond Street Hospital for Children NHS
+      Foundation Trust, London, United Kingdom
+LA  - eng
+PT  - Journal Article
+DEP - 20180809
+GR  - 14/168/02
+PHST- 2017/12/06 [received]
+PHST- 2018/07/26 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0202023 [doi]
+AID - PONE-D-17-42780 [pii]
+SO  - PLoS One. 2018 Aug 9;13(8):. doi:10.1371/journal.pone.0202023.
+
+PMC - PMC5122797
+PMID- 27900213
+IS  - 2090-598X (Print)
+IS  - 2090-5998 (Electronic)
+VI  - 14
+IP  - 4
+DP  - 2016 Dec
+TI  - Adrenal masses: A urological perspective.
+PG  - 248-55
+AB  - Adrenal masses have become increasingly common due to widespread use of sectional
+      imaging. Urologists are commonly faced with management decisions in patients with
+      adrenal masses. Systemic review of available literature related to surgical
+      adrenal disease was performed to summarise the most pertinent information related
+      to adrenal masses, diagnostic evaluation and surgical treatment. Detailed
+      hormonal evaluation of adrenal disease was not included, being part of
+      endocrinological rather than urological practice. Adrenal masses exhibit a wide
+      spectrum of presentation and pathology, and treatment requires different surgical
+      techniques. Full understanding of the pathology and management of such masses
+      should be completely familiar to practicing urologists.
+FAU - Fergany, Amr F.
+AU  - Fergany AF
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20161026
+PHST- 2016/05/02 [received]
+PHST- 2016/09/07 [revised]
+PHST- 2016/09/13 [accepted]
+TA  - Arab J Urol
+JT  - Arab Journal of Urology
+AID - S2090-598X(16)30068-7 [pii]
+AID - 10.1016/j.aju.2016.09.001 [doi]
+SO  - Arab J Urol. 2016 Oct 26;14(4):248-55. doi:10.1016/j.aju.2016.09.001.

@@ -1,0 +1,167 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+
+{% block title %}
+    <title>Documents Library</title>
+{% endblock %}
+{% block head %}
+    <style>
+        .toast:not(.show) {
+            display: block;
+        }
+        .active-filters {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .filters {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+        }
+        .search_filter {
+            margin-left: auto;
+            width: 100%;
+        }
+        .select_filter {
+            width: 400px;
+            display: flex;
+            align-items: center;
+        }
+        .search_wrapper {
+            width: 950px;
+            margin: auto;
+        }
+        .table-wrapper {
+            width: 100% !important;
+        }
+        .table__data td {
+            padding: 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+<div id="app">
+    <div>
+        <div class="content__container" id="content">
+            <b-toast id="validate-keyword" title="Submit Keyword Form Error" variant="danger" auto-hide-delay="3000" toaster="b-toaster-top-center">
+            </b-toast>
+            <h1 class="display-6 text-center mb-4">Create New Article</h1>
+            <div class="row row-cols-1 row-cols-md-2 mb-3 create-article-section">
+                <div class="col single-article-creation ">
+                    <h1 class="display-6 text-center mb-4 create-article-header-text">Single article creation</h1>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_title" class="form-label">Article Title</label>
+                        <div class="keyword-item">
+                            <input type="text" name="article_title" class="textinput textInput form-control" id="article-title" 
+                            v-model="article.title" placeholder="Article Title"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_abstract" class="form-label">Article abstract</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_abstract" class="textinput textInput form-control" id="article-abstract"
+                            v-model="article.abstract" placeholder="Article abstract"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_citation" class="form-label">Article citation information</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_citation" class="textinput textInput form-control" id="article-citation"
+                            v-model="article.citation"  placeholder="Article citation"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_pubmed_uid" class="form-label">Article Pubmed UID</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_pubmed_uid" class="textinput textInput form-control" id="article-pubmed-uid"
+                            v-model="article.pubmed_uid"  placeholder="Article Pubmed UID"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_pmc_uid" class="form-label">Article Pmc UID</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_pmc_uid" class="textinput textInput form-control" id="article-pmc-uid"
+                            v-model="article.pmc_uid"  placeholder="Article Pmc UID"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_pdf" class="form-label">PDF File</label>
+                        <div class="input-text-item">
+                            <input type="file" name="article_pdf" class="textinput textInput form-control" id="article-pdf formFile" ref="pdf_file"
+                            v-on:change="onpdfChange()"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_device" class="form-label">Select a device <span class="text-muted">(Optional)</span></label>
+                        <div class="input-text-item">
+                            <select class="form-select" name="article_device" id="article-device" v-on:change="ondeviceChange()" ref="device" >
+                                <option value="" :selected="article.device===''">Select a device</option>
+                                {% for device in devices %}
+                                    <option value="{{device.id}}" :selected="article.device==={{device.id}}">{{device.name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div id="input-button-section" class="form-group">
+                        <button class="btn search-btn" type="button" id="single-btn-creation" v-on:click="submit_single_article_creation()">
+                            Create
+                        </button>
+                    </div>
+
+
+                </div>
+                <div class="col bulk-article-creation">
+                    <h1 class="display-6 text-center mb-4 create-article-header-text">Bulk article creation</h1>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_zip" class="form-label">ZIP File</label>
+                        <div class="input-text-item">
+                            <input type="file" name="article_zip" class="textinput textInput form-control" id="article-zip formFile" ref="zip_file"
+                            v-on:change="onzipChange()"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-button-section" class="form-group">
+                        <button class="btn search-btn" type="button" id="bulk-btn-creation" v-on:click="submit_bulk_article_creation()">
+                            Create
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const CreateArticleURL = "{% url 'client_portal:create_article_api' %}";
+</script>
+
+{% if env == 'PROD' %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+<script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{% static 'client_portal/vue/create_new_article.js' %}" > </script>
+
+{% endblock %}

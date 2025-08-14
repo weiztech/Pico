@@ -1,0 +1,2115 @@
+PMID- 24958048
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171012
+LR  - 20181202
+IS  - 2150-136X (Electronic)
+IS  - 2150-1351 (Linking)
+VI  - 5
+IP  - 3
+DP  - 2014 Jul
+TI  - Impact of Pulsatile Flow Settings on Hemodynamic Energy Levels Using the Novel 
+      Diagonal Medos DP3 Pump in a Simulated Pediatric Extracorporeal Life Support 
+      System.
+PG  - 440-8
+LID - 10.1177/2150135114526760 [doi]
+AB  - BACKGROUND: The objective of this study was to evaluate the pump performance of 
+      the novel diagonal Medos Deltastream DP3 diagonal pump (MEDOS Medizintechnik AG, 
+      , Stolberg, Germany) under nonpulsatile to pulsatile mode with varying 
+      differential speed values in a simulated pediatric extracorporeal life support 
+      system. METHODS: The experimental circuit consisted of a Medos Deltastream DP3 
+      pump head and console, a Medos Hilite 2400 LT hollow fiber membrane oxygenator 
+      (MEDOS Medizintechnik AG), a 14F Medtronic DLP arterial cannula (Medtronic Inc, 
+      Minnesota), and a 20F Terumo TenderFlow Pediatric venous return cannula (Terumo 
+      Corporation, Michigan). Trials were conducted at flow rates ranging from 500 
+      mL/min to 2,000 mL/min (500 mL/min increments) and pulsatile differential speed 
+      values ranging from 500 rpm to 2,500 rpm (500 rpm increments) using human blood 
+      (hematocrit 35%). The postcannula pressure was maintained constantly at 60 mm Hg. 
+      Real-time pressure and flow data were recorded using a custom-made data 
+      acquisition system and Labview software. RESULTS: Under all experimental 
+      conditions, pulsatile flow (P) generated significantly greater energy equivalent 
+      pressure (EEP), surplus hemodynamic energy (SHE), and total hemodynamic energy 
+      (THE) than those of nonpulsatile flow (NP). Under NP, SHE was zero. Higher 
+      differential speed values generated greater EEP, SHE, and THE values. There was 
+      little variation in the oxygenator pressure drop and the cannula pressure drop in 
+      P, compared to NP. CONCLUSIONS: The novel Medos Deltastream DP3 diagonal pump is 
+      able to generate physiological quality of P, without backflow. With increased 
+      differential rpm, the pump generated greater EEP, SHE, and THE. Physiological 
+      quality of pulsatility may be associated with better microcirculation because of 
+      greater EEP, SHE, and THE.
+CI  - © The Author(s) 2014.
+FAU - Adedayo, Pelumi
+AU  - Adedayo P
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Milton S. Hershey Medical Center, Penn State Hershey College 
+      of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Milton S. Hershey Medical Center, Penn State Hershey College 
+      of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+AD  - Department of Public Health and Sciences, Penn State Hershey Pediatric 
+      Cardiovascular Research Center, Penn State Milton S. Hershey Medical Center, Penn 
+      State Hershey College of Medicine, Penn State Hershey Children's Hospital, 
+      Hershey, PA, USA.
+FAU - Ündar, Akif
+AU  - Ündar A
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Milton S. Hershey Medical Center, Penn State Hershey College 
+      of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA Department 
+      of Surgery and Bioengineering, Penn State Hershey Pediatric Cardiovascular 
+      Research Center, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA 
+      aundar@psu.edu.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - World J Pediatr Congenit Heart Surg
+JT  - World journal for pediatric & congenital heart surgery
+JID - 101518415
+SB  - IM
+MH  - Child
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - Hemodynamics/physiology
+MH  - Humans
+MH  - *Life Support Systems
+MH  - *Models, Cardiovascular
+MH  - Pulsatile Flow/*physiology
+MH  - Software
+OTO - NOTNLM
+OT  - ECMO
+OT  - diagonal pump
+OT  - extracorporeal life support
+OT  - hemodynamic energy
+OT  - infant
+OT  - pediatrics
+OT  - perfusion
+OT  - pulsatile flow
+OT  - surplus hemodynamic energy
+EDAT- 2014/06/25 06:00
+MHDA- 2014/06/25 06:01
+CRDT- 2014/06/25 06:00
+PHST- 2013/10/02 00:00 [received]
+PHST- 2014/02/10 00:00 [accepted]
+PHST- 2014/06/25 06:00 [entrez]
+PHST- 2014/06/25 06:00 [pubmed]
+PHST- 2014/06/25 06:01 [medline]
+AID - 5/3/440 [pii]
+AID - 10.1177/2150135114526760 [doi]
+PST - ppublish
+SO  - World J Pediatr Congenit Heart Surg. 2014 Jul;5(3):440-8. doi: 
+      10.1177/2150135114526760.
+
+PMID- 30374991
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190522
+LR  - 20190522
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 43
+IP  - 1
+DP  - 2019 Jan
+TI  - Effects of Pulsatile Control Algorithms for Diagonal Pump on Hemodynamic 
+      Performance and Hemolysis.
+PG  - 60-75
+LID - 10.1111/aor.13284 [doi]
+AB  - The objective of this study is to compare hemodynamic performances under 
+      different pulsatile control algorithms between Medos DeltaStream DP3 and i-cor 
+      diagonal pumps in simulated pediatric and adult ECLS systems. An additional pilot 
+      study was designed to test hemolysis using two pumps during 12h-ECLS. The 
+      experimental circuit consisted of parallel combined pediatric and adult ECLS 
+      circuits using an i-cor pump head and either an i-cor console or Medos 
+      DeltaStream MDC console, a Medos Hilite 2400 LT oxygenator for the pediatric ECLS 
+      circuit, and a Medos Hilite 7000 LT oxygenator for the adult ECLS circuit. The 
+      circuit was primed with lactated Ringer's solution and human packed red blood 
+      cells (hematocrit 40%). Trials were conducted at various flow rates (pediatric 
+      circuit: 0.5 and 1L/min; adult circuit: 2 and 4L/min) under nonpulsatile and 
+      pulsatile modes (pulsatile amplitude: 1000-5000rpm [1000 rpm increments] for 
+      i-cor pump, 500-2500rpm [500 rpm increments] for Medos pump) at 36°C. In an 
+      additional protocol, fresh whole blood was used to test hemolysis under 
+      nonpulsatile and pulsatile modes using the two pump systems in adult ECLS 
+      circuits. Under pulsatile mode, energy equivalent pressures (EEP) were always 
+      greater than mean pressures for the two systems. Total hemodynamic energy (THE) 
+      and surplus hemodynamic energy (SHE) levels delivered to the patient increased 
+      with increasing pulsatile amplitude and decreased with increasing flow rate. The 
+      i-cor pump outperformed at low flow rates, but the Medos pump performed 
+      superiorly at high flow rates. There was no significant difference between two 
+      pumps in percentage of THE loss. The plasma free hemoglobin level was always 
+      higher in the Medos DP3 pulsatile group at 4 L/min compared to others. Pulsatile 
+      control algorithms of Medos and i-cor consoles had great effects on pulsatility. 
+      Although high pulsatile amplitudes delivered higher levels of hemodynamic energy 
+      to the patient, the high rotational speeds increased the risk of hemolysis. Use 
+      of proper pulsatile amplitude settings and intermittent pulsatile mode are 
+      suggested to achieve better pulsatility and decrease the risk of hemolysis. 
+      Further optimized pulsatile control algorithms are needed.
+CI  - © 2018 International Center for Artificial Organs and Transplantation and Wiley 
+      Periodicals, Inc.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Force, Madison
+AU  - Force M
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Moroi, Morgan K
+AU  - Moroi MK
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Patel, Sunil
+AU  - Patel S
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+AD  - Department of Public Health and Sciences, Penn State Milton S. Hershey Medical 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+FAU - Ündar, Akif
+AU  - Ündar A
+AUID- ORCID: 0000-0003-3334-2886
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+AD  - Department of Surgery and Bioengineering, Penn State Milton S. Hershey Medical 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+LA  - eng
+GR  - Penn State Hershey College of Medicine, Department of Pediatrics, Division of 
+      Cardiology Fellowship/
+PT  - Journal Article
+DEP - 20181029
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Adult
+MH  - Algorithms
+MH  - Child
+MH  - *Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/adverse effects/*instrumentation
+MH  - Hematologic Tests
+MH  - *Hemodynamics
+MH  - *Hemolysis
+MH  - Humans
+MH  - *Models, Cardiovascular
+MH  - Oxygenators/adverse effects
+MH  - Pilot Projects
+MH  - Pulsatile Flow
+OTO - NOTNLM
+OT  - Diagonal pump
+OT  - Extracorporeal life support
+OT  - Hemodynamics
+OT  - Hemolysis
+OT  - Pediatric and Adult
+OT  - Pulsatile flow algorithms
+EDAT- 2018/10/31 06:00
+MHDA- 2019/05/23 06:00
+CRDT- 2018/10/31 06:00
+PHST- 2018/03/01 00:00 [received]
+PHST- 2018/03/27 00:00 [revised]
+PHST- 2018/04/19 00:00 [accepted]
+PHST- 2018/10/31 06:00 [pubmed]
+PHST- 2019/05/23 06:00 [medline]
+PHST- 2018/10/31 06:00 [entrez]
+AID - 10.1111/aor.13284 [doi]
+PST - ppublish
+SO  - Artif Organs. 2019 Jan;43(1):60-75. doi: 10.1111/aor.13284. Epub 2018 Oct 29.
+
+PMID- 23873380
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140617
+LR  - 20211021
+IS  - 1569-9285 (Electronic)
+IS  - 1569-9293 (Print)
+IS  - 1569-9285 (Linking)
+VI  - 17
+IP  - 5
+DP  - 2013 Nov
+TI  - First experience with the deltastream(R) DP3 in venovenous extracorporeal 
+      membrane oxygenation and air-supported inter-hospital transport.
+PG  - 773-7
+LID - 10.1093/icvts/ivt320 [doi]
+AB  - OBJECTIVES: Based on continuous technical innovations and recent research, 
+      extracorporeal membrane oxygenation (ECMO) has become a promising tool in the 
+      treatment of patients with acute (cardio)pulmonary failure. Nevertheless, any 
+      extracorporeal technique requires a high degree of experience and knowledge, so 
+      that a restriction to specialized centres seems to be reasonable. As a 
+      consequence of this demand, the need for inter-hospital transfer of patients with 
+      severely impaired (cardio)pulmonary function is rising. Unfortunately, most of 
+      the ECMO devices used in the clinical setting are not suitable for inter-hospital 
+      transport because of their size, weight or complexity. In this article, we 
+      describe our first experiences with the airborne transport of 6 patients on a new 
+      portable, miniaturized and lightweight extracorporeal circulation system, the 
+      Medos deltastream® DP3. METHODS: Six patients suffering acute respiratory failure 
+      were taken on venovenous ECMO (DP3) out-of-centre and transferred to the 
+      University Medical Center Regensburg by helicopter. All 
+      cardiorespiratory-relevant parameters of the patients and the technical 
+      functioning of the device were continuously monitored and documented. RESULTS: 
+      Implantation of the device and air-supported transport were performed without any 
+      technical complications. The patients were transported from a distance of 66-178 
+      km, requiring a time of 40-120 min. With the help of the new deltastream® DP3 
+      ECMO device, a prompt stabilization of the cardiopulmonary function could be 
+      achieved in all patients. One patient was under ongoing cardiopulmonary 
+      resuscitation by the time our ECMO team arrived at the peripheral hospital and 
+      died shortly after arrival in the central emergency ward. CONCLUSIONS: Our 
+      experience shows that the deltastream® DP3 is an absolutely reliable and safe 
+      ECMO device that could gain growing importance in the field of airborne 
+      transportation of patients on ECMO due to its unsophisticated, miniaturized and 
+      lightweight characteristics.
+FAU - Lunz, Dirk
+AU  - Lunz D
+AD  - Department of Anesthesiology, University Medical Center, Regensburg, Germany.
+FAU - Philipp, Alois
+AU  - Philipp A
+FAU - Judemann, Katrin
+AU  - Judemann K
+FAU - Amann, Matthias
+AU  - Amann M
+FAU - Foltan, Maik
+AU  - Foltan M
+FAU - Schmid, Christof
+AU  - Schmid C
+FAU - Graf, Bernhard
+AU  - Graf B
+FAU - Zausig, York A
+AU  - Zausig YA
+LA  - eng
+PT  - Case Reports
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20130719
+PL  - England
+TA  - Interact Cardiovasc Thorac Surg
+JT  - Interactive cardiovascular and thoracic surgery
+JID - 101158399
+SB  - IM
+MH  - Acute Disease
+MH  - Adult
+MH  - *Air Ambulances
+MH  - Cardiopulmonary Resuscitation
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/adverse effects/*instrumentation
+MH  - Fatal Outcome
+MH  - Female
+MH  - Germany
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Miniaturization
+MH  - *Patient Transfer
+MH  - Respiratory Insufficiency/diagnosis/*therapy
+MH  - Time Factors
+MH  - Treatment Outcome
+PMC - PMC3805207
+OTO - NOTNLM
+OT  - Acute respiratory distress syndrome
+OT  - Extracorporeal membrane oxygenation
+OT  - Inter-hospital transport
+OT  - Miniaturized extracorporeal membrane oxygenation
+EDAT- 2013/07/23 06:00
+MHDA- 2014/06/18 06:00
+CRDT- 2013/07/23 06:00
+PHST- 2013/07/23 06:00 [entrez]
+PHST- 2013/07/23 06:00 [pubmed]
+PHST- 2014/06/18 06:00 [medline]
+AID - ivt320 [pii]
+AID - 10.1093/icvts/ivt320 [doi]
+PST - ppublish
+SO  - Interact Cardiovasc Thorac Surg. 2013 Nov;17(5):773-7. doi: 10.1093/icvts/ivt320. 
+      Epub 2013 Jul 19.
+
+PMID- 28782157
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180430
+LR  - 20180430
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 41
+IP  - 8
+DP  - 2017 Aug
+TI  - Initial Clinical Experiences With Novel Diagonal ECLS System in Pediatric Cardiac 
+      Patients.
+PG  - 717-726
+LID - 10.1111/aor.12977 [doi]
+AB  - Extracorporeal life support (ECLS) provides mechanical support following cardiac 
+      surgery when respiratory or cardiac failure occurs. The aim of this study was to 
+      analyze the safety and feasibility of the Medos Deltastream diagonal pump (DP3) 
+      ECLS system in pediatric cardiac patients. We described the technical 
+      considerations and risk factors related to the survival outcomes in 102 pediatric 
+      cardiac patients who received ECLS support between March 2011 and April 2016. We 
+      switched from the DP2 system, which was used for the initial 25 patients, to the 
+      DP3 system after November 2012. The DP3 was then used in a consecutive series of 
+      77 patients (4.5% of all pediatric patients who underwent congenital heart 
+      surgery during the same time period). The patients' median age was 90 days 
+      (range: 2 days-12 years), while their median weight was 4 kg (range: 2.1-40 kg). 
+      Fifty four patients (70%) were weaned off ECLS, while 28 patients (36.3%) were 
+      successfully discharged from the hospital by means of the DP3 system. The median 
+      ECLS duration for survivors was 8.2 days (range: 4-14.5 days). The ECLS 
+      indications, durations, and initiation times had no statistical significance in 
+      terms of survival. Renal, hemorrhagic, and neurologic complications were all 
+      associated with decreased hospital discharge rates (P = 0.003, P = 0.045, and 
+      P < 0.001 respectively). Higher lactate levels (P = 0.009) and longer duration 
+      for normalization (P < 0.001) were both associated to failure to wean off ECLS 
+      support and, hence, to hospital deaths. The weaning rate was 36% prior to 
+      November 2012. It increased to 70.3% after that time (P = 0.009). The mechanical 
+      complication rate was 9% with the DP3 system and 32% with the DP2, which was 
+      statistically significant (P = 0.009). Additionally, the lactate levels were 
+      higher and decreased more slowly in the patients supported by the DP2. As a 
+      result of the shift to the DP3 system, a revised ECLS protocol, and increased 
+      ECLS experience, a significant improvement was observed in our clinical outcomes. 
+      The results of this study suggested that the combination of a DP3 pump and a 
+      Hilite oxygenator in pediatric ECLS circuits may improve durability and reduce 
+      circuit-induced complications.
+CI  - © 2017 International Center for Artificial Organs and Transplantation and Wiley 
+      Periodicals, Inc.
+FAU - Okan, Yildiz
+AU  - Okan Y
+AUID- ORCID: 0000-0002-6192-3111
+AD  - Department of Pediatric Cardiovascular Surgery, Istanbul Mehmet Akif Ersoy 
+      Thoracic and Cardiovascular Surgery Education and Research Hospital, Istanbul, 
+      Turkey.
+FAU - Sertac, Haydin
+AU  - Sertac H
+AD  - Department of Pediatric Cardiovascular Surgery, Istanbul Mehmet Akif Ersoy 
+      Thoracic and Cardiovascular Surgery Education and Research Hospital, Istanbul, 
+      Turkey.
+FAU - Erkut, Ozturk
+AU  - Erkut O
+AD  - Department of Pediatric Cardiology, Istanbul Mehmet Akif Ersoy Thoracic and 
+      Cardiovascular Surgery Education and Research Hospital, Istanbul, Turkey.
+FAU - Taner, Kasar
+AU  - Taner K
+AD  - Department of Pediatric Cardiology, Istanbul Mehmet Akif Ersoy Thoracic and 
+      Cardiovascular Surgery Education and Research Hospital, Istanbul, Turkey.
+FAU - Selen, Onan I
+AU  - Selen OI
+AD  - Department of Pediatric Cardiovascular Surgery, Istanbul Mehmet Akif Ersoy 
+      Thoracic and Cardiovascular Surgery Education and Research Hospital, Istanbul, 
+      Turkey.
+FAU - Firat, Altin H
+AU  - Firat AH
+AD  - Department of Pediatric Cardiovascular Surgery, Siyami Ersek Thoracic and 
+      Cardiovascular Surgery Education and Research Hospital, Istanbul, Turkey.
+FAU - Nihat, Cine
+AU  - Nihat C
+AD  - Department of Pediatric Cardiovascular Surgery, Kartal Koşuyolu Yüksek İhtisas 
+      Education and Research Hospital, Istanbul, Turkey.
+FAU - Pelin, Ayyildiz
+AU  - Pelin A
+AD  - Department of Pediatric Cardiology, Istanbul Mehmet Akif Ersoy Thoracic and 
+      Cardiovascular Surgery Education and Research Hospital, Istanbul, Turkey.
+FAU - Halime, Erkan
+AU  - Halime E
+AD  - Pediatric Perfusion, Istanbul Mehmet Akif Ersoy Thoracic and Cardiovascular 
+      Surgery Education and Research Hospital, Istanbul, Turkey.
+FAU - Alper, Guzeltas
+AU  - Alper G
+AD  - Department of Pediatric Cardiology, Istanbul Mehmet Akif Ersoy Thoracic and 
+      Cardiovascular Surgery Education and Research Hospital, Istanbul, Turkey.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Cardiac Surgical Procedures/adverse effects/instrumentation/methods
+MH  - Child
+MH  - Child, Preschool
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/*adverse effects/*instrumentation/methods
+MH  - Female
+MH  - Heart Defects, Congenital/*surgery
+MH  - Humans
+MH  - Infant
+MH  - Infant, Newborn
+MH  - Life Support Systems/instrumentation
+MH  - Male
+MH  - Treatment Outcome
+OTO - NOTNLM
+OT  - -Congenital heart surgery
+OT  - -Extracorporeal membrane oxygenation
+OT  - -Mechanical circulatory support
+OT  - Extracorporeal life support
+EDAT- 2017/08/07 06:00
+MHDA- 2018/05/01 06:00
+CRDT- 2017/08/08 06:00
+PHST- 2016/12/07 00:00 [received]
+PHST- 2017/05/03 00:00 [revised]
+PHST- 2017/05/10 00:00 [accepted]
+PHST- 2017/08/08 06:00 [entrez]
+PHST- 2017/08/07 06:00 [pubmed]
+PHST- 2018/05/01 06:00 [medline]
+AID - 10.1111/aor.12977 [doi]
+PST - ppublish
+SO  - Artif Organs. 2017 Aug;41(8):717-726. doi: 10.1111/aor.12977.
+
+PMID- 23826748
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140929
+LR  - 20140107
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 38
+IP  - 1
+DP  - 2014 Jan
+TI  - Impact of pulsatile flow on hemodynamic energy in a Medos Deltastream DP3 
+      pediatric extracorporeal life support system.
+PG  - 19-27
+LID - 10.1111/aor.12117 [doi]
+AB  - The Medos Deltastream DP3 system is made up of a novel diagonal pump and 
+      hollow-membrane oxygenator that provides nonpulsatile and pulsatile flows for 
+      extracorporeal life support (ECLS). The objectives of this study are to (i) 
+      evaluate the efficacy of the hemodynamic energy provided by Medos Deltastream DP3 
+      system in nonpulsatile and pulsatile mode and (ii) to evaluate the pulsatile mode 
+      under different frequencies. The experimental ECLS circuit was used in this 
+      study, primed with Ringer's lactate and packed red blood cells (hematocrit 35%). 
+      All trials were conducted at flow rates of 500, 1000, 1500, and 2000 mL/min with 
+      modified pulsatile frequencies of 60, 70, 80, and 90 bpm at 36°C. Simultaneous 
+      blood flow and pressures at the pre/postoxygenator and pre/postcannula sites were 
+      recorded for quantification of the pulsatile perfusion-generated 
+      energy-equivalent pressure (EEP), surplus hemodynamic energy (SHE), and total 
+      hemodynamic energy (THE). The experiments showed that under pulsatile flow 
+      conditions, at all flow rates and frequencies, (i) the EEP, SHE, and THE were 
+      significantly higher when compared with the nonpulsatile group and (ii) the 
+      pressure drop was minimal at lower flow rates and lower pulsatile frequencies but 
+      was significant when either the flow rate or the pulsatile frequency was 
+      increased. The Medos Deltastream DP3 System can provide nonpulsatile flow and 
+      physiologic quality pulsatile flow for pediatric ECLS. When the Medos DP3 
+      pediatric ECLS system is used with pulsatile flow, there is more surplus 
+      hemodynamic energy and total hemodynamic energy than nonpulsatile flow.
+CI  - © 2013, Copyright the Authors. Artificial Organs © 2013 Wiley Periodicals, Inc. 
+      and International Center for Artificial Organs and Transplantation.
+FAU - Krawiec, Conrad
+AU  - Krawiec C
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA; 
+      Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Surgery and Bioengineering, Penn State Milton S. Hershey Medical Center, Penn 
+      State Hershey College of Medicine, Penn State Hershey Children's Hospital, 
+      Hershey, PA, USA; Penn State Hershey Pediatric Critical Care Unit, Department of 
+      Pediatrics, Penn State Milton S. Hershey Medical Center, Penn State Hershey 
+      College of Medicine, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Wang, Shigang
+AU  - Wang S
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+FAU - Ündar, Akif
+AU  - Ündar A
+LA  - eng
+PT  - Journal Article
+DEP - 20130704
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Child
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - *Hemodynamics
+MH  - Humans
+MH  - Life Support Systems/*instrumentation
+MH  - Models, Cardiovascular
+MH  - Oxygenators, Membrane
+MH  - *Pulsatile Flow
+OTO - NOTNLM
+OT  - Diagonal pump
+OT  - Extracorporeal life support
+OT  - Hemodynamic energy
+OT  - Pediatrics
+OT  - Pulsatile flow
+EDAT- 2013/07/06 06:00
+MHDA- 2014/09/30 06:00
+CRDT- 2013/07/06 06:00
+PHST- 2013/07/06 06:00 [entrez]
+PHST- 2013/07/06 06:00 [pubmed]
+PHST- 2014/09/30 06:00 [medline]
+AID - 10.1111/aor.12117 [doi]
+PST - ppublish
+SO  - Artif Organs. 2014 Jan;38(1):19-27. doi: 10.1111/aor.12117. Epub 2013 Jul 4.
+
+PMID- 25940752
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20160606
+LR  - 20191210
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 39
+IP  - 9
+DP  - 2015 Sep
+TI  - Laboratory Evaluation of Hemolysis and Systemic Inflammatory Response in Neonatal 
+      Nonpulsatile and Pulsatile Extracorporeal Life Support Systems.
+PG  - 774-81
+LID - 10.1111/aor.12466 [doi]
+AB  - The objective of this study was to compare the systemic inflammatory response and 
+      hemolytic characteristics of a conventional roller pump (HL20-NP) and an 
+      alternative diagonal pump with nonpulsatile (DP3-NP) and pulsatile mode (DP3-P) 
+      in simulated neonatal extracorporeal life support (ECLS) systems. The 
+      experimental neonatal ECLS circuits consist of a conventional Jostra HL20 roller 
+      pump or an alternative Medos DP3 diagonal pump, and Medos Hilite 800 LT 
+      hollow-fiber oxygenator with diffusion membrane. Eighteen sterile circuits were 
+      primed with freshly donated whole blood and divided into three groups: 
+      conventional HL20 with nonpulsatile flow (HL20-NP), DP3 with nonpulsatile flow 
+      (DP3-NP), and DP3 with pulsatile flow (DP3-P). All trials were conducted for 
+      durations of 12 h at a flow rate of 500 mL/min at 36°C. Simultaneous blood flow 
+      and pressure waveforms were recorded. Blood samples were collected to measure 
+      plasma-free hemoglobin (PFH), human tumor necrosis factor-alpha, interleukin-6 
+      (IL-6), and IL-8, in addition to the routine blood gas, lactate dehydrogenase, 
+      and lactic acid levels. HL20-NP group had the highest PFH levels (mean ± standard 
+      error of the mean) after a 12-h ECLS run, but the difference among groups did not 
+      reach statistical significance (HL20-NP group: 907.6 ± 253.1 mg/L, DP3-NP group: 
+      343.7 ± 163.2 mg/L, and DP3-P group: 407.6 ± 156.6 mg/L, P = 0.06). Although 
+      there were similar trends but no statistical differences for the levels of 
+      proinflammatory cytokines among the three groups, the HL20-NP group had much 
+      greater levels than the other groups (P > 0.05). Pulsatile flow generated higher 
+      total hemodynamic energy and surplus hemodynamic energy levels at pre-oxygenator 
+      and pre-clamp sites (P < 0.01). Our study demonstrated that the alternative 
+      diagonal pump ECLS circuits appeared to have less systemic inflammatory response 
+      and hemolysis compared with the conventional roller pump ECLS circuit in 
+      simulated neonatal ECLS systems. Pulsatile flow delivered more hemodynamic energy 
+      to the pseudo-patient without increased odds of hemolysis compared with the 
+      conventional, nonpulsatile roller pump group.
+CI  - Copyright © 2015 International Center for Artificial Organs and Transplantation 
+      and Wiley Periodicals, Inc.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Penn State Milton S. Hershey Medical Center, Hershey, PA, USA.
+FAU - Krawiec, Conrad
+AU  - Krawiec C
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Penn State Milton S. Hershey Medical Center, Hershey, PA, USA.
+AD  - Pediatric Critical Care Unit, Penn State Hershey College of Medicine, Penn State 
+      Hershey Children's Hospital, Penn State Milton S. Hershey Medical Center, 
+      Hershey, PA, USA.
+FAU - Patel, Sunil
+AU  - Patel S
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Penn State Milton S. Hershey Medical Center, Hershey, PA, USA.
+AD  - Pediatric Cardiology, Penn State Hershey College of Medicine, Penn State Hershey 
+      Children's Hospital, Penn State Milton S. Hershey Medical Center, Hershey, PA, 
+      USA.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+AD  - Department of Public Health Sciences, Penn State Hershey College of Medicine, 
+      Penn State Hershey Children's Hospital, Penn State Milton S. Hershey Medical 
+      Center, Hershey, PA, USA.
+FAU - Song, Jianxun
+AU  - Song J
+AD  - Department of Microbiology & Immunology, Penn State Hershey College of Medicine, 
+      Penn State Hershey Children's Hospital, Penn State Milton S. Hershey Medical 
+      Center, Hershey, PA, USA.
+FAU - Lei, Fengyang
+AU  - Lei F
+AD  - Department of Microbiology & Immunology, Penn State Hershey College of Medicine, 
+      Penn State Hershey Children's Hospital, Penn State Milton S. Hershey Medical 
+      Center, Hershey, PA, USA.
+FAU - Baer, Larry D
+AU  - Baer LD
+AD  - Heart and Vascular Institute, Penn State Hershey College of Medicine, Penn State 
+      Hershey Children's Hospital, Penn State Milton S. Hershey Medical Center, 
+      Hershey, PA, USA.
+FAU - Ündar, Akif
+AU  - Ündar A
+AD  - Penn State Hershey Pediatric Cardiovascular Research Center, Department of 
+      Pediatrics, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Penn State Milton S. Hershey Medical Center, Hershey, PA, USA.
+AD  - Surgery and Bioengineering, Penn State Hershey College of Medicine, Penn State 
+      Hershey Children's Hospital, Penn State Milton S. Hershey Medical Center, 
+      Hershey, PA, USA.
+LA  - eng
+PT  - Evaluation Study
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20150501
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+RN  - 0 (Cytokines)
+SB  - IM
+MH  - Cytokines/blood
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/*adverse effects/*instrumentation
+MH  - Hemodynamics
+MH  - *Hemolysis
+MH  - Humans
+MH  - Infant, Newborn
+MH  - Inflammation/blood/*etiology
+MH  - Life Support Systems/*instrumentation
+MH  - Pulsatile Flow
+OTO - NOTNLM
+OT  - Diagonal pump
+OT  - Extracorporeal life support
+OT  - Hemolysis
+OT  - Neonates
+OT  - Nonpulsatile flow
+OT  - Pulsatile flow
+OT  - Roller pump
+OT  - Systemic inflammatory response
+EDAT- 2015/05/06 06:00
+MHDA- 2016/06/09 06:00
+CRDT- 2015/05/06 06:00
+PHST- 2015/05/06 06:00 [entrez]
+PHST- 2015/05/06 06:00 [pubmed]
+PHST- 2016/06/09 06:00 [medline]
+AID - 10.1111/aor.12466 [doi]
+PST - ppublish
+SO  - Artif Organs. 2015 Sep;39(9):774-81. doi: 10.1111/aor.12466. Epub 2015 May 1.
+
+PMID- 37228828
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230528
+IS  - 1664-042X (Print)
+IS  - 1664-042X (Electronic)
+IS  - 1664-042X (Linking)
+VI  - 14
+DP  - 2023
+TI  - A comprehensive comparison of the in vitro hemocompatibility of extracorporeal 
+      centrifugal blood pumps.
+PG  - 1136545
+LID - 10.3389/fphys.2023.1136545 [doi]
+LID - 1136545
+AB  - Purpose: Blood damage has been associated with patients under temporary 
+      continuous-flow mechanical circulatory support. To evaluate the side effects 
+      caused by transit blood pumping, in vitro hemocompatibility testing for blood 
+      damage in pumps is considered a necessary reference before clinical trials. 
+      Methods: The hemocompatibility of five extracorporeal centrifugal blood pumps was 
+      investigated comprehensively, including four commercial pumps (the Abbott 
+      CentriMag, the Terumo Capiox, the Medos DP3, and the Medtronic BPX-80) and a pump 
+      in development (the magAssist MoyoAssist(®)). In vitro, hemolysis was tested with 
+      heparinized porcine blood at nominal operating conditions (5 L/min, 160 mmHg) and 
+      extreme operating conditions (1 L/min, 290 mmHg) using a circulation flow loop. 
+      Hematology analyses concerning the blood cell counts and the degradation of 
+      high-molecular-weight von Willebrand factor (VWF) during 6-h circulation were 
+      also evaluated. Results: Comparing the in vitro hemocompatibility of blood pumps 
+      at different operations, the blood damage was significantly more severe at 
+      extreme operating conditions than that at nominal operating conditions. The 
+      performance of the five blood pumps was arranged in different orders at these two 
+      operating conditions. The results also demonstrated superior hemocompatibility of 
+      CentriMag and MoyoAssist(®) at two operating conditions, with overall low blood 
+      damage at hemolysis level, blood cell counts, and degradation of 
+      high-molecular-weight VWF. It suggested that magnetic bearings have an advantage 
+      in hemocompatibility compared to the mechanical bearing of blood pumps. 
+      Conclusion: Involving multiple operating conditions of blood pumps in in vitro 
+      hemocompatibility evaluation will be helpful for clinical application. In 
+      addition, the magnetically levitated centrifugal blood pump MoyoAssist(®) shows 
+      great potential in the future as it demonstrated good in vitro hemocompatibility.
+CI  - Copyright © 2023 Li, Mei, Ge, Wu, Zhong, Huan, Jiang, Hsu, Steinseifer, Dong and 
+      Zhang.
+FAU - Li, Ping
+AU  - Li P
+AD  - Department of Cardiovascular Surgery, Union Hospital, Tongji Medical College, 
+      Huazhong University of Science and Technology, Wuhan, China.
+FAU - Mei, Xu
+AU  - Mei X
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Ge, Wanning
+AU  - Ge W
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Wu, Tingting
+AU  - Wu T
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Zhong, Min
+AU  - Zhong M
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Huan, Nana
+AU  - Huan N
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Jiang, Qiubo
+AU  - Jiang Q
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Hsu, Po-Lin
+AU  - Hsu PL
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+FAU - Steinseifer, Ulrich
+AU  - Steinseifer U
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, Medical Faculty, RWTH Aachen University, 
+      Aachen, Germany.
+FAU - Dong, Nianguo
+AU  - Dong N
+AD  - Department of Cardiovascular Surgery, Union Hospital, Tongji Medical College, 
+      Huazhong University of Science and Technology, Wuhan, China.
+FAU - Zhang, Liudi
+AU  - Zhang L
+AD  - Artificial Organ Technology Lab, Biomanufacturing Centre, School of Mechanical 
+      and Electrical Engineering, Soochow University, Suzhou, China.
+LA  - eng
+PT  - Journal Article
+DEP - 20230509
+PL  - Switzerland
+TA  - Front Physiol
+JT  - Frontiers in physiology
+JID - 101549006
+PMC - PMC10204736
+OTO - NOTNLM
+OT  - ECMO
+OT  - blood damage
+OT  - centrifugal pump
+OT  - hemolysis
+OT  - von Willebrand factor
+COIS- P-LH is the founder and CEO of magAssist, Inc. The remaining authors declare that 
+      the research was conducted in the absence of any commercial or financial 
+      relationships that could be construed as a potential conflict of interest.
+EDAT- 2023/05/25 19:12
+MHDA- 2023/05/25 19:13
+CRDT- 2023/05/25 14:16
+PHST- 2023/01/03 00:00 [received]
+PHST- 2023/04/20 00:00 [accepted]
+PHST- 2023/05/25 19:13 [medline]
+PHST- 2023/05/25 19:12 [pubmed]
+PHST- 2023/05/25 14:16 [entrez]
+AID - 1136545 [pii]
+AID - 10.3389/fphys.2023.1136545 [doi]
+PST - epublish
+SO  - Front Physiol. 2023 May 9;14:1136545. doi: 10.3389/fphys.2023.1136545. 
+      eCollection 2023.
+
+PMID- 27164039
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171106
+LR  - 20181202
+IS  - 1538-943X (Electronic)
+IS  - 1058-2916 (Linking)
+VI  - 62
+IP  - 4
+DP  - 2016 Jul-Aug
+TI  - Pediatric Extracorporeal Life Support Using a Third Generation Diagonal Pump.
+PG  - 482-90
+LID - 10.1097/MAT.0000000000000385 [doi]
+AB  - This study reports a single-centre experience of the Medos Deltastream 
+      diagonal-pump (DP3) for extracorporeal cardiac, pulmonary, or combined support in 
+      a single-center pediatric cohort. Twenty-seven consecutive patients with 28 runs 
+      of the DP3 between January 2013 and June 2014 were included for analysis. Median 
+      patient age, weight, and duration of support were 278 days (range: 0 days-14.2 
+      years), 7.2 kg (range: 2.5-39 kg), and 8 days (range: 2-69 days). Midline 
+      sternotomy (n = 20, 71.4%) or cervical approaches (n = 8, 28.6%) were used for 
+      cannulation. The DP3 was employed for either veno-arterial extracorporeal life 
+      support (ECLS, n = 16), veno-venous extracorporeal membrane oxygenation (ECMO, n 
+      = 5), or ventricular assist devices (right ventricular assist device [RVAD], n = 
+      1; left ventricular assist device [LVAD], n = 1; and univentricular assist device 
+      [UNIVAD], n = 5). Three patients initially supported with ECLS were switched to 
+      UNIVAD and one patient with UNIVAD was changed to ECLS. Required flow for 
+      neonates (n = 8) ranged between 0.2 and 0.75 L/min. Irreversible pump damage 
+      occurred in one patient during deairing after air block. Successful weaning, 30 
+      day and hospital survival were 89.3% (n = 25), 85.7% (n = 24), and 71.4% (n = 
+      20). All patients on UNIVAD, who did not require further extracorporeal 
+      respiratory assist, survived. In conclusion, the DP3 can be used for individual 
+      patient demands and adapted to their most suitable method of support. Meticulous 
+      flow adjustments render this pump highly effective for extracorporeal support 
+      particularly in pediatric patients.
+FAU - Speth, Marlene
+AU  - Speth M
+AD  - From the *Department of Pediatric Cardiac Surgery, and †Department of Pediatric 
+      Cardiology, University-Hospital Erlangen, Friedrich-Alexander-Universität 
+      Erlangen-Nürnberg (FAU), Erlangen, Germany.
+FAU - Münch, Frank
+AU  - Münch F
+FAU - Purbojo, Ariawan
+AU  - Purbojo A
+FAU - Glöckler, Martin
+AU  - Glöckler M
+FAU - Toka, Okan
+AU  - Toka O
+FAU - Cesnjevar, Robert A
+AU  - Cesnjevar RA
+FAU - Rüffer, André
+AU  - Rüffer A
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - ASAIO J
+JT  - ASAIO journal (American Society for Artificial Internal Organs : 1992)
+JID - 9204109
+SB  - IM
+MH  - Adolescent
+MH  - Child
+MH  - Child, Preschool
+MH  - Extracorporeal Membrane Oxygenation/adverse effects/*instrumentation
+MH  - Hospital Mortality
+MH  - Humans
+MH  - Infant
+MH  - Infant, Newborn
+EDAT- 2016/05/11 06:00
+MHDA- 2017/11/07 06:00
+CRDT- 2016/05/11 06:00
+PHST- 2016/05/11 06:00 [entrez]
+PHST- 2016/05/11 06:00 [pubmed]
+PHST- 2017/11/07 06:00 [medline]
+AID - 10.1097/MAT.0000000000000385 [doi]
+PST - ppublish
+SO  - ASAIO J. 2016 Jul-Aug;62(4):482-90. doi: 10.1097/MAT.0000000000000385.
+
+PMID- 23305572
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20130802
+LR  - 20130111
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 37
+IP  - 1
+DP  - 2013 Jan
+TI  - Novel pulsatile diagonal pump for pediatric extracorporeal life support system.
+PG  - 37-47
+LID - 10.1111/aor.12015 [doi]
+AB  - A novel pulsatile rotary flow pump has been used in clinical extracorporeal life 
+      support (ECLS) in Europe. The objective of this study is to evaluate the Medos 
+      Deltastream DP3 diagonal pump (Medos Medizintechnik AG, Stolberg, Germany) in a 
+      simulated pediatric ECLS system. The ECLS circuit consisted of a Medos Hilite 
+      800LT hollow fiber membrane oxygenator (Medos Medizintechnik AG), a Medos 
+      Deltastream DP3 diagonal pump, a 10Fr Terumo TenderFlow Pediatric Arterial 
+      Cannula (Terumo Corporation, Tokyo, Japan), and an arterial/venous tubing. All 
+      trials were conducted at flow rates ranging from 200-800 mL/min (in 200 mL/min 
+      increments) under a blood temperature of 35°C using human blood (hematocrit 40%). 
+      The postcannula pressure was maintained 60 mm Hg by a Hoffman clamp. Real-time 
+      pressure and flow data were recorded using a Labview-based acquisition system 
+      (National Instruments, Austin, TX, USA). The results showed that the Medos 
+      Deltastream DP3 can generate effective pulsatile flow without backflow, provide 
+      higher flow rates and pressures than nonpulsatile flow, and then create surplus 
+      hemodynamic energy and more total hemodynamic energy than nonpulsatile flow. 
+      Pulsatility increased with increased speed differential values and flow rates, 
+      while the oxygenator pressure drop increased at an acceptable level. The Medos 
+      Deltastream DP3 diagonal pump can provide adequate quality of pulsatility without 
+      backflow, and generate more hemodynamic energy under pulsatile mode in a 
+      simulated pediatric ECLS system.
+CI  - © 2013, Copyright the Authors. Artificial Organs © 2013, International Center for 
+      Artificial Organs and Transplantation and Wiley Periodicals, Inc.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Department of Pediatrics, Surgery and Bioengineering, Penn State Hershey 
+      Pediatric Cardiovascular Research Center, Penn State Hershey Children's Hospital, 
+      Hershey, PA 17033-0850, USA.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+FAU - Ündar, Akif
+AU  - Ündar A
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Analysis of Variance
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - Hemodynamics
+MH  - Humans
+MH  - *Oxygenators, Membrane
+MH  - Pressure
+MH  - Pulsatile Flow
+EDAT- 2013/01/12 06:00
+MHDA- 2013/08/03 06:00
+CRDT- 2013/01/12 06:00
+PHST- 2013/01/12 06:00 [entrez]
+PHST- 2013/01/12 06:00 [pubmed]
+PHST- 2013/08/03 06:00 [medline]
+AID - 10.1111/aor.12015 [doi]
+PST - ppublish
+SO  - Artif Organs. 2013 Jan;37(1):37-47. doi: 10.1111/aor.12015.
+
+PMID- 29193160
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180914
+LR  - 20180914
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 42
+IP  - 4
+DP  - 2018 Apr
+TI  - Multicenter Experience With Mechanical Circulatory Support Using a New Diagonal 
+      Pump in 233 Children.
+PG  - 377-385
+LID - 10.1111/aor.13016 [doi]
+AB  - Technological innovations in pediatric extracorporeal life support circuits can 
+      reduce system-related complications and may improve patients' outcome. The 
+      Deltastream DP3 (Medos Medizintechnik AG, Stolberg, Germany) is a novel 
+      rotational pump with a diagonally streamed impeller that can be used over a broad 
+      range of flows. We collected patient data from seven pediatric centers to conduct 
+      a retrospective cohort study. We examined 233 patients whose median age was 1.9 
+      (0-201) months. The DP3 system was used for cardiopulmonary support as 
+      veno-arterial extracorporeal membrane oxygenation (ECMO) in 162 patients. 
+      Respiratory support via veno-venous ECMO was provided in 63 patients. The pump 
+      was used as a ventricular assist device in eight patients. Median supporting time 
+      was 5.5 (0.2-69) days and the weaning rate was 72.5%. The discharge home rate was 
+      62% in the pulmonary group versus 55% in the cardiac group. Extracorporeal 
+      cardiopulmonary resuscitation was carried out in 24 patients (10%) with a 
+      survival to discharge of rate of 37.5%. About 106 (47%) children experienced no 
+      complications, while 33% suffered bleeding requiring blood transfusion or 
+      surgical intervention. Three patients suffered a fatal cerebral event. Renal 
+      replacement therapy was performed in 28% and pump or oxygenator exchange in 26%. 
+      Multivariable analysis identified system exchange (OR 1.94), kidney failure (OR 
+      3.43), and complications on support (OR 2.56) as risk factors for dismal outcome. 
+      This novel diagonal pump has demonstrated its efficacy in all kinds of mechanical 
+      circulatory and respiratory support, revealing good survival rates.
+CI  - © 2017 International Center for Artificial Organs and Transplantation and Wiley 
+      Periodicals, Inc.
+FAU - Stiller, Brigitte
+AU  - Stiller B
+AUID- ORCID: 0000-0002-7657-4647
+AD  - Department of Congenital Heart Disease and Pediatric Cardiology, Faculty of 
+      Medicine, University Heart Center Freiburg - Bad Krozingen, Medical Center - 
+      University of Freiburg, Germany.
+FAU - Houmes, Robert Jan
+AU  - Houmes RJ
+AD  - Intensive Care Erasmus MC Sophia Children's Hospital, Rotterdam, The Netherlands.
+FAU - Rüffer, André
+AU  - Rüffer A
+AD  - Department of Pediatric Cardiac Surgery, Friedrich-Alexander-University, 
+      Erlangen-Nuernberg (FAU), Erlangen, Germany.
+FAU - Kumpf, Matthias
+AU  - Kumpf M
+AD  - Department of Pediatric Cardiology, Pulmonology and Intensive Care Medicine, 
+      University Children's Hospital, Tuebingen, Germany.
+FAU - Müller, Andreas
+AU  - Müller A
+AD  - Department of Neonatology and Pediatric Critical Care, University Children's 
+      Hospital Bonn, Bonn, Germany.
+FAU - Kipfmüller, Florian
+AU  - Kipfmüller F
+AUID- ORCID: 0000-0002-7414-757X
+AD  - Department of Neonatology and Pediatric Critical Care, University Children's 
+      Hospital Bonn, Bonn, Germany.
+FAU - Köditz, Harald
+AU  - Köditz H
+AD  - Medical University Children's Hospital, Hannover, Germany.
+FAU - Herber Jonat, Susanne
+AU  - Herber Jonat S
+AD  - Division of Neonatology, Dr. von Hauner Children's Hospital, Perinatal Center 
+      Grosshadern, Ludwig-Maximilians-University, Munich, Germany.
+FAU - Schmoor, Claudia
+AU  - Schmoor C
+AD  - Clinical Trials Unit, Medical Center, University of Freiburg, Freiburg, Germany.
+FAU - Benk, Christoph
+AU  - Benk C
+AD  - Department of Cardio-Vascular Surgery, Faculty of Medicine, University Heart 
+      Center Freiburg - Bad Krozingen, Medical Center - University of Freiburg, 
+      Freiburg, Germany.
+FAU - Tibboel, Dick
+AU  - Tibboel D
+AD  - Intensive Care Erasmus MC Sophia Children's Hospital, Rotterdam, The Netherlands.
+FAU - Fleck, Thilo
+AU  - Fleck T
+AUID- ORCID: 0000-0003-4531-5930
+AD  - Department of Congenital Heart Disease and Pediatric Cardiology, Faculty of 
+      Medicine, University Heart Center Freiburg - Bad Krozingen, Medical Center - 
+      University of Freiburg, Germany.
+LA  - eng
+PT  - Journal Article
+PT  - Multicenter Study
+DEP - 20171129
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Adolescent
+MH  - Cardiopulmonary Resuscitation/adverse effects/*instrumentation/methods/mortality
+MH  - Child
+MH  - Child, Preschool
+MH  - Europe
+MH  - Extracorporeal Membrane Oxygenation/adverse effects/*instrumentation/methods
+MH  - Female
+MH  - Heart-Assist Devices/adverse effects
+MH  - Hemorrhage/*epidemiology/etiology
+MH  - Humans
+MH  - Infant
+MH  - Infant, Newborn
+MH  - Intensive Care Units/statistics & numerical data
+MH  - Life Support Systems/*instrumentation
+MH  - Male
+MH  - Oxygenators
+MH  - Pulsatile Flow
+MH  - Renal Insufficiency/*epidemiology/etiology
+MH  - Retrospective Studies
+MH  - Survival Rate
+MH  - Treatment Outcome
+OTO - NOTNLM
+OT  - Extracorporeal cardiopulmonary resuscitation
+OT  - Extracorporeal membrane oxygenation
+OT  - Mechanical circulatory support
+OT  - Pediatric heart failure
+EDAT- 2017/12/02 06:00
+MHDA- 2018/09/15 06:00
+CRDT- 2017/12/02 06:00
+PHST- 2017/02/28 00:00 [received]
+PHST- 2017/07/12 00:00 [revised]
+PHST- 2017/07/24 00:00 [accepted]
+PHST- 2017/12/02 06:00 [pubmed]
+PHST- 2018/09/15 06:00 [medline]
+PHST- 2017/12/02 06:00 [entrez]
+AID - 10.1111/aor.13016 [doi]
+PST - ppublish
+SO  - Artif Organs. 2018 Apr;42(4):377-385. doi: 10.1111/aor.13016. Epub 2017 Nov 29.
+
+PMID- 24406272
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20150512
+LR  - 20140827
+IS  - 1477-111X (Electronic)
+IS  - 0267-6591 (Linking)
+VI  - 29
+IP  - 5
+DP  - 2014 Sep
+TI  - A comparison study of haemolysis production in three contemporary centrifugal 
+      pumps.
+PG  - 411-6
+LID - 10.1177/0267659113509000 [doi]
+AB  - One challenge in providing extracorporeal circulation is to supply optimal flow 
+      while minimising adverse effects, such as haemolysis. To determine if the recent 
+      generation constrained vortex pumps with their inherent design improvements would 
+      lead to reduced red cell trauma, we undertook a study comparing three devices. 
+      Utilizing a simulated short-term ventricular assist circuit primed with whole 
+      human blood, we examined changes in plasma free haemoglobin values over a six-day 
+      period. The three pumps investigated were the Maquet Rotaflow, the Levitronix 
+      PediVAS and the Medos Deltastream DP3.This study demonstrated that all three 
+      pumps produced low levels of haemolysis and are suitable for use in a clinical 
+      environment. The Levitronix PediVAS was significantly less haemolytic than either 
+      the Rotaflow (p<0.05) or the DP3 (p<0.05). There was no significant difference in 
+      plasma free haemoglobin between the Rotaflow and the DP3 (p=0.71).
+CI  - © The Author(s) 2014.
+FAU - Bottrell, S
+AU  - Bottrell S
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia 
+      steve.bottrell@rch.org.au.
+FAU - Bennett, M
+AU  - Bennett M
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia.
+FAU - Augustin, S
+AU  - Augustin S
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia.
+FAU - Thuys, C
+AU  - Thuys C
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia.
+FAU - Schultz, B
+AU  - Schultz B
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia.
+FAU - Horton, A
+AU  - Horton A
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia.
+FAU - Horton, S
+AU  - Horton S
+AD  - Perfusion Department, Royal Children's Hospital, Melbourne, Victoria, Australia 
+      Department of Paediatrics, Melbourne University, Melbourne, Victoria, Australia.
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+DEP - 20140109
+PL  - England
+TA  - Perfusion
+JT  - Perfusion
+JID - 8700166
+RN  - 0 (Hemoglobins)
+SB  - IM
+MH  - Extracorporeal Circulation/*instrumentation
+MH  - Female
+MH  - *Heart-Assist Devices
+MH  - Hemoglobins/analysis
+MH  - *Hemolysis
+MH  - Humans
+MH  - Male
+OTO - NOTNLM
+OT  - ECLS
+OT  - ECMO
+OT  - VAD
+OT  - centrifugal pump
+OT  - diagonal pump
+OT  - haemolysis
+OT  - hybrid pump
+EDAT- 2014/01/11 06:00
+MHDA- 2015/05/13 06:00
+CRDT- 2014/01/11 06:00
+PHST- 2014/01/11 06:00 [entrez]
+PHST- 2014/01/11 06:00 [pubmed]
+PHST- 2015/05/13 06:00 [medline]
+AID - 0267659113509000 [pii]
+AID - 10.1177/0267659113509000 [doi]
+PST - ppublish
+SO  - Perfusion. 2014 Sep;29(5):411-6. doi: 10.1177/0267659113509000. Epub 2014 Jan 9.
+
+PMID- 28397410
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170606
+LR  - 20170606
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 41
+IP  - 4
+DP  - 2017 Apr
+TI  - Building a Better Neonatal Extracorporeal Life Support Circuit: Comparison of 
+      Hemodynamic Performance and Gaseous Microemboli Handling in Different Pump and 
+      Oxygenator Technologies.
+PG  - 392-400
+LID - 10.1111/aor.12908 [doi]
+AB  - Neurologic complications during neonatal extracorporeal life support (ECLS) are 
+      associated with significant morbidity and mortality. Gaseous microemboli (GME) in 
+      the ECLS circuit may be a possible cause. Advances in neonatal circuitry may 
+      improve hemodynamic performance and GME handling leading to reduction in patient 
+      complications. This study compared hemodynamic performance and GME handling using 
+      two centrifugal pumps (Maquet RotaFlow and Medos Deltastream DP3) and 
+      polymethylpentene oxygenators (Maquet Quadrox-iD and Medos Hilite 800LT) in a 
+      neonatal ECLS circuit model. The experimental circuit was primed with Lactated 
+      Ringer's solution and packed human red blood cells (hematocrit 40%) and arranged 
+      in parallel with the RotaFlow and DP3 pump, Quadrox-iD and Hilite oxygenator, and 
+      Better-Bladder. Hemodynamic trials evaluating pressure drops and total 
+      hemodynamic energy (THE) were conducted at 300 and 500 mL/min at 36°C. GME 
+      handling was measured after 0.5 mL of air was injected into the venous line using 
+      the Emboli Detection and Classification Quantifier System with unique pump, 
+      oxygenator, and Better-Bladder combinations. The RotaFlow pump and Quadrox 
+      oxygenator arrangement had lower pressure drops and THE loss at both flow rates 
+      compared to the DP3 pump and Hilite oxygenator (P < 0.01). Total GME volume and 
+      counts decreased with Better-Bladder at both flow rates with all combinations 
+      (P < 0.01). Hemodynamic performance and energy loss were similar in all of the 
+      circuit combinations. The Better-Bladder significantly decreased GME. All four 
+      combinations of pumps and oxygenators also performed similarly in terms of GME 
+      handling.
+CI  - © 2017 International Center for Artificial Organs and Transplantation and Wiley 
+      Periodicals, Inc.
+FAU - Glass, Kristen
+AU  - Glass K
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+AD  - Neonatal Intensive Care Unit, Penn State Hershey College of Medicine, Penn State 
+      Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Trivedi, Payal
+AU  - Trivedi P
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+AD  - Neonatal Intensive Care Unit, Penn State Hershey College of Medicine, Penn State 
+      Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+FAU - Woitas, Karl
+AU  - Woitas K
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+AD  - Public Health and Sciences, Penn State Hershey College of Medicine, Penn State 
+      Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Ündar, Akif
+AU  - Ündar A
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Hershey College of Medicine, Penn State Hershey Children's 
+      Hospital, Hershey, PA, USA.
+AD  - Surgery and Bioengineering, Penn State Milton S. Hershey Medical Center, Penn 
+      State Hershey College of Medicine, Penn State Hershey Children's Hospital, 
+      Hershey, PA, USA.
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Embolism, Air/*prevention & control
+MH  - Equipment Design/*methods
+MH  - Extracorporeal Membrane Oxygenation/adverse effects/*instrumentation/methods
+MH  - *Heart-Assist Devices
+MH  - *Hemodynamics
+MH  - Humans
+MH  - Infant, Newborn
+MH  - Models, Cardiovascular
+MH  - Nervous System Diseases/prevention & control
+MH  - *Oxygenators, Membrane
+MH  - Pressure
+OTO - NOTNLM
+OT  - -Gaseous microemboli
+OT  - -Hemodynamic performance
+OT  - -Neonate
+OT  - -Oxygenator
+OT  - -Pump
+OT  - Extracorporeal life support
+EDAT- 2017/04/12 06:00
+MHDA- 2017/06/07 06:00
+CRDT- 2017/04/12 06:00
+PHST- 2016/09/01 00:00 [received]
+PHST- 2016/10/20 00:00 [revised]
+PHST- 2017/04/12 06:00 [entrez]
+PHST- 2017/04/12 06:00 [pubmed]
+PHST- 2017/06/07 06:00 [medline]
+AID - 10.1111/aor.12908 [doi]
+PST - ppublish
+SO  - Artif Organs. 2017 Apr;41(4):392-400. doi: 10.1111/aor.12908.
+
+PMID- 23979986
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140703
+LR  - 20131011
+IS  - 1873-734X (Electronic)
+IS  - 1010-7940 (Linking)
+VI  - 44
+IP  - 5
+DP  - 2013 Nov
+TI  - First serial in vivo results of mechanical circulatory support in children with a 
+      new diagonal pump.
+PG  - 828-35
+LID - 10.1093/ejcts/ezt427 [doi]
+AB  - OBJECTIVES: Mechanical circulatory support (MCS) is a rescue therapy for infants 
+      and children suffering from severe cardiorespiratory failure with specific 
+      system-related complications like bleeding, thromboembolism and device failure. 
+      Novel circuit components for temporary MCS with improved haemodynamic properties 
+      may improve patients' outcome and reduce system-related morbidities. The 
+      Deltastream DP3 (Medos Medizintechnik AG, Stolberg, Germany) is a newly designed 
+      rotational pump with a diagonally streamed impeller that can be used in children 
+      of all ages (priming volume 16 ml, flow 0-8 l/min). The aim of this study was to 
+      analyse the feasibility and safety of the DP3 pump system in children. METHODS: 
+      We retrospectively investigated a consecutive series of 16 children [median age 
+      0.9 months (0.1-55 months), median weight 3.2 kg (2.5-14 kg)]. The DP3 circuit 
+      was used 22 times in these children for different indications: (I) extracorporeal 
+      life support (ECLS) in post-cardiotomy heart failure (n = 11), (II) ECLS in 
+      cardiopulmonary resuscitation (CPR) (n = 7) and (III) extracorporeal membrane 
+      oxygenation (ECMO) in acute respiratory distress syndrome (ARDS) (n = 4). 
+      RESULTS: Median duration of MCS was 4 days (0-18 days), 12 patients (75%) were 
+      weaned successfully from MCS, 4 of these children (25%) died after weaning, with 
+      a median survival time of 15 days (6-28 days). Overall survival rate was 50% and 
+      all 8 survivors were discharged home without neurological injury. There was no 
+      case of severe bleeding, thromboembolic complications or device failure. Mean 
+      lactate dehydrogenase (LDH) before MCS was 700 (±384) U/l, and increased to a 
+      maximum of 2279 (±2635) U/l during MCS (P = 0.04). Baseline D-dimer values were 
+      3.4 (±3.0) mg/l and rose significantly to 19.5 (±11.5) mg/l during MCS (P < 
+      0.001). The mean of the highest plasma-free haemoglobin during MCS was 21.0 
+      (±42.9) mg/dl. The increase in plasma-free haemoglobin correlated moderately with 
+      the duration of MCS (Pearson's r: 0.78). CONCLUSION: The use of the Deltastream 
+      DP3 seems to be safe and effective for MCS in children and may show a low degree 
+      of haemolysis. We observed no system-related complications and an overall good 
+      outcome in this demanding patient cohort.
+FAU - Fleck, Thilo
+AU  - Fleck T
+AD  - Department of Congenital Heart Disease and Paediatric Cardiology, University 
+      Heart Centre Freiburg, Freiburg, Germany.
+FAU - Benk, Christoph
+AU  - Benk C
+FAU - Klemm, Rolf
+AU  - Klemm R
+FAU - Kroll, Johannes
+AU  - Kroll J
+FAU - Siepe, Matthias
+AU  - Siepe M
+FAU - Grohmann, Jochen
+AU  - Grohmann J
+FAU - Höhn, René
+AU  - Höhn R
+FAU - Humburger, Frank
+AU  - Humburger F
+FAU - Beyersdorf, Friedhelm
+AU  - Beyersdorf F
+FAU - Stiller, Brigitte
+AU  - Stiller B
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20130826
+PL  - Germany
+TA  - Eur J Cardiothorac Surg
+JT  - European journal of cardio-thoracic surgery : official journal of the European 
+      Association for Cardio-thoracic Surgery
+JID - 8804069
+SB  - IM
+MH  - Cardiac Catheterization
+MH  - Child, Preschool
+MH  - Extracorporeal Circulation/adverse effects/instrumentation/*methods
+MH  - Female
+MH  - Heart Defects, Congenital/physiopathology/*surgery
+MH  - Heart Failure/physiopathology/*surgery
+MH  - Hemodynamics
+MH  - Hemolysis
+MH  - Humans
+MH  - Infant
+MH  - Infant, Newborn
+MH  - Male
+MH  - Postoperative Complications/etiology
+MH  - Retrospective Studies
+MH  - Survival Rate
+MH  - Treatment Outcome
+OTO - NOTNLM
+OT  - Children
+OT  - Congenital heart disease
+OT  - Extracorporeal life support
+OT  - Extracorporeal membrane oxygenation
+OT  - Mechanical circulatory support
+OT  - Rotational pump
+EDAT- 2013/08/28 06:00
+MHDA- 2014/07/06 06:00
+CRDT- 2013/08/28 06:00
+PHST- 2013/08/28 06:00 [entrez]
+PHST- 2013/08/28 06:00 [pubmed]
+PHST- 2014/07/06 06:00 [medline]
+AID - ezt427 [pii]
+AID - 10.1093/ejcts/ezt427 [doi]
+PST - ppublish
+SO  - Eur J Cardiothorac Surg. 2013 Nov;44(5):828-35. doi: 10.1093/ejcts/ezt427. Epub 
+      2013 Aug 26.
+
+PMID- 37659588
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20231127
+LR  - 20231127
+IS  - 1097-6833 (Electronic)
+IS  - 0022-3476 (Linking)
+VI  - 263
+DP  - 2023 Dec
+TI  - Hemolysis during Venovenous Extracorporeal Membrane Oxygenation in Neonates with 
+      Congenital Diaphragmatic Hernia: A Prospective Observational Study.
+PG  - 113713
+LID - S0022-3476(23)00576-0 [pii]
+LID - 10.1016/j.jpeds.2023.113713 [doi]
+AB  - OBJECTIVE: To investigate the incidence of hemolysis and its association with 
+      outcome in neonates with congenital diaphragmatic hernia (CDH) requiring 
+      venovenous extracorporeal membrane oxygenation (ECMO) treatment using a Medos 
+      Deltastream circuit with a DP3 pump, a hilite 800 LT oxygenator system, and a ¼' 
+      tubing. STUDY DESIGN: Plasma free hemoglobin (PFH) was prospectively measured 
+      once daily during ECMO using spectrophotometric testing. Patients (n = 62) were 
+      allocated into two groups according to presence or absence of hemolysis. 
+      Hemolysis was defined as PFH ≥ 50 mg/dL on at least 2 consecutive days during 
+      ECMO treatment. Hemolysis was classified as either moderate with a maximum PFH of 
+      50-100 mg/dL or severe with a maximum PFH >100 mg/dL. RESULTS: Hemolysis was 
+      detected in 14 patients (22.6%). Mortality was 100% in neonates with hemolysis 
+      compared with 31.1% in neonates without hemolysis (P < .001). In 21.4% hemolysis 
+      was moderate and in 78.6% severe. Using multivariable analysis, hemolysis (hazard 
+      ratio: 6.8; 95%CI: 1.86-24.86) and suprasystemic pulmonary hypertension (PH) 
+      (hazard ratio: 3.07; 95%CI: 1.01-9.32) were independently associated with 
+      mortality. Hemolysis occurred significantly more often using 8 French (Fr) 
+      cannulae than 13 Fr cannulae (43% vs 17%; P = .039). Cutoff for relative ECMO 
+      flow to predict hemolysis were 115 ml/kg/ minute for patients with 8 Fr cannulae 
+      (Area under the curve [AUC] 0.786, P = .042) and 100 ml/kg/ minute for patients 
+      with 13 Fr cannulae (AUC 0.840, P < .001). CONCLUSIONS: Hemolysis in CDH neonates 
+      receiving venovenous ECMO is independently associated with mortality.
+CI  - Copyright © 2023 Elsevier Inc. All rights reserved.
+FAU - Lemloh, Lotte
+AU  - Lemloh L
+AD  - Department of Neonatology and Pediatric Intensive Care, Children's Hospital, 
+      University of Bonn, Bonn, Germany.
+FAU - Bo, Bartolomeo
+AU  - Bo B
+AD  - Department of Neonatology and Pediatric Intensive Care, Children's Hospital, 
+      University of Bonn, Bonn, Germany.
+FAU - Ploeger, Hannah
+AU  - Ploeger H
+AD  - Department of Neonatology and Pediatric Intensive Care, Children's Hospital, 
+      University of Bonn, Bonn, Germany.
+FAU - Dolscheid-Pommerich, Ramona
+AU  - Dolscheid-Pommerich R
+AD  - Institute of Clinical Chemistry and Clinical Pharmacology, University Hospital 
+      Bonn, Bonn, Germany.
+FAU - Mueller, Andreas
+AU  - Mueller A
+AD  - Department of Neonatology and Pediatric Intensive Care, Children's Hospital, 
+      University of Bonn, Bonn, Germany.
+FAU - Kipfmueller, Florian
+AU  - Kipfmueller F
+AD  - Department of Neonatology and Pediatric Intensive Care, Children's Hospital, 
+      University of Bonn, Bonn, Germany. Electronic address: 
+      florian.kipfmueller@ukbonn.de.
+LA  - eng
+PT  - Journal Article
+PT  - Observational Study
+DEP - 20230901
+PL  - United States
+TA  - J Pediatr
+JT  - The Journal of pediatrics
+JID - 0375410
+SB  - IM
+MH  - Infant, Newborn
+MH  - Humans
+MH  - *Hernias, Diaphragmatic, Congenital/complications/therapy
+MH  - *Extracorporeal Membrane Oxygenation/adverse effects
+MH  - Hemolysis
+MH  - Prospective Studies
+MH  - Retrospective Studies
+OTO - NOTNLM
+OT  - congenital diaphragmatic hernia
+OT  - extracorporeal life support
+OT  - hemolysis
+OT  - plasma free hemoglobin
+OT  - venovenous
+COIS- Declaration of Competing Interest The authors declare no conflicts of interests.
+EDAT- 2023/09/03 00:41
+MHDA- 2023/11/27 12:44
+CRDT- 2023/09/02 19:25
+PHST- 2023/05/09 00:00 [received]
+PHST- 2023/08/24 00:00 [revised]
+PHST- 2023/08/29 00:00 [accepted]
+PHST- 2023/11/27 12:44 [medline]
+PHST- 2023/09/03 00:41 [pubmed]
+PHST- 2023/09/02 19:25 [entrez]
+AID - S0022-3476(23)00576-0 [pii]
+AID - 10.1016/j.jpeds.2023.113713 [doi]
+PST - ppublish
+SO  - J Pediatr. 2023 Dec;263:113713. doi: 10.1016/j.jpeds.2023.113713. Epub 2023 Sep 
+      1.
+
+PMID- 24237183
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140929
+LR  - 20191210
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 38
+IP  - 1
+DP  - 2014 Jan
+TI  - In vitro performance analysis of a novel pulsatile diagonal pump in a simulated 
+      pediatric mechanical circulatory support system.
+PG  - 64-72
+LID - 10.1111/aor.12181 [doi]
+AB  - The objective of this study was to evaluate the pump performance of the 
+      third-generation Medos diagonal pump, the Deltastream DP3, on hemodynamic profile 
+      and pulsatility in a simulated pediatric mechanical circulatory support (MCS) 
+      system. The experimental circuit consisted of a Medos Deltastream DP3 pump head 
+      and console (MEDOS Medizintechnik AG, Stolberg, Germany), a 14-Fr Terumo 
+      TenderFlow Pediatric arterial cannula and a 20-Fr Terumo TenderFlow Pediatric 
+      venous return cannula (Terumo Corporation, Tokyo, Japan), and 3 ft of tubing with 
+      an internal diameter of in. for both arterial and venous lines. Trials were 
+      conducted at flow rates ranging from 250 mL/min to 1000 mL/min (250-mL/min 
+      increments) and rotational speeds ranging from 1000 to 4000 rpm (1000-rpm 
+      increments) using human blood (hematocrit 40%). The postcannula pressure was 
+      maintained at 60 mm Hg by a Hoffman clamp. Real-time pressure and flow data were 
+      recorded using a Labview-based acquisition system. The pump provided adequate 
+      nonpulsatile and pulsatile flow, created more hemodynamic energy under pulsatile 
+      mode, and generated higher positive and negative pressures when the inlet and 
+      outlet of the pump head, respectively, were clamped. After the conversion from 
+      nonpulsatile to pulsatile mode, the flow rates and the rotational speeds 
+      increased. In conclusion, the novel Medos Deltastream DP3 diagonal pump is able 
+      to supply the required flow rate for pediatric MCS, generate adequate quality of 
+      pulsatility, and provide surplus hemodynamic energy output in a simulated 
+      pediatric MCS system.
+CI  - © 2013 Wiley Periodicals, Inc. and International Center for Artificial Organs and 
+      Transplantation.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Pediatric Cardiovascular Research Center, Penn State Hershey Children's Hospital, 
+      Penn State Milton S. Hershey Medical Center, Department of Pediatrics, Penn State 
+      Hershey College of Medicine, Hershey, USA.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+FAU - Ündar, Akif
+AU  - Ündar A
+LA  - eng
+PT  - Evaluation Study
+PT  - Journal Article
+DEP - 20131114
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Child
+MH  - Computer Simulation
+MH  - Equipment Design
+MH  - *Heart-Assist Devices
+MH  - Hemodynamics
+MH  - Humans
+MH  - Models, Cardiovascular
+MH  - *Pulsatile Flow
+OTO - NOTNLM
+OT  - Diagonal pump
+OT  - Pediatric mechanical circulatory support
+OT  - Pediatrics
+OT  - Pulsatile flow
+EDAT- 2013/11/19 06:00
+MHDA- 2014/09/30 06:00
+CRDT- 2013/11/19 06:00
+PHST- 2013/11/19 06:00 [entrez]
+PHST- 2013/11/19 06:00 [pubmed]
+PHST- 2014/09/30 06:00 [medline]
+AID - 10.1111/aor.12181 [doi]
+PST - ppublish
+SO  - Artif Organs. 2014 Jan;38(1):64-72. doi: 10.1111/aor.12181. Epub 2013 Nov 14.
+
+PMID- 23876021
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140929
+LR  - 20140107
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 38
+IP  - 1
+DP  - 2014 Jan
+TI  - In vitro comparison of the delivery of gaseous microemboli and hemodynamic energy 
+      for a diagonal and a roller pump during simulated infantile cardiopulmonary 
+      bypass procedures.
+PG  - 56-63
+LID - 10.1111/aor.12126 [doi]
+AB  - Cardiopulmonary bypass (CPB) is used for a variety of procedures in pediatric 
+      patients. Flow settings of the CPB pump have dramatic effects on patient outcome, 
+      and gaseous microemboli delivery within the CPB circuit has been linked to 
+      neurological complications. To ensure the ongoing improvement of pediatric CPB, 
+      consistent evaluation and improvement of the equipment is necessary. In this 
+      study we analyze the Jostra HL-20 roller pump (Jostra USA, Austin, TX, USA) and a 
+      Medos Deltastream DP3 diagonal pump (MEDOS Medizintechnik AG, Stolberg, Germany) 
+      which has not yet received Food and Drug Administration approval. An infant CPB 
+      model with heparinized human blood is used to quantify the gaseous microemboli 
+      delivery (via an Emboli Detection and Classification Quantifier), as well as the 
+      hemodynamic energy delivered under flow rates of 400, 800, and 1200 mL/min. 
+      Results show that at most flow settings the DP3 delivers fewer microemboli than 
+      the Jostra roller pump at the pre-oxygenator site, with an exception at 
+      1200 mL/min under pulsatile mode. The total volume and the number of gaseous 
+      microemboli greater than 40 μm in diameter were lower in the DP3 group. The HL-20 
+      exhibits less stolen blood flow (except at 1200 mL/min) and oxygenator pressure 
+      drops in both pulsatile and nonpulsatile mode. Additionally, under pulsatile flow 
+      the DP3 delivers greater surplus hemodynamic energy. Both pumps produce 
+      relatively few microemboli and deliver adequate hemodynamic energy to the 
+      pseudo-patient, with the DP3 performing slightly better under most flow settings.
+CI  - © 2013, Copyright the Authors. Artificial Organs © 2013 Wiley Periodicals, Inc. 
+      and International Center for Artificial Organs and Transplantation.
+FAU - Dhami, Ranjodh
+AU  - Dhami R
+AD  - Department of Pediatrics, Penn State Hershey Pediatric Cardiovascular Research 
+      Center, Penn State Hershey Children's Hospital, Hershey, PA, USA.
+FAU - Wang, Shigang
+AU  - Wang S
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+FAU - Ündar, Akif
+AU  - Ündar A
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+DEP - 20130722
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Cardiopulmonary Bypass/*adverse effects/*instrumentation
+MH  - Child
+MH  - Computer Simulation
+MH  - Embolism, Air/*diagnosis/*etiology
+MH  - Equipment Design
+MH  - *Hemodynamics
+MH  - Humans
+MH  - Models, Cardiovascular
+MH  - Oxygenators
+MH  - Pulsatile Flow
+OTO - NOTNLM
+OT  - Cardiopulmonary bypass
+OT  - Diagonal pump
+OT  - Gaseous microemboli
+OT  - Hemodynamic energy
+OT  - Pulsatile flow
+OT  - Roller pump
+EDAT- 2013/07/24 06:00
+MHDA- 2014/09/30 06:00
+CRDT- 2013/07/24 06:00
+PHST- 2013/07/24 06:00 [entrez]
+PHST- 2013/07/24 06:00 [pubmed]
+PHST- 2014/09/30 06:00 [medline]
+AID - 10.1111/aor.12126 [doi]
+PST - ppublish
+SO  - Artif Organs. 2014 Jan;38(1):56-63. doi: 10.1111/aor.12126. Epub 2013 Jul 22.
+
+PMID- 24660832
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20151020
+LR  - 20191210
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 39
+IP  - 1
+DP  - 2015 Jan
+TI  - Evaluation of conventional nonpulsatile and novel pulsatile extracorporeal life 
+      support systems in a simulated pediatric extracorporeal life support model.
+PG  - E1-9
+LID - 10.1111/aor.12290 [doi]
+AB  - The objective of this study is to evaluate two extracorporeal life support (ECLS) 
+      circuits and determine the effect of pulsatile flow on pressure drop, 
+      flow/pressure waveforms, and hemodynamic energy levels in a pediatric 
+      pseudopatient. One ECLS circuit consisted of a Medos Deltastream DP3 diagonal 
+      pump and Hilite 2400 LT oxygenator with arterial/venous tubing. The second 
+      circuit consisted of a Maquet RotaFlow centrifugal pump and Quadrox-iD Pediatric 
+      oxygenator with arterial/venous tubing. A 14Fr Medtronic Bio-Medicus one-piece 
+      pediatric arterial cannula was used for both circuits. All trials were conducted 
+      at flow rates ranging from 500 to 2800 mL/min using pulsatile or nonpulsatile 
+      flow. The post-cannula pressure was maintained at 50 mm Hg. Blood temperature was 
+      maintained at 36°C. Real-time pressure and flow data were recorded using a 
+      custom-based data acquisition system. The results showed that the Deltastream DP3 
+      circuit produced surplus hemodynamic energy (SHE) in pulsatile mode at all flow 
+      rates, with greater SHE delivery at lower flow rates. Neither circuit produced 
+      SHE in nonpulsatile mode. The Deltastream DP3 pump also demonstrated consistently 
+      higher total hemodynamic energy at the pre-oxygenator site in pulsatile mode and 
+      a lesser pressure drop across the oxygenator. The Deltastream DP3 pump generated 
+      physiological pulsatility without backflow and provided increased hemodynamic 
+      energy. This novel ECLS circuit demonstrates suitable in vitro performance and 
+      adaptability to a wide range of pediatric patients.
+CI  - Copyright © 2014 International Center for Artificial Organs and Transplantation 
+      and Wiley Periodicals, Inc.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Pediatric Cardiovascular Research Center, Penn State Hershey Children's Hospital, 
+      Penn State Milton S. Hershey Medical Center, Department of Pediatrics, Penn State 
+      Hershey College of Medicine, Hershey, PA, USA.
+FAU - Evenson, Alissa
+AU  - Evenson A
+FAU - Chin, Brian J
+AU  - Chin BJ
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+FAU - Ündar, Akif
+AU  - Ündar A
+LA  - eng
+PT  - Comparative Study
+PT  - Evaluation Study
+PT  - Journal Article
+DEP - 20140324
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Acceleration
+MH  - Analysis of Variance
+MH  - Equipment Design
+MH  - Equipment Safety
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - *Heart-Assist Devices
+MH  - Hemodynamics/*physiology
+MH  - Humans
+MH  - Life Support Systems/*instrumentation
+MH  - Models, Cardiovascular
+MH  - Oxygenators
+MH  - Pediatrics
+MH  - Pulsatile Flow/*physiology
+MH  - Sensitivity and Specificity
+OTO - NOTNLM
+OT  - Centrifugal pump
+OT  - Diagonal pump
+OT  - Extracorporeal life support
+OT  - Pediatrics
+OT  - Pulsatile flow
+EDAT- 2014/03/26 06:00
+MHDA- 2015/10/21 06:00
+CRDT- 2014/03/26 06:00
+PHST- 2014/03/26 06:00 [entrez]
+PHST- 2014/03/26 06:00 [pubmed]
+PHST- 2015/10/21 06:00 [medline]
+AID - 10.1111/aor.12290 [doi]
+PST - ppublish
+SO  - Artif Organs. 2015 Jan;39(1):E1-9. doi: 10.1111/aor.12290. Epub 2014 Mar 24.
+
+PMID- 26646464
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20160805
+LR  - 20220311
+IS  - 1530-0293 (Electronic)
+IS  - 0090-3493 (Linking)
+VI  - 44
+IP  - 4
+DP  - 2016 Apr
+TI  - Hemostatic Changes During Extracorporeal Membrane Oxygenation: A Prospective 
+      Randomized Clinical Trial Comparing Three Different Extracorporeal Membrane 
+      Oxygenation Systems.
+PG  - 747-54
+LID - 10.1097/CCM.0000000000001482 [doi]
+AB  - OBJECTIVE: Extracorporeal membrane oxygenation is a rescue therapy for patients 
+      with severe lung failure. Major complications caused by extracorporeal membrane 
+      oxygenation are bleeding, thrombosis, and hemolysis. The aim of this study was to 
+      compare the impact of different extracorporeal membrane oxygenation systems on 
+      blood hemostasis in adults during veno-venous extracorporeal membrane oxygenation 
+      therapy. DESIGN: Single center prospective randomized study. SETTING: University 
+      Hospital Regensburg, Germany. PATIENTS: Adult patients with severe acute 
+      respiratory distress syndrome requiring veno-venous extracorporeal membrane 
+      oxygenation therapy. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Three 
+      different extracorporeal membrane oxygenation systems: the Cardiohelp system 
+      (Maquet Cardiopulmonary AG), the Dideco ECC.O5 (Sorin Group), and the Deltastream 
+      system with Hilite 7000 LT + DP3 pumphead (Medos Medizintechnik AG) were 
+      compared. Therefore hemostasis, anticoagulation, hemolysis, and inflammatory 
+      parameters were monitored. Of the 54 patients included in the study, 18 patients 
+      each were randomly assigned to the three different extracorporeal membrane 
+      oxygenation systems. Exclusion criteria were acute renal failure, trauma, and 
+      surgery within 2 days. The median time on veno-venous extracorporeal membrane 
+      oxygenation support was 13.5 days (4-70 d). Median platelet count had dropped 
+      from 220.5 G/L before extracorporeal membrane oxygenation therapy to a minimum of 
+      133 G/L by the last day of extracorporeal membrane oxygenation support. During 
+      the first 5 days of extracorporeal membrane oxygenation therapy, prothrombin 
+      fragment 1.2 (F1.2) (1.36-2.4 µM), thrombin-antithrombin complex (14.5-50 µg/L), 
+      and D-dimers (6.00-27.0 mg/L) increased, whereas fibrinogen values dropped from 
+      5.8 to 4.1 g/L. The three different extracorporeal membrane oxygenation systems 
+      did not show any differences with regard to hemostasis, anticoagulation, 
+      hemolysis, and inflammatory parameters within the first 5 days of extracorporeal 
+      membrane oxygenation therapy. CONCLUSIONS: Over time, miniaturized veno-venous 
+      extracorporeal membrane oxygenation therapy increasingly activates coagulation. 
+      The different types of membrane oxygenators and pumps did not significantly alter 
+      hemostasis.
+FAU - Malfertheiner, Maximilian V
+AU  - Malfertheiner MV
+AD  - 1Department of Internal Medicine II, University Medical Center Regensburg, 
+      Regensburg, Germany. 2Department of Cardiothoracic Surgery, University Medical 
+      Center Regensburg, Regensburg, Germany. 3Center for Clinical Studies, University 
+      Medical Center Regensburg, Regensburg, Germany. 4Department of Laboratory 
+      Medicine, Children's and Women's Health, Faculty of Medicine, Norwegian 
+      University of Science and Technology, Trondheim, Norway. 5Department of 
+      Anesthesiology, University Medical Center Regensburg, Regensburg, Germany.
+FAU - Philipp, Alois
+AU  - Philipp A
+FAU - Lubnow, Matthias
+AU  - Lubnow M
+FAU - Zeman, Florian
+AU  - Zeman F
+FAU - Enger, Tone Bull
+AU  - Enger TB
+FAU - Bein, Thomas
+AU  - Bein T
+FAU - Lunz, Dirk
+AU  - Lunz D
+FAU - Schmid, Christof
+AU  - Schmid C
+FAU - Müller, Thomas
+AU  - Müller T
+FAU - Lehle, Karla
+AU  - Lehle K
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - Crit Care Med
+JT  - Critical care medicine
+JID - 0355501
+RN  - 0 (Anticoagulants)
+RN  - 0 (Peptide Fragments)
+RN  - 0 (prothrombin fragment 1.2)
+RN  - 9001-26-7 (Prothrombin)
+SB  - IM
+CIN - Crit Care Med. 2016 Jul;44(7):e591-2. PMID: 27309184
+CIN - Crit Care Med. 2016 Jul;44(7):e592-3. PMID: 27309185
+CIN - Crit Care Med. 2016 Nov;44(11):e1149-e1150. PMID: 27755091
+MH  - Adult
+MH  - Aged
+MH  - Anticoagulants/therapeutic use
+MH  - Blood Coagulation/physiology
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - Female
+MH  - Germany
+MH  - Hemolysis/*physiology
+MH  - Hemostasis/*physiology
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Peptide Fragments
+MH  - Prospective Studies
+MH  - Prothrombin
+MH  - Respiratory Distress Syndrome/physiopathology/*therapy
+MH  - Respiratory Insufficiency/therapy
+MH  - Thrombosis
+EDAT- 2015/12/10 06:00
+MHDA- 2016/08/06 06:00
+CRDT- 2015/12/10 06:00
+PHST- 2015/12/10 06:00 [entrez]
+PHST- 2015/12/10 06:00 [pubmed]
+PHST- 2016/08/06 06:00 [medline]
+AID - 10.1097/CCM.0000000000001482 [doi]
+PST - ppublish
+SO  - Crit Care Med. 2016 Apr;44(4):747-54. doi: 10.1097/CCM.0000000000001482.
+
+PMID- 26582749
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170117
+LR  - 20170117
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 40
+IP  - 10
+DP  - 2016 Oct
+TI  - Effects of Interaction Between Ventricular Assist Device Assistance and 
+      Autoregulated Mock Circulation Including Frank-Starling Mechanism and Baroreflex.
+PG  - 981-991
+LID - 10.1111/aor.12635 [doi]
+AB  - A mock heart circulation loop (MHCL) is a hydraulic model simulating the human 
+      circulatory system. It allows in vitro investigations of the interaction between 
+      cardiac assist devices and the human circulatory system. In this study, a preload 
+      sensitive MHCL, the MHCL(AUTO) , was developed to investigate the interaction 
+      between the left ventricle and left ventricular assist devices (LVADs). The 
+      Frank-Starling mechanism was modeled by regulating the stroke volume (SV) based 
+      on the measured mean diastolic left atrial pressure (MLAP(diast) ). The 
+      baroreflex autoregulation mechanism was implemented to maintain a constant mean 
+      aortic pressure (MAP) by varying ventricular contractility (E(max) ), heart rate 
+      (HR), afterload/systemic vascular resistance (SVR) and unstressed venous volume 
+      (UVV). The DP3 blood pump (Medos Medizintechnik GmbH) was used to simulate the 
+      LVAD. Characteristic parameters were measured in pathological conditions both 
+      with and without LVAD to assess the hemodynamic effect of LVAD on the MHCL(AUTO) 
+      . The results obtained from the MHCL(AUTO) show a high correlation to literature 
+      data. The study demonstrates the possibility of using the MHCL(AUTO) as a 
+      research tool to better understand the physiological interactions between cardiac 
+      implants and human circulation.
+CI  - Copyright © 2015 International Center for Artificial Organs and Transplantation 
+      and Wiley Periodicals, Inc.
+FAU - Jansen-Park, So-Hyun
+AU  - Jansen-Park SH
+AUID- ORCID: 0000-0003-2637-3799
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany. 
+      s.h.jansen@hia.rwth-aachen.de.
+FAU - Mahmood, Mohammad Nauzef
+AU  - Mahmood MN
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany.
+FAU - Müller, Indra
+AU  - Müller I
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany.
+FAU - Turnhoff, Lisa Kathrin
+AU  - Turnhoff LK
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany.
+FAU - Schmitz-Rode, Thomas
+AU  - Schmitz-Rode T
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany.
+FAU - Steinseifer, Ulrich
+AU  - Steinseifer U
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany.
+FAU - Sonntag, Simon Johannes
+AU  - Sonntag SJ
+AD  - Department of Cardiovascular Engineering, Institute of Applied Medical 
+      Engineering, Helmholtz Institute, RWTH Aachen University, Aachen, Germany.
+LA  - eng
+PT  - Journal Article
+DEP - 20151119
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - *Atrial Pressure
+MH  - *Baroreflex
+MH  - Computer Simulation
+MH  - *Heart-Assist Devices
+MH  - Hemodynamics
+MH  - Humans
+MH  - Models, Cardiovascular
+MH  - Prosthesis Design
+MH  - *Stroke Volume
+MH  - Ventricular Function, Left
+OTO - NOTNLM
+OT  - Baroreflex
+OT  - Frank-Starling mechanism
+OT  - Mock heart circulation loop
+OT  - Pressure-volume loop
+OT  - Ventricular assist device
+EDAT- 2015/11/20 06:00
+MHDA- 2017/01/18 06:00
+CRDT- 2015/11/20 06:00
+PHST- 2015/11/20 06:00 [pubmed]
+PHST- 2017/01/18 06:00 [medline]
+PHST- 2015/11/20 06:00 [entrez]
+AID - 10.1111/aor.12635 [doi]
+PST - ppublish
+SO  - Artif Organs. 2016 Oct;40(10):981-991. doi: 10.1111/aor.12635. Epub 2015 Nov 19.
+
+PMID- 27925247
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170127
+LR  - 20170127
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 41
+IP  - 1
+DP  - 2017 Jan
+TI  - Does Flexible Arterial Tubing Retain More Hemodynamic Energy During Pediatric 
+      Pulsatile Extracorporeal Life Support?
+PG  - 47-54
+LID - 10.1111/aor.12811 [doi]
+AB  - The objective of this study was to evaluate the hemodynamic performance and 
+      energy transmission of flexible arterial tubing as the arterial line in a 
+      simulated pediatric pulsatile extracorporeal life support (ECLS) system. The ECLS 
+      circuit consisted of a Medos Deltastream DP3 diagonal pump head, Medos Hilite 
+      2400 LT oxygenator, Biomedicus arterial/venous cannula (10 Fr/14 Fr), 3 feet of 
+      polyvinyl chloride (PVC) arterial tubing or latex rubber arterial tubing, primed 
+      with lactated Ringer's solution and packed red blood cells (hematocrit 40%). 
+      Trials were conducted at flow rates of 300 to 1200 mL/min (300 mL/min increments) 
+      under nonpulsatile and pulsatile modes at 36°C using either PVC arterial tubing 
+      (PVC group) or latex rubber tubing (Latex group). Real-time pressure and flow 
+      data were recorded using a custom-based data acquisition system. Mean pressures 
+      and energy equivalent pressures (EEP) were the same under nonpulsatile mode 
+      between the two groups. Under pulsatile mode, EEPs were significantly great than 
+      mean pressure, especially in the Latex group (P < 0.05). There was no difference 
+      between the two groups with regards to pressure drops across ECLS circuit, but 
+      pulsatile flow created more pressure drops than nonpulsatile flow (P < 0.05). 
+      Surplus hemodynamic energy (SHE) levels were always higher in the Latex group 
+      than in the PVC group at all sites. Although total hemodynamic energy (THE) 
+      losses were higher under pulsatile mode compared to nonpulsatile mode, more THE 
+      was delivered to the pseudopatient, particularly in the Latex group (P < 0.05). 
+      The results showed that the flexible arterial tubing retained more hemodynamic 
+      energy passing through it under pulsatile mode while mean pressures and pressure 
+      drops across the ECLS circuit were similar between PVC and latex rubber arterial 
+      tubing. Further studies are warranted to verify our findings.
+CI  - © 2016 International Center for Artificial Organs and Transplantation and Wiley 
+      Periodicals, Inc.
+FAU - Wang, Shigang
+AU  - Wang S
+AD  - Department of Pediatrics, Pediatric Cardiovascular Research Center.
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+AD  - Department of Public Health and Sciences.
+FAU - Ündar, Akif
+AU  - Ündar A
+AD  - Department of Pediatrics, Pediatric Cardiovascular Research Center.
+AD  - Department of Surgery and Bioengineering, Penn State Health Milton S. Hershey 
+      Medical Center, Penn State College of Medicine, Penn State Health Children's 
+      Hospital, Hershey, PA, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20161207
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Arteries/physiology/surgery
+MH  - Child
+MH  - Computer Simulation
+MH  - Equipment Design
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - Hemodynamics
+MH  - Humans
+MH  - Models, Cardiovascular
+MH  - Pressure
+MH  - Pulsatile Flow
+OTO - NOTNLM
+OT  - -Centrifugal pump
+OT  - -Latex rubber tubing
+OT  - -Pediatrics
+OT  - -Pulsatile flow
+OT  - Extracorporeal life support
+EDAT- 2016/12/08 06:00
+MHDA- 2017/01/28 06:00
+CRDT- 2016/12/08 06:00
+PHST- 2016/03/15 00:00 [received]
+PHST- 2016/06/03 00:00 [revised]
+PHST- 2016/12/08 06:00 [pubmed]
+PHST- 2017/01/28 06:00 [medline]
+PHST- 2016/12/08 06:00 [entrez]
+AID - 10.1111/aor.12811 [doi]
+PST - ppublish
+SO  - Artif Organs. 2017 Jan;41(1):47-54. doi: 10.1111/aor.12811. Epub 2016 Dec 7.
+
+PMID- 24372027
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20140929
+LR  - 20191210
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+VI  - 38
+IP  - 1
+DP  - 2014 Jan
+TI  - Use of a novel diagonal pump in an in vitro neonatal pulsatile extracorporeal 
+      life support circuit.
+PG  - E1-9
+LID - 10.1111/aor.12240 [doi]
+AB  - One approach with the potential to improve morbidity and mortality rates 
+      following extracorporeal life support (ECLS) is the use of pulsatile perfusion. 
+      Currently, no ECLS pumps used in the United States can produce pulsatile flow. 
+      The objective of this experiment is to evaluate a novel diagonal pump used in 
+      Europe to determine whether it provides physiological pulsatility in a neonatal 
+      model. The ECLS circuit consisted of a Medos Deltastream DP3 diagonal pump, a 
+      Hilite 800LT polymethylpentene diffusion membrane oxygenator, and arterial/venous 
+      tubing. A 300-mL pseudopatient was connected to the circuit using an 8Fr arterial 
+      cannula and a 10Fr venous cannula. A clamp maintained constant pressure entering 
+      the pseudopatient. Trials (64 total) were conducted in nonpulsatile and pulsatile 
+      modes at flow rates of 200 mL/min to 800 mL/min. Flow and pressure data were 
+      collected using a custom-based data acquisition system. The Deltastream DP3 pump 
+      was capable of producing an adequate quality of pulsatility. Pulsatile flow 
+      produced increased mean arterial pressure, energy equivalent pressure (EEP), and 
+      surplus hemodynamic energy (SHE) at all flow rates compared to nonpulsatile flow. 
+      Pressure drop across the cannula accounted for the majority of pressure loss in 
+      the circuit. The greatest loss of SHE and total hemodynamic energy occurred 
+      across the arterial cannula due to its small diameter. The Deltastream DP3 pump 
+      produced physiological pulsatile flow without backflow while providing EEP and 
+      SHE to our neonatal pseudopatient. Further experiments are necessary to determine 
+      the impact of this pulsatile pump in an in vivo model prior to clinical use.
+CI  - © 2013 Wiley Periodicals, Inc. and International Center for Artificial Organs and 
+      Transplantation.
+FAU - Evenson, Alissa
+AU  - Evenson A
+AD  - Pediatric Cardiovascular Research Center, Penn State Hershey Children's Hospital, 
+      Penn State Milton S. Hershey Medical Center, Department of Pediatrics, Penn State 
+      Hershey College of Medicine, Hershey, PA, USA.
+FAU - Wang, Shigang
+AU  - Wang S
+FAU - Kunselman, Allen R
+AU  - Kunselman AR
+FAU - Ündar, Akif
+AU  - Ündar A
+LA  - eng
+PT  - Evaluation Study
+PT  - Journal Article
+DEP - 20131223
+PL  - United States
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+SB  - IM
+MH  - Equipment Design
+MH  - Europe
+MH  - Extracorporeal Membrane Oxygenation/*instrumentation
+MH  - Hemodynamics
+MH  - Humans
+MH  - Infant, Newborn
+MH  - Models, Cardiovascular
+MH  - *Pulsatile Flow
+OTO - NOTNLM
+OT  - Diagonal pump
+OT  - Extracorporeal life support
+OT  - Pediatrics
+OT  - Pulsatile
+OT  - Surplus hemodynamic energy
+EDAT- 2014/01/01 06:00
+MHDA- 2014/09/30 06:00
+CRDT- 2013/12/31 06:00
+PHST- 2013/12/31 06:00 [entrez]
+PHST- 2014/01/01 06:00 [pubmed]
+PHST- 2014/09/30 06:00 [medline]
+AID - 10.1111/aor.12240 [doi]
+PST - ppublish
+SO  - Artif Organs. 2014 Jan;38(1):E1-9. doi: 10.1111/aor.12240. Epub 2013 Dec 23.

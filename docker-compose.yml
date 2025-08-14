@@ -1,0 +1,52 @@
+# deployment/compose.yml
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: >
+      daphne -b 0.0.0.0 -p 8000 backend.asgi:application
+
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - celery
+  celery:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: celery -A backend worker -P threads --concurrency=5
+
+  celery-dedups:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: celery -A backend worker -Q ${CELERY_DEDUPLICATION_QUEUE} -P threads --concurrency=2 --loglevel=INFO
+
+#    volumes:
+#      - .:/app
+    env_file:
+      - .env
+
+
+#version: '3.4'
+#
+#services:
+#
+#  citemedical_redis:
+#    container_name: citemedical_redis
+#    image: redis:latest
+#    ports:
+#      - 127.0.0.1:${REDIS_PORT}:6379
+#    volumes:
+#      - citemedical-cache:/data
+#    restart: always
+#
+#volumes:
+#  citemedical-cache:
+#
+#

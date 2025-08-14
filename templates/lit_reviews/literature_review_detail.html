@@ -1,0 +1,428 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+<link href="{% static 'css/theme/projects.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block 'help_section' %} 
+  <a href="#">
+    <span>Need help with this page? <br/> Read the Wiki</span>
+    <div>
+      <img src="{% static 'images/icons/wiki-icon.svg' %}">
+    </div>    
+  </a>
+{% endblock %} 
+{% block 'body' %}
+
+<div class="project-details-page" id="project-details-app" v-cloak>
+    
+  {% if object.cloning_errors %}
+    <toast 
+      id="cloning-errors" 
+      ref="cloning-errors"
+      title="Copying Data from a previous project failed" 
+      type="warning" 
+      :hidden="false"
+    >
+      <div>
+          Copying data from project {{object.cloned_from}} wasn't fully successful 
+          Some data may not have been copied, please contact our support at 
+          <a href="mailto:{{support_email}}"> {{support_email}} </a> for help!
+      </div>
+      <button class="secondary-gray-button mt-2" v-on:click="hideToast('cloning-errors')"> Ok, I Understand </button>
+    </toast>
+  {% endif %}
+
+  <div class="project-details-section">
+    <div class="section-header mb">
+      <div class="center-v w-100">
+          <h3 class="center-h">
+              Get Help
+              <div class="tooltip-elt" title="Confused ? the below resources might be helpful">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+              </div> 
+          </h3>
+      </div>
+    </div>
+    <div class="horizantal-devider mt-2 mb-2"></div>
+    <div class="onbording-container">
+      <div class="onbording-div" v-on:click="showModal('intro-video-popup')">
+        <div class="onbording-icon">
+          <img
+            src="{% static 'images/icons/video-icon.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          Watch an Intro Video
+        </span>
+      </div>
+      <div class="onbording-div" v-on:click="initiatTourGuide">
+        <div class="onbording-icon">
+          <img
+            src="{% static 'images/sidebar/play-icon.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          Take A Quick Onboarding Tour
+        </span>
+      </div>
+    </div>
+    <div class="onbording-container mt-2">
+      <div class="modal bg-modal" id="intro-video-popup">
+        <div class="modal-dialog modal-dialog-video">
+            <div class="modal-content">
+                <div class="modal-header modal-header-video">
+                    Intro Video
+                </div>
+                <div class="modal-body"> 
+                  <iframe src="https://www.loom.com/embed/2d233c970c8441a5aa85432b5b47842f?sid=18e46bdc-9970-4bf8-a693-88435ae6c68a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width: 100%; height: 470px;"></iframe>
+                </div>
+                <div class="modal-footer modal-footer-video">
+                    <button 
+                        class="secondary-gray-button ml w-100" 
+                        v-on:click="hideModal('intro-video-popup')"
+                    > Close </button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <a href="https://citemedical.notion.site/Complete-User-Guide-CiteMed-io-624483282e594f7d8bb71611100fd7cc" target="_blank" class="onbording-div">
+        <div class="onbording-icon">
+          <img
+            src="{% static 'images/icons/wiki-icon.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          Read Our Documentation
+        </span>
+      </a>
+      <div class="onbording-div" v-on:click="showModal('letter-popup')">
+        <div class="onbording-icon">
+          <img
+            src="{% static 'images/sidebar/mail-icon.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          A Letter from our Founder
+        </span>
+      </div>
+      <div class="modal bg-modal" id="letter-popup">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-video">
+                    Letter From Our Founder
+                </div>
+                <div class="modal-body"> 
+                  <div class="onboarding-letter">
+                    <h2>Welcome, {{ user.username }}</h2>
+                    <p>Thanks for giving us a try. I’ll keep this brief.</p>
+                    <p>We’ve designed <a href="http://CiteMed.io" target="_blank">CiteMed.io</a> to do one thing only. Allow you to perform systematic literature reviews as quickly and accurately as possible, without over-complicating and over-selling the process.</p>
+                    <p>Search, review, extract, make an output. We’re confident we do this better than anyone else out there.</p>
+                    <p>There are loads of tools that claim to do that, but none you can simply sign up for and try your project out on. That’s where we differ. We want people to use our app, break it, and tell us about it. In an ideal world, things never break, but you will at least have a question or two about a confusing screen, or a ‘what do I do here?’ kind of moment.</p>
+                    <p>For these and more, we’re here for you.</p>
+                    <p>A few ways to get going as quickly and smoothly as possible:</p>
+                    <ol>
+                      <li>You can watch the video to the right where I set up a project.</li>
+                      <li>You can take a look at our example project filled with data.</li>
+                      <li>Or you can just create your own and get to work with some questions/answers along the way.</li>
+                    </ol>
+                    <p>If you have a team, or prefer the personal touch, you can book a time slot with me and the team right <a href="https://meetings.hubspot.com/ethan-drower/citemedio-onboarding" target="_blank">here at this link</a>. We’ll help you set up a real project and start reviewing. No charge.</p>
+                    <p>I could keep going, but at this point, we think it’s best for you to give the app a try and let us know your feedback. We’re a click or email away if you need us.</p>
+                    <p>Sincerely,</p>
+                    <p style="color: var(--Gray-500);">Ethan Drower & Team CiteMed.</p>
+                  </div>
+                </div>
+                <div class="modal-footer modal-footer-video">
+                    <button 
+                        class="secondary-gray-button ml w-100" 
+                        v-on:click="hideModal('letter-popup')"
+                    > Close </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-details-section">
+    <div class="section-header mb">
+      <div class="center-v w-100">
+          <h3 class="center-h">
+            Project Overview
+              <div class="tooltip-elt" title="Project Details" style="margin-top: 3px;">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+              </div> 
+          </h3>
+      </div>
+    </div>
+    <div class="horizantal-devider mt-2 mb-2"></div>
+    <ul style="padding: 10px 0px;">
+        <li class="review-detail-item  mt"><span class="review-detail-span"> Company:</span> {{ object.client }}</li>
+        <li class="review-detail-item mt"><span class="review-detail-span"> Device:</span> {{ object.device }}</li>
+        <li class="review-detail-item mt"><a href="{{ search_protocol_url }}" class="review-detail-link">Search Protocol</a></li>
+        {% if object.is_archived == False %}
+        <a class="error-button" style="margin-top: 10px;" href={% url "lit_reviews:archive_lit_review" id=object.id %}> Archive Literature Review </a>
+        {% else %}
+        <a class="primary-button" style="margin-top: 10px;" href={% url "lit_reviews:archive_lit_review" id=object.id %}> Unarchive Literature Review </a>
+        {% endif %}
+    </ul>
+  </div>
+  <div class="project-details-section">
+    <div class="section-header mb">
+      <div class="center-v w-100">
+          <h3 class="center-h">
+              Project Audit Log Information
+              <div class="tooltip-elt" title="Recent Actions Taken By Authorized Users">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="" style="margin-top: 3px;">
+              </div> 
+          </h3>
+      </div>
+    </div>
+    <div class="horizantal-devider"></div>
+    <div class="filters">
+      <div class="search-section">
+        <form v-on:submit="onSearch">
+          <input 
+            type="search" 
+            placeholder="Search by description or action type" 
+            name="article-search" 
+            v-model="searchTerm"
+          />
+          <button type="submit" class="search-button">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z" fill="#9BA5B9"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z" fill="#9BA5B9"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+        <div class="filter-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg v-if="isFiltersApplied" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+            fill="none">
+            <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+          </svg>
+        </div>
+        Filter Results
+      </div>
+
+      <div class="ml-auto"> </div>
+      
+      <!-- Slected User Applied Filters -->
+      <div v-if="selectedUser">
+        <div class="applied-filters ml">
+          <span style="font-weight: 600;"> Selected User </span> 
+          <div class="item">
+            [[selectedUser]]
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Bases Applied Filters -->
+      <div class="applied-filters ml" v-if="selectedTypes.length">
+        <span style="font-weight: 600;"> Slected Types </span> 
+        <div class="item" v-for="type in selectedTypes" :key="type">
+          [[type]]
+        </div>
+      </div>
+
+      <div class="filter-button ml" v-if="isFiltersApplied || searchTerm" v-on:click="onClearFilters">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Clear Filters
+      </div>
+
+      <div class="slider" id="filters-slider">
+        <div class="slider-dialog">
+          <div class="slider-dialog-inner ">
+            <div class="slider-header">
+              <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              Filters
+            </div>
+
+            <div class="slider-content">
+
+              <div class="filter-section" v-if="users.length">
+                <div class="header"> Date </div>
+                <div class="filter-checks"> 
+                  <div class="d-grid grid-2 gap-10">
+                    <div class="field-control">
+                      <label>Start Date</label>
+                      <input type="date" v-model="selectedStartDate" />
+                    </div>
+                    <div class="field-control">
+                      <label>End date</label>
+                      <input type="date" v-model="selectedEndDate" />
+                    </div>
+                  </div>
+                  <!-- <div class="filter-check"> 
+                    
+                  </div> -->
+                </div>
+              </div>
+              
+              <div class="filter-section" v-if="users.length">
+                <div class="header"> Users </div>
+                <div class="filter-checks"> 
+                  <div class="filter-check"> 
+                    <select name="" id="" v-model="selectedUser">
+                      <option value="">Select a User</option>
+                      <option :value="user" :key="user" v-for="user in users">[[user]]</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+                
+              <div class="filter-section" v-if="action_types.length">
+                <div class="header"> ACTION TYPES </div>
+                <div class="filter-checks"> 
+                  <div class="filter-check" v-for="type in action_types" :key="type"> 
+                    <label :for="type"> 
+                      [[type]]
+                    </label> 
+                    <input type="checkbox" v-model="selectedTypes" name="type" :value="type" :id="type"/>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          
+            <div class="slider-footer">
+              <button class="primary-button" v-on:click="onSearch">
+                Apply Filters
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="table-container">
+      <table class="custom-table actions-table">
+        <thead>
+            <tr>
+                <th>
+                  <span v-on:click="sortBy('actor_object_id')" >
+                    User
+                    <img src="{% static 'images/icons/filter.png' %}" />
+                  </span>
+                </th>     
+                <th>
+                  <span v-on:click="sortBy('timestamp')" >
+                    Date & Time
+                    <img src="{% static 'images/icons/filter.png' %}" />
+                  </span>
+                </th>                              
+                <th>
+                  <span v-on:click="sortBy('verb')" >
+                    Action Type
+                    <img src="{% static 'images/icons/filter.png' %}" />
+                  </span>
+                </th>
+                <th>Description</th>
+                <th>Link to Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="action in actions" :key="action.id">
+                <td>[[action.actor]]</td>
+                <td>[[new Date(action.timestamp).toLocaleString()]]</td>
+                <td>[[action.verb]]</td>
+                <td v-if="action.verb === 'Search Protocol Modified'">
+                  <div v-html="formatDescription(action.description)"></div>
+                </td>
+                <td v-else>[[action.description]]</td>
+                <td>
+                  <a v-if="action.action_object_url" :href="action.action_object_url" target="_blank" class="link">
+                    Review Link
+                  </a>
+                  <span v-else></span>
+                </td>
+            </tr>
+            <tr v-if="actions.length === 0">
+              <td colspan="5">No actions found.</td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="table-footer" v-if="actions.length">
+        <div class="left-section"> </div>
+        <div class="middle-section"> 
+          <div class="pagination">
+            <span> 
+              <button :class="pagination.previous ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadActions(pagination.current-1)">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </span>
+    
+            <div class="pagination-content">
+              
+              <button 
+                class="pagintaion-item" 
+                v-on:click="loadActions(1)" 
+                v-if="pagination.current > 1"
+              > 1
+              </button>
+              <button class="seperator" v-if="pagination.current > 2"> ... </button>
+    
+              <button 
+                v-for="page in pagination.page_range" 
+                :class="page === pagination.current ? 'pagintaion-item selected' : 'pagintaion-item'"
+                v-if="page === pagination.current || ( page < pagination.last && page > 1)" 
+                v-on:click="loadActions(page)"
+                :key="page"
+              > 
+                [[page]]
+              </button>
+              <button class="seperator" v-if="pagination.current < pagination.last"> ... </button>
+              <button 
+                class="pagintaion-item" 
+                v-on:click="loadActions(pagination.last)" 
+                v-if="pagination.current < pagination.last"
+              > [[pagination.last]]
+              </button>
+            </div>
+    
+            <span> 
+              <button :class="pagination.next ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadActions(pagination.current+1)" >
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.93994 13.28L10.2866 8.93333C10.7999 8.42 10.7999 7.58 10.2866 7.06667L5.93994 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="right-section"> 
+          [[tablePageIndicator]]
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block 'scripts-block' %} 
+    <script>
+        const ACTIONSURL = "{% url 'lit_reviews:actions_api' id=literature_review_id%}";
+        const ACTIONSFILTERSURL = "{% url 'lit_reviews:actions_filters_api' id=literature_review_id%}";
+    </script>
+    <script src="{% static 'lit_reviews/vue/project_details.js' %}" > </script>
+{% endblock %}

@@ -1,0 +1,311 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%E2%80%98Laparoscopic+procedures%E2%80%99+and+%E2%80%98ICG+imaging%E2%80%99+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8454868
+PMID- 32213001
+IS  - 2050-6406 (Print)
+IS  - 2050-6414 (Electronic)
+VI  - 7
+IP  - Suppl 8
+DP  - 2019 Oct
+TI  - UEG Week 2019 Poster Presentations.
+PG  - 189-1030
+LA  - eng
+PT  - Journal Article
+DEP - 20191001
+TA  - United European Gastroenterol J
+JT  - United European Gastroenterology Journal
+AID - 10.1177/2050640619854671 [doi]
+AID - UEG2BF01068 [pii]
+SO  - United European Gastroenterol J. 2019 Oct 01;7(Suppl 8):189-1030.
+      doi:10.1177/2050640619854671.
+
+PMC - PMC8173653
+PMID- 34080801
+IS  - 2051-3895 (Print)
+IS  - 2051-3909 (Electronic)
+VI  - 68
+IP  - Suppl 1
+DP  - 2021 Jun
+TI  - ePosters.
+PG  - 80-101
+LA  - eng
+PT  - Journal Article
+DEP - 20210603
+TA  - J Med Radiat Sci
+JT  - Journal of Medical Radiation Sciences
+AID - 10.1002/jmrs.482 [doi]
+AID - JMRS482 [pii]
+SO  - J Med Radiat Sci. 2021 Jun;68(Suppl 1):80-101. Epub 2021 Jun 03
+      doi:10.1002/jmrs.482.
+
+PMC - PMC7891314
+PMID- 32691851
+IS  - 0022-2720 (Print)
+IS  - 1365-2818 (Electronic)
+VI  - 281
+IP  - 2
+DP  - 2021 Feb
+TI  - Cryo‐FIB preparation of whole cells and tissue for cryo‐TEM: use of high‐pressure
+      frozen specimens in tubes and planchets.
+PG  - 125-37
+AB  - The desire to study macromolecular complexes within their cellular context
+      requires the ability to produce thin samples suitable for cryo‐TEM
+      (cryo‐transmission electron microscope) investigations. In this paper, we discuss
+      two similar approaches, which were developed independently in Utrecht (the
+      Netherlands) and Albany (USA). The methods are particularly suitable for both
+      tissue samples and cell suspensions prepared by a high‐pressure freezer (HPF).
+      The workflows are explained with particular attention to potential pitfalls,
+      while underlying principles are highlighted (‘why to do so’). Although both
+      workflows function with a high success rate, full execution requires considerable
+      experience and remains demanding. In addition, throughput is low. We hope to
+      encourage other research groups worldwide to take on the challenge of improving
+      the HPF– cryo‐FIB‐SEM – cryo‐TEM workflow. We discuss a number of suggestions to 
+      this end. Lay Description: Life is ultimately dictated by the interaction of
+      molecules in our bodies. Highly complex equipment is being used and further
+      developed to study these interactions. The present paper describes methods to
+      prepare small, very thin lamellae (area of 5×5 µm2, thickness 50–300 nm) of a
+      cell to be studied in a cryo‐transmission electron microscope (cryo‐TEM). Special
+      care must be taken to preserve the natural state of molecules in their natural
+      environment. In the case of cryo‐TEM, the samples must be frozen and kept frozen 
+      to be compatible with the vacuum conditions in the microscope. The frozen
+      condition imposes technical challenges which are addressed. Two approaches to
+      obtain the thin lamellae are described. Both make use of a focused ion beam (FIB)
+      microscope. The FIB allows removal of material with nanometre precision by
+      focusing a beam of ionised atoms (gallium ions) onto the sample. Careful control 
+      of the FIB allows cutting out of the required thin lamellae. In both strategies, 
+      the thin lamellae remain attached to the original sample, and the ensemble of
+      sample with section and sample holder is transported from the FIB microscope to
+      the TEM while being kept frozen.
+FAU - DE WINTER, D.A.M.
+AU  - DE WINTER D
+AUID- ORCID: https://orcid.org/0000-0002-6289-4359
+AD  - Environmental Hydrogeology, Department of Earth SciencesUtrecht
+      UniversityPrincetonlaan 8aUtrechtthe Netherlands
+FAU - HSIEH, C.
+AU  - HSIEH C
+AD  - New York State Department of HealthWadsworth Center, Empire State PlazaAlbanyNew 
+      YorkU.S.A.
+FAU - MARKO, M.
+AU  - MARKO M
+AD  - New York State Department of HealthWadsworth Center, Empire State PlazaAlbanyNew 
+      YorkU.S.A.
+FAU - HAYLES, M. F.
+AU  - HAYLES MF
+AUID- ORCID: https://orcid.org/0000-0001-8980-0095
+AD  - Cryo‐FIB‐SEM TechnologistEindhoventhe Netherlands
+LA  - eng
+PT  - Journal Article
+DEP - 20200728
+GR  - R01GM097010
+PHST- 2020/05/01 [received]
+PHST- 2020/05/27 [revised]
+PHST- 2020/07/13 [accepted]
+TA  - J Microsc
+JT  - Journal of Microscopy
+AID - 10.1111/jmi.12943 [doi]
+AID - JMI12943 [pii]
+SO  - J Microsc. 2021 Feb;281(2):125-37. Epub 2020 Jul 28 doi:10.1111/jmi.12943.
+
+PMC - PMC7374547
+PMID- 32390007
+IS  - 0007-0920 (Print)
+IS  - 1532-1827 (Electronic)
+VI  - 123
+IP  - 2
+DP  - 2020 Jul 21
+TI  - Bimodal magnetic resonance and optical imaging of extracellular matrix
+      remodelling by orthotopic ovarian tumours.
+PG  - 216-25
+AB  - Background: The extracellular matrix modulates the development of ovarian
+      tumours. Currently, evaluation of the extracellular matrix in the ovary is
+      limited to histological methods. Both magnetic resonance imaging (MRI) and
+      two-photon microscopy (2PM) enable dynamic visualisation and quantification of
+      fibrosis by endogenous contrast mechanisms: magnetisation transfer (MT) MRI and
+      second-harmonic generation (SHG) 2PM, respectively. Methods: Here, we applied the
+      MT-MRI protocol for longitudinal imaging of the stroma in orthotopic human
+      ovarian cancer ES-2 xenograft model in CD1 athymic nude mice, and for
+      orthotopically implanted ovarian PDX using a MR-compatible imaging window chamber
+      implanted into NSG mice. Results: We observed differences between ECM deposition 
+      in ovarian and skin lesions, and heterogeneous collagen distribution in ES-2
+      lesions. An MR-compatible imaging window chamber enabled visual matching between 
+      T2 MRI maps of orthotopically implanted PDX grafts and anatomical images of their
+      microenvironment acquired with a stereomicroscope and SHG–2PM intravital
+      microscopy of the collagen. Bimodal MRI/2PM imaging allowed us to quantify the
+      fibrosis within the same compartments, and demonstrated the consistent results
+      across the modalities. Conclusions: This work demonstrates a novel approach for
+      measuring the stromal biomarkers in orthotopic ovarian tumours in mice, on both
+      macroscopic and microscopic levels.
+FAU - Bochner, Filip
+AU  - Bochner F
+AD  - 0000 0004 0604 7563grid.13992.30Department of Biological Regulation, Weizmann
+      Institute of Science, Rehovot, Israel
+FAU - Fellus-Alyagor, Liat
+AU  - Fellus-Alyagor L
+AD  - 0000 0004 0604 7563grid.13992.30Department of Biological Regulation, Weizmann
+      Institute of Science, Rehovot, Israel
+FAU - Ketter, Dafna
+AU  - Ketter D
+AD  - 0000 0004 0604 7563grid.13992.30Department of Biological Regulation, Weizmann
+      Institute of Science, Rehovot, Israel
+FAU - Golani, Ofra
+AU  - Golani O
+AD  - 0000 0004 0604 7563grid.13992.30Life Sciences Core Facilities, Weizmann Institute
+      of Science, Rehovot, Israel
+FAU - Biton, Inbal
+AU  - Biton I
+AD  - 0000 0004 0604 7563grid.13992.30Department of Veterinary Resources, Weizmann
+      Institute of Science, Rehovot, Israel
+FAU - Neeman, Michal
+AU  - Neeman M
+AD  - 0000 0004 0604 7563grid.13992.30Department of Biological Regulation, Weizmann
+      Institute of Science, Rehovot, Israel
+LA  - eng
+PT  - Journal Article
+DEP - 20200511
+GR  - 326/14
+GR  - 232640-IMAGO
+GR  - CA75334
+PHST- 2019/12/02 [received]
+PHST- 2020/04/04 [revised]
+PHST- 2020/04/17 [accepted]
+TA  - Br J Cancer
+JT  - British Journal of Cancer
+AID - 878 [pii]
+AID - 10.1038/s41416-020-0878-7 [doi]
+SO  - Br J Cancer. 2020 Jul 21;123(2):216-25. Epub 2020 May 11
+      doi:10.1038/s41416-020-0878-7.
+
+PMC - PMC6677840
+PMID- 31376021
+IS  - 1869-4101 (Electronic)
+VI  - 10
+DP  - 2019 Dec
+TI  - Technique, protocols and adverse reactions for contrast-enhanced spectral
+      mammography (CESM): a systematic review.
+LID - 76
+AB  - We reviewed technical parameters, acquisition protocols and adverse reactions
+      (ARs) for contrast-enhanced spectral mammography (CESM). A systematic search in
+      databases, including MEDLINE/EMBASE, was performed to extract publication year,
+      country of origin, study design; patients; mammography unit/vendor, radiation
+      dose, low-/high-energy tube voltage; contrast molecule, concentration and dose;
+      injection modality, ARs and acquisition delay; order of views; examination time. 
+      Of 120 retrieved articles, 84 were included from 22 countries (September
+      2003–January 2019), totalling 14012 patients. Design was prospective in 44/84
+      studies (52%); in 70/84 articles (83%), a General Electric unit with factory-set 
+      kVp was used. Per-view average glandular dose, reported in 12/84 studies (14%),
+      ranged 0.43–2.65 mGy. Contrast type/concentration was reported in 79/84 studies
+      (94%), with Iohexol 350 mgI/mL mostly used (25/79, 32%), dose and flow rate in
+      72/84 (86%), with 1.5 mL/kg dose at 3 mL/s in 62/72 studies (86%). Injection was 
+      described in 69/84 articles (82%), automated in 59/69 (85%), manual in 10/69
+      (15%) and flush in 35/84 (42%), with 10–30 mL dose in 19/35 (54%). An examination
+      time < 10 min was reported in 65/84 studies (77%), 120 s acquisition delay in
+      65/84 (77%) and order of views in 42/84 (50%) studies, beginning with the
+      craniocaudal view of the non-suspected breast in 7/42 (17%). Thirty ARs were
+      reported by 14/84 (17%) studies (26 mild, 3 moderate, 1 severe non-fatal) with a 
+      pooled rate of 0.82% (fixed-effect model). Only half of CESM studies were
+      prospective; factory-set kVp, contrast 1.5 mL/kg at 3 mL/s and 120 s acquisition 
+      delay were mostly used; only 1 severe AR was reported. CESM protocol
+      standardisation is advisable.
+FAU - Zanardo, Moreno
+AU  - Zanardo M
+AD  - 0000 0004 1757 2822grid.4708.bDepartment of Biomedical Sciences for Health,
+      Università degli Studi di Milano, Via Mangiagalli 31, 20133 Milan, Italy
+FAU - Cozzi, Andrea
+AU  - Cozzi A
+AD  - 0000 0004 1757 2822grid.4708.bDepartment of Biomedical Sciences for Health,
+      Università degli Studi di Milano, Via Mangiagalli 31, 20133 Milan, Italy
+FAU - Trimboli, Rubina Manuela
+AU  - Trimboli RM
+AD  - 0000 0004 1757 2822grid.4708.bDepartment of Biomedical Sciences for Health,
+      Università degli Studi di Milano, Via Mangiagalli 31, 20133 Milan, Italy
+FAU - Labaj, Olgerta
+AU  - Labaj O
+AD  - 0000 0004 1757 2064grid.8484.0Department of Morphology, Surgery and Experimental 
+      Medicine, Section of Radiology, University of Ferrara, Via Ludovico Ariosto 35,
+      44121 Ferrara, Italy
+FAU - Monti, Caterina Beatrice
+AU  - Monti CB
+AD  - 0000 0004 1757 2822grid.4708.bDepartment of Biomedical Sciences for Health,
+      Università degli Studi di Milano, Via Mangiagalli 31, 20133 Milan, Italy
+FAU - Schiaffino, Simone
+AU  - Schiaffino S
+AD  - 0000 0004 1766 7370grid.419557.bUnit of Radiology, IRCCS Policlinico San Donato, 
+      Via Morandi 30, 20097 San Donato Milanese, Italy
+FAU - Carbonaro, Luca Alessandro
+AU  - Carbonaro LA
+AD  - 0000 0004 1766 7370grid.419557.bUnit of Radiology, IRCCS Policlinico San Donato, 
+      Via Morandi 30, 20097 San Donato Milanese, Italy
+FAU - Sardanelli, Francesco
+AU  - Sardanelli F
+AD  - 0000 0004 1757 2822grid.4708.bDepartment of Biomedical Sciences for Health,
+      Università degli Studi di Milano, Via Mangiagalli 31, 20133 Milan, Italy
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190802
+PHST- 2019/03/25 [received]
+PHST- 2019/05/17 [accepted]
+TA  - Insights Imaging
+JT  - Insights into Imaging
+AID - 756 [pii]
+AID - 10.1186/s13244-019-0756-0 [doi]
+SO  - Insights Imaging. 2019 Aug 2;10:. doi:10.1186/s13244-019-0756-0.
+
+PMC - PMC5421334
+PMID- 28503293
+IS  - 2045-709X (Electronic)
+VI  - 25
+DP  - 2017
+TI  - Historical influence on the practice of chiropractic radiology: part II -
+      thematic analysis on the opinions of diplomates of the American Chiropractic
+      College of Radiology about the future.
+LID - 15
+AB  - Background: Over the past 20 years, various authors have addressed the question
+      of the future of chiropractic. Most were positive about the future, with some
+      advocating evidence-based practice and integration with mainstream healthcare,
+      some advocating continued separation with an emphasis on subluxation-based care
+      or the traditional/historical paradigm of chiropractic, and some calling for
+      tolerance and unity. No papers were found specifically inquiring about the future
+      of chiropractic radiology. Methods: The study population consisted of all current
+      members of the American Chiropractic College of Radiology (ACCR), estimated at
+      190 people, known as chiropractic radiologists or Diplomates of the American
+      Chiropractic Board of Radiology (DACBRs). An internet-based, anonymous survey
+      using SurveyMonkey was implemented, supplemented by hard copies distributed at a 
+      conference. The main point of interest for this paper is the final item of the
+      overall questionnaire. This item inquired about the future of chiropractic
+      radiology. Thematic analysis was used on the responses, coded in both
+      constructionist and inductive ways to extract both a general outlook and more
+      specific themes. The inductive themes were also assigned secondarily to a SWOT
+      (strengths, weaknesses, opportunities, and threats) analysis. Results: The
+      overall response rate to the survey was 38% (73/190); within the group of
+      respondents, 71 of 73 (98%) answered the item that is the subject of this paper. 
+      Opinions on the outlook for chiropractic radiology in the future were more
+      negative than positive, with 14 respondents giving a positive outlook, 26
+      negative, and 14 non-committal. 28 respondents advocated integration with the
+      wider healthcare community, 11 recommended emphasising separateness or a focus on
+      working within chiropractic, and 15 did not express an opinion on this issue. Ten
+      strengths were noted, 11 weaknesses, 57 opportunities, and 30 threats.
+      Conclusions: The increasing necessity of demonstrating evidence for diagnostic
+      and therapeutic procedures in healthcare makes it likely that chiropractic
+      radiologists and the wider chiropractic profession will need to take a more
+      active position on evidence-based practice. Re-evaluation of guidelines and
+      legislation as well as enforcement policies and practices will be necessary. The 
+      consequences of failing to do so may include increased marginalisation and
+      reduced viability as a profession. Electronic supplementary material: The online 
+      version of this article (doi:10.1186/s12998-017-0145-z) contains supplementary
+      material, which is available to authorized users.
+FAU - Young, Kenneth J.
+AU  - Young KJ
+AD  - 0000 0004 0436 6763grid.1025.6School of Arts, School of Health Professions,
+      Murdoch University, Perth, WA 6150 Australia
+LA  - eng
+PT  - Journal Article
+DEP - 20170508
+PHST- 2017/03/28 [received]
+PHST- 2017/05/02 [accepted]
+TA  - Chiropr Man Therap
+JT  - Chiropractic & Manual Therapies
+AID - 145 [pii]
+AID - 10.1186/s12998-017-0145-z [doi]
+SO  - Chiropr Man Therap. 2017 May 8;25:. doi:10.1186/s12998-017-0145-z.

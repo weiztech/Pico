@@ -1,0 +1,75 @@
+.filter-select input[type="radio"] {
+    position: fixed;
+    width: 0;
+  }
+
+.filter-select label {
+    display: inline-block;
+    cursor: pointer;    
+    font-size: 14px;
+    margin: 0px;
+}
+
+/* .link{
+  border:1px solid red;
+} */
+
+.link .icon{
+  /* border:1px solid gold;   */
+  vertical-align: middle;
+ 
+}
+
+.form-two{
+  display: flex;
+  justify-content: space-between;
+}
+.form-two-col{
+  width: 48%;
+}
+
+.modal-dialog-creation{
+  width: 70%;
+  max-height: 94%;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: var(--Gray-5);
+  position: fixed;
+  top: 3%;
+  right: 15%;
+}
+.select-creation-method {
+  margin-bottom: 10px;
+}
+.manual-creation-table-section{
+  overflow: scroll;
+  max-height: 380px;
+  display: none;
+  margin-top: 15px;
+}
+
+.method-select-section{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.previous-projects-container .custom-options {
+  max-height: 400px;
+}
+
+.sub-table-header {
+  position: relative;
+  width: 90px;
+  margin-right: 20px;
+}
+
+.sub-table-header .tooltip {
+  position: static;
+}
+
+@media screen and (max-width: 1400px) {
+  .search-section {
+    width: 180px;
+  }
+
+}

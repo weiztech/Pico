@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    {% load static %}
+    {% block 'beforehead' %} {% endblock %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
+    <link
+      href="{% static 'bootstrap-4.4.1-dist/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'css/base_client_portal.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="{% static 'lit_reviews/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'bootstrap-4.4.1-dist/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'lit_reviews/popper.min.js' %}"></script>
+    <script src="https://kit.fontawesome.com/55930eb1d9.js" crossorigin="anonymous"></script>
+    {% block title %}{% endblock %}
+    {% block head %}{% endblock %}
+  </head>
+
+  <body>
+    {% include "client_portal/sidebar.html" %}
+    <div class="body__container" id="body">
+      {% include "client_portal/header.html" %}
+      {% block body %}
+      {% endblock %}
+    </div>
+    {% block script %}
+    {% endblock %}
+  </body>
+</html>

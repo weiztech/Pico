@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scrapers Summary</title>
+    <style>
+        #customers {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          table-layout:fixed;
+        }
+        
+        #customers td, #customers th {
+          border: 1px solid #6d6baf;
+          padding: 8px;
+          width: 100px;
+        }
+        
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #customers tr:hover {background-color: #ddd;}
+        
+        #customers th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #6d6baf;
+          color: white;
+        }
+        </style>
+</head>
+<body>
+    
+  <h1> CIteMed.io Clinical Literature Alerts for {{device_name}} by {{manufacturer_name}} </h1>
+
+  <h3> Results Summary </h3>
+  <table id="customers">
+      <tr>
+        <th>ID</th>
+        <th>Search Term</th>
+        <th> Data Base </th>
+        <th>Date Range</th>
+        <th>Yield Results</th>
+      </tr>
+      {% for search in search_summary %}
+      <tr>
+        <td> {{ search.id }} </td>
+        <td> {{ search.search_term }} </td>
+        <td> {{ search.db }} </td>
+        <td> {{ search.dates }} </td>
+        <td> {{ search.count }}  </td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <h3> Result Counts Trending (From Previous Reports) </h3>
+    <div>
+      <img src="{{chart_png}}" alt="results count trending chart" />
+    </div>
+    
+
+    <h3> CiteMed.io Staff Selected Abstracts </h3>
+    (Pre-selected abstracts based on relevancy is for CiteMed Complete Subscribers Only)
+
+    <h3> All Results </h3>
+    You can download an excel file for all resutls from <a href="{{results_excel_url}}"> Here </a>
+
+</body>
+</html>

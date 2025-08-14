@@ -1,0 +1,23 @@
+.badge-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.interval-cell{
+    text-transform: capitalize;
+}
+.start-date-cell{
+    color: #6B7281;
+}
+.last-run-date-cell{
+    color: #0C9A47;
+}
+.info {
+    color: var(--Purple-700, #4A505C);
+    border: 1px solid #E7ECF5;
+    background: #F9FAFC;
+}
+.action-detail-link:hover{
+    color: initial;
+}
+

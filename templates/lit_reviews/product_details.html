@@ -1,0 +1,240 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block 'head' %}
+  <link href="{% static 'css/theme/projects.css' %}" rel="stylesheet" type="text/css" />
+  <style>
+    .form-group {
+      display: flex;
+      padding: 0px 16px;
+      gap: 12px;
+      align-self: stretch;
+    }
+  </style>
+{% endblock %}
+
+{% block 'help_section' %} 
+    <a href="#">
+      <span>Need help with this page? <br/> Read the Wiki</span>
+      <div>
+        <img src="{% static 'images/icons/wiki-icon.svg' %}">
+      </div>
+    </a>
+{% endblock %}
+
+{% block 'body' %}
+
+{% if subscription.licence_type == 'sandbox' or subscription.licence_type == 'credits'%}
+    <div style="margin-top: 30px;"> </div>
+{% endif %}
+
+<div class="page-container" id="app">
+  <div class="product-form">
+    <form method="post" id="form" enctype="multipart/form-data" novalidate>
+      {% csrf_token %}
+      {% if form %}
+        
+        <div class="form-content">  
+          <div class="section-header">
+            <h4> 
+              Device Information 
+              <span class="tooltip-elt" title="General Information related to the Device.">
+                <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+              </span>
+            </h4>
+          </div>  
+    
+          <div class="device-form-container">
+              <div class="horizantal-devider"> </div>
+              {{ form|crispy }}
+          </div>
+    
+        </div>
+    
+          <div class="form-content client-info-section"> 
+            <div class="section-header">
+              <h4> 
+                Company Information 
+                <span class="tooltip-elt" title="General Information related to the Company.">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+                </span>
+              </h4>
+            </div> 
+    
+            <div class="device-form-container" style="position: relative;">
+              <div class="horizantal-devider"> </div>
+              {{ client_form|crispy }}
+              <div class="file-uploader">
+                <div class="image-preview">
+                  <img 
+                    {% if client_logo %} src="{{client_logo.url}}" {% else %} src="" {%endif %} 
+                    alt="logo image" id="current-image"
+                  >
+                </div>
+                <div class="image-details">
+                  <div class="image-info">
+                      <h4 class="image-name" id="image-name">
+                        {% if client_logo %} {{client_logo.name}} {%endif %} 
+                      </h4>
+                      <span class="image-size" id="image-size">
+                        {% if client_logo_size %} {{client_logo_size}} {%endif %} 
+                      </span>
+                  </div>
+                  <div>
+                    <button class="re-upload-btn" id="re-upload-btn" type="button">
+                        <img src='{% static "images/icons/edit-icon.svg" %}' alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+    
+          <div class="form-content">  
+            <div class="section-header">
+              <h4> 
+                Project Information 
+              <span class="tooltip-elt" title="Internal Project Configurations.">
+                <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+              </span>
+              </h4>
+            </div>   
+
+            <div class="device-form-container">
+              <div class="horizantal-devider"> </div>
+              <div class="form-group">
+                <label> 
+                  Project Name*
+                </label>
+                {{ project_form.project_name }} 
+              </div>
+              <div class="form-group">
+                <label> 
+                  Project Type*
+                </label>
+                {{ project_form.type }} 
+              </div>
+              
+              
+            </div>
+          </div>
+    
+        {% if project_form.max_terms %}
+        <div class="form-content">    
+          <div class="section-header">
+            <h4> Operations Information
+              <span class="tooltip-elt" title="Operations Team Config.">
+                <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+              </span>
+            </h4>          
+          </div> 
+        
+          <div class="device-form-container project_details">
+            <div class="horizantal-devider"> </div>
+            <div class="form-group">
+              <label class="center-v"> 
+                Max Terms*
+                <span class="tooltip-elt" title="Maximum created Search Terms per this project." style="margin-left: 10px;">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+                </span>
+              </label>
+              {{ project_form.max_terms }} 
+            </div>
+    
+            <div class="form-group">
+              <label class="center-v"> 
+                Max Hits*
+                <span class="tooltip-elt" title="Maximum imported articles per this project (1st pass)." style="margin-left: 10px;">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+                </span>
+              </label>
+              {{ project_form.max_hits }} 
+            </div>
+    
+            <div class="form-group">
+              <label class="center-v"> 
+                Max Results*
+                <span class="tooltip-elt" title="Maximum retained articles per this project (2nd pass)." style="margin-left: 10px;">
+                  <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+                </span>
+              </label>
+              {{ project_form.max_results }} 
+            </div>
+    
+          </div>
+        </div>
+        {% endif %}
+      {% endif  %}
+      <div class="form-actions"> 
+        <button v-on:click="onCancelEdit" class="secondary-gray-button" type="button" style="margin-left: auto;">
+          Cancel
+        </button> 
+        <input type="submit" class="primary-button mr-3" name="save" value="Save Project"/> 
+      </div>
+    </form>
+    <div class="preview">
+      <div class="header">
+        <span>preview</span>
+      </div>
+      <div class="client-profile">
+        <div class="client-profile-image">
+          <div class="client-logo-section">
+            <img 
+              id="client-img" 
+              {% if client_logo %} src="{{client_logo.url}}" {% else %} src="" {%endif %} 
+              alt="logo image"
+            />
+          </div>
+        </div>
+        <div class="client-names">
+          <h1 class="client-name" id="client-name"></h1>
+          <span class="client-short-name" id="client-short-name"></span>
+        </div>
+      </div>
+      <div class="horizantal-devider"></div>
+      <div class="client-infos">
+        <div class="client-info">
+          <h4 class="client-info-header"> Company long name</h4>
+          <span class="client-info-content" id="client-long-name"></span>
+        </div>
+        <div class="client-info">
+          <h4 class="client-info-header"> Company address</h4>
+          <span class="client-info-content" id="client-address"></span>
+        </div>
+        <div class="horizantal-devider"> </div>
+        <div class="client-info">
+          <h4 class="client-info-header">Device Name</h4>
+          <span class="client-info-content" id="device-name"></span>
+        </div>
+        <div class="client-info">
+          <h4 class="client-info-header">Device Classification</h4>
+          <span class="client-info-content" id="device-classification"></span>
+        </div>
+        <div class="client-info">
+          <h4 class="client-info-header">Device Markets</h4>
+          <span class="client-info-content" id="device-markets"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block 'scripts-block' %} 
+  <script type="application/javascript" src="{% static "lit_reviews/vue/product_details.js" %}" > </script>
+  <script type="application/javascript" src="{% static "lit_reviews/js/edit_project.js" %}" > </script>
+  <script>
+    // disable mousewheel on a input number field when in focus
+    // (to prevent Chromium browsers change the value when scrolling)
+    $('form').on('focus', 'input[type=number]', function (e) {
+      $(this).on('wheel.disableScroll', function (e) {
+        e.preventDefault()
+      })
+    })
+    $('form').on('blur', 'input[type=number]', function (e) {
+      $(this).off('wheel.disableScroll')
+    })
+  </script>
+{% endblock %}

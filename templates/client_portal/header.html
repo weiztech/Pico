@@ -1,0 +1,52 @@
+<div class="header__container">
+    {% load static %}
+    {% block head %}
+    <link href="{% static 'css/header.css' %}" rel="stylesheet" type="text/css" />
+    {% endblock %}
+    <div class="search-header-section">
+        <img
+            src="{% static 'images/icons/search-icon.svg' %}"
+            alt=""
+            class="search-header-icon"
+        />
+        <input type="text" class="search-header-input" placeholder="Search for project, documents, templates etc.">
+    </div>
+    <div class="profile-header-section">
+        <div class="profile-header-section-upper" id="profile-header-section-upper">
+            <img
+                src="{% static 'images/icons/defualt-profile-icon.svg' %}"
+                alt=""
+                class="defualt-profile-header-pic"
+            />
+            <span class="profile-header-text">
+                {% if request.user.first_name %}
+                    {{request.user.first_name}}
+                    {% if request.user.last_name%}
+                        {{request.user.last_name}}
+                    {% endif %}
+                {% else %}
+                    {{request.user.username}}
+                {% endif %}
+            </span>
+            <img
+                src="{% static 'images/icons/arrow-down-icon.svg' %}"
+                alt=""
+                class="arrow-down-header-icon"
+            />
+        </div>
+        <div class="profile-header-section-dropdown" id="profile-header-section-dropdown">
+            <a class="profile-header-section-dropdown-item" href="{% url 'accounts:logout' %}">Logout</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("profile-header-section-upper").addEventListener("click", function(e) {
+        dropdown = document.getElementById("profile-header-section-dropdown");
+        if (dropdown.style.display == "flex") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "flex";
+        }
+    });
+</script>

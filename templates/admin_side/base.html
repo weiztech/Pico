@@ -1,0 +1,278 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block 'title' %}{% endblock %}</title>
+    {% block 'beforehead' %} {% endblock %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
+    <link href="{% static 'css/theme/help_popup.css' %}" rel="stylesheet" type="text/css" />
+
+    <!-- New Theme -->
+    <link href="{% static 'css/theme/global.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/theme/layout.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/theme/lit_review_base.css' %}" rel="stylesheet" type="text/css" />
+    {% block 'head' %} {% endblock %}
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="top-nav-bar" id="nav-bar">
+      {% if review_title %}
+      <div class="top-nav-bar-left-section">
+        <div class="top-nav-bar-element">
+          <div class="nav-bar-project-details">
+            <div class="icon-section">
+              <img src="{% static 'images/navbar/project icon.svg' %}" alt="project icon" />
+            </div>
+            
+            <div class="text-section">
+              <div class="upper"> {{project_details.project_name}} {{project_details.device_name}} </div>
+              <div class="bottom"> {{ project_details.client_name }} </div>
+            </div>
+          </div>
+
+          <div id="project-details-list-parent">
+            <drop-down
+              icon-source="{% static 'images/navbar/setting.svg' %}"
+              target-element="project-details-list"
+              parent-wrapper="project-details-list-parent"
+              position-right="0px"
+              position-top="35px"
+            >
+            </drop-down>
+            <div class="drop-down" id="project-details-list">
+              <ul>
+                <li class="drop-down-element"> 
+                  <div class="drop-down-element-icon">
+                    <img src="{% static 'images/navbar/pen-edit.svg' %}" alt="Details Icon" />
+                  </div> 
+                  <a href="{% url 'literature_reviews:literature_review_detail' id=literature_review_id %}" class="drop-down-element-text">
+                    Project Details
+                  </a> 
+                </li>
+                <li class="drop-down-element"> 
+                  <div class="drop-down-element-icon">
+                    <img src="{% static 'images/navbar/pen.svg' %}" alt="Details Icon" />
+                  </div> 
+                  <a href="{% url 'literature_reviews:product_details' id=literature_review_id %}" class="drop-down-element-text">
+                    Edit Project
+                  </a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="vertical-devider"></div>
+        <div class="app-version-section">
+          <h3 class="app-version">Version {{app_version}}</h3>
+          <a class="app-release" href="{{realease_notes_link}}" target="_blank">Read Release Note</a>
+        </div>
+        <div class="vertical-devider"></div>
+
+        {% if env != 'PROD' %}
+        <span style="color: red;"> TEST ENVIRONMENT </span>
+        {% endif %}
+     
+      </div>
+    
+      <div class="top-nav-bar-right-section">
+        <div class="vertical-devider"></div>
+
+        <page-switcher
+          first-page-label="Dashboard"
+          second-page-label="Review"
+          first-page-link="{% url 'client_portal:client_home' %}"
+          second-page-link="{% url 'literature_reviews:literature_review_list' %}"
+          active-page="Review"
+          type="DASHBOARD"
+        >
+        </page-switcher>
+
+      </div>
+      {% endif %}
+    
+    </nav>
+    <!-- NavBar END -->
+
+
+    <div>
+      <!-- Sidebar -->
+      <div class="sidebar" id="side-bar">
+        <!-- Logo -->
+        <div class="logo-section">
+          <a
+            class="logo-icon {% if not review_title %} mr-auto {% endif %}"
+            href="{% url 'literature_reviews:literature_review_list' %}"
+          >
+            <img
+              src="{% static 'images/new_logo.svg' %}"
+              height="30"
+              class="d-inline-block align-top"
+              alt="citemed logo"
+            />
+          </a>
+        </div>
+        {% include "admin_side/side_bar.html" %}
+      </div>
+      <!-- sidebar-container END -->
+
+      <!-- MAIN -->
+        {% if not hide_body_conent %}
+          <div class="body-content">
+        {% endif %}      
+        
+          {% block 'body' %} {% endblock %}
+      
+        {% if not hide_body_conent %}
+          </div>
+        {% endif %} 
+        
+        <!-- Support Help Center -->
+        {% comment %} {% if literature_review_id != 'Unknown' %} {% endcomment %}
+          <!-- Show only inside project details pages -->
+          <div id="app-lit-review" style="position: absolute;">
+            <div class="help-popup hide" id="help-popup">
+              <div>
+                <div class="help-popup-header">
+                  <div class="title">
+                    Help Center
+                  </div>
+                  
+                </div>
+                
+                <div id="request-help" class="help-popup-content">
+
+                  <div class="request-help-btns">                                                                              
+                    <div class="help-btn-link">
+                      {% block 'help_section' %} {% endblock %}
+                    </div>
+
+                    <div class="help-btn-link" v-on:click="()=> onRequestHelp('SUPPORT_CALL','{{ request.get_full_path }}')">
+                      <a href="javascript:void(0);">
+                          <span>Book ScreenShare Support Call</span>
+                          <div>
+                            <img src="{% static 'images/icons/video-icon.svg' %}">
+                          </div>
+                      </a>
+                    </div>                  
+                  </div>
+
+                  <div class="horizantal-devider"> </div>
+
+                  <form id="form-request"  class="form help-form " method="post">
+                    <div class="form-title"> Or Submit a Support Request Form </div>
+                    <div>
+                      <label for="message">How can we help?</label>
+                      <textarea name="message" id="message" cols="30" rows="3" class="textarea" v-model="message"></textarea>
+                    </div>
+                    <div>
+                      <label for="demo_video">Show us the issue (Send a <span style="text-decoration: underline;color: #6D6BAF;">Loom Video</span>)</label>
+                      <textarea name="demo_video" id="demo_video" cols="30" rows="3" v-model="demo_video"></textarea>
+                    </div>
+
+                    <div class="">
+                      <label>How do you want us to follow-up?</label>
+                      <div class="follow-up">
+                      <div>
+                        <label class="" for="call_me">
+                          <input class="mr" id="call_me" type="checkbox" v-model="help_channels" value="CALL">
+                          <span class="ml">  
+                            Call Me
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <label for="email">
+                          <input class="form-check-input" id="email" type="checkbox" v-model="help_channels" value="EMAIL">
+                          <span class="ml">  
+                            Email
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <label for="teams_meeting">
+                          <input class="form-check-input" id="teams_meeting" type="checkbox" v-model="help_channels" value="MEETING">
+                          <span class="ml">  
+                            Teams Meeting
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    </div>
+                    <input 
+                      type="button" 
+                      name="save" 
+                      value="Submit Form" 
+                      v-on:click="()=> onRequestHelp('SUPPORT_TICKET', '{{ request.get_full_path }}')" 
+                      class="primary-button mt-3"
+                      style="margin-left: auto;"
+                      :disabled="isSubmit"
+                    />
+                  </form>                  
+                </div>
+
+                
+                  
+                  <div class="sucess-submit hide " id="success-submit">
+                  <div class="form-title"> Or Submit a Support Request Form </div>
+                  <div>
+                     <div class="success-submit-text">Your request has been submitted,</div>
+                     <div class="message-content">we will get back to you as soon as possible with a helpful reply!</div> 
+                  </div>
+                  <img src="{% static 'images/bro.svg' %}" style="width: 75%;" >
+                  {% comment %} <div class="actions">
+                    <button class="secondary-gray-button" v-on:click="onReturnForm">
+                      Return
+                    </button>
+                    <button class="primary-button" v-on:click="showPopup">
+                      Close
+                    </button>
+                  </div> {% endcomment %}
+                </div>
+              </div>
+            </div>
+
+         
+          <div @mousedown="onMousedown" class="help-popup-btn" id="popup-btn" v-on:click="showPopup">
+            <div v-if="isshowPopup" class="help-btn-close">
+              <img src="{% static 'images/icons/close-x-icon.svg' %}">
+            </div>
+            <img v-else src="{% static 'images/icons/popup.svg' %}">
+          </div>
+            
+          </div>
+        {% comment %} {% endif %} {% endcomment %}
+      </div>    
+      <!-- Main Col END -->
+    </div>
+    <!-- body-row END -->
+
+   </body>
+
+  
+
+<script type="application/javascript" src="{% static 'lit_reviews/js/globe.js' %}"></script>
+{% if env == 'PROD' %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/mixins.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/components/ui_elements.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/navbar.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/sidebar.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/help_popup.js' %}"></script>
+
+{% block 'after-body' %} {% endblock %}
+{% block 'scripts-block' %} {% endblock %}
+
+</html>

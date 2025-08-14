@@ -1,0 +1,60 @@
+.body-content {
+    background-color: transparent;
+    padding: 0px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.form-content {
+    width: 800px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.article-abstract {
+    color: var(--Gray-700, #4A505C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+
+.file-download-icon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-5, #FFF);
+    
+    /* UI Shadow */
+    box-shadow: 0px 0px 3px 0px rgba(82, 87, 97, 0.10);
+}
+
+label {
+    color: var(--Gray-900, #181A1E);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 19.5px */
+}
+
+.custom-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custom-control label {
+    margin: 0px;
+    margin-left: 5px;
+}

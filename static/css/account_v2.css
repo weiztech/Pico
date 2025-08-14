@@ -1,0 +1,251 @@
+/* ---------------------------------------
+   Layout Containers
+----------------------------------------*/
+#form-content {
+    height: 100%;
+}
+
+.account-container {
+    background: var(--Gray-25, #F9FAFC);
+    display: flex;
+    min-height: 90vh;
+    height: 98vh;
+    margin: 12px;
+}
+
+.form-container {
+    font-family: 'Inter', sans-serif;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-inner-section {
+    width: 50%;
+}
+
+/* ---------------------------------------
+   Form Header & Branding
+----------------------------------------*/
+.form-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-heading {
+    font-style: normal;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.heading {
+    color: #0099DE;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subheading {
+    color: var(--Gray-300, #D0D5DD);
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+.form-logo {
+    width: 175px;
+    height: 45px;
+}
+
+.powered-by-logo {
+    width: 140px;
+    height: 50px;
+    margin: auto;
+}
+
+
+.auth-image {
+    width: 98%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    border-radius: 24px;
+}
+
+/* ---------------------------------------
+   Input Fields
+----------------------------------------*/
+.input-wrapper {
+    margin-top: 20px;
+}
+
+.input-wrapper label {
+    color: var(--Gray-950);
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1 auto;
+    text-align: left;
+}
+
+.input-wrapper input {
+    border-radius: 6px !important;
+    border: 0 solid var(--Gray-300, #D0D5DD) !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px !important;
+    height: 50px !important;
+    padding: 10px !important;
+    width: 500px !important;
+}
+
+/* Input Focus Style */
+.input-wrapper:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background: #FFFFFF;
+    border: 1px solid var(--Primary-500) !important;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 153, 222, 0.1);
+}
+
+/* ---------------------------------------
+   Remember Me Checkbox
+----------------------------------------*/
+.remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 0px 15px 0px;
+    font-family: 'Inter', sans-serif;
+    color: var(--Gray-700, #344054);
+}
+
+.remember-me label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 2px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Gray-900);
+}
+
+/* Hide default checkbox */
+.remember-me input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Custom checkbox styling */
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--Gray-700);
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+    flex-shrink: 0;
+}
+
+/* Checkmark when checked */
+.remember-me input[type="checkbox"]:checked + .custom-checkbox::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--Gray-700);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* ---------------------------------------
+   Buttons
+----------------------------------------*/
+button {
+    height: 54px;
+}
+
+.btn {
+    align-items: center;
+    border-radius: 8px;
+    color: var(--Gray-50);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 100%;
+    height: 54px;
+}
+
+.btn-primary-500 {
+    border: 1px solid #0099DE;
+    background: #0099DE;
+}
+
+.btn-primary-500:hover {
+    color: var(--Gray-5);
+}
+
+.btn-gray-500 {
+    border: 1px solid var(--Gray-50);
+    background: var(--Gray-5);
+    color: var(--Gray-700);
+    font-weight: 600;
+}
+
+.third-party-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* ---------------------------------------
+   Divider
+----------------------------------------*/
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: var(--Gray-300);
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1.5px;
+    background: var(--Gray-200);
+}
+
+.divider span {
+    padding: 0 12px;
+}
+

@@ -1,0 +1,201 @@
+.active-filters {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.filters {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.search_filter {
+    margin-left: auto;
+    width: 100%;
+}
+.select_filter {
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.filter-item {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #6d6baf;
+    border: 1px solid #6d6baf;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+.filter-item:hover {
+    background: #6d6baf33;
+}
+
+.filter-item span {
+color: #6d6baf;
+margin-left: 10px;
+font-size: 12px;
+cursor: pointer;
+padding: 1px 3px;
+border: 1px solid #6d6baf62;
+border-radius: 100%;
+background-color: #6d6baf33;
+
+}
+/* .search_wrapper {
+    width: 950px;
+    margin: auto;
+} */
+.table-wrapper {
+    width: 100% !important;
+}
+.table__data td {
+    padding: 10px;
+}
+
+/* added style */
+.active-container{
+    display: block;
+    margin-top: 30px;
+}
+.inactive-container{
+    display: none;
+    margin-top: 30px;
+}
+.active-btn {
+    padding: 8px 15px;
+    background: #6d6baf;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    transition: 200ms ease-in-out;
+    margin-right: 10px;
+}
+
+.active-btn:hover {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #6D6BAF;
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    outline: 1px solid;
+}
+
+.inactive-btn{
+    padding: 8px 15px;
+    border: 1px solid #6d6baf;
+    border-radius: 5px;
+    color: #6d6baf;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.inactive-btn:hover {
+    background: #6d6baf;
+    color: white;
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+.create-article-header-text{
+    font-size: 25px;
+  }
+  
+select#article-device{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.header-documents-text{
+    color: #6d6baf;
+    margin-right: 20px;
+}
+
+.container-documents-text{
+    color: #6d6baf;
+}
+
+
+/* pagination style */
+.pagination-btn {
+    padding: 8px 15px;
+    border: 1px solid #6d6baf;
+    border-radius: 7px;
+    color: #6d6baf;
+    margin-bottom: 5px;
+  }
+  
+  .pagination-btn:hover {
+    background: #6d6baf;
+    color: white;
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  .pagination-btn-active {
+    padding: 8px 15px;
+    background: #6d6baf;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+  }
+  
+  .pagination-btn-active:hover {
+    background-color: #FFFFFF;
+    color: #6D6BAF;
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    outline: 2px solid;
+  }
+
+  
+.search-btn {
+    border: 1px solid #6d6baf;
+    border-radius: 7px;
+    color: #6d6baf;
+    margin-bottom: 5px;
+}
+.search-btn:hover {
+    background: #6d6baf;
+    color: white;
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+.table thead th{
+    border-bottom:none;
+    vertical-align:middle;
+}
+.table-hover tbody tr:hover {
+    background-color: #6d6baf33;
+}
+.table-hover tbody td {
+    vertical-align: middle;
+}

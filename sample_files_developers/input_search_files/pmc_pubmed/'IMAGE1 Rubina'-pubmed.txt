@@ -1,0 +1,177 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27IMAGE1+Rubina%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 34203814
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20210705
+IS  - 2079-7737 (Print)
+IS  - 2079-7737 (Linking)
+VI  - 10
+IP  - 6
+DP  - 2021 Jun 15
+TI  - Walnut (J. regia) Agro-Residues as a Rich Source of Phenolic Compounds.
+LID - 535 [pii]
+LID - 10.3390/biology10060535 [doi]
+AB  - The present study was designed to identify and quantify the major phenolic
+      compounds (phenolics) in the inner and outer husks, buds and bark of the Persian 
+      walnut, Juglans regia L. A comparison across six different cultivars grown in
+      Slovenia was also carried out: 'Fernor', 'Fernette', 'Franquette', 'Sava', 'Krka'
+      and 'Rubina'. A total of 83 compounds were identified, which included 25
+      naphthoquinones, 15 hydroxycinnamic acids, 8 hydroxybenzoic acids, 13 flavanols, 
+      2 flavones, 1 flavanone and 19 flavonols. For the first time, 38 phenolics in the
+      husks, 57 phenolics in the buds and 29 phenolics in the bark were presented in J.
+      regia within this study. Naphthoquinones were the major phenolics determined,
+      approximately 75% of all analysed phenolics in the inner husk, 85% in the outer
+      husk, 50% in buds and 80% in bark. The highest content of phenolics was found in 
+      the walnut buds, followed by the bark, the inner husk and the outer husk. On the 
+      basis of these high phenolic contents, walnut husks, buds and bark represented
+      valuable by-products of the walnut tree. These data also show origin-related
+      phenolic contents across the cultivars, and thus these phenolic profiles might
+      serve to define the origins of different walnut cultivars.
+FAU - Medic, Aljaz
+AU  - Medic A
+AUID- ORCID: 0000-0002-1533-2628
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia.
+FAU - Jakopic, Jerneja
+AU  - Jakopic J
+AUID- ORCID: 0000-0002-2920-7668
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia.
+FAU - Solar, Anita
+AU  - Solar A
+AUID- ORCID: 0000-0001-9755-4998
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia.
+FAU - Hudina, Metka
+AU  - Hudina M
+AUID- ORCID: 0000-0002-1821-5443
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia.
+FAU - Veberic, Robert
+AU  - Veberic R
+AUID- ORCID: 0000-0002-1421-5163
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia.
+LA  - eng
+GR  - P4-0013-0481/Javna Agencija za Raziskovalno Dejavnost RS
+PT  - Journal Article
+DEP - 20210615
+PL  - Switzerland
+TA  - Biology (Basel)
+JT  - Biology
+JID - 101587988
+PMC - PMC8232793
+OTO - NOTNLM
+OT  - 1,4-naphthoquinone
+OT  - bark
+OT  - buds
+OT  - husk
+OT  - hydrojuglone
+OT  - juglone
+OT  - naphthoquinones
+OT  - phenolic compounds
+EDAT- 2021/07/03 06:00
+MHDA- 2021/07/03 06:01
+CRDT- 2021/07/02 01:18
+PHST- 2021/05/24 00:00 [received]
+PHST- 2021/06/07 00:00 [revised]
+PHST- 2021/06/10 00:00 [accepted]
+PHST- 2021/07/02 01:18 [entrez]
+PHST- 2021/07/03 06:00 [pubmed]
+PHST- 2021/07/03 06:01 [medline]
+AID - biology10060535 [pii]
+AID - 10.3390/biology10060535 [doi]
+PST - epublish
+SO  - Biology (Basel). 2021 Jun 15;10(6). pii: biology10060535. doi:
+      10.3390/biology10060535.
+
+PMID- 33676122
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210407
+LR  - 20210407
+IS  - 1873-7072 (Electronic)
+IS  - 0308-8146 (Linking)
+VI  - 352
+DP  - 2021 Aug 1
+TI  - Identification and quantification of the major phenolic constituents in Juglans
+      regia L. peeled kernels and pellicles, using HPLC-MS/MS.
+PG  - 129404
+LID - S0308-8146(21)00410-6 [pii]
+LID - 10.1016/j.foodchem.2021.129404 [doi]
+AB  - This study was designed to identify and quantify the major phenolic constituents 
+      in peeled kernel and pellicle of the walnut Juglans regia L. Data were compared
+      across six different cultivars: 'Fernor', 'Fernette', 'Franquette', 'Sava',
+      'Krka' and 'Rubina'. High-performance liquid chromatography coupled with mass
+      spectrometry was used to identify and quantify these compounds. Nineteen
+      ellagitanins, 12 ellagic acid derivatives, 4 anthocyanins and 5 other phenols
+      were identified in the pellicle of these walnuts, and 15 dicarboxylic acid
+      derivatives and 1 phenol in the peeled walnut kernels. Thirteen previously
+      unreported compounds were identified in the peeled walnut kernels, and 14 in the 
+      walnut pellicle. Hydrolysable tannins were the main phenolic compounds identified
+      in the walnut kernels, and accounted for 31.0% to 35.1% of the total phenolics
+      analysed. The highest intake of total phenolics content per walnut kernel can be 
+      obtained by consumption of 'Franquette' and 'Rubina', with the lowest for 'Krka'.
+CI  - Copyright (c) 2021 Elsevier Ltd. All rights reserved.
+FAU - Medic, Aljaz
+AU  - Medic A
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana,
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia. Electronic address:
+      aljaz.medic@bf.uni-lj.si.
+FAU - Jakopic, Jerneja
+AU  - Jakopic J
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana,
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia. Electronic address:
+      jerneja.jakopic@bf.uni-lj.si.
+FAU - Hudina, Metka
+AU  - Hudina M
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana,
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia. Electronic address:
+      metka.hudina@bf.uni-lj.si.
+FAU - Solar, Anita
+AU  - Solar A
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana,
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia. Electronic address:
+      anita.solar@bf.uni-lj.si.
+FAU - Veberic, Robert
+AU  - Veberic R
+AD  - Department of Agronomy, Biotechnical Faculty, University of Ljubljana,
+      Jamnikarjeva 101, SI-1000 Ljubljana, Slovenia. Electronic address:
+      robert.veberic@bf.uni-lj.si.
+LA  - eng
+PT  - Journal Article
+DEP - 20210224
+PL  - England
+TA  - Food Chem
+JT  - Food chemistry
+JID - 7702639
+RN  - 0 (Phenols)
+SB  - IM
+MH  - *Chromatography, High Pressure Liquid
+MH  - Food Analysis
+MH  - Juglans/*chemistry
+MH  - Nuts/chemistry
+MH  - Phenols/*analysis/chemistry
+MH  - *Tandem Mass Spectrometry
+OTO - NOTNLM
+OT  - Juglans regia L.
+OT  - Peeled kernel
+OT  - Pellicle
+OT  - Phenolic compounds
+OT  - Tannins
+EDAT- 2021/03/07 06:00
+MHDA- 2021/04/10 06:00
+CRDT- 2021/03/06 20:14
+PHST- 2020/11/20 00:00 [received]
+PHST- 2021/02/15 00:00 [revised]
+PHST- 2021/02/15 00:00 [accepted]
+PHST- 2021/03/07 06:00 [pubmed]
+PHST- 2021/04/10 06:00 [medline]
+PHST- 2021/03/06 20:14 [entrez]
+AID - S0308-8146(21)00410-6 [pii]
+AID - 10.1016/j.foodchem.2021.129404 [doi]
+PST - ppublish
+SO  - Food Chem. 2021 Aug 1;352:129404. doi: 10.1016/j.foodchem.2021.129404. Epub 2021 
+      Feb 24.

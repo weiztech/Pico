@@ -1,0 +1,67 @@
+{% extends 'base_accounts.html' %}
+{% load static %}
+
+{% block head %}
+  <link href="{% static 'css/account_v2.css' %}" rel="stylesheet" type="text/css"/>
+{% endblock %}
+
+{% block title %}<title>Login Page || {% include 'common/sitename.html' %}</title>{% endblock %}
+
+{% block body %}
+  <div class="account-container">
+    <div class="container-inner-section">
+      <div class="form-container">
+        <div class="form-header">
+          <div class="form-logo">
+            <img src="{% static 'images/account/abbott-logo-2.png' %}" class="" />
+          </div>
+        </div>
+
+        <div class="form-header">
+          <div class="form-heading">
+            <div class="heading">Sign in</div>
+            <div class="subheading">Please login to continue to your account.</div>
+          </div>
+        </div>
+        
+        <div class="form-body">
+          <form method="post" action="{% url 'accounts:login' %}">
+            {% csrf_token %}
+            <div class="">
+              <div id="{{ form.username.id_for_label }}" class="input-wrapper">
+                {{ form.username.label_tag }}{{ form.username }}
+              </div>
+              <div id="{{ form.password.id_for_label }}" class="input-wrapper">
+                {{ form.password.label_tag }}{{ form.password }}
+              </div>
+            </div>
+            <div class="remember-me">
+              <label for="remember_me">
+                <input id="remember_me" type="checkbox" />
+                <span class="custom-checkbox"></span>
+                &#160; Keep me logged in
+              </label>
+            </div>          
+            <div class="buttons">
+              <input type="hidden" name="next" value="{{ next }}" />
+              <input type="submit" class="btn btn-primary-500" value="Sign in" />
+            </div>
+            <div class="divider">
+              <span>or</span>
+            </div>
+            <div class="third-party-buttons">
+              <button type="button" class="btn btn-gray-500">Sign in with Salesforce</button>
+              <button type="button" class="btn btn-gray-500">Sign in with MS360</button>
+            </div>
+            <div class="powered-by-logo">
+              <img src="{% static 'images/account/powered-by-logo.png' %}" alt="Powered by CiteMed" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-inner-section">
+      <img src="{% static 'images/account/auth.png' %}" width="100%" height="100%" style="object-fit: cover;" class="auth-image" />
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,446 @@
+PMID- 36520939
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230307
+LR  - 20230711
+IS  - 1442-2042 (Electronic)
+IS  - 0919-8172 (Linking)
+VI  - 30
+IP  - 3
+DP  - 2023 Mar
+TI  - Review of robot-assisted laparoscopic surgery in management of infant congenital 
+      urology: Advances and limitations in utilization and learning.
+PG  - 250-257
+LID - 10.1111/iju.15105 [doi]
+AB  - As robotic-assisted (RAL) surgery expanded to treat pediatric congenital disease, 
+      infant anatomy and physiology posed unique challenges that prompted adaptations 
+      to the technology and surgical technique, which are compiled and reviewed in this 
+      manuscript. From the beginning, collaboration with anesthesia is critical for a 
+      safe, efficient case including placement of an endotracheal tube rather than a 
+      laryngeal mask (LMA) and placement of a nasogastric tube and/or rectal tube to 
+      relieve distended stomach or bowel, respectively. Furthermore, end-tidal CO(2) 
+      (EtCO(2) ) is important for monitoring and predicting the effects of 
+      pneumoperitoneum on caridiovascular physiology, incranial pressure, and risk of 
+      acidosis and hypercarbia. Positioning can further exacerbate these effects and 
+      affect intra-abdominal working space. For infant robotic pyeloplasty and 
+      heminephrectomy, a "beanbag" is commonly used for stabilization in the lateral 
+      decubitus position. We advise against the use of a "baby bump" because it brings 
+      the bowels and vasculature more anterior than expected. Pnuemoperitoneum pressure 
+      of 8-10 mmHg during port placement maximizes safety, but thereafter, the 
+      pneumoperitoneum pressure can be minimized to 6-8 mmHg during the procedure 
+      without compromising the visual field. Port sites should be marked after 
+      insufflation, followed by the open Hasson technique for peritoneal access and 
+      port placement under direct vision with intussusception of the trocars to avoid 
+      vascular or bowel injury. Additional tips can be obtained through this 
+      manuscript, immersive fellowships, and mini-fellowships. Ulitmately, infant 
+      robotic surgery has the potential to benefit many children but is presently 
+      limited by the lack of pediatric-specific robotic technology and its associated 
+      costs.
+CI  - © 2022 The Authors. International Journal of Urology published by John Wiley & 
+      Sons Australia, Ltd on behalf of The Japanese Urological Association.
+FAU - Lombardo, Alyssa M
+AU  - Lombardo AM
+AUID- ORCID: 0000-0001-9108-1800
+AD  - The University of Chicago Pritzker School of Medicine, Chicago, Illinois, USA.
+FAU - Gundeti, Mohan S
+AU  - Gundeti MS
+AUID- ORCID: 0000-0002-1449-844X
+AD  - The University of Chicago Comer Children's Hospital, Chicago, Illinois, USA.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20221215
+PL  - Australia
+TA  - Int J Urol
+JT  - International journal of urology : official journal of the Japanese Urological 
+      Association
+JID - 9440237
+SB  - IM
+MH  - Child
+MH  - Infant
+MH  - Humans
+MH  - *Robotic Surgical Procedures/methods
+MH  - *Robotics
+MH  - *Urology
+MH  - *Pneumoperitoneum
+MH  - *Laparoscopy/methods
+OTO - NOTNLM
+OT  - congenital
+OT  - infant
+OT  - pneumoperitoneum
+OT  - robot-assisted surgery
+OT  - urology
+EDAT- 2022/12/16 06:00
+MHDA- 2023/03/08 06:00
+CRDT- 2022/12/15 14:06
+PHST- 2022/07/02 00:00 [received]
+PHST- 2022/11/14 00:00 [accepted]
+PHST- 2022/12/16 06:00 [pubmed]
+PHST- 2023/03/08 06:00 [medline]
+PHST- 2022/12/15 14:06 [entrez]
+AID - 10.1111/iju.15105 [doi]
+PST - ppublish
+SO  - Int J Urol. 2023 Mar;30(3):250-257. doi: 10.1111/iju.15105. Epub 2022 Dec 15.
+
+PMID- 35501240
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221220
+LR  - 20230308
+IS  - 1873-4898 (Electronic)
+IS  - 1477-5131 (Linking)
+VI  - 18
+IP  - 6
+DP  - 2022 Dec
+TI  - Pyeloplasty with ureteral stent placement in children: Do prophylactic 
+      antibiotics serve a purpose?
+PG  - 804-811
+LID - S1477-5131(22)00119-X [pii]
+LID - 10.1016/j.jpurol.2022.03.022 [doi]
+AB  - OBJECTIVES: Ureteral stents are commonly used during pyeloplasty to ensure 
+      drainage and anastomotic healing. Antibiotic prophylaxis is often used due to 
+      concerns for urinary tract infection (UTI). Although many surgeons prescribe 
+      prophylactic antibiotics following pyeloplasty, practices vary widely due to lack 
+      of clear evidence-based guidelines. We hypothesize that the rate of stent UTI 
+      does not significantly vary between children who receive antibiotics and those 
+      who do not. METHODS: We reviewed the medical records of 741 patients undergoing 
+      pyeloplasty between January 2010 and July 2018 across seven institutions. 
+      Exclusion criteria were: age older than 22 years, no stent placed, externalized 
+      stents used, and incomplete records. Surgical approach, age, antibiotic use, 
+      stent duration, Foley duration, and urine culture results were recorded. Patients 
+      were categorized into two groups, those younger than four years of age and those 
+      four years and older as proxy for likely diaper use. Univariate logistic 
+      regression was conducted to identify variables associated with UTI. Multivariable 
+      backward stepwise logistic regression was used to identify the best model with 
+      Akaike information criterion as model selection criteria. The selected model was 
+      used to calculate odds ratios and 95% confidence intervals summarizing the 
+      association between prophylactic antibiotics and stent UTI while controlling for 
+      age, gender, and intra-operative urine cultures. RESULTS: 672 patients were 
+      included; 338 received antibiotic prophylaxis and 334 did not. These groups 
+      differed in mean age (3.91 vs. 6.91 years, P < .001), mean stent duration (38.5 
+      vs. 35.32 days, P < .001), and surgical approach (53.25% vs. 32.04% open vs. 
+      laparoscopic, P < .001). The incidence of stent UTI was low overall (7.59%) and 
+      similar in both groups: 31/338 (9.17%) in the prophylaxis group and 20/334 
+      (5.99%) in the non-prophylaxis group (P = .119). Although female gender, likely 
+      diaper use, and positive intra-operative urine culture were each associated with 
+      significantly higher odds of stent UTI, prophylactic antibiotic use was not 
+      associated with significant reduction in stent UTI in any of these groups. 
+      Surgical approach, stent duration, and Foley duration were not associated with 
+      stent UTI. CONCLUSION: Incidence of stent UTI is low overall following 
+      pyeloplasty. Prophylactic antibiotics are not associated with lower rates of 
+      stent UTI following pyeloplasty even after controlling for risk factors of female 
+      gender, likely diaper use, and positive intra-operative urine culture. Routine 
+      administration of prophylactic antibiotics after pyeloplasty does not appear to 
+      be beneficial, and may be best reserved for those with multiple risk factors for 
+      UTI.
+CI  - Copyright © 2022 Journal of Pediatric Urology Company. Published by Elsevier Ltd. 
+      All rights reserved.
+FAU - Vidovic, Sara
+AU  - Vidovic S
+AD  - University of Tennessee Health Science Center/Le Bonheur Children's Hospital, 
+      Memphis, TN, USA. Electronic address: Sara.Vidovic@BSWHealth.Org.
+FAU - Hayes, Tristan
+AU  - Hayes T
+AD  - University of Tennessee Health Science Center, Memphis, TN, USA.
+FAU - Fowke, Jay
+AU  - Fowke J
+AD  - University of Tennessee Health Science Center, Memphis, TN, USA.
+FAU - Cline, Joseph K
+AU  - Cline JK
+AD  - University of Tennessee Health Science Center/Le Bonheur Children's Hospital, 
+      Memphis, TN, USA.
+FAU - Cannon, Glenn M
+AU  - Cannon GM
+AD  - UPMC Children's Hospital of Pittsburgh, Pittsburgh, PA, USA.
+FAU - Colaco, Marc A
+AU  - Colaco MA
+AD  - UPMC Children's Hospital of Pittsburgh, Pittsburgh, PA, USA.
+FAU - Swords, Kelly A
+AU  - Swords KA
+AD  - University of California, San Diego/Rady Children's Hospital, San Diego, CA, USA.
+FAU - Cornwell, Laura B
+AU  - Cornwell LB
+AD  - University of California, San Diego/Rady Children's Hospital, San Diego, CA, USA.
+FAU - Villanueva, Carlos
+AU  - Villanueva C
+AD  - University of Nebraska Medical Center, Omaha, NE, USA.
+FAU - Corbett, Sean T
+AU  - Corbett ST
+AD  - University of Virginia Children's Hospital, Charlottesville, VA, USA.
+FAU - Maciolek, Kimberly
+AU  - Maciolek K
+AD  - University of Virginia Children's Hospital, Charlottesville, VA, USA.
+FAU - Lambert, Sarah M
+AU  - Lambert SM
+AD  - Yale School of Medicine/Yale New Haven Health System, New Haven, CT, USA.
+FAU - Beltran, Gemma
+AU  - Beltran G
+AD  - Pediatric Urology Research Enterprise, Department of Pediatric Urology, 
+      Children's Hospital Colorado, Aurora, CO, USA.
+FAU - Vemulakonda, Vijaya M
+AU  - Vemulakonda VM
+AD  - Pediatric Urology Research Enterprise, Department of Pediatric Urology, 
+      Children's Hospital Colorado, Aurora, CO, USA.
+FAU - Giel, Dana W
+AU  - Giel DW
+AD  - University of Tennessee Health Science Center/Le Bonheur Children's Hospital, 
+      Memphis, TN, USA.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20220411
+PL  - England
+TA  - J Pediatr Urol
+JT  - Journal of pediatric urology
+JID - 101233150
+RN  - 0 (Anti-Bacterial Agents)
+SB  - IM
+CIN - J Pediatr Urol. 2022 Dec;18(6):812. doi: 10.1016/j.jpurol.2022.04.016. PMID: 
+      35850929
+MH  - Humans
+MH  - Child
+MH  - Female
+MH  - Young Adult
+MH  - Adult
+MH  - *Ureter/surgery
+MH  - Urologic Surgical Procedures/methods
+MH  - Stents/adverse effects
+MH  - *Laparoscopy/adverse effects
+MH  - *Urinary Tract Infections/etiology/prevention & control/epidemiology
+MH  - Anti-Bacterial Agents/therapeutic use
+MH  - Retrospective Studies
+OTO - NOTNLM
+OT  - Hydronephrosis
+OT  - Laparoscopic surgery
+OT  - Pediatric urology
+OT  - Prophylactic antibiotics
+OT  - Pyeloplasty
+OT  - Robotic surgery
+OT  - Ureteral stent
+OT  - Urinary tract infection
+COIS- Conflict of interest We have no conflicts of interest to disclose.
+EDAT- 2022/05/03 06:00
+MHDA- 2022/12/21 06:00
+CRDT- 2022/05/02 22:06
+PHST- 2022/02/01 00:00 [received]
+PHST- 2022/03/24 00:00 [accepted]
+PHST- 2022/05/03 06:00 [pubmed]
+PHST- 2022/12/21 06:00 [medline]
+PHST- 2022/05/02 22:06 [entrez]
+AID - S1477-5131(22)00119-X [pii]
+AID - 10.1016/j.jpurol.2022.03.022 [doi]
+PST - ppublish
+SO  - J Pediatr Urol. 2022 Dec;18(6):804-811. doi: 10.1016/j.jpurol.2022.03.022. Epub 
+      2022 Apr 11.
+
+PMID- 36450121
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221216
+LR  - 20221221
+IS  - 1557-9034 (Electronic)
+IS  - 1092-6429 (Linking)
+VI  - 32
+IP  - 12
+DP  - 2022 Dec
+TI  - Applications of Indocyanine Green-Guided Near-Infrared Fluorescence Imaging in 
+      Pediatric Minimally Invasive Surgery Urology: A Narrative Review.
+PG  - 1280-1287
+LID - 10.1089/lap.2022.0231 [doi]
+AB  - Background: Indocyanine green (ICG) is a fluorescent dye used for several 
+      indications in adult surgery, and, more recently, adopted also in the pediatric 
+      patients. This study aimed to review the literature published on the use of ICG 
+      near-infrared fluorescence (NIRF) in pediatric urology, to address its 
+      shortcomings and disadvantages and to detect the future perspectives. Materials 
+      and Methods: An electronic literature search of PubMed on all studies reporting 
+      use of ICG-NIRF in pediatrics was performed. We included only studies reporting 
+      ICG-NIRF application in minimally invasive surgery (MIS) for pediatric urology 
+      indications. Results: Forty-two articles reporting MIS procedures performed using 
+      ICG-NIRF in children were obtained, but only 15 studies that focused on 
+      urological applications of ICG-NIRF in children were included in this review. The 
+      included studies described use of ICG-NIRF for kidney malformations such as 
+      duplex system, kidney tumors, renal cysts, ureteral pathology, bladder 
+      malformations, varicocele, and lymph node sampling in tumors. The pediatric 
+      urological applications in which ICG-NIRF provided significant advantages 
+      included partial nephrectomy, lymphatics sparing varicocele repair, and 
+      oncological procedures. The ICG-NIRF use was clinically safe, without reported 
+      adverse systemic reactions in all pediatric series. The main drawback of this 
+      technology is the need of specific laparoscopic equipment such as camera system, 
+      light sources, and telescopes or the da Vinci Xi Robot, with the software for 
+      ICG-NIRF, Firefly(®), already integrated within. Conclusions: ICG-enhanced 
+      fluorescence-guided surgery is gaining growing popularity among pediatric 
+      surgeons due to the excellent results that have been published until now. 
+      ICG-NIRF technology has proven to be safe, easy to use, not time-consuming, 
+      cheap, and very effective to improve intraoperative view and surgical ability. 
+      Nonetheless, further evidence, including larger series, longer follow-up, and 
+      more specific assessments, is necessary to confirm the preliminary results and 
+      enlarge the applications.
+FAU - Esposito, Ciro
+AU  - Esposito C
+AUID- ORCID: 0000-0002-3256-7576
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+FAU - Borgogni, Rachele
+AU  - Borgogni R
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+FAU - Autorino, Giuseppe
+AU  - Autorino G
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+FAU - Cerulo, Mariapina
+AU  - Cerulo M
+AUID- ORCID: 0000-0002-4069-7688
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+FAU - Carulli, Roberto
+AU  - Carulli R
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+FAU - Esposito, Giovanni
+AU  - Esposito G
+AD  - Department of Advanced Biotechnologies, CEINGE, Center of Advanced 
+      Biotechnologies, Naples, Italy.
+FAU - Del Conte, Fulvia
+AU  - Del Conte F
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+FAU - Escolino, Maria
+AU  - Escolino M
+AD  - Pediatric Surgery Unit, Department of Translational Medical Sciences, Federico II 
+      University Hospital, Naples, Italy.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20221125
+PL  - United States
+TA  - J Laparoendosc Adv Surg Tech A
+JT  - Journal of laparoendoscopic & advanced surgical techniques. Part A
+JID - 9706293
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - Male
+MH  - Adult
+MH  - Humans
+MH  - Child
+MH  - Indocyanine Green
+MH  - Nephrectomy/methods
+MH  - Optical Imaging
+MH  - *Laparoscopy/methods
+MH  - *Kidney Neoplasms/surgery
+MH  - Minimally Invasive Surgical Procedures
+OTO - NOTNLM
+OT  - ICG
+OT  - children
+OT  - fluorescence
+OT  - indocyanine green
+OT  - laparoscopy
+OT  - urology
+EDAT- 2022/12/01 06:00
+MHDA- 2022/12/15 06:00
+CRDT- 2022/11/30 16:33
+PHST- 2022/12/01 06:00 [pubmed]
+PHST- 2022/12/15 06:00 [medline]
+PHST- 2022/11/30 16:33 [entrez]
+AID - 10.1089/lap.2022.0231 [doi]
+PST - ppublish
+SO  - J Laparoendosc Adv Surg Tech A. 2022 Dec;32(12):1280-1287. doi: 
+      10.1089/lap.2022.0231. Epub 2022 Nov 25.
+
+PMID- 36502451
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221216
+LR  - 20231214
+IS  - 1437-9813 (Electronic)
+IS  - 0179-0358 (Linking)
+VI  - 39
+IP  - 1
+DP  - 2022 Dec 11
+TI  - Efficacy of robot-assisted hepaticojejunostomy and laparoscopic-assisted 
+      hepaticojejunostomy in pediatric congenital choledochal dilatation: a system 
+      review and meta-analysis.
+PG  - 46
+LID - 10.1007/s00383-022-05286-w [doi]
+AB  - PURPOSE: The efficacy of robot-assisted hepaticojejunostomy (RAHJ) and 
+      laparoscopic-assisted hepaticojejunostomy (LAHJ) in children with congenital 
+      choledochal dilatation has been a topic of much debate and controversy. The 
+      purpose of this study was to evaluate the role of RAHJ and LAHJ in pediatric 
+      congenital choledochal dilatation. METHOD: The review program has been 
+      prospectively registered (PROSPEROID: CRD42022306868). We searched the PubMed, 
+      Embase, Cochrane, CBM, VIP, Web of Science, CNKI databases, and Wanfang databases 
+      from March 2021. The Mantel-Haenszel method and a random-effects model were used 
+      to figure out the hazard ratio (95% CI). RESULTS: Ten studies evaluated eight 
+      hundred and sixty-nine subjects (three hundred and thirty-two in the robotic 
+      group and five hundred and thirty-seven in the laparoscopic group), meeting all 
+      inclusion criteria. Compared with the laparoscopic group, robotic group 
+      demonstrated fewer postoperative complications [p = 0.0009; OR = 0.34 (95% CI, 
+      0.18-0.64); I(2) = 3%], shorter postoperative hospital stay [p < 00,001; 
+      MD = - 2.05 (95% CI, - 2.40-1.70); I(2) = 0%], and less intraoperative bleeding 
+      [p = 0.008; MD = - 10.80 (95% CI, - 18.80-2.81); I(2) = 99%]. There was no 
+      significant difference in operative time between the two groups [p = 0.10; 
+      MD = 24.53 (95% CI, - 5.11-54.17); I(2) = 99%]. The same situation happened in 
+      short-term complication outcomes [p = 0.06; RR = 0.45 (95% CI, 0.19-1.04); 
+      I(2) = 0%]. However, children in the RAHJ group had significantly lower levels of 
+      long-term complications [p = 0.04; OR = 0.41 (95% CI, 0.17-0.96); I(2) = 0%]. 
+      Hospitalization costs were significantly higher in the RAHJ group [p < 0.00001; 
+      OR = 27,113.86 (95% CI, 26,307.24-27,920.48); I(2) = 0%]. For overall 
+      complications, subgroup analysis of literature published after 2020 and of 
+      literature with high quality scores showed a significant decrease in the RAHJ 
+      group. CONCLUSION: In children with congenital choledochal dilatation, RAHJ is 
+      associated with reduced intraoperative bleeding, postoperative complications, and 
+      length of stay. Robotic surgery has a bright future in the treatment of pediatric 
+      common hepatic duct cysts and deserves to be promoted and popularized.
+CI  - © 2022. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+      part of Springer Nature.
+FAU - Zhang, Ruifeng
+AU  - Zhang R
+AD  - Graduate College, Tianjin Medical University, No.22, Meteorological Terrace Road, 
+      Heping District, Tianjin, China.
+AD  - Department of General Surgery, Tianjin Children's Hospital, Tianjin, China.
+FAU - Liu, Shaowen
+AU  - Liu S
+AD  - Graduate College, Tianjin Medical University, No.22, Meteorological Terrace Road, 
+      Heping District, Tianjin, China.
+AD  - Department of General Surgery, Tianjin Children's Hospital, Tianjin, China.
+FAU - Li, Tengfei
+AU  - Li T
+AD  - Graduate College, Tianjin Medical University, No.22, Meteorological Terrace Road, 
+      Heping District, Tianjin, China.
+AD  - Department of General Surgery, Tianjin Children's Hospital, Tianjin, China.
+FAU - Zhan, Jianghua
+AU  - Zhan J
+AD  - Department of General Surgery, Tianjin Children's Hospital, Tianjin, China. 
+      zhanjianghuatj@163.com.
+LA  - eng
+PT  - Journal Article
+PT  - Meta-Analysis
+DEP - 20221211
+PL  - Germany
+TA  - Pediatr Surg Int
+JT  - Pediatric surgery international
+JID - 8609169
+SB  - IM
+MH  - Child
+MH  - Humans
+MH  - *Choledochal Cyst/surgery
+MH  - *Robotics
+MH  - *Biliary Tract Surgical Procedures/methods
+MH  - *Laparoscopy/methods
+MH  - Postoperative Complications/epidemiology/surgery
+OTO - NOTNLM
+OT  - Congenital choledochal dilatation
+OT  - Laparoscopic-assisted hepaticojejunostomy
+OT  - Meta-analysis
+OT  - Robot-assisted hepaticojejunostomy
+EDAT- 2022/12/12 06:00
+MHDA- 2022/12/15 06:00
+CRDT- 2022/12/11 14:05
+PHST- 2022/10/23 00:00 [accepted]
+PHST- 2022/12/11 14:05 [entrez]
+PHST- 2022/12/12 06:00 [pubmed]
+PHST- 2022/12/15 06:00 [medline]
+AID - 10.1007/s00383-022-05286-w [pii]
+AID - 10.1007/s00383-022-05286-w [doi]
+PST - epublish
+SO  - Pediatr Surg Int. 2022 Dec 11;39(1):46. doi: 10.1007/s00383-022-05286-w.

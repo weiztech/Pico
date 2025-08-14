@@ -1,0 +1,107 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+
+{% block title%}
+    <title>Projects List</title>
+{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div id="content" class="content__container">
+
+    <div class="sub-navbar-home">
+        <div class="sub-navbar-home-item-text">
+            {% if user.client %}
+                Projects - {{user.client.name}}
+            {% else %}
+                Projects - {{user.username}}
+            {% endif %}
+        </div>
+    </div>
+    <div class="project-filter-navbar">
+        <div class="project-filter-navbar-type" v-if="devices">
+            <select v-on:change="onDeviceFilterChange" class="project-filter-navbar-type-select" id="project-filter-navbar-type-select">
+                <option value="" :selected="deviceFilter===''"> Select Device </option>
+                <option v-for="device in devices" :value="device.id" :selected="deviceFilter===device.id"> [[ device.device_name ]] </option>
+            </select>
+        </div>
+        <div class="project-filter-navbar-type">
+            <select v-on:change="onTypeFilterChange" name="" id="project-filter-navbar-type-select" class="project-filter-navbar-type-select">
+                <option value="" :selected="typeFilter===''"> Select Project Type </option>
+                <option v-for="type in types" :value="type.id" :selected="typeFilter===type.id"> [[ type.name ]] </option>
+            </select>
+        </div>
+        <div class="project-filter-navbar-date">
+            <!-- <input type="date" name="" id="project-filter-navbar-date-input" class="project-filter-navbar-date-input"> -->
+            <div class="project-filter-navbar-date-text"> Date: </div>
+            <vuejs-datepicker 
+                format="dd-MM-yyyy"
+                v-model="dateFilter"         
+                name="datepicker"
+                id="input-id"
+                input-class="project-filter-navbar-date-input"
+                >
+            </vuejs-datepicker>
+        </div>
+        <div class="project-filter-navbar-submit">
+            <button class="project-filter-navbar-submit-btn" v-on:click="onClearFilters" > Clear Filters </button>
+        </div>
+    </div>
+    <div class="" style="width: 100%;">
+        <div v-if="isRecordsLoading"> Loading... </div>
+        <div v-else-if="projects">
+            <div class="project-table-header">
+                <div class="project-table-header-name">Project Name</div>
+                <div class="project-table-header-date">Date</div>
+                <div class="project-table-header-type">Type</div>
+                <div class="project-table-header-type">Lit Review</div>
+                <div class="project-table-header-action"> Full Detail </div>
+            </div>
+            <div class="project-table-body">
+                <div v-for="project in projects" class="project-table-body-item">
+                    <div class="project-table-body-name"> [[ project.name ]] </div>
+                    <div class="project-table-body-date"> [[ project.initial_complated_date ? project.initial_complated_date : "N/A"]] </div>
+                    <div class="project-table-body-type"> [[ project.type ]] </div>
+                    <div class="project-table-body-type">
+                        <a class="project-table-body-action-link-review" :href="[[ project.lit_review_hyperlink ]]"  target="_blank"> 
+                             See Review 
+                        </a>
+                    </div>
+                    <div class="project-table-body-action">
+                        <a class="project-table-body-action-link" :href="[[ project.detail_view_hyperlink ]]"> 
+                            <img
+                            src="{% static 'images/icons/plus-detail-icon.svg' %}"
+                            alt=""
+                            class="project-table-body-action-icon"
+                            />   
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text" v-else>No data.</div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const projectsURL = "{% url 'client_portal:projects_api' %}";
+    const devicesURL = "{% url 'client_portal:devices_api' %}";
+</script>
+
+{% if env == 'PROD' %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{% static 'client_portal/vue/projects.js' %}" ></script>
+
+{% endblock %}

@@ -1,0 +1,69 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=Rubina+and+ICG&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8473799
+PMID- 34589458
+IS  - 2296-2360 (Electronic)
+VI  - 9
+DP  - 2021
+TI  - The Use of Indocyanine Green Fluorescence Angiography in Pediatric Surgery: A
+      Systematic Review and Narrative Analysis.
+LID - 736242
+AB  - Purpose: Indocyanine green fluorescence angiography (ICG-FA) is a validated
+      non-invasive imaging technique used to assess tissue vascularization and guide
+      intraoperative decisions in many surgical fields including plastic surgery,
+      neurosurgery, and general surgery. While this technology is well-established in
+      adult surgery, it remains sparsely used in pediatric surgery. Our aim was to
+      systematically review and provide an overview of all available evidence on the
+      perioperative use of indocyanine green fluorescence angiography in pediatric
+      surgical patients.Methods: We conducted a systematic review with narrative
+      synthesis in conformity with the PRISMA guidelines using PubMed, Medline, All EBM
+      Reviews, EMBASE, PsycINFO, and CINAHL COMPLETE databases to identify articles
+      describing the perioperative use of ICG-FA in pediatric patients. Two independent
+      authors screened all included articles for eligibility and inclusion criteria. We
+      extracted data on study design, demographics, surgical indications, indocyanine
+      green dose, and perioperative outcomes. We developed a risk of bias assessment
+      tool to evaluate the methodological quality of included studies.Results: Of 1,031
+      articles retrieved, a total of 64 articles published between 2003 and 2020 were
+      included reporting on 664 pediatric patients. Most articles were case reports and
+      case series (n = 36; 56%). No adverse events related to ICG-FA were reported in
+      the included articles. Risk of bias was high. We did not conduct a meta-analysis 
+      given the heterogeneous nature of the populations, interventions, and outcome
+      measures. A narrative synthesis is presented.Conclusion: Indocyanine green
+      fluorescence angiography is a safe imaging technology and its use is increasing
+      rapidly in pediatric surgical specialties. However, the quality of evidence
+      supporting this trend currently appears low. Case-control and randomized trials
+      are needed to determine the adequate pediatric dose and to confirm the potential 
+      benefits of ICG-FA in pediatric surgical patients.Systematic Review Registration:
+      This study was registered on Prospero a priori, identifier: CRD42020151981.
+FAU - Le-Nguyen, Annie
+AU  - Le-Nguyen A
+AD  - Department of General Surgery, Université de Montréal, Montréal, QC, Canada
+FAU - O'Neill Trudeau, Maeve
+AU  - O'Neill Trudeau M
+AD  - Department of Pediatric Surgery, Centre Hospitalier Universitaire Sainte-Justine,
+      Université de Montréal, Montréal, QC, Canada
+FAU - Dodin, Philippe
+AU  - Dodin P
+AD  - Centre Hospitalier Universitaire Sainte-Justine, Université de Montréal,
+      Montréal, QC, Canada
+FAU - Keezer, Mark R.
+AU  - Keezer MR
+AD  - Department of Neurosciences, Université de Montréal, Montréal, QC, Canada
+FAU - Faure, Christophe
+AU  - Faure C
+AD  - Department of Gastroenterology, Hepatology, and Nutrition, Centre Hospitalier
+      Universitaire Sainte-Justine, Université de Montréal, Montréal, QC, Canada
+FAU - Piché, Nelson
+AU  - Piché N
+AD  - Department of Pediatric Surgery, Centre Hospitalier Universitaire Sainte-Justine,
+      Université de Montréal, Montréal, QC, Canada
+LA  - eng
+PT  - Journal Article
+DEP - 20210913
+PHST- 2021/07/04 [received]
+PHST- 2021/08/18 [accepted]
+TA  - Front Pediatr
+JT  - Frontiers in Pediatrics
+AID - 10.3389/fped.2021.736242 [doi]
+SO  - Front Pediatr. 2021 Sep 13;9:. doi:10.3389/fped.2021.736242.

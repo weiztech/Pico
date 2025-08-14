@@ -1,0 +1,89 @@
+{% extends 'base_accounts.html' %}
+{% load static %}
+{% block title %}<title>Register</title>{% endblock %}
+{% block head %}
+    <link href="{% static 'css/register.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block body %}
+<div>
+  <div class="form-header">
+    <div class="bold-text">Register a new account</div>
+    <div class="lite-text">Please enter your details information.</div>
+  </div>
+  <form method="post" id="form-body">
+    {% csrf_token %}
+    <div class="form-row">
+      <div class="form-col">
+        <div id="username" class="inputText fadeIn">
+          {{ form.username.label_tag }}
+          {{ form.username }}
+        </div>
+      </div>
+      <div class="form-col">
+        <div id="email" class="inputText fadeIn">
+          {{ form.email.label_tag }}
+          {{ form.email }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-col">
+        <div id="password1" class="inputText fadeIn">
+          {{ form.password1.label_tag }}
+          {{ form.password1 }}
+        </div>
+      </div>
+      <div class="form-col">
+        <div id="password2" class="inputText fadeIn">
+          {{ form.password2.label_tag }}
+          {{ form.password2 }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-col">
+        <div id="full_name" class="inputText fadeIn">
+          {{ form.full_name.label_tag }}
+          {{ form.full_name }}
+        </div>
+      </div>
+      <div class="form-col">
+        <div id="company_name" class="inputText fadeIn">
+          {{ form.company_name.label_tag }}
+          {{ form.company_name }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="form-col-full">
+        <div id="phone_number" class="inputText fadeIn">
+          {{ form.phone_number.label_tag }}
+          {{ form.phone_number }}
+        </div>
+      </div>
+      <!-- Add more fields in the second column if needed -->
+    </div>
+    
+    {% if form.errors %}
+      <div class="badge error mb-2" style="font-size: 14px;">
+        {% for errors in form.errors.values %}
+          <ul>
+            {% for error in errors %}
+              <li> {{ error }} </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <button type="submit" class="submit-button">Register</button>
+    <a href="{% url 'accounts:login' %}" class="sing-up-button-section">
+      <div type="submit" class="sing-up-button">Sign In</div>
+    </a>
+  </form>
+</div>
+{% endblock %}

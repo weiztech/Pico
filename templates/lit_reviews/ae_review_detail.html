@@ -1,0 +1,51 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block 'head' %}
+{% endblock %}
+
+{% block 'help_section' %} 
+    <a href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/adverse-event-review">
+        <span>Need help with this page? <br/> Read the Wiki</span>
+        <div>
+           <img src="{% static 'images/icons/wiki-icon.svg' %}">
+        </div>    
+    </a>
+{% endblock %} 
+
+{% block 'body' %}
+<div class="card">
+    <div class="section-header">
+        <h4> 
+            Adverse Event 
+        </h4>
+    </div> 
+
+    <div class="horizantal-devider mt-2 mb-2"> </div>
+
+    <a class="link mt" href="{{ object.ae.event_uid }}"> 
+        Event Link
+    </a>
+    
+    <div class="mt"> <strong> Manufacturer: </strong> {{object.ae.manufacturer }} </div>
+    <div class="mt"> <strong> Event Type: </strong> {{object.ae.event_type }} </div>
+
+    <div class="info-card mt mb">
+        {{ object.ae.description }}
+    </div>
+
+    <div class="mt-2">
+        <form method="post">
+          {% csrf_token %}
+          <div class="mb-2">
+            {{ form.state | as_crispy_field }}
+          </div>
+          <div class="center-v">
+            <button type="submit" class="primary-button mr">Save</button>
+            <button type="submit" class="secondary-gray-button" name="next">Save and Next</button>
+          </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

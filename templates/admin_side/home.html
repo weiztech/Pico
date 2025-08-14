@@ -1,0 +1,117 @@
+{% extends 'admin_side/base.html' %}
+{% load static %}
+
+{% block 'head' %}
+     <link href="{% static 'css/theme/full_text_uploader.css' %}" rel="stylesheet" type="text/css" />
+     <link href="{% static 'css/theme/search_terms.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'body' %}
+
+<div id="app" class="search-terms-container" style="margin-top: 70px;" v-cloak>       
+      <div class="form-content search-terms-table-wrapper">
+        <div class="horizantal-devider"> </div>
+        <div class="content">
+          <h3 v-if="isLoading"> Loading ... </h3>
+          <table v-else class="custom-table section-wrapper" >
+            <thead>
+                <tr>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 100px !important;border-radius:7px 0px 0px 0px;">ID</th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 300px !important;">
+                      <a class="score-header-title" v-on:click="sortBy('search_term')">
+                        Term
+                        <i :class="sort === '-search_term' ? 'fas fa-angle-up' : 'fas fa-angle-down'" style="margin-left: 6px;"></i>
+                      </a>
+                    </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;"> Date Range </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;">
+                      <a class="score-header-title" v-on:click="sortBy('database_name')">
+                        DataBase
+                        <i :class="sort === '-database_name' ? 'fas fa-angle-up' : 'fas fa-angle-down'"
+                          style="margin-left: 6px;"></i>
+                      </a>
+                    </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;"> 
+                      <a class="score-header-title" v-on:click="sortBy('script_timestamp')">
+                        Execution Time 
+                        <i :class="sort === '-script_timestamp' ? 'fas fa-angle-up' : 'fas fa-angle-down'" style="margin-left: 6px;"></i>
+                      </a>
+                    </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;"> Status </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;"> Results Count </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;"> Results File </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 150px !important;"> User </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 200px !important;"> User Email </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 200px !important;"> Applied Filters </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 300px !important;"> Literature Review </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 300px !important;"> Errors </th>
+                    <th scope="col" class="unclassified-list-table-header-col" style="width: 200px !important;border-radius: 0px 7px 0px 0px;"> Error  Screenshots </th>
+                  </tr>
+            </thead>
+            <tbody>
+                <tr v-for="record in records" :id="'report-'+record.id" :key="record.id">
+                    <td> #[[ record.id ]] </td>
+                    <td> [[ record.search_term ]] </td>
+                    <td>
+                      [[ record.start_date ]]
+                      <br />
+                      [[ record.end_date ]]
+                    </td>
+                    <td> [[ record.database_name ]] </td>
+                    <td> [[ record.script_timestamp ]] </td>
+                    <td>
+                      <div v-if="record.status" > 
+                        <span :class="getStatusClass(record.status)"> [[ record.status ]] </span>
+                      </div>
+                    </td>
+                    <td style="text-align: center;"> [[ record.result_count ]] </td>
+                    <td>
+                      <a v-if="record.results_file" :href="record.results_file" class="btn save-btn"> Download </a>
+                      <div v-else> <span class="badge warning"> No File</span>  </div>
+                    </td>
+                    <td> [[ record.user ]] </td>
+                    <td> [[ record.user_email ]] </td>
+                    <td style="word-wrap: break-word; max-width: 150px;"> [[ record.applied_filters ]] </td>
+                    <td> 
+                      <a :href="'/literature_reviews/'+record.literature_review__id+'/search_dashboard'" style="color: #6D6BAF;" target="_blank"> [[ record.project ]] </a> 
+                    </td>
+                    <td>
+                      <div v-if="record.errors" style="color: red;">
+                        [[ record.errors ]]
+                      </div>
+                      <div v-else >
+                        <span class="badge success"> No Errors</span>
+                      </div>
+                    </td>
+                    <td>
+                      <a 
+                        v-if="record.failure_stage_screenshot" 
+                        :href="record.failure_stage_screenshot" 
+                        class="secondary-gray-button"
+                        target="_blank"
+                      >
+                        Preview Screenshot 
+                      </a>
+                      <div v-else> <span class="badge success"> None </span> </div>
+                    </td>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+
+{% endblock %}
+
+{% block 'scripts-block' %} 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+  integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  const ScraperReportsListAPI = "{% url 'admin_side:scraper-report-api-list' %}";
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+<script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+<script src="{% static "admin_side/scraper_monitor.js" %}"> </script>
+
+{% endblock %}

@@ -1,0 +1,706 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27ICG+Fluorescence+imaging%27+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 33895027
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20210817
+IS  - 1532-2157 (Electronic)
+IS  - 0748-7983 (Linking)
+VI  - 47
+IP  - 9
+DP  - 2021 Sep
+TI  - Assessment of the deep resection margin during oral cancer surgery: A systematic 
+      review.
+PG  - 2220-2232
+LID - S0748-7983(21)00421-2 [pii]
+LID - 10.1016/j.ejso.2021.04.016 [doi]
+AB  - The main challenge for radical resection in oral cancer surgery is to obtain
+      adequate resection margins. Especially the deep margin, which can only be
+      estimated based on palpation during surgery, is often reported inadequate. To
+      increase the percentage of radical resections, there is a need for a quick, easy,
+      minimal invasive method, which assesses the deep resection margin without
+      interrupting or prolonging surgery. This systematic review provides an overview
+      of technologies that are currently being studied with the aim of fulfilling this 
+      demand. A literature search was conducted through the databases Medline, Embase
+      and the Cochrane Library. A total of 62 studies were included. The results were
+      categorized according to the type of technique: 'Frozen Section Analysis',
+      'Fluorescence', 'Optical Imaging', 'Conventional imaging techniques', and
+      'Cytological assessment'. This systematic review gives for each technique an
+      overview of the reported performance (accuracy, sensitivity, specificity,
+      positive predictive value, negative predictive value, or a different outcome
+      measure), acquisition time, and sampling depth. At the moment, the most
+      prevailing technique remains frozen section analysis. In the search for other
+      assessment methods to evaluate the deep resection margin, some technologies are
+      very promising for future use when effectiveness has been shown in larger trials,
+      e.g., fluorescence (real-time, sampling depth up to 6 mm) or optical techniques
+      such as hyperspectral imaging (real-time, sampling depth few mm) for microscopic 
+      margin assessment and ultrasound (less than 10 min, sampling depth several cm)
+      for assessment on a macroscopic scale.
+CI  - Copyright (c) 2021 Elsevier Ltd, BASO ~ The Association for Cancer Surgery, and
+      the European Society of Surgical Oncology. All rights reserved.
+FAU - Brouwer de Koning, S G
+AU  - Brouwer de Koning SG
+AD  - Department of Head and Neck Surgery and Oncology, Antoni van Leeuwenhoek,
+      Netherlands Cancer Institute, Amsterdam, the Netherlands. Electronic address:
+      s.brouwerdekoning@nki.nl.
+FAU - Schaeffers, A W M A
+AU  - Schaeffers AWMA
+AD  - Department of Head and Neck Surgery and Oncology, Antoni van Leeuwenhoek,
+      Netherlands Cancer Institute, Amsterdam, the Netherlands.
+FAU - Schats, W
+AU  - Schats W
+AD  - Scientific Information Service, Antoni van Leeuwenhoek, Netherlands Cancer
+      Institute, Amsterdam, the Netherlands.
+FAU - van den Brekel, M W M
+AU  - van den Brekel MWM
+AD  - Department of Head and Neck Surgery and Oncology, Antoni van Leeuwenhoek,
+      Netherlands Cancer Institute, Amsterdam, the Netherlands.
+FAU - Ruers, T J M
+AU  - Ruers TJM
+AD  - Department of Surgical Oncology, Antoni van Leeuwenhoek, Netherlands Cancer
+      Institute, Amsterdam, the Netherlands; Faculty of Science and Technology,
+      University of Twente, Enschede, the Netherlands.
+FAU - Karakullukcu, M B
+AU  - Karakullukcu MB
+AD  - Department of Head and Neck Surgery and Oncology, Antoni van Leeuwenhoek,
+      Netherlands Cancer Institute, Amsterdam, the Netherlands.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20210417
+PL  - England
+TA  - Eur J Surg Oncol
+JT  - European journal of surgical oncology : the journal of the European Society of
+      Surgical Oncology and the British Association of Surgical Oncology
+JID - 8504356
+SB  - IM
+OTO - NOTNLM
+OT  - Deep resection margin
+OT  - Intra-operative margin assessment
+OT  - Oral squamous cell carcinoma
+COIS- Declaration of competing interest None declared.
+EDAT- 2021/04/26 06:00
+MHDA- 2021/04/26 06:00
+CRDT- 2021/04/25 20:24
+PHST- 2021/02/26 00:00 [received]
+PHST- 2021/04/13 00:00 [accepted]
+PHST- 2021/04/26 06:00 [pubmed]
+PHST- 2021/04/26 06:00 [medline]
+PHST- 2021/04/25 20:24 [entrez]
+AID - S0748-7983(21)00421-2 [pii]
+AID - 10.1016/j.ejso.2021.04.016 [doi]
+PST - ppublish
+SO  - Eur J Surg Oncol. 2021 Sep;47(9):2220-2232. doi: 10.1016/j.ejso.2021.04.016. Epub
+      2021 Apr 17.
+
+PMID- 32470820
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210108
+LR  - 20210317
+IS  - 1879-0410 (Electronic)
+IS  - 0955-0674 (Linking)
+VI  - 66
+DP  - 2020 Oct
+TI  - Live-cell imaging in the era of too many microscopes.
+PG  - 34-42
+LID - S0955-0674(20)30054-5 [pii]
+LID - 10.1016/j.ceb.2020.04.008 [doi]
+AB  - At the time of this writing, searching Google Scholar for 'light-sheet
+      microscopy' returns almost 8500 results; over three-quarters of which were
+      published in the last 5 years alone. Searching for other advanced imaging methods
+      in the last 5 years yields similar results: 'super-resolution microscopy' (>16
+      000), 'single-molecule imaging' (almost 10 000), SPIM (Single Plane Illumination 
+      Microscopy, 5000), and 'lattice light-sheet' (1300). The explosion of new imaging
+      methods has also produced a dizzying menagerie of acronyms, with over 100
+      different species of 'light-sheet' alone, from SPIM to UM (Ultra microscopy) to
+      SiMView (Simultaneous MultiView) to iSPIM (inclined SPIM, not to be confused with
+      iSPIM, inverted SPIM). How then is the average biologist, without an advanced
+      degree in physics, optics, or computer science supposed to make heads or tails of
+      which method is best suited for their needs? Let us also not forget the plight of
+      the optical physicist, who at best might need help with obtaining healthy samples
+      and keeping them that way, or at worst may not realize the impact their newest
+      technique could have for biologists. This review will not attempt to solve all
+      these problems, but instead highlight some of the most recent, successful mergers
+      between biology and advanced imaging technologies, as well as hopefully provide
+      some guidance for anyone interested in journeying into the world of live-cell
+      imaging.
+CI  - Copyright (c) 2020 Elsevier Ltd. All rights reserved.
+FAU - Lemon, William C
+AU  - Lemon WC
+AD  - Howard Hughes Medical Institute, Janelia Farm Research Campus, Ashburn, VA, USA.
+FAU - McDole, Katie
+AU  - McDole K
+AD  - MRC Laboratory of Molecular Biology, Cambridge Biomedical Campus, Cambridge, CB2 
+      0QH, UK. Electronic address: kmcdole@mrc-lmb.cam.ac.uk.
+LA  - eng
+GR  - MC_UP_1201/23/MRC_/Medical Research Council/United Kingdom
+GR  - HHMI/Howard Hughes Medical Institute/United States
+GR  - MCUP1201/23/MRC_/Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20200526
+PL  - England
+TA  - Curr Opin Cell Biol
+JT  - Current opinion in cell biology
+JID - 8913428
+SB  - IM
+MH  - Animals
+MH  - Cell Survival
+MH  - Fluorescence
+MH  - Humans
+MH  - *Imaging, Three-Dimensional
+MH  - Microscopy/*instrumentation/*methods
+MH  - Staining and Labeling
+OTO - NOTNLM
+OT  - *Advanced imaging
+OT  - *Imaging tools
+OT  - *Light-sheet microscopy
+OT  - *Live-cell imaging
+OT  - *Microscopy
+OT  - *Super-resolution microscopy
+COIS- Conflict of interest statement Nothing declared.
+EDAT- 2020/05/30 06:00
+MHDA- 2021/01/09 06:00
+CRDT- 2020/05/30 06:00
+PHST- 2020/03/02 00:00 [received]
+PHST- 2020/04/14 00:00 [revised]
+PHST- 2020/04/15 00:00 [accepted]
+PHST- 2020/05/30 06:00 [pubmed]
+PHST- 2021/01/09 06:00 [medline]
+PHST- 2020/05/30 06:00 [entrez]
+AID - S0955-0674(20)30054-5 [pii]
+AID - 10.1016/j.ceb.2020.04.008 [doi]
+PST - ppublish
+SO  - Curr Opin Cell Biol. 2020 Oct;66:34-42. doi: 10.1016/j.ceb.2020.04.008. Epub 2020
+      May 26.
+
+PMID- 30202661
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200930
+IS  - 2167-8359 (Print)
+IS  - 2167-8359 (Linking)
+VI  - 6
+DP  - 2018
+TI  - An LED-based multi-actinic illumination system for the high throughput study of
+      photosynthetic light responses.
+PG  - e5589
+LID - 10.7717/peerj.5589 [doi]
+AB  - The responses of photosynthetic organisms to light stress are of interest for
+      both fundamental and applied research. Functional traits related to the
+      photoinhibition, the light-induced loss of photosynthetic efficiency, are
+      particularly interesting as this process is a key limiting factor of
+      photosynthetic productivity in algae and plants. The quantitative
+      characterization of light responses is often time-consuming and calls for
+      cost-effective high throughput approaches that enable the fast screening of
+      multiple samples. Here we present a novel illumination system based on the
+      concept of 'multi-actinic imaging' of in vivo chlorophyll fluorescence. The
+      system is based on the combination of an array of individually addressable low
+      power RGBW LEDs and custom-designed well plates, allowing for the independent
+      illumination of 64 samples through the digital manipulation of both exposure
+      duration and light intensity. The illumination system is inexpensive and easily
+      fabricated, based on open source electronics, off-the-shelf components, and
+      3D-printed parts, and is optimized for imaging of chlorophyll fluorescence. The
+      high-throughput potential of the system is illustrated by assessing the
+      functional diversity in light responses of marine macroalgal species, through the
+      fast and simultaneous determination of kinetic parameters characterizing the
+      response to light stress of multiple samples. Although the presented illumination
+      system was primarily designed for the measurement of phenotypic traits related to
+      photosynthetic activity and photoinhibition, it can be potentially used for a
+      number of alternative applications, including the measurement of chloroplast
+      phototaxis and action spectra, or as the basis for microphotobioreactors.
+FAU - Serodio, Joao
+AU  - Serodio J
+AD  - Department of Biology and CESAM-Centre for Environmental and Marine Studies,
+      University of Aveiro, Aveiro, Portugal.
+FAU - Schmidt, William
+AU  - Schmidt W
+AD  - Department of Biology and CESAM-Centre for Environmental and Marine Studies,
+      University of Aveiro, Aveiro, Portugal.
+FAU - Frommlet, Jorg C
+AU  - Frommlet JC
+AD  - Department of Biology and CESAM-Centre for Environmental and Marine Studies,
+      University of Aveiro, Aveiro, Portugal.
+FAU - Christa, Gregor
+AU  - Christa G
+AD  - Department of Biology and CESAM-Centre for Environmental and Marine Studies,
+      University of Aveiro, Aveiro, Portugal.
+FAU - Nitschke, Matthew R
+AU  - Nitschke MR
+AD  - Department of Biology and CESAM-Centre for Environmental and Marine Studies,
+      University of Aveiro, Aveiro, Portugal.
+LA  - eng
+PT  - Journal Article
+DEP - 20180904
+PL  - United States
+TA  - PeerJ
+JT  - PeerJ
+JID - 101603425
+PMC - PMC6128260
+OTO - NOTNLM
+OT  - 3D printing
+OT  - Chlorophyll fluorescence
+OT  - Imaging
+OT  - LEDs
+OT  - Macroalgae
+OT  - Photoinhibition
+OT  - Photosynthesis
+COIS- The authors declare there are no competing interests.
+EDAT- 2018/09/12 06:00
+MHDA- 2018/09/12 06:01
+CRDT- 2018/09/12 06:00
+PHST- 2018/05/22 00:00 [received]
+PHST- 2018/08/15 00:00 [accepted]
+PHST- 2018/09/12 06:00 [entrez]
+PHST- 2018/09/12 06:00 [pubmed]
+PHST- 2018/09/12 06:01 [medline]
+AID - 10.7717/peerj.5589 [doi]
+AID - 5589 [pii]
+PST - epublish
+SO  - PeerJ. 2018 Sep 4;6:e5589. doi: 10.7717/peerj.5589. eCollection 2018.
+
+PMID- 29342155
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180215
+LR  - 20181113
+IS  - 1932-6203 (Electronic)
+IS  - 1932-6203 (Linking)
+VI  - 13
+IP  - 1
+DP  - 2018
+TI  - Nanoscopic X-ray fluorescence imaging and quantification of intracellular
+      key-elements in cryofrozen Friedreich's ataxia fibroblasts.
+PG  - e0190495
+LID - 10.1371/journal.pone.0190495 [doi]
+AB  - Synchrotron radiation based nanoscopic X-ray fluorescence (SR nano-XRF) analysis 
+      can visualize trace level elemental distribution in a fully quantitative manner
+      within single cells. However, in-air XRF analysis requires chemical fixation
+      modifying the cell's chemical composition. Here, we describe first nanoscopic XRF
+      analysis upon cryogenically frozen (-150 degrees C) fibroblasts at the ID16A-NI
+      'Nano-imaging' end-station located at the European Synchrotron Radiation Facility
+      (ESRF) in Grenoble (France). Fibroblast cells were obtained from skin biopsies
+      from control and Friedreich's ataxia (FRDA) patients. FRDA is an autosomal
+      recessive disorder with dysregulation of iron metabolism as a key feature. By
+      means of the X-ray Fundamental Parameter (FP) method, including absorption
+      correction of the ice layer deposited onto the fibroblasts, background-corrected 
+      mass fraction elemental maps of P, S, Cl, K, Ca, Fe and Zn of entire cryofrozen
+      human fibroblasts were obtained. Despite the presence of diffracting
+      microcrystals in the vitreous ice matrix and minor sample radiation damage
+      effects, clusters of iron-rich hot-spots with similar mass fractions were found
+      in the cytoplasm of both control and FRDA fibroblasts. Interestingly, no
+      significant difference in the mean iron concentration was found in the cytoplasm 
+      of FRDA fibroblasts, but a significant decrease in zinc concentration. This
+      finding might underscore metal dysregulation, beyond iron, in cells derived from 
+      FRDA patients. In conclusion, although currently having slightly increased limits
+      of detection (LODs) compared to non-cryogenic mode, SR based nanoscopic XRF under
+      cryogenic sample conditions largely obliterates the debate on chemical sample
+      preservation and provides a unique tool for trace level elemental imaging in
+      single cells close to their native state with a superior spatial resolution of 20
+      nm.
+FAU - De Samber, Bjorn
+AU  - De Samber B
+AUID- ORCID: 0000-0002-6759-4195
+AD  - Department of Analytical Chemistry, Ghent University, Ghent, Belgium.
+FAU - Meul, Eline
+AU  - Meul E
+AD  - VIB Center for Inflammation Research; Ghent, Belgium.
+AD  - Department of Biomedical Molecular Biology; Ghent University, Ghent, Belgium.
+FAU - Laforce, Brecht
+AU  - Laforce B
+AD  - Department of Analytical Chemistry, Ghent University, Ghent, Belgium.
+FAU - De Paepe, Boel
+AU  - De Paepe B
+AD  - Department of Pediatrics, Division of Pediatric Neurology and Metabolism, Ghent
+      University Hospital, Ghent, Belgium.
+FAU - Smet, Joel
+AU  - Smet J
+AD  - Department of Pediatrics, Division of Pediatric Neurology and Metabolism, Ghent
+      University Hospital, Ghent, Belgium.
+FAU - De Bruyne, Michiel
+AU  - De Bruyne M
+AD  - VIB Center for Inflammation Research; Ghent, Belgium.
+AD  - Department of Biomedical Molecular Biology; Ghent University, Ghent, Belgium.
+FAU - De Rycke, Riet
+AU  - De Rycke R
+AD  - VIB Center for Inflammation Research; Ghent, Belgium.
+AD  - Department of Biomedical Molecular Biology; Ghent University, Ghent, Belgium.
+FAU - Bohic, Sylvain
+AU  - Bohic S
+AD  - INSERM, Grenoble, France.
+FAU - Cloetens, Peter
+AU  - Cloetens P
+AD  - European Synchrotron Radiation Facility, Grenoble, France.
+FAU - Van Coster, Rudy
+AU  - Van Coster R
+AD  - Department of Pediatrics, Division of Pediatric Neurology and Metabolism, Ghent
+      University Hospital, Ghent, Belgium.
+FAU - Vandenabeele, Peter
+AU  - Vandenabeele P
+AD  - VIB Center for Inflammation Research; Ghent, Belgium.
+AD  - Department of Biomedical Molecular Biology; Ghent University, Ghent, Belgium.
+FAU - Vanden Berghe, Tom
+AU  - Vanden Berghe T
+AD  - VIB Center for Inflammation Research; Ghent, Belgium.
+AD  - Department of Biomedical Molecular Biology; Ghent University, Ghent, Belgium.
+LA  - eng
+SI  - figshare/bdda8108e9ca1153d187
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20180117
+PL  - United States
+TA  - PLoS One
+JT  - PloS one
+JID - 101285081
+SB  - IM
+EIN - PLoS One. 2018 Apr 30;13(4):e0194850. PMID: 29709029
+MH  - Cryopreservation
+MH  - Fibroblasts/metabolism
+MH  - Friedreich Ataxia/*metabolism/pathology
+MH  - Humans
+MH  - Limit of Detection
+MH  - Nanotechnology
+MH  - Reference Standards
+MH  - Spectrometry, X-Ray Emission/*methods
+PMC - PMC5771581
+EDAT- 2018/01/18 06:00
+MHDA- 2018/02/16 06:00
+CRDT- 2018/01/18 06:00
+PHST- 2017/07/20 00:00 [received]
+PHST- 2017/12/13 00:00 [accepted]
+PHST- 2018/01/18 06:00 [entrez]
+PHST- 2018/01/18 06:00 [pubmed]
+PHST- 2018/02/16 06:00 [medline]
+AID - 10.1371/journal.pone.0190495 [doi]
+AID - PONE-D-17-27279 [pii]
+PST - epublish
+SO  - PLoS One. 2018 Jan 17;13(1):e0190495. doi: 10.1371/journal.pone.0190495.
+      eCollection 2018.
+
+PMID- 29038385
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190620
+LR  - 20190620
+IS  - 1471-2962 (Electronic)
+IS  - 1364-503X (Linking)
+VI  - 375
+IP  - 2107
+DP  - 2017 Nov 28
+TI  - Spectral unmixing techniques for optoacoustic imaging of tissue pathophysiology.
+LID - 20170262 [pii]
+LID - 10.1098/rsta.2017.0262 [doi]
+AB  - A key feature of optoacoustic imaging is the ability to illuminate tissue at
+      multiple wavelengths and therefore record images with a spectral dimension. While
+      optoacoustic images at single wavelengths reveal morphological features, in
+      analogy to ultrasound imaging or X-ray imaging, spectral imaging concedes sensing
+      of intrinsic chromophores and externally administered agents that can reveal
+      physiological, cellular and subcellular functions. Nevertheless, identification
+      of spectral moieties within images obtained at multiple wavelengths requires
+      spectral unmixing techniques, which present a unique mathematical problem given
+      the three-dimensional nature of the optoacoustic images. Herein we discuss
+      progress with spectral unmixing techniques developed for multispectral
+      optoacoustic tomography. We explain how different techniques are required for
+      accurate sensing of intrinsic tissue chromophores such as oxygenated and
+      deoxygenated haemoglobin versus extrinsically administered photo-absorbing agents
+      and nanoparticles. Finally, we review recent developments that allow accurate
+      quantification of blood oxygen saturation (sO2) by transforming and solving the
+      sO2 estimation problem from the spatial to the spectral domain.This article is
+      part of the themed issue 'Challenges for chemistry in molecular imaging'.
+CI  - (c) 2017 The Author(s).
+FAU - Tzoumas, Stratis
+AU  - Tzoumas S
+AD  - Department of Radiation Oncology, School of Medicine, Stanford University,
+      Stanford, USA.
+FAU - Ntziachristos, Vasilis
+AU  - Ntziachristos V
+AD  - Institute for Biological and Medical Imaging (IBMI), Helmholtz Zentrum Munchen,
+      Neuherberg, Germany v.ntziachristos@tum.de.
+AD  - Chair of Biological Imaging, Technische Universitat Munchen, Munchen, Germany.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - Philos Trans A Math Phys Eng Sci
+JT  - Philosophical transactions. Series A, Mathematical, physical, and engineering
+      sciences
+JID - 101133385
+RN  - S88TT14065 (Oxygen)
+SB  - IM
+MH  - Algorithms
+MH  - Animals
+MH  - Humans
+MH  - Microscopy, Fluorescence, Multiphoton/methods/statistics & numerical data
+MH  - Molecular Imaging/methods/statistics & numerical data
+MH  - Oxygen/blood
+MH  - Photoacoustic Techniques/*methods/statistics & numerical data
+MH  - Physiological Phenomena
+MH  - Signal-To-Noise Ratio
+MH  - Tomography, Optical/methods/statistics & numerical data
+PMC - PMC5647272
+OTO - NOTNLM
+OT  - multispectral optoacoustic imaging
+OT  - spectral unmixing
+OT  - spectroscopic photoacoustic imaging
+EDAT- 2017/10/19 06:00
+MHDA- 2019/06/21 06:00
+CRDT- 2017/10/18 06:00
+PHST- 2017/08/22 00:00 [accepted]
+PHST- 2017/10/18 06:00 [entrez]
+PHST- 2017/10/19 06:00 [pubmed]
+PHST- 2019/06/21 06:00 [medline]
+AID - rsta.2017.0262 [pii]
+AID - 10.1098/rsta.2017.0262 [doi]
+PST - ppublish
+SO  - Philos Trans A Math Phys Eng Sci. 2017 Nov 28;375(2107). pii: rsta.2017.0262.
+      doi: 10.1098/rsta.2017.0262.
+
+PMID- 29038376
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190620
+LR  - 20190620
+IS  - 1471-2962 (Electronic)
+IS  - 1364-503X (Linking)
+VI  - 375
+IP  - 2107
+DP  - 2017 Nov 28
+TI  - Development of cyanine probes with dinitrobenzene quencher for rapid fluorogenic 
+      protein labelling.
+LID - 20170018 [pii]
+LID - 10.1098/rsta.2017.0018 [doi]
+AB  - A multicolour protein labelling technique using a protein tag and fluorogenic
+      probes is a powerful approach for spatio-temporal analyses of proteins in living 
+      cells. Since cyanine fluorophores have attractive properties for multicolour
+      imaging of proteins, there is a huge demand to develop fluorogenic cyanine probes
+      for specific protein labelling in living cells. Herein, we develop fluorogenic
+      cyanine probes for labelling a protein tag by using a dinitrobenzene fluorescence
+      quencher. The probes enhanced fluorescence intensity upon labelling reactions and
+      emitted orange or far-red fluorescence. Intramolecular interactions between the
+      cyanine fluorophores and the dinitrobenzene quencher led not only to fluorescence
+      quenching of the probes in the free state but also to promotion of labelling
+      reactions. Furthermore, the probes successfully imaged cell-surface proteins
+      without a washing process. These findings offer valuable information on the
+      design of fluorogenic cyanine probes and indicate that the probes are useful as
+      novel live-cell imaging tools.This article is part of the themed issue
+      'Challenges for chemistry in molecular imaging'.
+CI  - (c) 2017 The Author(s).
+FAU - Hori, Yuichiro
+AU  - Hori Y
+AD  - Graduate School of Engineering, Osaka University, Suita, Osaka 565-0871, Japan.
+AD  - Immunology Frontier Research Center, Osaka University, Suita, Osaka 565-0871,
+      Japan.
+FAU - Hirayama, Shinya
+AU  - Hirayama S
+AD  - Graduate School of Engineering, Osaka University, Suita, Osaka 565-0871, Japan.
+FAU - Kikuchi, Kazuya
+AU  - Kikuchi K
+AUID- ORCID: http://orcid.org/0000-0001-7103-1275
+AD  - Graduate School of Engineering, Osaka University, Suita, Osaka 565-0871, Japan
+      kkikuchi@mls.eng.osaka-u.ac.jp.
+AD  - Immunology Frontier Research Center, Osaka University, Suita, Osaka 565-0871,
+      Japan.
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - Philos Trans A Math Phys Eng Sci
+JT  - Philosophical transactions. Series A, Mathematical, physical, and engineering
+      sciences
+JID - 101133385
+RN  - 0 (Carbocyanines)
+RN  - 0 (Dinitrobenzenes)
+RN  - 0 (Fluorescent Dyes)
+RN  - 0 (Proteins)
+RN  - 0 (cyanine dye 3)
+RN  - 0 (cyanine dye 5)
+SB  - IM
+MH  - Carbocyanines/chemical synthesis/chemistry
+MH  - Dinitrobenzenes/chemical synthesis/chemistry
+MH  - Fluorescence Resonance Energy Transfer
+MH  - Fluorescent Dyes/*chemical synthesis/*chemistry
+MH  - HEK293 Cells
+MH  - Humans
+MH  - Kinetics
+MH  - Microscopy, Fluorescence, Multiphoton
+MH  - Molecular Imaging/methods
+MH  - Proteins/*metabolism
+MH  - Spatio-Temporal Analysis
+PMC - PMC5647265
+OTO - NOTNLM
+OT  - PYP-tag
+OT  - cyanine
+OT  - fluorogenic probes
+OT  - multicolour imaging
+EDAT- 2017/10/19 06:00
+MHDA- 2019/06/21 06:00
+CRDT- 2017/10/18 06:00
+PHST- 2017/05/08 00:00 [accepted]
+PHST- 2017/10/18 06:00 [entrez]
+PHST- 2017/10/19 06:00 [pubmed]
+PHST- 2019/06/21 06:00 [medline]
+AID - rsta.2017.0018 [pii]
+AID - 10.1098/rsta.2017.0018 [doi]
+PST - ppublish
+SO  - Philos Trans A Math Phys Eng Sci. 2017 Nov 28;375(2107). pii: rsta.2017.0018.
+      doi: 10.1098/rsta.2017.0018.
+
+PMID- 27899040
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170227
+LR  - 20170227
+IS  - 1745-2422 (Electronic)
+IS  - 1743-4440 (Linking)
+VI  - 14
+IP  - 1
+DP  - 2017 Jan
+TI  - Clinical role of fluorescence imaging in colorectal surgery - a review.
+PG  - 75-82
+LID - 10.1080/17434440.2017.1265444 [doi]
+AB  - INTRODUCTION: Anastomotic leak (AL) after colorectal surgery is a devastating
+      complication; decreased blood perfusion is an important risk factor. Surgeons
+      rely on subjective measures to assess bowel perfusion. Fluorescence imaging (FI) 
+      with indocyanine green (ICG) provides a real-time objective assessment of
+      intestinal perfusion. Areas covered: A PubMed search using the terms
+      'fluorescence imaging', 'indocyanine green', 'colon and rectal surgery' was
+      undertaken. Sixteen articles between 2010 to present were identified. Main
+      outcomes were leak rate reduction, change in surgical plan, and technical
+      feasibility. Change in surgical strategy due to FI was recorded in 11 studies.
+      Two case control studies showed overall reduction of 4% and 12% in AL rate and
+      one showed no change in AL rate between groups. Expert commentary: According to
+      the available literature, FI is technically feasible and alters surgical strategy
+      in a non-negligible number of patients possibly effecting AL rates.
+FAU - Mizrahi, Ido
+AU  - Mizrahi I
+AD  - a Department of Colorectal Surgery , Cleveland Clinic Florida , Weston , FL ,
+      USA.
+FAU - Wexner, Steven D
+AU  - Wexner SD
+AD  - a Department of Colorectal Surgery , Cleveland Clinic Florida , Weston , FL ,
+      USA.
+LA  - eng
+PT  - Journal Article
+PT  - Meta-Analysis
+PT  - Review
+DEP - 20161205
+PL  - England
+TA  - Expert Rev Med Devices
+JT  - Expert review of medical devices
+JID - 101230445
+SB  - IM
+MH  - Case-Control Studies
+MH  - Clinical Trials as Topic
+MH  - Colorectal Surgery/*methods
+MH  - Humans
+MH  - Optical Imaging/*methods
+MH  - Prospective Studies
+MH  - Retrospective Studies
+OTO - NOTNLM
+OT  - *Fluorescence imaging
+OT  - *anastomotic leak
+OT  - *colon surgery
+OT  - *indocyanine green
+OT  - *rectal surgery
+EDAT- 2016/12/03 06:00
+MHDA- 2017/02/28 06:00
+CRDT- 2016/12/01 06:00
+PHST- 2016/12/03 06:00 [pubmed]
+PHST- 2017/02/28 06:00 [medline]
+PHST- 2016/12/01 06:00 [entrez]
+AID - 10.1080/17434440.2017.1265444 [doi]
+PST - ppublish
+SO  - Expert Rev Med Devices. 2017 Jan;14(1):75-82. doi: 10.1080/17434440.2017.1265444.
+      Epub 2016 Dec 5.
+
+PMID- 27609053
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170614
+LR  - 20170614
+IS  - 1768-319X (Electronic)
+IS  - 0294-1260 (Linking)
+VI  - 61
+IP  - 6
+DP  - 2016 Dec
+TI  - [Use of indocyanine green angiography in reconstructive surgery: Brief review].
+PG  - 858-867
+LID - S0294-1260(16)30142-X [pii]
+LID - 10.1016/j.anplas.2016.07.021 [doi]
+AB  - BACKGROUND: The success of flap surgery is highly dependant of vascularisation,
+      according to the principle of dermal and subdermal perfusion. This principle
+      requires compatible dimensions for the survival of the flap. Indocyanine green
+      angiography (ICG), a technique enabling an assessment of vascularization by
+      fluorescence, has received a considerable impetus during the last two decades.
+      The purpose of this article was to conduct a review on this technique and to
+      evaluate its relevance in flap surgery. METHOD: We reviewed all articles
+      referenced on PubMed from 1995 till 2015 using a search combining the terms
+      'indocyanine green', 'flap', 'near-infrared', 'fluorescence', 'imaging' OR
+      'angiography'. RESULTS: One hundred fifty five articles were found and among
+      those thirty-four were selected. ICG is a reliable technique to locate perforants
+      vessels, to determine the outlines of the flat and evaluate its per- and
+      postoperative viability and to appraise anastomoses. CONCLUSION: This technique
+      allows a reliable and real-time assessment of potential necrotic areas and an
+      improvement in the detection of complications compared to conventional
+      techniques.
+CI  - Copyright A(c) 2016 Elsevier Masson SAS. All rights reserved.
+FAU - Echalier, C
+AU  - Echalier C
+AD  - Service d'orthopedie, de traumatologie, de chirurgie plastique, reconstructrice
+      et assistance main, CHRU Jean-Minjoz, 3, boulevard Fleming, 25033 Besancon,
+      France. Electronic address: camille_echalier@live.fr.
+FAU - Pluvy, I
+AU  - Pluvy I
+AD  - Service d'orthopedie, de traumatologie, de chirurgie plastique, reconstructrice
+      et assistance main, CHRU Jean-Minjoz, 3, boulevard Fleming, 25033 Besancon,
+      France.
+FAU - Pauchot, J
+AU  - Pauchot J
+AD  - Service d'orthopedie, de traumatologie, de chirurgie plastique, reconstructrice
+      et assistance main, CHRU Jean-Minjoz, 3, boulevard Fleming, 25033 Besancon,
+      France.
+LA  - fre
+PT  - Journal Article
+PT  - Review
+TT  - Angiographie au vert d'indocyanine en chirurgie reconstructrice : revue de la
+      litterature.
+DEP - 20160905
+PL  - France
+TA  - Ann Chir Plast Esthet
+JT  - Annales de chirurgie plastique et esthetique
+JID - 8305839
+RN  - 0 (Coloring Agents)
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - *Coloring Agents
+MH  - *Fluorescein Angiography
+MH  - Humans
+MH  - *Indocyanine Green
+MH  - *Reconstructive Surgical Procedures
+MH  - Surgical Flaps/*blood supply
+OTO - NOTNLM
+OT  - Angiographie
+OT  - Angiography
+OT  - Chirurgie reconstructrice
+OT  - Flap
+OT  - Indocyanine green
+OT  - Lambeau
+OT  - Necrosis
+OT  - Necrose
+OT  - Reconstructive surgery
+OT  - Vert d'indocyanine
+EDAT- 2016/09/10 06:00
+MHDA- 2017/06/15 06:00
+CRDT- 2016/09/10 06:00
+PHST- 2016/04/27 00:00 [received]
+PHST- 2016/07/27 00:00 [accepted]
+PHST- 2016/09/10 06:00 [pubmed]
+PHST- 2017/06/15 06:00 [medline]
+PHST- 2016/09/10 06:00 [entrez]
+AID - S0294-1260(16)30142-X [pii]
+AID - 10.1016/j.anplas.2016.07.021 [doi]
+PST - ppublish
+SO  - Ann Chir Plast Esthet. 2016 Dec;61(6):858-867. doi: 10.1016/j.anplas.2016.07.021.
+      Epub 2016 Sep 5.

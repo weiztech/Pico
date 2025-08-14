@@ -1,0 +1,12 @@
+.body-content {
+    padding: 0px;
+    background-color: transparent;
+}
+
+table {
+    table-layout: fixed;
+}
+
+a:hover {
+    color: inherit;
+}

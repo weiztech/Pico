@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scrapers Summary</title>
+    <style>
+        #customers {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          table-layout:fixed;
+        }
+        
+        #customers td, #customers th {
+          border: 1px solid #6d6baf;
+          padding: 8px;
+          width: 100px;
+        }
+        
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #customers tr:hover {background-color: #ddd;}
+        
+        #customers th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #6d6baf;
+          color: white;
+        }
+        </style>
+</head>
+<body>
+    <h2> Daily Run Auto Search Scrapers Summary </h2>
+    <table id="customers">
+        <tr>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Applied Filters</th>
+          <th>Search Term</th>
+          <th>DB</th>
+          <th>Run Time</th>
+          <th>Status</th>
+          <th>Results File</th>
+          <th>Results Count</th>
+          <th>User</th>
+          <th>Project</th>
+          <th style="width: 2500px;">Errors</th>
+        </tr>
+        {% for report in reports %}
+        <tr>
+          <td> {{ report.start_date }} </td>
+          <td> {{ report.end_date }} </td>
+          <td> {{ report.applied_filters }} </td>
+          <td> {{ report.search_term }} </td>
+          <td> {{ report.database_name }} </td>
+          <td> {{ report.script_timestamp }} </td>
+          <td> {{ report.status }} </td>
+          <td> 
+            {% if report.results_file %}
+            <a href="{{ report.results_file }}"> Download Results </a> 
+            {% else %}
+            NA
+            {% endif %}
+          </td>
+          <td> {{ report.result_count }} </td>
+          <td> {{ report.user.username }} </td>
+          <td> {{ report.literature_review}} </td>
+          <td> 
+            {{ report.errors }} 
+            {% if report.failure_stage_screenshot %}
+            <br />
+            The below image shows the page when the scraper failed
+            <br />
+            <img src="{{ report.failure_stage_screenshot.url }}" /> 
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+ 
+{% block title %}
+    <title>Automated Search</title>
+{% endblock %}
+{% block 'beforehead' %} 
+    <!-- Required Stylesheets -->
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/bootstrap5.min.css' %}"
+    />
+    <link
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'vue-cdn/bootstrap-vue-2.23.1.css' %}"
+    />
+{% endblock %}
+{% block head %}
+    <style>
+        .toast:not(.show) {
+            display: block;
+        }
+    </style>
+    <link
+        href="{% static 'css/client_portal/automated_search.css' %}"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/client_portal/global.css' %}"
+    />
+{% endblock %}
+
+{% block body %}
+<div class="content__container" id="content">
+    <b-toast id="validate-article-creation" title="Submit Article Form Error" variant="danger" auto-hide-delay="3000" toaster="b-toaster-top-center" >
+    </b-toast>
+    <div class="sub-navbar-home">
+        <div class="sub-navbar-home-item-text">
+            Automated Search Results #{{automated_search.id}} ([[reviews.length]])
+        </div>
+        <a href="{% url 'client_portal:export_automated_search_results' automated_search.id %}" class="sub-navbar-home-item-active" id="articles-tab">
+            Export Articles
+        </a>
+    </div>
+    <div id="manual-article-container" class="home-section-item-selected" >
+        <div style="display: block;">
+            <select name="select-interval" v-model="dateFilterSelected" class="client-portal-input">
+                <option value="">Select a Date Range</option>
+                <option v-for="date in datesFilterValues" :value="date.id"> [[ date.value ]] </option>
+            </select>
+            <button v-on:click="onDateFilter" class="mt-2 standard-btn full-btn"> Filter Results by thier Search Interval Dates </button>
+            <button v-on:click="onClearFilterResults" class="mt-2 standard-secondary-btn full-btn"> Clear Filter </button>
+        </div>
+        <div v-if="searchStatus == 'Failed'">
+            <div class="alert alert-danger mt-2"> 
+                Not all results are available.
+                The Search failed for some databases, please contact support team to look into it!
+            </div>
+        </div>
+        <div v-if="isRecordsLoading">
+            Loading...
+        </div>
+        <div v-else-if="reviews.length > 0">
+            <div class="project-table-header">
+                <div class="document-table-header document-table-article-id">Article id</div>
+                <div class="document-table-header document-table-article-id">DB -Term</div>
+                <div class="document-table-header document-table-article-title">Title</div>
+                <div class="document-table-header document-table-article-abstract">Abstract</div>
+                <div class="document-table-header document-table-article-actions">Actions</div>
+            </div>
+            <div class="project-table-body">
+                    <div  v-for="review in reviews" class="project-table-body-item">
+                        <div class="document-table-body document-table-article-id"> # [[review.article.id]] </div>
+                        <div class="document-table-body document-table-article-id">  [[review.database]] - [[review.term]]  </div>
+                        <div class="document-table-body document-table-article-title"> 
+                            [[review.article.title]]
+                        </div>
+                        <div class="document-table-body document-table-article-abstract"> 
+                            [[ review.article.abstract.slice(0, 200) ]] ...
+                        </div>
+                        <div class="document-table-body document-table-article-actions">
+                            <div class="document-table-article-view-btn" v-on:click="selectArticle(review.article.id)">
+                                <h2 class="project-table-body-action-link-text">View Article</h2>
+                                <div class="project-table-body-action-link-icon"> 
+                                    <img
+                                    src="{% static 'images/icons/view-white-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-article-action-icon"
+                                    />   
+                                </div>
+                            </div>
+                            <div v-if="review.article.is_saved" class="document-table-article-remove-btn" v-on:click="saveArticleToLibrary(review.article.id, review.article.is_saved)">
+                                <h2 class="project-table-body-action-link-text">Remove From Library</h2>
+                                <div class="project-table-body-action-link-icon"> 
+                                    <img
+                                    src="{% static 'images/icons/remove-from-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-article-action-icon"
+                                    />   
+                                </div>
+                            </div>
+                            <div v-else class="document-table-article-save-btn" v-on:click="saveArticleToLibrary(review.article.id, review.article.is_saved)">
+                                <h2 class="project-table-body-action-link-text">Save To Library</h2>
+                                <div class="project-table-body-action-link-icon"> 
+                                    <img
+                                    src="{% static 'images/icons/add-to-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-article-action-icon"
+                                    />   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <!--
+                ############### UPDATE ARTICLE MODAL ##############
+            -->
+
+            <b-modal 
+                ref="update-article-modal" 
+                hide-footer 
+                header-class="justify-content-center"
+                size="lg"
+                :title="selectedArticle.title"
+            >   
+                <div class="search-article-detail">
+                    <h1 class="search-article-detail-title">Abstract:</h1>
+                    <p class="search-article-detail-text">[[selectedArticle.abstract]]</p>
+                </div>
+                <div class="search-article-detail-one-line">
+                    <h1 class="search-article-detail-title-one-line">Full Text:</h1>
+                    <div v-if="selectedArticle.full_text" class="search-article-detail-text">
+                        <a :href="selectedArticle.full_text" target="_blank" class="search-article-detail-title-one-line-link">
+                            <img
+                                src="{% static 'images/icons/pdf-icon.svg' %}"
+                                alt=""
+                                class="search-article-detail-title-one-line-icon"
+                            />   
+                            Full Text PDF
+                        
+                        </a> 
+                    </div>
+                    <div v-else class="search-article-detail-text" style="color: #6d6baf;">
+                        No FullText found on PMC, You need to Purchase or Upload it.
+                    </div>
+                </div>
+                <div class="search-article-detail">
+                    <h1 class="search-article-detail-title">Citation:</h1>
+                    <p class="search-article-detail-text">[[selectedArticle.citation]]</p>
+                </div>
+                <div class="search-article-comments">
+                    <h1 class="search-article-detail-title">Comments:</h1>
+                    
+                    <div v-for="comment in selectedArticle.comments" class="article-comment">
+                        <h1 class="article-comment-user">[[comment.user_username]]</h1>
+                        <h2 class="article-comment-time"> [[formatDate(comment.date_time)]]</h2>
+                        <p class="article-comment-text">[[comment.text]]</p>
+                    </div>
+
+                </div>
+                <div class="add-search-article-comment">
+                    <!-- if form not showed -->
+                    <div :class="AddCommentForm ? 'hidden-section add-search-article-comment-btn' : 'displayed-section add-search-article-comment-btn'" v-on:click="showAddCommentForm()">
+                        <span>Add a Comment</span>
+                        <img
+                            src="{% static 'images/icons/add-to-icon.svg' %}"
+                            alt=""
+                            class="add-search-article-comment-btn-icon"
+                        />   
+                    </div>
+                    <!-- if form show -->
+                    <div :class="AddCommentForm ? 'displayed-section add-search-article-comment-form' : 'hidden-section add-search-article-comment-form'">
+                        <h1 class="add-search-article-comment-form-title">
+                            Add Your Comment
+                        </h1>
+                        <textarea class="add-search-article-comment-form-input" name="" id=""  v-model="currentComment"></textarea>
+                        <div class="add-search-article-comment-form-btns">
+                            <div class="add-search-article-comment-form-btn-submit" v-on:click="addArticleComment()">
+                                Submit
+                            </div>
+                            <div class="add-search-article-comment-form-btn-cancel" v-on:click="showAddCommentForm()">
+                                Cancel
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </b-modal>
+
+        </div>
+        <div v-else-if="searchStatus == 'Completed'">
+            <div class="alert alert-info mt-2"> The Search Was Performed & Completed Successfully but No Items Have Been Found </div>
+        </div>
+        <div v-else-if="searchStatus == 'Failed'">
+            <div class="alert alert-danger mt-2"> 
+                Search failed please contact support team for more info.
+            </div>
+        </div> 
+        <div v-else>
+            <div class="alert alert-warning mt-2"> 
+                The Search Was Not Performed Yet (Pedning...). 
+            </div>
+        </div> 
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const AutomatedSearchResultsURL = "{% url 'client_portal:automated_search_results_api' search_id=automated_search.id %}";
+    const CreateArticleCommentURL = "{% url 'client_portal:create_article_comment_api'%}";
+    const saveArticleToLibraryURL = "{% url 'client_portal:automated_search_save_to_library_api' search_id=automated_search.id %}";
+    
+</script>
+
+{% if env == 'PROD' %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+<script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{% static 'client_portal/vue/automated_search_results.js' %}" > </script>
+
+{% endblock %}

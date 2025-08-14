@@ -1,0 +1,347 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27Perfusion+detection+using+ICG+imaging%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8071167
+PMID- 33920824
+IS  - 2072-6694 (Electronic)
+VI  - 13
+IP  - 8
+DP  - 2021 Apr
+TI  - Current Intraoperative Imaging Techniques to Improve Surgical Resection of
+      Laryngeal Cancer: A Systematic Review.
+LID - 1895
+AB  - Simple Summary: Laryngeal cancer is a prevalent head and neck malignancy, with
+      poor prognosis and low survival rates for patients with advanced disease. The
+      recurrence rate for advanced laryngeal cancer is between 25 and 50%. In order to 
+      improve surgical resection of laryngeal cancer and reduce local recurrence rates,
+      various intraoperative optical imaging techniques have been investigated. In this
+      systematic review we identify these technologies, evaluating the current state
+      and future directions of optical imaging for this indication. Evidently, the
+      investigated imaging modalities are generally unsuitable for deep margin
+      assessment, and, therefore, inadequate to guide resection in advanced laryngeal
+      disease. We discuss two optical imaging techniques that can overcome these
+      limitations and suggest how they can be used to achieve adequate margins in
+      laryngeal cancer at all stages. Abstract: Laryngeal cancer is a prevalent head
+      and neck malignancy, with poor prognosis and low survival rates for patients with
+      advanced disease. Treatment consists of unimodal therapy through surgery or
+      radiotherapy in early staged tumors, while advanced stage tumors are generally
+      treated with multimodal chemoradiotherapy or (total) laryngectomy followed by
+      radiotherapy. Still, the recurrence rate for advanced laryngeal cancer is between
+      25 and 50%. In order to improve surgical resection of laryngeal cancer and reduce
+      local recurrence rates, various intraoperative optical imaging techniques have
+      been investigated. In this systematic review, we identify these technologies,
+      evaluating the current state and future directions of optical imaging for this
+      indication. Narrow-band imaging (NBI) and autofluorescence (AF) are established
+      tools for early detection of laryngeal cancer. Nonetheless, their intraoperative 
+      utility is limited by an intrinsic inability to image beyond the (sub-)mucosa.
+      Likewise, contact endoscopy (CE) and optical coherence tomography (OCT) are
+      technically cumbersome and only useful for mucosal margin assessment. Research on
+      fluorescence imaging (FLI) for this application is sparse, dealing solely with
+      nonspecific fluorescent agents. Evidently, the imaging modalities that have been 
+      investigated thus far are generally unsuitable for deep margin assessment. We
+      discuss two optical imaging techniques that can overcome these limitations and
+      suggest how they can be used to achieve adequate margins in laryngeal cancer at
+      all stages.
+FAU - Lauwerends, Lorraine J.
+AU  - Lauwerends LJ
+AUID- ORCID: https://orcid.org/0000-0001-9704-7806
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+FAU - Galema, Hidde A.
+AU  - Galema HA
+AUID- ORCID: https://orcid.org/0000-0002-7777-0754
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+FAU - Hardillo, José A. U.
+AU  - Hardillo JAU
+AUID- ORCID: https://orcid.org/0000-0001-5580-5613
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+FAU - Sewnaik, Aniel
+AU  - Sewnaik A
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+FAU - Monserez, Dominiek
+AU  - Monserez D
+AUID- ORCID: https://orcid.org/0000-0002-7117-7300
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+FAU - van Driel, Pieter B. A. A.
+AU  - van Driel PBAA
+AD  - Department of Orthopedic Surgery, Isala Hospital, 8025 AB Zwolle, The
+      Netherlands; p.b.a.a.van.driel@isala.nl
+FAU - Verhoef, Cornelis
+AU  - Verhoef C
+AUID- ORCID: https://orcid.org/0000-0001-9980-8613
+AD  - Department of Surgical Oncology and Gastrointestinal Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; c.verhoef@erasmusmc.nl
+FAU - Baatenburg de Jong, Robert J.
+AU  - Baatenburg de Jong RJ
+AUID- ORCID: https://orcid.org/0000-0001-7236-264X
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+FAU - Hilling, Denise E.
+AU  - Hilling DE
+AUID- ORCID: https://orcid.org/0000-0002-5875-6164
+AD  - Department of Surgical Oncology and Gastrointestinal Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; c.verhoef@erasmusmc.nl
+FAU - Keereweer, Stijn
+AU  - Keereweer S
+AUID- ORCID: https://orcid.org/0000-0003-4665-6868
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Erasmus MC Cancer
+      Institute, 3015 GD Rotterdam, The Netherlands; l.lauwerends@erasmusmc.nl
+      (L.J.L.); h.galema@erasmusmc.nl (H.A.G.); j.hardillo@erasmusmc.nl (J.A.U.H.);
+      a.sewnaik@erasmusmc.nl (A.S.); d.monserez@erasmusmc.nl (D.M.);
+      r.j.baatenburgdejong@erasmusmc.nl (R.J.B.d.J.)
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20210415
+PHST- 2021/03/25 [received]
+PHST- 2021/04/13 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers13081895 [doi]
+AID - cancers-13-01895 [pii]
+SO  - Cancers (Basel). 2021 Apr 15;13(8):. doi:10.3390/cancers13081895.
+
+PMC - PMC6604591
+IS  - 2364-7485 (Electronic)
+VI  - 4
+IP  - Suppl 1
+DP  - 2019 Mar
+TI  - Abstracts DGAV.
+PG  - s1-s205
+LA  - eng
+PT  - Journal Article
+DEP - 20190320
+TA  - Innov Surg Sci
+JT  - Innovative Surgical Sciences
+AID - iss-2019-2001 [pii]
+AID - 10.1515/iss-2019-2001 [doi]
+SO  - Innov Surg Sci. 2019 Mar 20;4(Suppl 1):s1-s205. doi:10.1515/iss-2019-2001.
+
+PMC - PMC7781084
+PMID- 30561380
+IS  - 0031-9155 (Print)
+IS  - 1361-6560 (Electronic)
+VI  - 64
+IP  - 3
+DP  - 2019 Jan 22
+TI  - A thermo-sensitive fluorescent agent based method for excitation light leakage
+      rejection for fluorescence molecular tomography.
+PG  - 035007
+AB  - Fluorescence molecular tomography (FMT) is widely used in preclinical oncology
+      research. FMT is the only imaging technique able to provide 3D distribution of
+      fluorescent probes within thick highly scattering media. However, its integration
+      into clinical medicine has been hampered by its low spatial resolution caused by 
+      the undetermined and ill-posed nature of its reconstruction algorithm. Another
+      major factor degrading the quality of FMT images is the large backscattered
+      excitation light component leaking through the rejection filters and coinciding
+      with the weak fluorescent signal arising from a low tissue fluorescence
+      concentration. In this paper, we present a new method based on the use of a novel
+      thermo-sensitive fluorescence probe. In fact, the excitation light leakage is
+      accurately estimated from a set of measurements performed at different
+      temperatures and then is corrected for in the tomographic data. The obtained
+      results show a considerable improvement in both spatial resolution and
+      quantitative accuracy of FMT images due to the proper correction of fluorescent
+      signals.
+FAU - Nouizi, Farouk
+AU  - Nouizi F
+AD  - Department of Radiological Sciences, Tu and Yuen Center for Functional
+      Onco-Imaging, University of California, Irvine, CA 92697, United States of
+      America
+FAU - Kwong, Tiffany C
+AU  - Kwong TC
+AD  - Department of Radiological Sciences, Tu and Yuen Center for Functional
+      Onco-Imaging, University of California, Irvine, CA 92697, United States of
+      America
+FAU - Ruiz, Jessica
+AU  - Ruiz J
+AD  - Department of Radiological Sciences, Tu and Yuen Center for Functional
+      Onco-Imaging, University of California, Irvine, CA 92697, United States of
+      America
+FAU - Cho, Jaedu
+AU  - Cho J
+AD  - Department of Radiological Sciences, Tu and Yuen Center for Functional
+      Onco-Imaging, University of California, Irvine, CA 92697, United States of
+      America
+FAU - Chan, Yu-Wen
+AU  - Chan YW
+AD  - Department of Radiological Sciences, Tu and Yuen Center for Functional
+      Onco-Imaging, University of California, Irvine, CA 92697, United States of
+      America
+FAU - Ikemura, Kenji
+AU  - Ikemura K
+AD  - Department of Pathology, Montefiore Medical Center, Albert Einstein College of
+      Medicine, Bronx NY, United States of America
+FAU - Erkol, Hakan
+AU  - Erkol H
+AD  - Department of Physics, Bogazici University, 34342 Bebek, Istanbul, Turkey
+FAU - Sampathkumaran, Uma
+AU  - Sampathkumaran U
+AD  - InnoSense LLC, 2531 West 237th Street, Suite 12, Torrance, CA 90505, United
+      States of America
+FAU - Gulsen, Gultekin
+AU  - Gulsen G
+AD  - Department of Radiological Sciences, Tu and Yuen Center for Functional
+      Onco-Imaging, University of California, Irvine, CA 92697, United States of
+      America
+LA  - eng
+PT  - Journal Article
+DEP - 20190122
+TA  - Phys Med Biol
+JT  - Physics in medicine and biology
+AID - 10.1088/1361-6560/aaf96d [doi]
+MID - NIHMS1656749
+SO  - Phys Med Biol. 2019 Jan 22;64(3):035007. doi:10.1088/1361-6560/aaf96d.
+
+PMC - PMC6484817
+PMID- 30421080
+IS  - 0930-2794 (Print)
+IS  - 1432-2218 (Electronic)
+VI  - 33
+IP  - 5
+DP  - 2019
+TI  - Novel real-time optical imaging modalities for the detection of neoplastic
+      lesions in urology: a systematic review.
+PG  - 1349-67
+AB  - Background: Current optical diagnostic techniques for malignancies are limited in
+      their diagnostic accuracy and lack the ability to further characterise disease,
+      leading to the rapidly increasing development of novel imaging methods within
+      urology. This systematic review critically appraises the literature for novel
+      imagining modalities, in the detection and staging of urological cancer and
+      assesses their effectiveness via their utility and accuracy. Methods: A
+      systematic literature search utilising MEDLINE, EMBASE and Cochrane Library
+      Database was conducted from 1970 to September 2018 by two independent reviewers. 
+      Studies were included if they assessed real-time imaging modalities not already
+      approved in guidelines, in vivo and in humans. Outcome measures included
+      diagnostic accuracy and utility parameters, including feasibility and cost.
+      Results: Of 5475 articles identified from screening, a final 46 were included.
+      Imaging modalities for bladder cancer included optical coherence tomography
+      (OCT), confocal laser endomicroscopy, autofluorescence and spectroscopic
+      techniques. OCT was the most widely investigated, with 12 studies demonstrating
+      improvements in overall diagnostic accuracy (sensitivity 74.5–100% and
+      specificity 60–98.5%). Upper urinary tract malignancy diagnosis was assessed
+      using photodynamic diagnosis (PDD), narrow band imaging, optical coherence
+      tomography and confocal laser endomicroscopy. Only PDD demonstrated consistent
+      improvements in overall diagnostic accuracy in five trials (sensitivity 94–96%
+      and specificity 96.6–100%). Limited evidence for optical coherence tomography in 
+      percutaneous renal biopsy was identified, with anecdotal evidence for any
+      modality in penile cancer. Conclusions: Evidence supporting the efficacy for
+      identified novel imaging modalities remains limited at present. However, OCT for 
+      bladder cancer and PDD in upper tract malignancy demonstrate the best potential
+      for improvement in overall diagnostic accuracy. OCT may additionally aid
+      intraoperative decision making via real-time staging of disease. Both modalities 
+      require ongoing investigation through larger, well-conducted clinical trials to
+      assess their diagnostic accuracy, use as an intraoperative staging aid and how to
+      best utilise them within clinical practice.
+FAU - Brunckhorst, Oliver
+AU  - Brunckhorst O
+AUID- ORCID: 0000-0002-2073-922X
+AD  - Department of Surgery and Cancer, Imperial College London, St Mary’ Hospital
+      Campus, 10th Floor QEQM Building, Praed Street, London, W2 1NY UK
+FAU - Ong, Qi Jia
+AU  - Ong QJ
+AD  - Department of Surgery and Cancer, Imperial College London, St Mary’ Hospital
+      Campus, 10th Floor QEQM Building, Praed Street, London, W2 1NY UK
+FAU - Elson, Daniel
+AU  - Elson D
+AD  - 0000 0001 2113 8111grid.7445.2Hamlyn Centre for Robotic Surgery, Institute of
+      Global Health Innovation, Imperial College London, London, UK
+FAU - Mayer, Erik
+AU  - Mayer E
+AD  - Department of Surgery and Cancer, Imperial College London, St Mary’ Hospital
+      Campus, 10th Floor QEQM Building, Praed Street, London, W2 1NY UK
+LA  - eng
+PT  - Journal Article
+DEP - 20181112
+PHST- 2018/04/28 [received]
+PHST- 2018/11/02 [accepted]
+TA  - Surg Endosc
+JT  - Surgical Endoscopy
+AID - 6578 [pii]
+AID - 10.1007/s00464-018-6578-1 [doi]
+SO  - Surg Endosc. 2019;33(5):1349-67. Epub 2018 Nov 12 doi:10.1007/s00464-018-6578-1.
+
+PMC - PMC5423321
+PMID- 28507898
+IS  - 2213-5979 (Electronic)
+VI  - 6
+DP  - 2017 Jun
+TI  - Optically and acoustically triggerable sub-micron phase-change contrast agents
+      for enhanced photoacoustic and ultrasound imaging.
+PG  - 26-36
+AB  - We demonstrate a versatile phase-change sub-micron contrast agent providing three
+      modes of contrast enhancement: 1) photoacoustic imaging contrast, 2) ultrasound
+      contrast with optical activation, and 3) ultrasound contrast with acoustic
+      activation. This agent, which we name ‘Cy-droplet’, has the following novel
+      features. It comprises a highly volatile perfluorocarbon for easy versatile
+      activation, and a near-infrared optically absorbing dye chosen to absorb light at
+      a wavelength with good tissue penetration. It is manufactured via a ‘microbubble 
+      condensation’ method. The phase-transition of Cy-droplets can be optically
+      triggered by pulsed-laser illumination, inducing photoacoustic signal and forming
+      stable gas bubbles that are visible with echo-ultrasound in situ. Alternatively, 
+      Cy-droplets can be converted to microbubble contrast agents upon acoustic
+      activation with clinical ultrasound. Potentially all modes offer extravascular
+      contrast enhancement because of the sub-micron initial size. Such versatility of 
+      acoustic and optical ‘triggerability’ can potentially improve multi-modality
+      imaging, molecularly targeted imaging and controlled drug release.
+FAU - Lin, Shengtao
+AU  - Lin S
+AD  - Department of Bioengineering, Imperial College London, London, UK
+FAU - Shah, Anant
+AU  - Shah A
+AD  - Joint Department of Physics and CRUK Cancer Imaging Centre, The Institute of
+      Cancer Research and The Royal Marsden NHS Foundation Trust, London, England, UK
+FAU - Hernández-Gil, Javier
+AU  - Hernández-Gil J
+AD  - Department of Chemistry, Imperial College London, London, UK
+FAU - Stanziola, Antonio
+AU  - Stanziola A
+AD  - Department of Bioengineering, Imperial College London, London, UK
+FAU - Harriss, Bethany I.
+AU  - Harriss BI
+AD  - Department of Chemistry, Imperial College London, London, UK
+FAU - Matsunaga, Terry O.
+AU  - Matsunaga TO
+AD  - Department of Medical Imaging, University of Arizona, Tucson, AZ, USA
+FAU - Long, Nicholas
+AU  - Long N
+AD  - Department of Chemistry, Imperial College London, London, UK
+FAU - Bamber, Jeffrey
+AU  - Bamber J
+AD  - Joint Department of Physics and CRUK Cancer Imaging Centre, The Institute of
+      Cancer Research and The Royal Marsden NHS Foundation Trust, London, England, UK
+FAU - Tang, Meng-Xing
+AU  - Tang MX
+AD  - Department of Bioengineering, Imperial College London, London, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20170411
+PHST- 2016/10/14 [received]
+PHST- 2017/03/10 [revised]
+PHST- 2017/04/08 [accepted]
+TA  - Photoacoustics
+JT  - Photoacoustics
+AID - S2213-5979(16)30059-3 [pii]
+AID - 10.1016/j.pacs.2017.04.001 [doi]
+SO  - Photoacoustics. 2017 Apr 11;6:26-36. doi:10.1016/j.pacs.2017.04.001.

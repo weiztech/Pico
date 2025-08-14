@@ -1,0 +1,643 @@
+{% extends 'base_lit_reviews.html' %} {% load static %} 
+
+{% block 'help_section'%}
+<a
+  href="https://citemed-io.gitbook.io/citemed.io-documentation/full-text-review-extraction/uploading-and-storing-full-text-articles"
+  target="_blank"
+>
+  <span
+    >Need help with this page? <br />
+    Read the Wiki</span
+  >
+  <div>
+    <img src="{% static 'images/icons/wiki-icon.svg' %}" />
+  </div>
+</a>
+{% endblock %} {% block 'head' %}
+<link
+  href="{% static 'css/theme/full_text_uploader.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+{% endblock %} {% block 'body' %}
+
+<div id="app-full-text-upload" v-cloak>
+  <toast
+    id="popup-success-message"
+    ref="popup-success-message"
+    type="success"
+    expires="100000"
+  >
+    <span>
+      Thank you for reaching out! Your assistance request has been received, and
+      our team will be in touch with you shortly.
+    </span>
+  </toast>
+
+  <toast
+    id="popup-error-message"
+    ref="popup-error-message"
+    type="error"
+    expires="100000"
+  >
+    <span>
+      We regret to inform you that your help request could not be processed
+      successfully. Please Try again, If the issue persists, feel free to
+      contact our support team for further assistance.
+    </span>
+  </toast>
+
+  <div class="table-caption">
+    <h4 class="header">
+      <div class="center-v">
+        <span> Retained Articles List </span>
+        <page-wiki-helper
+          wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/full-text-review-extraction/uploading-and-storing-full-text-articles"
+        >
+        </page-wiki-helper>
+      </div>
+      <div class="center-v">
+        <div>
+          <h3
+            class="primary-button request-help-button"
+            id="fulltext-upload-help"
+            v-on:click="onRequestHelp"
+          >
+            <img
+              src="{% static 'images/icons/tooltip-white-icon.svg' %}"
+              alt=""
+              srcset=""
+            />
+            <span>Request Assistance for Full Texts</span>
+          </h3>
+        </div>
+        <div class="badge success count-badge ml-2">
+          Uploaded [[uploadedRecords.length]]
+        </div>
+        <div class="badge error count-badge ml-2">
+          Missing [[missingRecords.length]]
+        </div>
+      </div>
+    </h4>
+    <div v-if="isLoadingRecords">
+      <loader header-text="Loading Results..." />
+    </div>
+    <table v-else class="custom-table fulltext-list-table" id="table">
+      <thead class="citation-list-table-header">
+        <tr>
+          <th
+            class="table-header-col fulltext-list-table-header-col"
+            style="width: 120px"
+          >
+            IDs
+          </th>
+          <th class="fulltext-list-table-header-col" style="width: 100px">
+            Database
+          </th>
+          <th 
+            v-on:click="onSort('article__title')"
+            class="fulltext-list-table-header-col article-title-col"
+          >
+            Article Title 
+            <img src="{% static 'images/icons/filter.png' %}" />
+          </th>
+          <th class="fulltext-list-table-header-col">Citation</th>
+          <th class="fulltext-list-table-header-col" style="width: 100px">
+            Article Source
+          </th>
+          <th
+            class="fulltext-list-table-header-col"
+            v-on:click="onSort('full_text_status')"
+            style="width: 120px"
+          >
+            Status 
+            <img src="{% static 'images/icons/filter.png' %}" />
+          </th>
+          <th class="fulltext-list-table-header-col" style="width: 325px">
+            PDF
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          v-for="article_review in articleReviews"
+          :key="article_review.article.id"
+          :id="article_review.article.id"
+        >
+          <td>
+            <div class="center-v">
+              <!-- <input class="table-checkbox"  type="checkbox" name="" id="">  -->
+              <div class="ml">
+                <div class="table-ids-text">
+                  ID:
+                  <span class="id-value"> #[[article_review.article.id]] </span>
+                </div>
+                <div class="table-ids-text">
+                  PUBMED UID:
+                  <span
+                    v-if="article_review.article.pubmed_uid"
+                    class="id-value"
+                    >#[[article_review.article.pubmed_uid]]</span
+                  >
+                  <span v-else>N/A </span>
+                </div>
+                <div class="table-ids-text">
+                  PMC UID:
+                  <span v-if="article_review.article.pmc_uid" class="id-value"
+                    >#[[article_review.article.pmc_uid]]</span
+                  >
+                  <span v-else>N/A</span>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>[[ article_review.database ]]</td>
+          <td>[[article_review.article.title ]]</td>
+          <td>[[article_review.article.citation ]]</td>
+          <td>
+            <a
+              v-if="article_review.article.url"
+              class="review-full-text mb-2 w-100"
+              :href="article_review.article.url"
+              target="_blank"
+            >
+              <img
+                src="{% static 'images/icons/link-external.png' %}"
+                id="icon"
+                alt="download icon"
+              />
+              <span>View Source</span>
+            </a>
+            <span v-else>N/A</span>
+          </td>
+          <td>
+            <div
+              :class="article_review.full_text_status != 'missing' ? 'alert-success' : 'alert-danger'"
+              class="alert"
+            >
+              [[capitalizeWords(article_review.full_text_status)]]
+            </div>
+          </td>
+          <td>
+            <div class="file-upload-section">
+              <div v-if="article_review.full_text_status === 'missing'">
+                <a
+                  :href="'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q='+article_review.article.title"
+                  target="_blank"
+                >
+                  <button class="secondary-button w-100 mb-2" type="submit">
+                    Search on Google Scholar
+                  </button>
+                </a>
+                <button
+                  class="secondary-button w-100 mb-2"
+                  type="submit"
+                  v-on:click="openSearchPreviousProjectModal(article_review.article.id)"
+                >
+                  Search In Previous Projects
+                </button>
+
+                <div
+                  class="modal search-previous-project-model"
+                  id="search-previous-project-model"
+                >
+                  <div
+                    class="modal-dialog search-previous-project-model-dialog"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div class="modal-header-icon-wrapper info-icon">
+                          <svg
+                            width="24"
+                            height="25"
+                            viewBox="0 0 24 25"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M15.3754 12.4995H12.0004M12.0004 12.4995H8.62537M12.0004 12.4995V15.8744M12.0004 12.4995L12.0004 9.12447M21 6.87498L21 18.125C21 19.989 19.489 21.5 17.625 21.5H6.375C4.51104 21.5 3 19.989 3 18.125V6.87498C3 5.01103 4.51104 3.5 6.375 3.5H17.625C19.489 3.5 21 5.01103 21 6.87498Z"
+                              stroke="#014EE9"
+                              stroke-width="1.2"
+                              stroke-linecap="round"
+                            />
+                          </svg>
+                        </div>
+                        <h3>Search In Previous Projects</h3>
+                        <p class="hint">
+                          Please review the full-text PDF files for the matched
+                          articles by ID or title. Select one to attach it to
+                          the current article.
+                        </p>
+                      </div>
+                      <div
+                        class="modal-body search-previous-project-model-body"
+                      >
+                        <!-- Tabs -->
+                        <div class="tabs">
+                          <div
+                            class="tab"
+                            :class="{ active: selectedTab === 'idMatch' }"
+                            v-on:click="selectTab('idMatch')"
+                          >
+                            ID Match
+                          </div>
+                          <div
+                            class="tab"
+                            :class="{ active: selectedTab === 'titleMatch' }"
+                            v-on:click="selectTab('titleMatch')"
+                          >
+                            Title Match
+                          </div>
+                        </div>
+
+                        <!-- ID Match Tab Content -->
+                        <div v-if="selectedTab === 'idMatch'">
+                          <div
+                            v-if="idMatchLoading"
+                            class="loading-article-section"
+                          >
+                            Loading ...
+                          </div>
+                          <div v-else>
+                            <!-- Display ID match data here -->
+                            <table
+                              class="custom-table section-wrapper search-previous-project-model-table"
+                            >
+                              <thead>
+                                <tr>
+                                  <th style="width: 80px">Article ID</th>
+                                  <th style="width: 80px">pmc_uid</th>
+                                  <th style="width: 80px">pubmed_uid</th>
+                                  <th style="width: 80px">doi</th>
+                                  <th style="width: 130px">PDF</th>
+                                  <th style="width: 130px">Review Link</th>
+                                  <th style="width: 160px">Action</th>
+                                </tr>
+
+                                <tr></tr>
+                              </thead>
+
+                              <tbody>
+                                <tr
+                                  v-for="article in idMatchData"
+                                  :key="article.id"
+                                >
+                                  <td>
+                                    <div class="article-matches-table-column">
+                                      #[[article.id]]
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="article-matches-table-column">
+                                      [[article.pmc_uid]]
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="article-matches-table-column">
+                                      [[article.pubmed_uid]]
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="article-matches-table-column">
+                                      [[article.doi]]
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="review-full-text w-100">
+                                      <img
+                                        src="{% static 'images/icons/download-icon.svg' %}"
+                                        id="icon"
+                                        alt="download icon"
+                                      />
+                                      <a
+                                        :href="article.full_text"
+                                        target="_blank"
+                                      >
+                                        <span>Review Full Text</span>
+                                      </a>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div
+                                      v-if="article.article_review_url"
+                                      class="review-full-text mb w-100"
+                                    >
+                                      <img
+                                        src="{% static 'images/icons/link-external.svg' %}"
+                                        id="icon"
+                                        alt="download icon"
+                                      />
+                                      <a
+                                        :href="article.article_review_url"
+                                        target="_blank"
+                                      >
+                                        <span>Article Review</span>
+                                      </a>
+                                    </div>
+                                    <div
+                                      v-if="article.url"
+                                      class="review-full-text w-100"
+                                    >
+                                      <img
+                                        src="{% static 'images/icons/link-external.svg' %}"
+                                        id="icon"
+                                        alt="download icon"
+                                      />
+                                      <a :href="article.url" target="_blank">
+                                        <span> Source Link </span>
+                                      </a>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <button
+                                      class="primary-button"
+                                      v-on:click="attachPdf(article.id)"
+                                      :disabled="pdfAttachLoading"
+                                    >
+                                      Select PDF for Attachment
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+
+                        <!-- Title Match Tab Content -->
+                        <div v-if="selectedTab === 'titleMatch'">
+                          <div
+                            v-if="titleMatchLoading"
+                            class="loading-article-section"
+                          >
+                            Loading ...
+                          </div>
+                          <div v-else>
+                            <!-- Display Title match data here -->
+                            <table
+                              class="custom-table section-wrapper search-previous-project-model-table"
+                            >
+                              <thead>
+                                <tr>
+                                  <th style="width: 80px">Article ID</th>
+                                  <th style="width: 80px">Title</th>
+                                  <th style="width: 80px">Abstract</th>
+                                  <th style="width: 80px">Citation</th>
+                                  <th style="width: 130px">PDF</th>
+                                  <th style="width: 130px">Review Link</th>
+                                  <th style="width: 160px">Action</th>
+                                </tr>
+
+                                <tr></tr>
+                              </thead>
+
+                              <tbody>
+                                <tr
+                                  v-for="article in titleMatchData"
+                                  :key="article.id"
+                                >
+                                  <td># [[article.id]]</td>
+                                  <td>
+                                    <div
+                                      :title="article.title"
+                                      v-html="truncateText(article.title)"
+                                    ></div>
+                                  </td>
+                                  <td>
+                                    <div
+                                      :title="article.abstract"
+                                      v-html="truncateText(article.abstract)"
+                                    ></div>
+                                  </td>
+                                  <td>
+                                    <div
+                                      :title="article.citation"
+                                      v-html="truncateText(article.citation)"
+                                    ></div>
+                                  </td>
+                                  <td>
+                                    <div class="review-full-text w-100">
+                                      <img
+                                        src="{% static 'images/icons/download-icon.svg' %}"
+                                        id="icon"
+                                        alt="download icon"
+                                      />
+                                      <a
+                                        :href="article.full_text"
+                                        target="_blank"
+                                      >
+                                        <span>Review Full Text</span>
+                                      </a>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div
+                                      v-if="article.article_review_url"
+                                      class="review-full-text mb w-100"
+                                    >
+                                      <img
+                                        src="{% static 'images/icons/link-external.svg' %}"
+                                        id="icon"
+                                        alt="download icon"
+                                      />
+                                      <a
+                                        :href="article.article_review_url"
+                                        target="_blank"
+                                      >
+                                        <span>Article Review</span>
+                                      </a>
+                                    </div>
+                                    <div
+                                      v-if="article.url"
+                                      class="review-full-text w-100"
+                                    >
+                                      <img
+                                        src="{% static 'images/icons/link-external.svg' %}"
+                                        id="icon"
+                                        alt="download icon"
+                                      />
+                                      <a :href="article.url" target="_blank">
+                                        <span> Source Link </span>
+                                      </a>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <button
+                                      class="primary-button"
+                                      v-on:click="attachPdf(article.id)"
+                                      :disabled="pdfAttachLoading"
+                                    >
+                                      Select PDF for Attachment
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          class="secondary-gray-button ml"
+                          v-on:click="hideModal('search-previous-project-model')"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                v-if="article_review.full_text_status === 'missing'"
+                class="drop-zone mb-2"
+                :id="'drop-zone-'+article_review.id"
+                v-on:dragover="onDropZoneDragOver($event, article_review.id)"
+                v-on:dragleave="onDropZoneDragLeave($event, article_review.id)"
+                v-on:drop="onDrop($event, article_review, isValidFileExtension, 'FULL_TEXT_PDF', onAttachUploadedPDF, updateArticleReview)"
+                v-on:click="onDropZoneClick(article_review.id)"
+              >
+                <div
+                  class="drop-zone-inner"
+                  :id="'drop-zone-inner-'+article_review.id"
+                >
+                  <div class="upload-icon">
+                    <img
+                      src="{% static 'images/icons/download-icon.svg' %}"
+                      alt="upload icon"
+                    />
+                  </div>
+                  <div class="upload-hint">
+                    <div>
+                      <span class="click-here">Click to upload</span>
+                      <span class="drag-drop"
+                        >or drag and drop the file here.</span
+                      >
+                    </div>
+                    <small class="file-types">
+                      Allowed File Formats: PDF
+                    </small>
+                  </div>
+                </div>
+
+                <input
+                  v-on:change="onUploadFile($event, article_review)"
+                  type="file"
+                  style="display: none"
+                  :id="'input-'+article_review.id"
+                />
+              </div>
+
+              <div
+                class="file-details"
+                v-if="article_review.toBeUploadedFile || article_review.full_text_file_name" 
+                :id="'file-details-'+article_review.id"
+              >
+                <div class="image-preview">
+                  <img src="{% static 'images/icons/Type=TXT.svg' %}" alt="" />
+                </div>
+                <div class="file-info">
+                  <a
+                    :href="article_review.article.full_text ? article_review.article.full_text : ''"
+                    target="_blank"
+                    class="file-title"
+                  >
+                    [[article_review.full_text_file_name ? article_review.full_text_file_name : article_review.toBeUploadedFile.title]]
+                  </a>
+                  <br />
+                  <span v-if="article_review.toBeUploadedFile" class="file-size">
+                    [[article_review.toBeUploadedFile.size]]
+                  </span>
+                  <div
+                    v-if="article_review.toBeUploadedFile?.showClearBTN"
+                    class="file-clear-icon"
+                    :id="'clear-file-icon-'+article_review.id"
+                  >
+                    <button
+                      v-on:click="onClearFile($event, article_review)"
+                      class="secondary-button"
+                      type="button"
+                      style="padding: 5px 10px"
+                    >
+                      <img
+                        src='{% static "images/icons/delete-icon.svg" %}'
+                        alt="delete-icon"
+                        style="width: 20px"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                v-if="article_review.toBeUploadedFile"
+                class="progress-bar"
+                :id="'progress-bar-'+article_review.id"
+              >
+                <div class="progress-outer">
+                  <div
+                    class="progress-inner"
+                    :style="'width:'+[[article_review.toBeUploadedFile.uploadPercentage]]+'%'"
+                    :id="'progress-inner-'+article_review.id"
+                  ></div>
+                </div>
+                <div
+                  class="loading-percentage"
+                  :id="'progress-percentage-'+article_review.id"
+                >
+                  [[article_review.toBeUploadedFile.uploadPercentage]]%
+                </div>
+              </div>
+
+              <button
+                v-if="article_review.article.full_text "
+                v-on:click="onClearFullText(article_review)"
+                class="error-button w-100 mt-2"
+                type="submit"
+                :disabled="isArchived"
+              >
+                Clear Current PDF
+              </button>
+
+              <!-- // loader -->
+              <div
+                class="article-exculde-loader-section submit-btn"
+                id="article-exculde-loader-section-{{article.article_id}}"
+              >
+                <h1 class="article-exculde-loader-section-title">Loading</h1>
+                <div class="article-exculde-loader"></div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock %} 
+
+{% block 'scripts-block' %}
+<script>
+  const SEND_EMAIL_URL =
+    "{% url 'literature_reviews:request_help_api' id=literature_review_id%}";
+  const FULL_TEXT_UPLOAD_URL =
+    "{% url 'literature_reviews:full_text_upload' id=literature_review_id%}";
+  const ARTICLE_MATCHES_URL =
+    "{% url 'literature_reviews:article_matches_api' id=literature_review_id%}";
+  const ARTICLE_ATTACH_PDF_URL =
+    "{% url 'literature_reviews:attach_pdf_api' id=literature_review_id%}";
+  const UPLOAD_FULL_TEXT_URL =
+    "{% url 'literature_reviews:upload-full-text' id=literature_review_id%}";
+
+  const S3DirectUploadURL =
+    "{% url 'literature_reviews:generate_s3_url' id=literature_review_id %}";
+  const CLEAR_FULL_TEXT_URL =
+    "{% url 'literature_reviews:clear-full-text' id=literature_review_id %}";
+</script>
+
+<script src="{% static 'lit_reviews/vue/full_text_uploader.js' %}"></script>
+
+
+{% endblock %}

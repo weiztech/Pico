@@ -1,0 +1,23 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27Visera+Elite+II%27+and+ICG+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC7103177
+PMID- 31520193
+IS  - 0930-2794 (Print)
+IS  - 1432-2218 (Electronic)
+VI  - 33
+IP  - Suppl 2
+DP  - 2019
+TI  - 27th International Congress of the European Association for Endoscopic Surgery
+      (EAES) Sevilla, Spain, 12–15 June 2019.
+PG  - 485-781
+LA  - eng
+PT  - Journal Article
+PT  - News
+DEP - 20190913
+TA  - Surg Endosc
+JT  - Surgical Endoscopy
+AID - 7109 [pii]
+AID - 10.1007/s00464-019-07109-x [doi]
+SO  - Surg Endosc. 2019;33(Suppl 2):485-781. Epub 2019 Sep 13
+      doi:10.1007/s00464-019-07109-x.

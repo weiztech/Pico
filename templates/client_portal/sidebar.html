@@ -1,0 +1,95 @@
+<div class="sidebar__container" id="sidebar">
+    {% load static %}
+    {% block head %}
+    <link href="{% static 'css/sidebar.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/client_portal/sidebar.css' %}" rel="stylesheet" type="text/css" />
+    <script src="{% static 'js/sidebar.js' %}"></script>
+    {% endblock %}
+    <div class="sidebar__logo">
+        <img
+          src="{% static 'images/new_logo.svg' %}"
+          alt=""
+        />
+    </div>
+    <!-- Dashboard -->
+    <a href="{% url 'client_portal:client_home' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/dashboard-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Dashboard</span>
+    </a>
+    <!-- Vigilance -->
+    <a href="{% url 'client_portal:vigilance' %}?filter_status=I,IN" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/vigilance-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Vigilance</span>
+    </a>
+    <!-- Templates -->
+    <a href="{% url 'client_portal:templates' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/templates-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Templates</span>
+    </a>
+    <!-- Documents -->
+    <a href="{% url 'client_portal:documents_library' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/documents-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Documents</span>
+    </a>
+    <!-- Projects -->
+    <a href="{% url 'client_portal:projects_list' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/projects-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Projects</span>
+    </a>
+    <!-- Automated Search -->
+    <a href="{% url 'client_portal:automated_search' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/automated-search-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Automated Search</span>
+    </a>
+    <!-- Events -->
+    <a href="{% url 'client_portal:event' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/events-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Events</span>
+    </a>
+    <!-- Company -->
+    <a href="{% url 'client_portal:company_overview' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/company-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Company</span>
+    </a>
+    <!-- Report -->
+    <a href="{% url 'client_portal:report_overview' %}" class="sidebar-item">
+        <img
+            src="{% static 'images/icons/report-icon.svg' %}"
+            alt=""
+            class="sidebar-item-icon"
+        />
+        <span class="sidebar-item-text">Report</span>
+    </a>    
+</div>

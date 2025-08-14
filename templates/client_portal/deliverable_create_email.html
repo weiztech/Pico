@@ -1,0 +1,17 @@
+{% autoescape off %}
+Dear {{ email.username }}.
+New delivery was created:
+
+project: {{deliverable.project}}
+file: {{deliverable.file}}
+version_short_name: {{deliverable.version_short_name}}
+previous: {{deliverable.previos}}
+date: {{deliverable.date}}
+comments: {{deliverable.comments}}
+comments_revision_file: {{deliverable.comments_revision_file}}
+status: {{deliverable.status}}
+
+
+Sincerely,
+The CiteMedical Team
+{% endautoescape %}

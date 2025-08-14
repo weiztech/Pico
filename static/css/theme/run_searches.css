@@ -1,0 +1,177 @@
+.body-content {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.form-content {
+    padding: 0px;
+    border-radius: 12px;
+    overflow-x: visible;
+}
+
+.form-content .section-header {
+    padding: 10px 16px;
+}
+
+.form-content .content {
+    padding: 0px 16px 11px 16px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.upload-manual-modal {
+    width: 500px;
+}
+
+.progress-bar {
+    width: 100%;
+}
+
+.file-details {
+    width: 100%;
+}
+
+.disable-limits-label {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.db-icon-selection {
+    width: 13px;
+    margin-right: 6px;
+}
+
+.table-checkbox {
+    background-color: #F9FAFC;
+}
+
+.support-help-button {
+    color: #3578FF;
+
+    border-radius: 6px;
+    border: 1px solid #3578FF;
+    background: var(--Gray-5, #FFF);
+    box-shadow: 0px 1px 4px 0px rgba(82, 87, 97, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.custom-select-box {
+    padding: 10px;
+    border: 1px solid gray;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-5, #FFF);
+}
+
+.custom-options {
+    width: 100%;
+    max-height: 350px;
+}
+
+.validate-seaerch-body {
+    overflow: initial;
+}
+
+.custom-table td {
+    min-width: 200px;
+}
+
+.database-wrapper {
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+}
+
+.database-wrapper svg {
+    margin-top: 2px;
+}
+.database-wrapper:hover .link-svg path {
+    stroke: #3578FF;
+}
+.database-wrapper .db-name {
+    width: 90px;
+}
+
+.database-wrapper:hover {
+    color: var(--Primary-600, #206AFF);
+}
+
+/* .literature-search-term-wrapper {
+    position: relative;
+} */
+
+.expand-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 4px 6px 0px 6px;
+}
+
+.literature-search-term {
+    height: 70px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.literature-search-term.active {
+    height: max-content;
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 500px;
+
+    border-right: 1px solid var(--Gray-50, #E7ECF5);
+    border-bottom: 1px solid var(--Gray-50, #E7ECF5);
+    background: #FFF;
+    
+    /* shadow-lg */
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.progress-bar-run-all-searches {
+    margin: 10px auto;
+    width: 800px;
+}
+
+.progress-bar-run-all-searches .progress-bar {
+    display: flex;
+}
+
+@-moz-document url-prefix() {
+    .term-column { 
+        width: 250px;
+    }
+
+    .custom-table {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .search-section {
+        width: 220px;
+    }
+
+    .custom-table tr td:nth-child(5) {
+        display: none;
+    } 
+
+    .custom-table tr th:nth-child(5) {
+        display: none;
+    } 
+}

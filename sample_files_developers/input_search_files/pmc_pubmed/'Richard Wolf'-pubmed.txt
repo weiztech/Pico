@@ -1,0 +1,302 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27Richard+Wolf%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 34157266
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20210622
+IS  - 1879-0445 (Electronic)
+IS  - 0960-9822 (Linking)
+VI  - 31
+IP  - 12
+DP  - 2021 Jun 21
+TI  - Animal communication: Lyrebirds 'cry wolf' during mating.
+PG  - R798-R800
+LID - S0960-9822(21)00617-5 [pii]
+LID - 10.1016/j.cub.2021.04.070 [doi]
+AB  - During courtship, male lyrebirds create acoustic illusions of a flock of birds
+      fending off a predator. These realistic illusions fool the imitated species to
+      engage in mobbing, but intriguingly lyrebirds produce them only preceding or
+      during copulation.
+CI  - Copyright (c) 2021 Elsevier Inc. All rights reserved.
+FAU - Riebel, Katharina
+AU  - Riebel K
+AD  - Institute of Biology, Leiden University, Leiden, The Netherlands. Electronic
+      address: k.riebel@biology.leidenuniv.nl.
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - Curr Biol
+JT  - Current biology : CB
+JID - 9107782
+SB  - IM
+EDAT- 2021/06/23 06:00
+MHDA- 2021/06/23 06:00
+CRDT- 2021/06/22 20:08
+PHST- 2021/06/22 20:08 [entrez]
+PHST- 2021/06/23 06:00 [pubmed]
+PHST- 2021/06/23 06:00 [medline]
+AID - S0960-9822(21)00617-5 [pii]
+AID - 10.1016/j.cub.2021.04.070 [doi]
+PST - ppublish
+SO  - Curr Biol. 2021 Jun 21;31(12):R798-R800. doi: 10.1016/j.cub.2021.04.070.
+
+PMID- 33352124
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210830
+LR  - 20210830
+IS  - 1879-0445 (Electronic)
+IS  - 0960-9822 (Linking)
+VI  - 30
+IP  - 24
+DP  - 2020 Dec 21
+TI  - A mummified Pleistocene gray wolf pup.
+PG  - R1467-R1468
+LID - S0960-9822(20)31686-9 [pii]
+LID - 10.1016/j.cub.2020.11.011 [doi]
+AB  - In July 2016, a mummified carcass of an ancient wolf (Canis lupus) pup (specimen 
+      YG 648.1) was discovered in thawing permafrost in the Klondike goldfields, near
+      Dawson City, Yukon, Canada (Figure 1A). The wolf pup mummy was recovered along a 
+      small tributary of Last Chance Creek during hydraulic thawing that exposed the
+      permafrost sediment in which it was preserved. This mummified wolf pup is
+      important to the local Tr'ondek Hwech'in people, who named it Zhur, meaning
+      'wolf' in the Han language of their community. Here, we report detailed
+      morphometric, isotopic, and genetic analyses of Zhur that reveal details of her
+      appearance, evolutionary relationships to other wolves and short life-history and
+      ecology. Zhur is the most complete wolf mummy known. She lived approximately
+      57,000 years ago and died in her den during a collapse of the sediments. During
+      her short life, she ate aquatic resources, and is related to ancient Beringian
+      and Russian gray wolves and her clade is basal to all living gray wolves. VIDEO
+      ABSTRACT.
+CI  - Copyright (c) 2020 Elsevier Inc. All rights reserved.
+FAU - Meachen, Julie
+AU  - Meachen J
+AD  - Des Moines University, Department of Anatomy, Des Moines, IA, USA. Electronic
+      address: julie.meachen@dmu.edu.
+FAU - Wooller, Matthew J
+AU  - Wooller MJ
+AD  - Alaska Stable Isotope Facility, Water and Environmental Research Center,
+      Institute of Northern Engineering, University of Alaska Fairbanks, Fairbanks, AK 
+      99775, USA; Water and Environmental Research Center, Institute of Northern
+      Engineering, University of Alaska Fairbanks, Fairbanks, AK 99775, USA; Department
+      of Marine Biology, College of Fisheries and Ocean Sciences, University of Alaska 
+      Fairbanks, Fairbanks, AK 99775, USA.
+FAU - Barst, Benjamin D
+AU  - Barst BD
+AD  - Water and Environmental Research Center, Institute of Northern Engineering,
+      University of Alaska Fairbanks, Fairbanks, AK 99775, USA.
+FAU - Funck, Juliette
+AU  - Funck J
+AD  - Alaska Stable Isotope Facility, Water and Environmental Research Center,
+      Institute of Northern Engineering, University of Alaska Fairbanks, Fairbanks, AK 
+      99775, USA; Water and Environmental Research Center, Institute of Northern
+      Engineering, University of Alaska Fairbanks, Fairbanks, AK 99775, USA.
+FAU - Crann, Carley
+AU  - Crann C
+AD  - A.E. Lalonde AMS Laboratory, University of Ottawa, Ottawa , ON K1N 6N5, Canada.
+FAU - Heath, Jess
+AU  - Heath J
+AD  - Alpine Veterinary Medical Center, Whitehorse, YT, Canada.
+FAU - Cassatt-Johnstone, Molly
+AU  - Cassatt-Johnstone M
+AD  - Department of Ecology and Evolutionary Biology, University of California, Santa
+      Cruz, 1156 High St., Santa Cruz, CA 95064, USA.
+FAU - Shapiro, Beth
+AU  - Shapiro B
+AD  - Department of Ecology and Evolutionary Biology, University of California, Santa
+      Cruz, 1156 High St., Santa Cruz, CA 95064, USA; Howard Hughes Medical Institute, 
+      University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064, USA.
+FAU - Hall, Elizabeth
+AU  - Hall E
+AD  - Government of Yukon, Department of Tourism and Culture, Yukon Palaeontology
+      Program, PO Box 2703, Whitehorse, YT, Y1A 2C6, Canada.
+FAU - Hewitson, Susan
+AU  - Hewitson S
+AD  - Government of Yukon, Department of Tourism and Culture, Yukon Palaeontology
+      Program, PO Box 2703, Whitehorse, YT, Y1A 2C6, Canada.
+FAU - Zazula, Grant
+AU  - Zazula G
+AD  - Government of Yukon, Department of Tourism and Culture, Yukon Palaeontology
+      Program, PO Box 2703, Whitehorse, YT, Y1A 2C6, Canada; Collections and Research, 
+      Canadian Museum of Nature, PO Box 3443, Station D, Ottawa, ON, K1P 6P4, Canada.
+LA  - eng
+PT  - Historical Article
+PT  - Letter
+PT  - Video-Audio Media
+PL  - England
+TA  - Curr Biol
+JT  - Current biology : CB
+JID - 9107782
+SB  - IM
+MH  - Animals
+MH  - *Biological Evolution
+MH  - Body Remains
+MH  - Female
+MH  - History, Ancient
+MH  - Phylogeny
+MH  - Wolves/*physiology
+EDAT- 2020/12/23 06:00
+MHDA- 2021/08/31 06:00
+CRDT- 2020/12/22 20:08
+PHST- 2020/12/22 20:08 [entrez]
+PHST- 2020/12/23 06:00 [pubmed]
+PHST- 2021/08/31 06:00 [medline]
+AID - S0960-9822(20)31686-9 [pii]
+AID - 10.1016/j.cub.2020.11.011 [doi]
+PST - ppublish
+SO  - Curr Biol. 2020 Dec 21;30(24):R1467-R1468. doi: 10.1016/j.cub.2020.11.011.
+
+PMID- 32488105
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210121
+LR  - 20210602
+IS  - 2045-2322 (Electronic)
+IS  - 2045-2322 (Linking)
+VI  - 10
+IP  - 1
+DP  - 2020 Jun 2
+TI  - When Lone Wolf Defectors Undermine the Power of the Opt-Out Default.
+PG  - 8973
+LID - 10.1038/s41598-020-65163-1 [doi]
+AB  - High levels of cooperation are a central feature of human society, and
+      conditional cooperation has been proposed as one proximal mechanism to support
+      this. The counterforce of free-riding can, however, undermine cooperation and as 
+      such a number of external mechanisms have been proposed to ameliorate the effects
+      of free-riding. One such mechanism is setting cooperation as the default (i.e.,
+      an opt-out default). We posit, however, that in dynamic settings where people can
+      observe and condition their actions on others' behaviour, 'lone wolf' defectors
+      undermine initial cooperation encouraged by an opt-out default, while 'good
+      shepherds' defeat the free-riding encouraged by an opt-in default. Thus, we
+      examine the dynamic emergence of conditional cooperation under different default 
+      settings. Specifically, we develop a game theoretical model to analyse
+      cooperation under defaults for cooperation (opt-out) and defection (opt-in). The 
+      model predicts that the 'lone wolf' effect is stronger than the 'good shepherd'
+      effect, which - if anticipated by players - should strategically deter
+      free-riding under opt-out and cooperation under opt-in. Our experimental games
+      confirm the existence of both 'lone wolf' defectors and 'good shepherd'
+      cooperators, and that the 'lone wolf'effect is stronger in the context of organ
+      donation registration behaviour. We thus show a potential 'dark side' to
+      conditional cooperation ('lone wolf effect') and draw implications for the
+      adoption of an opt-out organ donation policy.
+FAU - Ferguson, Eamonn
+AU  - Ferguson E
+AD  - School of Psychology, University of Nottingham, Nottingham, NG7 2RD, UK.
+      eamonn.ferguson@nottingham.ac.uk.
+FAU - Shichman, Ruslan
+AU  - Shichman R
+AD  - Centre for Decision Research and Experimental Economics (CeDEx), University of
+      Nottingham, Nottingham, NG7 2RD, UK.
+FAU - Tan, Jonathan H W
+AU  - Tan JHW
+AD  - Department of Economics, School of Social Sciences, Nanyang Technological
+      University, 48 Nanyang Avenue, Singapore, 639818, Singapore.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200602
+PL  - England
+TA  - Sci Rep
+JT  - Scientific reports
+JID - 101563288
+SB  - IM
+MH  - *Cooperative Behavior
+MH  - Feedback, Psychological
+MH  - Female
+MH  - *Game Theory
+MH  - Humans
+MH  - Male
+MH  - Models, Theoretical
+MH  - Tissue and Organ Procurement
+PMC - PMC7265288
+EDAT- 2020/06/04 06:00
+MHDA- 2021/01/22 06:00
+CRDT- 2020/06/04 06:00
+PHST- 2019/09/20 00:00 [received]
+PHST- 2020/04/09 00:00 [accepted]
+PHST- 2020/06/04 06:00 [entrez]
+PHST- 2020/06/04 06:00 [pubmed]
+PHST- 2021/01/22 06:00 [medline]
+AID - 10.1038/s41598-020-65163-1 [doi]
+AID - 10.1038/s41598-020-65163-1 [pii]
+PST - epublish
+SO  - Sci Rep. 2020 Jun 2;10(1):8973. doi: 10.1038/s41598-020-65163-1.
+
+PMID- 29343558
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20181221
+LR  - 20210109
+IS  - 1744-957X (Electronic)
+IS  - 1744-9561 (Linking)
+VI  - 14
+IP  - 1
+DP  - 2018 Jan
+TI  - Postcranial diversity and recent ecomorphic impoverishment of North American gray
+      wolves.
+LID - 20170613 [pii]
+LID - 10.1098/rsbl.2017.0613 [doi]
+AB  - Recent advances in genomics and palaeontology have begun to unravel the complex
+      evolutionary history of the gray wolf, Canis lupus Still, much of their
+      phenotypic variation across time and space remains to be documented. We examined 
+      the limb morphology of the fossil and modern North American gray wolves from the 
+      late Quaternary (<ca 70 ka) to better understand their postcranial diversity
+      through time. We found that the late-Pleistocene gray wolves were characterized
+      by short-leggedness on both sides of the Cordilleran-Laurentide ice sheets, and
+      that this trait survived well into the Holocene despite the collapse of
+      Pleistocene megafauna and disappearance of the 'Beringian wolf' from Alaska. By
+      contrast, extant populations in the Midwestern USA and northwestern North America
+      are distinguished by their elongate limbs with long distal segments, which appear
+      to have evolved during the Holocene possibly in response to a new level or type
+      of prey depletion. One of the consequences of recent extirpation of the Plains
+      (Canis lupus nubilus) and Mexican wolves (C. l. baileyi) from much of the USA is 
+      an unprecedented loss of postcranial diversity through removal of short-legged
+      forms. Conservation of these wolves is thus critical to restoration of the
+      ecophenotypic diversity and evolutionary potential of gray wolves in North
+      America.
+CI  - (c) 2018 The Author(s).
+FAU - Tomiya, Susumu
+AU  - Tomiya S
+AUID- ORCID: 0000-0001-6038-899X
+AD  - Department of Anatomy, Des Moines University, Des Moines, IA 50312, USA
+      susumu.tomiya@dmu.edu.
+AD  - Field Museum of Natural History, Chicago, IL 60605, USA.
+AD  - University of California Museum of Paleontology, Berkeley, CA 94720, USA.
+FAU - Meachen, Julie A
+AU  - Meachen JA
+AD  - Department of Anatomy, Des Moines University, Des Moines, IA 50312, USA.
+LA  - eng
+SI  - Dryad/10.5061/dryad.kj239
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+PL  - England
+TA  - Biol Lett
+JT  - Biology letters
+JID - 101247722
+SB  - IM
+EIN - Biol Lett. 2019 Feb 28;15(2):20190055. PMID: 30958140
+MH  - Animals
+MH  - *Ecosystem
+MH  - Extremities/*anatomy & histology
+MH  - Fossils/anatomy & histology
+MH  - North America
+MH  - Species Specificity
+MH  - Wolves/*anatomy & histology/*classification
+PMC - PMC5803591
+OTO - NOTNLM
+OT  - *Canis lupus
+OT  - *Quaternary
+OT  - *postcrania
+EDAT- 2018/01/19 06:00
+MHDA- 2018/12/24 06:00
+CRDT- 2018/01/19 06:00
+PHST- 2017/09/30 00:00 [received]
+PHST- 2017/11/30 00:00 [accepted]
+PHST- 2018/01/19 06:00 [entrez]
+PHST- 2018/01/19 06:00 [pubmed]
+PHST- 2018/12/24 06:00 [medline]
+AID - rsbl.2017.0613 [pii]
+AID - 10.1098/rsbl.2017.0613 [doi]
+PST - ppublish
+SO  - Biol Lett. 2018 Jan;14(1). pii: rsbl.2017.0613. doi: 10.1098/rsbl.2017.0613.

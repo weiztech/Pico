@@ -1,0 +1,164 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=flonavi&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC7059204
+PMID- 32185134
+IS  - 2234-943X (Electronic)
+VI  - 10
+DP  - 2020
+TI  - Gonadotropin-Releasing Hormone Receptor-Targeted Near-Infrared Fluorescence Probe
+      for Specific Recognition and Localization of Peritoneal Metastases of Ovarian
+      Cancer.
+LID - 266
+AB  - Background: Peritoneal dissemination is common in advanced ovarian cancer. The
+      completeness of cytoreduction is an independent prognostic factor. The
+      intraoperative fluorescence imaging via tumor-specific near-infrared fluorophore 
+      might improve staging and surgical completeness. A promising target for ovarian
+      cancer is the gonadotropin-releasing hormone receptor (GnRHR). This study aimed
+      to develop a GnRHR-targeted near-infrared imaging probe for the detection of
+      peritoneal metastases of ovarian cancer.Methods: Indocyanine green (ICG) was
+      conjugated with GnRH antagonist peptide to develop an ovarian cancer-selective
+      fluorescence probe GnRHa-ICG. GnRHR expression was detected in ovarian cancer
+      tissues. The binding capacity of GnRHa-ICG and ICG was detected in both cancer
+      cell lines and mouse models of peritoneal metastatic ovarian cancer using
+      fluorescence microscopy, flow cytometry, and near-infrared fluorescence
+      imaging.Results: Tissue microarray analysis revealed the overexpression of GnRHR 
+      in ovarian cancer. GnRH-ICG exhibited the binding capacity in a panel of cancer
+      cell lines with different expression levels of GnRHR. In ovarian cancer mouse
+      models, GnRHa-ICG signals were detected in peritoneal tumor lesions rather than
+      normal peritoneal and intestines tissues. ICG showed intensive fluorescence
+      signals in intestines. The tumor-to-muscle ratio and tumor-to-intestine ratio of 
+      GnRHa-ICG was 7.41 ± 2.82 and 4.37 ± 1.66, higher than that of ICG (4.60 ± 0.50
+      and 0.57 ± 0.06) at 2 h post administration. The fluorescence signal of
+      peritoneal metastases peaked in intensity at 2 h and maintained for up to 48 h.
+      ICG also showed a weak signal in the tumor lesions due to the enhanced
+      permeability and retention effect, but the intensity decreased quickly within 48 
+      h.Conclusions: The developed GnRHR-targeted imaging agent GnRHa-ICG could
+      specifically detected peritoneal tumor lesions from normal peritoneal and
+      intestines tissues because of the modification of GnRHa to ICG. The plateau
+      period of GnRHa-ICG accumulation may be feasible for clinical applications in
+      fluorescence-guided surgery. Our GnRHR imaging concept may be effective in other 
+      hormone-related tumors with upregulated GnRHR expression.
+FAU - Liu, Qiyu
+AU  - Liu Q
+AD  - Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China
+FAU - Zhou, Xiaobo
+AU  - Zhou X
+AD  - Department of Chemistry, Fudan University, Shanghai, China
+FAU - Feng, Wei
+AU  - Feng W
+AD  - Department of Chemistry, Fudan University, Shanghai, China
+FAU - Pu, Tao
+AU  - Pu T
+AD  - Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China
+FAU - Li, Xiaoping
+AU  - Li X
+AD  - Department of Obstetrics and Gynecology, Peking University People's Hospital,
+      Beijing, China
+FAU - Li, Fuyou
+AU  - Li F
+AD  - Department of Chemistry, Fudan University, Shanghai, China
+FAU - Kang, Yu
+AU  - Kang Y
+AD  - Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China
+FAU - Zhang, Xiaoyan
+AU  - Zhang X
+AD  - Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China
+FAU - Xu, Congjian
+AU  - Xu C
+AD  - Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China
+LA  - eng
+PT  - Journal Article
+DEP - 20200228
+PHST- 2019/10/14 [received]
+PHST- 2020/02/17 [accepted]
+TA  - Front Oncol
+JT  - Frontiers in Oncology
+AID - 10.3389/fonc.2020.00266 [doi]
+SO  - Front Oncol. 2020 Feb 28;10:. doi:10.3389/fonc.2020.00266.
+
+PMC - PMC7113049
+PMID- 32061064
+IS  - 1759-7706 (Print)
+IS  - 1759-7714 (Electronic)
+VI  - 11
+IP  - 4
+DP  - 2020 Apr
+TI  - The safety and feasibility of intraoperative near‐infrared fluorescence imaging
+      with indocyanine green in thoracoscopic sympathectomy for primary palmar
+      hyperhidrosis.
+PG  - 943-9
+AB  - Background: We investigated the safety and feasibility of intraoperative
+      near‐infrared (NIR) imaging using indocyanine green (ICG) during sympathectomy in
+      the management of primary palmar hyperhidrosis (PPH). Methods: We performed a
+      retrospective review of 142 patients (ICG group) who underwent endoscopic
+      thoracic sympathectomy (ETS) between February 2018 and April 2019. All patients
+      received a 5 mg/kg infusion of ICG 24 hours preoperatively. The vital signs
+      before and after ICG injection and adverse reactions were recorded. Meanwhile,
+      498 patients (Non‐ICG group) who underwent ETS by normal thoracoscopy during
+      August 2017 to April 2019 were also reviewed to compare the abnormal white blood 
+      cell (WBC) counts, alanine transaminase (ALT), aspartate transaminase (AST),
+      blood urea nitrogen (BUN), and creatinine (Cr) levels before and after operation 
+      between two groups. Results: For ICG group, the vital signs including body
+      temperature, heart rate and blood pressure before and after ICG injection were
+      stable. There was no significant difference in the abnormal WBC counts, ALT, AST,
+      BUN, and Cr levels before and after operation between two groups. Only one
+      patient had mild adverse reaction (0.7%) after ICG injection. The visibility rate
+      of all sympathetic ganglions was 96.7% (1369/1415). The visibility rate from T1
+      to T5 was 98.23% (278/283), 98.23% (278/283), 97.17% (275/283), 95.76% (271/283),
+      and 94.35% (267/283), respectively. There was no significant difference in the
+      visibility rate with regard to age, gender, height, weight, body mass index, and 
+      PPH grade. Conclusions: NIR fluorescence imaging with ICG for identifying
+      sympathetic ganglions is relatively safe and feasible. Key points: • Significant 
+      findings of the study.NIR fluorescence imaging with ICG for identifying
+      sympathetic ganglions is relatively safe and feasible.• What this study adds.This
+      technology may take the place of the rib‐oriented method as standard practice for
+      the precise localization of sympathetic ganglions, and may improve the effect of 
+      sympathectomies.
+FAU - Pei, Guotian
+AU  - Pei G
+AUID- ORCID: https://orcid.org/0000-0001-7021-3624
+AD  - Department of Thoracic SurgeryBeijing Haidian Hospital (Haidian Section of Peking
+      University Third Hospital)BeijingChina
+FAU - Liu, Yanguo
+AU  - Liu Y
+AD  - Department of Thoracic SurgeryPeking University People's HospitalBeijingChina
+FAU - Liu, Qiang
+AU  - Liu Q
+AD  - Department of Thoracic SurgeryBeijing Haidian Hospital (Haidian Section of Peking
+      University Third Hospital)BeijingChina
+FAU - Min, Xianjun
+AU  - Min X
+AD  - Department of Thoracic SurgeryBeijing Haidian Hospital (Haidian Section of Peking
+      University Third Hospital)BeijingChina
+FAU - Yang, Yingshun
+AU  - Yang Y
+AD  - Department of Thoracic SurgeryBeijing Haidian Hospital (Haidian Section of Peking
+      University Third Hospital)BeijingChina
+FAU - Wang, Shuai
+AU  - Wang S
+AD  - Department of Thoracic SurgeryBeijing Haidian Hospital (Haidian Section of Peking
+      University Third Hospital)BeijingChina
+FAU - Liu, Jun
+AU  - Liu J
+AD  - Department of Thoracic SurgeryPeking University People's HospitalBeijingChina
+FAU - Wang, Jun
+AU  - Wang J
+AD  - Department of Thoracic SurgeryPeking University People's HospitalBeijingChina
+FAU - Huang, Yuqing
+AU  - Huang Y
+AD  - Department of Thoracic SurgeryBeijing Haidian Hospital (Haidian Section of Peking
+      University Third Hospital)BeijingChina
+LA  - eng
+PT  - Journal Article
+DEP - 20200215
+GR  - Z181100001718201
+PHST- 2019/12/22 [received]
+PHST- 2020/01/13 [revised]
+PHST- 2020/01/14 [accepted]
+TA  - Thorac Cancer
+JT  - Thoracic Cancer
+AID - 10.1111/1759-7714.13345 [doi]
+AID - TCA13345 [pii]
+SO  - Thorac Cancer. 2020 Apr;11(4):943-9. Epub 2020 Feb 15
+      doi:10.1111/1759-7714.13345.

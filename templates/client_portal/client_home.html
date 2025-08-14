@@ -1,0 +1,153 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+
+{% block title%}
+    <title>CiteMed - Dashboard</title>
+{% endblock %}
+
+{% block head %}{% endblock %}
+
+{% block body %}
+    <div class="content__container" id="content">
+        <div class="sub-navbar-home">
+            <div class="sub-navbar-home-item-text">
+                Dashboard
+            </div>
+            <div :class="active_tab === 'messages' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="messages-tab" v-on:click="changeselectedtab('messages')">
+                Messages  and Alerts
+            </div>
+            <div :class="active_tab === 'projects' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="projects-tab" v-on:click="changeselectedtab('projects')">
+                Projects
+            </div>
+            <div :class="active_tab === 'vigilance' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="vigilance-tab" v-on:click="changeselectedtab('vigilance')">
+                Vigilance Data
+            </div>
+        </div>
+        <div :class="active_tab === 'messages' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="messages-section">
+            <div class="">
+                <div v-if="isRecordsLoading"> Loading... </div>
+                <div v-else-if="messages">
+                    <div class="project-table-header">
+                        <div class="message-table-header message-table-type">Type</div>
+                        <div class="message-table-header message-table-date">Date Sent</div>
+                        <div class="message-table-header message-table-project">Project Id</div>
+                        <div class="message-table-header message-table-message">Message</div>
+                        <div class="message-table-header message-table-status"> Status </div>
+                        <div class="message-table-header message-table-details"> Full Details </div>
+                    </div>
+                    <div class="project-table-body">
+                        <div v-for="message in messages" class="project-table-body-item">
+                            <div class="message-table-body message-table-type"> [[ message.type ]] </div>
+                            <div class="message-table-body message-table-date"> [[ message.date_sent]] </div>
+                            <div class="message-table-body message-table-project"> # [[ message.project ]] </div>
+                            <div class="message-table-body message-table-message"> [[ message.message ]] </div>
+                            <div class="message-table-body message-table-status"> 
+                                <div :class="message.resolved_status === 'read' ? 'message-status-read' : message.resolved_status === 'unread' ? 'message-status-unread' : 'message-status-hidden'">
+                                    [[ message.resolved_status ]] 
+                                </div>
+                            </div>
+                            <div class="message-table-body message-table-details">
+                                <a class="project-table-body-action-link" :href="[[ message.detail_view_hyperlink ]]"> 
+                                    <img
+                                    src="{% static 'images/icons/plus-detail-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-action-icon"
+                                    />   
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-project-text" v-else>No data.</div>
+            </div>
+        </div>
+        <div :class="active_tab === 'projects' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="projects-section">
+            <div class="project-filter-navbar">
+                <div class="input-group search_filter search-project-name-section">
+                    <input type="text" class="form-control search-project-name-section-input" placeholder="Search by Project Name" v-model="search_term">
+                    <div class="input-group-append  search-project-name-section-input-submit">
+                    <button class="btn search-btn" type="button" v-on:click="onFilter">
+                        <span class="fa fa-search"></span>
+                    </button>
+                    </div>
+                </div>
+                <div class="project-filter-navbar-type" style="margin-left:25px">
+                    <select v-on:change="onTypeFilterChange" name="" id="project-filter-navbar-type-select" class="project-filter-navbar-type-select">
+                        <option value="" :selected="typeFilter===''"> Select Project Type </option>
+                        <option v-for="type in types" :value="type.id" :selected="typeFilter===type.id"> [[ type.name ]] </option>
+                    </select>
+                </div>
+                <div class="project-filter-navbar-date">
+                    <!-- <input type="date" name="" id="project-filter-navbar-date-input" class="project-filter-navbar-date-input"> -->
+                    <div class="project-filter-navbar-date-text"> Date: </div>
+                    <vuejs-datepicker 
+                        format="yyyy-MM-dd"
+                        v-model="dateFilter"         
+                        name="datepicker"
+                        id="input-id"
+                        input-class="project-filter-navbar-date-input"
+                        >
+                    </vuejs-datepicker>
+                </div>
+                <div class="project-filter-navbar-submit">
+                    <button class="project-filter-navbar-submit-btn" v-on:click="onClearFilters" > Clear Filters </button>
+                </div>
+            </div>
+            <div class="">
+                <div v-if="isRecordsLoading"> Loading... </div>
+                <div v-else-if="projects">
+                    <div class="project-table-header">
+                        <div class="project-table-header-name">Project Name</div>
+                        <div class="project-table-header-date">Date</div>
+                        <div class="project-table-header-type">Type</div>
+                        <div class="project-table-header-action"> Full Detail </div>
+                    </div>
+                    <div class="project-table-body">
+                        <div v-for="project in projects" class="project-table-body-item">
+                            <div class="project-table-body-name"> [[ project.name ]] </div>
+                            <div class="project-table-body-date"> [[ project.initial_complated_date ? project.initial_complated_date : "N/A"]] </div>
+                            <div class="project-table-body-type"> [[ project.type ]] </div>
+                            <div class="project-table-body-action">
+                                <a class="project-table-body-action-link" :href="[[ project.detail_view_hyperlink ]]"> 
+                                    <img
+                                    src="{% static 'images/icons/plus-detail-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-action-icon"
+                                    />   
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-project-text" v-else>No data.</div>
+            </div>
+
+        </div>
+        <div :class="active_tab === 'vigilance' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="vigilance-section">
+            <div class="no-project-text">No data.</div>
+        </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        const projectsURL = "{% url 'client_portal:projects_api' %}";
+        const messagesURL = "{% url 'client_portal:messages_api' %}";
+    </script>
+    
+    {% if env == 'PROD' %}
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+    {% else %}
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+    {% endif %}
+
+    <script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+    <script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{% static 'client_portal/vue/dashboard.js' %}" > </script>
+
+{% endblock %}

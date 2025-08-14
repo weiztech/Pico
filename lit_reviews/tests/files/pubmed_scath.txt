@@ -1,0 +1,201 @@
+PMID- 36498514
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20221221
+IS  - 2077-0383 (Print)
+IS  - 2077-0383 (Electronic)
+IS  - 2077-0383 (Linking)
+VI  - 11
+IP  - 23
+DP  - 2022 Nov 25
+TI  - Esophageal Protection and Temperature Monitoring Using the Circa S-Cath™ 
+      Temperature Probe during Epicardial Radiofrequency Ablation of the Pulmonary 
+      Veins and Posterior Left Atrium.
+LID - 10.3390/jcm11236939 [doi]
+LID - 6939
+AB  - Although epicardial bipolar radiofrequency ablation should diminish the risk of 
+      esophageal thermal injury in comparison to an endocardial ablation, cases of 
+      lethal atrio-esophageal fistula have been reported. To better understand this 
+      risk and to reduce the possibility of a thermal injury, we monitored the 
+      esophageal temperature with the Circa S-Cath™ temperature probe during and 
+      immediately after the ablation while implementing three procedural safety 
+      measures. Twenty patients (15 males; 63 ± 10 years) were prospectively enrolled 
+      (November 2019-February 2021). All patients underwent an epicardial ablation 
+      procedure, including an antral left and right pulmonary vein isolation with 
+      bidirectional bipolar clamping, and a roof and inferior line using unidirectional 
+      bipolar radiofrequency. Three procedural preventive mitigations were implemented: 
+      (1) transesophageal echocardiographic visualization of the atrio-esophageal 
+      interface, with probe retraction before the energy delivery; (2) lifting the 
+      ablated tissue away from the esophagus during an energy application; and (3) a 30 
+      s cool-off and irrigation period after the energy delivery. The esophageal 
+      temperature was recorded using an insulated multisensory intraluminal esophageal 
+      temperature probe (Circa S-Cath™). Of the 20 patients enrolled, 7 patients had 
+      paroxysmal atrial fibrillation (AF), 8 persistent AF and 5 longstanding 
+      persistent AF. The average maximum luminal esophageal temperature observed was 
+      36.2 ± 0.7 °C (34.8-38.2 °C). In our clinical experience, no abrupt increase in 
+      the luminal esophageal temperature above the baseline was observed. Since no 
+      measurements exceeded the threshold of 39 °C, no prompt interruption of energy 
+      delivery was required. Intraluminal esophageal temperature monitoring is feasible 
+      and can be helpful in confirming correct catheter position and safe energy 
+      application in bipolar epicardial left atrial ablation. Intra-procedural 
+      preventive mitigations should be implemented to reduce the risk of esophageal 
+      temperature rises.
+FAU - Kronenberger, Rani
+AU  - Kronenberger R
+AUID- ORCID: 0000-0001-9142-8608
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - Parise, Orlando
+AU  - Parise O
+AUID- ORCID: 0000-0002-5422-4187
+AD  - Cardiovascular Research Institute Maastricht (CARIM), Maastricht University 
+      Medical Centre, Universiteitssingel 50, 6229 ER Maastricht, The Netherlands.
+FAU - Van Loo, Ines
+AU  - Van Loo I
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - Gelsomino, Sandro
+AU  - Gelsomino S
+AUID- ORCID: 0000-0002-7746-989X
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - Welch, Ashley
+AU  - Welch A
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - De Asmundis, Carlo
+AU  - De Asmundis C
+AUID- ORCID: 0000-0001-9351-0760
+AD  - Heart Rhythm Management Centre, Postgraduate in Cardiac Electrophysiology and 
+      Pacing, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 1090 Brussels, 
+      Belgium.
+FAU - La Meir, Mark
+AU  - La Meir M
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+LA  - eng
+PT  - Journal Article
+DEP - 20221125
+PL  - Switzerland
+TA  - J Clin Med
+JT  - Journal of clinical medicine
+JID - 101606588
+PMC - PMC9741413
+OTO - NOTNLM
+OT  - ablation
+OT  - atrial fibrillation
+OT  - atrio-esophageal fistula
+OT  - circa
+OT  - luminal esophageal temperature monitoring
+COIS- M.L.M. is a consultant for AtriCure. The other authors have no conflict of 
+      interest.
+EDAT- 2022/12/12 06:00
+MHDA- 2022/12/12 06:01
+CRDT- 2022/12/11 01:13
+PHST- 2022/10/14 00:00 [received]
+PHST- 2022/11/13 00:00 [revised]
+PHST- 2022/11/20 00:00 [accepted]
+PHST- 2022/12/11 01:13 [entrez]
+PHST- 2022/12/12 06:00 [pubmed]
+PHST- 2022/12/12 06:01 [medline]
+AID - jcm11236939 [pii]
+AID - jcm-11-06939 [pii]
+AID - 10.3390/jcm11236939 [doi]
+PST - epublish
+SO  - J Clin Med. 2022 Nov 25;11(23):6939. doi: 10.3390/jcm11236939.
+
+PMID- 36878135
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230404
+LR  - 20230404
+IS  - 1873-3557 (Electronic)
+IS  - 1386-1425 (Linking)
+VI  - 294
+DP  - 2023 Jun 5
+TI  - A cyanobiphenyl-based fluorescent ''lighting-up'' sensor for highly selective and 
+      sensitive recognition of Al(3+): Theoretical, practical and bioimaging studies.
+PG  - 122556
+LID - S1386-1425(23)00241-X [pii]
+LID - 10.1016/j.saa.2023.122556 [doi]
+AB  - The recognition of toxic Al(3+) in foods and biosystems has of great interest to 
+      researchers. Herein, a novel cyanobiphenyl-based chemosensor CATH 
+      (E)-N'-((4'-cyano-4-hydroxy-[1,1'-biphenyl]-3-yl)methylene)thiophene-2-carbohydrazide 
+      was fabricated and shown to recognize Al(3+) in HEPES buffer:EtOH (90:10, v:v, 
+      pH = 7.4) by ''lighting-up'' fluorescence sensing. The CATH evidenced high 
+      sensitivity (LOD = 13.1 nM) and excellent selectivity to Al(3+) over competing 
+      cations. The Job's plot, TOF-MS and theoretical computation studies were 
+      performed to probe the binding mechanism of Al(3+) to CATH. Additionally; CATH 
+      was successfully utilized to practical applications and employed to recover of 
+      Al(3+) from different food samples. More importantly, it was employed to 
+      intracellular Al(3+) detection in living cells including THLE2 and HepG2.
+CI  - Copyright © 2023 Elsevier B.V. All rights reserved.
+FAU - Guctekin Yasar, Ozlem
+AU  - Guctekin Yasar O
+AD  - Chemistry Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye.
+FAU - Bostanci, Aykut
+AU  - Bostanci A
+AD  - Biology Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye.
+FAU - Karuk Elmas, Sukriye Nihan
+AU  - Karuk Elmas SN
+AD  - Chemistry Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye; Analytical Chemistry Department, Pharmacy 
+      Faculty, Istanbul University-Cerrahpaşa, 34500 Istanbul, Turkiye. Electronic 
+      address: snihankaruk@gmail.com.
+FAU - Aydin, Duygu
+AU  - Aydin D
+AD  - Chemistry Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye. Electronic address: duyguaydin@kmu.edu.tr.
+FAU - Arslan, Fatma Nur
+AU  - Arslan FN
+AD  - Chemistry Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye. Electronic address: arslanfatmanur@gmail.com.
+FAU - Sadi, Gokhan
+AU  - Sadi G
+AD  - Biology Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye.
+FAU - Yilmaz, Ibrahim
+AU  - Yilmaz I
+AD  - Chemistry Department, Kamil Ozdag Science Faculty, Karamanoglu Mehmetbey 
+      University, 70100 Karaman, Turkiye.
+LA  - eng
+PT  - Journal Article
+DEP - 20230228
+PL  - England
+TA  - Spectrochim Acta A Mol Biomol Spectrosc
+JT  - Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy
+JID - 9602533
+RN  - CPD4NFA903 (Aluminum)
+RN  - 0 (Fluorescent Dyes)
+RN  - 0 (Cations)
+SB  - IM
+MH  - *Aluminum
+MH  - *Fluorescent Dyes/metabolism
+MH  - Cations
+MH  - Fluorescence
+MH  - Spectrometry, Fluorescence/methods
+OTO - NOTNLM
+OT  - Aluminum
+OT  - DFT
+OT  - Fluorescent sensor
+OT  - Food
+OT  - Living cell
+COIS- Declaration of Competing Interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2023/03/07 06:00
+MHDA- 2023/04/04 06:42
+CRDT- 2023/03/06 18:12
+PHST- 2022/12/11 00:00 [received]
+PHST- 2023/02/13 00:00 [revised]
+PHST- 2023/02/23 00:00 [accepted]
+PHST- 2023/04/04 06:42 [medline]
+PHST- 2023/03/07 06:00 [pubmed]
+PHST- 2023/03/06 18:12 [entrez]
+AID - S1386-1425(23)00241-X [pii]
+AID - 10.1016/j.saa.2023.122556 [doi]
+PST - ppublish
+SO  - Spectrochim Acta A Mol Biomol Spectrosc. 2023 Jun 5;294:122556. doi: 
+      10.1016/j.saa.2023.122556. Epub 2023 Feb 28.

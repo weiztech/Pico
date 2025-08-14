@@ -1,0 +1,97 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+    <link href="{% static 'css/theme/citation_updater.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %} 
+    <a href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/fixing-missing-citations"
+        target="_blank">
+        <span>Need help with this page? <br/> Read the Wiki</span>
+        <div>
+            <img src="{% static 'images/icons/wiki-icon.svg' %}">
+        </div>  
+    </a>
+{% endblock %} 
+
+{% block 'body' %}
+<div class="table-caption">
+    <h4 class="header">
+        <div>
+            Citation Updater ({{articles|length}})
+            <div class="tooltip" style="padding-left: 10px;">
+                <a class="help-button warning"
+                href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/fixing-missing-citations"
+                target="_blank">
+                <span>What do I do on this page?</span>
+            </a>
+            <span class="tooltiptext">Need help with this page? <br/> Read the Wiki</span>
+        </div>
+    </div>
+    </h4>
+    <table class="custom-table ">
+        <thead class="citation-list-table-header">
+            <tr>
+                <th scope="col" class="table-header-col id-header-col">Article ID</th>
+                <th scope="col" class="table-header-col title-col" >Title</th>
+                <th scope="col" class="table-header-col id-header-col">Pubmed UID</th>
+                <th scope="col" class="table-header-col id-header-col">PMC UID</th>
+                <th scope="col" class="table-header-col ">Citation</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in articles %}
+            <tr id="article.article_id">
+                <td> {{ article.id }} </td>
+                <td> {{ article.title }} </td>
+                <td> {{article.pubmed_uid }} </td>
+                <td> {{article.pmc_uid }} </td>
+                <td>
+                    <div class="citation-form">
+                        <textarea id="{{ article.id }}"></textarea> 
+                        <!-- <input name="citation" id="{{ article.id }}" /> </td> --> 
+                        <div>
+                            {% if is_archived %}
+                                <input data-article-id="{{article.id}}" class="primary-button submit-button disabled" value="submit" type="submit"/>
+                            {% else %}
+                                <input data-article-id="{{article.id}}" class="primary-button submit-button" value="submit" type="submit"/>
+                            {% endif %}
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% csrf_token %}
+<script type="text/javascript">
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+    $('.submit-button').each((index, input_el) => {
+        input_el.addEventListener('click', function (e) {
+            const articleId = $(this).data("article-id");
+            const citationInputValue = document.getElementById(articleId).value;
+            const citationValue = citationInputValue ? citationInputValue : "";
+            formData = new FormData();
+            formData.append('citation', citationValue)
+            formData.append('article_id', articleId)
+
+            $.ajax({
+                url: "{% url 'literature_reviews:citation_updater' id=literature_review_id %}",
+                type: 'POST',
+                data: formData,
+                contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)
+                processData: false, // NEEDED, DON'T OMIT THIS
+                headers: { 'X-CSRFToken': csrftoken },
+                success: function () {
+                    location.reload();
+                },
+                error: function(error){
+                    alert(error.responseText);
+                }
+                })
+            });
+    })
+
+    </script>
+{% endblock %}

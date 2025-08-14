@@ -1,0 +1,23 @@
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-col {
+    width: 48%; /* Adjust width as needed */
+  }
+  .form-col-full {
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  #form-content{
+    display: grid;
+    border-radius: 18px;
+    width: 650px;
+    min-width: 360px;
+    max-width: 650px;
+    text-align: center;
+    position: relative;
+  }

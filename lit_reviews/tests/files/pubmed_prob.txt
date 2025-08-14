@@ -1,0 +1,1416 @@
+PMID- 36498514
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20221221
+IS  - 2077-0383 (Print)
+IS  - 2077-0383 (Electronic)
+IS  - 2077-0383 (Linking)
+VI  - 11
+IP  - 23
+DP  - 2022 Nov 25
+TI  - Esophageal Protection and Temperature Monitoring Using the Circa S-Cath™ 
+      Temperature Probe during Epicardial Radiofrequency Ablation of the Pulmonary 
+      Veins and Posterior Left Atrium.
+LID - 10.3390/jcm11236939 [doi]
+LID - 6939
+AB  - Although epicardial bipolar radiofrequency ablation should diminish the risk of 
+      esophageal thermal injury in comparison to an endocardial ablation, cases of 
+      lethal atrio-esophageal fistula have been reported. To better understand this 
+      risk and to reduce the possibility of a thermal injury, we monitored the 
+      esophageal temperature with the Circa S-Cath™ temperature probe during and 
+      immediately after the ablation while implementing three procedural safety 
+      measures. Twenty patients (15 males; 63 ± 10 years) were prospectively enrolled 
+      (November 2019-February 2021). All patients underwent an epicardial ablation 
+      procedure, including an antral left and right pulmonary vein isolation with 
+      bidirectional bipolar clamping, and a roof and inferior line using unidirectional 
+      bipolar radiofrequency. Three procedural preventive mitigations were implemented: 
+      (1) transesophageal echocardiographic visualization of the atrio-esophageal 
+      interface, with probe retraction before the energy delivery; (2) lifting the 
+      ablated tissue away from the esophagus during an energy application; and (3) a 30 
+      s cool-off and irrigation period after the energy delivery. The esophageal 
+      temperature was recorded using an insulated multisensory intraluminal esophageal 
+      temperature probe (Circa S-Cath™). Of the 20 patients enrolled, 7 patients had 
+      paroxysmal atrial fibrillation (AF), 8 persistent AF and 5 longstanding 
+      persistent AF. The average maximum luminal esophageal temperature observed was 
+      36.2 ± 0.7 °C (34.8-38.2 °C). In our clinical experience, no abrupt increase in 
+      the luminal esophageal temperature above the baseline was observed. Since no 
+      measurements exceeded the threshold of 39 °C, no prompt interruption of energy 
+      delivery was required. Intraluminal esophageal temperature monitoring is feasible 
+      and can be helpful in confirming correct catheter position and safe energy 
+      application in bipolar epicardial left atrial ablation. Intra-procedural 
+      preventive mitigations should be implemented to reduce the risk of esophageal 
+      temperature rises.
+FAU - Kronenberger, Rani
+AU  - Kronenberger R
+AUID- ORCID: 0000-0001-9142-8608
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - Parise, Orlando
+AU  - Parise O
+AUID- ORCID: 0000-0002-5422-4187
+AD  - Cardiovascular Research Institute Maastricht (CARIM), Maastricht University 
+      Medical Centre, Universiteitssingel 50, 6229 ER Maastricht, The Netherlands.
+FAU - Van Loo, Ines
+AU  - Van Loo I
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - Gelsomino, Sandro
+AU  - Gelsomino S
+AUID- ORCID: 0000-0002-7746-989X
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - Welch, Ashley
+AU  - Welch A
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+FAU - De Asmundis, Carlo
+AU  - De Asmundis C
+AUID- ORCID: 0000-0001-9351-0760
+AD  - Heart Rhythm Management Centre, Postgraduate in Cardiac Electrophysiology and 
+      Pacing, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 1090 Brussels, 
+      Belgium.
+FAU - La Meir, Mark
+AU  - La Meir M
+AD  - Department of Cardiac Surgery, Universitair Ziekenhuis Brussel, Laarbeeklaan 101, 
+      1090 Brussels, Belgium.
+LA  - eng
+PT  - Journal Article
+DEP - 20221125
+PL  - Switzerland
+TA  - J Clin Med
+JT  - Journal of clinical medicine
+JID - 101606588
+PMC - PMC9741413
+OTO - NOTNLM
+OT  - ablation
+OT  - atrial fibrillation
+OT  - atrio-esophageal fistula
+OT  - circa
+OT  - luminal esophageal temperature monitoring
+COIS- M.L.M. is a consultant for AtriCure. The other authors have no conflict of 
+      interest.
+EDAT- 2022/12/12 06:00
+MHDA- 2022/12/12 06:01
+CRDT- 2022/12/11 01:13
+PHST- 2022/10/14 00:00 [received]
+PHST- 2022/11/13 00:00 [revised]
+PHST- 2022/11/20 00:00 [accepted]
+PHST- 2022/12/11 01:13 [entrez]
+PHST- 2022/12/12 06:00 [pubmed]
+PHST- 2022/12/12 06:01 [medline]
+AID - jcm11236939 [pii]
+AID - jcm-11-06939 [pii]
+AID - 10.3390/jcm11236939 [doi]
+PST - epublish
+SO  - J Clin Med. 2022 Nov 25;11(23):6939. doi: 10.3390/jcm11236939.
+
+PMID- 36407202
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20221122
+IS  - 2168-8184 (Print)
+IS  - 2168-8184 (Electronic)
+IS  - 2168-8184 (Linking)
+VI  - 14
+IP  - 10
+DP  - 2022 Oct
+TI  - Complications From Operator Modification of the Esophageal Temperature Probe.
+PG  - e30388
+LID - 10.7759/cureus.30388 [doi]
+LID - e30388
+AB  - Intraoperative temperature monitoring of surgical patients is an important aspect 
+      of perioperative care. Central core temperature monitoring is often accomplished 
+      using an 18 French esophageal device inserted through the mouth into the 
+      esophagus, while patients are undergoing general anesthesia. Placement of a 
+      modified esophageal temperature probe (i.e. with the protective plastic covering 
+      removed) into the nasopharynx of a patient may cause significant patient harm by 
+      injuring the nasal mucosa and/or turbinates. An internal survey of current 
+      practice at our academic institution reveals that 78% of anesthesia providers 
+      modify the esophageal temperature probes, leading to an 11% injury incidence. A 
+      practical solution to avoid complications is to place a pediatric size 9 French 
+      esophageal temperature probe into the nasopharynx to monitor the central core 
+      temperature.
+CI  - Copyright © 2022, Kovacs et al.
+FAU - Kovacs, Peter L
+AU  - Kovacs PL
+AD  - Anesthesiology, University of Florida, Jacksonville, USA.
+FAU - Deutch, Zachary
+AU  - Deutch Z
+AD  - Anesthesiology, University of Florida, Jacksonville, USA.
+LA  - eng
+PT  - Case Reports
+DEP - 20221017
+PL  - United States
+TA  - Cureus
+JT  - Cureus
+JID - 101596737
+PMC - PMC9671197
+OTO - NOTNLM
+OT  - esophageal temperature probe
+OT  - general endotracheal anesthesia
+OT  - laryngeal mask airway anesthesia
+OT  - modified esophageal temperature probe
+OT  - modified medical device
+OT  - patient harm from medical device
+COIS- The authors have declared that no competing interests exist.
+EDAT- 2022/11/22 06:00
+MHDA- 2022/11/22 06:01
+CRDT- 2022/11/21 04:29
+PHST- 2022/10/16 00:00 [accepted]
+PHST- 2022/11/21 04:29 [entrez]
+PHST- 2022/11/22 06:00 [pubmed]
+PHST- 2022/11/22 06:01 [medline]
+AID - 10.7759/cureus.30388 [doi]
+PST - epublish
+SO  - Cureus. 2022 Oct 17;14(10):e30388. doi: 10.7759/cureus.30388. eCollection 2022 
+      Oct.
+
+PMID- 35513952
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230307
+LR  - 20230307
+IS  - 1879-1409 (Electronic)
+IS  - 0305-4179 (Linking)
+VI  - 49
+IP  - 2
+DP  - 2023 Mar
+TI  - Perioperative targeted temperature management of severely burned patients by 
+      means of an oesophageal temperature probe.
+PG  - 401-407
+LID - S0305-4179(22)00066-3 [pii]
+LID - 10.1016/j.burns.2022.03.015 [doi]
+AB  - BACKGROUND: Hypothermia in severely burned patients is associated with a 
+      significant increase in morbidity and mortality. The use of an oesophageal heat 
+      exchanger tube (EHT) can improve perioperative body temperatures in severely 
+      burned patients. The aim of this study was to investigate the intraoperative 
+      warming effect of oesophageal heat transfer in severe burn patients. METHODS: 
+      Single-centre retrospective study performed at the Burns Centre of the University 
+      Hospital Zurich. Between January 2020 and May 2021 perioperative temperature 
+      management with EHT was explored in burned patients with a total body surface 
+      area (TBSA) larger than 30%. Data from patients, who received perioperative 
+      temperature management by EHT, were compared to data from the same patients 
+      during interventions performed under standard temperature management matching for 
+      length and type of intervention. RESULTS: A total of 30 interventions (15 with 
+      and 15 without EHT) in 10 patients were analysed. Patient were 38 [26-48] years 
+      of age, presented with severe burns covering a median of 50 [42-64] % TBSA and 
+      were characterized by an ABSI of 10 [8-12] points. When receiving EHT management 
+      patients experienced warming at 0.07 °C per minute (4.2 °C/h) compared to a 
+      temperature loss of - 0.03 °C per minute (1.8 °C/h) when only receiving standard 
+      temperature management (p < 0.0001). No adverse or serious adverse events were 
+      reported. CONCLUSION: The use of an oesophageal heat transfer device was 
+      effective and safe in providing perioperative warming to severely burned patients 
+      when compared to a standard temperature management protocol. By employing an EHT 
+      as primary temperature management device perioperative hypothermia in severely 
+      burned patients can possibly be averted, potentially leading to reduced 
+      hypothermia-associated complications.
+CI  - Copyright © 2022 The Author(s). Published by Elsevier Ltd.. All rights reserved.
+FAU - Furrer, Florian
+AU  - Furrer F
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Wendel-Garcia, Pedro David
+AU  - Wendel-Garcia PD
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Pfister, Pablo
+AU  - Pfister P
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Hofmaenner, Daniel Andrea
+AU  - Hofmaenner DA
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Franco, Carlos
+AU  - Franco C
+AD  - Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland.
+FAU - Sachs, Alexandra
+AU  - Sachs A
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Fleischer, Juliane
+AU  - Fleischer J
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Both, Christian
+AU  - Both C
+AD  - Department of Anesthesia, University Children's Hospital, Zurich, Switzerland.
+FAU - Kim, Bong Sun
+AU  - Kim BS
+AD  - Department of Plastic and Hand Surgery, Burn Center, University Hospital Zurich, 
+      Zurich, Switzerland.
+FAU - Schuepbach, Reto A
+AU  - Schuepbach RA
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Steiger, Peter
+AU  - Steiger P
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Camen, Giovanni
+AU  - Camen G
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland.
+FAU - Buehler, Philipp Karl
+AU  - Buehler PK
+AD  - Institute of Intensive Care Medicine, University Hospital of Zurich, Zurich, 
+      Switzerland. Electronic address: philipp.buehler@usz.ch.
+LA  - eng
+PT  - Journal Article
+DEP - 20220329
+PL  - Netherlands
+TA  - Burns
+JT  - Burns : journal of the International Society for Burn Injuries
+JID - 8913178
+SB  - IM
+MH  - Humans
+MH  - Body Temperature
+MH  - *Hypothermia
+MH  - Temperature
+MH  - Retrospective Studies
+MH  - *Burns/therapy
+MH  - *Hypothermia, Induced
+OTO - NOTNLM
+OT  - Oesophageal heat exchanger tube
+OT  - Oesophageal temperature probe
+OT  - Severely burned patients
+OT  - Target temperature management
+COIS- Declaration of Competing Interest The authors declare that the research was 
+      conducted in the absence of any commercial or financial relationships that could 
+      be construed as a potential conflict of interest.
+EDAT- 2022/05/07 06:00
+MHDA- 2023/03/08 06:00
+CRDT- 2022/05/06 00:14
+PHST- 2022/01/31 00:00 [received]
+PHST- 2022/03/20 00:00 [revised]
+PHST- 2022/03/22 00:00 [accepted]
+PHST- 2022/05/07 06:00 [pubmed]
+PHST- 2023/03/08 06:00 [medline]
+PHST- 2022/05/06 00:14 [entrez]
+AID - S0305-4179(22)00066-3 [pii]
+AID - 10.1016/j.burns.2022.03.015 [doi]
+PST - ppublish
+SO  - Burns. 2023 Mar;49(2):401-407. doi: 10.1016/j.burns.2022.03.015. Epub 2022 Mar 
+      29.
+
+PMID- 37341638
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230814
+LR  - 20230814
+IS  - 1873-734X (Electronic)
+IS  - 1010-7940 (Linking)
+VI  - 64
+IP  - 2
+DP  - 2023 Aug 1
+TI  - Performance of the transoesophageal echocardiography probe as an oesophageal 
+      temperature monitor in patients undergoing cardiac surgery with cardiopulmonary 
+      bypass: a prospective observational study.
+LID - ezad242 [pii]
+LID - 10.1093/ejcts/ezad242 [doi]
+AB  - OBJECTIVES: Core temperature monitoring is critical during cardiopulmonary bypass 
+      (CPB). In this prospective observational study, we investigated the performance 
+      of the transoesophageal echocardiography (TOE) probe for core (oesophageal) 
+      temperature monitoring during CPB. METHODS: Thirty adult patients, 18-70 years of 
+      either gender, undergoing cardiac surgery with CPB were enrolled. All patients 
+      received a reusable nasopharyngeal probe for monitoring core temperatures. In 
+      addition, the oesophageal temperatures were monitored with the TOE probe. The 
+      arterial outlet temperatures at the membrane oxygenator were also monitored and 
+      taken as the reference standard. Monitoring was performed every 5 min until 
+      20 min, and then at 30 min during both the cooling and rewarming periods. 
+      RESULTS: During cooling, the oesophageal and nasopharyngeal temperatures lagged 
+      behind the arterial outlet temperatures. However, the intra-class correlation of 
+      the oesophageal temperatures with the arterial outlet temperatures was better 
+      (range 0.58-0.74) than the correlation of the nasopharyngeal temperatures with 
+      the arterial outlet temperatures (range 0.46-0.62). During rewarming, the 
+      performance of the TOE probe was significantly superior to the nasopharyngeal 
+      probe. After 15 and 20 min of rewarming, there was a difference of ∼1°C between 
+      the oesophageal and nasopharyngeal temperatures. At 30 min of rewarming, the 
+      oesophageal and the arterial outlet temperatures were similar, while the 
+      nasopharyngeal temperatures still lagged by 0.5°C. Bias was significantly less 
+      both during cooling and warming between the oesophageal temperatures and arterial 
+      outlet temperatures. CONCLUSIONS: Performance of the TOE probe as an oesophageal 
+      temperature probe is superior to the nasopharyngeal probe during CPB. CLINICAL 
+      TRIAL REGISTRATION NUMBER: CTRI no 2020/10/028228; ctri.nic.in.
+CI  - © The Author(s) 2023. Published by Oxford University Press on behalf of the 
+      European Association for Cardio-Thoracic Surgery. All rights reserved.
+FAU - Misra, Satyajeet
+AU  - Misra S
+AUID- ORCID: 0000-0001-8097-0338
+AD  - Department of Anesthesiology & Critical Care, All India Institute of Medical 
+      Sciences (AIIMS), Bhubaneswar, India.
+FAU - Das, Prasanta Kumar
+AU  - Das PK
+AD  - Department of Anesthesiology & Critical Care, All India Institute of Medical 
+      Sciences (AIIMS), Bhubaneswar, India.
+FAU - Srinivasan, Anand
+AU  - Srinivasan A
+AD  - Department of Pharmacology, All India Institute of Medical Sciences (AIIMS), 
+      Bhubaneswar, India.
+LA  - eng
+PT  - Journal Article
+PT  - Observational Study
+PL  - Germany
+TA  - Eur J Cardiothorac Surg
+JT  - European journal of cardio-thoracic surgery : official journal of the European 
+      Association for Cardio-thoracic Surgery
+JID - 8804069
+SB  - IM
+CIN - Eur J Cardiothorac Surg. 2023 Aug 1;64(2):. PMID: 37555821
+MH  - Adult
+MH  - Humans
+MH  - Cardiopulmonary Bypass/adverse effects
+MH  - *Hypothermia, Induced
+MH  - Temperature
+MH  - Echocardiography, Transesophageal
+MH  - Body Temperature
+MH  - *Cardiac Surgical Procedures/adverse effects
+OTO - NOTNLM
+OT  - Cardiopulmonary bypass
+OT  - Cooling
+OT  - Nasopharyngeal
+OT  - Oesophageal
+OT  - Rewarming
+OT  - Temperature
+OT  - Transoesophageal
+EDAT- 2023/06/21 13:04
+MHDA- 2023/08/14 06:42
+CRDT- 2023/06/21 10:13
+PHST- 2023/03/07 00:00 [received]
+PHST- 2023/05/26 00:00 [revised]
+PHST- 2023/06/20 00:00 [accepted]
+PHST- 2023/08/14 06:42 [medline]
+PHST- 2023/06/21 13:04 [pubmed]
+PHST- 2023/06/21 10:13 [entrez]
+AID - 7204424 [pii]
+AID - 10.1093/ejcts/ezad242 [doi]
+PST - ppublish
+SO  - Eur J Cardiothorac Surg. 2023 Aug 1;64(2):ezad242. doi: 10.1093/ejcts/ezad242.
+
+PMID- 35377051
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230123
+LR  - 20230328
+IS  - 1573-2614 (Electronic)
+IS  - 1387-1307 (Print)
+IS  - 1387-1307 (Linking)
+VI  - 37
+IP  - 1
+DP  - 2023 Feb
+TI  - Evaluation of the Temple Touch Pro™ noninvasive core-temperature monitoring 
+      system in 100 adults under general anesthesia: a prospective comparison with 
+      esophageal temperature.
+PG  - 29-36
+LID - 10.1007/s10877-022-00851-z [doi]
+AB  - Perioperative hypothermia is still common and has relevant complication for the 
+      patient. An effective perioperative thermal management requires essentially an 
+      accurate method to measure core temperature. So far, only one study has 
+      investigated the new Temple Touch Pro™ (Medisim Ltd., Beit-Shemesh, Israel). 
+      during anesthesia Therefore, we assessed the agreement between the Temple Touch 
+      Pro™ thermometer (TTP) and distal esophageal temperature (T(Eso)) in a second 
+      study. After approval by the local ethics committee we studied 100 adult patients 
+      undergoing surgery with general anesthesia. Before induction of anesthesia the 
+      TTP sensor unit was attached to the skin above the temporal artery. After 
+      induction of anesthesia an esophageal temperature probe was placed in the distal 
+      esophagus. Recordings started 10 min after placement of the esophageal 
+      temperature probe to allow adequate warming of the probes. Pairs of temperature 
+      values were documented in five-minute intervals until emergence of anesthesia. 
+      Accuracy of the two methods was assessed by Bland-Altman comparisons of 
+      differences with multiple measurements. Core temperatures obtained with the TTP 
+      in adults showed a mean bias of -0.04 °C with 95% limits of agreement within 
+      - 0.99 °C to + 0.91 °C compared to an esophageal temperature probe. We consider 
+      the TTP as a reasonable tool for perioperative temperature monitoring. It is not 
+      accurate enough to be used as a reference method in scientific studies, but may 
+      be a useful tool especially for conscious patients undergoing neuraxial 
+      anesthesia or regional anesthesia with sedation. Trial registration This study 
+      was registered in the German Clinical Trials Register (DRKS-ID: 00024050), day of 
+      registration 12/01/2021.
+CI  - © 2022. The Author(s).
+FAU - Bräuer, Anselm
+AU  - Bräuer A
+AUID- ORCID: 0000-0002-4013-8755
+AD  - Department of Anesthesiology, University Medical Centre Göttingen, 
+      Robert-Koch-Str. 40, 37075, Göttingen, Germany. abraeue@gwdg.de.
+FAU - Fazliu, Albulena
+AU  - Fazliu A
+AD  - Department of Anesthesiology, University Medical Centre Göttingen, 
+      Robert-Koch-Str. 40, 37075, Göttingen, Germany.
+FAU - Brandes, Ivo F
+AU  - Brandes IF
+AD  - Department of Anesthesiology, University Medical Centre Göttingen, 
+      Robert-Koch-Str. 40, 37075, Göttingen, Germany.
+FAU - Vollnhals, Falk
+AU  - Vollnhals F
+AD  - Department of Anesthesiology, Emergency Medicine, Intensive Care Medicine and 
+      Pain Therapy, Klinikum Wolfsburg, Wolfsburg, Germany.
+FAU - Grote, Rolf
+AU  - Grote R
+AUID- ORCID: 0000-0001-9465-1055
+AD  - Department of Anesthesiology, University Medical Centre Göttingen, 
+      Robert-Koch-Str. 40, 37075, Göttingen, Germany.
+AD  - Department of Anesthesiology, Emergency Medicine, Intensive Care Medicine and 
+      Pain Therapy, Klinikum Wolfsburg, Wolfsburg, Germany.
+FAU - Menzel, Matthias
+AU  - Menzel M
+AD  - Department of Anesthesiology, University Medical Centre Göttingen, 
+      Robert-Koch-Str. 40, 37075, Göttingen, Germany.
+AD  - Department of Anesthesiology, Emergency Medicine, Intensive Care Medicine and 
+      Pain Therapy, Klinikum Wolfsburg, Wolfsburg, Germany.
+LA  - eng
+SI  - DRKS/drks00024050
+PT  - Journal Article
+DEP - 20220404
+PL  - Netherlands
+TA  - J Clin Monit Comput
+JT  - Journal of clinical monitoring and computing
+JID - 9806357
+SB  - IM
+MH  - Adult
+MH  - Humans
+MH  - Temperature
+MH  - *Touch
+MH  - Body Temperature
+MH  - *Hypothermia
+MH  - Anesthesia, General
+PMC - PMC9852212
+OTO - NOTNLM
+OT  - Adult
+OT  - Anesthesia
+OT  - Body temperature
+OT  - Core temperature
+OT  - Monitoring
+COIS- Prof. Dr. A. Bräuer is a member of the advisory board of 3 M Europe and has 
+      received payments from 3 M Germany, 3 M Europe, 3 M Asia Pacific Pte Ltd., The 
+      surgical Company, Netherlands and Moeck & Moeck GmbH, Germany for consultancy and 
+      speaking. Prof. Dr. M. Menzel is a member of the advisory board of 3M Europe and 
+      has received payments from 3M Germany, 3M Europe for consultancy work and 
+      speaking. Dr. R. Grote has received payments from 3 M Germany for consultancy 
+      work and speaking. All other authors have no relevant financial or non-financial 
+      interests to disclose.
+EDAT- 2022/04/05 06:00
+MHDA- 2023/01/24 06:00
+CRDT- 2022/04/04 12:05
+PHST- 2022/01/24 00:00 [received]
+PHST- 2022/03/16 00:00 [accepted]
+PHST- 2022/04/05 06:00 [pubmed]
+PHST- 2023/01/24 06:00 [medline]
+PHST- 2022/04/04 12:05 [entrez]
+AID - 10.1007/s10877-022-00851-z [pii]
+AID - 851 [pii]
+AID - 10.1007/s10877-022-00851-z [doi]
+PST - ppublish
+SO  - J Clin Monit Comput. 2023 Feb;37(1):29-36. doi: 10.1007/s10877-022-00851-z. Epub 
+      2022 Apr 4.
+
+PMID- 36621856
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230203
+LR  - 20230802
+IS  - 1365-2346 (Electronic)
+IS  - 0265-0215 (Linking)
+VI  - 40
+IP  - 3
+DP  - 2023 Mar 1
+TI  - Evaluation of the non-invasive Temple Touch Pro temperature monitoring system 
+      compared with oesophageal temperature in paediatric anaesthesia (PETER PAN): A 
+      prospective observational study.
+PG  - 198-207
+LID - 10.1097/EJA.0000000000001796 [doi]
+AB  - BACKGROUND: Monitoring peri-operative body temperature in children is currently 
+      mainly achieved through invasive devices. The Temple Touch Pro Temperature 
+      Monitoring System estimates core temperature noninvasively based on heat flux 
+      thermometry. OBJECTIVE: To investigate the agreement of this noninvasive sensor 
+      against standard oesophageal core temperature. DESIGN: A prospective 
+      observational study. SETTING: University hospital recruiting between April and 
+      July 2021. PATIENTS: One hundred children (32 girls) aged 6 years or younger 
+      scheduled for noncardiac surgery, resulting in 6766 data pairs. Exclusion 
+      criteria were contraindication for the insertion of an oesophageal temperature 
+      probe, and procedures in which one of the measurement methods would interfere 
+      with the surgical field. MAIN OUTCOME MEASURES: Primary outcome was the agreement 
+      analysis by a Bland-Altman comparison with multiple measurements. Posthoc, we 
+      performed another agreement analysis after exclusion of a statistically 
+      determined equilibration time. Secondary outcomes were the temperature 
+      differences over time and subgroup analysis of hypothermic, normothermic and 
+      hyperthermic temperature ranges, age, sex and sensor's side by type III analysis 
+      of variance. Further, we correlated the sonographically determined depth of the 
+      artery with trueness. RESULTS: The mean difference was -0.07°C (95% CI -0.15 to 
+      +0.05) with limits of agreement of -1.00 and +0.85°C. After adjusting for an 
+      equilibration time of 13 min, the mean difference improved to -0.04°C (95% CI 
+      -0.08 to +0.01) with limits of agreement of -0.68 and +0.60°C. Concordance 
+      correlation coefficient was 0.83 (95% CI 0.82 to 0.84). Differences between the 
+      skin sensor and oesophageal reference increased over time by -0.05°C per hour. 
+      Subgroup analysis showed no clinically relevant differences. Depth of artery 
+      negatively correlated with trueness by 0.03°C per millimetre. CONCLUSIONS: 
+      Although the Temple Touch Pro sensor showed acceptable accuracy after allowing 
+      for an equilibration time, it still needs further investigation for routine use 
+      in children. This particularly affects accuracy in hypothermic ranges, imprecise 
+      positioning and applicability in children with immature or vulnerable skin. TRIAL 
+      REGISTRATION: German Clinical Trials Register, identifier: DRKS00024703.
+CI  - Copyright © 2023 European Society of Anaesthesiology and Intensive Care. 
+      Unauthorized reproduction of this article is prohibited.
+FAU - Nemeth, Marcus
+AU  - Nemeth M
+AD  - From the Department of Anaesthesiology (MN, KK, BM, AF, LS, AB, CM), Department 
+      of Medical Statistics, University Medical Centre Goettingen, Goettingen, Germany 
+      (MN, KK, TA, BM, AF, LS, AB, CM), Department of Anesthesiology, University of 
+      Michigan, Ann Arbor, Michigan (CP), Outcomes Research Consortium, Cleveland, 
+      Ohio, USA (LS).
+FAU - Klose, Katharina
+AU  - Klose K
+FAU - Asendorf, Thomas
+AU  - Asendorf T
+FAU - Pancaro, Carlo
+AU  - Pancaro C
+FAU - Mielke, Benjamin
+AU  - Mielke B
+FAU - Fazliu, Albulena
+AU  - Fazliu A
+FAU - Saager, Leif
+AU  - Saager L
+FAU - Bräuer, Anselm
+AU  - Bräuer A
+FAU - Miller, Clemens
+AU  - Miller C
+LA  - eng
+PT  - Journal Article
+PT  - Observational Study
+DEP - 20230109
+PL  - England
+TA  - Eur J Anaesthesiol
+JT  - European journal of anaesthesiology
+JID - 8411711
+SB  - IM
+MH  - Child
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - *Anesthesia
+MH  - *Body Temperature
+MH  - *Monitoring, Intraoperative/methods
+MH  - Skin Temperature
+MH  - Touch
+MH  - Prospective Studies
+EDAT- 2023/01/10 06:00
+MHDA- 2023/02/03 06:00
+CRDT- 2023/01/09 05:33
+PHST- 2023/01/10 06:00 [pubmed]
+PHST- 2023/02/03 06:00 [medline]
+PHST- 2023/01/09 05:33 [entrez]
+AID - 00003643-202303000-00007 [pii]
+AID - 10.1097/EJA.0000000000001796 [doi]
+PST - ppublish
+SO  - Eur J Anaesthesiol. 2023 Mar 1;40(3):198-207. doi: 10.1097/EJA.0000000000001796. 
+      Epub 2023 Jan 9.
+
+PMID- 37385421
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230804
+LR  - 20230804
+IS  - 1878-1519 (Electronic)
+IS  - 1569-9048 (Linking)
+VI  - 315
+DP  - 2023 Sep
+TI  - Exercise-induced arterial hypoxemia in female masters athletes.
+PG  - 104099
+LID - S1569-9048(23)00087-3 [pii]
+LID - 10.1016/j.resp.2023.104099 [doi]
+AB  - The purpose of the study was to characterize exercise induced arterial hypoxemia 
+      (EIAH) in female masters athletes (FMA). We hypothesized that FMA would 
+      experience EIAH during treadmill running. Eight FMA (48-57 years) completed 
+      pulmonary function testing and an incremental exercise test until exhaustion 
+      (V̇O(2)max⁡ = 45.7 ± 6.5, range:35-54 ml/kg/min). On a separate day, the 
+      participants were instrumented with a radial arterial catheter and an esophageal 
+      temperature probe. Participants performed three to four constant load exercise 
+      tests at 60-70 %, 75 %, 90 %, 95 %, and 100 % of maximal oxygen uptake while 
+      sampling arterial blood and recording esophageal temperature. We found that FMA 
+      decrease their partial pressure of oxygen (86.0 ± 7.6, range:73-108 mmHg), 
+      arterial saturation (96.2 ± 1.2, range:93-98 %), and widen their alveolar to 
+      arterial oxygen difference (23.2 ± 8.8, range:5-42 mmHg) during all exercise 
+      intensities however, with variability in terms of severity and pattern. Our 
+      findings suggest that FMA experience EIAH however aerobic fitness appears 
+      unrelated to occurrence or severity (r = 0.13, p = 0.756).
+CI  - Copyright © 2023 Elsevier B.V. All rights reserved.
+FAU - Shiffman, Viviana J
+AU  - Shiffman VJ
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada. 
+      Electronic address: viviana.shiffman@ubc.ca.
+FAU - Rose, Peter
+AU  - Rose P
+AD  - Department of Anesthesia, Vancouver Coastal Health, Vancouver, BC, Canada.
+FAU - Hughes, Bevan George
+AU  - Hughes BG
+AD  - Department of Anesthesia, Vancouver Coastal Health, Vancouver, BC, Canada.
+FAU - Koehle, Michael S
+AU  - Koehle MS
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada; 
+      Division of Sport and Exercise Medicine, University of British Columbia, 
+      Vancouver, BC, Canada.
+FAU - McKinney, James
+AU  - McKinney J
+AD  - Division of Cardiology, University of British Columbia, Vancouver, BC, Canada.
+FAU - McKenzie, Donald C
+AU  - McKenzie DC
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada; 
+      Division of Sport and Exercise Medicine, University of British Columbia, 
+      Vancouver, BC, Canada.
+FAU - Leahy, Michael G
+AU  - Leahy MG
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada.
+FAU - Kipp, Shalaya
+AU  - Kipp S
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada.
+FAU - Peters, Carli M
+AU  - Peters CM
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada.
+FAU - Sheel, A William
+AU  - Sheel AW
+AD  - School of Kinesiology, The University of British Columbia, Vancouver, BC, Canada.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20230628
+PL  - Netherlands
+TA  - Respir Physiol Neurobiol
+JT  - Respiratory physiology & neurobiology
+JID - 101140022
+RN  - S88TT14065 (Oxygen)
+SB  - IM
+MH  - Humans
+MH  - Female
+MH  - *Oxygen Consumption
+MH  - *Hypoxia
+MH  - Exercise
+MH  - Oxygen
+MH  - Athletes
+OTO - NOTNLM
+OT  - Ageing
+OT  - Lung
+OT  - Physiology
+OT  - Sex-based differences
+COIS- Declaration of Competing Interest The authors declare that they have no conflicts 
+      of interest.
+EDAT- 2023/06/30 01:06
+MHDA- 2023/08/04 06:43
+CRDT- 2023/06/29 19:15
+PHST- 2023/03/09 00:00 [received]
+PHST- 2023/06/21 00:00 [revised]
+PHST- 2023/06/25 00:00 [accepted]
+PHST- 2023/08/04 06:43 [medline]
+PHST- 2023/06/30 01:06 [pubmed]
+PHST- 2023/06/29 19:15 [entrez]
+AID - S1569-9048(23)00087-3 [pii]
+AID - 10.1016/j.resp.2023.104099 [doi]
+PST - ppublish
+SO  - Respir Physiol Neurobiol. 2023 Sep;315:104099. doi: 10.1016/j.resp.2023.104099. 
+      Epub 2023 Jun 28.
+
+PMID- 35492302
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20220503
+IS  - 2296-858X (Print)
+IS  - 2296-858X (Electronic)
+IS  - 2296-858X (Linking)
+VI  - 9
+DP  - 2022
+TI  - Non-Invasive Monitoring of Core Body Temperature for Targeted Temperature 
+      Management in Post-Cardiac Arrest Care.
+PG  - 810825
+LID - 10.3389/fmed.2022.810825 [doi]
+LID - 810825
+AB  - IMPORTANCE: Accurate monitoring of core body temperature is integral to targeted 
+      temperature management (TTM) following cardiac arrest. However, there are no 
+      reliable non-invasive methods for monitoring temperature during TTM. OBJECTIVES: 
+      We compared the accuracy and precision of a novel non-invasive Zero-Heat-Flux 
+      Thermometer (SpotOn™) to a standard invasive esophageal probe in a cohort of 
+      patients undergoing TTM post-cardiac arrest. DESIGN SETTING AND PARTICIPANTS: We 
+      prospectively enrolled 20 patients undergoing post-cardiac arrest care in the 
+      intensive care units at the London Health Sciences Centre in London, Canada. A 
+      SpotOn™ probe was applied on each patient's forehead, while an esophageal 
+      temperature probe was inserted, and both temperature readings were recorded at 
+      1-min intervals for the duration of TTM. MAIN OUTCOMES AND MEASURES: We compared 
+      the SpotOn™ and esophageal monitors using the Bland-Altman analysis and the 
+      Pearson correlation, with accuracy set as a primary outcome. Secondary outcomes 
+      included precision and correlation. Bias exceeding 0.1°C and limits of agreement 
+      exceeding 0.5°C were considered clinically important. RESULTS: Sixteen (80%) of 
+      patients had complete data used in the final analysis. The median (interquartile 
+      range) duration of recording was 38 (12-56) h. Compared to the esophageal probe, 
+      SpotOn™ had a bias of 0.06 ± 0.45°C and 95% limits of agreement of -0.83 to 
+      0.95°C. The Pearson correlation coefficient was 0.97 (95% confidence interval 
+      0.9663-0.9678), with a two-tailed p < 0.0001. CONCLUSION AND RELEVANCE: The 
+      SpotOn™ is an accurate method that may enable non-invasive monitoring of core 
+      body temperature during TTM, although its precision is slightly worse than the 
+      predefined 0.5°C when compared to invasive esophageal probe.
+CI  - Copyright © 2022 Fiorini, Tamasi, Dorie, Hegazy, Lee and Slessarev.
+FAU - Fiorini, Kyle
+AU  - Fiorini K
+AD  - Schulich School of Medicine and Dentistry, Western University, London, ON, 
+      Canada.
+AD  - Division of Critical Care, Department of Medicine, London Health Sciences Centre, 
+      London, ON, Canada.
+FAU - Tamasi, Tanya
+AU  - Tamasi T
+AD  - Kidney Clinical Research Unit, Lawson Health Research Institute, London, ON, 
+      Canada.
+FAU - Dorie, Justin
+AU  - Dorie J
+AD  - Kidney Clinical Research Unit, Lawson Health Research Institute, London, ON, 
+      Canada.
+FAU - Hegazy, Ahmed F
+AU  - Hegazy AF
+AD  - Division of Critical Care, Department of Medicine, London Health Sciences Centre, 
+      London, ON, Canada.
+AD  - Department of Anesthesia and Perioperative Medicine, London Health Sciences 
+      Centre, London, ON, Canada.
+FAU - Lee, Ting-Yim
+AU  - Lee TY
+AD  - Department of Medical Imaging and Biophysics, Western University, London, ON, 
+      Canada.
+AD  - Imaging Program, Lawson Health Research Institute, London, ON, Canada.
+FAU - Slessarev, Marat
+AU  - Slessarev M
+AD  - Division of Critical Care, Department of Medicine, London Health Sciences Centre, 
+      London, ON, Canada.
+AD  - Kidney Clinical Research Unit, Lawson Health Research Institute, London, ON, 
+      Canada.
+AD  - Brain and Mind Institute, Western University, London, ON, Canada.
+LA  - eng
+PT  - Journal Article
+DEP - 20220413
+PL  - Switzerland
+TA  - Front Med (Lausanne)
+JT  - Frontiers in medicine
+JID - 101648047
+PMC - PMC9043456
+OTO - NOTNLM
+OT  - brain injuries
+OT  - critical care
+OT  - heart arrest
+OT  - hypothermia
+OT  - induced
+OT  - technology
+OT  - thermometers
+COIS- The authors declare that the research was conducted in the absence of any 
+      commercial or financial relationships that could be construed as a potential 
+      conflict of interest.
+EDAT- 2022/05/03 06:00
+MHDA- 2022/05/03 06:01
+CRDT- 2022/05/02 06:09
+PHST- 2021/11/08 00:00 [received]
+PHST- 2022/03/03 00:00 [accepted]
+PHST- 2022/05/02 06:09 [entrez]
+PHST- 2022/05/03 06:00 [pubmed]
+PHST- 2022/05/03 06:01 [medline]
+AID - 10.3389/fmed.2022.810825 [doi]
+PST - epublish
+SO  - Front Med (Lausanne). 2022 Apr 13;9:810825. doi: 10.3389/fmed.2022.810825. 
+      eCollection 2022.
+
+PMID- 36730063
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230523
+LR  - 20230721
+IS  - 1526-7598 (Electronic)
+IS  - 0003-2999 (Linking)
+VI  - 136
+IP  - 5
+DP  - 2023 May 1
+TI  - Optimal Positioning of Nasopharyngeal Temperature Probes in Infants and Children: 
+      A Prospective Cohort Study.
+PG  - 986-991
+LID - 10.1213/ANE.0000000000006312 [doi]
+AB  - BACKGROUND: The nasopharynx is an easily accessible core-temperature monitoring 
+      site, but insufficient or excessive nasopharyngeal probe insertion can 
+      underestimate core temperature. Our goal was to estimate optimal nasopharyngeal 
+      probe insertion depth as a function of age. METHODS: We enrolled 157 pediatric 
+      patients who had noncardiac surgery with endotracheal intubation in 5 groups: (1) 
+      newborn to 6 months old, (2) infants 7 months to 1 year old, (3) children 13 to 
+      23 months old, (4) children 2 to 5 years old, and (5) children 6 to 12 years old. 
+      A reference esophageal temperature probe was inserted at an appropriate depth 
+      based on each patient's height. A nasopharyngeal temperature probe was inserted 
+      from the naris at 10 cm in newborn and infants, 15 cm in children aged 1 to 5 
+      years old, and 20 cm in children who were 6 years or older. The study 
+      nasopharyngeal probes were withdrawn 1, 2.5, or 2 cm (depending on age) 10 times 
+      at 5-minute intervals. Optimal probe insertion distances were defined by limits 
+      of agreement (LOAs) between nasopharyngeal and esophageal temperatures <0.5 °C. 
+      RESULTS: Optimal nasopharyngeal temperature probe position ranged from 6 to 10 cm 
+      in infants up to 6 months old, 7 to 8 cm in infants 7 to 12 months old, 7.5 to 12 
+      cm in children 13 to 23 months old, and 10 to 12 cm in children aged 6 years and 
+      older. The 95% LOAs were <0.5 °C for all age categories except the 2- to 
+      5-year-old group where the limits extended from -0.67 °C to 0.52 °C at 9 cm. At 
+      the optimal position within each age range, the bias (average 
+      nasopharyngeal-to-esophageal temperature difference) was ≤0.1 °C. CONCLUSIONS: 
+      Nasopharyngeal thermometers accurately measure core temperature, but only when 
+      probes are inserted a proper distance, which varies with age. As with much in 
+      pediatrics, nasopharyngeal thermometer insertion depths should be age 
+      appropriate.
+CI  - Copyright © 2022 International Anesthesia Research Society.
+FAU - Zhong, John W
+AU  - Zhong JW
+AD  - From the University of Texas Southwestern Medical Center and Children's Health of 
+      Dallas, Dallas, Texas.
+FAU - Sessler, Daniel I
+AU  - Sessler DI
+AD  - Department of Outcome Research, Anesthesiology Institute, Cleveland Clinic; 
+      Cleveland, Ohio.
+FAU - Mao, Guangmei
+AU  - Mao G
+AD  - Department of Outcome Research, Anesthesiology Institute, Cleveland Clinic; 
+      Cleveland, Ohio.
+FAU - Jerome, Aveline
+AU  - Jerome A
+AD  - From the University of Texas Southwestern Medical Center and Children's Health of 
+      Dallas, Dallas, Texas.
+FAU - Chandran, Neethu
+AU  - Chandran N
+AD  - From the University of Texas Southwestern Medical Center and Children's Health of 
+      Dallas, Dallas, Texas.
+FAU - Szmuk, Peter
+AU  - Szmuk P
+AD  - From the University of Texas Southwestern Medical Center and Children's Health of 
+      Dallas, Dallas, Texas.
+AD  - Outcome Research Consortium, Cleveland, Ohio.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20221129
+PL  - United States
+TA  - Anesth Analg
+JT  - Anesthesia and analgesia
+JID - 1310650
+SB  - IM
+MH  - Humans
+MH  - Male
+MH  - Female
+MH  - Infant
+MH  - Child, Preschool
+MH  - Child
+MH  - Prospective Studies
+MH  - Infant, Newborn
+MH  - *Thermometers
+MH  - *Body Temperature
+MH  - *Nasopharynx
+MH  - Body Height
+COIS- Conflicts of Interest: See Disclosures at the end of the article.
+EDAT- 2023/02/03 06:00
+MHDA- 2023/04/18 06:42
+CRDT- 2023/02/02 13:22
+PHST- 2023/04/18 06:42 [medline]
+PHST- 2023/02/03 06:00 [pubmed]
+PHST- 2023/02/02 13:22 [entrez]
+AID - 00000539-202305000-00023 [pii]
+AID - 10.1213/ANE.0000000000006312 [doi]
+PST - ppublish
+SO  - Anesth Analg. 2023 May 1;136(5):986-991. doi: 10.1213/ANE.0000000000006312. Epub 
+      2022 Nov 29.
+
+PMID- 35861901
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221223
+LR  - 20221223
+IS  - 1572-8595 (Electronic)
+IS  - 1383-875X (Linking)
+VI  - 65
+IP  - 3
+DP  - 2022 Dec
+TI  - Relationship between the posterior atrial wall and the esophagus: esophageal 
+      position and temperature measurement during atrial fibrillation ablation 
+      (AWESOME-AF). A randomized controlled trial.
+PG  - 651-661
+LID - 10.1007/s10840-022-01302-0 [doi]
+AB  - BACKGROUND: Pulmonary vein isolation (PVI) implies unavoidable ablation lesions 
+      to the left atrial posterior wall, which is closely related to the esophagus, 
+      leading to several potential complications. This study evaluates the usefulness 
+      of the esophageal fingerprint in avoiding temperature rises during paroxysmal 
+      atrial fibrillation (PAF) ablation. METHODS: Isodistance maps of the 
+      atrio-esophageal relationship (esophageal fingerprint) were derived from the 
+      preprocedural computerized tomography. Patients were randomized (1:1) into two 
+      groups: (1) PRINT group, the PVI line was modified according to the esophageal 
+      fingerprint; (2) CONTROL group, standard PVI with operator blinded to the 
+      fingerprint. The primary endpoint was temperature rise detected by intraluminal 
+      esophageal temperature probe monitoring. Ablation settings were as specified on 
+      the Ablate BY-LAW study protocol. RESULTS: Sixty consecutive patients referred 
+      for paroxysmal AF ablation were randomized (42 (70%) men, mean age 
+      60 ± 11 years). Temperature rise (> 39.1 °C) occurred in 5 (16%) patients in the 
+      PRINT group vs. 17 (56%) in the CONTROL group (p < 0.01). Three AF recurrences 
+      were documented at a mean follow-up of 12 ± 3 months (one (3%) in the PRINT group 
+      and 2 (6.6%) in the CONTROL group, p = 0.4). CONCLUSION: The esophageal 
+      fingerprint allows for a reliable identification of the esophageal position and 
+      its use for PVI line deployment results in less frequent esophageal temperature 
+      rises when compared to the standard approach. Further studies are needed to 
+      evaluate the impact of PVI line modification to avoid esophageal heating on 
+      long-term outcomes. The development of new imaging-derived tools could ultimately 
+      improve patient safety (NCT04394923).
+CI  - © 2022. The Author(s), under exclusive licence to Springer Science+Business 
+      Media, LLC, part of Springer Nature.
+FAU - Teres, Cheryl
+AU  - Teres C
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+AD  - Lausanne University Hospital, Lausanne, Switzerland.
+FAU - Soto-Iglesias, David
+AU  - Soto-Iglesias D
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Penela, Diego
+AU  - Penela D
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Falasconi, Giulio
+AU  - Falasconi G
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Viveros, Daniel
+AU  - Viveros D
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Meca-Santamaria, Julia
+AU  - Meca-Santamaria J
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Bellido, Aldo
+AU  - Bellido A
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Alderete, Jose
+AU  - Alderete J
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Chauca, Alfredo
+AU  - Chauca A
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Ordoñez, Augusto
+AU  - Ordoñez A
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Martí-Almor, Julio
+AU  - Martí-Almor J
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Scherer, Claudia
+AU  - Scherer C
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Panaro, Alejandro
+AU  - Panaro A
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Carballo, Julio
+AU  - Carballo J
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Cámara, Óscar
+AU  - Cámara Ó
+AD  - Department of Information and Communication Technologies, BCN-MedTech, 
+      Universitat Pompeu Fabra, PhySense group, Barcelona, Spain.
+FAU - Ortiz-Pérez, Jose-Tomás
+AU  - Ortiz-Pérez JT
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain.
+FAU - Berruezo, Antonio
+AU  - Berruezo A
+AUID- ORCID: 0000-0002-5418-383X
+AD  - Heart Institute, Teknon Medical Center, C/Vilana, 12; 08022, Barcelona, Spain. 
+      antonio.berruezo@quironsalud.es.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT04394923
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20220721
+PL  - Netherlands
+TA  - J Interv Card Electrophysiol
+JT  - Journal of interventional cardiac electrophysiology : an international journal of 
+      arrhythmias and pacing
+JID - 9708966
+SB  - IM
+CIN - J Interv Card Electrophysiol. 2022 Dec;65(3):593-594. PMID: 36001267
+MH  - Aged
+MH  - Humans
+MH  - Middle Aged
+MH  - *Atrial Fibrillation/diagnostic imaging/surgery
+OTO - NOTNLM
+OT  - Atrial fibrillation
+OT  - Atrial wall thickness
+OT  - Atrioesophageal fistula
+OT  - Catheter ablation
+OT  - Esophageal position
+EDAT- 2022/07/22 06:00
+MHDA- 2022/12/15 06:00
+CRDT- 2022/07/21 11:18
+PHST- 2022/05/25 00:00 [received]
+PHST- 2022/07/07 00:00 [accepted]
+PHST- 2022/07/22 06:00 [pubmed]
+PHST- 2022/12/15 06:00 [medline]
+PHST- 2022/07/21 11:18 [entrez]
+AID - 10.1007/s10840-022-01302-0 [pii]
+AID - 10.1007/s10840-022-01302-0 [doi]
+PST - ppublish
+SO  - J Interv Card Electrophysiol. 2022 Dec;65(3):651-661. doi: 
+      10.1007/s10840-022-01302-0. Epub 2022 Jul 21.
+
+PMID- 34382152
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220825
+LR  - 20220825
+IS  - 1572-8595 (Electronic)
+IS  - 1383-875X (Linking)
+VI  - 64
+IP  - 2
+DP  - 2022 Aug
+TI  - Safety, efficacy, and cost-performance of a simplified cryoballoon ablation 
+      procedure for paroxysmal atrial fibrillation.
+PG  - 427-435
+LID - 10.1007/s10840-021-01043-6 [doi]
+AB  - BACKGROUND: The search for a less invasive and lower cost cryoballoon-based 
+      strategy for atrial fibrillation (AF) ablation has resulted in a simplified 
+      procedure that may be suitable for cryoballoon ablation (CBA). Here, we compared 
+      procedural characteristics and outcomes between conventional CBA and simple CBA. 
+      METHODS: We enrolled 628 consecutive patients who underwent initial CBA for AF 
+      (age, 69 ± 12 years; female, 263 (42%); paroxysmal AF, 576 (92%); 
+      CHA(2)DS(2)-VASc score, 2.7 ± 1.6 points). Simple CBA was characterized by the 
+      minimal procedure required to isolate pulmonary veins, including the following: 
+      (1) CBA was performed without guidance from a 3-D mapping system; (2) a coronary 
+      sinus electrode and esophageal temperature probe were not used; (3) a waiting 
+      period after pulmonary vein isolation was not set; and AF induction by 
+      isoproterenol and atrial burst stimuli were not performed. RESULTS: Simple CBA 
+      was performed in 240 (38%) patients. Procedural time (49 ± 18 versus 85 ± 27 min, 
+      p < 0.01) was shorter, and total procedural costs (20,699 ± 8,091 versus 
+      30,350 ± 11,647 US dollars, p < 0.01) were lower with simple CBA than 
+      conventional CBA. Freedom from AF recurrence during the 12-month study period 
+      (79.8% versus 78.4%, p = 0.52) and complication rate (8.8% versus 13.1%, 
+      p = 0.09) were similar between the two groups. CONCLUSION: Compared with 
+      conventional CBA, simple CBA reduced procedural time and procedural costs while 
+      providing comparable outcomes.
+CI  - © 2021. Springer Science+Business Media, LLC, part of Springer Nature.
+FAU - Matsuda, Yasuhiro
+AU  - Matsuda Y
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Masuda, Masaharu
+AU  - Masuda M
+AUID- ORCID: 0000-0002-5566-466X
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan. masuda-masaharu@kansaih.johas.go.jp.
+FAU - Sakio, Takashige
+AU  - Sakio T
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Asai, Mitsutoshi
+AU  - Asai M
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Iida, Osamu
+AU  - Iida O
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Okamoto, Shin
+AU  - Okamoto S
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Ishihara, Takayuki
+AU  - Ishihara T
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Nanto, Kiyonori
+AU  - Nanto K
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Kanda, Takashi
+AU  - Kanda T
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Tsujimura, Takuya
+AU  - Tsujimura T
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Hata, Yosuke
+AU  - Hata Y
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Uematsu, Hiroyuki
+AU  - Uematsu H
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+FAU - Mano, Toshiaki
+AU  - Mano T
+AD  - Kansai Rosai Hospital Cardiovascular Center, 3-1-69 Inabaso, Amagasaki, Hyogo, 
+      660-8511, Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20210812
+PL  - Netherlands
+TA  - J Interv Card Electrophysiol
+JT  - Journal of interventional cardiac electrophysiology : an international journal of 
+      arrhythmias and pacing
+JID - 9708966
+SB  - IM
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - *Atrial Fibrillation/surgery
+MH  - *Catheter Ablation/methods
+MH  - *Cryosurgery/methods
+MH  - Female
+MH  - Humans
+MH  - Middle Aged
+MH  - *Pulmonary Veins/surgery
+MH  - Recurrence
+MH  - Treatment Outcome
+OTO - NOTNLM
+OT  - Atrial fibrillation
+OT  - Catheter ablation
+OT  - Cryoballoon ablation
+OT  - Procedural costs
+OT  - Procedural time
+EDAT- 2021/08/13 06:00
+MHDA- 2022/08/26 06:00
+CRDT- 2021/08/12 06:47
+PHST- 2021/04/05 00:00 [received]
+PHST- 2021/07/27 00:00 [accepted]
+PHST- 2021/08/13 06:00 [pubmed]
+PHST- 2022/08/26 06:00 [medline]
+PHST- 2021/08/12 06:47 [entrez]
+AID - 10.1007/s10840-021-01043-6 [pii]
+AID - 10.1007/s10840-021-01043-6 [doi]
+PST - ppublish
+SO  - J Interv Card Electrophysiol. 2022 Aug;64(2):427-435. doi: 
+      10.1007/s10840-021-01043-6. Epub 2021 Aug 12.
+
+PMID- 36598422
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230612
+LR  - 20230612
+IS  - 1540-8167 (Electronic)
+IS  - 1045-3873 (Linking)
+VI  - 34
+IP  - 6
+DP  - 2023 Jun
+TI  - Catheter ablation of atrial fibrillation with a multi-electrode radiofrequency 
+      balloon; first and early two centre experience in Europe.
+PG  - 1350-1359
+LID - 10.1111/jce.15799 [doi]
+AB  - INTRODUCTION: The Heliostar™ ablation system is a novel RF balloon ablation 
+      technology with an integrated three-dimensional mapping system. Here, we describe 
+      our early experience and procedural outcomes using this technology for atrial 
+      fibrillation catheter ablation. METHODS: We sought to comprehensively assess the 
+      first 60 consecutive patients undergoing pulmonary vein isolation using the novel 
+      HELISOTAR™ RF balloon technology including procedural outcomes. A comparison of 
+      the workflow between two different anaesthetic modalities (conscious sedation 
+      [CS] vs. general anaesthesia [GA]) was made. Procedural data were collected 
+      prospectively from two high-volume centers (Barts Heart Centre, UK and University 
+      Hospital of Zurich, Zurich). A standardized approach for catheter ablation was 
+      employed. RESULTS: A total of 35 patients had the procedure under CS and the 
+      remaining under GA. Mean procedural and fluoroscopy times were 84 ± 33 min and 
+      1.1 min. The median duration of RF energy application was 7 (5-9.8) mins per 
+      patient. All veins were successfully isolated, and the median isolation time was 
+      10 (7-15) seconds. Our cohort's rate of procedural complications was low, with no 
+      mortality within 30 days postprocedure. CONCLUSION: Our early experience shows 
+      that catheter ablation using the Heliostar™ technology can be performed 
+      efficiently and safely; however, long-term data is yet to be established. Low 
+      fluoroscopy requirements, short learning curves and use of this technology with 
+      CS is possible, including the use of an oesophageal temperature probe.
+CI  - © 2023 The Authors. Journal of Cardiovascular Electrophysiology published by 
+      Wiley Periodicals LLC.
+FAU - Kanthasamy, Vijayabharathy
+AU  - Kanthasamy V
+AUID- ORCID: 0000-0002-8572-6294
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+AD  - William Harvey Research Institute, Queen Mary University of London, London, UK.
+FAU - Breitenstein, Alexander
+AU  - Breitenstein A
+AUID- ORCID: 0000-0002-4440-2947
+AD  - Klinik für Kardiologie Herzzentrum, Universitätsspital Zürich, Zürich, 
+      Switzerland.
+FAU - Schilling, Richard
+AU  - Schilling R
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Hofer, Daniel
+AU  - Hofer D
+AD  - Klinik für Kardiologie Herzzentrum, Universitätsspital Zürich, Zürich, 
+      Switzerland.
+FAU - Tiongco, Benny
+AU  - Tiongco B
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Ang, Richard
+AU  - Ang R
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Hunter, Ross
+AU  - Hunter R
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Earley, Mark
+AU  - Earley M
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Ahsan, Syed
+AU  - Ahsan S
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Mangiafico, Valentina
+AU  - Mangiafico V
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Honarbakhsh, Shohreh
+AU  - Honarbakhsh S
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Ahluwalia, Nikhil
+AU  - Ahluwalia N
+AUID- ORCID: 0000-0003-1257-5576
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+AD  - William Harvey Research Institute, Queen Mary University of London, London, UK.
+FAU - Maclean, Edd
+AU  - Maclean E
+AUID- ORCID: 0000-0001-6177-2221
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+AD  - William Harvey Research Institute, Queen Mary University of London, London, UK.
+FAU - Creta, Antonio
+AU  - Creta A
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+FAU - Finlay, Malcolm
+AU  - Finlay M
+AD  - Barts Heart Centre, Barts Health National Health Service Trust, West Smithfield, 
+      London, UK.
+AD  - William Harvey Research Institute, Queen Mary University of London, London, UK.
+LA  - eng
+PT  - Journal Article
+DEP - 20230126
+PL  - United States
+TA  - J Cardiovasc Electrophysiol
+JT  - Journal of cardiovascular electrophysiology
+JID - 9010756
+SB  - IM
+MH  - Humans
+MH  - *Atrial Fibrillation/diagnosis/surgery
+MH  - Treatment Outcome
+MH  - Europe
+MH  - Electrodes
+MH  - *Pulmonary Veins/surgery
+MH  - *Catheter Ablation/adverse effects/methods
+OTO - NOTNLM
+OT  - Heliostar balloon ablation
+OT  - atrial fibrillation
+OT  - radiofrequency catheter ablation
+OT  - single shot pulmonary vein isolation
+EDAT- 2023/01/05 06:00
+MHDA- 2023/06/12 06:42
+CRDT- 2023/01/04 10:22
+PHST- 2022/12/11 00:00 [revised]
+PHST- 2022/09/10 00:00 [received]
+PHST- 2022/12/28 00:00 [accepted]
+PHST- 2023/06/12 06:42 [medline]
+PHST- 2023/01/05 06:00 [pubmed]
+PHST- 2023/01/04 10:22 [entrez]
+AID - 10.1111/jce.15799 [doi]
+PST - ppublish
+SO  - J Cardiovasc Electrophysiol. 2023 Jun;34(6):1350-1359. doi: 10.1111/jce.15799. 
+      Epub 2023 Jan 26.
+
+PMID- 37322530
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230619
+LR  - 20230619
+IS  - 1757-7241 (Electronic)
+IS  - 1757-7241 (Linking)
+VI  - 31
+IP  - 1
+DP  - 2023 Jun 15
+TI  - Critically buried avalanche victims can develop severe hypothermia in less than 
+      60 min.
+PG  - 29
+LID - 10.1186/s13049-023-01092-y [doi]
+LID - 29
+AB  - BACKGROUND: A major challenge in the management of avalanche victims in cardiac 
+      arrest is differentiating hypothermic from non-hypothermic cardiac arrest, as 
+      management and prognosis differ. Duration of burial with a cutoff of 60 min is 
+      currently recommended by the resuscitation guidelines as a parameter to aid in 
+      this differentiation However, the fastest cooling rate under the snow reported so 
+      far is 9.4 °C per hour, suggesting that it would take 45 min to cool below 30 °C, 
+      which is the temperature threshold below which a hypothermic cardiac arrest can 
+      occur. CASE PRESENTATION: We describe a case with a cooling rate of 14 °C per 
+      hour, assessed on site with an oesophageal temperature probe. This is by far the 
+      most rapid cooling rate after critical avalanche burial reported in the 
+      literature and further challenges the recommended 60 min threshold for triage 
+      decisions. The patient was transported under continuous mechanical CPR to an ECLS 
+      facility and rewarmed with VA-ECMO, although his HOPE score was 3% only. After 
+      three days he developed brain death and became an organ donor. CONCLUSIONS: With 
+      this case we would like to underline three important aspects: first, whenever 
+      possible, core body temperature should be used instead of burial duration to make 
+      triage decisions. Second, the HOPE score, which is not well validated for 
+      avalanche victims, had a good discriminatory ability in our case. Third, although 
+      extracorporeal rewarming was futile for the patient, he donated his organs. Thus, 
+      even if the probability of survival of a hypothermic avalanche patient is low 
+      based on the HOPE score, ECLS should not be withheld by default and the 
+      possibility of organ donation should be considered.
+CI  - © 2023. The Author(s).
+FAU - Rauch, Simon
+AU  - Rauch S
+AUID- ORCID: 0000-0002-3264-6303
+AD  - Institute of Mountain Emergency Medicine, Eurac Research, Via Ipazia 2, Bolzano, 
+      39100, Italy. Simon.rauch@eurac.edu.
+AD  - Department of Anaesthesia and Intensive Care Medicine, Hospital of Merano, Via 
+      Rossini 5, Merano, 39012, Italy. Simon.rauch@eurac.edu.
+AD  - Aiut Alpin Dolomites Helicopter Emergency Medical Service, Pontives 24, Laion, 
+      39040, Italy. Simon.rauch@eurac.edu.
+FAU - Kompatscher, Julia
+AU  - Kompatscher J
+AD  - Department of Emergency Medicine, Anaesthesia and Intensive Care Medicine, 
+      Hospital of Bolzano, Via Lorenz Böhler, 5, Bolzano, 39100, Italy.
+FAU - Clara, Andreas
+AU  - Clara A
+AD  - Aiut Alpin Dolomites Helicopter Emergency Medical Service, Pontives 24, Laion, 
+      39040, Italy.
+AD  - Corpo Nazionale Soccorso Alpino e Speleologico - CNSAS, Milano, Italy.
+FAU - Öttl, Iris
+AU  - Öttl I
+AD  - Department of Emergency Medicine, Anaesthesia and Intensive Care Medicine, 
+      Hospital of Bolzano, Via Lorenz Böhler, 5, Bolzano, 39100, Italy.
+FAU - Strapazzon, Giacomo
+AU  - Strapazzon G
+AD  - Institute of Mountain Emergency Medicine, Eurac Research, Via Ipazia 2, Bolzano, 
+      39100, Italy.
+AD  - Corpo Nazionale Soccorso Alpino e Speleologico - CNSAS, Milano, Italy.
+FAU - Kaufmann, Marc
+AU  - Kaufmann M
+AD  - Department of Emergency Medicine, Anaesthesia and Intensive Care Medicine, 
+      Hospital of Bolzano, Via Lorenz Böhler, 5, Bolzano, 39100, Italy.
+LA  - eng
+PT  - Case Reports
+PT  - Journal Article
+DEP - 20230615
+PL  - England
+TA  - Scand J Trauma Resusc Emerg Med
+JT  - Scandinavian journal of trauma, resuscitation and emergency medicine
+JID - 101477511
+SB  - IM
+MH  - Male
+MH  - Humans
+MH  - *Hypothermia/diagnosis/etiology/therapy
+MH  - *Avalanches
+MH  - Rewarming
+MH  - *Heart Arrest/etiology/therapy
+MH  - Resuscitation
+MH  - *Cardiopulmonary Resuscitation
+PMC - PMC10273714
+OTO - NOTNLM
+OT  - Accidental hypothermia
+OT  - Avalanche
+OT  - Avalanche burial
+OT  - Extracorporeal rewarming
+OT  - HOPE score
+OT  - Organ donation
+COIS- The authors declare that they have no competing interests.
+EDAT- 2023/06/16 01:08
+MHDA- 2023/06/19 13:09
+CRDT- 2023/06/15 23:43
+PHST- 2023/03/01 00:00 [received]
+PHST- 2023/05/30 00:00 [accepted]
+PHST- 2023/06/19 13:09 [medline]
+PHST- 2023/06/16 01:08 [pubmed]
+PHST- 2023/06/15 23:43 [entrez]
+AID - 10.1186/s13049-023-01092-y [pii]
+AID - 1092 [pii]
+AID - 10.1186/s13049-023-01092-y [doi]
+PST - epublish
+SO  - Scand J Trauma Resusc Emerg Med. 2023 Jun 15;31(1):29. doi: 
+      10.1186/s13049-023-01092-y.

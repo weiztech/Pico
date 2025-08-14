@@ -1,0 +1,18 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=Risk+and+%27adverse+events+of+ICG+imaging%27+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC6604591
+IS  - 2364-7485 (Electronic)
+VI  - 4
+IP  - Suppl 1
+DP  - 2019 Mar
+TI  - Abstracts DGAV.
+PG  - s1-s205
+LA  - eng
+PT  - Journal Article
+DEP - 20190320
+TA  - Innov Surg Sci
+JT  - Innovative Surgical Sciences
+AID - iss-2019-2001 [pii]
+AID - 10.1515/iss-2019-2001 [doi]
+SO  - Innov Surg Sci. 2019 Mar 20;4(Suppl 1):s1-s205. doi:10.1515/iss-2019-2001.

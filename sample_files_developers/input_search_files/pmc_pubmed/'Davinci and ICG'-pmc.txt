@@ -1,0 +1,314 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27Davinci+and+ICG%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8184731
+PMID- 33156466
+IS  - 1068-9265 (Print)
+IS  - 1534-4681 (Electronic)
+VI  - 28
+IP  - 7
+DP  - 2021
+TI  - Meta-analysis Comparing Fluorescence Imaging with Radioisotope and Blue
+      Dye-Guided Sentinel Node Identification for Breast Cancer Surgery.
+PG  - 3738-48
+AB  - Introduction: Conventional methods for axillary sentinel lymph node biopsy (SLNB)
+      are fraught with complications such as allergic reactions, skin tattooing,
+      radiation, and limitations on infrastructure. A novel technique has been
+      developed for lymphatic mapping utilizing fluorescence imaging. This
+      meta-analysis aims to compare the gold standard blue dye and radioisotope (BD-RI)
+      technique with fluorescence-guided SLNB using indocyanine green (ICG). Methods:
+      This study was registered with PROSPERO (CRD42019129224). The MEDLINE, EMBASE,
+      Scopus, and Web of Science databases were searched using the Medical Subject
+      Heading (MESH) terms ‘Surgery’ AND ‘Lymph node’ AND ‘Near infrared fluorescence’ 
+      AND ‘Indocyanine green’. Studies containing raw data on the sentinel node
+      identification rate in breast cancer surgery were included. A heterogeneity test 
+      (using Cochran’s Q) determined the use of fixed- or random-effects models for
+      pooled odds ratios (OR). Results: Overall, 1748 studies were screened, of which
+      10 met the inclusion criteria for meta-analysis. ICG was equivalent to
+      radioisotope (RI) at sentinel node identification (OR 2.58, 95% confidence
+      interval [CI] 0.35–19.08, p < 0.05) but superior to blue dye (BD) (OR 9.07, 95%
+      CI 6.73–12.23, p < 0.05). Furthermore, ICG was superior to the gold standard
+      BD-RI technique (OR 4.22, 95% CI 2.17–8.20, p < 0.001). Conclusion: Fluorescence 
+      imaging for axillary sentinel node identification with ICG is equivalent to the
+      single technique using RI, and superior to the dual technique (RI-BD) and single 
+      technique with BD. Hospitals using RI and/or BD could consider changing their
+      practice to ICG given the comparable efficacy and improved safety profile, as
+      well as the lesser burden on hospital infrastructure. Electronic supplementary
+      material: The online version of this article (10.1245/s10434-020-09288-7)
+      contains supplementary material, which is available to authorized users.
+FAU - Kedrzycki, Martha S.
+AU  - Kedrzycki MS
+AUID- ORCID: 0000-0002-3028-5743
+AD  - grid.7445.20000 0001 2113 8111Hamlyn Centre, Institute of Global Health
+      Innovation, Imperial College London, London, UK
+FAU - Leiloglou, Maria
+AU  - Leiloglou M
+AD  - grid.7445.20000 0001 2113 8111Hamlyn Centre, Institute of Global Health
+      Innovation, Imperial College London, London, UK
+FAU - Ashrafian, Hutan
+AU  - Ashrafian H
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+FAU - Jiwa, Natasha
+AU  - Jiwa N
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+FAU - Thiruchelvam, Paul T. R.
+AU  - Thiruchelvam PTR
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+FAU - Elson, Daniel S.
+AU  - Elson DS
+AD  - grid.7445.20000 0001 2113 8111Hamlyn Centre, Institute of Global Health
+      Innovation, Imperial College London, London, UK
+FAU - Leff, Daniel R.
+AU  - Leff DR
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20201106
+PHST- 2020/06/10 [received]
+PHST- 2020/09/27 [accepted]
+TA  - Ann Surg Oncol
+JT  - Annals of Surgical Oncology
+AID - 9288 [pii]
+AID - 10.1245/s10434-020-09288-7 [doi]
+SO  - Ann Surg Oncol. 2021;28(7):3738-48. Epub 2020 Nov 6
+      doi:10.1245/s10434-020-09288-7.
+
+PMC - PMC8196853
+PMID- 34067308
+IS  - 2072-6694 (Electronic)
+VI  - 13
+IP  - 11
+DP  - 2021 Jun
+TI  - Near Infrared Fluorescence Imaging of Intraperitoneal Ovarian Tumors in Mice
+      Using Erythrocyte-Derived Optical Nanoparticles and Spatially-Modulated
+      Illumination.
+LID - 2544
+AB  - Simple Summary: Ovarian cancer has a greater mortality rate than all
+      gynecological malignancies combined. While cytoreductive surgery remains the
+      primary therapeutic approach, its success is limited by the inability to
+      visualize all tumor nodules for resection. We developed light activated
+      nano-sized particles derived from red blood cells as potential imaging probes for
+      near infrared fluorescence imaging of tumors during cytoreductive surgery. We
+      present the first demonstration of the use of these nanoparticles in conjunction 
+      a spatially-modulated illumination (SMI) modality to image ovarian
+      intraperitoneal tumors in mice. Our findings indicate that, at 24 h
+      post-administration, these nanoparticles accumulated at higher levels in tumors
+      as compared to organs, and that use of SMI enhances the image contrast. Abstract:
+      Ovarian cancer is the deadliest gynecological cancer. Cytoreductive surgery to
+      remove primary and intraperitoneal tumor deposits remains as the standard
+      therapeutic approach. However, lack of an intraoperative image-guided approach to
+      enable the visualization of all tumors can result in incomplete cytoreduction and
+      recurrence. We engineered nano-sized particles derived from erythrocytes that
+      encapsulate the near infrared (NIR) fluorochrome, indocyanine green, as potential
+      imaging probes for tumor visualization during cytoreductive surgery. Herein, we
+      present the first demonstration of the use of these nanoparticles in conjunction 
+      with spatially-modulated illumination (SMI), at spatial frequencies in the range 
+      of 0–0.5 mm−1, to fluorescently image intraperitoneal ovarian tumors in mice.
+      Results of our animal studies suggest that the nanoparticles accumulated at
+      higher levels within tumors 24 h post-intraperitoneal injection as compared to
+      various other organs. We demonstrate that, under the imaging specifications
+      reported here, use of these nanoparticles in conjunction with SMI enhances the
+      fluorescence image contrast between intraperitoneal tumors and liver, and between
+      intraperitoneal tumors and spleen by nearly 2.1, and 3.0 times, respectively, at 
+      the spatial frequency of 0.2 mm−1 as compared to the contrast values at
+      spatially-uniform (non-modulated) illumination. These results suggest that the
+      combination of erythrocyte-derived NIR nanoparticles and structured illumination 
+      provides a promising approach for intraoperative fluorescence imaging of ovarian 
+      tumor nodules at enhanced contrast.
+FAU - Burns, Joshua M.
+AU  - Burns JM
+AUID- ORCID: https://orcid.org/0000-0001-5994-8646
+AD  - Department of Bioengineering, University of California, 900 University Ave.,
+      Riverside, CA 92521, USA; jburn006@ucr.edu (J.M.B.); escha006@ucr.edu (E.S.);
+      rvankayala@iitj.ac.in (R.V.)
+FAU - Shafer, Elise
+AU  - Shafer E
+AD  - Department of Bioengineering, University of California, 900 University Ave.,
+      Riverside, CA 92521, USA; jburn006@ucr.edu (J.M.B.); escha006@ucr.edu (E.S.);
+      rvankayala@iitj.ac.in (R.V.)
+FAU - Vankayala, Raviraj
+AU  - Vankayala R
+AUID- ORCID: https://orcid.org/0000-0002-4661-066X
+AD  - Department of Bioengineering, University of California, 900 University Ave.,
+      Riverside, CA 92521, USA; jburn006@ucr.edu (J.M.B.); escha006@ucr.edu (E.S.);
+      rvankayala@iitj.ac.in (R.V.)
+FAU - Kundra, Vikas
+AU  - Kundra V
+AD  - Department of Cancer Systems Imaging and Department of Radiology, The University 
+      of Texas MD Anderson Cancer Center, 1515 Holcombe Blvd, #57, Houston, TX 77030,
+      USA; VKundra@mdanderson.org
+FAU - Anvari, Bahman
+AU  - Anvari B
+AUID- ORCID: https://orcid.org/0000-0002-2511-5854
+AD  - Department of Bioengineering, University of California, 900 University Ave.,
+      Riverside, CA 92521, USA; jburn006@ucr.edu (J.M.B.); escha006@ucr.edu (E.S.);
+      rvankayala@iitj.ac.in (R.V.)
+LA  - eng
+PT  - Journal Article
+DEP - 20210522
+PHST- 2021/03/21 [received]
+PHST- 2021/05/20 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers13112544 [doi]
+AID - cancers-13-02544 [pii]
+SO  - Cancers (Basel). 2021 May 22;13(11):. doi:10.3390/cancers13112544.
+
+PMC - PMC5914738
+PMID- 29719391
+IS  - 1176-9114 (Print)
+IS  - 1178-2013 (Electronic)
+VI  - 13
+DP  - 2018
+TI  - Combined use of fluorescence with a magnetic tracer and dilution effect upon
+      sentinel node localization in a murine model.
+PG  - 2427-33
+AB  - Background: Sentinel node biopsy using radioisotope and blue dye remains a gold
+      standard for axillary staging in breast cancer patients with low axillary burden.
+      However, limitations in the use of radioisotopes have resulted in emergence of
+      novel techniques. This is the first in vivo study to assess the feasibility of
+      combining the two most common novel techniques of using a magnetic tracer and
+      indocyanine green (ICG) fluorescence. Materials and methods: A total of 48 mice
+      were divided into eight groups. Groups 1 and 2, the co-localization groups,
+      received an injection of magnetic tracers (Resovist® and Sienna+®, respectively) 
+      and ICG fluorescence; distilled water was used as the solvent of ICG. Groups 3
+      and 4, the diluted injection groups, received an injection of magnetic tracers
+      (Resovist and Sienna+, respectively) and saline for dilution. Groups 5, 6, and 7,
+      the control groups, received magnetic tracer (Resovist, Sienna+) and ICG alone,
+      respectively. Fluorescent intensity assessment and iron quantification of excised
+      popliteal lymph nodes were performed. Group 1′, a co-localization group, received
+      an injection of magnetic tracers (Resovist) and ICG′ fluorescence: saline was
+      used as the solvent for ICG. Results: Lymphatic uptake of all tracers was
+      confined to the popliteal nodes only, with co-localization confirmed in all cases
+      and no significant difference in fluorescent intensity or iron content of ex vivo
+      nodes between the groups (except for Group 1′). There was no impact of dilution
+      on the iron content in the diluted Sienna+ group, but it significantly enhanced
+      Resovist uptake (P=0.005). In addition, there was a significant difference in
+      iron content (P=0.003) in Group 1′. Conclusion: The combination of a magnetic
+      tracer (Resovist or Sienna+) and ICG fluorescence is feasible for sentinel node
+      biopsy and will potentially allow for precise transcutaneous node identification,
+      in addition to accurate intraoperative assessment. This radioisotope-free
+      “combined technique” warrants further assessment within a clinical trial.
+FAU - Kuwahata, Akihiro
+AU  - Kuwahata A
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+FAU - Ahmed, Muneer
+AU  - Ahmed M
+AD  - Division of Cancer Studies, King’s College London, Guy’s Hospital Campus, Great
+      Maze Pond, London, UK
+FAU - Saeki, Kohei
+AU  - Saeki K
+AD  - Graduate School of Agriculture and Life Sciences, The University of Tokyo, Hongo,
+      Bunkyo-ku, Tokyo, Japan
+FAU - Chikaki, Shinichi
+AU  - Chikaki S
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+FAU - Kaneko, Miki
+AU  - Kaneko M
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+FAU - Qiu, Wenqi
+AU  - Qiu W
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+FAU - Xin, Zonghao
+AU  - Xin Z
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+FAU - Yamaguchi, Shinji
+AU  - Yamaguchi S
+AD  - Graduate School of Agriculture and Life Sciences, The University of Tokyo, Hongo,
+      Bunkyo-ku, Tokyo, Japan
+FAU - Kaneko, Akiko
+AU  - Kaneko A
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+FAU - Douek, Michael
+AU  - Douek M
+AD  - Division of Cancer Studies, King’s College London, Guy’s Hospital Campus, Great
+      Maze Pond, London, UK
+FAU - Kusakabe, Moriaki
+AU  - Kusakabe M
+AD  - Graduate School of Agriculture and Life Sciences, The University of Tokyo, Hongo,
+      Bunkyo-ku, Tokyo, Japan
+FAU - Sekino, Masaki
+AU  - Sekino M
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan
+LA  - eng
+PT  - Journal Article
+DEP - 20180419
+TA  - Int J Nanomedicine
+JT  - International Journal of Nanomedicine
+AID - 10.2147/IJN.S153163 [doi]
+AID - ijn-13-2427 [pii]
+SO  - Int J Nanomedicine. 2018 Apr 19;13:2427-33. doi:10.2147/IJN.S153163.
+
+PMC - PMC5884067
+PMID- 28748623
+IS  - 1613-6810 (Print)
+IS  - 1613-6829 (Electronic)
+VI  - 13
+IP  - 37
+DP  - 2017 Oct
+TI  - Photoacoustic-Guided Surgery with Indocyanine Green-Coated Superparamagnetic Iron
+      Oxide Nanoparticle Clusters.
+LID - 10.1002/smll.201701300
+AB  - A common cause of local tumor recurrence in brain tumor surgery results from
+      incomplete surgical resection. Adjunctive technologies meant to facilitate gross 
+      total resection have had limited efficacy to date. Contrast agents used to
+      delineate tumors pre-operatively cannot be easily or accurately used in the
+      real-time operative setting. Although multimodal imaging contrast agents have
+      been developed to help the surgeon discern tumor from normal tissue in the
+      operating room, these contrast agents are not readily translatable. We have
+      developed a novel contrast agent comprised solely of two FDA-approved components,
+      indocyanine green (ICG) and superparamagnetic iron oxide (SPIO) nanoparticles -
+      with no additional amphiphiles or carrier-materials, to enable pre-operative
+      detection by MRI and intraoperative photoacoustic (PA) imaging. The encapsulation
+      efficiency of both ICG and SPIO within the formulated clusters is ~100% and the
+      total ICG payload is 20–30% of the total weight (ICG + SPIO). The ICG-SPIO
+      clusters are stable in physiologic conditions, can be taken up within tumors by
+      enhanced permeability and retention, and are detectable by MRI. In a pre-clinical
+      surgical resection model in mice following injection of ICG-SPIO clusters,
+      animals undergoing PA-guided surgery demonstrated increased progression-free
+      survival compared to animals undergoing microscopic surgery.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Thawani, Jayesh P.
+AU  - Thawani JP
+AD  - Department of Neurosurgery, Hospital of the University of Pennsylvania,
+      Philadelphia, Pennsylvania 19104
+FAU - Amirshaghaghi, Ahmad
+AU  - Amirshaghaghi A
+AD  - Department of Bioengineering, School of Engineering and Applied Sciences,
+      University of Pennsylvania, Philadelphia, Pennsylvania 19104
+FAU - Yan, Lesan
+AU  - Yan L
+AD  - Department of Bioengineering, School of Engineering and Applied Sciences,
+      University of Pennsylvania, Philadelphia, Pennsylvania 19104
+FAU - Stein, Joel M.
+AU  - Stein JM
+AD  - Department of Bioengineering, School of Engineering and Applied Sciences,
+      University of Pennsylvania, Philadelphia, Pennsylvania 19104
+FAU - Liu, Jessica
+AU  - Liu J
+AD  - Department of Bioengineering, School of Engineering and Applied Sciences,
+      University of Pennsylvania, Philadelphia, Pennsylvania 19104
+FAU - Tsourkas, Andrew
+AU  - Tsourkas A
+AD  - Department of Bioengineering, School of Engineering and Applied Sciences,
+      University of Pennsylvania, Philadelphia, Pennsylvania 19104
+LA  - eng
+PT  - Journal Article
+DEP - 20170727
+TA  - Small
+JT  - Small (Weinheim an der Bergstrasse, Germany)
+AID - 10.1002/smll.201701300 [doi]
+MID - NIHMS953587
+SO  - Small. 2017 Oct;13(37):. Epub 2017 Jul 27 doi:10.1002/smll.201701300.

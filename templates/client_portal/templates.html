@@ -1,0 +1,45 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+{% block title%}
+    <title>CiteMed - Templates</title>
+{% endblock %}
+{% block body %}
+    <div class="content__container" id="content">
+        <div class="sub-navbar-home">
+            <div class="sub-navbar-home-item-text">
+                Templates
+            </div>
+            <div :class="active_tab === 'clinical' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="ae_events-tab" v-on:click="changeselectedtab('clinical')">
+                Clinical Evaluation Templates
+            </div>
+            <div :class="active_tab === 'post_market' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="ae_recalls-tab" v-on:click="changeselectedtab('post_market')">
+                Post Market Surveillance Templates
+            </div>
+        </div>
+        <div class="template-text-section">
+            <div :class="active_tab === 'clinical' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="ae_events-section">
+                <div class="template-text">You currently do not have any available Clinical Evaluation Templates.  Contact Sales to purchase.</div>
+            </div>
+            <div :class="active_tab === 'post_market' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="ae_events-section">
+                <div class="template-text">You currently do not have any available Post Market Surveillance Templates.  Contact Sales to purchase.</div>
+            </div>
+        </div>
+        <div class="template-help-message details__footer">
+            <div class="template-help-message-text">Want access to all of our EU MDR Templates?</div>
+            <div class="template-help-message-text">Contact Us Today (email to: <a class="template-help-message-text-link" href="mailto: info@citemedical.com">info@citemedical.com</a>)</div>
+        </div>
+        </div>
+{% endblock %}
+
+{% block script %}
+    {% if env == 'PROD' %}
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+    {% else %}
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+    {% endif %}
+
+    <script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+    <script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+    <script src="{% static 'client_portal/vue/templates.js' %}" > </script>
+{% endblock %}

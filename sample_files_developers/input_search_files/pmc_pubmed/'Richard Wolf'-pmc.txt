@@ -1,0 +1,3723 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27Richard+Wolf%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8383811
+PMID- 34447929
+IS  - 2624-909X (Electronic)
+VI  - 4
+DP  - 2021
+TI  - On the Vernacular Language Games of an Antagonistic Online Subculture.
+LID - 718368
+AB  - In this paper we develop an empirical, big data approach to analyze how alt-right
+      vernacular concepts (such as kek and beta) were used on the notorious anonymous
+      and ephemeral imageboard 4chan/pol/and the fan wiki Encyclopedia Dramatica. While
+      4chan/pol/is broadly regarded as an influential source of many of the web’s most 
+      successful memes such as Pepe the Frog, Encyclopedia Dramatica functions as a
+      kind of satirical Wikipedia for this meme subculture, written in high concept and
+      highly offensive vernacular style. While the site’s affordances make them
+      distinct, they are connected by a subcultural style and politics that has
+      recently become increasingly connected with violent right-wing activism, forming 
+      a loose subcultural language community. Contrary to “memetic” theories of
+      cultural evolution in media studies, our analysis draws on theoretical frameworks
+      from poststructuralist and pragmatist philosophies of language and deploys
+      empirical techniques from corpus linguistics to consider the role of online
+      platforms in shaping these vernacular modes of expression. This approach helps us
+      to identify instances of vernacular innovation within these corpora from
+      2012-2020—a period during which the white supremacist “alt-right” movement arose 
+      online. Through these analyses we contribute both to ongoing interdisciplinary
+      attempts to bridge the gap between cultural-theoretical and
+      computational-linguistic approaches to studying online subcultures, and to the
+      empirical study of the vernacular roots of the “toxic memes” that appear to be an
+      increasingly common feature on social media.
+FAU - Peeters, Stijn
+AU  - Peeters S
+AD  - Department of Media Studies, University of Amsterdam, Amsterdam, Netherlands
+FAU - Tuters, Marc
+AU  - Tuters M
+AD  - Department of Media Studies, University of Amsterdam, Amsterdam, Netherlands
+FAU - Willaert, Tom
+AU  - Willaert T
+AD  - Artificial Intelligence Laboratory, Vrije Universiteit Brussel, Brussels, Belgium
+FAU - de Zeeuw, Daniël
+AU  - de Zeeuw D
+AD  - Department of Media Studies, University of Amsterdam, Amsterdam, Netherlands
+LA  - eng
+PT  - Journal Article
+DEP - 20210810
+GR  - 732942
+PHST- 2021/05/31 [received]
+PHST- 2021/07/27 [accepted]
+TA  - Front Big Data
+JT  - Frontiers in Big Data
+AID - 718368 [pii]
+AID - 10.3389/fdata.2021.718368 [doi]
+SO  - Front Big Data. 2021 Aug 10;4:. doi:10.3389/fdata.2021.718368.
+
+PMC - PMC8373377
+PMID- 34369378
+IS  - 2050-084X (Electronic)
+VI  - 10
+DP  - 2021
+TI  - Neural mechanisms of modulations of empathy and altruism by beliefs of others’
+      pain.
+LID - e66043
+AB  - Perceived cues signaling others’ pain induce empathy which in turn motivates
+      altruistic behavior toward those who appear suffering. This
+      perception-emotion-behavior reactivity is the core of human altruism but does not
+      always occur in real-life situations. Here, by integrating behavioral and
+      multimodal neuroimaging measures, we investigate neural mechanisms underlying
+      modulations of empathy and altruistic behavior by beliefs of others’ pain (BOP). 
+      We show evidence that lack of BOP reduces subjective estimation of others’
+      painful feelings and decreases monetary donations to those who show pain
+      expressions. Moreover, lack of BOP attenuates neural responses to their pain
+      expressions within 200 ms after face onset and modulates neural responses to
+      others’ pain in the insular, post-central, and frontal cortices. Our findings
+      suggest that BOP provide a cognitive basis of human empathy and altruism and
+      unravel the intermediate neural mechanisms.
+FAU - Wu, Taoyu
+AU  - Wu T
+AD  - School of Psychological and Cognitive Sciences, PKU-IDG/MGovern Institute for
+      Brain Research, Beijing Key Laboratory of Behavior and Mental Health, Peking
+      UniversityBeijingChina
+FAU - Han, Shihui
+AU  - Han S
+AUID- ORCID: https://orcid.org/0000-0003-3350-5104
+AD  - School of Psychological and Cognitive Sciences, PKU-IDG/MGovern Institute for
+      Brain Research, Beijing Key Laboratory of Behavior and Mental Health, Peking
+      UniversityBeijingChina
+LA  - eng
+PT  - Journal Article
+GR  - 2019YFA0707103
+PHST- 2020/12/23 [received]
+PHST- 2021/08/08 [accepted]
+TA  - eLife
+JT  - eLife
+AID - 66043 [pii]
+AID - 10.7554/eLife.66043 [doi]
+SO  - eLife. 2021;10:. doi:10.7554/eLife.66043.
+
+PMC - PMC8338786
+PMID- 33661076
+IS  - 1744-1692 (Print)
+IS  - 1744-1706 (Electronic)
+VI  - 16
+IP  - 8-9
+DP  - 2021 Aug-Sep
+TI  - Open science, COVID-19, and the news: Exploring controversies in the circulation 
+      of early SARS-CoV-2 genomic epidemiology research.
+PG  - 1468-81
+AB  - Some early English language news coverage of COVID-19 epidemiology focused on
+      studies that examined how SARS-CoV-2 (the coronavirus that causes COVID-19) was
+      evolving at the genetic level. The use of phylogenetic methods to analyse
+      pathogen genetic sequence data to understand disease dynamics is called
+      ‘molecular’ or ‘genomic’ epidemiology. Many research groups in this subfield
+      utilise open science practices, which can involve the circulation of early
+      unreviewed findings on publicly-accessible venues online. From March to May 2020,
+      media outlets covered early SARS-CoV-2 genomic studies that claimed to have
+      discovered types of SARS-CoV-2 that had mutated to be more transmissible. We use 
+      methods from Science and Technology Studies (STS) to examine three cumulative
+      cases in which unripe facts about SARS-CoV-2 genomics moved out of scientific
+      publics and into mainstream news. The three cases are: (1) ‘A More “Aggressive”
+      Strain of SARS-CoV-2?’, (2) ‘Eight SARS-CoV-2 Strains?’, and (3) ‘A “More
+      Contagious,” “Mutant” Strain?’ In each case, findings were called into question
+      and reporters’ framing was overly sensational. We interpret the COVID-19 pandemic
+      as a ‘stress-test’ for open science practices, and argue that it is important for
+      stakeholders to understand changes in scientific publication and dissemination
+      processes in the wake of the pandemic.
+FAU - Molldrem, Stephen
+AU  - Molldrem S
+AUID- ORCID: 0000-0002-1907-8081
+AD  - Department of Anthropology, University of California, Irvine, CA, USA
+FAU - Hussain, Mustafa I.
+AU  - Hussain MI
+AUID- ORCID: 0000-0003-0103-9516
+AD  - Department of Informatics, University of California, Irvine, CA, USA
+FAU - Smith, Anthony K J
+AU  - Smith AKJ
+AUID- ORCID: 0000-0002-0005-9542
+AD  - Centre for Social Research in Health, UNSW Sydney, Sydney, Australia
+LA  - eng
+PT  - Journal Article
+DEP - 20210304
+TA  - Glob Public Health
+JT  - Global public health
+AID - 10.1080/17441692.2021.1896766 [doi]
+MID - NIHMS1687840
+SO  - Glob Public Health. 2021 Aug-Sep;16(8-9):1468-81. Epub 2021 Mar 04
+      doi:10.1080/17441692.2021.1896766.
+
+PMC - PMC8163074
+PMID- 34049884
+IS  - 2375-2548 (Electronic)
+VI  - 7
+IP  - 22
+DP  - 2021 May
+TI  - Who do you trust? Wild birds use social knowledge to avoid being deceived.
+LID - eaba2862
+AB  - Wild birds use social knowledge to avoid being deceived.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Cunha, Filipe C. R.
+AU  - Cunha FCR
+AUID- ORCID: 0000-0001-7927-4992
+AD  - Department of Anthropology, University of Zurich, Zurich, Switzerland.
+FAU - Griesser, Michael
+AU  - Griesser M
+AUID- ORCID: 0000-0002-2220-2637
+AD  - Department of Anthropology, University of Zurich, Zurich, Switzerland.
+LA  - eng
+PT  - Journal Article
+DEP - 20210528
+GR  - 665778
+PHST- 2019/11/20 [received]
+PHST- 2021/04/02 [accepted]
+TA  - Sci Adv
+JT  - Science Advances
+AID - aba2862 [pii]
+AID - 10.1126/sciadv.aba2862 [doi]
+SO  - Sci Adv. 2021 May 28;7(22):. doi:10.1126/sciadv.aba2862.
+
+PMC - PMC8144496
+PMID- 34045999
+IS  - 1664-1078 (Electronic)
+VI  - 12
+DP  - 2021
+TI  - New Images for Old Symbols: Meanings That Children Give to a Traditional Game.
+LID - 676590
+AB  - Traditional games are considered agents of enculturation. This article explores
+      the procedure to access the cultural meanings transmitted in a traditional game. 
+      The goal is to understand what children aged 6–11 make of the game called ‘the
+      chained bear’ and to compare the meanings retrieved with those of different
+      traditional versions of the game. For such a purpose, through an exploratory
+      cross-sectional study, cartoons depicting people playing the game were exhibited 
+      and viewers (n = 359; age range: 6–11; Mean age = 8.79; SD = 1.81) were asked to 
+      interpret them as a drama play, as well as contributing a title, a plot and
+      saying how they would name the characters. The results show that, beyond the
+      individual images that each child created in their mind, most of them coincided
+      in stories about harassment and defense and theft and protection. These plots
+      match those of the ludic tradition, showing that the actions evoke different
+      pictures to each individual, but share common cultural meanings in turn. The
+      study shows a procedure to access the meanings that traditional games transmit
+      and confirms that games contain pieces of culture, which makes them agents of
+      enculturation.
+FAU - García-Monge, Alfonso
+AU  - García-Monge A
+AD  - Transdisciplinary Education Research Center (CETIE), University of Valladolid,
+      Valladolid, Spain
+FAU - Rodríguez-Navarro, Henar
+AU  - Rodríguez-Navarro H
+AD  - Transdisciplinary Education Research Center (CETIE), Department of Pedagogy,
+      University of Valladolid, Valladolid, Spain
+FAU - Bores-García, Daniel
+AU  - Bores-García D
+AD  - Research Group of Humanities and Qualitative Research in Health Science
+      (Hum&QRinHS), Rey Juan Carlos University, Madrid, Spain
+LA  - eng
+PT  - Journal Article
+DEP - 20210511
+PHST- 2021/03/05 [received]
+PHST- 2021/04/14 [accepted]
+TA  - Front Psychol
+JT  - Frontiers in Psychology
+AID - 10.3389/fpsyg.2021.676590 [doi]
+SO  - Front Psychol. 2021 May 11;12:. doi:10.3389/fpsyg.2021.676590.
+
+PMC - PMC8059158
+PMID- 33882837
+IS  - 2730-7182 (Electronic)
+VI  - 21
+DP  - 2021
+TI  - Functional ecological convergence between the thylacine and small prey-focused
+      canids.
+LID - 58
+AB  - Background: Morphological convergence is a fundamental aspect of evolution,
+      allowing for inference of the biology and ecology of extinct species by
+      comparison with the form and function of living species as analogues. The
+      thylacine (Thylacinus cynocephalus), the iconic recently extinct marsupial, is
+      considered a classic example of convergent evolution with the distantly related
+      placental wolf or dog, though almost nothing is actually known regarding its
+      ecology. This lack of data leads to questions regarding the degree of convergence
+      with, and the similarity of, the functional ecology of the thylacine and the
+      wolf/dog. Here, we examined the cranium of the thylacine using 3D geometric
+      morphometrics and two quantitative tests of convergence to more precisely
+      determine convergent analogues, within a phylogenetically informed dataset of 56 
+      comparative species across 12 families of marsupial and placental faunivorous
+      mammals. Using this dataset, we investigated patterns of correlation between
+      cranial shape and diet, phylogeny, and relative prey size across these
+      terrestrial faunivores. Results: We find a correlation between cranial, facial,
+      and neurocranial shape and the ratio of prey-to-predator body mass, though
+      neurocranial shape may not correlate with prey size within marsupials. The
+      thylacine was found to group with predators that routinely take prey smaller than
+      45% of their own body mass, not with predators that take subequal-sized or larger
+      prey. Both convergence tests find significant levels of convergence between the
+      thylacine and the African jackals and South American ‘foxes’, with lesser support
+      for the coyote and red fox. We find little support for convergence between the
+      thylacine and the wolf or dog. Conclusions: Our study finds little support for a 
+      wolf/dog-like functional ecology in the thylacine, with it instead being most
+      similar to mid-sized canids such as African jackals and South American ‘foxes’
+      that mainly take prey less than half their size. This work suggests that concepts
+      of convergence should extend beyond superficial similarity, and broader
+      comparisons can lead to false interpretations of functional ecology. The
+      thylacine was a predator of small to mid-sized prey, not a big-game specialist
+      like the placental wolf. Supplementary Information: The online version contains
+      supplementary material available at 10.1186/s12862-021-01788-8.
+FAU - Rovinsky, Douglass S.
+AU  - Rovinsky DS
+AUID- ORCID: 0000-0003-4356-9523
+AD  - grid.1002.30000 0004 1936 7857Department of Anatomy and Developmental Biology,
+      Biomedicine Discovery Institute, Monash University, Clayton, VIC Australia
+FAU - Evans, Alistair R.
+AU  - Evans AR
+AUID- ORCID: 0000-0002-4078-4693
+AD  - grid.1002.30000 0004 1936 7857School of Biological Sciences, Monash University,
+      Clayton, VIC Australia
+FAU - Adams, Justin W.
+AU  - Adams JW
+AUID- ORCID: 0000-0002-6214-9850
+AD  - grid.1002.30000 0004 1936 7857Department of Anatomy and Developmental Biology,
+      Biomedicine Discovery Institute, Monash University, Clayton, VIC Australia
+LA  - eng
+PT  - Journal Article
+DEP - 20210421
+PHST- 2020/08/31 [received]
+PHST- 2021/04/08 [accepted]
+TA  - BMC Ecol Evol
+JT  - BMC Ecology and Evolution
+AID - 1788 [pii]
+AID - 10.1186/s12862-021-01788-8 [doi]
+SO  - BMC Ecol Evol. 2021 Apr 21;21:. doi:10.1186/s12862-021-01788-8.
+
+PMC - PMC8047581
+PMID- 33875910
+IS  - 1011-6370 (Print)
+IS  - 1461-7072 (Electronic)
+TI  - A Volatile Context: A Revisionist Lens on Good Governance.
+PG  - 1-7
+AB  - Pressures on the legitimacy of global governance are coming from many sides,
+      including from people who feel betrayed by unfulfilled promises and others who
+      wonder if governance structures can ever become truly accountable and responsive 
+      to often deep and evolving human insecurity. This article calls for the
+      integration of norms of governance that can better balance hierarchy and protocol
+      with constituent care and service.
+FAU - Zuber, Robert
+AU  - Zuber R
+AD  - Global Action To Prevent War and Armed Conflict, New York, NY USA
+LA  - eng
+PT  - Journal Article
+DEP - 20210415
+TA  - Development (Rome)
+JT  - Development (Society for International Development)
+AID - 288 [pii]
+AID - 10.1057/s41301-021-00288-y [doi]
+SO  - Development (Rome). ;:1-7. doi:10.1057/s41301-021-00288-y.
+
+PMC - PMC7972941
+IS  - 1084-4791 (Print)
+IS  - 1936-4830 (Electronic)
+TI  - Recent publications on organized crime: the year 2020.
+PG  - 1-30
+FAU - von Lampe, Klaus
+AU  - von Lampe K
+AD  - grid.461940.eDepartment of Police and Security Management, Berlin School of
+      Economics and Law, Alt-Friedrichsfelde 60, 10315 Berlin, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20210319
+TA  - Trends Organ Crime
+JT  - Trends in Organized Crime
+AID - 9412 [pii]
+AID - 10.1007/s12117-021-09412-3 [doi]
+SO  - Trends Organ Crime. ;:1-30. doi:10.1007/s12117-021-09412-3.
+
+PMC - PMC7971053
+PMID- 33731769
+IS  - 2045-2322 (Electronic)
+VI  - 11
+DP  - 2021
+TI  - Detecting the effects of predator-induced stress on the global metabolism of an
+      ungulate prey using fecal metabolomic fingerprinting.
+LID - 6129
+AB  - Few field tests have assessed the effects of predator-induced stress on prey
+      fitness, particularly in large carnivore-ungulate systems. Because traditional
+      measures of stress present limitations when applied to free-ranging animals, new 
+      strategies and systemic methodologies are needed. Recent studies have shown that 
+      stress and anxiety related behaviors can influence the metabolic activity of the 
+      gut microbiome in mammal hosts, and these metabolic alterations may aid in
+      identification of stress. In this study, we used NMR-based fecal metabolomic
+      fingerprinting to compare the fecal metabolome, a functional readout of the gut
+      microbiome, of cattle herds grazing in low vs. high wolf-impacted areas within
+      three wolf pack territories. Additionally, we evaluated if other factors (e.g.,
+      cattle nutritional state, climate, landscape) besides wolf presence were related 
+      to the variation in cattle metabolism. By collecting longitudinal fecal samples
+      from GPS-collared cattle, we found relevant metabolic differences between cattle 
+      herds in areas where the probability of wolf pack interaction was higher.
+      Moreover, cattle distance to GPS-collared wolves was the factor most correlated
+      with this difference in cattle metabolism, potentially reflecting the variation
+      in wolf predation risk. We further validated our results through a regression
+      model that reconstructed cattle distances to GPS-collared wolves based on the
+      metabolic difference between cattle herds. Although further research is needed to
+      explore if similar patterns also hold at a finer scale, our results suggests that
+      fecal metabolomic fingerprinting is a promising tool for assessing the
+      physiological responses of prey to predation risk. This novel approach will help 
+      improve our knowledge of the consequences of predators beyond the direct effect
+      of predation.
+FAU - Valerio, Azzurra
+AU  - Valerio A
+AD  - grid.30064.310000 0001 2157 6568School of the Environment, Washington State
+      University, Pullman, WA USA
+FAU - Borrego, C. Steven
+AU  - Borrego CS
+AD  - grid.30064.310000 0001 2157 6568School of the Environment, Washington State
+      University, Pullman, WA USA
+FAU - Boitani, Luigi
+AU  - Boitani L
+AD  - grid.7841.aDepartment of Biology and Biotechnologies, Sapienza University of
+      Rome, Rome, Italy
+FAU - Casadei, Luca
+AU  - Casadei L
+AD  - grid.30064.310000 0001 2157 6568School of the Environment, Washington State
+      University, Pullman, WA USA
+FAU - Giuliani, Alessandro
+AU  - Giuliani A
+AD  - grid.416651.10000 0000 9120 6856Department of Environment and Health, National
+      Institute of Health, Rome, Italy
+FAU - Wielgus, Robert B.
+AU  - Wielgus RB
+AD  - grid.30064.310000 0001 2157 6568School of the Environment, Washington State
+      University, Pullman, WA USA
+FAU - Simek, Stephanie L.
+AU  - Simek SL
+AD  - grid.448582.70000 0001 0163 4193Washington Department of Fish and Wildlife,
+      Olympia, WA USA
+FAU - Valerio, Mariacristina
+AU  - Valerio M
+AD  - grid.30064.310000 0001 2157 6568School of the Environment, Washington State
+      University, Pullman, WA USA
+LA  - eng
+PT  - Journal Article
+DEP - 20210317
+GR  - 359300-141160
+GR  - 13-2042, 14-01952
+PHST- 2020/11/18 [received]
+PHST- 2021/03/01 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 85600 [pii]
+AID - 10.1038/s41598-021-85600-z [doi]
+SO  - Sci Rep. 2021 Mar 17;11:. doi:10.1038/s41598-021-85600-z.
+
+PMC - PMC8075080
+PMID- 33968320
+IS  - 2000-8198 (Print)
+IS  - 2000-8066 (Electronic)
+VI  - 12
+IP  - 1
+TI  - Demanding and effective: participants’ experiences of internet-delivered
+      prolonged exposure provided within two months after exposure to trauma.
+LID - 1885193
+AB  - Background: The use of remotely delivered early intervention after trauma may
+      prevent and/or reduce symptoms of post-traumatic stress. Our research group
+      evaluated a novel three-week therapist-guided internet-delivered intervention
+      based on prolonged exposure (Condensed Internet-Delivered Prolonged Exposure;
+      CIPE) in a pilot trial. The results indicated that the intervention was feasible,
+      acceptable and reduced symptoms of post-traumatic stress at post-intervention
+      compared to a waiting-list condition. Exposure to traumatic memories can be
+      emotionally demanding and there is a need for detailed investigation of
+      participants’ experiences in receiving this type of intervention
+      remotely.Objective: Investigate participants’ experiences of receiving CIPE early
+      after trauma.Method: In this study, qualitative thematic analysis was used and
+      semi-structured interviews with 11 participants six months after intervention
+      completion were conducted. All interviews were audio-recorded and transcribed
+      verbatim.Results: One overarching theme labelled as ‘demanding and effective’ was
+      identified. Participants expressed that treatment effects could only be achieved 
+      by putting in a lot of effort and by being emotionally close to the trauma memory
+      during exposure exercises. Participants reported CIPE to be a highly credible-
+      and educative intervention that motivated them to fully engage in exposure
+      exercises. The most distressing parts of the intervention was perceived as
+      tolerable and important to do to heal psychologically after trauma. For many
+      participants, the possibility to engage in the intervention whenever and where it
+      suited them was helpful, although some participants described it as challenging
+      to find a balance between their own responsibility and when to expect therapist
+      support. The internet-based format was perceived as a safe forum for
+      self-disclosure that helped some participants overcome avoidance due to shame
+      during imaginal exposure.Conclusion: CIPE was considered demanding, yet effective
+      by the interviewed participants. The most distressing parts of the intervention
+      was perceived to be the most important and were tolerable and feasible to provide
+      online.
+OAB - Publisher: Abstract available from the publisher.
+OAB - Publisher: Abstract available from the publisher.
+OABL- spa
+OAB - Publisher: Abstract available from the publisher.
+OABL- chi
+FAU - Bragesjö, Maria
+AU  - Bragesjö M
+AUID- ORCID: https://orcid.org/0000-0003-2246-3842
+AD  - Department of Clinical Neuroscience, Division of Psychology, Karolinska
+      Institutet, Stockholm, Sweden
+FAU - Arnberg, Filip K.
+AU  - Arnberg FK
+AUID- ORCID: https://orcid.org/0000-0002-1317-2093
+AD  - National Centre for Disaster Psychiatry, Department of Neuroscience, Uppsala
+      University, Uppsala, Sweden
+FAU - Jelbring, Anna
+AU  - Jelbring A
+AD  - Department of Psychology, Stockholm University, Stockholm, Sweden
+FAU - Nolkrantz, Johannes
+AU  - Nolkrantz J
+AD  - Department of Psychology, Stockholm University, Stockholm, Sweden
+FAU - Särnholm, Josefin
+AU  - Särnholm J
+AUID- ORCID: https://orcid.org/0000-0002-9872-4781
+AD  - Department of Clinical Neuroscience, Division of Psychology, Karolinska
+      Institutet, Stockholm, Sweden
+FAU - Olofsdotter Lauri, Klara
+AU  - Olofsdotter Lauri K
+AD  - Department of Clinical Neuroscience, Division of Psychology, Karolinska
+      Institutet, Stockholm, Sweden
+FAU - von Below, Camilla
+AU  - von Below C
+AD  - Department of Psychology, Stockholm University, Stockholm, Sweden
+FAU - Andersson, Erik
+AU  - Andersson E
+AUID- ORCID: https://orcid.org/0000-0003-0088-8719
+AD  - Department of Clinical Neuroscience, Division of Psychology, Karolinska
+      Institutet, Stockholm, Sweden
+LA  - eng
+PT  - Journal Article
+TA  - Eur J Psychotraumatol
+JT  - European Journal of Psychotraumatology
+AID - 10.1080/20008198.2021.1885193 [doi]
+AID - 1885193 [pii]
+SO  - Eur J Psychotraumatol. ;12(1):. doi:10.1080/20008198.2021.1885193.
+
+PMC - PMC7933181
+PMID- 33664287
+IS  - 2045-2322 (Electronic)
+VI  - 11
+DP  - 2021
+TI  - A refined proposal for the origin of dogs: the case study of Gnirshöhle, a
+      Magdalenian cave site.
+LID - 5137
+AB  - Dogs are known to be the oldest animals domesticated by humans. Although many
+      studies have examined wolf domestication, the geographic and temporal origin of
+      this process is still being debated. To address this issue, our study sheds new
+      light on the early stages of wolf domestication during the Magdalenian period
+      (16–14 ka cal BP) in the Hegau Jura region (Southwestern Germany and
+      Switzerland). By combining morphology, genetics, and isotopes, our
+      multidisciplinary approach helps to evaluate alternate processes driving the
+      early phases of domestication. The isotope analysis uncovered a restricted, low
+      δ15N protein diet for all analyzed Gnirshöhle specimens, while morphological
+      examinations and phylogenetic relationships did not unequivocally assign them to 
+      one or the other canid lineage. Intriguingly, the newly generated mitochondrial
+      canid genomes span the entire genetic diversity of modern dogs and wolves. Such
+      high mitochondrial diversity could imply that Magdalenian people tamed and reared
+      animals originating from different wolf lineages. We discuss our results in light
+      of three ecological hypotheses and conclude that both domestication and the
+      existence of a specialized wolf ecomorph are highly probable. However, due to
+      their proximity to humans and a restricted diet, we propose domestication as the 
+      most likely scenario explaining the patterns observed herein.
+FAU - Baumann, Chris
+AU  - Baumann C
+AD  - grid.10392.390000 0001 2190 1447Biogeology, Department of Geosciences, University
+      of Tübingen, Hölderlinstraße 12, 72074 Tübingen, Germany
+FAU - Pfrengle, Saskia
+AU  - Pfrengle S
+AD  - grid.10392.390000 0001 2190 1447Institute for Archaeological Sciences, University
+      of Tübingen, Rümelinstraße 23, 72070 Tübingen, Germany
+FAU - Münzel, Susanne C.
+AU  - Münzel SC
+AD  - grid.10392.390000 0001 2190 1447Institute for Archaeological Sciences, University
+      of Tübingen, Rümelinstraße 23, 72070 Tübingen, Germany
+FAU - Molak, Martyna
+AU  - Molak M
+AD  - grid.12847.380000 0004 1937 1290Centre of New Technologies, University of Warsaw,
+      S. Banacha 2c, 02-097 Warsaw, Poland
+FAU - Feuerborn, Tatiana R.
+AU  - Feuerborn TR
+AD  - grid.10392.390000 0001 2190 1447Institute for Archaeological Sciences, University
+      of Tübingen, Rümelinstraße 23, 72070 Tübingen, Germany
+FAU - Breidenstein, Abagail
+AU  - Breidenstein A
+AD  - grid.7400.30000 0004 1937 0650Institute of Evolutionary Medicine, University of
+      Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland
+FAU - Reiter, Ella
+AU  - Reiter E
+AD  - grid.10392.390000 0001 2190 1447Institute for Archaeological Sciences, University
+      of Tübingen, Rümelinstraße 23, 72070 Tübingen, Germany
+FAU - Albrecht, Gerd
+AU  - Albrecht G
+AD  - Department of Archaeology, Markgräflerland-Museum Society, Wilhelmstraße 7, 79379
+      Müllheim, Germany
+FAU - Kind, Claus-Joachim
+AU  - Kind CJ
+AD  - State Office for Cultural Heritage Baden-Württemberg, Berliner Str. 12, 73728
+      Esslingen, Germany
+FAU - Verjux, Christian
+AU  - Verjux C
+AD  - Service Régional de l’Archéologie (UMR 7041 ArScAn-Équipe Ethnologie
+      Préhistorique), DRAC Centre, Val de Loire, 6 Rue de la Manufacture, 45000
+      Orléans, France
+FAU - Leduc, Charlotte
+AU  - Leduc C
+AD  - grid.466734.40000 0001 2159 0925INRAP, 12 Rue de Méric, 57000 Metz, France
+FAU - Conard, Nicholas J.
+AU  - Conard NJ
+AD  - grid.10392.390000 0001 2190 1447Institute for Archaeological Sciences, University
+      of Tübingen, Rümelinstraße 23, 72070 Tübingen, Germany
+FAU - Drucker, Dorothée G.
+AU  - Drucker DG
+AD  - grid.10392.390000 0001 2190 1447Senckenberg Centre for Human Evolution and
+      Palaeoenvironment, University of Tübingen, Sigwartstraße 10, 72076 Tübingen,
+      Germany
+FAU - Giemsch, Liane
+AU  - Giemsch L
+AD  - Archäologisches Museum Frankfurt, Karmelitergasse 1, 60311 Frankfurt am Main,
+      Germany
+FAU - Thalmann, Olaf
+AU  - Thalmann O
+AD  - grid.22254.330000 0001 2205 0971Department of Pediatric Gastroenterology and
+      Metabolic Diseases, Poznan University of Medical Sciences, Szpitalna 27/33,
+      60-572 Poznan, Poland
+FAU - Bocherens, Hervé
+AU  - Bocherens H
+AD  - grid.10392.390000 0001 2190 1447Biogeology, Department of Geosciences, University
+      of Tübingen, Hölderlinstraße 12, 72074 Tübingen, Germany
+FAU - Schuenemann, Verena J.
+AU  - Schuenemann VJ
+AD  - grid.10392.390000 0001 2190 1447Institute for Archaeological Sciences, University
+      of Tübingen, Rümelinstraße 23, 72070 Tübingen, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20210304
+GR  - 2018/31/B/HS3/01464
+PHST- 2020/09/21 [received]
+PHST- 2021/02/08 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 83719 [pii]
+AID - 10.1038/s41598-021-83719-7 [doi]
+SO  - Sci Rep. 2021 Mar 4;11:. doi:10.1038/s41598-021-83719-7.
+
+PMC - PMC7930893
+PMID- 33686316
+IS  - 0167-4544 (Print)
+IS  - 1573-0697 (Electronic)
+TI  - Contracts Capsized by COVID-19: A Legal and Jewish Ethical Analysis.
+PG  - 1-11
+AB  - Countless contracts have been undermined by the COVID-19 pandemic of 2020 as well
+      as government orders to contain it. Flights have been canceled, concerts have
+      been called off, and dorms have been closed, just to name a few. Do these all
+      count as breaches of contract—or are the parties excused due to the extraordinary
+      circumstances? And how should the losses be allocated between the parties? The
+      law provides one set of answers to these questions; ethics offers another. With a
+      focus on American law (developed over the past two centuries) and Jewish ethics
+      (developed over millennia), this paper shows that the two systems are in accord
+      with some respects and differ in others: Both law and Jewish ethics would excuse 
+      a party who cannot complete his contract due to a force beyond his control, like 
+      the COVID-19 pandemic. Yet Jewish ethics would require that the excused party
+      still be paid, while American law would not.
+FAU - Rashi, Tsuriel
+AU  - Rashi T
+AD  - grid.411434.70000 0000 9824 6981Ariel University, Ariel, Israel
+FAU - Schwartz, Andrew A.
+AU  - Schwartz AA
+AUID- ORCID: 0000-0002-9135-2954
+AD  - grid.266190.a0000000096214564University of Colorado, Boulder, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20210304
+PHST- 2020/08/07 [received]
+PHST- 2021/02/09 [accepted]
+TA  - J Bus Ethics
+JT  - Journal of Business Ethics
+AID - 4773 [pii]
+AID - 10.1007/s10551-021-04773-9 [doi]
+SO  - J Bus Ethics. ;:1-11. doi:10.1007/s10551-021-04773-9.
+
+PMC - PMC7882464
+PMID- 33614027
+IS  - 2049-7113 (Print)
+IS  - 2049-7121 (Electronic)
+TI  - Symbolic action and constraint: the cultural logic of the 2017 UK General
+      Election.
+PG  - 1-43
+AB  - This paper examines the influence of both the agential and structural aspects of 
+      culture on the 2017 UK General Election. The empirical section of the paper is
+      organised around three aspects of the Labour campaign narrative: its promise to
+      provide a national ‘alternative’, its mobilisation of Corbyn as simultaneously an
+      individual and an icon, and its use of rallies and social media as alternative
+      stages from which to project its meanings. It identifies the material
+      conditioning, coding and counter-coding, narrativisation and
+      counter-narrativisation of key events, issues, and figures, demonstrating how the
+      substantive contestation of the campaign occurred within a consensual formal
+      grammar that constrained symbolic action and often produced consequences
+      unintended by cultural workers themselves. It, therefore, demonstrates how
+      culture retained a relative autonomy in influencing meaning outcomes in part due 
+      to its formal semiotic logic. It introduces the notion of ‘code-rerouting’ to
+      cultural sociology’s stock of conceptual tools and highlights how failure to
+      conform to the structuring norms of civil rituals, such as presenting oneself to 
+      public scrutiny during a campaign, or failure to project coherence between
+      surface and depth, individual and icon, past and present, or between private and 
+      public can prove fatal to performative felicity.
+FAU - Morgan, Marcus
+AU  - Morgan M
+AD  - grid.5337.20000 0004 1936 7603School of Sociology, Politics and International
+      Studies (SPAIS), University of Bristol, 11 Priory Road, Clifton, Bristol, BS8 1TU
+      UK
+LA  - eng
+PT  - Journal Article
+DEP - 20210215
+PHST- 2021/01/08 [accepted]
+TA  - Am J Cult Sociol
+JT  - American Journal of Cultural Sociology
+AID - 129 [pii]
+AID - 10.1057/s41290-021-00129-y [doi]
+SO  - Am J Cult Sociol. ;:1-43. doi:10.1057/s41290-021-00129-y.
+
+PMC - PMC8158211
+PMID- 34104547
+IS  - 2164-2850 (Electronic)
+VI  - 9
+IP  - 1
+TI  - Reflexivity and humility evoke a transformable methodology in a post disaster
+      context.
+PG  - 1-24
+AB  - Objective: The process of reflexivity is used to critically examine the
+      experience of conducting qualitative research with functionally diverse older
+      adults in a post disaster context. Methods: The design of the study began with an
+      interpretative phenomenological framework, using in-depth interviews. Fifteen
+      individuals with functional and access needs living in Puerto Rico were
+      interviewed regarding their experiences after Hurricane María of 2017. Findings: 
+      In the field, it was necessary to expand the initial design, and adjust to
+      participants’ preferences and needs, as well as situational characteristics,
+      without compromising ethical standards of practice. The methodology transformed
+      because of the need for flexibility requiring humility from the researchers. A
+      more relational form of inquiry was warranted, which acknowledged the
+      intersubjectivity of human experience. This entailed adapting to community
+      involvement, building rapport with community leaders functioning as gatekeepers, 
+      and integrating family or friends in interviews. Discussion: The reflexive
+      approach allowed for a better understanding of the researcher’s positionalities
+      and how they influence the ability or inability to develop trust (e.g. insider/
+      outsider status, Puerto Rican/ US, with functional and access needs/ without
+      functional and access needs). Conclusions: Given the shift toward relational
+      inquiry and due to the challenges faced while carrying out the study, we suggest 
+      that post-disaster qualitative research would benefit from further including
+      principles of indigenous decolonizing methodologies, which can be incorporated
+      into studies using interpretative phenomenological analysis.
+FAU - Guzzardo, Mariana T.
+AU  - Guzzardo MT
+AUID- ORCID: https://orcid.org/0000-0002-3716-7336
+AD  - Department of Human Development and Women's Studies, California State University,
+      East Bay, Hayward, CA, USA
+FAU - Todorova, Irina L. G.
+AU  - Todorova ILG
+AD  - Applied Psychology, Northeastern University, Boston, MA, USA
+FAU - Engelman, Alina
+AU  - Engelman A
+AD  - Health Sciences, California State University, East Bay, Hayward, CA, USA
+FAU - Polidoro Lima, Manuela
+AU  - Polidoro Lima M
+AD  - Psychology, Pontifícia Universidade Católica do Rio Grande do Sul, Porto Alegre, 
+      Brazil
+FAU - Dean-Olmsted, Evelyn
+AU  - Dean-Olmsted E
+AD  - Anthropology, University of Puerto Rico, Río Piedras, Puerto Rico
+FAU - Guzzardo Tamargo, Rosa E.
+AU  - Guzzardo Tamargo RE
+AUID- ORCID: https://orcid.org/0000-0002-3074-8680
+AD  - Linguistics and Hispanic Studies, University of Puerto Rico, Río Piedras, Puerto 
+      Rico
+LA  - eng
+PT  - Journal Article
+TA  - Health Psychol Behav Med
+JT  - Health Psychology and Behavioral Medicine
+AID - 1862661 [pii]
+AID - 10.1080/21642850.2020.1862661 [doi]
+SO  - Health Psychol Behav Med. ;9(1):1-24. doi:10.1080/21642850.2020.1862661.
+
+PMC - PMC7809626
+PMID- 33125870
+IS  - 0960-9822 (Print)
+IS  - 1879-0445 (Electronic)
+VI  - 31
+IP  - 1
+DP  - 2021 Jan 11
+TI  - Genomes of Pleistocene Siberian Wolves Uncover Multiple Extinct Wolf Lineages.
+PG  - 198-206.e8
+AB  - Extant Canis lupus genetic diversity can be grouped into three phylogenetically
+      distinct clades: Eurasian and American wolves and domestic dogs.1 Genetic studies
+      have suggested these groups trace their origins to a wolf population that
+      expanded during the last glacial maximum (LGM)1, 2, 3 and replaced local wolf
+      populations.4 Moreover, ancient genomes from the Yana basin and the Taimyr
+      peninsula provided evidence of at least one extinct wolf lineage that dwelled in 
+      Siberia during the Pleistocene.35 Previous studies have suggested that
+      Pleistocene Siberian canids can be classified into two groups based on cranial
+      morphology. Wolves in the first group are most similar to present-day
+      populations, although those in the second group possess intermediate features
+      between dogs and wolves.67 However, whether this morphological classification
+      represents distinct genetic groups remains unknown. To investigate this question 
+      and the relationships between Pleistocene canids, present-day wolves, and dogs,
+      we resequenced the genomes of four Pleistocene canids from Northeast Siberia
+      dated between >50 and 14 ka old, including samples from the two morphological
+      categories. We found these specimens cluster with the two previously sequenced
+      Pleistocene wolves, which are genetically more similar to Eurasian wolves. Our
+      results show that, though the four specimens represent extinct wolf lineages,
+      they do not form a monophyletic group. Instead, each Pleistocene Siberian canid
+      branched off the lineage that gave rise to present-day wolves and dogs. Finally, 
+      our results suggest the two previously described morphological groups could
+      represent independent lineages similarly related to present-day wolves and dogs.
+OAB - Publisher: Abstract available from the publisher.
+OAB - Publisher: Abstract available from the publisher.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Ramos-Madrigal, Jazmín
+AU  - Ramos-Madrigal J
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Sinding, Mikkel-Holger S.
+AU  - Sinding MHS
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Carøe, Christian
+AU  - Carøe C
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Mak, Sarah S.T.
+AU  - Mak SS
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Niemann, Jonas
+AU  - Niemann J
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Samaniego Castruita, José A.
+AU  - Samaniego Castruita JA
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Fedorov, Sergey
+AU  - Fedorov S
+AD  - Mammoth Museum of North-Eastern Federal University, Yakutsk, Russia
+FAU - Kandyba, Alexander
+AU  - Kandyba A
+AD  - Department of Stone Age Archeology, Institute of Archaeology and Ethnography of
+      the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia
+FAU - Germonpré, Mietje
+AU  - Germonpré M
+AD  - Directorate Earth and History of Life, Royal Belgian Institute of Natural
+      Sciences, Brussels, Belgium
+FAU - Bocherens, Hervé
+AU  - Bocherens H
+AD  - Department of Geosciences, Biogeology, University of Tübingen, Tübingen, Germany
+FAU - Feuerborn, Tatiana R.
+AU  - Feuerborn TR
+AD  - Center for Evolutionary Hologenomics, The GLOBE Institute, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Pitulko, Vladimir V.
+AU  - Pitulko VV
+AD  - Institute for the History of Material Culture, Russian Academy of Sciences, St.
+      Petersburg, Russia
+FAU - Pavlova, Elena Y.
+AU  - Pavlova EY
+AD  - Arctic and Antarctic Research Institute, St. Petersburg, Russia
+FAU - Nikolskiy, Pavel A.
+AU  - Nikolskiy PA
+AD  - Geological Institute, Russian Academy of Sciences, Moscow, Russia
+FAU - Kasparov, Aleksei K.
+AU  - Kasparov AK
+AD  - Institute for the History of Material Culture, Russian Academy of Sciences, St.
+      Petersburg, Russia
+FAU - Ivanova, Varvara V.
+AU  - Ivanova VV
+AD  - VNIIOkeangeologia Research Institute (The All-Russian Research Institute of
+      Geology and Mineral Resources of the World Ocean), St. Petersburg, Russia
+FAU - Larson, Greger
+AU  - Larson G
+AD  - The Palaeogenomics and Bio-Archaeology Research Network, Research Laboratory for 
+      Archaeology and History of Art, University of Oxford, Oxford, UK
+FAU - Frantz, Laurent A.F.
+AU  - Frantz LA
+AD  - School of Biological and Chemical Sciences, Queen Mary University of London,
+      London, UK
+FAU - Willerslev, Eske
+AU  - Willerslev E
+AD  - Section for GeoGenetics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Meldgaard, Morten
+AU  - Meldgaard M
+AD  - The Qimmeq Project, University of Greenland, Nuussuaq, Greenland
+FAU - Petersen, Bent
+AU  - Petersen B
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Sicheritz-Ponten, Thomas
+AU  - Sicheritz-Ponten T
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Bachmann, Lutz
+AU  - Bachmann L
+AD  - Natural History Museum, University of Oslo, Oslo, Norway
+FAU - Wiig, Øystein
+AU  - Wiig Ø
+AD  - Natural History Museum, University of Oslo, Oslo, Norway
+FAU - Hansen, Anders J.
+AU  - Hansen AJ
+AD  - Center for Evolutionary Hologenomics, The GLOBE Institute, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Gilbert, M. Thomas P.
+AU  - Gilbert MTP
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+FAU - Gopalakrishnan, Shyam
+AU  - Gopalakrishnan S
+AD  - Section for Evolutionary Genomics, The GLOBE Institute, University of Copenhagen,
+      Copenhagen, Denmark
+LA  - eng
+PT  - Journal Article
+PHST- 2020/05/05 [received]
+PHST- 2020/07/28 [revised]
+PHST- 2020/10/01 [accepted]
+TA  - Curr Biol
+JT  - Current Biology
+AID - S0960-9822(20)31506-2 [pii]
+AID - 10.1016/j.cub.2020.10.002 [doi]
+SO  - Curr Biol. 2021 Jan 11;31(1):198-206.e8. doi:10.1016/j.cub.2020.10.002.
+
+PMC - PMC7735332
+PMID- 33391792
+IS  - 2054-5703 (Electronic)
+VI  - 7
+IP  - 11
+DP  - 2020 Nov
+TI  - Interpreting the socio-technical interactions within a wind damage–artificial
+      neural network model for community resilience.
+LID - 200922
+AB  - The use of machine learning has grown in popularity in various disciplines.
+      Despite the popularity, the apparent ‘black box’ nature of such tools continues
+      to be an area of concern. In this article, we attempt to unravel the complexity
+      of this black box by exploring the use of artificial neural networks (ANNs),
+      coupled with graph theory, to model and interpret the spatial distribution of
+      building damage from extreme wind events at a community level. Structural wind
+      damage is a topic that is mostly well understood for how wind pressure translates
+      to extreme loading on a structure, how debris can affect that loading and how
+      specific social characteristics contribute to the overall population
+      vulnerability. While these themes are widely accepted, they have proven difficult
+      to model in a cohesive manner, which has led primarily to physical damage models 
+      considering wind loading only as it relates to structural capacity. We take
+      advantage of this modelling difficulty to reflect on two different ANN models for
+      predicting the spatial distribution of structural damage due to wind loading.
+      Through graph theory analysis, we study the internal patterns of the apparent
+      black box of artificial intelligence of the models and show that social
+      parameters are key to predict structural damage.
+FAU - Pilkington, Stephanie F.
+AU  - Pilkington SF
+AD  - University of North Carolina at Charlotte, Charlotte, NC, USA
+FAU - Mahmoud, Hussam N.
+AU  - Mahmoud HN
+AUID- ORCID: 0000-0002-3106-6067
+AD  - Colorado State University, Fort Collins, CO 80523-1372, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20201118
+GR  - 70NANB15H044
+PHST- 2020/06/04 [received]
+PHST- 2020/10/19 [accepted]
+TA  - R Soc Open Sci
+JT  - Royal Society Open Science
+AID - 10.1098/rsos.200922 [doi]
+AID - rsos200922 [pii]
+SO  - R Soc Open Sci. 2020 Nov 18;7(11):. doi:10.1098/rsos.200922.
+
+PMC - PMC7735346
+PMID- 33391814
+IS  - 2054-5703 (Electronic)
+VI  - 7
+IP  - 11
+DP  - 2020 Nov
+TI  - Targeting diamondback moths in greenhouses by attracting specific native
+      parasitoids with herbivory-induced plant volatiles.
+LID - 201592
+AB  - We investigated the recruitment of specific parasitoids using a specific blend of
+      synthetic herbivory-induced plant volatiles (HIPVs) as a novel method of pest
+      control in greenhouses. In the Miyama rural area in Kyoto, Japan, diamondback
+      moth (DBM) (Plutella xylostella, Lepidoptera: Plutellidae) larvae are an
+      important pest of cruciferous crops in greenhouses, and Cotesia vestalis
+      (Hymenoptera: Braconidae), a larval parasitoid of DBM, is found in the
+      surrounding areas. Dispensers of HIPVs that attracted C. vestalis and honey
+      feeders were set inside greenhouses (treated greenhouses). The monthly incidence 
+      of DBMs in the treated greenhouses was significantly lower than that in the
+      untreated greenhouses over a 2-year period. The monthly incidences of C. vestalis
+      and DBMs were not significantly different in the untreated greenhouses, whereas
+      monthly C. vestalis incidence was significantly higher than monthly DBM incidence
+      in the treated greenhouses. Poisson regression analyses showed that, in both
+      years, a significantly higher number of C. vestalis was recorded in the treated
+      greenhouses than in the untreated greenhouses when the number of DBM adults
+      increased. We concluded that DBMs were suppressed more effectively by C. vestalis
+      in the treated greenhouses than in the untreated greenhouses.
+FAU - Uefune, Masayoshi
+AU  - Uefune M
+AUID- ORCID: 0000-0002-9570-8938
+AD  - Department of Agrobiological Resources, Faculty of Agriculture, Meijo University,
+      Nagoya, Aichi 468-8502, Japan
+FAU - Abe, Junichiro
+AU  - Abe J
+AD  - Western Region Agricultural Research Center, National Agriculture and Food
+      Research Organization, Fukuyama, Hiroshima 721-8514, Japan
+FAU - Shiojiri, Kaori
+AU  - Shiojiri K
+AUID- ORCID: 0000-0003-4972-6454
+AD  - Department of Agriculture, Ryukoku University, Otsu, Shiga 520-2194, Japan
+FAU - Urano, Satoru
+AU  - Urano S
+AD  - Peco IPM Pilot Co. Ltd., Kumamoto, Kumamoto 860-0004, Japan
+FAU - Nagasaka, Koukichi
+AU  - Nagasaka K
+AUID- ORCID: 0000-0001-8780-3962
+AD  - Central Region Agricultural Research Center, National Agriculture and Food
+      Research Organization, Tsukuba, Ibaraki 305-8666, Japan
+FAU - Takabayashi, Junji
+AU  - Takabayashi J
+AUID- ORCID: 0000-0002-3575-9952
+AD  - Center for Ecological Research, Kyoto University, Otsu, Shiga 520-2113, Japan
+LA  - eng
+PT  - Journal Article
+DEP - 20201111
+GR  - 18H03952
+PHST- 2020/09/04 [received]
+PHST- 2020/10/19 [accepted]
+TA  - R Soc Open Sci
+JT  - Royal Society Open Science
+AID - 10.1098/rsos.201592 [doi]
+AID - rsos201592 [pii]
+SO  - R Soc Open Sci. 2020 Nov 11;7(11):. doi:10.1098/rsos.201592.
+
+PMC - PMC7537957
+PMID- 33041415
+IS  - 0254-5330 (Print)
+IS  - 1572-9338 (Electronic)
+TI  - Early box office prediction in China’s film market based on a stacking fusion
+      model.
+PG  - 1-18
+AB  - Artificial intelligence has been increasingly employed to improve operations for 
+      various firms and industries. In this study, we construct a box office revenue
+      prediction system for a film at its early stage of production, which can help
+      management overcome resource allocation challenges considering the significant
+      investment and risk for the whole film production. In this research, we focus on 
+      China’s film market, the second-largest box office in the world. Our model is
+      based on data regarding the nature of a film itself without word-of-mouth data
+      from social platforms. Combining extreme gradient boosting, random forest, light 
+      gradient boosting machine, k-nearest neighbor algorithm, and stacking model
+      fusion theory, we establish a stacking model for film box office prediction. Our 
+      empirical results show that the model exhibits good prediction accuracy, with its
+      1-Away accuracy being 86.46%. Moreover, our results show that star influence has 
+      the strongest predictive power in this model.
+FAU - Liao, Yi
+AU  - Liao Y
+AD  - grid.443347.30000 0004 1761 2353Southwestern University of Finance and Economics,
+      Chengdu, 610074 People’s Republic of China
+FAU - Peng, Yuxuan
+AU  - Peng Y
+AD  - grid.443347.30000 0004 1761 2353Southwestern University of Finance and Economics,
+      Chengdu, 610074 People’s Republic of China
+FAU - Shi, Songlin
+AU  - Shi S
+AD  - grid.443347.30000 0004 1761 2353Southwestern University of Finance and Economics,
+      Chengdu, 610074 People’s Republic of China
+FAU - Shi, Victor
+AU  - Shi V
+AD  - grid.268252.90000 0001 1958 9263Wilfrid Laurier University, Waterloo, N2L3C5
+      Canada
+FAU - Yu, Xiaohong
+AU  - Yu X
+AUID- ORCID: 0000-0002-4423-5077
+AD  - grid.469163.f0000 0004 0431 6539Shanghai Business School, Shanghai, 200235
+      People’s Republic of China
+LA  - eng
+PT  - Journal Article
+DEP - 20201006
+PHST- 2020/09/15 [accepted]
+TA  - Ann Oper Res
+JT  - Annals of Operations Research
+AID - 3804 [pii]
+AID - 10.1007/s10479-020-03804-4 [doi]
+SO  - Ann Oper Res. ;:1-18. doi:10.1007/s10479-020-03804-4.
+
+PMC - PMC7511927
+PMID- 32968132
+IS  - 2045-2322 (Electronic)
+VI  - 10
+DP  - 2020
+TI  - The conservation value of admixed phenotypes in a critically endangered species
+      complex.
+LID - 15549
+AB  - In today’s environmental crisis, conservationists are increasingly confronted
+      with terminally endangered species whose last few surviving populations may be
+      affected by allelic introgression from closely related species. Yet there is a
+      worrying lack of evidence-based recommendations and solutions for this emerging
+      problem. We analyzed genome-wide DNA markers and plumage variability in a
+      critically endangered insular songbird, the Black-winged Myna (BWM, Acridotheres 
+      melanopterus). This species is highly threatened by the illegal wildlife trade,
+      with its wild population numbering in the low hundreds, and its continued
+      survival urgently depending on ex-situ breeding. Its three subspecies occur along
+      a geographic gradient of melanism and are variably interpreted as three species. 
+      However, our integrative approach revealed that melanism poorly reflects the
+      pattern of limited genomic differentiation across BWM subspecies. We also
+      uncovered allelic introgression into the most melanistic subspecies, tertius,
+      from the all-black congeneric Javan Myna (A. javanicus), which is native to the
+      same islands. Based on our results, we recommend the establishment of three
+      separate breeding programs to maintain subspecific traits that may confer local
+      adaptation, but with the option of occasional cross-breeding between insurance
+      populations in order to boost genetic diversity and increase overall viability
+      prospects of each breeding program. Our results underscore the importance of
+      evidence-based integrative approaches when determining appropriate conservation
+      units. Given the rapid increase of terminally endangered organisms in need of
+      ex-situ conservation, this study provides an important blueprint for similar
+      programs dealing with phenotypically variable species.
+FAU - Sadanandan, Keren R.
+AU  - Sadanandan KR
+AD  - grid.4280.e0000 0001 2180 6431Department of Biological Sciences, National
+      University of Singapore, Singapore, 117558 Singapore
+FAU - Low, Gabriel W.
+AU  - Low GW
+AD  - grid.4280.e0000 0001 2180 6431Department of Biological Sciences, National
+      University of Singapore, Singapore, 117558 Singapore
+FAU - Sridharan, Sheeraja
+AU  - Sridharan S
+AD  - grid.4280.e0000 0001 2180 6431Department of Biological Sciences, National
+      University of Singapore, Singapore, 117558 Singapore
+FAU - Gwee, Chyi Yin
+AU  - Gwee CY
+AD  - grid.4280.e0000 0001 2180 6431Department of Biological Sciences, National
+      University of Singapore, Singapore, 117558 Singapore
+FAU - Ng, Elize Y. X.
+AU  - Ng EYX
+AD  - grid.4280.e0000 0001 2180 6431Department of Biological Sciences, National
+      University of Singapore, Singapore, 117558 Singapore
+FAU - Yuda, Pramana
+AU  - Yuda P
+AD  - Universitas Atma Jaya, Jl. Babarsari 44, Janti, Caturtunggal, Kec. Depok,
+      Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281 Indonesia
+FAU - Prawiradilaga, Dewi M.
+AU  - Prawiradilaga DM
+AD  - grid.249566.a0000 0004 0644 6054Division of Zoology, Research Center for Biology,
+      Indonesian Institute of Sciences (LIPI), Jalan Raya Jakarta Bogor KM 46, Cibinong
+      Science Center, Cibinong, 16911 Indonesia
+FAU - Lee, Jessica G. H.
+AU  - Lee JGH
+AD  - Wildlife Reserves Singapore, 80 Mandai Lake Road, Singapore, 729826 Singapore
+FAU - Tritto, Anaïs
+AU  - Tritto A
+AD  - Wildlife Reserves Singapore, 80 Mandai Lake Road, Singapore, 729826 Singapore
+FAU - Rheindt, Frank E.
+AU  - Rheindt FE
+AD  - grid.4280.e0000 0001 2180 6431Department of Biological Sciences, National
+      University of Singapore, Singapore, 117558 Singapore
+LA  - eng
+PT  - Journal Article
+DEP - 20200923
+GR  - R-154-000-A05-592
+GR  - R-154-000-A99-592
+PHST- 2020/04/24 [received]
+PHST- 2020/08/17 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 72428 [pii]
+AID - 10.1038/s41598-020-72428-2 [doi]
+SO  - Sci Rep. 2020 Sep 23;10:. doi:10.1038/s41598-020-72428-2.
+
+PMC - PMC7475230
+PMID- 32923706
+IS  - 2405-8440 (Electronic)
+VI  - 6
+IP  - 8
+DP  - 2020 Aug
+TI  - The effects of personality and locus of control on trust in humans versus
+      artificial intelligence.
+LID - e04572
+AB  - Introduction: We are increasingly exposed to applications that embed some sort of
+      artificial intelligence (AI) algorithm, and there is a general belief that people
+      trust any AI-based product or service without question. This study investigated
+      the effect of personality characteristics (Big Five Inventory (BFI) traits and
+      locus of control (LOC)) on trust behaviour, and the extent to which people trust 
+      the advice from an AI-based algorithm, more than humans, in a decision-making
+      card game. Method: One hundred and seventy-one adult volunteers decided whether
+      the final covered card, in a five-card sequence over ten trials, had a
+      higher/lower number than the second-to-last card. They either received no
+      suggestion (control), recommendations from what they were told were previous
+      participants (humans), or an AI-based algorithm (AI). Trust behaviour was
+      measured as response time and concordance (number of participants' responses that
+      were the same as the suggestion), and trust beliefs were measured as
+      self-reported trust ratings. Results: It was found that LOC influences trust
+      concordance and trust ratings, which are correlated. In particular, LOC
+      negatively predicted beyond the BFI dimensions trust concordance. As LOC levels
+      increased, people were less likely to follow suggestions from both humans or AI. 
+      Neuroticism negatively predicted trust ratings. Openness predicted reaction time,
+      but only for suggestions from previous participants. However, people chose the AI
+      suggestions more than those from humans, and self-reported that they believed
+      such recommendations more. Conclusions: The results indicate that LOC accounts
+      for a significant variance for trust concordance and trust ratings, predicting
+      beyond BFI traits, and affects the way people select whom they trust whether
+      humans or AI. These findings also support the AI-based algorithm appreciation.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Sharan, Navya Nishith
+AU  - Sharan NN
+AD  - Department of Psychology, University College London, London, WC1E 6BT, UK
+FAU - Romano, Daniela Maria
+AU  - Romano DM
+AD  - Department of Information Science, University College London, London, WC1E 6BT,
+      UK
+LA  - eng
+PT  - Journal Article
+DEP - 20200828
+PHST- 2019/10/24 [received]
+PHST- 2020/03/30 [revised]
+PHST- 2020/07/24 [accepted]
+TA  - Heliyon
+JT  - Heliyon
+AID - S2405-8440(20)31416-X [pii]
+AID - 10.1016/j.heliyon.2020.e04572 [doi]
+AID - e04572 [pii]
+SO  - Heliyon. 2020 Aug 28;6(8):. doi:10.1016/j.heliyon.2020.e04572.
+
+PMC - PMC7337828
+IS  - 0031-2290 (Print)
+IS  - 1460-2482 (Electronic)
+TI  - Democracy and the Politics of Coronavirus: Trust, Blame and Understanding.
+LID - gsaa013
+AB  - This article explores the relationship between crises and democracy through a
+      focus on the unfolding coronavirus pandemic. Its central argument is that to
+      interpret the current pandemic purely in terms of its epidemiology and public
+      health implications risks overlooking its potentially more significant
+      socio-political consequences. This is because the challenges posed by the
+      coronavirus crisis have themselves become overlaid or layered-upon a pre-existing
+      set of concerns regarding the performance, efficiency and capacity of democratic 
+      political structures. The aim of this article is to try and understand and warn
+      against what might be termed a rather odd form of cross-contamination whereby the
+      cynicism, negativity and frustration concerning politicians, political processes 
+      and political institutions that existed before the coronavirus outbreak is
+      allowed to direct, define and automatically devalue how democratic structures are
+      subsequently judged in terms of how they responded to the challenge. As such,
+      this article focuses on the link between the Coronavirus crisis and the
+      democratic crisis; or, more precisely, the risk that the Coronavirus crisis may
+      mutate into and fuel a broader crisis of democracy.
+FAU - Flinders, Matthew
+AU  - Flinders M
+AD  - Department of Politics, University of Sheffield, Sheffield, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20200623
+TA  - Parliam Aff
+JT  - Parliamentary Affairs
+AID - 10.1093/pa/gsaa013 [doi]
+AID - gsaa013 [pii]
+SO  - Parliam Aff. ;:. doi:10.1093/pa/gsaa013.
+
+PMC - PMC7265288
+PMID- 32488105
+IS  - 2045-2322 (Electronic)
+VI  - 10
+DP  - 2020
+TI  - When Lone Wolf Defectors Undermine the Power of the Opt-Out Default.
+LID - 8973
+AB  - High levels of cooperation are a central feature of human society, and
+      conditional cooperation has been proposed as one proximal mechanism to support
+      this. The counterforce of free-riding can, however, undermine cooperation and as 
+      such a number of external mechanisms have been proposed to ameliorate the effects
+      of free-riding. One such mechanism is setting cooperation as the default (i.e.,
+      an opt-out default). We posit, however, that in dynamic settings where people can
+      observe and condition their actions on others’ behaviour, ‘lone wolf’ defectors
+      undermine initial cooperation encouraged by an opt-out default, while ‘good
+      shepherds’ defeat the free-riding encouraged by an opt-in default. Thus, we
+      examine the dynamic emergence of conditional cooperation under different default 
+      settings. Specifically, we develop a game theoretical model to analyse
+      cooperation under defaults for cooperation (opt-out) and defection (opt-in). The 
+      model predicts that the ‘lone wolf’ effect is stronger than the ‘good shepherd’
+      effect, which – if anticipated by players – should strategically deter
+      free-riding under opt-out and cooperation under opt-in. Our experimental games
+      confirm the existence of both ‘lone wolf’ defectors and ‘good shepherd’
+      cooperators, and that the ‘lone wolf’effect is stronger in the context of organ
+      donation registration behaviour. We thus show a potential ‘dark side’ to
+      conditional cooperation (‘lone wolf effect’) and draw implications for the
+      adoption of an opt-out organ donation policy.
+FAU - Ferguson, Eamonn
+AU  - Ferguson E
+AD  - 0000 0004 1936 8868grid.4563.4School of Psychology, University of Nottingham,
+      Nottingham, NG7 2RD UK
+FAU - Shichman, Ruslan
+AU  - Shichman R
+AD  - 0000 0004 1936 8868grid.4563.4Centre for Decision Research and Experimental
+      Economics (CeDEx), University of Nottingham, Nottingham, NG7 2RD UK
+FAU - Tan, Jonathan H. W.
+AU  - Tan JHW
+AD  - 0000 0001 2224 0361grid.59025.3bDepartment of Economics, School of Social
+      Sciences, Nanyang Technological University, 48 Nanyang Avenue, Singapore, 639818 
+      Singapore
+LA  - eng
+PT  - Journal Article
+DEP - 20200602
+PHST- 2019/09/20 [received]
+PHST- 2020/04/09 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 65163 [pii]
+AID - 10.1038/s41598-020-65163-1 [doi]
+SO  - Sci Rep. 2020 Jun 2;10:. doi:10.1038/s41598-020-65163-1.
+
+PMC - PMC7754362
+PMID- 33362326
+IS  - 0264-3758 (Print)
+IS  - 1468-5930 (Electronic)
+VI  - 37
+IP  - 5
+DP  - 2020 Nov
+TI  - Consultation, Consent, and the Silencing of Indigenous Communities.
+PG  - 781-98
+AB  - Over the past few decades, Indigenous communities have successfully campaigned
+      for greater inclusion in decision‐making processes that directly affect their
+      lands and livelihoods. As a result, two important participatory rights for
+      Indigenous peoples have now been widely recognized: the right to consultation and
+      the right to free, prior and informed consent (FPIC). Although these
+      participatory rights are meant to empower the speech of these communities—to give
+      them a proper say in the decisions that most affect them—we argue that the way
+      these rights have been implemented and interpreted sometimes has the opposite
+      effect, of denying them a say or ‘silencing’ them. In support of this conclusion 
+      we draw on feminist speech act theory to identify practices of locutionary,
+      illocutionary, and perlocutionary group silencing that arise in the context of
+      consultation with Indigenous communities.
+FAU - Townsend, Leo
+AU  - Townsend L
+AUID- ORCID: https://orcid.org/0000-0001-5992-162X
+AD  - Department of PhilosophyUniversity of ViennaViennaAustria
+FAU - Townsend, Dina Lupin
+AU  - Townsend DL
+AUID- ORCID: https://orcid.org/0000-0002-6531-8066
+AD  - School of LawUniversity of the WitwatersrandJohannesburgSouth Africa
+LA  - eng
+PT  - Journal Article
+DEP - 20200525
+GR  - I 3068‐G24
+PHST- 2019/10/04 [received]
+PHST- 2020/02/17 [revised]
+PHST- 2020/04/29 [accepted]
+TA  - J Appl Philos
+JT  - Journal of Applied Philosophy
+AID - 10.1111/japp.12438 [doi]
+AID - JAPP12438 [pii]
+SO  - J Appl Philos. 2020 Nov;37(5):781-98. Epub 2020 May 25 doi:10.1111/japp.12438.
+
+PMC - PMC7327577
+PMID- 32647553
+IS  - 1871-5621 (Print)
+IS  - 1871-5656 (Electronic)
+VI  - 30
+IP  - 2
+DP  - 2020
+TI  - The morph as a minimal linguistic form.
+PG  - 117-34
+AB  - This paper makes a terminological proposal: that the old term morph can be used
+      for a minimal linguistic form. Many linguists (not only morphologists) need such 
+      a term, because we often refer to minimal linguistic forms, but the various terms
+      used by linguists in roughly this meaning are either unclear or do not refer to
+      forms. The term “morpheme” has three rather different meanings, and other terms
+      such as “vocabulary item” are too abstract. The term “morph” can be used as the
+      basis for defining other widely used terms such as “root”, “prefix”, and
+      “suffix”, which are currently often defined as kinds of “morphemes”. It can also 
+      serve as the basis for a clearer definition of suppletion (involving suppletive
+      morph sets) and morph variants, thus avoiding the confusions surrounding the term
+      “allomorph(y)”.
+FAU - Haspelmath, Martin
+AU  - Haspelmath M
+AUID- ORCID: 0000-0003-2100-8493
+AD  - MPI for the Science of Human History, Jena, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20200506
+GR  - FORMGRAM
+PHST- 2019/12/13 [received]
+PHST- 2020/04/18 [accepted]
+TA  - Morphology (Dordr)
+JT  - Morphology (Dordrecht, Netherlands)
+AID - 9355 [pii]
+AID - 10.1007/s11525-020-09355-5 [doi]
+SO  - Morphology (Dordr). 2020;30(2):117-34. Epub 2020 May 6
+      doi:10.1007/s11525-020-09355-5.
+
+PMC - PMC7179832
+PMID- 32324831
+IS  - 1932-6203 (Electronic)
+VI  - 15
+IP  - 4
+DP  - 2020
+TI  - What makes a major change of wildlife management policy possible? Institutional
+      analysis of Polish wolf governance.
+LID - e0231601
+AB  - Poland was one of the first countries of Central and Eastern Europe with stable
+      wolf populations to effectively introduce year-round protection of the species.
+      This paper traces the process of policy change using institutional theory as an
+      organizational perspective. Based on the analysis of data from desk research and 
+      semi-structured interviews, we propose a model of institutional change and argue 
+      that in the 1990s, environmental activists and wildlife biologists successfully
+      used a political window of opportunity connected with socio-economic
+      transformation after 1989 and managed to induce the government to move the
+      species from the domain of hunting to the domain of nature conservation. The new 
+      policy, informed by an ecological paradigm, diverged from the historical path
+      dominated by hunters and the vision of the wolf as a pest and a hunting target.
+      The improved protection led to the numerical growth of Poland's wolves and
+      ultimately to their westward expansion.
+FAU - Niedziałkowski, Krzysztof
+AU  - Niedziałkowski K
+AUID- ORCID: 0000-0002-0410-6772
+AD  - Institute of Philosophy and Sociology, Polish Academy of Sciences, Warsaw, Poland
+FAU - Putkowska-Smoter, Renata
+AU  - Putkowska-Smoter R
+AD  - Institute of Philosophy and Sociology, Polish Academy of Sciences, Warsaw, Poland
+LA  - eng
+PT  - Journal Article
+DEP - 20200423
+GR  - 2015/16/S/HS6/00125, 2017/27/B/HS6/03067
+PHST- 2020/01/21 [received]
+PHST- 2020/03/26 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0231601 [doi]
+AID - PONE-D-20-01887 [pii]
+SO  - PLoS One. 2020 Apr 23;15(4):. doi:10.1371/journal.pone.0231601.
+
+PMC - PMC7318651
+PMID- 32173969
+IS  - 1526-498X (Print)
+IS  - 1526-4998 (Electronic)
+VI  - 76
+IP  - 7
+DP  - 2020 Jul
+TI  - Putting deep learning in perspective for pest management scientists.
+PG  - 2267-75
+AB  - ‘Deep learning’ is causing rapid technological changes in many fields of science,
+      and conjectures about its potential for transforming everyone's work and lives is
+      a matter of great debate. Unfortunately, it is all too easy to apply it as a
+      ‘black box’ tool with little consideration of its potential limitations,
+      especially when the data it is being applied to is less than perfect. In this
+      Perspective, I try to put deep learning into a broader mechanistic and historical
+      context by showing how it relates to older forms of artificial intelligence; by
+      providing a general explanation of how it operates; and by exploring some of the 
+      challenges involved in its implementation. Examples wherein it has been applied
+      to pest management problems are provided to illustrate how the technology works
+      and the challenges deep learning faces. At least in the near term, its biggest
+      impact on agrochemical development seems likely to come in automating the tedious
+      work involved in assessing agrochemical efficacy, but getting there will require 
+      major investments in building large, well‐curated data sets to work from and in
+      providing the expertise required to assess the resulting model predictions in
+      real‐world scenarios. Deep learning may also come to complement the machine
+      learning methodologies already available for use in pesticide discovery and
+      development, but it seems unlikely to supplant them. © 2020 The Authors. Pest
+      Management Science published by John Wiley & Sons Ltd on behalf of Society of
+      Chemical Industry.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Clark, Robert D
+AU  - Clark RD
+AUID- ORCID: https://orcid.org/0000-0001-9509-8132
+AD  - Simulations Plus, Inc.LancasterCAUSA
+LA  - eng
+PT  - Journal Article
+DEP - 20200410
+PHST- 2019/08/18 [received]
+PHST- 2020/03/10 [revised]
+PHST- 2020/03/15 [accepted]
+TA  - Pest Manag Sci
+JT  - Pest Management Science
+AID - 10.1002/ps.5820 [doi]
+AID - PS5820 [pii]
+SO  - Pest Manag Sci. 2020 Jul;76(7):2267-75. Epub 2020 Apr 10 doi:10.1002/ps.5820.
+
+PMC - PMC7142965
+PMID- 32192138
+IS  - 2076-2615 (Electronic)
+VI  - 10
+IP  - 3
+DP  - 2020 Mar
+TI  - Humanity’s Best Friend: A Dog-Centric Approach to Addressing Global Challenges.
+LID - 502
+AB  - Simple Summary: The Earth is under increasing pressure from the burgeoning global
+      human population and the subsequent rise in demand for food and a myriad of other
+      finite resources. Mitigating the environmental, societal and ecological impact of
+      the human footprint requires understanding the long-term relationships between
+      our species and the plants and animals we now rely upon. In addition, the modern 
+      scientific approach often conceives of, and addresses individual problems through
+      narrow windows that can fail to take into account the connectedness of multiple
+      problems. By broadening the scope of inquiry to include both science and
+      humanities perspectives, and simultaneously focussing on a single species, we
+      suggest that many of the United Nations Strategic Development Goals (SDGs) can be
+      addressed more effectively. In this paper, we describe how a comprehensive
+      assessment of the long-term relationship between humans and dogs can yield
+      insights, and offer ways in which modern global challenges can be tackled.
+      Abstract: No other animal has a closer mutualistic relationship with humans than 
+      the dog (Canis familiaris). Domesticated from the Eurasian grey wolf (Canis
+      lupus), dogs have evolved alongside humans over millennia in a relationship that 
+      has transformed dogs and the environments in which humans and dogs have
+      co-inhabited. The story of the dog is the story of recent humanity, in all its
+      biological and cultural complexity. By exploring human-dog-environment
+      interactions throughout time and space, it is possible not only to understand
+      vital elements of global history, but also to critically assess our present-day
+      relationship with the natural world, and to begin to mitigate future global
+      challenges. In this paper, co-authored by researchers from across the natural and
+      social sciences, arts and humanities, we argue that a dog-centric approach
+      provides a new model for future academic enquiry and engagement with both the
+      public and the global environmental agenda.
+FAU - Sykes, Naomi
+AU  - Sykes N
+AUID- ORCID: https://orcid.org/0000-0001-6114-7557
+AD  - Department of Archaeology, University of Exeter, Exeter, Devon EX4 4QE, UK;
+      N.Sykes@exeter.ac.uk
+FAU - Beirne, Piers
+AU  - Beirne P
+AD  - Department of Criminology, University of Southern Maine, Portland, ME 04104, USA;
+      beirne@maine.edu
+FAU - Horowitz, Alexandra
+AU  - Horowitz A
+AD  - Department of Psychology, Barnard College, 3009 Broadway, New York, NY 10027,
+      USA; ahorowit@barnard.edu
+FAU - Jones, Ione
+AU  - Jones I
+AD  - Department of Math and Sciences, Exeter College, Exeter EX4 4HF, UK;
+      ionewbjones@gmail.com
+FAU - Kalof, Linda
+AU  - Kalof L
+AD  - Department of Sociology, Michigan State University, East Lansing, MI 48824, USA; 
+      lkalof@msu.edu
+FAU - Karlsson, Elinor
+AU  - Karlsson E
+AUID- ORCID: https://orcid.org/0000-0002-4343-3776
+AD  - Bioinformatics and Integrative Biology, University of Massachusetts Medical
+      School, Worcester, MA 01605, USA; Elinor.Karlsson@umassmed.edu
+FAU - King, Tammie
+AU  - King T
+AD  - WALTHAM Petcare Science Institute, Waltham on the Wolds LE14 4RT, UK;
+      Tammie.King@effem.com
+FAU - Litwak, Howard
+AU  - Litwak H
+AD  - Annenberg PetSpace Foundation, 12005 Bluff Creek Dr, Playa Vista, CA 90094, USA; 
+      hdlitwak@gmail.com
+FAU - McDonald, Robbie A.
+AU  - McDonald RA
+AD  - Environment and Sustainability Institute, University of Exeter, Penryn Campus,
+      Penryn TR10 9FE, UK; R.McDonald@exeter.ac.uk
+FAU - Murphy, Luke John
+AU  - Murphy LJ
+AUID- ORCID: https://orcid.org/0000-0001-8001-3140
+AD  - Department of Archaeology, University of Iceland, 102 Reykjavík, Iceland;
+      luke@luke-murphy.com
+FAU - Pemberton, Neil
+AU  - Pemberton N
+AD  - Centre for the History of Science, Technology and Medicine (CHSTM), University of
+      Manchester, Oxford Rd, Manchester M13 9PL, UK; neil.pemberton@manchester.ac.uk
+FAU - Promislow, Daniel
+AU  - Promislow D
+AUID- ORCID: https://orcid.org/0000-0001-7088-4495
+AD  - Department of Biology and Department of Pathology, University of Washington,
+      Seattle, WA 98195, USA; promislo@uw.edu
+FAU - Rowan, Andrew
+AU  - Rowan A
+AD  - Wellbeing International, 9812 Falls Road #114-288, Potomac, MD 20854-3963, USA;
+      arowan@wellbeingintl.org
+FAU - Stahl, Peter W.
+AU  - Stahl PW
+AD  - Department of Anthropology, University of Victoria, Victoria, BC V8W 2Y2, Canada;
+      pstahl@uvic.ca
+FAU - Tehrani, Jamshid
+AU  - Tehrani J
+AD  - Department of Anthropology, Durham University, Durham DH1 1LE, UK;
+      jamie.tehrani@durham.ac.uk
+FAU - Tourigny, Eric
+AU  - Tourigny E
+AUID- ORCID: https://orcid.org/0000-0003-3262-9885
+AD  - School of History, Classics and Archaeology, Newcastle University, Newcastle upon
+      Tyne, NE1 7RU, UK; Eric.Tourigny@newcastle.ac.uk
+FAU - Wynne, Clive D. L.
+AU  - Wynne CDL
+AD  - Department of Psychology, Arizona State University, Box 871104, Tempe, AZ 85281, 
+      USA; clivewynne@gmail.com
+FAU - Strauss, Eric
+AU  - Strauss E
+AD  - LMU Center for Urban Resilience, Loyola Marymount University, LMU Drive Los
+      Angeles, CA 90045-2659, USA; Eric.Strauss@lmu.edu
+FAU - Larson, Greger
+AU  - Larson G
+AD  - Palaeogenomics & Bio-Archaeology Research Network, School of Archaeology, 1 South
+      Parks Road, Oxford OX1 3TG, UK
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20200317
+PHST- 2019/12/24 [received]
+PHST- 2020/03/07 [accepted]
+TA  - Animals (Basel)
+JT  - Animals : an Open Access Journal from MDPI
+AID - 10.3390/ani10030502 [doi]
+AID - animals-10-00502 [pii]
+SO  - Animals (Basel). 2020 Mar 17;10(3):. doi:10.3390/ani10030502.
+
+PMC - PMC7383667
+PMID- 32097520
+IS  - 1464-7931 (Print)
+IS  - 1469-185X (Electronic)
+VI  - 95
+IP  - 4
+DP  - 2020 Aug
+TI  - Mixed company: a framework for understanding the composition and organization of 
+      mixed‐species animal groups.
+PG  - 889-910
+AB  - Mixed‐species animal groups (MSGs) are widely acknowledged to increase predator
+      avoidance and foraging efficiency, among other benefits, and thereby increase
+      participants' fitness. Diversity in MSG composition ranges from two to 70 species
+      of very similar or completely different phenotypes. Yet consistency in
+      organization is also observable in that one or a few species usually have
+      disproportionate importance for MSG formation and/or maintenance. We propose a
+      two‐dimensional framework for understanding this diversity and consistency,
+      concentrating on the types of interactions possible between two individuals,
+      usually of different species. One axis represents the similarity of benefit types
+      traded between the individuals, while the second axis expresses asymmetry in the 
+      relative amount of benefits/costs accrued. Considering benefit types, one extreme
+      represents the case of single‐species groups wherein all individuals obtain the
+      same supplementary, group‐size‐related benefits, and the other extreme comprises 
+      associations of very different, but complementary species (e.g. one partner
+      creates access to food while the other provides vigilance). The relevance of
+      social information and the matching of activities (e.g. speed of movement) are
+      highest for relationships on the supplementary side of this axis, but so is
+      competition; relationships between species will occur at points along this
+      gradient where the benefits outweigh the costs. Considering benefit amounts given
+      or received, extreme asymmetry occurs when one species is exclusively a benefit
+      provider and the other a benefit user. Within this parameter space, some MSG
+      systems are constrained to one kind of interaction, such as shoals of fish of
+      similar species or leader–follower interactions in fish and other taxa. Other
+      MSGs, such as terrestrial bird flocks, can simultaneously include a variety of
+      supplementary and complementary interactions. We review the benefits that species
+      obtain across the diversity of MSG types, and argue that the degree and nature of
+      asymmetry between benefit providers and users should be measured and not just
+      assumed. We then discuss evolutionary shifts in MSG types, focusing on drivers
+      towards similarity in group composition, and selection on benefit providers to
+      enhance the benefits they can receive from other species. Finally, we conclude by
+      considering how individual and collective behaviour in MSGs may influence both
+      the structure and processes of communities.
+FAU - Goodale, Eben
+AU  - Goodale E
+AUID- ORCID: https://orcid.org/0000-0003-3403-2847
+AD  - Guangxi Key Laboratory for Forest Ecology and ConservationCollege of Forestry,
+      Guangxi UniversityNanningGuangxi530004China
+FAU - Sridhar, Hari
+AU  - Sridhar H
+AUID- ORCID: https://orcid.org/0000-0003-3286-0120
+AD  - Centre for Ecological SciencesIndian Institute of
+      ScienceBengaluruKarnataka560012India
+FAU - Sieving, Kathryn E.
+AU  - Sieving KE
+AUID- ORCID: https://orcid.org/0000-0002-0849-8101
+AD  - Department of Wildlife Ecology and ConservationUniversity of
+      FloridaGainesvilleFL32611U.S.A.
+FAU - Bangal, Priti
+AU  - Bangal P
+AUID- ORCID: https://orcid.org/0000-0002-1802-4196
+AD  - Centre for Ecological SciencesIndian Institute of
+      ScienceBengaluruKarnataka560012India
+FAU - Colorado Z., Gabriel J.
+AU  - Colorado Z. GJ
+AUID- ORCID: https://orcid.org/0000-0003-3807-3646
+AD  - Departamento de Ciencias ForestalesUniversidad Nacional de
+      ColombiaMedellín050034Colombia
+FAU - Farine, Damien R.
+AU  - Farine DR
+AUID- ORCID: https://orcid.org/0000-0003-2208-7613
+AD  - Department of Collective BehaviorMax Planck Institute of Animal Behavior,
+      Universitätsstrasse 10D‐78464KonstanzGermany
+FAU - Heymann, Eckhard W.
+AU  - Heymann EW
+AUID- ORCID: https://orcid.org/0000-0002-4259-8018
+AD  - Deutsches PrimatenzentrumLeibniz‐Institut für PrimatenforschungD‐37077,
+      GöttingenGermany
+FAU - Jones, Harrison H.
+AU  - Jones HH
+AUID- ORCID: https://orcid.org/0000-0003-1402-4778
+AD  - Department of BiologyUniversity of FloridaGainesvilleFL32611U.S.A.
+FAU - Krams, Indrikis
+AU  - Krams I
+AUID- ORCID: https://orcid.org/0000-0001-7150-4108
+AD  - Institute of Ecology and Earth Sciences, University of TartuTartu51410Estonia
+FAU - Martínez, Ari E.
+AU  - Martínez AE
+AUID- ORCID: https://orcid.org/0000-0001-9711-4669
+AD  - Department of Biological SciencesCalifornia State UniversityLong
+      BeachCA90840U.S.A.
+FAU - Montaño‐Centellas, Flavia
+AU  - Montaño‐Centellas F
+AUID- ORCID: https://orcid.org/0000-0003-3115-3950
+AD  - Department of Wildlife Ecology and ConservationUniversity of
+      FloridaGainesvilleFL32611U.S.A.
+FAU - Muñoz, Jenny
+AU  - Muñoz J
+AUID- ORCID: https://orcid.org/0000-0001-8602-4350
+AD  - Zoology Department and Biodiversity Research CenterUniversity of British
+      ColumbiaVancouverBCV6T 1ZACanada
+FAU - Srinivasan, Umesh
+AU  - Srinivasan U
+AUID- ORCID: https://orcid.org/0000-0002-8040-1124
+AD  - Woodrow Wilson School of Public and International AffairsPrinceton
+      UniversityPrincetonNJ08540U.S.A.
+FAU - Theo, Anne
+AU  - Theo A
+AUID- ORCID: https://orcid.org/0000-0002-5119-1607
+AD  - Centre for Ecological SciencesIndian Institute of
+      ScienceBengaluruKarnataka560012India
+FAU - Shanker, Kartik
+AU  - Shanker K
+AUID- ORCID: https://orcid.org/0000-0003-4856-0093
+AD  - Centre for Ecological SciencesIndian Institute of
+      ScienceBengaluruKarnataka560012India
+LA  - eng
+PT  - Journal Article
+DEP - 20200225
+GR  - lzp‐2018/1‐0393
+PHST- 2019/04/23 [received]
+PHST- 2020/02/02 [revised]
+PHST- 2020/02/06 [accepted]
+TA  - Biol Rev Camb Philos Soc
+JT  - Biological Reviews of the Cambridge Philosophical Society
+AID - 10.1111/brv.12591 [doi]
+AID - BRV12591 [pii]
+SO  - Biol Rev Camb Philos Soc. 2020 Aug;95(4):889-910. Epub 2020 Feb 25
+      doi:10.1111/brv.12591.
+
+PMC - PMC7079088
+PMID- 32201438
+IS  - 0179-1613 (Print)
+IS  - 1439-0310 (Electronic)
+VI  - 126
+IP  - 4
+DP  - 2020 Apr
+TI  - Decision time modulates social foraging success in wild common ravens, Corvus
+      corax.
+PG  - 413-22
+AB  - Social foraging provides several benefits for individuals but also bears the
+      potential costs of higher competition. In some species, such competition arises
+      through kleptoparasitism, that is when an animal takes food which was caught or
+      collected by a member of its social group. Except in the context of caching, few 
+      studies have investigated how individuals avoid kleptoparasitism, which could be 
+      based on physical strength/dominance but also cognitive skills. Here, we
+      investigated the foraging success of wild common ravens, Corvus corax,
+      experiencing high levels of kleptoparasitism from conspecifics when snatching
+      food from the daily feedings of captive wild boars in a game park in the Austrian
+      Alps. Success in keeping the food depended mainly on the individuals’ age class
+      and was positively correlated with the time to make a decision in whether to fly 
+      off with food or consume it on site. While the effect of age class suggests that 
+      dominant and/or experienced individuals are better in avoiding kleptoparasitism, 
+      the effect of decision time indicates that individuals benefit from applying
+      cognition to such decision‐making, independently of age class. We discuss our
+      findings in the context of the ecological and social intelligence hypotheses
+      referring to the development of cognitive abilities. We conclude that
+      investigating which factors underline kleptoparasitism avoidance is a promising
+      scenario to test specific predictions derived from these hypotheses.
+FAU - Gallego‐Abenza, Mario
+AU  - Gallego‐Abenza M
+AUID- ORCID: https://orcid.org/0000-0002-4027-5899
+AD  - Department of Cognitive BiologyUniversity of ViennaViennaAustria
+FAU - Loretto, Matthias‐Claudio
+AU  - Loretto M
+AUID- ORCID: https://orcid.org/0000-0002-1940-3470
+AD  - Department of Cognitive BiologyUniversity of ViennaViennaAustria
+FAU - Bugnyar, Thomas
+AU  - Bugnyar T
+AD  - Department of Cognitive BiologyUniversity of ViennaViennaAustria
+LA  - eng
+PT  - Journal Article
+DEP - 20191124
+GR  - P29705
+PHST- 2019/07/17 [received]
+PHST- 2019/10/30 [revised]
+PHST- 2019/10/31 [accepted]
+TA  - Ethology
+JT  - Ethology
+AID - 10.1111/eth.12986 [doi]
+AID - ETH12986 [pii]
+SO  - Ethology. 2020 Apr;126(4):413-22. Epub 2019 Nov 24 doi:10.1111/eth.12986.
+
+PMC - PMC6821065
+PMID- 31665148
+IS  - 1932-6203 (Electronic)
+VI  - 14
+IP  - 10
+DP  - 2019
+TI  - The causality of borrowing: Lexical loans in Eurasian languages.
+LID - e0223588
+AB  - All languages borrow words from other languages. Some languages are more prone to
+      borrowing, while others borrow less, and different domains of the vocabulary are 
+      unequally susceptible to borrowing. Languages typically borrow words when a new
+      concept is introduced, but languages may also borrow a new word for an already
+      existing concept. Linguists describe two causalities for borrowing: need, i.e.,
+      the internal pressure of borrowing a new term for a concept in the language, and 
+      prestige, i.e., the external pressure of borrowing a term from a more prestigious
+      language. We investigate lexical loans in a dataset of 104 concepts in 115
+      Eurasian languages from 7 families occupying a coherent contact area of the
+      Eurasian landmass, of which Indo-European languages from various periods
+      constitute a majority. We use a cognacy-coded dataset, which identifies loan
+      events including a source and a target language. To avoid loans for newly
+      introduced concepts in languages, we use a list of lexical concepts that have
+      been in use at least since the Chalcolithic (4000–3000 BCE). We observe that the 
+      rates of borrowing are highly variable among concepts, lexical domains,
+      languages, language families, and time periods. We compare our results to those
+      of a global sample and observe that our rates are generally lower, but that the
+      rates between the samples are significantly correlated. To test the causality of 
+      borrowing, we use two different ranks. Firstly, to test need, we use a cultural
+      ranking of concepts by their mobility (of nature items) or their labour intensity
+      and “distance-from-hearth” (of culture items). Secondly, to test prestige, we use
+      a power ranking of languages by their socio-cultural status. We conclude that the
+      borrowability of concepts increases with increasing mobility (nature), and with
+      increased labour intensity and “distance-from-hearth” (culture). We also conclude
+      that language prestige is not correlated with borrowability in general (all
+      languages borrow, independently of prestige), but prestige predicts the
+      directionality of borrowing, from a more prestigious language to a less
+      prestigious one. The process is not constant over time, with a larger inequality 
+      during the ancient and modern periods, but this result may depend on the status
+      of the data (non-prestigious languages often remain unattested). In conclusion,
+      we observe that need and prestige compete as causes of lexical borrowing.
+FAU - Carling, Gerd
+AU  - Carling G
+AUID- ORCID: 0000-0002-9190-9724
+AD  - Centre for Languages and Literature, Lund University, Lund, Sweden
+FAU - Cronhamn, Sandra
+AU  - Cronhamn S
+AD  - Centre for Languages and Literature, Lund University, Lund, Sweden
+FAU - Farren, Robert
+AU  - Farren R
+AD  - Centre for Languages and Literature, Lund University, Lund, Sweden
+FAU - Aliyev, Elnur
+AU  - Aliyev E
+AD  - Centre for Languages and Literature, Lund University, Lund, Sweden
+FAU - Frid, Johan
+AU  - Frid J
+AD  - Centre for Languages and Literature, Lund University, Lund, Sweden
+LA  - eng
+PT  - Journal Article
+DEP - 20191030
+GR  - MAW 2012.0095
+PHST- 2019/04/09 [received]
+PHST- 2019/09/24 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0223588 [doi]
+AID - PONE-D-19-10133 [pii]
+SO  - PLoS One. 2019 Oct 30;14(10):. doi:10.1371/journal.pone.0223588.
+
+PMC - PMC6716804
+PMID- 31464621
+IS  - 1471-2458 (Electronic)
+VI  - 19
+DP  - 2019
+TI  - Compliance with water advisories after water outages in Norway.
+LID - 1188
+AB  - Background: Water advisories, especially those concerning boiling drinking water,
+      are widely used to reduce risks of infection from contaminants in the water
+      supply. Since the effectiveness of boil water advisories (BWAs) depends on public
+      compliance, monitoring the public response to such advisories is essential for
+      protecting human health. However, assessments of public compliance with BWAs
+      remain sparse. Thus, this study was aimed at investigating awareness and
+      compliance among residents who had received BWAs in Baerum municipality in
+      Norway. Method: We conducted a cross-sectional study among 2764 residents who had
+      received water advisories by SMS in the municipality of Baerum between January
+      and September 2017. We analysed data from two focus group discussions and an
+      online survey sent to all residents who had received an advisory. We conducted
+      descriptive analyses and calculated odds ratios (OR) using logistic regression to
+      identify associations of compliance and awareness with demographic
+      characteristics. Results: Of the 611 respondents, 67% reported that they had
+      received a water advisory notification. Effective compliance rate with safe
+      drinking water practices, either by storing clean drinking water or boiling tap
+      water, after a water outage was 72% among those who remembered receiving a
+      notification. Compliance with safe drinking water advisories was lower among men 
+      than women (OR 0.53, 95% CI 0.29–0.96), but was independent of age, education and
+      household type. The main reason for respondents’ non-compliance with safe water
+      practices was that they perceived the water to be safe to drink after letting it 
+      flush through the tap until it became clear. Conclusions: Awareness of advisories
+      was suboptimal among residents who had received notifications, but compliance was
+      high. The present study highlights the need to improve the distribution, phrasing
+      and content of water advisory notifications to achieve greater awareness and
+      compliance. Future studies should include hard-to-reach groups with adequate data
+      collection approaches and examine the use of BWAs in a national context to inform
+      future policies on BWAs. Electronic supplementary material: The online version of
+      this article (10.1186/s12889-019-7504-8) contains supplementary material, which
+      is available to authorized users.
+FAU - Hyllestad, Susanne
+AU  - Hyllestad S
+AUID- ORCID: 0000-0002-4282-5380
+AD  - 0000 0001 1541 4204grid.418193.6Department of Zoonotic, Food- and Waterborne
+      Infections, Norwegian Institute of Public Health, Oslo, Norway
+FAU - Veneti, Lamprini
+AU  - Veneti L
+AD  - 0000 0001 1541 4204grid.418193.6Department of Zoonotic, Food- and Waterborne
+      Infections, Norwegian Institute of Public Health, Oslo, Norway
+FAU - Bugge, Annechen Bahr
+AU  - Bugge AB
+AD  - Consumption Research Norway, Oslo Metropolitan University, Oslo, Norway
+FAU - Rosenberg, Thea Grav
+AU  - Rosenberg TG
+AD  - Consumption Research Norway, Oslo Metropolitan University, Oslo, Norway
+FAU - Nygård, Karin
+AU  - Nygård K
+AD  - 0000 0001 1541 4204grid.418193.6Department of Zoonotic, Food- and Waterborne
+      Infections, Norwegian Institute of Public Health, Oslo, Norway
+FAU - Aavitsland, Preben
+AU  - Aavitsland P
+AD  - 0000 0001 1541 4204grid.418193.6Department of Zoonotic, Food- and Waterborne
+      Infections, Norwegian Institute of Public Health, Oslo, Norway
+LA  - eng
+PT  - Journal Article
+DEP - 20190829
+PHST- 2018/12/18 [received]
+PHST- 2019/08/15 [accepted]
+TA  - BMC Public Health
+JT  - BMC Public Health
+AID - 7504 [pii]
+AID - 10.1186/s12889-019-7504-8 [doi]
+SO  - BMC Public Health. 2019 Aug 29;19:. doi:10.1186/s12889-019-7504-8.
+
+PMC - PMC6714966
+PMID- 31523516
+IS  - 2167-8359 (Electronic)
+VI  - 7
+DP  - 2019
+TI  - The association between evidence of a predator threat and responsiveness to alarm
+      calls in Western Australian magpies (Cracticus tibicen dorsalis).
+LID - e7572
+AB  - Alarm calls are a widespread form of antipredator defence and being alerted to
+      the presence of predators by the alarm calls of conspecifics is considered one of
+      the benefits of group living. However, while social information can allow an
+      individual to gain additional information, it can also at times be inaccurate or 
+      irrelevant. Such variation in the accuracy of social information is predicted to 
+      select for receivers to discriminate between sources of social information. In
+      this study, we used playback experiments to determine whether Western Australian 
+      magpies (Cracticus tibicen dorsalis) respond to the predator information
+      associated with alarm calls. Magpies were exposed to the alarm calls of two group
+      members that differed in the threat associated with the alarm call: one call was 
+      played in the presence of a predator model while the other was not—in order to
+      establish differences in the predator information provided by each caller. We
+      then played back the alarm calls of the same group members in the absence of the 
+      predator model to determine whether magpies responded differently to signallers
+      in response to the previous association between the alarm call and a predator
+      threat. We found that receivers showed significantly greater levels of
+      responsiveness to signallers that previously gave alarm calls in the appropriate 
+      context. Thus, the accuracy of threat-based information influenced subsequent
+      receiver response.
+FAU - Silvestri, Annabel
+AU  - Silvestri A
+FAU - Morgan, Kate
+AU  - Morgan K
+FAU - Ridley, Amanda R.
+AU  - Ridley AR
+AUID- ORCID: 0000-0001-5886-0992
+LA  - eng
+PT  - Journal Article
+DEP - 20190826
+PHST- 2019/01/25 [received]
+PHST- 2019/07/29 [accepted]
+TA  - PeerJ
+JT  - PeerJ
+AID - 7572 [pii]
+AID - 10.7717/peerj.7572 [doi]
+SO  - PeerJ. 2019 Aug 26;7:. doi:10.7717/peerj.7572.
+
+PMC - PMC6813942
+PMID- 31666967
+IS  - 2053-9711 (Electronic)
+VI  - 6
+IP  - 1
+DP  - 2019 Oct
+TI  - CRISPR’d babies: human germline genome editing in the ‘He Jiankui affair’*.
+PG  - 111-83
+AB  - The world was shocked in Nov. 25, 2018 by the revelation that He Jiankui had used
+      clustered regularly interspaced short palindromic repeats (‘CRISPR’) to edit
+      embryos—two of which had, sometime in October, become living babies. This article
+      is an effort to provide some deep context for the He Jiankui affair and to begin 
+      analyzing it. It focuses on He's experiment, without delving into the broader
+      ethical issues around ‘human germline genome editing’ in the abstract. It begins 
+      by carefully defining ‘human germline genome editing’. It then describes the
+      little we know about the experiment before providing background on CRISPR, the
+      pre-He ethical and legal status of human germline genome editing, and on He
+      himself. The fourth, and longest, section provides a detailed narrative of the
+      revelation of the He experiment and its fallout. The fifth section critiques the 
+      experiment, which I believe merits unequivocal condemnation on several grounds.
+      The last section suggests some important immediate reactions, by ‘Science’ and by
+      China.
+FAU - Greely, Henry T
+AU  - Greely HT
+AUID- ORCID: 0000-0002-1105-6734
+AD  - Stanford University
+LA  - eng
+PT  - Journal Article
+DEP - 20190813
+PHST- 2019/05/22 [accepted]
+PHST- 2019/04/05 [received]
+TA  - J Law Biosci
+JT  - Journal of Law and the Biosciences
+AID - 10.1093/jlb/lsz010 [doi]
+AID - lsz010 [pii]
+SO  - J Law Biosci. 2019 Aug 13;6(1):111-83. doi:10.1093/jlb/lsz010.
+
+PMC - PMC6667121
+PMID- 31361744
+IS  - 1544-9173 (Print)
+IS  - 1545-7885 (Electronic)
+VI  - 17
+IP  - 7
+DP  - 2019 Jul
+TI  - Ancient RNA from Late Pleistocene permafrost and historical canids shows
+      tissue-specific transcriptome survival.
+LID - e3000166
+AB  - While sequencing ancient DNA (aDNA) from archaeological material is now
+      commonplace, very few attempts to sequence ancient transcriptomes have been made,
+      even from typically stable deposition environments such as permafrost. This is
+      presumably due to assumptions that RNA completely degrades relatively quickly,
+      particularly when dealing with autolytic, nuclease-rich mammalian tissues.
+      However, given the recent successes in sequencing ancient RNA (aRNA) from various
+      sources including plants and animals, we suspect that these assumptions may be
+      incorrect or exaggerated. To challenge the underlying dogma, we generated shotgun
+      RNA data from sources that might normally be dismissed for such study. Here, we
+      present aRNA data generated from two historical wolf skins, and
+      permafrost-preserved liver tissue of a 14,300-year-old Pleistocene canid. Not
+      only is the latter the oldest RNA ever to be sequenced, but it also shows
+      evidence of biologically relevant tissue specificity and close similarity to
+      equivalent data derived from modern-day control tissue. Other hallmarks of RNA
+      sequencing (RNA-seq) data such as exon-exon junction presence and high endogenous
+      ribosomal RNA (rRNA) content confirms our data’s authenticity. By performing
+      independent technical library replicates using two high-throughput sequencing
+      platforms, we show not only that aRNA can survive for extended periods in
+      mammalian tissues but also that it has potential for tissue identification. aRNA 
+      also has possible further potential, such as identifying in vivo genome activity 
+      and adaptation, when sequenced using this technology.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Smith, Oliver
+AU  - Smith O
+AUID- ORCID: 0000-0002-0146-9244
+AD  - Section for Evogenomics, The Globe Institute, Faculty of Health and Medical
+      Sciences, University of Copenhagen, Copenhagen, Denmark
+FAU - Dunshea, Glenn
+AU  - Dunshea G
+AUID- ORCID: 0000-0002-8683-0181
+AD  - Section for Evogenomics, The Globe Institute, Faculty of Health and Medical
+      Sciences, University of Copenhagen, Copenhagen, Denmark
+FAU - Sinding, Mikkel-Holger S.
+AU  - Sinding MHS
+AUID- ORCID: 0000-0003-1371-219X
+AD  - Section for Evogenomics, The Globe Institute, Faculty of Health and Medical
+      Sciences, University of Copenhagen, Copenhagen, Denmark
+FAU - Fedorov, Sergey
+AU  - Fedorov S
+AD  - Mammoth Museum, Institute of Applied Ecology of the North of the North-Eastern
+      Federal University, Yakutsk, Russia
+FAU - Germonpre, Mietje
+AU  - Germonpre M
+AUID- ORCID: 0000-0001-8865-0937
+AD  - Directorate Earth and History of Life, Royal Belgian Institute of Natural
+      Science, Brussels, Belgium
+FAU - Bocherens, Hervé
+AU  - Bocherens H
+AUID- ORCID: 0000-0002-0494-0126
+AD  - Department of Geosciences, Palaeobiology, University of Tübingen, Tübingen,
+      Germany
+FAU - Gilbert, M. T. P.
+AU  - Gilbert MTP
+AUID- ORCID: 0000-0002-5805-7195
+AD  - Section for Evogenomics, The Globe Institute, Faculty of Health and Medical
+      Sciences, University of Copenhagen, Copenhagen, Denmark
+LA  - eng
+PT  - Journal Article
+DEP - 20190730
+GR  - 704254
+PHST- 2019/01/28 [received]
+PHST- 2019/06/25 [accepted]
+TA  - PLoS Biol
+JT  - PLoS Biology
+AID - 10.1371/journal.pbio.3000166 [doi]
+AID - PBIOLOGY-D-19-00243 [pii]
+SO  - PLoS Biol. 2019 Jul 30;17(7):. doi:10.1371/journal.pbio.3000166.
+
+PMC - PMC7328775
+PMID- 32647746
+IS  - 2367-0134 (Print)
+IS  - 2367-0142 (Electronic)
+VI  - 3
+IP  - 3
+DP  - 2019
+TI  - Stress as Offense to Self: a Promising Approach Comes of Age.
+PG  - 205-38
+AB  - Stress is related to goals being thwarted. Arguably, protecting one’s self, both 
+      in terms of personal self-esteem and in terms of social self-esteem, is among the
+      most prominent goals people pursue. Although this line of thought is hardly
+      disputed, it does not play the prominent role in occupational health psychology
+      that we think it deserves. Stress-as-Offense-to-Self theory focuses on threats
+      and boosts to the self as important aspects of stressful, and resourceful,
+      experiences at work. Within this framework we have developed the new concepts of 
+      illegitimate tasks and illegitimate stressors; we have investigated appreciation 
+      as a construct in its own right, rather than as part of larger constructs such as
+      social support; and we propose that the threshold for noticing implications for
+      the self in one’s surroundings typically is low, implying that even subtle
+      negative cues are likely to be appraised as offending, as exemplified by the
+      concept of subtly offending feedback. Updating the first publication of the SOS
+      concept, the current paper presents its theoretical rationale as well as research
+      conducted so far. Research has covered a variety of phenomena, but the emphasis
+      has been (a) on illegitimate tasks, which now can be considered as an established
+      stressor, and (b) on appreciation, showing its importance in general and as a
+      core element of social support. Furthermore, we discuss implications for further 
+      research as well as practical implications of an approach that is organized
+      around threats and boosts to the self, thus complementing approaches that are
+      organized around specific conditions or behaviors.
+FAU - Semmer, Norbert K.
+AU  - Semmer NK
+AUID- ORCID: 0000-0002-7686-6914
+AD  - grid.5734.50000 0001 0726 5157Department of Psychology, University of Bern,
+      Fabrikstr. 8, 3012 Bern, Switzerland
+FAU - Tschan, Franziska
+AU  - Tschan F
+AD  - grid.10711.360000 0001 2297 7718Institut de Psychologie du Travail et des
+      Organisations, University of Neuchâtel, Rue Emile-Argand 11, 2000 Neuchâtel,
+      Switzerland
+FAU - Jacobshagen, Nicola
+AU  - Jacobshagen N
+AD  - grid.5734.50000 0001 0726 5157Department of Psychology, University of Bern,
+      Fabrikstr. 8, 3012 Bern, Switzerland
+FAU - Beehr, Terry A.
+AU  - Beehr TA
+AD  - grid.253856.f0000 0001 2113 4110Central Michigan University, Sloan Hall 233,
+      Mount Pleasant, MI 48859 USA
+FAU - Elfering, Achim
+AU  - Elfering A
+AD  - grid.5734.50000 0001 0726 5157Department of Psychology, University of Bern,
+      Fabrikstr. 8, 3012 Bern, Switzerland
+FAU - Kälin, Wolfgang
+AU  - Kälin W
+AD  - grid.5734.50000 0001 0726 5157Department of Psychology, University of Bern,
+      Fabrikstr. 8, 3012 Bern, Switzerland
+FAU - Meier, Laurenz L.
+AU  - Meier LL
+AD  - grid.10711.360000 0001 2297 7718Institut de Psychologie du Travail et des
+      Organisations, University of Neuchâtel, Rue Emile-Argand 11, 2000 Neuchâtel,
+      Switzerland
+LA  - eng
+PT  - Journal Article
+DEP - 20190701
+GR  - 114-068280; 100011-105538
+GR  - 304
+PHST- 2019/02/23 [received]
+PHST- 2019/05/20 [revised]
+PHST- 2019/05/30 [accepted]
+TA  - Occup Health Sci
+JT  - Occupational Health Science
+AID - 41 [pii]
+AID - 10.1007/s41542-019-00041-5 [doi]
+SO  - Occup Health Sci. 2019;3(3):205-38. Epub 2019 Jul 1
+      doi:10.1007/s41542-019-00041-5.
+
+PMC - PMC7163688
+IS  - 2380-6567 (Electronic)
+VI  - 5
+IP  - 1
+DP  - 2019 Spring
+TI  - The Multilevel Regulation of Complex Policy Problems: Uncertainty and the Swine
+      Flu Pandemic.
+PG  - 80-98
+AB  - This article aims at understanding the challenges of tackling complex policy
+      problems in multilevel governance. In order to better grasp the multilevel
+      regulation of complex policy problems, it is needed to understand how uncertainty
+      and scientific expertise are dealt with. We investigate this via the regulation
+      of pandemics by the EU and the WHO, with the H1N1 pandemic of 2009 as critical
+      case. The analysis of the multilevel practice reveals that the attitude toward
+      uncertainty fundamentally differed between the global (WHO) and the European
+      level. At the global level a classic speaking truth to power approach involved
+      the denial of uncertainty, while at the EU level the assigned role of providing
+      scientific expertise was interpreted as a necessity to openly communicate about
+      uncertainty. While the global approach was heavily criticized, the uncertainty
+      communication at the European level was much appreciated.
+OAB - Publisher: Abstract available from the publisher.
+OABL- spa
+OAB - Publisher: Abstract available from the publisher.
+OABL- chi
+FAU - Versluis, Esther
+AU  - Versluis E
+AUID- ORCID: https://orcid.org/0000-0003-4659-1101
+FAU - van Asselt, Marjolein
+AU  - van Asselt M
+FAU - Kim, Jinhee
+AU  - Kim J
+LA  - eng
+PT  - Journal Article
+DEP - 20190502
+JT  - European Policy Analysis
+AID - 10.1002/epa2.1064 [doi]
+AID - EPA21064 [pii]
+SO  - . 2019 Spring;5(1):80-98. Epub 2019 May 02 doi:10.1002/epa2.1064.
+
+PMC - PMC6850348
+PMID- 30742707
+IS  - 0272-4332 (Print)
+IS  - 1539-6924 (Electronic)
+VI  - 39
+IP  - 7
+DP  - 2019 Jul
+TI  - Null Hypothesis Testing ≠ Scientific Inference: A Critique of the Shaky Premise
+      at the Heart of the Science and Values Debate, and a Defense of Value‐Neutral
+      Risk Assessment.
+PG  - 1520-32
+AB  - Many philosophers and statisticians argue that risk assessors are morally
+      obligated to evaluate the probabilities and consequences of methodological error,
+      and to base their decisions of whether to adopt a given parameter value, model,
+      or hypothesis on those considerations. This argument is couched within the rubric
+      of null hypothesis testing, which I suggest is a poor descriptive and normative
+      model for risk assessment. Risk regulation is not primarily concerned with
+      evaluating the probability of data conditional upon the null hypothesis, but
+      rather with measuring risks, estimating the consequences of available courses of 
+      action and inaction, formally characterizing uncertainty, and deciding what to do
+      based upon explicit values and decision criteria. In turn, I defend an ideal of
+      value‐neutrality, whereby the core inferential tasks of risk assessment—such as
+      weighing evidence, estimating parameters, and model selection—should be guided by
+      the aim of correspondence to reality. This is not to say that value judgments be 
+      damned, but rather that they should be accounted for within a structured approach
+      to decision analysis, rather than embedded within risk assessment in an informal 
+      manner.
+FAU - MacGillivray, Brian H.
+AU  - MacGillivray BH
+LA  - eng
+PT  - Journal Article
+DEP - 20190211
+GR  - NE/N012240/1
+PHST- 2017/11/29 [received]
+PHST- 2018/10/26 [revised]
+PHST- 2018/12/10 [accepted]
+TA  - Risk Anal
+JT  - Risk Analysis
+AID - 10.1111/risa.13284 [doi]
+AID - RISA13284 [pii]
+SO  - Risk Anal. 2019 Jul;39(7):1520-32. Epub 2019 Feb 11 doi:10.1111/risa.13284.
+
+PMC - PMC6231604
+PMID- 30419012
+IS  - 1553-7390 (Print)
+IS  - 1553-7404 (Electronic)
+VI  - 14
+IP  - 11
+DP  - 2018 Nov
+TI  - Population genomics of grey wolves and wolf-like canids in North America.
+LID - e1007745
+AB  - North America is currently home to a number of grey wolf (Canis lupus) and
+      wolf-like canid populations, including the coyote (Canis latrans) and the
+      taxonomically controversial red, Eastern timber and Great Lakes wolves. We
+      explored their population structure and regional gene flow using a dataset of 40 
+      full genome sequences that represent the extant diversity of North American
+      wolves and wolf-like canid populations. This included 15 new genomes (13 North
+      American grey wolves, 1 red wolf and 1 Eastern timber/Great Lakes wolf), ranging 
+      from 0.4 to 15x coverage. In addition to providing full genome support for the
+      previously proposed coyote-wolf admixture origin for the taxonomically
+      controversial red, Eastern timber and Great Lakes wolves, the discriminatory
+      power offered by our dataset suggests all North American grey wolves, including
+      the Mexican form, are monophyletic, and thus share a common ancestor to the
+      exclusion of all other wolves. Furthermore, we identify three distinct
+      populations in the high arctic, one being a previously unidentified “Polar wolf” 
+      population endemic to Ellesmere Island and Greenland. Genetic diversity analyses 
+      reveal particularly high inbreeding and low heterozygosity in these Polar wolves,
+      consistent with long-term isolation from the other North American wolves.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Sinding, Mikkel-Holger S.
+AU  - Sinding MHS
+AUID- ORCID: 0000-0003-1371-219X
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Gopalakrishan, Shyam
+AU  - Gopalakrishan S
+AUID- ORCID: 0000-0002-2004-6810
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Vieira, Filipe G.
+AU  - Vieira FG
+AUID- ORCID: 0000-0002-8464-7770
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Samaniego Castruita, Jose A.
+AU  - Samaniego Castruita JA
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Raundrup, Katrine
+AU  - Raundrup K
+AUID- ORCID: 0000-0002-2110-3709
+AD  - Greenland Institute of Natural Resources, Kivioq 2, Nuuk, Greenland
+FAU - Heide Jørgensen, Mads Peter
+AU  - Heide Jørgensen MP
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Meldgaard, Morten
+AU  - Meldgaard M
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Petersen, Bent
+AU  - Petersen B
+AUID- ORCID: 0000-0002-2472-8317
+AD  - DTU Bioinformatics, Department of Bio and Health Informatics, Technical
+      University of Denmark, Lyngby, Denmark
+FAU - Sicheritz-Ponten, Thomas
+AU  - Sicheritz-Ponten T
+AUID- ORCID: 0000-0001-6615-1141
+AD  - DTU Bioinformatics, Department of Bio and Health Informatics, Technical
+      University of Denmark, Lyngby, Denmark
+FAU - Mikkelsen, Johan Brus
+AU  - Mikkelsen JB
+AD  - Sirius Dog Sled Patrol, Daneborg, Slædepatruljen SIRIUS, Greenland
+FAU - Marquard-Petersen, Ulf
+AU  - Marquard-Petersen U
+AD  - Greenland Wolf Research Program, Anchorage, AK, United States of America
+FAU - Dietz, Rune
+AU  - Dietz R
+AD  - Department of Bioscience, Arctic Research Centre (ARC), Faculty of Science and
+      Technology, Aarhus University, Frederiksborgvej 399, Roskilde, Denmark
+FAU - Sonne, Christian
+AU  - Sonne C
+AD  - Department of Bioscience, Arctic Research Centre (ARC), Faculty of Science and
+      Technology, Aarhus University, Frederiksborgvej 399, Roskilde, Denmark
+FAU - Dalén, Love
+AU  - Dalén L
+AD  - Department of Bioinformatics and Genetics, Swedish Museum of Natural History,
+      Stockholm, Sweden
+FAU - Bachmann, Lutz
+AU  - Bachmann L
+AD  - Natural History Museum, University of Oslo, Blindern, Oslo, Norway
+FAU - Wiig, Øystein
+AU  - Wiig Ø
+AD  - Natural History Museum, University of Oslo, Blindern, Oslo, Norway
+FAU - Hansen, Anders J.
+AU  - Hansen AJ
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+FAU - Gilbert, M. Thomas P.
+AU  - Gilbert MTP
+AD  - Centre for GeoGenetics, Natural History Museum of Denmark, University of
+      Copenhagen, Copenhagen, Denmark
+LA  - eng
+PT  - Journal Article
+DEP - 20181112
+GR  - 681396
+PHST- 2018/05/30 [received]
+PHST- 2018/10/06 [accepted]
+TA  - PLoS Genet
+JT  - PLoS Genetics
+AID - 10.1371/journal.pgen.1007745 [doi]
+AID - PGENETICS-D-18-01091 [pii]
+SO  - PLoS Genet. 2018 Nov 12;14(11):. doi:10.1371/journal.pgen.1007745.
+
+PMC - PMC6145983
+PMID- 30012810
+IS  - 0960-1643 (Print)
+IS  - 1478-5242 (Electronic)
+VI  - 68
+IP  - 675
+DP  - 2018 Oct
+TI  - Now Gosport: what next?
+PG  - 460-1
+FAU - Pocock, Lucy
+AU  - Pocock L
+FAU - Forbes, Karen
+AU  - Forbes K
+FAU - Reid, Colette
+AU  - Reid C
+FAU - Purdy, Sarah
+AU  - Purdy S
+LA  - eng
+PT  - Journal Article
+PT  - Editorial
+TA  - Br J Gen Pract
+JT  - The British Journal of General Practice
+AID - 10.3399/bjgp18X698393 [doi]
+SO  - Br J Gen Pract. 2018 Oct;68(675):460-1. doi:10.3399/bjgp18X698393.
+
+PMC - PMC6818435
+PMID- 31984056
+IS  - 1321-8719 (Print)
+IS  - 1934-1687 (Electronic)
+VI  - 25
+IP  - 6
+DP  - 2018
+TI  - Man Haron Monis and the Sydney Lindt Café Siege – Not a Terrorist Attack.
+PG  - 839-901
+AB  - On 15 December 2014, nearly 20 years after he arrived in Australia from Iran, Man
+      Haron Monis took 18 people hostage in the Lindt Café in Sydney and announced that
+      Australia was ‘under attack by the Islamic State’. After a 16-hour siege, during 
+      which negotiators had no direct communication with him, Monis shot dead one of
+      his hostages, precipitating the police ‘emergency action’ which broke the siege. 
+      Although Monis had been a prolific user of the Internet and social media, the
+      subsequent Coroner’s inquest found that Monis made little sophisticated
+      preparation for the siege and did not announce his intention nor did he leave any
+      clear terrorist-inspired message or martyrdom video. Other than demanding a
+      debate with the Prime Minister on radio and have the Islamic State flag delivered
+      to the café, Monis made no specific terrorist demands. At the time of the siege, 
+      Monis was also on bail, charged with multiple sex offences against women, alleged
+      to have been committed whilst he held himself out as a ‘spiritual healer’. Monis 
+      was also charged with being an accessory to the murder of his former partner and 
+      had recently failed to obtain custody of his two Australian born children. His
+      professed status as a Shi’a Muslim cleric was fraudulent, and forensic
+      examination of his use of the Internet and social media found no evidence that
+      Monis ever had any contact with Islamic State or any other terrorist organisation
+      and that on the day before the siege, he had only 12 followers on Twitter. The
+      evidence does not support the conclusion that Monis suddenly ‘radicalised’ and
+      committed an act of terrorism. Instead, the evidence shows that Monis was a
+      malignant narcissist whose behaviour can better be formulated as lone-actor
+      grievance-fuelled violence.
+FAU - Scott, Russ
+AU  - Scott R
+AD  - Forensic Psychiatrist, The Park – Centre for Mental Health, Wacol, Brisbane,
+      Australia;
+FAU - Shanahan, Rodger
+AU  - Shanahan R
+AD  - Research Fellow, Lowy Institute, Sydney, Australia
+LA  - eng
+PT  - Journal Article
+DEP - 20180905
+TA  - Psychiatr Psychol Law
+JT  - Psychiatry, Psychology, and Law
+AID - 10.1080/13218719.2018.1479941 [doi]
+AID - 1479941 [pii]
+SO  - Psychiatr Psychol Law. 2018 Sep 5;25(6):839-901.
+      doi:10.1080/13218719.2018.1479941.
+
+PMC - PMC7122203
+TI  - A Stakeholder Approach to Risk Management.
+PG  - 53-75
+AB  - In crisis management, risk management has been conceived mainly as a proactive
+      pre-crisis management effort where it is deployed for crisis prevention and
+      preparedness efforts. This chapter argues that risk management extends into the
+      entire crisis management continuum, as crises ignite new types of risks with
+      their associated stakeholders. Organizations should continually identify, manage 
+      and communicate risks to key stakeholders during the different phases of crisis
+      management. A stakeholder orientation demands that organizations seek and involve
+      risk stakeholders in the risk management process. The level of involvement will
+      depend on both the identified risks and how stakeholders are expected to be
+      affected by the proposed solutions and decision-making processes.
+FAU - Ndlela, Martin N.
+AU  - Ndlela MN
+AD  - grid.477237.2Inland School of Business and Social Sciences, Inland Norway
+      University of Applied Sciences, Elverum, Norway
+LA  - eng
+PT  - Journal Article
+DEP - 20180829
+TA  - Crisis Communication
+JT  - Crisis Communication
+AID - 4 [pii]
+AID - 10.1007/978-3-319-97256-5_4 [doi]
+SO  - Crisis Communication. ;:53-75. doi:10.1007/978-3-319-97256-5_4.
+
+PMC - PMC6070995
+PMID- 29954072
+IS  - 2076-328X (Electronic)
+VI  - 8
+IP  - 7
+DP  - 2018 Jul
+TI  - “Good Guys Don’t Rape”: Greek and Non-Greek College Student Perpetrator Rape
+      Myths.
+LID - 60
+AB  - The current study examined sexual assault perpetrator rape myths among college
+      students, and in particular Greek students. Fraternity men are overrepresented
+      among sexual assault perpetrators, while sorority women are at increased risk for
+      victimization of sexual assault. The current study examined Greek-affiliated and 
+      non-Greek-affiliated perceptions of perpetrator rape myths among 892 college
+      students; 58% of the sample was Greek-affiliated. Men and Greek-affiliated
+      students reported higher agreement on stereotypes than women and
+      non-Greek-affiliated students regarding perpetrator rape myths. Specifically,
+      fraternity men reported higher stereotypical perceptions compared to all women
+      and non-affiliated men, while there was no difference between sorority and
+      non-affiliated women.
+FAU - Martinez, Taylor
+AU  - Martinez T
+AD  - School of Human Environmental Sciences, University of Arkansas, Fayetteville, AR 
+      72701, USA; taymartinez19@gmail.com (T.M.); becnel@uark.edu (J.B.)
+FAU - Wiersma-Mosley, Jacquelyn D.
+AU  - Wiersma-Mosley JD
+AD  - School of Human Environmental Sciences, University of Arkansas, Fayetteville, AR 
+      72701, USA; taymartinez19@gmail.com (T.M.); becnel@uark.edu (J.B.)
+FAU - Jozkowski, Kristen N.
+AU  - Jozkowski KN
+AD  - The Department of Health, Human Performance, and Recreation, University of
+      Arkansas, Fayetteville, AR 72701, USA; kjozkows@uark.edu
+FAU - Becnel, Jennifer
+AU  - Becnel J
+AD  - School of Human Environmental Sciences, University of Arkansas, Fayetteville, AR 
+      72701, USA; taymartinez19@gmail.com (T.M.); becnel@uark.edu (J.B.)
+LA  - eng
+PT  - Journal Article
+DEP - 20180627
+PHST- 2018/03/12 [received]
+PHST- 2018/06/22 [accepted]
+TA  - Behav Sci (Basel)
+JT  - Behavioral Sciences
+AID - 10.3390/bs8070060 [doi]
+AID - behavsci-08-00060 [pii]
+SO  - Behav Sci (Basel). 2018 Jun 27;8(7):. doi:10.3390/bs8070060.
+
+PMC - PMC5956043
+PMID- 29780694
+IS  - 2214-594X (Electronic)
+VI  - 6
+IP  - 1
+DP  - 2018
+TI  - Towards a new way of interacting? Pondering the role of an interpersonal ethos.
+LID - 12
+AB  - Both multiculturalism and interculturalism strive for the creation of a
+      well-ordered society in which the integration of all citizens is realized. This
+      shared ambition, however, can only be realized if the quality of the social
+      relationships is deeply considered. By proposing the concept of 'interpersonal
+      ethos' it is explained why and how the way ordinary people socially interact
+      across ethnocultural and religious diversity shapes the stability, success and
+      fairness of a super diverse society.
+FAU - Levrau, François
+AU  - Levrau F
+AD  - 0000 0001 0790 3681grid.5284.bUniversity of Antwerp, Prinsstraat 13, 2000
+      Antwerp, Belgium
+LA  - eng
+PT  - Journal Article
+PT  - Letter
+DEP - 20180517
+PHST- 2017/12/04 [received]
+PHST- 2018/01/21 [accepted]
+TA  - Comp Migr Stud
+JT  - Comparative Migration Studies
+AID - 81 [pii]
+AID - 10.1186/s40878-018-0081-7 [doi]
+SO  - Comp Migr Stud. 2018;6(1):. Epub 2018 May 17 doi:10.1186/s40878-018-0081-7.
+
+PMC - PMC6402778
+PMID- 30853744
+IS  - 0268-7038 (Print)
+IS  - 1464-5041 (Electronic)
+VI  - 33
+IP  - 2
+DP  - 2019
+TI  - Use of co-verbal gestures during word-finding difficulty among Cantonese speakers
+      with fluent aphasia and unimpaired controls.
+PG  - 216-33
+AB  - Background: Co-verbal gestures refer to hand or arm movements made during
+      speaking. Spoken language and gestures have been shown to be tightly integrated
+      in human communication. Aims: The present study investigated whether co-verbal
+      gesture use was associated with lexical retrieval in connected speech in
+      unimpaired speakers and persons with aphasia (PWA). Methods & Procedures:
+      Narrative samples of 58 fluent PWA and 58 control speakers were extracted from
+      Cantonese AphasiaBank. Based on the indicators of word-finding difficulty (WFD)
+      in connected speech adapted from previous research, and a gesture annotation
+      system with independent coding of gesture forms and functions, all WFD instances 
+      were identified. The presence and type of gestures accompanying each incident of 
+      WFD were then annotated. Finally, whether the use of gesture was accompanied by
+      resolution of WFD, i.e., the corresponding target word could be retrieved, was
+      examined. Outcomes & Results: Employment of co-verbal gesture did not seem to be 
+      related to the success of word retrieval. PWA’s naming ability at single-word
+      level and their overall language ability (as reflected by the aphasia quotient of
+      the Cantonese version of the Western Aphasia Battery) were found to be the two
+      strongest predictors of success rate of resolving WFD. Conclusions: The Lexical
+      Retrieval Hypothesis highlighting the facilitative functions of iconic and
+      metaphoric gestures in lexical retrieval was not supported. Challenges in
+      conducting research related to WFD, and the clinical implications in
+      gesture-based language intervention for PWA were discussed.
+FAU - Kong, Anthony Pak-Hin
+AU  - Kong APH
+AD  - Department of Communication Sciences and Disorders, University of Central
+      Florida, Orlando, FL, USA
+FAU - Law, Sam-Po
+AU  - Law SP
+AD  - Division of Speech and Hearing Sciences, University of Hong Kong, Hong Kong
+FAU - Cheung, Charis Ka-Yan
+AU  - Cheung CKY
+AD  - Division of Speech and Hearing Sciences, University of Hong Kong, Hong Kong
+LA  - eng
+PT  - Journal Article
+DEP - 20180416
+TA  - Aphasiology
+JT  - Aphasiology
+AID - 10.1080/02687038.2018.1463085 [doi]
+MID - NIHMS965878
+SO  - Aphasiology. 2019;33(2):216-33. Epub 2018 Apr 16
+      doi:10.1080/02687038.2018.1463085.
+
+PMC - PMC5805929
+PMID- 29386364
+IS  - 0962-8452 (Print)
+IS  - 1471-2954 (Electronic)
+VI  - 285
+IP  - 1871
+DP  - 2018 Jan 31
+TI  - Imitation of novel conspecific and human speech sounds in the killer whale
+      (Orcinus orca).
+LID - 20172171
+AB  - Vocal imitation is a hallmark of human spoken language, which, along with other
+      advanced cognitive skills, has fuelled the evolution of human culture.
+      Comparative evidence has revealed that although the ability to copy sounds from
+      conspecifics is mostly uniquely human among primates, a few distantly related
+      taxa of birds and mammals have also independently evolved this capacity.
+      Remarkably, field observations of killer whales have documented the existence of 
+      group-differentiated vocal dialects that are often referred to as traditions or
+      cultures and are hypothesized to be acquired non-genetically. Here we use a
+      do-as-I-do paradigm to study the abilities of a killer whale to imitate novel
+      sounds uttered by conspecific (vocal imitative learning) and human models (vocal 
+      mimicry). We found that the subject made recognizable copies of all familiar and 
+      novel conspecific and human sounds tested and did so relatively quickly (most
+      during the first 10 trials and three in the first attempt). Our results lend
+      support to the hypothesis that the vocal variants observed in natural populations
+      of this species can be socially learned by imitation. The capacity for vocal
+      imitation shown in this study may scaffold the natural vocal traditions of killer
+      whales in the wild.
+FAU - Abramson, José Z.
+AU  - Abramson JZ
+AUID- ORCID: 0000-0001-7106-6419
+AD  - Departamento de Psiquiatría, Facultad de Medicina and Centro Interdisciplinario
+      de Neurociencias, Pontificia Universidad Católica de Chile, Marcoleta 391,
+      Santiago, Chile
+FAU - Hernández-Lloreda, Mª Victoria
+AU  - Hernández-Lloreda MV
+AUID- ORCID: 0000-0003-0966-7453
+AD  - Departamento de Metodología de las Ciencias del Comportamiento, Facultad de
+      Psicología,
+FAU - García, Lino
+AU  - García L
+AUID- ORCID: 0000-0002-7993-8653
+AD  - Departamento de Psicobiología, Facultad de Psicología, Campus de Somosaguas,
+      Universidad Complutense de Madrid, 28223, Madrid, Spain
+FAU - Colmenares, Fernando
+AU  - Colmenares F
+AUID- ORCID: 0000-0003-0089-318X
+AD  - Grupo UCM de Psicobiología Social, Evolutiva y Comparada, Universidad Complutense
+      de Madrid, 28223, Madrid, Spain
+FAU - Aboitiz, Francisco
+AU  - Aboitiz F
+AD  - Departamento de Psiquiatría, Facultad de Medicina and Centro Interdisciplinario
+      de Neurociencias, Pontificia Universidad Católica de Chile, Marcoleta 391,
+      Santiago, Chile
+FAU - Call, Josep
+AU  - Call J
+AUID- ORCID: 0000-0002-8597-8336
+AD  - School of Psychology and Neuroscience, University of St Andrews, St Mary’s Quad, 
+      South Street, St Andrews, Fife KY16 9JP, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20180131
+GR  - (FP7/2007-2013) / ERC SOMICS n̊ 609819.
+PHST- 2017/09/28 [received]
+PHST- 2018/01/05 [accepted]
+PHST- 2018/01/31 [aheadofprint]
+TA  - Proc Biol Sci
+JT  - Proceedings of the Royal Society B: Biological Sciences
+AID - 10.1098/rspb.2017.2171 [doi]
+AID - rspb20172171 [pii]
+SO  - Proc Biol Sci. 2018 Jan 31;285(1871):. Epub 2018 Jan 31
+      doi:10.1098/rspb.2017.2171.
+
+PMC - PMC5803591
+PMID- 29343558
+IS  - 1744-9561 (Print)
+IS  - 1744-957X (Electronic)
+VI  - 14
+IP  - 1
+DP  - 2018 Jan
+TI  - Postcranial diversity and recent ecomorphic impoverishment of North American gray
+      wolves.
+LID - 20170613
+AB  - Recent advances in genomics and palaeontology have begun to unravel the complex
+      evolutionary history of the gray wolf, Canis lupus. Still, much of their
+      phenotypic variation across time and space remains to be documented. We examined 
+      the limb morphology of the fossil and modern North American gray wolves from the 
+      late Quaternary (<ca 70 ka) to better understand their postcranial diversity
+      through time. We found that the late-Pleistocene gray wolves were characterized
+      by short-leggedness on both sides of the Cordilleran–Laurentide ice sheets, and
+      that this trait survived well into the Holocene despite the collapse of
+      Pleistocene megafauna and disappearance of the ‘Beringian wolf' from Alaska. By
+      contrast, extant populations in the Midwestern USA and northwestern North America
+      are distinguished by their elongate limbs with long distal segments, which appear
+      to have evolved during the Holocene possibly in response to a new level or type
+      of prey depletion. One of the consequences of recent extirpation of the Plains
+      (Canis lupus nubilus) and Mexican wolves (C. l. baileyi) from much of the USA is 
+      an unprecedented loss of postcranial diversity through removal of short-legged
+      forms. Conservation of these wolves is thus critical to restoration of the
+      ecophenotypic diversity and evolutionary potential of gray wolves in North
+      America.
+FAU - Tomiya, Susumu
+AU  - Tomiya S
+AUID- ORCID: 0000-0001-6038-899X
+AD  - Department of Anatomy, Des Moines University, Des Moines, IA 50312, USA
+FAU - Meachen, Julie A.
+AU  - Meachen JA
+AD  - Department of Anatomy, Des Moines University, Des Moines, IA 50312, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20180117
+GR  - 1425059
+PHST- 2017/09/30 [received]
+PHST- 2017/11/30 [accepted]
+PHST- 2018/01/17 [aheadofprint]
+TA  - Biol Lett
+JT  - Biology Letters
+AID - 10.1098/rsbl.2017.0613 [doi]
+AID - rsbl20170613 [pii]
+SO  - Biol Lett. 2018 Jan;14(1):. Epub 2018 Jan 17 doi:10.1098/rsbl.2017.0613.
+
+PMC - PMC7232792
+PMID- 32432204
+IS  - 2459-3087 (Electronic)
+VI  - 3
+DP  - 2017
+TI  - Re-analysing tobacco industry funded research on the effect of plain packaging on
+      minors in Australia: Same data but different results.
+LID - 130
+AB  - INTRODUCTION: Our objective was to re-analyse the data used in an industry-funded
+      working paper to study the effect of plain packaging on youth smoking prevalence 
+      in Australia, allowing for other tobacco control measures introduced over the
+      period 2001-2013, and using a more appropriate method of analysis. METHODS:
+      Monthly smoking prevalence and sample sizes from repeat cross-sectional surveys
+      were reconstructed from the working paper by reverse engineering of the
+      industry-presented data, and analysed as a time series using logistic regression.
+      Power analysis presented in the industry-funded working paper was re-calculated. 
+      RESULTS: Smoking prevalence among minors in Australia declined from 11.6% to 5.6%
+      over the 13-year period examined; an overall 52% relative reduction or an average
+      annual reduction of 5.5% (95% confidence interval 4.6% to 6.4%). There was a
+      12.1% (-4.8% to 26.2%) relative reduction in smoking prevalence when plain
+      packaging was introduced, though the reduction was not statistically significant.
+      Re-calculated power values were much lower than those reported in the
+      industry-funded paper, confirming the inconclusiveness of its findings, as
+      pointed out in previous critiques. CONCLUSIONS: Our findings suggest a decline of
+      smoking prevalence in minors following the introduction of plain packaging in
+      Australia. They differ substantially from those presented in an industry-funded
+      study on the effects of plain packaging on smoking prevalence in minors in
+      Australia, which used the same data.
+FAU - Diethelm, Pascal A.
+AU  - Diethelm PA
+AD  - OxyRomandie, Geneva, Switzerland
+FAU - Farley, Timothy M.
+AU  - Farley TM
+AD  - Sigma3 Services, Sàrl, Nyon, Switzerland
+LA  - eng
+PT  - Journal Article
+DEP - 20171116
+PHST- 2017/06/23 [received]
+PHST- 2017/10/10 [revised]
+PHST- 2017/10/11 [accepted]
+TA  - Tob Prev Cessat
+JT  - Tobacco Prevention & Cessation
+AID - 130 [pii]
+AID - 10.18332/tpc/78508 [doi]
+SO  - Tob Prev Cessat. 2017 Nov 16;3:. doi:10.18332/tpc/78508.
+
+PMC - PMC5682293
+PMID- 29129912
+IS  - 2041-1723 (Electronic)
+VI  - 8
+DP  - 2017
+TI  - Reflective imaging improves spatiotemporal resolution and collection efficiency
+      in light sheet microscopy.
+LID - 1452
+AB  - Light-sheet fluorescence microscopy (LSFM) enables high-speed, high-resolution,
+      and gentle imaging of live specimens over extended periods. Here we describe a
+      technique that improves the spatiotemporal resolution and collection efficiency
+      of LSFM without modifying the underlying microscope. By imaging samples on
+      reflective coverslips, we enable simultaneous collection of four complementary
+      views in 250 ms, doubling speed and improving information content relative to
+      symmetric dual-view LSFM. We also report a modified deconvolution algorithm that 
+      removes associated epifluorescence contamination and fuses all views for
+      resolution recovery. Furthermore, we enhance spatial resolution (to <300 nm in
+      all three dimensions) by applying our method to single-view LSFM, permitting
+      simultaneous acquisition of two high-resolution views otherwise difficult to
+      obtain due to steric constraints at high numerical aperture. We demonstrate the
+      broad applicability of our method in a variety of samples, studying
+      mitochondrial, membrane, Golgi, and microtubule dynamics in cells and calcium
+      activity in nematode embryos.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Wu, Yicong
+AU  - Wu Y
+AUID- ORCID: 0000-0002-8819-7527
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Kumar, Abhishek
+AU  - Kumar A
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Smith, Corey
+AU  - Smith C
+AD  - 0000 0004 1936 7822grid.170205.1Department of Radiology, University of Chicago,
+      Chicago, 60637 Illinois USA
+FAU - Ardiel, Evan
+AU  - Ardiel E
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Chandris, Panagiotis
+AU  - Chandris P
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Christensen, Ryan
+AU  - Christensen R
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Rey-Suarez, Ivan
+AU  - Rey-Suarez I
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Guo, Min
+AU  - Guo M
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+FAU - Vishwasrao, Harshad D.
+AU  - Vishwasrao HD
+AD  - 0000 0001 2297 5165grid.94365.3dAdvanced Imaging and Microscopy Resource,
+      National Institutes of Health, Bethesda, 20892 Maryland USA
+FAU - Chen, Jiji
+AU  - Chen J
+AD  - 0000 0001 2297 5165grid.94365.3dAdvanced Imaging and Microscopy Resource,
+      National Institutes of Health, Bethesda, 20892 Maryland USA
+FAU - Tang, Jianyong
+AU  - Tang J
+AD  - JT Scientific Consulting LLC, North Potomac, 20878 Maryland USA
+FAU - Upadhyaya, Arpita
+AU  - Upadhyaya A
+AD  - 0000 0001 0941 7177grid.164295.dBiophysics Program, University of Maryland,
+      College Park, 02543 Maryland USA
+FAU - La Riviere, Patrick J.
+AU  - La Riviere PJ
+AD  - 0000 0004 1936 7822grid.170205.1Department of Radiology, University of Chicago,
+      Chicago, 60637 Illinois USA
+FAU - Shroff, Hari
+AU  - Shroff H
+AD  - 0000 0004 0533 5934grid.280347.aSection on High Resolution Optical Imaging,
+      National Institute of Biomedical Imaging and Bioengineering, National Institutes 
+      of Health, Bethesda, 20892 Maryland USA
+LA  - eng
+PT  - Journal Article
+DEP - 20171113
+PHST- 2017/07/31 [received]
+PHST- 2017/08/31 [accepted]
+TA  - Nat Commun
+JT  - Nature Communications
+AID - 1250 [pii]
+AID - 10.1038/s41467-017-01250-8 [doi]
+SO  - Nat Commun. 2017 Nov 13;8:. doi:10.1038/s41467-017-01250-8.
+
+PMC - PMC5605503
+PMID- 28928448
+IS  - 2045-2322 (Electronic)
+VI  - 7
+DP  - 2017
+TI  - Intact animacy perception during chase detection in ASD.
+LID - 11851
+AB  - We explored the strength of implicit social inferences in adolescents with and
+      without Autism Spectrum Disorder (ASD) using a chasing paradigm in which
+      participants judged the absence/presence of a chase within a display of four
+      seemingly randomly moving dots. While two of these dots always moved randomly,
+      the two others could fulfill the role of being either the chasing (wolf) or
+      chased (sheep) dot. In the chase-present (but not the chase-absent) trials the
+      wolf displayed chasing behavior defined by the degree to which the dot reliably
+      moved towards the sheep (chasing subtlety). Previous research indicated that
+      chasing subtlety strongly influenced chase detection in typically developing (TD)
+      adults. We intended to replicate and extend this finding to adolescents with and 
+      without ASD, while also adding either a social or a non-social cue to the
+      displays. Our results confirmed the importance of chasing subtlety and indicated 
+      that adding social, but not non-social, information further improved chase
+      detection performance. Interestingly, the performance of adolescents with ASD was
+      less dependent on chasing subtlety than that of their TD counterparts.
+      Nonetheless, adolescents with and without ASD did not differ in their use of the 
+      added social (or non-social) cue.
+FAU - Vanmarcke, Steven
+AU  - Vanmarcke S
+AD  - 0000 0001 0668 7884grid.5596.fBrain and Cognition, KU Leuven, Leuven, 3000
+      Belgium
+FAU - van de Cruys, Sander
+AU  - van de Cruys S
+AD  - 0000 0001 0668 7884grid.5596.fBrain and Cognition, KU Leuven, Leuven, 3000
+      Belgium
+FAU - Moors, Pieter
+AU  - Moors P
+AD  - 0000 0001 0668 7884grid.5596.fBrain and Cognition, KU Leuven, Leuven, 3000
+      Belgium
+FAU - Wagemans, Johan
+AU  - Wagemans J
+AD  - 0000 0001 0668 7884grid.5596.fBrain and Cognition, KU Leuven, Leuven, 3000
+      Belgium
+LA  - eng
+PT  - Journal Article
+DEP - 20170919
+PHST- 2017/05/16 [received]
+PHST- 2017/09/05 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 12204 [pii]
+AID - 10.1038/s41598-017-12204-x [doi]
+SO  - Sci Rep. 2017 Sep 19;7:. doi:10.1038/s41598-017-12204-x.
+
+PMC - PMC5566447
+PMID- 28827634
+IS  - 2045-2322 (Electronic)
+VI  - 7
+DP  - 2017
+TI  - Reputation management promotes strategic adjustment of service quality in cleaner
+      wrasse.
+LID - 8425
+AB  - Adjusting one’s behaviour in response to eavesdropping bystanders is considered a
+      sophisticated social strategy, yet the underlying mechanisms are not well
+      studied. Cleaner wrasse, Labroides dimidiatus, cooperate by eating ectoparasites 
+      off “client” fishes, or cheat (i.e. bite) and eat client mucus. Image scoring by 
+      bystander clients generally causes cleaners from socially-complex (i.e. high
+      cleaner and client abundance; high client species richness) habitats to increase 
+      levels of cooperation. However, some individuals may periodically provide tactile
+      stimulation to small resident clients, which attract bystanders close that are
+      bitten, a form of tactical deception. Cortisol injection can reproduce this
+      pattern. Here, we tested whether cleaners from socially-complex versus simple
+      habitats respond differently to cortisol injections in terms of their cleaning
+      interactions with clients. We found that only cleaners from the socially-complex 
+      habitat respond to cortisol injection with strategies functioning as tactical
+      deception: i.e. increased tactile stimulation to small clients and increased
+      cheating of large clients relative to small ones. At the socially-simple site,
+      where reputation management is less important, cortisol-treated fish increased
+      their overall levels of cheating, especially of small clients. Thus, strategic
+      adjustments to cooperative behaviour and tactical deception are likely
+      context-dependent, forming part of general reputation management abilities in
+      cleaner wrasse.
+FAU - Binning, Sandra A.
+AU  - Binning SA
+AUID- ORCID: 0000-0002-2804-9979
+AD  - 0000 0001 2297 7718grid.10711.36Université de Neuchâtel, Institut de Biologie,
+      Eco-Ethologie, Rue Emilie-Argand 11, 2000 Neuchâtel, Switzerland
+FAU - Rey, Olivia
+AU  - Rey O
+AD  - 0000 0001 2297 7718grid.10711.36Université de Neuchâtel, Institut de Biologie,
+      Eco-Ethologie, Rue Emilie-Argand 11, 2000 Neuchâtel, Switzerland
+FAU - Wismer, Sharon
+AU  - Wismer S
+AD  - 0000 0001 2297 7718grid.10711.36Université de Neuchâtel, Institut de Biologie,
+      Eco-Ethologie, Rue Emilie-Argand 11, 2000 Neuchâtel, Switzerland
+FAU - Triki, Zegni
+AU  - Triki Z
+AD  - 0000 0001 2297 7718grid.10711.36Université de Neuchâtel, Institut de Biologie,
+      Eco-Ethologie, Rue Emilie-Argand 11, 2000 Neuchâtel, Switzerland
+FAU - Glauser, Gaétan
+AU  - Glauser G
+AD  - 0000 0001 2297 7718grid.10711.36Université de Neuchâtel, Institut de Chimie,
+      Neuchâtel Platform of Analytical Chemistry, Avenue de Bellevaux 51, 2000
+      Neuchâtel, Switzerland
+FAU - Soares, Marta C.
+AU  - Soares MC
+AD  - 0000 0001 1503 7226grid.5808.5CIBIO, Centro de Investigação em Biodiversidade e
+      Recursos Genéticos, Universidade do Porto, Vairão, Portugal
+FAU - Bshary, Redouan
+AU  - Bshary R
+AD  - 0000 0001 2297 7718grid.10711.36Université de Neuchâtel, Institut de Biologie,
+      Eco-Ethologie, Rue Emilie-Argand 11, 2000 Neuchâtel, Switzerland
+LA  - eng
+PT  - Journal Article
+DEP - 20170821
+PHST- 2016/10/25 [received]
+PHST- 2017/06/23 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 7128 [pii]
+AID - 10.1038/s41598-017-07128-5 [doi]
+SO  - Sci Rep. 2017 Aug 21;7:. doi:10.1038/s41598-017-07128-5.
+
+PMC - PMC5520058
+PMID- 28719574
+IS  - 2041-1723 (Electronic)
+VI  - 8
+DP  - 2017
+TI  - Ancient European dog genomes reveal continuity since the Early Neolithic.
+LID - 16082
+AB  - Europe has played a major role in dog evolution, harbouring the oldest
+      uncontested Palaeolithic remains and having been the centre of modern dog breed
+      creation. Here we sequence the genomes of an Early and End Neolithic dog from
+      Germany, including a sample associated with an early European farming community. 
+      Both dogs demonstrate continuity with each other and predominantly share ancestry
+      with modern European dogs, contradicting a previously suggested Late Neolithic
+      population replacement. We find no genetic evidence to support the recent
+      hypothesis proposing dual origins of dog domestication. By calibrating the
+      mutation rate using our oldest dog, we narrow the timing of dog domestication to 
+      20,000–40,000 years ago. Interestingly, we do not observe the extreme copy number
+      expansion of the AMY2B gene characteristic of modern dogs that has previously
+      been proposed as an adaptation to a starch-rich diet driven by the widespread
+      adoption of agriculture in the Neolithic.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Botigué, Laura R.
+AU  - Botigué LR
+AD  - Department of Ecology and Evolution, Stony Brook University, Stony Brook, New
+      York 11794-5245, USA
+FAU - Song, Shiya
+AU  - Song S
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      Ann Arbor, Michigan 48109, USA
+FAU - Scheu, Amelie
+AU  - Scheu A
+AD  - Palaeogenetics Group, Johannes Gutenberg-University Mainz, 55099 Mainz, Germany
+FAU - Gopalan, Shyamalika
+AU  - Gopalan S
+AUID- ORCID: 0000-0002-2608-8472
+AD  - Department of Ecology and Evolution, Stony Brook University, Stony Brook, New
+      York 11794-5245, USA
+FAU - Pendleton, Amanda L.
+AU  - Pendleton AL
+AD  - Department of Human Genetics, University of Michigan, Ann Arbor, Michigan 48109, 
+      USA
+FAU - Oetjens, Matthew
+AU  - Oetjens M
+AD  - Department of Human Genetics, University of Michigan, Ann Arbor, Michigan 48109, 
+      USA
+FAU - Taravella, Angela M.
+AU  - Taravella AM
+AD  - Department of Human Genetics, University of Michigan, Ann Arbor, Michigan 48109, 
+      USA
+FAU - Seregély, Timo
+AU  - Seregély T
+AD  - Department of Prehistoric Archaeology, Institute of Archaeology, Heritage
+      Sciences and Art History, University of Bamberg, 96045 Bamberg, Germany
+FAU - Zeeb-Lanz, Andrea
+AU  - Zeeb-Lanz A
+AD  - Generaldirektion Kulturelles Erbe Rheinland-Pfalz, Direktion Landesarchäologie,
+      Außenstelle Speyer, 67346 Speyer, Germany
+FAU - Arbogast, Rose-Marie
+AU  - Arbogast RM
+AD  - CNRS UMR 7044-UDS, 5 Allée du Général Rouvillois F 67083 Strasbourg, France
+FAU - Bobo, Dean
+AU  - Bobo D
+AD  - Department of Ecology and Evolution, Stony Brook University, Stony Brook, New
+      York 11794-5245, USA
+FAU - Daly, Kevin
+AU  - Daly K
+AD  - Smurfit Institute of Genetics, Trinity College Dublin, Dublin 2, Ireland
+FAU - Unterländer, Martina
+AU  - Unterländer M
+AD  - Palaeogenetics Group, Johannes Gutenberg-University Mainz, 55099 Mainz, Germany
+FAU - Burger, Joachim
+AU  - Burger J
+AD  - Palaeogenetics Group, Johannes Gutenberg-University Mainz, 55099 Mainz, Germany
+FAU - Kidd, Jeffrey M.
+AU  - Kidd JM
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      Ann Arbor, Michigan 48109, USA
+FAU - Veeramah, Krishna R.
+AU  - Veeramah KR
+AD  - Department of Ecology and Evolution, Stony Brook University, Stony Brook, New
+      York 11794-5245, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20170718
+PHST- 2017/02/27 [received]
+PHST- 2017/05/25 [accepted]
+TA  - Nat Commun
+JT  - Nature Communications
+AID - ncomms16082 [pii]
+AID - 10.1038/ncomms16082 [doi]
+SO  - Nat Commun. 2017 Jul 18;8:. doi:10.1038/ncomms16082.
+
+PMC - PMC5512947
+PMID- 28709409
+IS  - 1471-227X (Electronic)
+VI  - 17
+DP  - 2017
+TI  - Misuse of emergent healthcare in contemporary Japan.
+LID - 23
+AB  - Background: Medical care is obviously an important public service to ensure the
+      health of a nation; however, medical resources are not always used appropriately.
+      ‘Convenience-store consultations’ and inappropriate ambulance transportation
+      represent instances of such improper use by contemporary Japanese citizens in
+      recent years. This article illustrates two examples of misuse and discusses
+      potential countermeasures by considering factors contributing to these
+      behaviours. Main body: From both public and medical perspectives, these patient
+      behaviours are problematic, causing potential harm to others, negative
+      consequences to such patients themselves, exhaustion of healthcare staff, and
+      breakdown of emergency medical services. Although citizens need to recognize the 
+      public nature and scarcity of medical care, the more immediate need may be to
+      identify and to remove personal and social causes inducing such misuse. In
+      addition, healthcare professionals should become more trustworthy. To combat
+      these issues, one-sided penalties such as accusations or sanctions for patients
+      who misuse the system cannot be justified in principle. If measures taken to
+      prevent misuse are ineffective, imposing surcharges or restricting consultations 
+      may be considered official policy, but these are not acceptable for several
+      reasons. Conclusion: For now, we conclude that we must rely on the spontaneous
+      motivation of patients who engage in ‘convenience-store consultations’ and
+      ambulance transportation instead of taking a taxi.
+FAU - Kadooka, Yasuhiro
+AU  - Kadooka Y
+AD  - 0000 0001 0660 6749grid.274841.cDepartment of Bioethics, Kumamoto University
+      Faculty of Life Sciences, 1-1-1 Chuo-ku Honjo, Kumamoto City, 8608556 Japan
+FAU - Asai, Atsushi
+AU  - Asai A
+AD  - 0000 0001 2248 6943grid.69566.3aDepartment of Medical Ethics, Tohoku University
+      Graduate School of Medicine, 2-1 Aoba-Ku Seiryomachi, Sendai, 9808575 Japan
+FAU - Enzo, Aya
+AU  - Enzo A
+AD  - 0000 0001 2248 6943grid.69566.3aDepartment of Medical Ethics, Tohoku University
+      Graduate School of Medicine, 2-1 Aoba-Ku Seiryomachi, Sendai, 9808575 Japan
+FAU - Okita, Taketoshi
+AU  - Okita T
+AD  - 0000 0001 2248 6943grid.69566.3aDepartment of Medical Ethics, Tohoku University
+      Graduate School of Medicine, 2-1 Aoba-Ku Seiryomachi, Sendai, 9808575 Japan
+LA  - eng
+PT  - Journal Article
+DEP - 20170714
+PHST- 2017/04/03 [received]
+PHST- 2017/07/06 [accepted]
+TA  - BMC Emerg Med
+JT  - BMC Emergency Medicine
+AID - 135 [pii]
+AID - 10.1186/s12873-017-0135-4 [doi]
+SO  - BMC Emerg Med. 2017 Jul 14;17:. doi:10.1186/s12873-017-0135-4.
+
+PMC - PMC7749710
+PMID- 28628128
+IS  - 1548-7091 (Print)
+IS  - 1548-7105 (Electronic)
+VI  - 14
+IP  - 9
+DP  - 2017 Sep
+TI  - Adaptive optics improves resolution and signal in multiphoton super-resolution
+      imaging.
+PG  - 869-72
+AB  - We improve multiphoton structured illumination microscopy using a nonlinear
+      guide-star to determine optical aberrations and a deformable mirror to correct
+      them. We demonstrate our method on bead phantoms, cells in collagen gels,
+      nematode larvae and embryos, Drosophila brain, and zebrafish embryos. Peak
+      intensity is increased (up to 40-fold) and resolution recovered (to 176 ± 10 nm
+      laterally, 729 ± 39 nm axially) at depths ~250 μm from the coverslip surface.
+FAU - Zheng, Wei
+AU  - Zheng W
+AD  - Section on High Resolution Optical Imaging, National Institute of Biomedical
+      Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, USA
+FAU - Wu, Yicong
+AU  - Wu Y
+AD  - Section on High Resolution Optical Imaging, National Institute of Biomedical
+      Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, USA
+FAU - Winter, Peter
+AU  - Winter P
+AD  - Section on High Resolution Optical Imaging, National Institute of Biomedical
+      Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, USA
+FAU - Fischer, Robert
+AU  - Fischer R
+AD  - National Heart, Lung, and Blood Institute, National Institutes of Health,
+      Bethesda, MD, USA
+FAU - Nogare, Damian Dalle
+AU  - Nogare DD
+AD  - Eunice Kennedy Shriver National Institute of Child Health and Human Development, 
+      National Institutes of Health, Bethesda, MD, USA
+FAU - Hong, Amy
+AU  - Hong A
+AD  - National Heart, Lung, and Blood Institute, National Institutes of Health,
+      Bethesda, MD, USA
+FAU - McCormick, Chad
+AU  - McCormick C
+AD  - Eunice Kennedy Shriver National Institute of Child Health and Human Development, 
+      National Institutes of Health, Bethesda, MD, USA
+FAU - Christensen, Ryan
+AU  - Christensen R
+AD  - Section on High Resolution Optical Imaging, National Institute of Biomedical
+      Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, USA
+FAU - Dempsey, William P.
+AU  - Dempsey WP
+AD  - Dept. of Biology, Section of Molecular and Computational Biology, University of
+      Southern California, Los Angeles, California, USA
+FAU - Arnold, Don B.
+AU  - Arnold DB
+AD  - Dept. of Biology, Section of Molecular and Computational Biology, University of
+      Southern California, Los Angeles, California, USA
+FAU - Zimmerberg, Joshua
+AU  - Zimmerberg J
+AD  - Eunice Kennedy Shriver National Institute of Child Health and Human Development, 
+      National Institutes of Health, Bethesda, MD, USA
+FAU - Chitnis, Ajay
+AU  - Chitnis A
+AD  - Eunice Kennedy Shriver National Institute of Child Health and Human Development, 
+      National Institutes of Health, Bethesda, MD, USA
+FAU - Sellers, James
+AU  - Sellers J
+AD  - National Heart, Lung, and Blood Institute, National Institutes of Health,
+      Bethesda, MD, USA
+FAU - Waterman, Clare
+AU  - Waterman C
+AD  - National Heart, Lung, and Blood Institute, National Institutes of Health,
+      Bethesda, MD, USA
+FAU - Shroff, Hari
+AU  - Shroff H
+AD  - Section on High Resolution Optical Imaging, National Institute of Biomedical
+      Imaging and Bioengineering, National Institutes of Health, Bethesda, MD, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20170619
+TA  - Nat Methods
+JT  - Nature methods
+AID - 10.1038/nmeth.4337 [doi]
+MID - NIHMS1652063
+SO  - Nat Methods. 2017 Sep;14(9):869-72. Epub 2017 Jun 19 doi:10.1038/nmeth.4337.
+
+PMC - PMC5575458
+PMID- 28387028
+IS  - 1526-498X (Print)
+IS  - 1526-4998 (Electronic)
+VI  - 73
+IP  - 9
+DP  - 2017 Sep
+TI  - Induced plant defences in biological control of arthropod pests: a double‐edged
+      sword.
+PG  - 1780-8
+AB  - Biological control is an important ecosystem service delivered by natural
+      enemies. Together with breeding for plant defence, it constitutes one of the most
+      promising alternatives to pesticides for controlling herbivores in sustainable
+      crop production. Especially induced plant defences may be promising targets in
+      plant breeding for resistance against arthropod pests. Because they are activated
+      upon herbivore damage, costs are only incurred when defence is needed. Moreover, 
+      they can be more specific than constitutive defences. Nevertheless, inducible
+      defence traits that are harming plant pest organisms may interfere with
+      biological control agents, such as predators and parasitoids. Despite the vast
+      fundamental knowledge on plant defence mechanisms and their effects on natural
+      enemies, our understanding of the feasibility of combining biological control
+      with induced plant defence in practice is relatively poor. In this review, we
+      focus on arthropod pest control and present the most important features of
+      biological control with natural enemies and of induced plant defence.
+      Furthermore, we show potential synergies and conflicts among them and, finally,
+      identify gaps and list opportunities for their combined use in crop protection.
+      We suggest that breeders should focus on inducible resistance traits that are
+      compatible with the natural enemies of arthropod pests, specifically traits that 
+      help communities of natural enemies to build up. © 2017 The Authors. Pest
+      Management Science published by John Wiley & Sons Ltd on behalf of Society of
+      Chemical Industry.
+FAU - Pappas, Maria L
+AU  - Pappas ML
+AUID- ORCID: 0000-0003-4563-3023
+AD  - Democritus University of Thrace, Faculty of Agricultural and Forestry
+      SciencesDepartment of Agricultural DevelopmentOrestiadaGreece
+FAU - Broekgaarden, Colette
+AU  - Broekgaarden C
+AD  - Utrecht University, Faculty of ScienceDepartment of Biology, Plant − Microbe
+      InteractionsUtrechtThe Netherlands
+FAU - Broufas, George D
+AU  - Broufas GD
+AUID- ORCID: 0000-0003-3604-2109
+AD  - Democritus University of Thrace, Faculty of Agricultural and Forestry
+      SciencesDepartment of Agricultural DevelopmentOrestiadaGreece
+FAU - Kant, Merijn R
+AU  - Kant MR
+AD  - University of AmsterdamInstitute for Biodiversity and Ecosystem Dynamics, Section
+      Molecular and Chemical EcologyAmsterdamThe Netherlands
+FAU - Messelink, Gerben J
+AU  - Messelink GJ
+AD  - Wageningen UR Greenhouse HorticultureBleiswijkThe Netherlands
+FAU - Steppuhn, Anke
+AU  - Steppuhn A
+AD  - Freie Universität BerlinInstitute of Biology, Molecular Ecology, Dahlem Centre of
+      Plant SciencesBerlinGermany
+FAU - Wäckers, Felix
+AU  - Wäckers F
+AD  - BiobestWesterloBelgium
+FAU - van Dam, Nicole M
+AU  - van Dam NM
+AD  - German Centre for Integrative Biodiversity Research (iDiv)
+      Halle‐Jena‐LeipzigLeipzigGermany
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20170608
+GR  - DFG: FZT 118
+PHST- 2016/11/20 [received]
+PHST- 2017/03/31 [revised]
+PHST- 2017/03/31 [accepted]
+TA  - Pest Manag Sci
+JT  - Pest Management Science
+AID - 10.1002/ps.4587 [doi]
+AID - PS4587 [pii]
+SO  - Pest Manag Sci. 2017 Sep;73(9):1780-8. Epub 2017 Jun 08 doi:10.1002/ps.4587.
+
+PMC - PMC5493914
+PMID- 28680672
+IS  - 2054-5703 (Electronic)
+VI  - 4
+IP  - 6
+DP  - 2017 Jun
+TI  - Phylogenetic evidence for the ancient Himalayan wolf: towards a clarification of 
+      its taxonomic status based on genetic sampling from western Nepal.
+LID - 170186
+AB  - Wolves in the Himalayan region form a monophyletic lineage distinct from the
+      present-day Holarctic grey wolf Canis lupus spp. (Linnaeus 1758) found across
+      Eurasia and North America. Here, we analyse phylogenetic relationships and the
+      geographic distribution of mitochondrial DNA haplotypes of the contemporary
+      Himalayan wolf (proposed in previous studies as Canis himalayensis) found in
+      Central Asia. We combine genetic data from a living Himalayan wolf population
+      collected in northwestern Nepal in this study with already published genetic
+      data, and confirm the Himalayan wolf lineage based on mitochondrial genomic data 
+      (508 bp cytochrome b and 242 bp D-loop), and X- and Y-linked zinc-finger protein 
+      gene (ZFX and ZFY) sequences. We then compare the genetic profile of the
+      Himalayan wolf lineage found in northwestern Nepal with canid reference sequences
+      from around the globe with maximum likelihood and Bayesian phylogeny building
+      methods to demonstrate that the Himalayan wolf forms a distinct monophyletic
+      clade supported by posterior probabilities/bootstrap for D-loop of greater than
+      0.92/85 and cytochrome b greater than 0.99/93. The Himalayan wolf shows a unique 
+      Y-chromosome (ZFY) haplotype, and shares an X-chromosome haplotype (ZFX) with the
+      newly postulated African wolf. Our results imply that the Himalayan wolf
+      distribution range extends from the Himalayan range north across the Tibetan
+      Plateau up to the Qinghai Lakes region in Qinghai Province in the People's
+      Republic of China. Based on its phylogenetic distinction and its older age of
+      divergence relative to the Holarctic grey wolf, the Himalayan wolf merits formal 
+      classification as a distinct taxon of special conservation concern.
+FAU - Werhahn, Geraldine
+AU  - Werhahn G
+AUID- ORCID: 0000-0001-5056-6203
+AD  - Wildlife Conservation Research Unit, Department of Zoology, University of Oxford,
+      The Recanati-Kaplan Centre, Tubney House, Tubney OX13 5QL, UK
+FAU - Senn, Helen
+AU  - Senn H
+AUID- ORCID: 0000-0002-3711-8753
+AD  - WildGenes Laboratory, Royal Zoological Society of Scotland, Edinburgh EH12 6TS,
+      UK
+FAU - Kaden, Jennifer
+AU  - Kaden J
+AD  - WildGenes Laboratory, Royal Zoological Society of Scotland, Edinburgh EH12 6TS,
+      UK
+FAU - Joshi, Jyoti
+AU  - Joshi J
+AD  - Centre for Molecular Dynamics Nepal CMDN, GPO Box 21049, Kathmandu, Nepal
+FAU - Bhattarai, Susmita
+AU  - Bhattarai S
+AD  - Centre for Molecular Dynamics Nepal CMDN, GPO Box 21049, Kathmandu, Nepal
+FAU - Kusi, Naresh
+AU  - Kusi N
+AD  - Resources Himalaya Foundation, Sanepa, Lalitpur, Nepal
+FAU - Sillero-Zubiri, Claudio
+AU  - Sillero-Zubiri C
+AD  - Wildlife Conservation Research Unit, Department of Zoology, University of Oxford,
+      The Recanati-Kaplan Centre, Tubney House, Tubney OX13 5QL, UK
+FAU - Macdonald, David W.
+AU  - Macdonald DW
+AD  - Wildlife Conservation Research Unit, Department of Zoology, University of Oxford,
+      The Recanati-Kaplan Centre, Tubney House, Tubney OX13 5QL, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20170607
+PHST- 2017/02/28 [received]
+PHST- 2017/05/10 [accepted]
+TA  - R Soc Open Sci
+JT  - Royal Society Open Science
+AID - 10.1098/rsos.170186 [doi]
+AID - rsos170186 [pii]
+SO  - R Soc Open Sci. 2017 Jun 7;4(6):. doi:10.1098/rsos.170186.
+
+PMC - PMC5320662
+PMID- 28222790
+IS  - 1746-4269 (Electronic)
+VI  - 13
+DP  - 2017
+TI  - The bear in Eurasian plant names: motivations and models.
+LID - 14
+AB  - Ethnolinguistic studies are important for understanding an ethnic group’s ideas
+      on the world, expressed in its language. Comparing corresponding aspects of such 
+      knowledge might help clarify problems of origin for certain concepts and words,
+      e.g. whether they form common heritage, have an independent origin, are
+      borrowings, or calques. The current study was conducted on the material in
+      Slavonic, Baltic, Germanic, Romance, Finno-Ugrian, Turkic and Albanian languages.
+      The bear was chosen as being a large, dangerous animal, important in traditional 
+      culture, whose name is widely reflected in folk plant names. The phytonyms for
+      comparison were mostly obtained from dictionaries and other publications, and
+      supplemented with data from databases, the co-authors’ field data, and archival
+      sources (dialect and folklore materials). More than 1200 phytonym use records
+      (combinations of a local name and a meaning) for 364 plant and fungal taxa were
+      recorded to help find out the reasoning behind bear-nomination in various
+      languages, as well as differences and similarities between the patterns among
+      them. Among the most common taxa with bear-related phytonyms were Arctostaphylos 
+      uva-ursi (L.) Spreng., Heracleum sphondylium L., Acanthus mollis L., and Allium
+      ursinum L., with Latin loan translation contributing a high proportion of the
+      phytonyms. Some plants have many and various bear-related phytonyms, while others
+      have only one or two bear names. Features like form and/or surface generated the 
+      richest pool of names, while such features as colour seemed to provoke rather few
+      associations with bears. The unevenness of bear phytonyms in the chosen languages
+      was not related to the size of the language nor the present occurence of the
+      Brown Bear in the region. However, this may, at least to certain extent, be
+      related to the amount of the historical ethnolinguistic research done on the
+      selected languages.
+FAU - Kolosova, Valeria
+AU  - Kolosova V
+AD  - 0000 0001 2192 9124grid.4886.2Institute for Linguistic Studies, Russian Academy
+      of Sciences, Tuchkov pereulok 9, Saint-Petersburg, 199053 Russia
+FAU - Svanberg, Ingvar
+AU  - Svanberg I
+AD  - 0000 0004 1936 9457grid.8993.bUppsala Centre for Russian and Eurasian Studies,
+      Uppsala University, Box 514, SE-751 20 Uppsala, Sweden
+FAU - Kalle, Raivo
+AU  - Kalle R
+AD  - 0000 0001 2314 6342grid.454918.5Estonian Literary Museum, Vanemuise 42, Tartu,
+      51003 Estonia
+FAU - Strecker, Lisa
+AU  - Strecker L
+AD  - 0000 0004 1936 981Xgrid.70738.3bDepartment of Anthropology, University of Alaska 
+      Fairbanks, Fairbanks, AK 99775-7720 USA
+FAU - Özkan, Ayşe Mine Gençler
+AU  - Özkan AMG
+AD  - 0000000109409118grid.7256.6Department of Pharmaceutical Botany, Faculty of
+      Pharmacy, Ankara University, 06100 Tandoğan, Ankara Turkey
+FAU - Pieroni, Andrea
+AU  - Pieroni A
+AD  - 0000 0000 9229 4149grid.27463.34University of Gastronomic Sciences, Piazza
+      Vittorio Emanuele 9, I-12042 Pollenzo/Bra, Italy
+FAU - Cianfaglione, Kevin
+AU  - Cianfaglione K
+AD  - 0000 0000 9745 6549grid.5602.1School of Biosciences and Veterinary Medicine,
+      University of Camerino, Via Pontoni, 5 62032 Camerino, (MC) Italy
+FAU - Molnár, Zsolt
+AU  - Molnár Z
+AD  - 0000 0004 0636 012Xgrid.424945.aMTA Centre for Ecological Research, Institute of 
+      Ecology and Botany, Alkotmány u. 2-4, H-2163 Vácrátót, Hungary
+FAU - Papp, Nora
+AU  - Papp N
+AD  - 0000 0001 0663 9479grid.9679.1Department of Pharmacognosy, University of Pécs,
+      Rókus 2, 7624 Pécs, Hungary
+FAU - Łuczaj, Łukasz
+AU  - Łuczaj Ł
+AD  - 0000 0001 2154 3176grid.13856.39Department of Botany; Institute of Applied
+      Biotechnology and Basic Sciences, University of Rzeszów, Werynia 502, 36-100
+      Kolbuszowa, Poland
+FAU - Dimitrova, Dessislava
+AU  - Dimitrova D
+AD  - 0000 0001 2097 3094grid.410344.6Institute of Biodiversity and Ecosystem Research,
+      Bulgarian Academy of Sciences, Acad. Georgi Bonchev Str., bl. 23, Sofia, 1113
+      Bulgaria
+FAU - Šeškauskaitė, Daiva
+AU  - Šeškauskaitė D
+AD  - 0000 0001 2243 2806grid.6441.7Faculty of Humanities, Vilnius University Kaunas,
+      Sargeliai, LT 60433 Žaiginio paštas Lithuania
+FAU - Roper, Jonathan
+AU  - Roper J
+AD  - 0000 0001 0943 7661grid.10939.32Department of Estonian and Comparative Folklore, 
+      Tartu University, Ülikooli 16, 50090 Tartu, Estonia
+FAU - Hajdari, Avni
+AU  - Hajdari A
+AD  - grid.449627.aDepartment of Biology, University of Prishtina, St. Mother Teresa,
+      Prishtinë, Kosovo
+FAU - Sõukand, Renata
+AU  - Sõukand R
+AD  - 0000 0001 2314 6342grid.454918.5Estonian Literary Museum, Vanemuise 42, Tartu,
+      51003 Estonia
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20170221
+GR  - PD 108534
+PHST- 2016/05/04 [received]
+PHST- 2016/12/19 [accepted]
+TA  - J Ethnobiol Ethnomed
+JT  - Journal of Ethnobiology and Ethnomedicine
+AID - 132 [pii]
+AID - 10.1186/s13002-016-0132-9 [doi]
+SO  - J Ethnobiol Ethnomed. 2017 Feb 21;13:. doi:10.1186/s13002-016-0132-9.
+
+PMC - PMC5367570
+PMID- 28367000
+IS  - 0959-3535 (Print)
+VI  - 27
+IP  - 1
+DP  - 2017 Feb
+TI  - Constructing abortion as a social problem: “Sex selection” and the British
+      abortion debate.
+PG  - 15-33
+AB  - Between February 2012 and March 2015, the claim that sex selection abortion was
+      taking place in Britain and that action needed to be taken to stop it dominated
+      debate in Britain about abortion. Situating an analysis in sociological and
+      social psychological approaches to the construction of social problems,
+      particularly those considering “feminised” re-framings of anti-abortion
+      arguments, this paper presents an account of this debate. Based on analysis of
+      media coverage, Parliamentary debate and official documents, we focus on claims
+      about grounds (evidence) made to sustain the case that sex selection abortion is 
+      a British social problem and highlight how abortion was problematised in new
+      ways. Perhaps most notable, we argue, was the level of largely unchallenged
+      vilification of abortion doctors and providers, on the grounds that they are both
+      law violators and participants in acts of discrimination and violence against
+      women, especially those of Asian heritage. We draw attention to the role of
+      claims made by feminists in the media and in Parliament about “gendercide” as
+      part of this process and argue that those supportive of access to abortion need
+      to critically assess both this aspect of the events and also consider arguments
+      about the problems of “medical power” in the light of what took place.
+FAU - Lee, Ellie
+AU  - Lee E
+LA  - eng
+PT  - Journal Article
+DEP - 20170212
+TA  - Fem Psychol
+JT  - Feminism & Psychology
+AID - 10.1177/0959353516678010 [doi]
+AID - 10.1177_0959353516678010 [pii]
+SO  - Fem Psychol. 2017 Feb;27(1):15-33. Epub 2017 Feb 12 doi:10.1177/0959353516678010.
+
+PMC - PMC5310606
+PMID- 28179516
+IS  - 0962-8452 (Print)
+IS  - 1471-2954 (Electronic)
+VI  - 284
+IP  - 1848
+DP  - 2017 Feb 8
+TI  - Competition between apex predators? Brown bears decrease wolf kill rate on two
+      continents.
+LID - 20162368
+AB  - Trophic interactions are a fundamental topic in ecology, but we know little about
+      how competition between apex predators affects predation, the mechanism driving
+      top-down forcing in ecosystems. We used long-term datasets from Scandinavia
+      (Europe) and Yellowstone National Park (North America) to evaluate how grey wolf 
+      (Canis lupus) kill rate was affected by a sympatric apex predator, the brown bear
+      (Ursus arctos). We used kill interval (i.e. the number of days between
+      consecutive ungulate kills) as a proxy of kill rate. Although brown bears can
+      monopolize wolf kills, we found no support in either study system for the common 
+      assumption that they cause wolves to kill more often. On the contrary, our
+      results showed the opposite effect. In Scandinavia, wolf packs sympatric with
+      brown bears killed less often than allopatric packs during both spring (after
+      bear den emergence) and summer. Similarly, the presence of bears at wolf-killed
+      ungulates was associated with wolves killing less often during summer in
+      Yellowstone. The consistency in results between the two systems suggests that
+      brown bear presence actually reduces wolf kill rate. Our results suggest that the
+      influence of predation on lower trophic levels may depend on the composition of
+      predator communities.
+FAU - Tallian, Aimee
+AU  - Tallian A
+AUID- ORCID: 0000-0002-7182-7377
+AD  - Department of Wildland Resources and Ecology Center, Utah State University, 5230 
+      Old Main Hill, Logan, UT 84322, USA
+FAU - Ordiz, Andrés
+AU  - Ordiz A
+AD  - Grimsö Wildlife Research Station, Department of Ecology, Swedish University of
+      Agricultural Sciences, 730 91 Riddarhyttan, Sweden
+FAU - Metz, Matthew C.
+AU  - Metz MC
+AD  - Wildlife Biology Program, Department of Ecosystem and Conservation Sciences,
+      University of Montana, Missoula, MT 59812, USA
+FAU - Milleret, Cyril
+AU  - Milleret C
+AD  - Faculty of Applied Ecology and Agricultural Sciences, Inland Norway University of
+      Applied Sciences, Evenstad, 2480 Koppang, Norway
+FAU - Wikenros, Camilla
+AU  - Wikenros C
+AD  - Grimsö Wildlife Research Station, Department of Ecology, Swedish University of
+      Agricultural Sciences, 730 91 Riddarhyttan, Sweden
+FAU - Smith, Douglas W.
+AU  - Smith DW
+AD  - Yellowstone Center for Resources, Yellowstone National Park, Box 168, Mammoth Hot
+      Springs, WY 82190, USA
+FAU - Stahler, Daniel R.
+AU  - Stahler DR
+AD  - Yellowstone Center for Resources, Yellowstone National Park, Box 168, Mammoth Hot
+      Springs, WY 82190, USA
+FAU - Kindberg, Jonas
+AU  - Kindberg J
+AD  - Department of Wildlife, Fish, and Environmental Studies, Swedish University of
+      Agricultural Sciences, 901 83 Umeå, Sweden
+FAU - MacNulty, Daniel R.
+AU  - MacNulty DR
+AD  - Department of Wildland Resources and Ecology Center, Utah State University, 5230 
+      Old Main Hill, Logan, UT 84322, USA
+FAU - Wabakken, Petter
+AU  - Wabakken P
+AD  - Faculty of Applied Ecology and Agricultural Sciences, Inland Norway University of
+      Applied Sciences, Evenstad, 2480 Koppang, Norway
+FAU - Swenson, Jon E.
+AU  - Swenson JE
+AD  - Faculty of Environmental Sciences and Natural Resource Management, Norwegian
+      University of Life Sciences, Postbox 5003, 1432 Ås, Norway
+FAU - Sand, Håkan
+AU  - Sand H
+AD  - Grimsö Wildlife Research Station, Department of Ecology, Swedish University of
+      Agricultural Sciences, 730 91 Riddarhyttan, Sweden
+LA  - eng
+PT  - Journal Article
+GR  - DGE-1147384
+PHST- 2016/11/07 [received]
+PHST- 2017/01/16 [accepted]
+TA  - Proc Biol Sci
+JT  - Proceedings of the Royal Society B: Biological Sciences
+AID - 10.1098/rspb.2016.2368 [doi]
+AID - rspb20162368 [pii]
+SO  - Proc Biol Sci. 2017 Feb 8;284(1848):. doi:10.1098/rspb.2016.2368.
+
+PMC - PMC5308103
+PMID- 28126869
+IS  - 0960-1643 (Print)
+IS  - 1478-5242 (Electronic)
+VI  - 67
+IP  - 655
+DP  - 2017 Feb
+TI  - Are we selling ourselves short?
+PG  - 75
+FAU - Dakin, Paul
+AU  - Dakin P
+LA  - eng
+PT  - Journal Article
+TA  - Br J Gen Pract
+JT  - The British Journal of General Practice
+AID - 10.3399/bjgp17X689197 [doi]
+SO  - Br J Gen Pract. 2017 Feb;67(655):75. doi:10.3399/bjgp17X689197.
+
+PMC - PMC6172676
+PMID- 30564639
+IS  - 2398-3795 (Electronic)
+VI  - 1
+IP  - 1
+DP  - 2017 Apr
+TI  - Learning from patients: trainers’ use of narratives for learning and teaching.
+LID - bjgpopen17X100581
+AB  - Background: There is a growing interest in how doctors learn from narratives
+      about individual cases, reflected, for example, in the use of e-portfolios. Aim: 
+      This study aimed to evaluate how GP trainers conceptualised ‘learning from
+      patients’, and what use they currently made of narrative recounts in training.
+      Design & setting: Thematic analysis (TA) and corpus-linguistic (CL) analysis,
+      with data collected from a convenience sample of trainers in the UK, Ireland, and
+      Spain. Method: GP trainers in the three settings were contacted, and volunteers
+      recruited (22 in UK, 24 in Ireland, and 16 in Spain). Volunteers were interviewed
+      and asked to offer a narrative about ‘a patient you learned from’ and whether
+      they used narratives as a training device. Results: There were no differences
+      between settings. Trainers described an engaged and personal relationship with
+      patients. They described learning about themselves, the human condition, and
+      about how to live and die well. Their narratives were structured in various ways.
+      At times, they led to precise conclusions: at times, they were perceived as
+      meaningful, but resisting analysis. As regards teaching through narrative, it was
+      reported as commonly used, but present practice appears ad hoc rather than
+      planned. Discussion: The lack of difference between settings suggests a degree of
+      commonality about how trainers perceive learning and teaching in the areas
+      explored, but cannot be generalised further. The level of personal engagement was
+      more than anticipated, and suggests the label ‘doctor–patient relationship’, as
+      the term is used, may not be adequate to describe the nature of some
+      interactions.
+FAU - Skelton, John R
+AU  - Skelton JR
+AD  - Professor of Clinical Communication, Institute of Clinical Sciences, University
+      of Birmingham, Birmingham, UK
+FAU - O’Riordan, Margaret
+AU  - O’Riordan M
+AD  - Medical Director, Irish College of General Practitioners, Dublin, Ireland
+FAU - Berenguera Ossȯ, Anna
+AU  - Berenguera Ossȯ A
+AD  - Psychologist, Institut Universitari d’Investigació en Atenció Primària, IDIAP
+      Jordi Gol and Universitat Autònoma de Barcelona, Bellaterra (Cerdanyola del
+      Vallès), Barcelona, Spain
+FAU - Beavan, Jackie
+AU  - Beavan J
+AD  - Professor of Clinical Communication, Institute of Clinical Sciences, University
+      of Birmingham, Birmingham, UK
+FAU - Weetman, Katharine
+AU  - Weetman K
+AD  - Doctoral Researcher, Department of Primary Care Clinical Sciences Warwick Medical
+      School, Warwick, UK
+LA  - eng
+PT  - Journal Article
+PHST- 2016/05/31 [received]
+PHST- 2016/09/09 [accepted]
+TA  - BJGP Open
+JT  - BJGP Open
+AID - 00581 [pii]
+AID - 10.3399/bjgpopen17X100581 [doi]
+SO  - BJGP Open. 2017 Apr;1(1):. doi:10.3399/bjgpopen17X100581.
+
+PMC - PMC5553213
+PMID- 28812844
+IS  - 2322-5939 (Electronic)
+VI  - 6
+IP  - 8
+DP  - 2017 Aug
+TI  - Clinician Perspectives of Barriers to Effective Implementation of a Rapid
+      Response System in an Academic Health Centre: A Focus Group Study.
+PG  - 447-56
+AB  - Background: Systemic and structural issues of rapid response system (RRS) models 
+      can hinder implementation. This study sought to understand the ways in which
+      acute care clinicians (physicians and nurses) experience and negotiate care for
+      deteriorating patients within the RRS. Methods: Physicians and nurses working
+      within an Australian academic health centre within a jurisdictional-based model
+      of clinical governance participated in focus group interviews. Verbatim
+      transcripts were analysed using thematic content analysis. Results: Thirty-four
+      participants (21 physicians and 13 registered nurses [RNs]) participated in six
+      focus groups over five weeks in 2014. Implementing the RRS in daily practice was 
+      a process of informal communication and negotiation in spite of standardised
+      protocols. Themes highlighted several systems or organisational-level barriers to
+      an effective RRS, including (1) responsibility is inversely proportional to
+      clinical experience; (2) actions around system flexibility contribute to
+      deviation from protocol; (3) misdistribution of resources leads to perceptions of
+      inadequate staffing levels inhibiting full optimisation of the RRS; and (4) poor 
+      communication and documentation of RRS increases clinician workloads. Conclusion:
+      Implementing a RRS is complex and multifactorial, influenced by various inter-
+      and intra-professional factors, staffing models and organisational culture. The
+      RRS is not a static model; it is both reflexive and iterative, perpetually
+      transforming to meet healthcare consumer and provider demands and local unit
+      contexts and needs. Requiring more than just a strong initial implementation
+      phase, new models of care such as a RRS demand good governance processes, ongoing
+      support and regular evaluation and refinement. Cultural, organizational and
+      professional factors, as well as systems-based processes, require consideration
+      if RRSs are to achieve their intended outcomes in dynamic healthcare settings
+FAU - Rihari-Thomas, John
+AU  - Rihari-Thomas J
+AD  - Faculty of Health, University of Technology Sydney, Ultimo, Australia.
+FAU - DiGiacomo, Michelle
+AU  - DiGiacomo M
+AD  - Faculty of Health, University of Technology Sydney, Ultimo, Australia.
+FAU - Phillips, Jane
+AU  - Phillips J
+AD  - Faculty of Health, University of Technology Sydney, Ultimo, Australia.
+FAU - Newton, Phillip
+AU  - Newton P
+AD  - Faculty of Health, University of Technology Sydney, Ultimo, Australia.
+FAU - Davidson, Patricia M.
+AU  - Davidson PM
+AD  - Faculty of Health, University of Technology Sydney, Ultimo, Australia.
+LA  - eng
+PT  - Journal Article
+DEP - 20170101
+PHST- 2016/06/21 [received]
+PHST- 2016/12/25 [accepted]
+TA  - Int J Health Policy Manag
+JT  - International Journal of Health Policy and Management
+AID - 10.15171/ijhpm.2016.156 [doi]
+SO  - Int J Health Policy Manag. 2017 Jan 01;6(8):447-56. doi:10.15171/ijhpm.2016.156.
+
+PMC - PMC5192584
+PMID- 28031040
+IS  - 1757-7241 (Electronic)
+VI  - 24
+DP  - 2016
+TI  - When a vehicle becomes a weapon: intentional vehicular assaults in Israel.
+LID - 149
+AB  - Background: We have recently witnessed an epidemic of intentional vehicular
+      assaults (IVA) aimed at pedestrians. We hypothesized that IVA are associated with
+      a specific injury pattern and severity. Methods: Retrospective analysis of
+      prospectively acquired data of patients injured following IVA from October 2008
+      to May 2016 who were admitted to the Hadassah Level I trauma center in Jerusalem,
+      Israel. Comparison of injury parameters and outcome caused by vehicular attacks
+      to non-intentional pedestrian trauma (PT). Measured outcomes included ISS, AIS,
+      injury pattern, ICU and blood requirements, participating teams, length of stay, 
+      and mortality. Results: There were 26 patients in the IVA group. Mean age in the 
+      IVA group was significantly younger and there were more males compared to the PT 
+      group (24.7 ± 13.3 years vs. 48.3 ± 21.3, and 81% vs. 52%, respectively,
+      p < 0.01). Lower extremity (77% of patients), followed by head (58%) and facial
+      (54%) injuries were most commonly injured in the IVA group, and this was
+      significantly different from the pattern of injury in the PT group (54, 35, and
+      28%, respectively, p < 0.05). Mean ISS and median head AIS were significantly
+      higher in the IVA group compared with the PT group (23.2 ± 12.8 vs. 15.4 ± 13.8, 
+      p = 0.012, and 4.5 vs. 3, p = 0.003, respectively). ICU admission and blood
+      requirement were significantly higher in the IVA group (69% vs. 38%, and 50% vs. 
+      19%, p < 0.01). Mortality was significantly higher in the IVA group (4 patients, 
+      15%, vs. 3 patients, 4%, respectively, p = 0.036) and was caused by severe head
+      trauma in all cases. Discussion: The severity of injury and mortality rate
+      following IVA are higher compared with pedestrian injury. The pattern of injury
+      following IVA is significantly different from non-intentional pedestrian trauma. 
+      Conclusions: IVA results in higher mortality than conventional pedestrian trauma 
+      secondary to more severe head injury. More hospital resources are required
+      following IVA than following conventional road traffic accidents.
+FAU - Almogy, Gidon
+AU  - Almogy G
+AUID- ORCID: 0000-0002-5709-0057
+AD  - Department of Surgery and Trauma Unit, Hadassah-Hebrew University Medical Center,
+      Jerusalem, Israel
+FAU - Kedar, Asaf
+AU  - Kedar A
+AD  - Department of Surgery and Trauma Unit, Hadassah-Hebrew University Medical Center,
+      Jerusalem, Israel
+FAU - Bala, Miklosh
+AU  - Bala M
+AD  - Department of Surgery and Trauma Unit, Hadassah-Hebrew University Medical Center,
+      Jerusalem, Israel
+LA  - eng
+PT  - Journal Article
+DEP - 20161228
+PHST- 2016/09/20 [received]
+PHST- 2016/11/28 [accepted]
+TA  - Scand J Trauma Resusc Emerg Med
+JT  - Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine
+AID - 338 [pii]
+AID - 10.1186/s13049-016-0338-9 [doi]
+SO  - Scand J Trauma Resusc Emerg Med. 2016 Dec 28;24:. doi:10.1186/s13049-016-0338-9.

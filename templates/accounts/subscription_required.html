@@ -1,0 +1,50 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+<link href="{% static 'css/error_page.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %}
+<a href="https://citemed-io.gitbook.io/citemed.io-documentation/" target="_blank">
+  <span>Need help with this page? <br /> Read the Wiki</span>
+  <div>
+    <img src="{% static 'images/icons/wiki-icon.svg' %}">
+  </div>
+</a>
+{% endblock %}
+
+{% block 'body' %}
+    <div class="body-div" id="error-app">
+        <div class="left-div">
+            <div class="error-header-section">
+                <h1 class="error-code">403</h1>
+                <div class="error-title">Access Denied</div>
+            </div>
+            <div class="error-message-section">
+                <div class="error-oops">ooops...</div>
+                <div class="error-description">
+                    You need an active subscription to continue. You can either purchase a monthy subscription license. Or you can purchase credits based license.
+                </div>
+            </div>
+            <div class="error-btns">
+                <a href="https://buy.stripe.com/3cscQG4KH3rD7165ko">
+                    <button class="primary-button" >Monthy Subscription</button>
+                </a>
+                <a href="{{credits_purchase_link}}">
+                    <button class="secondary-gray-button" > Credits Licence</button>
+                </a> 
+            </div>
+        </div>
+        <div class="right-div">
+            <img
+                    src="{% static 'images/error-plug.svg' %}"
+                    id="icon"
+                    alt="Plug Icon"
+                    class="plug-error-img"
+                    />
+        </div>
+    </div>
+{% endblock %}
+{% block 'scripts-block' %}
+
+{% endblock %}

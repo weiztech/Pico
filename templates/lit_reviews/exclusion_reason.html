@@ -1,0 +1,98 @@
+{% extends 'base_lit_reviews.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block 'head' %}
+    <link href="{% static 'css/theme/exclusion_reason.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block 'help_section' %} 
+    <a href="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/define-exclusion-reasons"
+        target="_blank">
+        <span>Need help with this page? <br/> Read the Wiki</span>
+        <div>
+        <img src="{% static 'images/icons/wiki-icon.svg' %}">
+        </div>
+    </a>
+{% endblock %} 
+
+{% block 'body' %}
+  <div id="app">
+    <div class="modal" id="new-reason">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header-icon-wrapper info-icon">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.8754 12.4995H12.5004M12.5004 12.4995H9.12537M12.5004 12.4995V15.8744M12.5004 12.4995L12.5004 9.12447M21.5 6.87498L21.5 18.125C21.5 19.989 19.989 21.5 18.125 21.5H6.875C5.01104 21.5 3.5 19.989 3.5 18.125V6.87498C3.5 5.01103 5.01104 3.5 6.875 3.5H18.125C19.989 3.5 21.5 5.01103 21.5 6.87498Z" stroke="#014EE9" stroke-width="1.2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    Add New Reason
+                </div>
+                
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    <div class="modal-body" >
+                        <div class="reason-form">
+                            {{ form|crispy }}
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="primary-button">
+                            <div class="loader" style="display: none;"></div>
+                            <span class="content"> Create </span>
+                        </button>
+                        <button type="button" class="secondary-gray-button ml" v-on:click="hideModal('new-reason')">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="exclusion-reason-list">
+        <h2 class="section-header"> 
+            Exclusion Reasons 
+            <page-wiki-helper wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/define-exclusion-reasons"> </page-wiki-helper>
+            <div class="ml-auto center-v" style="justify-content: end;">                  
+                <button 
+                    class="primary-button" 
+                    target-id="new-reason" 
+                    v-on:click="showModal('new-reason')"
+                    :disabled="isArchived"
+                > 
+                    Add New Reason
+                </button>
+            </div>
+        </h2>
+
+        <div class="horizantal-devider"> </div>
+      
+        {% for exclustion_reason in exclustion_reasons %}
+      
+        <div class="exclusion-reason-item">
+            <div> {{ exclustion_reason.reason }} </div>
+            <div class="button-actions">
+                <a 
+                    href="{% url 'literature_reviews:exclusion_reason_update' id=literature_review_id instance_id=exclustion_reason.id %}" 
+                    :class="['primary-button', { 'disabled': isArchived }]"
+                    v-if="!isArchived"
+                > 
+                    Edit 
+                </a>
+                <a 
+                    href="{% url 'literature_reviews:exclusion_reason_delete' id=literature_review_id instance_id=exclustion_reason.id %}" 
+                    :class="['error-button', { 'disabled': isArchived }]"
+                    v-if="!isArchived"
+                > 
+                    Delete 
+                </a>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+{% endblock %}
+
+{% block 'after-body' %} 
+<script type="application/javascript" src="{% static 'lit_reviews/vue/exclusion_reason.js' %}"></script>
+{% endblock %}

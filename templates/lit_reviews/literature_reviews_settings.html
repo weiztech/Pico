@@ -1,0 +1,139 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+{% comment %} <link href="{% static 'css/theme/projects.css' %}" rel="stylesheet" type="text/css" /> {% endcomment %}
+<link href="{% static 'css/theme/literature_review_list_vue.css' %}" rel="stylesheet" type="text/css" />
+<link href="{% static 'css/theme/literature_reviews_config.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+
+{% block 'body' %}
+
+<div id="settings-app" class="settings-app" v-cloak>
+  <div class="form-content form-card-ris-settings-right" v-if="settings">
+    <div class="section-header">
+      <h2 class="mr-2" id="button"> RIS File Configuration </h2>
+    </div>
+  
+    <div class="horizantal-devider mt-2 mb-2"> </div>
+  
+    <div class="content">
+      <h3> You can customize the fields you can export in your RIS outputs from below </h3>
+
+      <form v-on:submit="onUpdateSettings" class="mt-2">
+        <div class="vertical-box">
+          <div class="vertical-box-section"> 
+            <div class="vertical-box-item mt-2"> Main CiteMed Article Fields </div> 
+            <div 
+              v-for="(value, key) in settings" 
+              class="mt-2 vertical-box-item" 
+              :key="key" 
+              v-if="!nonArticleFields.includes(key)"
+            > 
+              <div class="captilized"> [[ formatArticleField(key) ]] </div> 
+            </div> 
+          </div>
+      
+          <div class="vertical-box-section"> 
+            <!-- <label for="ris-fields"> RIS Article Fields </label> -->
+            <div class="mt-2 vertical-box-item"> Related RIS Field </div> 
+            <div v-for="(value, key) in settings" :key="key" v-if="!nonArticleFields.includes(key)">
+              <select v-model="settings[key]" class="mt-2 vertical-box-item" :ref="'select-item-'+key">
+                <option 
+                  v-for="ris_field in settings.ris_fields_list" 
+                  :value="ris_field"                   
+                  :key="ris_field"
+                > 
+                  [[ris_field]] 
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div v-if="valueMatchError" class="badge error mt-2 mr-3" style="font-size: 14px;"> [[ valueMatchErrorMessage ]] </div>
+        <button 
+          class="primary-button mt-2 mr-3 ml-auto" 
+          :disabled="valueMatchError || isUpdating"
+          :class="{ loading: isUpdating }" 
+        > 
+          Save 
+        </button>
+      </form>  
+    </div>
+  </div>
+
+  <div>
+    <div class="form-content form-card-ris-settings-left" v-if="settings">
+      <div class="section-header">
+        <h2 class="mr-2" id="button"> Search Label Configuration </h2>
+      </div>
+    
+      <div class="horizantal-devider mt-2 mb-2"> </div>
+    
+      <div class="content">
+        <h3> Customize the Search Label choices below, by adding new custom labels </h3>
+        <div id="custome-labels-section"  class="form-group custome-labels-section" v-for="(label, index) in customeLabels" :key="index">
+          <div class="label-item" id="">
+              <input type="text" name="" class="textinput textInput form-control" id=""
+                  v-model="label.label" />
+              <button class="error-button" v-on:click="deleteCustomLabel(index,label.id)">Delete</button>
+          </div>
+        </div>
+        <div class="submit-label-section">
+            <button class="primary-button" v-on:click="submitCustomLabelForm" v-if="customeLabels.length">Submit</button>
+            <button class="primary-button" v-on:click="addCustomLabel"> Add new custom keyword</button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="form-content form-card-ris-settings-left" v-if="settings">
+      <div class="section-header mt-2">
+        <h2 class="mr-2" id="button"> Full Text File Naming Format </h2>
+      </div>
+    
+      <div class="horizantal-devider mt-2 mb-2"> </div>
+    
+      <div class="content">
+        <h3> Customize the naming format of your full text files </h3>
+        <select v-model="settings.full_texts_naming_format" class="mt-2">
+          <option v-for="choice in settings.format_choices" :value="choice[0]"> [[ choice[1] ]] </option>
+        </select>
+        <div class="submit-label-section">
+            <button class="primary-button" v-on:click="onUpdateSettings">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-content form-card-ris-settings-left" v-if="settings">
+      <div class="section-header mt-2">
+        <h2 class="mr-2" id="button"> Automatic AI Extraction </h2>
+      </div>
+    
+      <div class="horizantal-devider mt-2 mb-2"> </div>
+    
+      <div class="content">
+        <h3> Automatically extract study information from the Full Text PDF when it's uploaded </h3>
+        <select v-model="settings.automatic_ai_extraction" class="mt-2">
+          <option value="true">Yes, I want automatic AI extraction</option>
+          <option value="false">No, I don't want automatic AI extraction</option>
+        </select>
+        <div class="submit-label-section">
+            <button class="primary-button" v-on:click="onUpdateSettings">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> 
+
+{% endblock %}
+
+
+{% block 'after-body' %} 
+<script>
+    const CustomerSettingsURL = "{% url 'lit_reviews:customer_settings_api' %}"; 
+    const UpdateCustomerSettingsURL = "{% url 'lit_reviews:update_customer_settings_api' settings_id=0 %}"; 
+    const CustomLabelURL = "{% url 'lit_reviews:custom_label_api' %}";
+</script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/settings.js' %}"></script>
+{% endblock %}

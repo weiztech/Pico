@@ -1,0 +1,1426 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=vitom+and+ICG&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8422097
+PMID- 34532479
+IS  - 2305-5839 (Print)
+IS  - 2305-5847 (Electronic)
+VI  - 9
+IP  - 16
+DP  - 2021 Aug
+DP  - 2021 Aug
+TI  - A pilot study of near-infrared fluorescence guided surgery for primary tumor
+      localization and lymph node mapping in colorectal cancer.
+LID - 1342
+AB  - Background: This pilot study aimed to evaluate the feasibility of near-infrared
+      fluorescence imaging for primary tumor localization, lymph node mapping, and
+      metastatic lymph node detection in colorectal cancer (CRC) using indocyanine
+      green (ICG). Methods: A total of 11 patients with CRC were prospectively
+      enrolled. ICG (25 mg dissolved in 30 mL sterile water) was intravenously injected
+      preoperatively, and the fluorescence intensity of the primary tumor, lymph nodes,
+      and normal tissues, as well as the signal-to-background ratio (SBR) and
+      contrast-to-noise ratio (CNR) were measured at 0.5, 1, 2, 4, and 24 h after ICG
+      injection. Results: The primary tumor could be located intraoperatively, and the 
+      tumor boundary was clear at 2–4 h. There was good contrast in the fluorescence
+      intensity between tumor and normal tissues (SBR =2.11±0.36, CNR =8.74±0.35). The 
+      lymph node detection rate was 95% (38/40), and the SBR threshold of lymph nodes
+      was 1.13. Conclusions: This pilot study showed that primary tumor localization
+      and lymph node mapping in CRC is feasible using near-infrared fluorescence
+      imaging technology, though metastatic lymph nodes cannot be discriminated from
+      benign ones. In addition, cancer nodules missed by both white light mode and
+      palpation by the surgeon were unexpectedly found, resulting in a change in the
+      surgical prognosis in 9.1% (1/11) of patients.
+FAU - Cao, Ying
+AU  - Cao Y
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - Wang, Peng
+AU  - Wang P
+AD  - Department of General Surgery, Pukou Branch of Jiangsu People’s Hospital,
+      Nanjing, China;
+FAU - Wang, Ziyang
+AU  - Wang Z
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - Zhang, Wei
+AU  - Zhang W
+AD  - Jiangsu Testing and Inspection Institute for Medical Devices, Nanjing, China;
+FAU - Lu, Qian
+AU  - Lu Q
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - Butch, Christopher J.
+AU  - Butch CJ
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - Guissi, Nida El Islem
+AU  - Guissi NEI
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - You, Qi
+AU  - You Q
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - Cai, Huiming
+AU  - Cai H
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+FAU - Ding, Yongbin
+AU  - Ding Y
+AD  - Department of General Surgery, Pukou Branch of Jiangsu People’s Hospital,
+      Nanjing, China;
+FAU - Wang, Yiqing
+AU  - Wang Y
+AD  - Department of Biomedical Engineering, College of Engineering and Applied
+      Sciences, State Key Laboratory of Analytical Chemistry for Life Science, Nanjing 
+      University, Nanjing, China;
+LA  - eng
+PT  - Journal Article
+PHST- 2021/07/07 [received]
+PHST- 2021/08/20 [accepted]
+TA  - Ann Transl Med
+JT  - Annals of Translational Medicine
+AID - atm-09-16-1342 [pii]
+AID - 10.21037/atm-21-4021 [doi]
+SO  - Ann Transl Med. 2021 Aug;9(16):. doi:10.21037/atm-21-4021.
+
+PMC - PMC8428371
+IS  - 2072-6694 (Electronic)
+VI  - 13
+IP  - 17
+DP  - 2021 Sep
+TI  - Evaluation of a Novel Three-Dimensional Robotic Digital Microscope (Aeos) in
+      Neurosurgery.
+LID - 4273
+AB  - Simple Summary: Current literature debates the development and implementation of 
+      three-dimensional Exoscopes in the daily routine of neurosurgical practice. This 
+      study evaluates the grade of satisfaction and intraoperative handling of the
+      novel Aesculap Aeos Three-Dimensional Robotic Digital Microscope used in a
+      Neurosurgical Department in the daily practice in a larger series of
+      neurosurgical procedures. Our evaluation of this modern microscope technology
+      focuses on three central aspects of microsurgical procedures. First, the
+      visualization of tumor tissue and its discernment from healthy tissue, which is
+      of utmost importance during neurooncological procedures. Furthermore, the aspect 
+      of ergonomics and fatigue during long, repetitive surgical procedures have been
+      shown to cause work-related musculoskeletal disorders. Finally, the
+      implementation of novel three-dimensional microscopes may be a promising tool for
+      surgical education. Improved image quality, superior ergonomic comfort for the
+      surgeon and increased accessibility within the surgical field have been noted as 
+      major advantages to date. Abstract: Objective: Current literature debates the
+      role of newly developed three-dimensional (3D) Exoscopes in the daily routine of 
+      neurosurgical practice. So far, only a small number of cadaver lab studies or
+      case reports have examined the novel Aesculap Aeos Three-Dimensional Robotic
+      Digital Microscope. This study aims to evaluate the grade of satisfaction and
+      intraoperative handling of this novel system in neurosurgery. Methods: Nineteen
+      neurosurgical procedures (12 cranial, 6 spinal and 1 peripheral nerve) performed 
+      over 9 weeks using the Aeos were analyzed. Ten neurosurgeons of varying levels of
+      training were included after undergoing device instruction and training.
+      Following every surgery, a questionnaire consisting of 43 items concerning
+      intraoperative handling was completed. The questionnaires were analyzed using
+      descriptive statistics. Results: No intraoperative complications occurred.
+      Surgical satisfaction was ranked high (78.95%). In total, 84.21% evaluated
+      surgical ergonomics as satisfactory, while 78.95% of the surgeons would like to
+      use this system frequently. Image quality, independent working zoom function and 
+      depth of field were perceived as suboptimal by several neurosurgeons. Conclusion:
+      The use of Aeos is feasible and safe in microsurgical procedures, and surgical
+      satisfaction was ranked high among most neurosurgeons in our study. The system
+      might offer advanced ergonomic conditions in comparison to conventional
+      ocular-based microscopes.
+FAU - Maurer, Stefanie
+AU  - Maurer S
+AD  - Department of Neurosurgery, University Hospital Frankfurt, 60528 Frankfurt am
+      Main, Germany; Stefanie.Maurer@kgu.de (S.M.); Vincent.Prinz@kgu.de (V.P.);
+      Lina.Qasem@kgu.de (L.-E.Q.); Kristin.Lucia@kgu.de (K.E.L.);
+      Juergen.Konczalla@kgu.de (J.K.)
+FAU - Prinz, Vincent
+AU  - Prinz V
+AD  - Department of Neurosurgery, University Hospital Frankfurt, 60528 Frankfurt am
+      Main, Germany; Stefanie.Maurer@kgu.de (S.M.); Vincent.Prinz@kgu.de (V.P.);
+      Lina.Qasem@kgu.de (L.-E.Q.); Kristin.Lucia@kgu.de (K.E.L.);
+      Juergen.Konczalla@kgu.de (J.K.)
+FAU - Qasem, Lina-Elisabeth
+AU  - Qasem LE
+AD  - Department of Neurosurgery, University Hospital Frankfurt, 60528 Frankfurt am
+      Main, Germany; Stefanie.Maurer@kgu.de (S.M.); Vincent.Prinz@kgu.de (V.P.);
+      Lina.Qasem@kgu.de (L.-E.Q.); Kristin.Lucia@kgu.de (K.E.L.);
+      Juergen.Konczalla@kgu.de (J.K.)
+FAU - Lucia, Kristin Elizabeth
+AU  - Lucia KE
+AD  - Department of Neurosurgery, University Hospital Frankfurt, 60528 Frankfurt am
+      Main, Germany; Stefanie.Maurer@kgu.de (S.M.); Vincent.Prinz@kgu.de (V.P.);
+      Lina.Qasem@kgu.de (L.-E.Q.); Kristin.Lucia@kgu.de (K.E.L.);
+      Juergen.Konczalla@kgu.de (J.K.)
+FAU - Rösler, Judith
+AU  - Rösler J
+AUID- ORCID: https://orcid.org/0000-0001-5366-8969
+AD  - Department of Neurosurgery, Charité-Universitätsmedizin Berlin, 10117 Berlin,
+      Germany; Judith.Roesler@charite.de (J.R.); Thomas.Picht@charite.de (T.P.)
+FAU - Picht, Thomas
+AU  - Picht T
+AD  - Department of Neurosurgery, Charité-Universitätsmedizin Berlin, 10117 Berlin,
+      Germany; Judith.Roesler@charite.de (J.R.); Thomas.Picht@charite.de (T.P.)
+FAU - Konczalla, Jürgen
+AU  - Konczalla J
+AUID- ORCID: https://orcid.org/0000-0001-9771-7806
+AD  - Department of Neurosurgery, University Hospital Frankfurt, 60528 Frankfurt am
+      Main, Germany; Stefanie.Maurer@kgu.de (S.M.); Vincent.Prinz@kgu.de (V.P.);
+      Lina.Qasem@kgu.de (L.-E.Q.); Kristin.Lucia@kgu.de (K.E.L.);
+      Juergen.Konczalla@kgu.de (J.K.)
+FAU - Czabanka, Marcus
+AU  - Czabanka M
+AD  - Department of Neurosurgery, University Hospital Frankfurt, 60528 Frankfurt am
+      Main, Germany; Stefanie.Maurer@kgu.de (S.M.); Vincent.Prinz@kgu.de (V.P.);
+      Lina.Qasem@kgu.de (L.-E.Q.); Kristin.Lucia@kgu.de (K.E.L.);
+      Juergen.Konczalla@kgu.de (J.K.)
+LA  - eng
+PT  - Journal Article
+DEP - 20210825
+PHST- 2021/06/30 [received]
+PHST- 2021/08/19 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers13174273 [doi]
+AID - cancers-13-04273 [pii]
+SO  - Cancers (Basel). 2021 Aug 25;13(17):. doi:10.3390/cancers13174273.
+
+PMC - PMC8184731
+PMID- 33156466
+IS  - 1068-9265 (Print)
+IS  - 1534-4681 (Electronic)
+VI  - 28
+IP  - 7
+DP  - 2021
+TI  - Meta-analysis Comparing Fluorescence Imaging with Radioisotope and Blue
+      Dye-Guided Sentinel Node Identification for Breast Cancer Surgery.
+PG  - 3738-48
+AB  - Introduction: Conventional methods for axillary sentinel lymph node biopsy (SLNB)
+      are fraught with complications such as allergic reactions, skin tattooing,
+      radiation, and limitations on infrastructure. A novel technique has been
+      developed for lymphatic mapping utilizing fluorescence imaging. This
+      meta-analysis aims to compare the gold standard blue dye and radioisotope (BD-RI)
+      technique with fluorescence-guided SLNB using indocyanine green (ICG). Methods:
+      This study was registered with PROSPERO (CRD42019129224). The MEDLINE, EMBASE,
+      Scopus, and Web of Science databases were searched using the Medical Subject
+      Heading (MESH) terms ‘Surgery’ AND ‘Lymph node’ AND ‘Near infrared fluorescence’ 
+      AND ‘Indocyanine green’. Studies containing raw data on the sentinel node
+      identification rate in breast cancer surgery were included. A heterogeneity test 
+      (using Cochran’s Q) determined the use of fixed- or random-effects models for
+      pooled odds ratios (OR). Results: Overall, 1748 studies were screened, of which
+      10 met the inclusion criteria for meta-analysis. ICG was equivalent to
+      radioisotope (RI) at sentinel node identification (OR 2.58, 95% confidence
+      interval [CI] 0.35–19.08, p < 0.05) but superior to blue dye (BD) (OR 9.07, 95%
+      CI 6.73–12.23, p < 0.05). Furthermore, ICG was superior to the gold standard
+      BD-RI technique (OR 4.22, 95% CI 2.17–8.20, p < 0.001). Conclusion: Fluorescence 
+      imaging for axillary sentinel node identification with ICG is equivalent to the
+      single technique using RI, and superior to the dual technique (RI-BD) and single 
+      technique with BD. Hospitals using RI and/or BD could consider changing their
+      practice to ICG given the comparable efficacy and improved safety profile, as
+      well as the lesser burden on hospital infrastructure. Electronic supplementary
+      material: The online version of this article (10.1245/s10434-020-09288-7)
+      contains supplementary material, which is available to authorized users.
+FAU - Kedrzycki, Martha S.
+AU  - Kedrzycki MS
+AUID- ORCID: 0000-0002-3028-5743
+AD  - grid.7445.20000 0001 2113 8111Hamlyn Centre, Institute of Global Health
+      Innovation, Imperial College London, London, UK
+FAU - Leiloglou, Maria
+AU  - Leiloglou M
+AD  - grid.7445.20000 0001 2113 8111Hamlyn Centre, Institute of Global Health
+      Innovation, Imperial College London, London, UK
+FAU - Ashrafian, Hutan
+AU  - Ashrafian H
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+FAU - Jiwa, Natasha
+AU  - Jiwa N
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+FAU - Thiruchelvam, Paul T. R.
+AU  - Thiruchelvam PTR
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+FAU - Elson, Daniel S.
+AU  - Elson DS
+AD  - grid.7445.20000 0001 2113 8111Hamlyn Centre, Institute of Global Health
+      Innovation, Imperial College London, London, UK
+FAU - Leff, Daniel R.
+AU  - Leff DR
+AD  - grid.7445.20000 0001 2113 8111Department of Surgery and Cancer, Imperial College 
+      London, London, UK
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20201106
+PHST- 2020/06/10 [received]
+PHST- 2020/09/27 [accepted]
+TA  - Ann Surg Oncol
+JT  - Annals of Surgical Oncology
+AID - 9288 [pii]
+AID - 10.1245/s10434-020-09288-7 [doi]
+SO  - Ann Surg Oncol. 2021;28(7):3738-48. Epub 2020 Nov 6
+      doi:10.1245/s10434-020-09288-7.
+
+PMC - PMC8115828
+PMID- 33979347
+IS  - 1932-6203 (Electronic)
+VI  - 16
+IP  - 5
+DP  - 2021
+TI  - Micro- and macro-borderless surgery using a newly developed high-resolution (4K) 
+      three-dimensional video system.
+LID - e0250559
+AB  - Objective: Microsurgery using conventional optical microscopes or surgical loupes
+      features a limited field of view and imposes a serious strain on surgeons
+      especially during long surgeries. Here we advocate the micro- and
+      macro-borderless surgery (MMBS) using a novel high-resolution (4K)
+      three-dimensional (3D) video system. This study aimed to confirm the
+      applicability of this concept in several surgical procedures. Methods: We
+      evaluated the possible use and efficacy of MMBS in the following experiments in
+      porcine subjects. Experiment 1 (non-inferiority test) consisted of dissection and
+      anastomosis of carotid artery, portal vein, proper hepatic artery, and
+      pancreatoduodenectomy with surgical loupe versus MMBS. Experiment 2 (feasibility 
+      test) consisted of intra-abdominal and intra-thoracic smaller arteries
+      anastomosed by MMBS as a pre-clinical setting. Experiment 3 (challenge on new
+      surgery) consisted of orthotopic liver transplantation of the graft from a donor 
+      after circulatory death maintained by machine perfusion. Circulation of the
+      cardiac sheet with a vascular bed in experiment 2 and liver graft during
+      preservation in experiment 3 was evaluated with indocyanine green fluorescence
+      imaging equipped with this system. Results: Every procedure was completed by
+      MMBS. The operator and assistants could share the same field of view in heads-up 
+      status. The focal depth was deep enough not to be disturbed by pulsing blood
+      vessels or respiratory movement. The tissue circulation could be evaluated using 
+      fluorescence imaging of this system. Conclusions: MMBS using the novel system is 
+      applicable to various surgeries and valuable for both fine surgical procedures
+      and high-level surgical education.
+FAU - Yagi, Shintaro
+AU  - Yagi S
+AD  - Department of Hepato-Biliary-Pancreatic Surgery and Transplantation, Kanazawa
+      University, Kanazawa City, Ishikawa, Japan
+FAU - Ito, Takashi
+AU  - Ito T
+AUID- ORCID: https://orcid.org/0000-0002-5892-8317
+AD  - Department of HBP and Transplant Surgery, Kyoto University, Kyoto City, Kyoto,
+      Japan
+FAU - Shirai, Hisaya
+AU  - Shirai H
+AD  - Department of HBP and Transplant Surgery, Kyoto University, Kyoto City, Kyoto,
+      Japan
+FAU - Yao, Siyuan
+AU  - Yao S
+AD  - Department of HBP and Transplant Surgery, Kyoto University, Kyoto City, Kyoto,
+      Japan
+FAU - Masano, Yuki
+AU  - Masano Y
+AUID- ORCID: https://orcid.org/0000-0003-0048-794X
+AD  - Department of HBP and Transplant Surgery, Kyoto University, Kyoto City, Kyoto,
+      Japan
+FAU - Ogawa, Eri
+AU  - Ogawa E
+AD  - Department of HBP and Transplant Surgery, Kyoto University, Kyoto City, Kyoto,
+      Japan
+FAU - Gabata, Ryosuke
+AU  - Gabata R
+AD  - Department of Hepato-Biliary-Pancreatic Surgery and Transplantation, Kanazawa
+      University, Kanazawa City, Ishikawa, Japan
+FAU - Uemoto, Shinji
+AU  - Uemoto S
+AD  - Shiga University of Medical Science, Otsu City, Shiga, Japan
+FAU - Kobayashi, Eiji
+AU  - Kobayashi E
+AUID- ORCID: https://orcid.org/0000-0001-8617-3778
+AD  - Department of Organ Fabrication, Keio University School of Medicine, Tokyo, Japan
+LA  - eng
+PT  - Journal Article
+DEP - 20210512
+GR  - 19he1302014j0002
+PHST- 2021/02/11 [received]
+PHST- 2021/04/11 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0250559 [doi]
+AID - PONE-D-21-04767 [pii]
+SO  - PLoS One. 2021 May 12;16(5):. doi:10.1371/journal.pone.0250559.
+
+PMC - PMC8100341
+PMID- 33968754
+IS  - 2234-943X (Electronic)
+VI  - 11
+DP  - 2021
+TI  - Exploratory Study of the Clinical Value of Near-Infrared Sentinel Lymph Node
+      Mapping With Indocyanine Green in Vulvar Cancer Patients.
+LID - 652458
+AB  - Background: This study aimed to evaluate the clinical value of indocyanine green 
+      sentinel lymph node (SLN) mapping in patients with vulvar cancer. The
+      conventional procedure of SLN mapping in vulvar cancer includes peritumoral
+      injection of technetium-99m nanocolloid before surgery and intraoperative
+      injection of a blue dye. However, these techniques harbor some limitations.
+      Near-infrared fluorescence imaging with indocyanine green has gained popularity
+      in SLN mapping in different types of cancer. Methods: We analyzed retrospectively
+      vulvar cancer patients at our institution between 2013 and 2020 undergoing
+      indocyanine green SLN mapping by applying video telescope operating microscope
+      system technology. Results: 64 groins of 34 patients were analyzed. In 53 groins 
+      we used technetium-99m nanocolloid, in four patent blue, and in five both
+      techniques, additionally to indocyanine green for SLN detection. In total, 120
+      SLNs were identified and removed. The SLN detection rate of indocyanine green was
+      comparable to technetium-99m nanocolloid (p=.143) and higher than patent blue
+      (p=.003). The best results were achieved using a combination of ICG and
+      technetium-99m nanocolloid (detection rate of 96.9%). SLN detection rates of
+      indocyanine green were significantly higher in patients with positive lymph nodes
+      (p=.035) and lymphatic space invasion (p=.004) compared to technetium-99m
+      nanocolloid. Conclusion: Indocyanine green SLN mapping in vulvar cancer is
+      feasible and safe, with reasonable detection rates. Due to its easy application
+      and few side effects, it offers a sound alternative to the conventional SLN
+      mapping techniques in vulvar cancer. In patients with lymph node metastasis,
+      indocyanine green even outperformed technetium-99m nanocolloid in terms of
+      detection rate.
+FAU - Siegenthaler, Franziska
+AU  - Siegenthaler F
+AD  - Department of Obstetrics and Gynecology, Bern University Hospital and University 
+      of Bern, Bern, Switzerland
+FAU - Imboden, Sara
+AU  - Imboden S
+AD  - Department of Obstetrics and Gynecology, Bern University Hospital and University 
+      of Bern, Bern, Switzerland
+FAU - Knabben, Laura
+AU  - Knabben L
+AD  - Department of Obstetrics and Gynecology, Bern University Hospital and University 
+      of Bern, Bern, Switzerland
+FAU - Mohr, Stefan
+AU  - Mohr S
+AD  - Department of Obstetrics and Gynecology, Bern University Hospital and University 
+      of Bern, Bern, Switzerland
+FAU - Papadia, Andrea
+AU  - Papadia A
+AD  - Department of Obstetrics and Gynecology, Ente Ospedaliere Cantonale, University
+      of the Italian Switzerland, Lugano, Switzerland
+FAU - Mueller, Michael D.
+AU  - Mueller MD
+AD  - Department of Obstetrics and Gynecology, Bern University Hospital and University 
+      of Bern, Bern, Switzerland
+LA  - eng
+PT  - Journal Article
+DEP - 20210422
+PHST- 2021/01/12 [received]
+PHST- 2021/03/30 [accepted]
+TA  - Front Oncol
+JT  - Frontiers in Oncology
+AID - 10.3389/fonc.2021.652458 [doi]
+SO  - Front Oncol. 2021 Apr 22;11:. doi:10.3389/fonc.2021.652458.
+
+PMC - PMC8003460
+PMID- 33808621
+IS  - 2072-6694 (Electronic)
+VI  - 13
+IP  - 6
+DP  - 2021 Mar
+TI  - Current Advances in Robotics for Head and Neck Surgery—A Systematic Review.
+LID - 1398
+AB  - Simple Summary: The means of therapy in oncologic diseases have been developing
+      continuously over the past years, intending to improve the overall survival and
+      quality of life of affected patients. In head and neck oncology the surgical
+      therapy is one of the key pillars in curative treatment. The standardized
+      surgical techniques are supplemented and improved by the application of technical
+      devices. The ambition is the reduction in peri- and postoperative morbidity,
+      hospitalization time, and the enhancement of functional outcome. In other
+      surgical specialties, the application of robotics is widely seen as standard. The
+      purpose of this review is to outline the current status of robotics in head and
+      neck surgery in the context of the present literature, to demonstrate reasonable 
+      application fields, and to discuss the expenditure of the usage of such tools.
+      Furthermore, this review offers an overview of current research in this field.
+      Abstract: Background. In the past few years, surgical robots have recently
+      entered the medical field, particularly in urology, gynecology, and general
+      surgery. However, the clinical effectiveness and safety of robot-assisted surgery
+      (RAS) in the field of head and neck surgery has not been clearly established. In 
+      this review, we evaluate to what extent RAS can potentially be applied in head
+      and neck surgery, in which fields it is already daily routine and what advantages
+      can be seen in comparison to conventional surgery. Data sources. For this
+      purpose, we conducted a systematic review of trials published between 2000 and
+      2021, as well as currently ongoing trials registered in clinicaltrials.gov. The
+      results were structured according to anatomical regions, for the topics “Costs,” 
+      “current clinical trials,” and “robotic research” we added separate sections for 
+      the sake of clarity. Results. Our findings show a lack of large-scale systematic 
+      randomized trials on the use of robots in head and neck surgery. Most studies
+      include small case series or lack a control arm which enables a comparison with
+      established standard procedures. Conclusion. The question of financial
+      reimbursement is still not answered and the systems on the market still require
+      some specific improvements for the use in head and neck surgery.
+FAU - Boehm, Felix
+AU  - Boehm F
+AUID- ORCID: https://orcid.org/0000-0002-7291-7737
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+FAU - Graesslin, Rene
+AU  - Graesslin R
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+FAU - Theodoraki, Marie-Nicole
+AU  - Theodoraki MN
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+FAU - Schild, Leon
+AU  - Schild L
+AUID- ORCID: https://orcid.org/0000-0003-3271-7682
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+FAU - Greve, Jens
+AU  - Greve J
+AUID- ORCID: https://orcid.org/0000-0003-0628-0608
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+FAU - Hoffmann, Thomas K.
+AU  - Hoffmann TK
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+FAU - Schuler, Patrick J.
+AU  - Schuler PJ
+AUID- ORCID: https://orcid.org/0000-0002-1065-8709
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Ulm University Medical 
+      Center, 89075 Ulm, Germany; rene.graesslin@uniklinik-ulm.de (R.G.);
+      marie-nicole.theodoraki@uniklinik-ulm.de (M.-N.T.); leon.schild@uni-ulm.de
+      (L.S.); jens.greve@uniklinik-ulm.de (J.G.); ent.department@uniklinik-ulm.de
+      (T.K.H.)
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20210319
+PHST- 2021/02/14 [received]
+PHST- 2021/03/17 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers13061398 [doi]
+AID - cancers-13-01398 [pii]
+SO  - Cancers (Basel). 2021 Mar 19;13(6):. doi:10.3390/cancers13061398.
+
+PMC - PMC7808896
+PMID- 33489634
+IS  - 2168-8184 (Electronic)
+VI  - 13
+IP  - 1
+TI  - VITOM 4K 3D Exoscope: A Preliminary Experience in Thyroid Surgery.
+LID - e12694
+AB  - Since its introduction in 2008, the Karl Storz 4K 3D VITOM® exoscope (Karl
+      Storz SE & Co. KG, Tuttlingen, Germany) has been successfully used in various
+      surgical disciplines. This paper describes our department’s experience using this
+      technology and its use in the first total thyroidectomy case. The set up of the
+      3D VITOM exoscope in the operating theatre allows for a user-friendly approach to
+      thyroid surgery with the exoscope placed out of the line of sight of the surgeon 
+      with a monitor placed directly ahead. The surgeon has a control panel within
+      reach, which allows for adjustments to image magnification and focus. The use of 
+      the 3D VITOM exoscope has the potential to confer significant improvements in
+      patient outcomes by promoting efficient and safer surgery through superior
+      operative visualisation.
+FAU - Kullar, Peter
+AU  - Kullar P
+AD  - Otolaryngology, East and North Hertfordshire NHS Trust, Stevenage, GBR
+FAU - Tanna, Ravina
+AU  - Tanna R
+AD  - Otolaryngology, East and North Hertfordshire NHS Trust, Stevenage, GBR
+FAU - Ally, Munira
+AU  - Ally M
+AD  - Otolaryngology, East and North Hertfordshire NHS Trust, Stevenage, GBR
+FAU - Vijendren, Ananth
+AU  - Vijendren A
+AD  - Otolaryngology, East and North Hertfordshire NHS Trust, Stevenage, GBR
+FAU - Mochloulis, George
+AU  - Mochloulis G
+AD  - Otolaryngology, East and North Hertfordshire NHS Trust, Stevenage, GBR
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+PHST- 2021/01/13 [accepted]
+TA  - Cureus
+JT  - Cureus
+AID - 10.7759/cureus.12694 [doi]
+SO  - Cureus. ;13(1):. doi:10.7759/cureus.12694.
+
+PMC - PMC8119277
+PMID- 33263157
+IS  - 1068-9265 (Print)
+IS  - 1534-4681 (Electronic)
+VI  - 28
+IP  - 6
+DP  - 2021
+TI  - A Pilot Study Evaluating the Effects of Magtrace® for Sentinel Node Biopsy in
+      Breast Cancer Patients Regarding Care Process Optimization, Reimbursement,
+      Surgical Time, and Patient Comfort Compared With Standard Technetium99.
+PG  - 3232-40
+AB  - Background: Sentinel lymph node biopsy after technetium-99 (Tc99) localization is
+      a mainstay of oncologic breast surgery. The timing of Tc99 injection can
+      complicate operating room schedules, which can cause increasing overall costs of 
+      care and patient discomfort. Methods: This study compared 59 patients who
+      underwent breast cancer surgery including sentinel lymph node biopsy. Based on
+      the surgeon’s choice, 29 patients were treated with Tc99, and 30 patients
+      received the iron-based tracer, Magtrace. The primary outcomes were time spent on
+      the care pathway and operating time from commissioning of the probe to removal of
+      the sentinel node. The secondary outcomes were patient pain levels and
+      reimbursement. Results: The mean time spent on the preoperative breast cancer
+      care pathway was significantly shorter for the Magtrace group (5.4 ± 1.3 min)
+      than for the Tc99 group (82 ± 20 min) (p < 0.0001). The median time from probe
+      usage to sentinel node extirpation was slightly but not significantly shorter in 
+      the Magtrace group (5 min; interquartile range [IQR], 3–15 min vs 10 min; IQR,
+      7–15 min; p = 0.151). Reimbursement and pain levels remained unchanged, and the
+      hospital length of stay was similar in the two groups (Magtrace: 5.1 ± 2.3 days
+      vs Tc99: 4.5 ± 3.2 days). Conclusions: Magtrace localization shortened the
+      preoperative care pathway and did not affect surgical time or reimbursement. Once
+      established, it could allow for cost reduction and improve patient comfort.
+FAU - Shams, Sina
+AU  - Shams S
+AD  - grid.6363.00000 0001 2218 4662Department of Gynecology with Breast Center,
+      Charité – Universitätsmedizin Berlin, Corporate Member of Freie Universität
+      Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Berlin,
+      Germany
+FAU - Lippold, Kai
+AU  - Lippold K
+AD  - grid.6363.00000 0001 2218 4662Directorate of Charité Center 17, Charité –
+      Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin,
+      Humboldt-Universität zu Berlin and Berlin Institute of Health, Berlin, Germany
+FAU - Blohmer, Jens Uwe
+AU  - Blohmer JU
+AD  - grid.6363.00000 0001 2218 4662Department of Gynecology with Breast Center,
+      Charité – Universitätsmedizin Berlin, Corporate Member of Freie Universität
+      Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Berlin,
+      Germany
+FAU - Röhle, Robert
+AU  - Röhle R
+AD  - grid.6363.00000 0001 2218 4662Institute of Biometry and Clinical Epidemiology,
+      Charité – Universitätsmedizin Berlin, Corporate Member of Freie Universität
+      Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Berlin,
+      Germany
+FAU - Kühn, Friedrich
+AU  - Kühn F
+AD  - grid.6363.00000 0001 2218 4662Department of Gynecology with Breast Center,
+      Charité – Universitätsmedizin Berlin, Corporate Member of Freie Universität
+      Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Berlin,
+      Germany
+FAU - Karsten, Maria Margarete
+AU  - Karsten MM
+AD  - grid.6363.00000 0001 2218 4662Department of Gynecology with Breast Center,
+      Charité – Universitätsmedizin Berlin, Corporate Member of Freie Universität
+      Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Berlin,
+      Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20201201
+PHST- 2020/08/07 [received]
+PHST- 2020/10/03 [accepted]
+TA  - Ann Surg Oncol
+JT  - Annals of Surgical Oncology
+AID - 9280 [pii]
+AID - 10.1245/s10434-020-09280-1 [doi]
+SO  - Ann Surg Oncol. 2021;28(6):3232-40. Epub 2020 Dec 1
+      doi:10.1245/s10434-020-09280-1.
+
+PMC - PMC7873085
+PMID- 33000339
+IS  - 0171-5216 (Print)
+IS  - 1432-1335 (Electronic)
+VI  - 147
+IP  - 3
+DP  - 2021
+TI  - Sentinel lymph node mapping with indocyanine green in cervical cancer patients
+      undergoing open radical hysterectomy: a single-institution series.
+PG  - 649-59
+AB  - Purpose: To assess the rate of bilateral sentinel lymph node (SLN) detection with
+      indocyanine green (ICG), to evaluate the sensitivity and the negative predictive 
+      value of cervical cancer patients undergoing open radical hysterectomy; to
+      compare open versus minimally invasive SLN biopsy performance and to assess
+      factors related to no/unilateral SLN mapping. Methods: We retrospectively
+      reviewed consecutive patients with FIGO 2018 stage IA1 with lymph-vascular space 
+      involvement to IIB and IIIC1p cervical carcinoma who underwent SLN mapping with
+      ICG followed by systematic pelvic lymphadenectomy between 05/2017 and 06/2020.
+      Patients were divided according to surgical approach for statistical analysis.
+      Results: Eighty-five patients met inclusion criteria. Twenty-seven (31.8%)
+      underwent open and 58 (68.2%) underwent minimally invasive SLN mapping. No
+      difference in any SLN mapping (laparotomy 92.6% and minimally invasive 91.4%) or 
+      in SLN bilateral detection (laparotomy 72.0% and minimally invasive 84.9%)
+      (p = 0.850 and p = 0.222, respectively), in median number of SLNs mapped and
+      retrieved (2 in both groups, p = 0.165) and in site of SLN mapping per
+      hemi-pelvis (right side, p = 0273 and left side, p = 0.618) was evident between
+      open and minimally invasive approach. Per-patient sensitivity of SLN biopsy in
+      laparotomy was 83.3% (95% CI 35.9–99.6%) and the negative predictive value was
+      95.0% (95% CI 76.0–99.1%). No difference in per-patient sensitivity was noted
+      between two approaches (p = 0.300). None of the analyzed variables was associated
+      with no/unilateral SLN mapping. Conclusion: The use of ICG to detect SLN in
+      cervical cancer treated with open surgery allows a bilateral detection,
+      sensitivity and negative predictive value comparable to minimally invasive
+      surgery with potential advantages of ICG compared to other tracers. Electronic
+      supplementary material: The online version of this article
+      (10.1007/s00432-020-03393-6) contains supplementary material, which is available 
+      to authorized users.
+FAU - Bizzarri, Nicolò
+AU  - Bizzarri N
+AUID- ORCID: https://orcid.org/0000-0002-1727-904X
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Luigi, Pedone Anchora
+AU  - Luigi PA
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Ferrandina, Gabriella
+AU  - Ferrandina G
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Zannoni, Gian Franco
+AU  - Zannoni GF
+AD  - grid.8142.f0000 0001 0941 3192Università Cattolica del Sacro Cuore, Largo
+      Francesco Vito 1, 00168 Rome, Italy
+FAU - Carbone, Maria Vittoria
+AU  - Carbone MV
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Fedele, Camilla
+AU  - Fedele C
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Teodorico, Elena
+AU  - Teodorico E
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Gallotta, Valerio
+AU  - Gallotta V
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Gueli Alletti, Salvatore
+AU  - Gueli Alletti S
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Chiantera, Vito
+AU  - Chiantera V
+AD  - grid.10776.370000 0004 1762 5517Department of Gynecologic Oncology, ARNAS
+      Ospedali Civico di Cristina Benfratelli, University of Palermo, Piazza Nicola
+      Leotta 4/A, 90127 Palermo, Italy
+FAU - Fagotti, Anna
+AU  - Fagotti A
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Scambia, Giovanni
+AU  - Scambia G
+AUID- ORCID: 0000-0002-9503-9041
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+FAU - Fanfani, Francesco
+AU  - Fanfani F
+AD  - grid.414603.4UOC Ginecologia Oncologica, Dipartimento per la salute della Donna e
+      del Bambino e della Salute Pubblica, Fondazione Policlinico Universitario A.
+      Gemelli, IRCCS, Largo Agostino Gemelli 8, 00168 Rome, Italy
+LA  - eng
+PT  - Journal Article
+DEP - 20200930
+PHST- 2020/08/09 [received]
+PHST- 2020/09/10 [accepted]
+TA  - J Cancer Res Clin Oncol
+JT  - Journal of Cancer Research and Clinical Oncology
+AID - 3393 [pii]
+AID - 10.1007/s00432-020-03393-6 [doi]
+SO  - J Cancer Res Clin Oncol. 2021;147(3):649-59. Epub 2020 Sep 30
+      doi:10.1007/s00432-020-03393-6.
+
+PMC - PMC7541884
+PMID- 32458621
+IS  - 1513-7368 (Print)
+IS  - 2476-762X (Electronic)
+VI  - 21
+IP  - 5
+DP  - 2020 May
+TI  - Indocyanine Green Fluorescence Versus Blue Dye or Radioisotope Regarding
+      Detection Rate of Sentinel Lymph Node Biopsy and Nodes Removed in Breast Cancer: 
+      A Systematic Review and Meta-Analysis.
+PG  - 1187-95
+AB  - Background:: Either blue dye (BD) or radioisotope (RI) is mainly used for
+      sentinel lymph node biopsy (SLNB) in breast cancer patients. Unlike the BD, RI
+      has lower false-negative rate of SLNB. However, its lymphoscintigraphy,
+      difficulty in preoperative injection, and undetected sentinel lymph nodes in some
+      cases cause surgeons to rely only on BD. Currently, indocyanine green (ICG)
+      fluorescence method (ICG-SLNB) is increasingly used as an alternative to the
+      conventional mapping methods in many centers. This systematic review compared ICG
+      with the conventional method of BD or RI in terms of detection rate of SLNB and
+      the number of sentinel lymph nodes (SLNs) removed in. Methods: : We searched all 
+      relevant studies published between January 2000 and October 2019. All data on for
+      evaluation of SLN detection rate, number of SLNs removed per patient, and tumor
+      positive rate of SLNB were extracted. Results:: A total of 30 studies, including 
+      4,216 SLN procedures were retrieved. There was a statistically significant
+      difference between ICG and BD method in terms of SLN detection rate (OR, 6.73;
+      95% CI, 4.20-10.78). However, there was no significant difference between ICG and
+      RI in this regard (OR, 0.90; 95% CI, 0.40-2.03). The number of SLNs removed per
+      patient were 2.35 (1.46-5.4), 1.92 (1.0-3.64), and 1.72 (1.35-2.08) for ICG, BD, 
+      and RI, respectively. Only in 8 studies, the tumor positive rates in SLNB could
+      be analyzed (ICG, 8.5-20.7%; BD, 12.7-21.4%; RI, 11.3-16%). Conclusion:: ICG-SLNB
+      could be an additional or an alternative method for axillary node mapping in
+      breast cancer.
+FAU - Thongvitokomarn, Sarun
+AU  - Thongvitokomarn S
+AD  - Department of Surgery, Panyananthaphikkhu Chonprathan Medical center,
+      Srinakharinwirot University, Nonthaburi, Thailand.
+FAU - Polchai, Nuanphan
+AU  - Polchai N
+AD  - Division of Head Neck and Breast Surgery, Department of Surgery, Faculty of
+      Medicine, Siriraj Hospital, Mahidol University, Bangkok, Thailand.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PHST- 2019/12/26 [received]
+PHST- 2020/05/01 [accepted]
+TA  - Asian Pac J Cancer Prev
+JT  - Asian Pacific Journal of Cancer Prevention : APJCP
+AID - 10.31557/APJCP.2020.21.5.1187 [doi]
+SO  - Asian Pac J Cancer Prev. 2020 May;21(5):1187-95.
+      doi:10.31557/APJCP.2020.21.5.1187.
+
+PMC - PMC6687041
+PMID- 31403028
+IS  - 2233-601X (Print)
+IS  - 2093-6516 (Electronic)
+VI  - 52
+IP  - 4
+DP  - 2019 Aug
+TI  - Real-Time Fluorescence Imaging in Thoracic Surgery.
+PG  - 205-20
+AB  - Near-infrared (NIR) fluorescence imaging provides a safe and cost-efficient
+      method for immediate data acquisition and visualization of tissues, with
+      technical advantages including minimal autofluorescence, reduced photon
+      absorption, and low scattering in tissue. In this review, we introduce recent
+      advances in NIR fluorescence imaging systems for thoracic surgery that improve
+      the identification of vital tissues and facilitate the resection of tumorous
+      tissues. When coupled with appropriate NIR fluorophores, NIR fluorescence imaging
+      may transform current intraoperative thoracic surgery methods by enhancing the
+      precision of surgical procedures and augmenting postoperative outcomes through
+      improvements in diagnostic accuracy and reductions in the remission rate.
+FAU - Das, Priyanka
+AU  - Das P
+AUID- ORCID: https://orcid.org/0000-0001-5289-4550
+AD  - Gordon Center for Medical Imaging, Department of Radiology, Massachusetts General
+      Hospital and Harvard Medical School, Boston, MA, USA
+FAU - Santos, Sheena
+AU  - Santos S
+AUID- ORCID: https://orcid.org/0000-0002-6735-0334
+AD  - Gordon Center for Medical Imaging, Department of Radiology, Massachusetts General
+      Hospital and Harvard Medical School, Boston, MA, USA
+FAU - Park, G. Kate
+AU  - Park GK
+AUID- ORCID: https://orcid.org/0000-0003-4476-9084
+AD  - Gordon Center for Medical Imaging, Department of Radiology, Massachusetts General
+      Hospital and Harvard Medical School, Boston, MA, USA
+FAU - Hoseok, I
+AU  - Hoseok I
+AUID- ORCID: https://orcid.org/0000-0001-8930-8148
+AD  - Department of Thoracic and Cardiovascular Surgery, Pusan National University
+      Hospital, Pusan National University School of Medicine, Busan, Korea
+FAU - Choi, Hak Soo
+AU  - Choi HS
+AUID- ORCID: https://orcid.org/0000-0002-7982-6483
+AD  - Gordon Center for Medical Imaging, Department of Radiology, Massachusetts General
+      Hospital and Harvard Medical School, Boston, MA, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20190805
+PHST- 2018/11/27 [received]
+PHST- 2018/12/24 [revised]
+PHST- 2018/12/24 [accepted]
+PHST- 2019/08/05 [aheadofprint]
+TA  - Korean J Thorac Cardiovasc Surg
+JT  - The Korean Journal of Thoracic and Cardiovascular Surgery
+AID - 10.5090/kjtcs.2019.52.4.205 [doi]
+AID - kjtcvs-52-205 [pii]
+SO  - Korean J Thorac Cardiovasc Surg. 2019 Aug;52(4):205-20. Epub 2019 Aug 05
+      doi:10.5090/kjtcs.2019.52.4.205.
+
+PMC - PMC6739455
+PMID- 31119395
+IS  - 0001-6268 (Print)
+IS  - 0942-0940 (Electronic)
+VI  - 161
+IP  - 10
+DP  - 2019
+TI  - Preliminary experience with a digital robotic exoscope in cranial and spinal
+      surgery: a review of the Synaptive Modus V system.
+PG  - 2175-80
+AB  - Background: The microscope is the standard tool for microneurosurgery worldwide. 
+      However, the reduced illumination of the surgical field with the use of a
+      conventional microscope during surgeries of deeply located pathologies remains
+      unaddressed. Accordingly, different exoscope systems have recently been
+      introduced in clinical practice. Here, we report our initial experience with the 
+      digital 2-dimensional Synaptive Modus V exoscope system in spinal and cranial
+      surgery. Methods: During a 2-week period between 27 September to 11 October 2018,
+      we used the Synaptive Modus V exoscope system and performed eight neurosurgical
+      procedures including spine (n = 4) and cranial procedures (n = 4). Visual
+      quality, depth perception, complications, switching to microscope comfort level
+      of the surgeon, and learning curve during surgery were evaluated. Results: A
+      total of eight procedures were performed, namely, vestibular schwannoma (n = 1), 
+      skull base meningioma (n = 1), olfactory groove meningioma (n = 1), tentorial
+      meningioma (n = 1), anterior cervical discectomy (n = 1), cervical laminectomy
+      (n = 1), and lumbar disc herniation (n = 2). The overall results were comparable 
+      to the operative microscope with better visual quality and greater comfort for
+      the surgeon. Conclusion: The Synaptive Modus V system is a safe tool to perform
+      common spinal surgeries and intracranial tumor resection. Image quality is better
+      than a microscope but with slightly less depth perception. Vigorous training in
+      the laboratory may be helpful before clinical use. Electronic supplementary
+      material: The online version of this article (10.1007/s00701-019-03953-x)
+      contains supplementary material, which is available to authorized users.
+FAU - Muhammad, Sajjad
+AU  - Muhammad S
+AD  - 0000 0004 0410 2071grid.7737.4Department of Neurosurgery, University of Helsinki 
+      and Helsinki University Hospital, Helsinki, Finland
+FAU - Lehecka, Martin
+AU  - Lehecka M
+AD  - 0000 0004 0410 2071grid.7737.4Department of Neurosurgery, University of Helsinki 
+      and Helsinki University Hospital, Helsinki, Finland
+FAU - Niemelä, Mika
+AU  - Niemelä M
+AD  - 0000 0004 0410 2071grid.7737.4Department of Neurosurgery, University of Helsinki 
+      and Helsinki University Hospital, Helsinki, Finland
+LA  - eng
+PT  - Journal Article
+DEP - 20190522
+PHST- 2019/03/14 [received]
+PHST- 2019/04/08 [revised]
+PHST- 2019/05/08 [accepted]
+TA  - Acta Neurochir (Wien)
+JT  - Acta Neurochirurgica
+AID - 3953 [pii]
+AID - 10.1007/s00701-019-03953-x [doi]
+SO  - Acta Neurochir (Wien). 2019;161(10):2175-80. Epub 2019 May 22
+      doi:10.1007/s00701-019-03953-x.
+
+PMC - PMC6559750
+PMID- 31187017
+IS  - 2192-8606 (Print)
+IS  - 2192-8614 (Electronic)
+VI  - 8
+IP  - 1
+DP  - 2019 Jan
+TI  - Intraoperative biophotonic imaging systems for image-guided interventions.
+PG  - 99-116
+AB  - Biophotonic imaging has revolutionized the operation room by providing surgeons
+      intraoperative image-guidance to diagnose tumors more efficiently and to resect
+      tumors with real-time image navigation. Among many medical imaging modalities,
+      near-infrared (NIR) light is ideal for image-guided surgery because it penetrates
+      relatively deeply into living tissue, while nuclear imaging provides quantitative
+      and unlimited depth information. It is therefore ideal to develop an integrated
+      imaging system by combining NIR fluorescence and gamma-positron imaging to
+      provide surgeons with highly sensitive and quantitative detection of diseases,
+      such as cancer, in real-time without changing the look of the surgical field. The
+      focus of this review is to provide recent progress in intraoperative biophotonic 
+      imaging systems, NIR fluorescence imaging and intraoperative nuclear imaging
+      devices, and their future perspectives for image-guided interventions.
+FAU - Sajedi, Salar
+AU  - Sajedi S
+FAU - Sabet, Hamid
+AU  - Sabet H
+FAU - Choi, Hak Soo
+AU  - Choi HS
+AUID- ORCID: 0000-0002-7982-6483
+LA  - eng
+PT  - Journal Article
+DEP - 20181214
+TA  - Nanophotonics
+JT  - Nanophotonics
+AID - 10.1515/nanoph-2018-0134 [doi]
+MID - NIHMS1032306
+SO  - Nanophotonics. 2019 Jan;8(1):99-116. Epub 2018 Dec 14
+      doi:10.1515/nanoph-2018-0134.
+
+PMC - PMC6232564
+PMID- 30430118
+IS  - 2307-8960 (Electronic)
+VI  - 6
+IP  - 13
+DP  - 2018 Nov 6
+TI  - Usefulness of colonic tattooing using indocyanine green in patients with
+      colorectal tumors.
+PG  - 632-40
+AB  - AIM: To prove that tattooing using indocyanine green (ICG) is feasible in
+      laparoscopic surgery for a colon tumor. METHODS: From January 2012 to December
+      2016, all patients who underwent laparoscopic colonic surgery were
+      retrospectively screened, and 1010 patients with colorectal neoplasms were
+      included. Their lesions were tattooed with ICG the day before the operation. The 
+      tattooed group (TG) included 114 patients, and the non-tattooed group (NTG) was
+      selected by propensity score matching of subjects based on age, sex, tumor
+      staging, and operation method (n = 228). In total, 342 patients were enrolled.
+      Between the groups, the changes in [Delta (Δ), preoperative-postoperative] the
+      hemoglobin and albumin levels, operation time, hospital stay, oral ingestion
+      period, transfusion, and perioperative complications were compared. RESULTS:
+      Preoperative TG had a shorter operation time (174.76 ± 51.6 min vs 192.63 ± 59.9 
+      min, P < 0.01), hospital stay (9.55 ± 3.36 d vs 11.42 ± 8.23 d, P < 0.01), and
+      post-operative oral ingestion period (1.58 ± 0.96 d vs 2.81 ± 1.90 d, P < 0.01). 
+      The Δ hemoglobin (0.78 ± 0.76 g/dL vs 2.2 ± 1.18 g/dL, P < 0.01) and Δ albumin
+      (0.41 ± 0.44 g/dL vs 1.08 ± 0.39 g/dL, P < 0.01) levels were lower in the TG. On 
+      comparison of patients in the “N0” and “N1 or N2” groups, the N0 colon cancer
+      group had a better operation time, length of hospital stay, oral ingestion
+      period, Δ hemoglobin, and Δ albumin results than those of the N1 or N2 group. The
+      operation methods affected the results, and laparoscopic anterior resection (LAR)
+      showed similar results. However, for left and right hemicolectomy, both groups
+      showed no difference in operation time or hospital stay. CONCLUSION: Preoperative
+      tattooing with ICG is useful for laparoscopic colectomy, especially in the N0
+      colon cancer group and LAR.
+FAU - Park, Jae Ho
+AU  - Park JH
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Moon, Hee Seok
+AU  - Moon HS
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea. mhs1357@cnuh.co.kr
+FAU - Kwon, In Sun
+AU  - Kwon IS
+AD  - Clinical Trials Center, Chungnam National University Hospital, Daejeon 35015,
+      South Korea
+FAU - Yun, Gee Young
+AU  - Yun GY
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Lee, Seo Hee
+AU  - Lee SH
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Park, Dae Hwa
+AU  - Park DH
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Kim, Ju Seok
+AU  - Kim JS
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Kang, Sun Hyung
+AU  - Kang SH
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Lee, Eaum Seok
+AU  - Lee ES
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Kim, Seok Hyun
+AU  - Kim SH
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Sung, Jae Kyu
+AU  - Sung JK
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Lee, Byung Seok
+AU  - Lee BS
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+FAU - Jeong, Hyun Yong
+AU  - Jeong HY
+AD  - Division of Gastroenterology, Department of Internal Medicine, Chungnam National 
+      University Hospital, Chungnam National University college of Medicine, Daejeon
+      35015, South Korea
+LA  - eng
+PT  - Journal Article
+DEP - 20181106
+PHST- 2018/07/05 [received]
+PHST- 2018/08/31 [revised]
+PHST- 2018/10/08 [accepted]
+PHST- 2018/11/06 [aheadofprint]
+TA  - World J Clin Cases
+JT  - World Journal of Clinical Cases
+AID - 10.12998/wjcc.v6.i13.632 [doi]
+SO  - World J Clin Cases. 2018 Nov 6;6(13):632-40. Epub 2018 Nov 6
+      doi:10.12998/wjcc.v6.i13.632.
+
+PMC - PMC6120275
+PMID- 30210867
+IS  - 2090-0007 (Print)
+IS  - 2090-0015 (Electronic)
+VI  - 2018
+DP  - 2018
+TI  - The Utility of Intraoperative Near Infrared Fluorescence (NIR) Imaging with
+      Indocyanine Green (ICG) for the Assessment of Kidney Allograft Perfusion.
+LID - 6703056
+AB  - Background: Near infrared light (NIR) fluorescence imaging with indocyanine green
+      (ICG) has been used in various aspects of surgery, such as in the assessment of
+      vascular anastomosis, tissue perfusion, and the identification of lymph nodes. In
+      this study we evaluated the utility of NIR/ICG fluorescence imaging in kidney
+      transplantation. Materials and Methods: NIR/ICG imaging was used to assess
+      allograft perfusion in n=1 living donor (LDRT) and n=2 deceased donor (DDRT)
+      renal transplantations, performed in February 2017. The allograft arterial and
+      venous anastomoses were done end-to-side to the corresponding recipient external 
+      iliacs, and ureteroneocystostomies were performed for urinary reconstructions.
+      After completion of vascular anastomosis, ICG was given as intravenous bolus at
+      0.3mg/kg, followed by visual assessment of tissue perfusion and vascular
+      anastomoses at 1-minute interval using fluorescence imaging (KARL STORZ NIR/ICG
+      System). Results: Homogenous global fluorescence of the allograft and vascular
+      anastomosis was observed in all 3 cases. Immediate postoperative perfusion
+      studies showed patent inflow and outflow vessels and well perfused transplanted
+      kidneys. Immediate graft function was observed in 2 recipients (1 LDRT and 1
+      DDRT). One session of haemodialysis was performed in 1 DDRT recipient, for high
+      serum potassium in the immediate postoperative setting, who otherwise had good
+      urine output and serially declining serum creatinine. Conclusions: NIR/ICG
+      fluorescence imaging can be useful in renal transplantation for the
+      intraoperative assessment of allograft perfusion, especially in complex cases
+      with multiple renal arteries and vascular reconstructions.
+FAU - Aslim, Edwin Jonathan
+AU  - Aslim EJ
+AUID- ORCID: 0000-0003-1512-3356
+AD  - Department of Urology, Singapore General Hospital, Singapore
+FAU - Lee, Fang Jann
+AU  - Lee FJ
+AD  - Singapore Medical Specialists Centre, Singapore
+FAU - Gan, Valerie Huei Li
+AU  - Gan VHL
+AUID- ORCID: 0000-0002-6258-3286
+AD  - Department of Urology, Singapore General Hospital, Singapore
+LA  - eng
+PT  - Journal Article
+DEP - 20180819
+PHST- 2018/05/13 [received]
+PHST- 2018/08/05 [accepted]
+TA  - J Transplant
+JT  - Journal of Transplantation
+AID - 10.1155/2018/6703056 [doi]
+SO  - J Transplant. 2018 Aug 19;2018:. doi:10.1155/2018/6703056.
+
+PMC - PMC6175214
+PMID- 29938401
+IS  - 0022-4790 (Print)
+IS  - 1096-9098 (Electronic)
+VI  - 118
+IP  - 2
+DP  - 2018 Aug 01
+TI  - A practical guide for the use of indocyanine green and methylene blue in
+      fluorescence‐guided abdominal surgery.
+PG  - 283-300
+AB  - Near‐infrared (NIR) fluorescence imaging is gaining clinical acceptance over the 
+      last years and has been used for detection of lymph nodes, several tumor types,
+      vital structures and tissue perfusion. This review focuses on NIR fluorescence
+      imaging with indocyanine green and methylene blue for different clinical
+      applications in abdominal surgery with an emphasis on oncology, based on a
+      systematic literature search. Furthermore, practical information on doses,
+      injection times, and intraoperative use are provided.
+FAU - van Manen, Labrinus
+AU  - van Manen L
+AUID- ORCID: 0000-0003-2287-107X
+AD  - Department of SurgeryLeiden University Medical CenterLeidenThe Netherlands
+FAU - Handgraaf, Henricus J. M.
+AU  - Handgraaf HJM
+AD  - Department of SurgeryLeiden University Medical CenterLeidenThe Netherlands
+FAU - Diana, Michele
+AU  - Diana M
+AD  - IHU‐StrasbourgInstitute of Image‐Guided SurgeryStrasbourgFrance
+FAU - Dijkstra, Jouke
+AU  - Dijkstra J
+AD  - Division of Image ProcessingDepartment of RadiologyLeiden University Medical
+      CenterLeidenThe Netherlands
+FAU - Ishizawa, Takeaki
+AU  - Ishizawa T
+AD  - Hepato‐Biliary‐Pancreatic Surgery DivisionDepartment of SurgeryGraduate School of
+      MedicineUniversity of TokyoTokyoJapan
+FAU - Vahrmeijer, Alexander L.
+AU  - Vahrmeijer AL
+AUID- ORCID: 0000-0001-9370-0011
+AD  - Department of SurgeryLeiden University Medical CenterLeidenThe Netherlands
+FAU - Mieog, Jan Sven David
+AU  - Mieog JSD
+AD  - Department of SurgeryLeiden University Medical CenterLeidenThe Netherlands
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20180624
+GR  - UL2015‐7665
+PHST- 2018/03/23 [received]
+PHST- 2018/04/21 [accepted]
+TA  - J Surg Oncol
+JT  - Journal of Surgical Oncology
+AID - 10.1002/jso.25105 [doi]
+AID - JSO25105 [pii]
+SO  - J Surg Oncol. 2018 Aug 01;118(2):283-300. Epub 2018 Jun 24 doi:10.1002/jso.25105.
+
+PMC - PMC6036059
+PMID- 30046566
+IS  - 2304-3881 (Print)
+IS  - 2304-389X (Electronic)
+VI  - 7
+IP  - 3
+DP  - 2018 Jun
+DP  - 2018 Jun
+TI  - Indocyanine green fluorescence angiography during liver and pancreas
+      transplantation: a tool to integrate perfusion statement’s evaluation.
+PG  - 161-6
+AB  - Background: Indocyanine green (ICG) fluorescence imaging is a promising tool for 
+      intraoperative decision-making during surgical procedures, in particular to
+      assess organs perfusion. Methods: We used the ICG fluorescence during liver
+      transplantations in six cirrhotic patients to help assessing the graft biliary
+      duct perfusion in order to identify the appropriate level to perform the
+      anastomosis. We also used ICG fluorescence also in five patients receiving
+      kidney-pancreas transplantation to evaluate the perfusion levels of the duodenal 
+      stump of the pancreas graft. Results: Follow-up period for the patients was 12
+      months. The perioperative period was uneventful, no biliary complications such as
+      leaks or stenosis were reported after liver transplantation, no complications of 
+      the entero-enteric anastomoses occurred after pancreatic transplantation.
+      Conclusions: ICG fluorescence seems to safely provide important objectifiable
+      perfusion information during organ transplantation procedures that can integrate 
+      surgeon’s expertise. In fact, detecting intra-operatively perfusion defects, it
+      allows real time modifications on technical strategies potentially useful to
+      reduce the feared risk of anastomotic leakage and consequent severe
+      complications.
+FAU - Panaro, Fabrizio
+AU  - Panaro F
+AD  - Department of General Surgery, Division of Transplantation, University of
+      Montpellier-College of Medicine, Saint Eloi Hospital, Montpellier-Cedex 5,
+      France;
+FAU - Benedetti, Enrico
+AU  - Benedetti E
+AD  - Division of Transplantation, University of Illinois Hospital and Health Sciences 
+      System, Chicago, IL, USA;
+FAU - Pineton de Chambrun, Guillaume
+AU  - Pineton de Chambrun G
+AD  - Department of Medicine, Division of Gastroenterology, Hospital St. Eloi,
+      Montpellier University Hospital, Augustin Fliche, 34295-Montpellier, France
+FAU - Habibeh, Hussein
+AU  - Habibeh H
+AD  - Department of General Surgery, Division of Transplantation, University of
+      Montpellier-College of Medicine, Saint Eloi Hospital, Montpellier-Cedex 5,
+      France;
+FAU - Leon, Piera
+AU  - Leon P
+AD  - Department of General Surgery, Division of Transplantation, University of
+      Montpellier-College of Medicine, Saint Eloi Hospital, Montpellier-Cedex 5,
+      France;
+FAU - Bouyabrine, Hassan
+AU  - Bouyabrine H
+AD  - Department of General Surgery, Division of Transplantation, University of
+      Montpellier-College of Medicine, Saint Eloi Hospital, Montpellier-Cedex 5,
+      France;
+FAU - Herrero, Astrid
+AU  - Herrero A
+AD  - Department of General Surgery, Division of Transplantation, University of
+      Montpellier-College of Medicine, Saint Eloi Hospital, Montpellier-Cedex 5,
+      France;
+FAU - Navarro, Francis
+AU  - Navarro F
+AD  - Department of General Surgery, Division of Transplantation, University of
+      Montpellier-College of Medicine, Saint Eloi Hospital, Montpellier-Cedex 5,
+      France;
+LA  - eng
+PT  - Journal Article
+PHST- 2017/04/10 [received]
+PHST- 2017/06/27 [accepted]
+TA  - Hepatobiliary Surg Nutr
+JT  - Hepatobiliary Surgery and Nutrition
+AID - hbsn-07-03-161 [pii]
+AID - 10.21037/hbsn.2017.07.02 [doi]
+SO  - Hepatobiliary Surg Nutr. 2018 Jun;7(3):161-6. doi:10.21037/hbsn.2017.07.02.
+
+PMC - PMC5892256
+PMID- 29780827
+IS  - 2314-6133 (Print)
+IS  - 2314-6141 (Electronic)
+VI  - 2018
+DP  - 2018
+TI  - Sentinel Lymph Node Biopsy in Breast Cancer Patients by Means of Indocyanine
+      Green Using the Karl Storz VITOM® Fluorescence Camera.
+LID - 6251468
+AB  - Currently, the use of radioisotope and blue dye for sentinel lymph node biopsy
+      (SLNB) for axillary staging in breast cancer is common. Recently, indocyanine
+      green (ICG) has been proposed as an alternative sentinel lymph node (SLN)
+      tracking agent. We evaluated the clinical value of ICG as an additional tracer in
+      combination with Technetium99m and as an alternative to Technetium99m for the
+      identification of SLN in 104 breast cancer patients. 21 patients had at least 1
+      histologically tumor-positive SLN. All 21 patients were detected by ICG; in one
+      of these 21 sentinel-positive patients, Technetium99m was unable to identify
+      lymph node involvement. Our results show that ICG is as effective as the
+      radioisotope for SLNB. In addition, as a near-infrared dye, it has the advantages
+      of real-time visualization, lower cost, and wider availability, since no
+      radioactive material needs to be handled. This trial is registered with German
+      Clinical Trial Register Main ID: DRKS00013606.
+FAU - Papathemelis, Thomas
+AU  - Papathemelis T
+AUID- ORCID: 0000-0003-1805-2610
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany
+FAU - Jablonski, Evi
+AU  - Jablonski E
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany
+FAU - Scharl, Anton
+AU  - Scharl A
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany
+FAU - Hauzenberger, Tanja
+AU  - Hauzenberger T
+AD  - Frauenklinik, Klinikum St. Marien Amberg, Amberg, Germany
+FAU - Gerken, Michael
+AU  - Gerken M
+AD  - Tumorzentrum der Universität Regensburg, Institut für Qualitätssicherung und
+      Versorgungsforschung, Regensburg, Germany
+FAU - Klinkhammer-Schalke, Monika
+AU  - Klinkhammer-Schalke M
+AUID- ORCID: 0000-0001-5066-2051
+AD  - Tumorzentrum der Universität Regensburg, Institut für Qualitätssicherung und
+      Versorgungsforschung, Regensburg, Germany
+FAU - Hipp, Matthias
+AU  - Hipp M
+AD  - Klinik für Strahlentherapie, Klinikum St. Marien Amberg, Amberg, Germany
+FAU - Scharl, Sophia
+AU  - Scharl S
+AD  - Klinik für Radioonkologie und Strahlentherapie München, Technische Universität
+      München, München, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20180326
+PHST- 2017/11/04 [received]
+PHST- 2018/02/12 [revised]
+PHST- 2018/02/20 [accepted]
+TA  - Biomed Res Int
+JT  - BioMed Research International
+AID - 10.1155/2018/6251468 [doi]
+SO  - Biomed Res Int. 2018 Mar 26;2018:. doi:10.1155/2018/6251468.
+
+PMC - PMC5532406
+PMID- 28804703
+IS  - 2281-5872 (Print)
+IS  - 2281-7565 (Electronic)
+VI  - 5
+IP  - 4
+DP  - 2017
+TI  - Hybrid intraoperative imaging techniques in radioguided surgery: present clinical
+      applications and future outlook.
+PG  - 323-41
+AB  - Purpose: This review aims to summarise the hybrid modality radioguidance
+      techniques currently in clinical use and development, and to discuss possible
+      future avenues of research. Due to the novelty of these approaches, evidence of
+      their clinical relevance does not yet exist. The purpose of this review is to
+      inform nuclear medicine practitioners of current cutting edge research in
+      radioguided surgery which may enter standard clinical practice within the next
+      5–10 years. Hybrid imaging is of growing importance to nuclear medicine
+      diagnostics, but it is only with recent advances in technology that hybrid
+      modalities are being investigated for use during radioguided surgery. These
+      modalities aim to overcome some of the difficulties of surgical imaging while
+      maintaining many benefits, or providing entirely new information unavailable to
+      surgeons with traditional radioguidance. Methods: A literature review was carried
+      out using online reference databases (Scopus, PubMed). Review articles obtained
+      using this technique were citation mined to obtain further references. Results:
+      In total, 2367 papers were returned, with 425 suitable for further assessment. 60
+      papers directly related to hybrid intraoperative imaging in radioguided surgery
+      are reported on. Of these papers, 25 described the clinical use of hybrid
+      imaging, 22 described the development of new hybrid probes and tracers, and 13
+      described the development of hybrid technologies for future clinical use. Hybrid 
+      gamma–NIR fluorescence was found to be the most common clinical technique, with
+      35 papers associated with these modalities. Other hybrid combinations include
+      gamma–bright field imaging, gamma–ultrasound imaging, gamma–β imaging and β–OCT
+      imaging. The combination of preoperative and intraoperative images is also
+      discussed. Conclusion: Hybrid imaging offers new possibilities for assisting
+      clinicians and surgeons in localising the site of uptake in procedures such as in
+      sentinel node detection.
+FAU - Bugby, S. L.
+AU  - Bugby SL
+AUID- ORCID: 0000-0001-9589-6249
+AD  - 0000 0004 1936 8411grid.9918.9Space Research Centre, Michael Atiyah Building,
+      University of Leicester, Leicester, LE1 7RH UK
+FAU - Lees, J. E.
+AU  - Lees JE
+AUID- ORCID: 0000-0003-3999-7787
+AD  - 0000 0004 1936 8411grid.9918.9Space Research Centre, Michael Atiyah Building,
+      University of Leicester, Leicester, LE1 7RH UK
+FAU - Perkins, A. C.
+AU  - Perkins AC
+AUID- ORCID: 0000-0002-1054-8200
+AD  - 0000 0004 1936 8868grid.4563.4Radiological Sciences, Division of Clinical
+      Neuroscience, School of Medical, University of Nottingham, Nottingham, NG7 2UH UK
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20170627
+GR  - CLASP ST/M007820/1
+PHST- 2017/03/30 [received]
+PHST- 2017/06/10 [accepted]
+TA  - Clin Transl Imaging
+JT  - Clinical and Translational Imaging
+AID - 235 [pii]
+AID - 10.1007/s40336-017-0235-x [doi]
+SO  - Clin Transl Imaging. 2017;5(4):323-41. Epub 2017 Jun 27
+      doi:10.1007/s40336-017-0235-x.
+
+PMC - PMC5181128
+PMID- 27792042
+IS  - 1048-891X (Print)
+IS  - 1525-1438 (Electronic)
+VI  - 27
+IP  - 1
+DP  - 2017 Jan
+TI  - Sentinel Lymph Nodes Mapping in Cervical Cancer a Comprehensive Review.
+PG  - 154-8
+AB  - Objective: A comprehensive literature search for more recent studies pertaining
+      to sentinel lymph node mapping in the surveillance of cervical cancer to assess
+      if sentinel lymph node mapping has sensitivity and specificity for evaluation of 
+      the disease; assessment of posttreatment response and disease recurrence in
+      cervical cancer. Materials and Methods: The literature review has been
+      constructed on a step wise study design that includes 5 major steps. This
+      includes search for relevant publications in various available databases,
+      application of inclusion and exclusion criteria for the selection of relevant
+      publications, assessment of quality of the studies included, extraction of the
+      relevant data and coherent synthesis of the data. Results: The search yielded
+      numerous studies pertaining to sentinel lymph node mapping, especially on the
+      recent trends, comparison between various modalities and evaluation of the
+      technique. Evaluation studies have appraised high sensitivity, high negative
+      predictive values and low false-negative rate for metastasis detection using
+      sentinel lymph node mapping. Comparative studies have established that of all the
+      modalities for sentinel lymph node mapping, indocyanine green sentinel lymph node
+      mapping has higher overall and bilateral detection rates. Corroboration of the
+      deductions of these studies further establishes that the sentinel node detection 
+      rate and sensitivity are strongly correlated to the method or technique of
+      mapping and the history of preoperative neoadjuvant chemotherapy. Conclusions:
+      The review takes us to the strong conclusion that sentinel lymph node mapping is 
+      an ideal technique for detection of sentinel lymph nodes in cervical cancer
+      patients with excellent detection rates and high sensitivity. The review also
+      takes us to the supposition that a routine clinical evaluation of sentinel lymph 
+      nodes is feasible and a real-time florescence mapping with indocyanine green dye 
+      gives better statistically significant overall and bilateral detection than
+      methylene blue.
+FAU - Diab, Yasser
+AU  - Diab Y
+LA  - eng
+PT  - Journal Article
+DEP - 20161027
+PHST- 2016/07/26 [received]
+PHST- 2016/08/08 [accepted]
+PHST- 2016/10/27 [aheadofprint]
+TA  - Int J Gynecol Cancer
+JT  - International Journal of Gynecological Cancer
+AID - IGJ50418 [pii]
+AID - 10.1097/IGC.0000000000000853 [doi]
+SO  - Int J Gynecol Cancer. 2017 Jan;27(1):154-8. Epub 2016 Oct 27
+      doi:10.1097/IGC.0000000000000853.

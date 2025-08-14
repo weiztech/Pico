@@ -1,0 +1,154 @@
+---
+- name: Deploy Application
+  hosts: localhost
+  become: true
+  remote_user: dockeruser
+  #become_user: dockeruser
+  gather_facts: false
+  vars_prompt:
+    - name: action
+      prompt: "Choose action (deploy or rollback):"
+      private: no
+    - name: deploy_target
+      prompt: "Enter the environment (dev, staging, or prod):"
+      private: no
+
+  vars:
+    server_ips:
+      dev: "your_dev_server_ip"
+      staging: "165.22.205.100"
+      prod: "your_prod_server_ip"
+    container_name: "your_container_name"
+    image_name: "your_image_name"
+    project_deployed_path: "/home/dockeruser/"
+    project_root: ".."
+    inventory_file: "./inventory.yml"
+
+    build_log_dir: "/home/{{ ansible_user }}/build_logs"
+
+  tasks:
+    - name: Set server IP based on environment
+      set_fact:
+        server_ip: "{{ server_ips[deploy_target] }}"
+
+    - name: Confirm production deployment
+      pause:
+        prompt: "You are about to deploy to PRODUCTION. Are you sure? (yes/no)"
+      when: environment == 'prod' and action == 'deploy'
+      register: confirm_prod
+
+    - name: Fail deployment if confirmation is not 'yes'
+      fail:
+        msg: "Deployment to production aborted."
+      when: environment == 'prod' and action == 'deploy' and confirm_prod.user_input != 'yes'
+
+
+    - name: Sync project files
+      synchronize:
+        src: "{{ project_root }}/"
+        dest: "{{ project_deployed_path }}"
+        rsync_opts:
+          - "--exclude=.git"
+          - "--exclude=*.pyc"
+          - "--exclude=__pycache__"
+          - "--exclude=venv"
+          - "--exclude=.env"
+        delete: yes
+      delegate_to: localhost
+      become: yes
+
+
+- name: Build and Run Docker Containers on Remote Server
+  hosts: all
+  remote_user: root
+
+  vars:
+    ansible_host: "{{ hostvars['localhost']['server_ip'] }}"
+    deploy_target: "{{ hostvars['localhost']['deploy_target'] }}"
+    action: "{{ hostvars['localhost']['action'] }}"
+    project_deployed_path: "/home/dockeruser/"
+    ansible_become: yes
+    ansible_sudo_pass: false
+
+  tasks:
+
+    - name: Install python3-venv
+      apt:
+        name: python3-venv
+        state: present
+      become: true
+
+    - name: Install dependencies
+      apt:
+        name:
+        - python3-pip
+       # - docker.io
+        state: present
+#        virtualenv: /home/dockeruser/CiteMedical/venv
+#        virtualenv_command: python3 -m venv
+       # update_cache: yes
+      #become: false
+
+#    - name: Install docker-compose
+#      pip:
+#        name: docker-compose>=1.7.0
+#        state: present
+#        virtualenv: /home/dockeruser/venv
+#        virtualenv_command: python3 -m venv
+#      #become: false
+
+    - name: Deploy with docker-compose
+      docker_compose:
+        project_src: "{{ project_deployed_path }}/deployment-infra"
+        files:
+          - compose.yml
+        pull: yes
+        build: yes
+        state: present
+
+
+
+
+
+    - name: Perform rollback
+      block:
+        - name: Revert the last commit locally
+          command: git revert HEAD
+          args:
+            chdir: "{{ project_root }}"
+
+        - name: Push the revert commit
+          command: git push origin develop
+          args:
+            chdir: "{{ project_root }}"
+      when: action == 'rollback'
+
+    - name: Create build log directory
+      file:
+        path: "{{ build_log_dir }}"
+        state: directory
+        mode: 0755
+
+    - name: Get current timestamp
+      command: date +%Y%m%d_%H%M%S
+      register: timestamp
+
+    - name: Set build log filename
+      set_fact:
+        build_log_file: "{{ build_log_dir }}/build_{{ timestamp.stdout }}.log"
+
+    - name: Write build log
+      copy:
+        content: "{{ lookup('file', 'deployment/compose.yml') }}"
+        dest: "{{ build_log_file }}"
+
+    - name: Get build logs
+      find:
+        paths: "{{ build_log_dir }}"
+        patterns: "build_*.log"
+      register: build_logs
+
+    - name: Show build logs
+      debug:
+        msg: "Build logs: {{ build_logs.files | map(attribute='path') | list }}"
+

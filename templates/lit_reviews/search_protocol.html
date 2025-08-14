@@ -1,0 +1,767 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+<link href="{% static 'css/theme/search_protocol_vue.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %}
+  {% if "search_protocol" in request.path %}
+  <a href="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-your-search-protocol"
+    target="_blank">
+    <span>Need help with this page? <br /> Read the Wiki</span>
+    <div>
+      <img src="{% static 'images/icons/wiki-icon.svg' %}">
+    </div>
+  </a>
+  {% endif %}
+{% endblock %}
+
+{% load crispy_forms_tags %}
+{% block 'body' %}
+
+<div id="app" v-cloak>
+  <!-- slide db config  -->
+  <div class="slider" id="db-config-slider">
+    <div class="slider-dialog db-slide-condig">
+      <div class="slider-dialog-inner ">
+
+        <div class="slider-header">
+          <button class="pagintaion-item mr" @click="hideModal('db-config-slider')">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72"
+                stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          [[ currentDB ? currentDB.name : '' ]] Database Configurations
+        </div>
+
+        <div v-if="currentDB" class="slider-content ">
+
+          <!-- Switcher -->
+          <div v-if="dbAvailableConfig.includes(currentDB.entrez_enum)">
+            <div class="switcher-container" style="width: 100%;">
+              <div class="switcher w-100">
+                <a href="#" class="switch-item" :class="{active:switcher=='recommended'}" @click="onSwitcher"> Recommend
+                </a>
+                <a href="#" class="switch-item" :class="{active:switcher=='manual'}" @click="onSwitcher"> Manual </a>
+              </div>
+            </div>
+  
+            <div class="filter-section">
+              <div class="helper-text">
+                The Recommended range is what you set in the top Search Parameters section. If you want to change/override this date range, you can in the Manual tab.
+              </div>
+            </div>
+            
+            <div class="horizantal-devider "> </div>
+          </div>
+
+          <div  v-if="currentDBType == 'ae_database'">              
+            <div class="filter-section">
+              <div class="helper-text" >
+                The general Adverse Event Start/End Search Date you set on the Search Parameters will be applied Here.
+                as for now this can not be edited/changed if you have a case where you want to set a specific start/end date 
+                for this database please contact our support team at support@citemedical.com.
+              </div>
+            </div>
+            
+            <div class="horizantal-devider "> </div>
+          </div>          
+
+          <!-- Database Config start/end date -->
+          <div class="filter-section">
+            <div>
+              <div>
+                <label>Start Date</label>
+                <input type="date" v-model="currentDBConfigStartDate" :disabled="!dbAvailableConfig.includes(currentDB.entrez_enum) || isReadOnly" />
+              </div>
+              <div>
+                <label>End Date</label>
+                <input type="date" v-model="currentDBConfigEndDate" :disabled="!dbAvailableConfig.includes(currentDB.entrez_enum) || isReadOnly" />
+              </div>
+            </div>
+          </div>
+
+          <div v-for="searchConfig in currentDB.search_configuration" :key="searchConfig.id">
+            <div v-for="(param, idx ) in searchConfig.params" :key="param.id">
+              <!-- for Checkbox type -->
+              <div v-if="param.type == 'CK'">
+                <!-- In accordance with issue 1823 some db configs for clinical trials are no longer applied and must be hidden from the user interface. -->
+                <div class="filter-section" v-if="currentDB.entrez_enum != 'ct_gov' || ( currentDB.entrez_enum == 'ct_gov' && !excludedParamsName.includes(param.name) )">
+                  <h3 class=""> [[ param.name ]] </h3>
+                  <div class="filter-box">
+                    <div class="filter-checkbox">
+                      <label :for="'selectAll'+param.id">Select All</label>
+                      <input type="checkbox" v-model="param.selectAll" @click="onCheckAllOptions(param.id)" :id="'selectAll'+param.id" :disabled="isReadOnly"/>
+                    </div>
+                    <div class="filter-checkbox" v-for="ck in optionsSplit(param.options)">
+                      <label :for="ck">[[ck]]</label>
+                      <input 
+                        type="checkbox" 
+                        :class="'all_'+searchConfig.id+'_'+param.id" 
+                        :value="ck" :id="ck"
+                        v-model="param.selected"
+                        :disabled="isReadOnly"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- for select  type -->
+              <div v-if="param.type == 'DP'">
+                <!-- In accordance with issue 1823 some db configs for clinical trials are no longer applied and must be hidden from the user interface. -->
+                <div class="filter-section" v-if="currentDB.entrez_enum != 'ct_gov' || ( currentDB.entrez_enum == 'ct_gov' && !excludedParamsName.includes(param.name) )">
+                  <h3 class=""> [[ param.name ]] </h3>
+                  <select v-model="param.value" class="mt" :disabled="isReadOnly">
+                    <option v-for="dp in optionsSplit(param.options)">[[dp]] </option>
+                  </select>
+                </div>
+              </div>
+              
+              <!-- For Number Type -->
+              <div v-if="param.type == 'NB'">
+                <div>
+                  <label> [[ param.name ]] </label>
+                  <div v-if="param.name == 'Max Results'" class="hint">
+                    Google scholar searches can return incredible large and unrelated result sets, 
+                    we have to limit the amount of results processed. We recommend no more than the first 3 pages of results 
+                    for any search ( around 50 results), but you can increase that value Here.
+                    <br /> 
+                    Max Allowed is 250 you cant go beyond this limit, if your review requires more please contact our support team.
+                  </div>
+                  <input type="text" v-model="param.value" :name="param.name" class="mt-2" :disabled="isReadOnly"/>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+
+        </div>
+
+        <div class="slider-footer">
+          <div class="center-v">
+            <button class="secondary-gray-button mr-2" type="button" @click="hideModal('db-config-slider')">
+              Cancel
+            </button>
+            <input 
+              v-if="currentDB"
+              type="submit" value="Save" id="filter-submit" 
+              class="primary-button" @click="onSaveDBConfiguration"
+              :disabled="isSubmitDBConfigLoading || !dbAvailableConfig.includes(currentDB.entrez_enum) || isArchived"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Parameters -->
+  <div class="card">
+    <div class="card-header border-bottom">
+      <div v-if="isSearchParametersValid" class="header-icon">
+        <img src="{% static 'images/icons/Mark.svg' %}">
+      </div>
+      <div v-else class="header-white-icon"></div>
+      <div>
+        <div class="header-title">
+          Search Parameters
+          <page-wiki-helper wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-your-search-protocol"> </page-wiki-helper>
+        </div>
+        
+        <div class="header-text">
+          Specify the default Start and End dates of all of your search terms searches.
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="fields border-bottom">
+        <div>
+          <div class="field-header">Set Literature Search Date </div>
+          <div class="field-text">Provide the actual present date when the search is conducted.</div>
+        </div>
+        <div class="d-grid grid-2 gap-10">
+          <div class="field-control">
+            <label>Start Date</label>
+            <input type="date" v-model="searchParametersForm.lit_start_date_of_search" />
+          </div>
+          <div class="field-control">
+            <label>End date</label>
+            <input type="date" v-model="searchParametersForm.lit_date_of_search" />
+          </div>
+        </div>
+      </div>
+      <div class="fields border-bottom ">
+        <div class="">
+          <div class="field-header">Set Adverse Event Search Date </div>
+          <div class="field-text">Provide the actual present date when the search is conducted.</div>
+        </div>
+        <div class="d-grid grid-2 gap-10">
+          <div class="field-control">
+            <label>Start Date</label>
+            <input type="date" v-model="searchParametersForm.ae_start_date_of_search" />
+          </div>
+          <div class="field-control">
+            <label>End date</label>
+            <input type="date" v-model="searchParametersForm.ae_date_of_search" />
+          </div>
+        </div>
+      </div>
+
+      <div class="fields">
+        <div>
+          <div class="field-header">Set Search Results Limit</div>
+          <div class="field-text">The 'Max Imported Search Results' setting limits articles per search for efficiency.
+          </div>
+        </div>
+        <div class="d-grid grid-1">
+          <div class="field-control">
+            <label></label>
+            <input type="text" v-model="searchParametersForm.max_imported_search_results"
+              placeholder="Max Imported Search Results" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Databases to Search -->
+  <div class="card">
+    <div class="card-header">
+      <div v-if="isDatabasesSearchValid" class="header-icon">
+        <img src="{% static 'images/icons/Mark.svg' %}">
+      </div>
+      <div v-else class="header-white-icon"> </div>
+      <div>
+        <div class="header-title">
+          Databases to Search
+        </div>
+        <div class="header-text">
+          This is a multi-select field where you will choose the Databases that the client has
+          requested to be searched. This MUST be reconciled with what was agreed upon in the SOW.
+          
+          <ul class="mt-2">
+            IMPORTANT NOTE:
+            <li> 
+              <strong> Automatic Collection: </strong> 
+              Databases we download results for your automatically. 
+            </li>
+            <li> 
+              <strong> Manual Collection: </strong> 
+              Databases where we can process the results, but you'll need to search on their site and upload here yourself. 
+            </li>
+
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="db-content">
+
+      <div class="setting-content">
+        <div style="padding: 0px 6px;">
+          <div class="setting-title">
+            Clinical Literature Databases
+          </div>
+          <form class="db-search-form">
+            <input type="search" placeholder="Search for database" name="lit-db-search"
+              v-model="inputlitDatabaseSearch" />
+            <button type="button" class="search-button">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                  fill="#9BA5B9" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                  fill="#9BA5B9" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <ul class="db-list mt">
+          <li v-for="lit_db in filterlitDatabaseSearch" :key="lit_db.name">
+            <div>
+              <span class="litreview-icon">
+                <img src="{% static 'images/icons/lit-review-icon-black.png' %}" alt="lit-review-icon" />
+              </span>
+              <div class="d-flex">
+                <div class="ml-2">
+                  <div class="db-title">
+                    <span>[[ lit_db.displayed_name]]</span>
+
+                    <a :href="lit_db.url" class="db-link tooltip" target="_blank">
+                      <img class="image_on" src="{% static 'images/icons/link-external.svg' %}" />
+                      <img class="image_off" src="{% static 'images/icons/link-external-hover.svg' %}" />
+                      <span class="tooltiptext">Link to source</span>
+                    </a>
+                  </div>
+                  <div v-if="lit_db.auto_search_available" class="db-text"> Automatic Collection </div>
+                  <div v-else class="db-text"> Manual Collection </div>
+                </div>
+              </div>
+            </div>
+            <div class="tooltip-container">
+              <div class="tooltip">
+                <button :disabled="!isInLitDatabases(lit_db.name)" class="secondary-gray-button database-config-button"
+                  @click="setLiteratureDBParams(lit_db.name)">
+                  <img src="{% static 'images/icons/setting.svg' %}">
+                </button>
+                <span class="tooltiptext">Configurations</span>
+              </div>
+
+              <div class="pb">
+                <label class="switch">
+                  <input class="btn-toggle" type="checkbox" :value="lit_db.name" v-model="lit_db_selected">
+                  <span class="btn-on-off round"></span>
+                </label>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="setting-content">
+        <div style="padding: 0px 6px;">
+          <div class="setting-title">
+            Adverse Event Databases
+          </div>
+          <form class="db-search-form">
+            <input type="search" placeholder="Search for database" v-model="inputaeDatabaseSearch" />
+            <button type="button" class="search-button">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                  fill="#9BA5B9" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                  fill="#9BA5B9" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <ul class="db-list mt">
+          <li v-for="ae_db in filterAeDatabaseSearch" :key="ae_db.name">
+            <div>
+              <span class="litreview-icon">
+                <img src="{% static 'images/icons/lit-review-icon-black.png' %}" alt="lit-review-icon" />
+              </span>
+              <div class="d-flex">
+                <div class="ml-2">
+                  <div class="db-title">
+                    <span>[[ ae_db.displayed_name]]</span>
+
+                    <a :href="ae_db.url" class="db-link tooltip" target="_blank">
+                      <img class="image_on" src="{% static 'images/icons/link-external.svg' %}" />
+                      <img class="image_off" src="{% static 'images/icons/link-external-hover.svg' %}" />
+                      <span class="tooltiptext">Link to source</span>
+                    </a>
+                  </div>
+                  <div v-if="ae_db.auto_search_available" class="db-text"> Automatic Collection </div>
+                  <div v-else class="db-text"> Manual Collection </div>
+                </div>
+              </div>
+            </div>
+            <div class="tooltip-container">
+              <div class="tooltip">
+                <button :disabled="!isInAeDatabases(ae_db.name)" class="secondary-gray-button database-config-button"
+                  @click="setAEDBParams(ae_db.name)">
+                  <img src="{% static 'images/icons/setting.svg' %}">
+                </button>
+                <span class="tooltiptext">Configurations</span>
+              </div>
+
+              <div class="pb">
+                <label class="switch">
+                  <input class="btn-toggle" type="checkbox" :value="ae_db.name" v-model="ae_db_selected">
+                  <span class="btn-on-off round"></span>
+                </label>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  {% if lit_review.review_type != 'SIMPLE' %}
+
+    {% if project_type != "Vigilance" %}
+      <!-- Device Description and Use (Optional)  -->
+      <div class="card">
+        <div class="card-header" :class="{'border-bottom':toggles['toggle_1']}" @click="toggleElement('toggle_1')">
+          <div class="header-white-icon position-relative">
+            <div class="level-icon" :style="{height:progressDeviceDescription +'%'}"></div>
+          </div>
+          <div>
+            <div class="header-title-optional">
+              Device Description and Use <span class="optional-text"> (Optional) </span>
+              <page-wiki-helper 
+                wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-your-search-protocol#device-description-and-use" 
+                title="See an example"
+                tooltip="See an example on how this section can be filled"
+              > </page-wiki-helper>
+              <page-wiki-helper 
+                title="What is this used for ?"
+                tooltip="Please Note, these fields are only required if you intend to generate the polished, Microsoft Word Output documents. These fields will be copied directly into your final reports."
+                variant="secondary"
+              /></page-wiki-helper>
+            </div>
+            <div class="header-text-optional mt">
+              Device description is an overall description of the device design. It describes the device components & key
+              features.
+            </div>
+          </div>
+          <div class="hide-btn" id="toggle_1">
+            <img v-if="toggles['toggle_1']" src="{% static 'images/icons/arrow-up.svg' %}">
+            <img v-else src="{% static 'images/icons/arrow-down.svg' %}">
+          </div>
+        </div>
+        <div class="card-body" v-show="toggles['toggle_1']">
+          <div class="fields border-bottom">
+            <div>
+              <div class="field-header">Device Description</div>
+              <div class="field-text"> The Overall description of the device design. It describes the device components & key features. </div>
+            </div>
+            <div class="field-control">
+              <label></label>
+              <textarea class="textarea " rows="10" placeholder="Device Description"
+                v-model.trim="deviceDescriptionForm.device_description">
+                    </textarea>
+            </div>
+          </div>
+          <div class="fields border-bottom">
+            <div>
+              <div class="field-header">Intended Use </div>
+              <div class="field-text"> Self explanatory, a small writeup on the Intended use of the device. </div>
+            </div>
+            <div class="field-control">
+              <label></label>
+              <textarea class="textarea form-control" rows="10" placeholder="Intended Use"
+                v-model.trim="deviceDescriptionForm.intended_use">
+                  </textarea>
+            </div>
+          </div>
+          <div class="fields">
+            <div>
+              <div class="field-header">Indication Of Use </div>
+              <div class="field-text"> Self explanatory, a small writeup on the Indication use of the device.</div>
+            </div>
+            <div class="field-control">
+              <label></label>
+              <textarea class="textarea form-control" rows="10" placeholder="Indication Of Use"
+                v-model.trim="deviceDescriptionForm.indication_of_use">
+                  </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Similar Device and State of the Art (Optional)  -->
+    <div class="card">
+      <div class="card-header" :class="{'border-bottom':toggles['toggle_2']}" @click="toggleElement('toggle_2')">
+        <div class="header-white-icon position-relative">
+          <div class="level-icon" :style="{height:progressSimilarDevice +'%'}"></div>
+        </div>
+        <div>
+          <div class="header-title-optional">
+            Similar Device and State of the Art <span class="optional-text"> (Optional) </span>
+            <page-wiki-helper 
+              wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-your-search-protocol#similar-device-and-state-of-the-art" 
+              title="See an example"
+              tooltip="See an example on how this section can be filled"
+            > </page-wiki-helper>
+            <page-wiki-helper 
+              title="What is this used for ?"
+              tooltip="Please Note, these fields are only required if you intend to generate the polished, Microsoft Word Output documents. These fields will be copied directly into your final reports."
+              variant="secondary"
+            /></page-wiki-helper>
+          </div>
+          <div class="header-text-optional">
+            List any Similar Devices and the State of the Art Treatment.
+          </div>
+        </div>
+        <div class="hide-btn"  id="toggle_2">
+          <img v-if="toggles['toggle_2']" src="{% static 'images/icons/arrow-up.svg' %}">
+          <img v-else src="{% static 'images/icons/arrow-down.svg' %}">
+        </div>
+      </div>
+      <div class="card-body" v-show="toggles['toggle_2']">
+        <div class="fields border-bottom">
+          <div>
+            <div class="field-header">Comparator Devices</div>
+            <div class="field-text">Note: Please write each comparator device separated by a comma!</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <textarea class="textarea form-control" rows="10" placeholder="Comparator Devices"
+              v-model.trim="similarDeviceForm.comparator_devices">
+                </textarea>
+          </div>
+        </div>
+        <div class="fields border-bottom">
+          <div>
+            <div class="field-header">SoTA Product Name </div>
+            <div class="field-text">Product name for SoTA.</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <input type="text" v-model.trim="similarDeviceForm.sota_product_name" placeholder="SoTA Product Name" />
+            </textarea>
+          </div>
+        </div>
+        <div class="fields">
+          <div>
+            <div class="field-header">SoTA Description</div>
+            <div class="field-text">There should be references and details provided within the Intake Form provided by the
+              Client.
+              Areas most impactful to establishing the search terms include the Intended Use and Similar/Comparable
+              Products.</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <textarea class="textarea form-control" rows="10" placeholder="SoTA Description"
+              v-model.trim="similarDeviceForm.sota_description">
+              </textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Claims (Optional)  -->
+    <div class="card">
+      <div class="card-header" :class="{'border-bottom':toggles['toggle_3']}" @click="toggleElement('toggle_3')">
+        <div class="header-white-icon position-relative">
+          <div class="level-icon" :style="{height:progressClaims +'%'}"></div>
+        </div>
+        <div>
+          <div class="header-title-optional">
+            Claims <span class="optional-text"> (Optional) </span>
+            <page-wiki-helper 
+              wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-your-search-protocol#claims" 
+              title="See an example"
+              tooltip="See an example on how this section can be filled"
+            > </page-wiki-helper>
+            <page-wiki-helper 
+              title="What is this used for ?"
+              tooltip="Please Note, these fields are only required if you intend to generate the polished, Microsoft Word Output documents. These fields will be copied directly into your final reports."
+              variant="secondary"
+            /></page-wiki-helper>
+          </div>
+          <div class="header-text-optional">
+            Performance claims for the use of (Device) is based on the attributes reported (published) that can be
+            directly or indirectly associated with its use.
+          </div>
+        </div>
+        <div class="hide-btn"  id="toggle_3">
+          <img v-if="toggles['toggle_3']" src="{% static 'images/icons/arrow-up.svg' %}">
+          <img v-else src="{% static 'images/icons/arrow-down.svg' %}">
+        </div>
+      </div>
+      <div class="card-body" v-show="toggles['toggle_3']">
+        <div class="fields border-bottom">
+          <div>
+            <div class="field-header">Safety Claims</div>
+            <div class="field-text">Safety claims for a device are based on various sources such as literature,
+              research, and reports, as well as information from similar products.</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <textarea class="textarea form-control" rows="10" placeholder="Safety Claims"
+              v-model.trim="claimsForm.safety_claims">
+                </textarea>
+          </div>
+        </div>
+        <div class="fields border-bottom">
+          <div>
+            <div class="field-header">Performance Claims</div>
+            <div class="field-text">Performance Claims are statements about a device's effectiveness and functionality,
+              backed by trial and real-world data, including efficacy, reliability, and meeting standards.</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <input type="text" v-model.trim="claimsForm.performance_claims" placeholder="Performance Claims" />
+
+          </div>
+        </div>
+        <div class="fields">
+          <div>
+            <div class="field-header">Other Info</div>
+            <div class="field-text">Performance Claims are</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <textarea class="textarea form-control" rows="10" placeholder="Other Info"
+              v-model.trim="claimsForm.other_info">
+              </textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scope of Review (Optional)  -->
+    <div class="card">
+      <div class="card-header" :class="{'border-bottom':toggles['toggle_4']}" @click="toggleElement('toggle_4')">
+        <div class="header-white-icon position-relative">
+          <div class="level-icon" :style="{height:progressScopeOfReview +'%'}"></div>
+        </div>
+        <div>
+          <div class="header-title-optional">
+            Scope of Review <span class="optional-text"> (Optional) </span>
+            <page-wiki-helper 
+              wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-your-search-protocol#scope-of-review" 
+              title="See an example"
+              tooltip="See an example on how this section can be filled"
+            > </page-wiki-helper>
+            <page-wiki-helper 
+              title="What is this used for ?"
+              tooltip="Please Note, these fields are only required if you intend to generate the polished, Microsoft Word Output documents. These fields will be copied directly into your final reports."
+              variant="secondary"
+            /></page-wiki-helper>
+          </div>
+          <div class="header-text-optional">
+            Please ensure your search covers adverse event report databases and scientific databases for the past X years.
+            This timeframe provides ample clinical experience for assessing device safety and performance.
+          </div>
+        </div>
+        <div class="hide-btn"  id="toggle_4">
+          <img v-if="toggles['toggle_4']" src="{% static 'images/icons/arrow-up.svg' %}">
+          <img v-else src="{% static 'images/icons/arrow-down.svg' %}">
+        </div>
+      </div>
+      <div class="card-body" v-show="toggles['toggle_4']">
+        <div class="fields">
+          <div>
+            <div class="field-header">Scope Section Of Protocol Input</div>
+            <div class="field-text">Note: Please complete the following paragraph by filling in the text box below.</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <textarea class="textarea form-control" rows="10" placeholder="Scope Section Of Protocol Input"
+              v-model.trim="scopeOfReviewForm.scope">
+                </textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preparer (Optional)  -->
+    <div class="card">
+      <div class="card-header" :class="{'border-bottom':toggles['toggle_5']}" @click="toggleElement('toggle_5')">
+        <div class="header-white-icon position-relative">
+          <div class="level-icon" :style="{height:progressPreparer +'%'}"></div>
+        </div>
+        <div>
+          <div class="header-title-optional">
+            Preparer <span class="optional-text"> (Optional) </span>
+          </div>
+          <div class="header-text-optional">
+            Additional information related to the medical writers.
+            Please ensure your search covers adverse event report databases and scientific databases for the past X years.
+            This timeframe provides ample clinical experience for assessing device safety and performance.
+          </div>
+        </div>
+        <div class="hide-btn"  id="toggle_5">
+          <img v-if="toggles['toggle_5']" src="{% static 'images/icons/arrow-up.svg' %}">
+          <img v-else src="{% static 'images/icons/arrow-down.svg' %}">
+        </div>
+      </div>
+      <div class="card-body" v-show="toggles['toggle_5']">
+        <div class="fields">
+          <div>
+            <div class="field-header">Preparer Name</div>
+            <div class="field-text">Additional information related to the medical writers.</div>
+          </div>
+          <div class="field-control">
+            <label></label>
+            <input type="text" placeholder="Preparer Name" v-model.trim="preparerForm.preparer" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra PMCF and Vigilance fields -->
+    {% if project_type != "Lit. Review" %}
+      <div class="card">
+        <div class="card-header" :class="{'border-bottom':toggles['toggle_7']}" @click="toggleElement('toggle_7')">
+          <div class="header-white-icon position-relative">
+            <div class="level-icon" :style="{height:progressVigilance +'%'}"></div>
+          </div>
+          <div>
+            <div class="header-title-optional"> Vigilance Data <span class="optional-text"> (Optional) </span>
+            </div>
+          </div>
+          <div class="hide-btn"  id="toggle_7">
+            <img v-if="toggles['toggle_7']" src="{% static 'images/icons/arrow-up.svg' %}">
+            <img v-else src="{% static 'images/icons/arrow-down.svg' %}">
+          </div>
+        </div>
+        <div class="card-body" v-show="toggles['toggle_7']">
+          <div class="border-bottom w-100">
+            <div>
+              <div class="field-header">Vigilance Inclusion Manufacturers</div>
+            </div>
+            <div class="field-control">
+              <label></label>
+              <textarea class="textarea form-control" rows="10" placeholder="Safety Claims"
+                v-model.trim="vigilanceDataForm.vigilance_inclusion_manufacturers">
+                  </textarea>
+            </div>
+          </div>
+          <div class="border-bottom w-100">
+            <div>
+              <div class="field-header">Vigilance Inclusion Keywords</div>
+            </div>
+            <div class="field-control">
+              <label></label>
+              <textarea class="textarea form-control" rows="10" placeholder="Safety Claims"
+                v-model.trim="vigilanceDataForm.vigilance_inclusion_keywords">
+                  </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+  {% endif %}
+
+  <div style="margin-bottom: 60px;"> </div>
+  <div class="form-actions">
+    <div class="progress-section">
+      <div class="progr-bar" :class="isSearchParametersValid ? 'valid-state':'n-valid-state'"></div>
+      <div class="progr-bar" :class="isDatabasesSearchValid ? 'valid-state':'n-valid-state'"></div>
+      <div class="progr-bar-text" v-if="!isSearchParametersValid && !isDatabasesSearchValid"> 2 required fields aren't filled out. </div>
+      <div class="progr-bar-text" v-else-if="!isSearchParametersValid || !isDatabasesSearchValid"> One required field remaining. </div>
+      <div class="progr-bar-text" v-else="isSearchParametersValid && isDatabasesSearchValid"> All required fields completed. </div>
+    </div>
+    <!-- <button class="secondary-gray-button ml-auto" type="button">
+      Cancel
+    </button> -->
+    <div>
+      <input 
+        type="submit" class="primary-button" name="save" value="Save Changes" style="width: 500px;" 
+        :disabled="!isSearchParametersValid || !isDatabasesSearchValid || isSubmitDataLoading || isArchived" @click="onSaveChange()" 
+      />
+    </div>
+
+    <div style="width: 220px;">
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block 'scripts-block' %}
+<script type="application/javascript">
+  const searchProtocolURL = "{% url 'lit_reviews:search_protocol_api' id=literature_review_id %}";  
+</script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/search_protocol_vue.js' %}"> </script>
+
+
+{% endblock %}

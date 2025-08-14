@@ -1,0 +1,25 @@
+.file-uploader .image-details {
+    width: 100%;
+}
+.vdp-datepicker__clear-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.add-term-modal .modal-body {
+    height: 300px;
+}
+
+.custom-select .custom-options {
+    max-height: 200px;
+}
+
+.create-literature-review-modal .modal-body {
+    height: 300px;
+}
+
+.add-bulkr-articles-modal .modal-body {
+    height: 400px;
+}

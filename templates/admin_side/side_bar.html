@@ -1,0 +1,77 @@
+{% load static %} 
+
+
+
+<div class="sidebar-content">
+  <ul class="menu-list sidebar-menu-container">
+    <!-- <li>
+      <div class="switcher-container">
+        <div class="toggle-wrapper"> 
+          <span class="text" id="toggle-label" style="cursor: pointer;"> Simple / Advanced Mode </span>
+          <div class="toggle" id="toggle">
+            <div class="toggle-ball" id="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </li> -->
+ 
+
+    <li class="">
+     
+        <h2 style="text-align: center;"> Admin Panel </h2>       
+    </li>
+
+  </ul>
+
+  <div class="user-navigation">
+    <div class="text user-name-email-section">
+      <div>{{ request.user.username }}</div>
+      <div>{{ request.user.email }}</div>
+    </div>
+
+    <div id="user-navigation-parent">
+      <drop-down
+        icon-source="{% static 'images/navbar/setting.svg' %}"
+        target-element="user-navigation-list"
+        parent-wrapper="user-navigation-parent"
+        position-right="20px"
+        position-bottom="40px"
+      >
+      </drop-down>
+      <div class="drop-down" id="user-navigation-list">
+        <ul>
+          {% if request.user.is_staff %}
+            <li class="drop-down-element">
+             <div class="drop-down-element-icon">
+                <img
+                  src="{% static 'images/navbar/lock.svg' %}"
+                  alt="Details Icon"
+                />
+              </div>
+              <a
+                href="{% url 'admin_side:admin-side-home' %}"
+                class="drop-down-element-text"
+              >
+                Admin Panel
+              </a>
+            </li>
+          {% endif %}
+          <li class="drop-down-element">
+            <div class="drop-down-element-icon">
+              <img
+                src="{% static 'images/navbar/pen-edit.svg' %}"
+                alt="Details Icon"
+              />
+            </div>
+            <a
+              href="{% url 'accounts:logout' %}"
+              class="drop-down-element-text"
+            >
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

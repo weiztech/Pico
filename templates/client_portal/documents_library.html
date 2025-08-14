@@ -1,0 +1,419 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+ 
+{% block 'beforehead' %} 
+    <!-- Required Stylesheets -->
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/bootstrap5.min.css' %}"
+    />
+    <link
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'vue-cdn/bootstrap-vue-2.23.1.css' %}"
+    />
+{% endblock %}
+
+{% block title %}
+    <title>Documents Library</title>
+{% endblock %}
+
+{% block head %}
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/client_portal/global.css' %}"
+    />
+    <style>
+        .toast:not(.show) {
+            display: block;
+        }
+    </style>
+    <link
+        href="{% static 'css/client_portal/documents_library.css' %}"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/client_portal/global.css' %}"
+    />
+{% endblock %}
+
+{% block body %}
+<div class="content__container" id="content">
+    <b-toast id="validate-article-creation" title="Submit Article Form Error" variant="danger" auto-hide-delay="3000" toaster="b-toaster-top-center" >
+    </b-toast>
+    <div class="sub-navbar-home">
+        <div class="sub-navbar-home-item-text">
+            Documents Library
+        </div>
+        <div :class="activeContainer === 'manual-articles' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="ae_events-tab" v-on:click="changeActiveContainer('manual-articles')">
+            Manual Articles
+        </div>
+        <div :class="activeContainer === 'custom-article' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="ae_recalls-tab" v-on:click="changeActiveContainer('custom-article')">
+            Create Custom Article
+        </div>
+        <div :class="activeContainer === 'bulk-article' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="articles-tab" v-on:click="changeActiveContainer('bulk-article')">
+            Create Bulk Article
+        </div>
+    </div>
+    <div id="manual-article-container"
+    :class="activeContainer == 'manual-articles' ? 'home-section-item-selected' :'home-section-item-unselected'" >
+        <div>
+            {% if user.client %}
+                <div class="document-library-text"> Documents Library for {{user.client.name}} (Total Articles : [[ count ]]) </div>
+            {% else %}
+                <div class="document-library-text"> Documents Library for {{user.username}} (Total Articles : [[ count ]]) </div>
+            {% endif %}
+        </div>
+        
+        <!--
+            ############### FILTERS ##############
+        -->
+        
+        <div class="search_wrapper">
+            <div class="input-group search_filter">
+                <input type="text" class="form-control" placeholder="Search by Title & Citation" v-model="search_term">
+                <div class="input-group-append">
+                <button class="btn search-btn" type="button" v-on:click="onFilter">
+                    <span class="fa fa-search"></span>
+                </button>
+                </div>
+            </div>
+            <div class="filters">
+                <div class="project-filter-navbar-type">
+                    <select v-on:change="onDeviceFilterChange" class="project-filter-navbar-type-select">
+                        <option value="" :selected="deviceFilter===''"> Select Device </option>
+                        <option v-for="device in devices" :value="device.id" :selected="deviceFilter===device.id"> [[ device.device_name ]] </option>
+                    </select>
+                </div>
+                <div class="project-filter-navbar-type">
+                    <select v-on:change="onLitReviewFilterChange" class="project-filter-navbar-type-select">
+                        <option value="" :selected="litReviewFilter===''"> Select Lit Review </option>
+                        <option v-for="review in lit_reviews" :value="review.id" :selected="litReviewFilter===review.id"> [[ review.name ]] </option>
+                    </select>
+                </div>
+                <div class="project-filter-navbar-date">
+                    <div class="project-filter-navbar-date-text"> Pub Date: </div>
+                        <vuejs-datepicker 
+                        :format="DatePickerFormat"
+                        v-model="pubDateFilter"
+                        minimum-view="year"              
+                        name="datepicker"
+                        id="input-id"
+                        input-class="project-filter-navbar-date-input"
+                    >
+                    </vuejs-datepicker>
+                </div>
+            </div>
+        </div>
+
+        <div class="active-filters">
+            <div style="color: #6d6baf;">
+                Active Filters: 
+            </div>
+            <div class="filter-item" v-if="search_term_url && currentURL.includes('search_term')">
+                [[ search_term_url ]] <span class="fa fa-close" v-on:click="clearState('search_term'); clearState('search_term_url')"></span>
+            </div>
+            <div class="filter-item" v-if="pubDateFilter">
+                [[ pubYear ]] <span class="fa fa-close" v-on:click="clearState('pubDateFilter')"></span>
+            </div>
+            <div class="filter-item" v-if="litReviewFilter">
+                [[ selectedLitReviewName ]] <span class="fa fa-close" v-on:click="clearState('litReviewFilter')"></span>
+            </div>
+            <div class="filter-item" v-if="deviceFilter">
+                [[ selectedDeviceName ]] <span class="fa fa-close" v-on:click="clearState('deviceFilter')"></span>
+            </div>
+        </div>
+
+
+        <!--
+            ############### CONTENT TABLE ##############
+        -->
+
+        <div v-if="isRecordsLoading">
+            Loading...
+        </div>
+        <div v-else-if="entries.length > 0">
+            <div class="project-table-header">
+                <div class="document-table-header document-table-id">Article id</div>
+                <div class="document-table-header document-table-lit-review">Literature Review</div>
+                <div class="document-table-header document-table-date">Article Publication Date</div>
+                <div class="document-table-header document-table-title">Title</div>
+                <div class="document-table-header document-table-citation">Citation</div>
+                <div class="document-table-header document-table-pdf">Full Text PDF</div>
+                <div class="document-table-header document-table-action"> Edit </div>
+            </div>
+            <div class="project-table-body">
+                <div v-for="entry in entries" class="project-table-body-item">
+                    <div class="document-table-body document-table-id"> #[[ entry.article.id ]] </div>
+                    <div class="document-table-body document-table-lit-review"> 
+                        <ul class="lit-review-list">
+                            <li v-for="lit_review in entry.literature_reviews"> 
+                                <span>
+                                    <a 
+                                        :href="[[ lit_review.article_review_detail_link ]]" 
+                                        target="_blank" 
+                                        style="text-decoration: none;"
+                                    > [[ lit_review.name ]] </a>
+                                </span> 
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="document-table-body document-table-date"> [[ entry.article.publication_year ]] </div>
+                    <div class="document-table-body document-table-title"> [[ entry.article.title ]] </div>
+                    <div class="document-table-body document-table-citation"> [[ entry.article.citation ]] </div>
+                    <div class="document-table-body document-table-pdf"> 
+
+                        <a v-if="entry.article.full_text"  class="project-table-body-action-link" :href="entry.article.full_text" target="_blank"> 
+                            <img
+                            src="{% static 'images/icons/pdf-file-icon.svg' %}"
+                            alt=""
+                            class="project-table-body-action-icon"
+                            />   
+                        </a>
+                        <div class="alert-pdf-file" v-else> Missing PDF </div>
+                    </div>
+                    <div class="document-table-body document-table-action">
+                        <div class="project-table-body-action-link" v-on:click="showEditArticle(entry)"> 
+                            <img
+                            src="{% static 'images/icons/edite-icon.svg' %}"
+                            alt=""
+                            class="project-table-body-action-icon"
+                            />   
+                        </div>
+                        <!-- <button v-on:click="showEditArticle(entry)" class="edit-btn"> Edit </button>  -->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div style="width: max-content; margin: auto;">
+                <button class="pagination-btn mb-4 mr-2" v-if="page_number > 1" v-on:click="onGetPage(1)" :disabled="loadingPage"> 1 </button>
+                <button 
+                    class="pagination-btn mb-4 mr-2"
+                    v-on:click="onGetPage(page_number - 1)"
+                    v-if="page_number > 2"
+                    :disabled="loadingPage"
+                > [[ page_number - 1]] </button>
+                <button 
+                    class="pagination-btn-active mb-4 mr-2" 
+                    v-on:click="onGetPage(page_number)" 
+                    :disabled="loadingPage"
+                >  [[ page_number ]]  </button>
+                <button 
+                    class="pagination-btn mb-4 mr-2" 
+                    v-on:click="onGetPage(page_number + 1)" 
+                    v-if="page_number < last_page_number - 1" :disabled="loadingPage"
+                > [[ page_number + 1]]  </button>
+                <button 
+                    class="pagination-btn mb-4 mr-2" 
+                    v-if="page_number < last_page_number" 
+                    v-on:click="onGetPage(last_page_number)"
+                    :disabled="loadingPage"
+                > [[ last_page_number ]]  </button>
+            </div>
+
+
+            <!--
+                ############### UPDATE ARTICLE MODAL ##############
+            -->
+
+            <b-modal 
+                ref="update-article-modal" 
+                hide-footer hide-header
+                header-bg-variant="light" 
+                header-text-variant="dark"
+                header-class="justify-content-center"
+                size="lg"
+            >
+            <div class="d-block">
+                <legend class="edit-article-header"> Edit Article </legend>
+                <form 
+                    method="post" 
+                    class="event_form" 
+                    enctype="multipart/form-data" 
+                    v-on:submit="onUpdateArticleSubmit" 
+                    v-if="currentEditedArticle"
+                >      
+                <!--
+                    May be later we can allow clients to change Lit Review.
+                    <div id="type" class="form-group"> 
+                        <label for="type" class="">Literature Review</label> 
+                        <select v-model="currentEditedArticle.literature_review.id" class="form-control ml-2">
+                            <option v-for="review in lit_reviews" :value="review.id"> [[ review.name ]] </option>
+                        </select>
+                    </div> 
+                -->                  
+    
+                    <div id="link" class="form-group"> 
+                        <label for="link" class=""> Article Publication Date </label> 
+                        <div class=""> 
+                            <input type="date" name="pub_date" class="form-control dateinput form-contro" id="link" v-model="currentEditedArticle.pub_date"/> 
+                        </div> 
+                    </div> 
+
+                    <div class="article-title">
+                        <div class="form-group">
+                            <label for="article-title"> Title </label>
+                            <textarea class="form-control" id="article-title" rows="3" v-model="currentEditedArticle.title"> </textarea>
+                        </div>
+                    </div>
+
+                    <div class="article-citation">
+                        <div class="form-group">
+                            <label for="article-citation"> Citation </label>
+                            <textarea class="form-control" id="article-citation" rows="3" v-model="currentEditedArticle.citation"> </textarea>
+                        </div>
+                    </div>
+
+                    <div id="pdf" class="form-group"> 
+                        <label for="pdf" class=""> Full Text Pdf </label> 
+                        <div v-if="currentEditedArticle.full_text" class="mb-2"> 
+                            <a :href="currentEditedArticle.full_text"> Current File </a> 
+                        </div>
+                        <div class=""> 
+                            <input type="file" name="pdf" class="clearablefileinput form-control" ref="full-text-pdf"> 
+                        </div> 
+                    </div> 
+    
+                    <button type="submit" class="mb-2 ml-auto edit-btn" ref="modal-submit-btn"> Save </button>
+                    <button class="mb-2 mr-2 edit-btn" v-on:click="hideEditeArticle" type="button"> Close </button>
+                </form>
+            </div>
+        </b-modal>
+
+        </div>
+        <div v-else>
+            No Items Have Been Found
+        </div> 
+    </div>
+    <div id="single-article-container"
+        :class="activeContainer == 'custom-article' ? 'home-section-item-selected' :'home-section-item-unselected'" >
+            <!-- Single Article Creation -->
+            <h3 class="document-library-text">Create New Article</h1>
+            <div class="row row-cols-1 row-cols-md-1 mb-3 create-article-section">
+                <div class="col single-article-creation ">
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_title" class="form-label">Article Title</label>
+                        <div class="keyword-item">
+                            <input type="text" name="article_title" class="textinput textInput form-control" id="article-title" 
+                            v-model="article.title" placeholder="Article Title"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_abstract" class="form-label">Article abstract</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_abstract" class="textinput textInput form-control" id="article-abstract"
+                            v-model="article.abstract" placeholder="Article abstract"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_citation" class="form-label">Article citation information</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_citation" class="textinput textInput form-control" id="article-citation"
+                            v-model="article.citation"  placeholder="Article citation"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_pubmed_uid" class="form-label">Article Pubmed UID</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_pubmed_uid" class="textinput textInput form-control" id="article-pubmed-uid"
+                            v-model="article.pubmed_uid"  placeholder="Article Pubmed UID"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_pmc_uid" class="form-label">Article Pmc UID</label>
+                        <div class="input-text-item">
+                            <input type="text" name="article_pmc_uid" class="textinput textInput form-control" id="article-pmc-uid"
+                            v-model="article.pmc_uid"  placeholder="Article Pmc UID"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_pdf" class="form-label">PDF File</label>
+                        <div class="input-text-item">
+                            <input type="file" name="article_pdf" class="textinput textInput form-control" ref="articlePDFFile"
+                            v-on:change="onpdfChange()"
+                            />
+                        </div>
+                    </div>
+                    <div id="input-text-section" class="form-group">
+                        <label for="article_project" class="form-label">Select Project</label>
+                        <div class="input-text-item">
+                            <select class="form-select" name="article_project" id="article-project" v-on:change="onProjectChange" ref="project" >
+                                <option value="" :selected="article.project===''"> Select Project </option>
+                                    <option v-for="project in projects" :value="project.id">[[ project.project_name ]] </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="input-button-section" class="form-group">
+                        <button class="btn search-btn" type="button" id="single-btn-creation" v-on:click="validateSingleArticleCreation()">
+                            Create
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div  id="bulk-article-container" 
+        :class="activeContainer == 'bulk-article' ? 'home-section-item-selected' :'home-section-item-unselected'" >
+        <!-- Bulk Article Creation -->
+        <h3 class="document-library-text">Create Bulk Articles</h1>
+        <div id="input-text-section" class="form-group">
+            <label for="article_zip" class="form-label">ZIP File</label>
+            <div class="input-text-item">
+                <input type="file" name="article_zip" class="textinput textInput form-control" id="article-zip formFile"
+                v-on:change="onzipChange()"
+                />
+            </div>
+        </div>
+        <div id="input-text-section" class="form-group">
+            <label for="article_project" class="form-label">Select Project</label>
+            <div class="input-text-item">
+                <select class="form-select" name="article_project" id="article-project" v-on:change="onProjectChange" ref="project" >
+                    <option value="" :selected="article.project===''"> Select Project </option>
+                        <option v-for="project in projects" :value="project.id"> [[ project.project_name ]] </option>
+                </select>
+            </div>
+        </div>
+        <div id="input-button-section" class="form-group">
+            <button class="btn search-btn" type="button" id="bulk-btn-creation" v-on:click="validateBulkArticleCreation()">
+                Create
+            </button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const DocumentsLibraryURL = "{% url 'client_portal:documents_library_api' %}";
+    const updateArticleURL = "{% url 'client_portal:update_article_api' article_id=0 %}";
+    const CreateArticleURL = "{% url 'client_portal:create_article_api' %}";
+</script>
+
+{% if env == 'PROD' %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+<script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{% static 'client_portal/vue/documents_library.js' %}" > </script>
+
+{% endblock %}

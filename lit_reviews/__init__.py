@@ -1,0 +1,1 @@
+default_app_config = 'lit_reviews.apps.LitReviewsConfig'

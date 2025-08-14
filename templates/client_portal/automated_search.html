@@ -1,0 +1,150 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+ 
+{% block title %}
+    <title>Automated Search</title>
+{% endblock %}
+{% block 'beforehead' %} 
+    <!-- Required Stylesheets -->
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/bootstrap5.min.css' %}"
+    />
+    <link
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'vue-cdn/bootstrap-vue-2.23.1.css' %}"
+    />
+{% endblock %}
+{% block head %}
+    <style>
+        .toast:not(.show) {
+            display: block;
+        }
+    </style>
+    <link
+        href="{% static 'css/client_portal/automated_search.css' %}"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <link 
+        type="text/css"
+        rel="stylesheet"
+        href="{% static 'css/client_portal/global.css' %}"
+    />
+{% endblock %}
+
+{% block body %}
+<div class="content__container" id="content">
+    <b-toast id="validate-article-creation" title="Submit Article Form Error" variant="danger" auto-hide-delay="3000" toaster="b-toaster-top-center" >
+    </b-toast>
+    <div class="sub-navbar-home">
+        <div class="sub-navbar-home-item-text">
+            Automated Search
+        </div>
+        <a href="{% url 'client_portal:create_automated_search' %}" class="sub-navbar-home-item-active" id="articles-tab">
+            Add New Automated Search
+        </a>
+    </div>
+    <div id="manual-article-container" class="home-section-item-selected" >
+        <div v-if="isRecordsLoading">
+            Loading...
+        </div>
+        <div v-else-if="entries.length > 0">
+            <div class="project-table-header">
+                <div class="document-table-header document-table-id">Project id</div>
+                <div class="document-table-header document-table-device">Device</div>
+                <div class="document-table-header document-table-terms">Terms</div>
+                <div class="document-table-header document-table-intervals">Intervals</div>
+                <div class="document-table-header document-table-dbs">Databases</div>
+                <div class="document-table-header document-table-last-run">Last Run Date</div>
+                <div class="document-table-header document-table-status">Status</div>
+                <div class="document-table-header document-table-edit"> Edit </div>
+                <div class="document-table-header document-table-view"> View Results </div>
+            </div>
+            <div class="project-table-body">
+                <div v-for="entry in entries" class="project-table-body-item">
+                    <div class="document-table-body document-table-id"> # [[entry.id]] </div>
+                    <div class="document-table-body document-table-device"> 
+                        [[entry.device.device_name]] 
+                    </div>
+                    <div class="document-table-body document-table-terms"> 
+                        <div v-if="entry.terms">
+                            [[entry.terms]]
+                        </div>
+                        <div v-else>
+                            <a class="project-table-body-action-link" :href="entry.terms_file" target="_blank"> 
+                                <img
+                                src="{% static 'images/icons/file-icon.svg' %}"
+                                alt=""
+                                class="project-table-body-action-icon"
+                                />   
+                            </a>
+                        </div>   
+                    </div>
+                    <div class="document-table-body document-table-intervals" style="text-transform: capitalize;"> [[entry.interval]] </div>
+                    <div class="document-table-body document-table-dbs document-table-dbs-display"> 
+                        <span v-for="db in entry.databases_to_search">
+                            [[db]]
+                        </span>
+                    </div>
+                    <div class="document-table-body document-table-last-run"> [[entry.last_run_date]] </div>
+                    <div class="document-table-body document-table-status">
+                        <div :class="entry.search_status === 'Pending' ? 'automated-search-status-pending' : entry.search_status === 'Completed' ? 'automated-search-status-completed' : 'automated-search-status-cancelled'">
+                            [[entry.search_status]]
+                        </div>
+                    </div>
+                    <div class="document-table-body document-table-edit">
+                        <div class="project-table-body-action-link"> 
+                            <a :href="'/client_portal/automated_search/' + entry.id">
+                                <img
+                                src="{% static 'images/icons/edite-icon.svg' %}"
+                                alt=""
+                                class="project-table-body-action-icon"
+                                />   
+                            </a>
+                        </div>
+                    </div>
+                    <div class="document-table-body document-table-view">
+                        <div class="project-table-body-action-link"> 
+                            <a :href="'/client_portal/automated_search_results/' + entry.id">
+                                <img
+                                src="{% static 'images/icons/view-icon.svg' %}"
+                                alt=""
+                                class="project-table-body-action-icon"
+                                />   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div v-else>
+            No Items Have Been Found
+        </div> 
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const AutomatedSearchURL = "{% url 'client_portal:automated_search_api' %}";
+</script>
+
+{% if env == 'PROD' %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+<script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{% static 'client_portal/vue/automated_search.js' %}" > </script>
+
+{% endblock %}

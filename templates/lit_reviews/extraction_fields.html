@@ -1,0 +1,744 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block 'head' %}
+<link href="{% static 'css/theme/extraction_fields.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %} 
+    <a 
+        href="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-extraction-fields-advanced-menu"
+        target="_blank"    
+    >
+        <span>Need help with this page? <br/> Read the Wiki</span>
+        <div>
+        <img src="{% static 'images/icons/wiki-icon.svg' %}">
+        </div>
+    </a>
+{% endblock %}
+
+{% block 'body' %}
+
+<div id="app" v-cloak>
+    <div v-if="isExtractionFieldsLoading"> Loading ... </div>
+    <div v-else>
+        <div class="form-content" style="overflow-x: scroll;">
+            <div class="section-header">
+                <h3 class="center-v">
+                    Data Extractions
+                    {% comment %} <div class="tooltip-elt" title="Second Pass Extraction Fields">
+                        <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">  
+                    </div> {% endcomment %}
+                    <page-wiki-helper wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/defining-extraction-fields-advanced-menu"> </page-wiki-helper>
+                </h3>
+                <div class="center-v">
+                    <span class="mr"> Total Extractions:  </span>
+                    <span class="badge badge-squared secondary"> <strong> [[visibileExtractionFields.length]] </strong> </span>
+                </div>
+                
+            </div>
+            <div class="horizantal-devider mt-2 mb-2"></div>
+            <div class="content">
+                <div class="filters">
+                    <div class="search-section">
+                      <form v-on:submit="onSearch">
+                        <input 
+                          type="search" 
+                          placeholder="Search For Articles by Title, Abstract ...etc" 
+                          name="article-search" 
+                          v-model="searchTerm"
+                        />
+                        <button type="submit" class="search-button">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z" fill="#9BA5B9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z" fill="#9BA5B9"/>
+                          </svg>
+                        </button>
+                      </form>
+                    </div>
+          
+                    <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+                      <div class="filter-icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <svg v-if="isFiltersApplied" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                          fill="none">
+                          <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+                        </svg>
+                      </div>
+                      Filter Results
+                    </div>
+                    
+                    <div class="field-sorting">
+                      <div class="filter-button ml" v-on:click="onToggleSortingDropDown">
+                        <img src="{% static 'images/icons/arrow-3.svg' %}" alt="sort icon" />
+                        Sort
+                      </div>
+            
+                      <div class="sort-dropdown" ref="sorting-dropdown">
+                        <custom-select
+                          id="sort"
+                          name="sort"
+                          :options="sortOptions"
+                          :on-change="onSortingChange"
+                          :default-selected="appliedSort"
+                        >
+                        </custom-select>
+                        <div class="mt mb"> </div>
+                        <custom-select
+                          id="sort-direction"
+                          name="sort-direction"
+                          :options="sortingDirectionOptions"
+                          :on-change="onSortingDirectionChange"
+                          :default-selected="sortingDirection"
+                        >
+                        </custom-select>
+                        <div class="center-v mt-2">
+                          <button v-on:click="onToggleSortingDropDown" class="secondary-gray-button ml-auto small-button"> Cancel </button>
+                          <button v-on:click="onSort" class="primary-button ml small-button"> Apply </button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <!-- Applied Filters -->
+                    <div class="applied-filter-section">
+                  
+                      <!-- FieldSection Applied Filters -->
+                      <div v-if="fieldSectionAppliedFilters.length" class="applied-filters ml">
+                        <span style="font-weight: 600;"> Selected Field Section </span> 
+                        <div class="item" v-if="fieldSectionAppliedFilters.length > 0">
+                          [[ fieldSectionAppliedFilters[0] ]]
+                        </div>
+                        <div class="item" v-if="fieldSectionAppliedFilters.length > 1">
+                          +[[fieldSectionAppliedFilters.length-1]]
+                        </div>
+                      </div>
+
+                      <!-- FieldCategory Applied Filters -->
+                      <div v-if="fieldCategoryAppliedFilters.length" class="applied-filters ml">
+                        <span style="font-weight: 600;"> Selected Field Category </span> 
+                        <div class="item" v-if="fieldCategoryAppliedFilters.length > 0">
+                          [[ fieldCategoryAppliedFilters[0] ]]
+                        </div>
+                        <div class="item" v-if="fieldCategoryAppliedFilters.length > 1">
+                          +[[fieldCategoryAppliedFilters.length-1]]
+                        </div>
+                      </div>
+
+                      <!-- fieldType Applied Filters -->
+                      <div v-if="fieldTypeAppliedFilters.length" class="applied-filters ml">
+                        <span style="font-weight: 600;"> Selected Field Type </span> 
+                        <div class="item" v-if="fieldTypeAppliedFilters.length > 0">
+                          [[ fieldTypeAppliedFilters[0] ]]
+                        </div>
+                        <div class="item" v-if="fieldTypeAppliedFilters.length > 1">
+                          +[[fieldTypeAppliedFilters.length-1]]
+                        </div>
+                      </div>
+
+                    </div>
+        
+          
+                    <div class="filter-button ml" v-if="isFiltersApplied || searchTerm" v-on:click="onClearFilters">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      Clear Filters
+                    </div>
+          
+                    <div class="slider" id="filters-slider">
+                      <div class="slider-dialog">
+                        <div class="slider-dialog-inner ">
+                          <div class="slider-header">
+                            <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                            </button>
+                            Filters
+                          </div>
+          
+                          <div class="slider-content">
+
+                            <div class="filter-section">
+                              <div class="header"> Field Section </div>
+                              <div class="filter-checks" >
+                                <div class="filter-check">
+                                  <label for="Suitability and Outcomes (All Articles including SoTA)">
+                                    Suitability and Outcomes (All Articles including SoTA)
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldSectionFilter" value="Suitability and Outcomes (All Articles including SoTA)"
+                                    id="Suitability and Outcomes (All Articles including SoTA)" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="Quality and Contribution Questions">
+                                    Quality and Contribution Questions
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldSectionFilter" value="Quality and Contribution Questions"
+                                    id="Quality and Contribution Questions" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="MDCG Ranking">
+                                    MDCG Ranking
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldSectionFilter" value="MDCG Ranking"
+                                    id="MDCG Ranking" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="Extraction Fields">
+                                    Extraction Fields
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldSectionFilter" value="Extraction Fields"
+                                    id="Extraction Fields" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="SoTa">
+                                    SoTa
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldSectionFilter" value="SoTa"
+                                    id="SoTa" />
+                                </div>
+                              </div>
+                              <div class="horizantal-devider mt-2 mb-2"></div>
+                              <div class="header"> Extraction Category </div>
+                              <div class="filter-checks" >
+                                <div class="filter-check">
+                                  <label for="Study Design">
+                                    Study Design
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldCategoryFilter" value="Study Design"
+                                    id="Study Design" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="Treatment">
+                                    Treatment
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldCategoryFilter" value="Treatment"
+                                    id="Treatment" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="Study Result">
+                                    Study Result
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldCategoryFilter" value="Study Result"
+                                    id="Study Result" />
+                                </div>
+                              </div>
+                              <div class="horizantal-devider mt-2 mb-2"></div>
+                              <div class="header"> Type </div>
+                              <div class="filter-checks" >
+                                <div class="filter-check">
+                                  <label for="Drop Down">
+                                    Drop Down
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldTypeFilter" value="Drop Down"
+                                    id="Drop Down" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="Long Text">
+                                    By Long Text
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldTypeFilter" value="Long Text"
+                                    id="Long Text" />
+                                </div>
+                                <div class="filter-check">
+                                  <label for="Text">
+                                    By Text
+                                  </label>
+                                  <input type="checkbox" name="filter-database" v-model="fieldTypeFilter" value="Text"
+                                    id="Text" />
+                                </div>
+                              </div>
+                            </div> 
+        
+                          </div>
+                        
+                          <div class="slider-footer">
+                            <button class="primary-button" v-on:click="onFilter()">
+                              Apply Filters
+                            </button>
+                          </div>
+          
+                        </div>
+                      </div>
+                    </div> 
+
+                    <div class="ml-auto center-v">
+                        <button class="primary-button" v-on:click="showAddExtractionsModal" :disabled="isArchived"> Add Extraction Field </button>
+                        <div class="modal" id="add-extraction">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="modal-header-icon-wrapper info-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                                <path d="M13.3754 10.4995H10.0004M10.0004 10.4995H6.62537M10.0004 10.4995V13.8744M10.0004 10.4995L10.0004 7.12447M19 4.87498L19 16.125C19 17.989 17.489 19.5 15.625 19.5H4.375C2.51104 19.5 1 17.989 1 16.125V4.87498C1 3.01103 2.51104 1.5 4.375 1.5H15.625C17.489 1.5 19 3.01103 19 4.87498Z" stroke="#014EE9" stroke-width="1.2" stroke-linecap="round"/>
+                                            </svg>
+                                        </div>
+                                        Add New Extraction Field
+                                    </div>
+                                    <form 
+                                        method="post" 
+                                        class="event_form" 
+                                        enctype="multipart/form-data" 
+                                        v-on:submit="onAddExtractionField" 
+                                    >
+                                        <div class="modal-body"> 
+                                            <div id="type" class="form-group"> 
+                                                <label for="name" class=""> Field Name<span class="obligation-field" style="color:red">*</span></label> 
+                                                <div class=""> 
+                                                    <input type="text" name="name" v-model="addedExtractionField.name" class="textinput textInput form-control" placeholder="Field Name"/> 
+                                                </div> 
+                                            </div> 
+                                            <div id="type" class="form-group"> 
+                                                <label for="name_in_report" class=""> 
+                                                    Display Name<span class="obligation-field" style="color:red">*</span>            
+                                                </label>
+                                                <div class=""> 
+                                                    <input type="text" name="name_in_report" placeholder="Display Name" v-model="addedExtractionField.name_in_report" class="textinput textInput form-control"/> 
+                                                </div> 
+                                                <div class="hint"> How do you want this field to appear named in the LITR Report? </div> 
+                                            </div> 
+                                            <div id="type" class="form-group"> 
+                                                <label for="desc" class=""> Description </label> 
+                                                <div class=""> 
+                                                    <textarea  name="desc" rows="4" v-model="addedExtractionField.description" class="form-control" placeholder="Enter a description..." /></textarea> 
+                                                </div> 
+                                            </div> 
+                                            <div id="type" class="form-group"> 
+                                              <label for="desc" class=""> AI Prompt </label> 
+                                              <div class=""> 
+                                                  <textarea  name="desc" rows="4" v-model="addedExtractionField.ai_prompte" class="form-control" placeholder="Enter a your prompte..." /></textarea> 
+                                                  <div class="hint"> If no AI prompt is provided, automatic suggestions will not be available for this field. </div> 
+                                              </div> 
+                                          </div> 
+                                            <div class="horizantal-devider mt-2 mb-2"></div>
+                                            <div class="section-categoty-section">
+                                              <div class="form-group form-group-dual-one"> 
+                                                  <label for="category" class=""> Field Section </label> 
+                                                  <div class=""> 
+                                                      <select name="field_section" class="select form-control" id="category" v-model="addedExtractionField.field_section"> 
+                                                          <option value=""> Select A Section </option> 
+                                                          <option value="SO"> Suitability and Outcomes (All Articles including SoTA) </option>
+                                                          <option value="QC"> Quality and Contribution Questions</option> 
+                                                          <option value="MR"> MDCG Ranking </option> 
+                                                          <option value="EF"> Extraction Fields </option> 
+                                                          <option value="ST"> SoTa </option> 
+                                                          <option value="CS"> Custom Section </option> 
+                                                        </select> 
+                                                  </div> 
+                                              </div> 
+
+                                              <div class="form-group form-group-dual-two">
+                                                  <label for="category" class=""> Extraction Category </label> 
+                                                  <div class=""> 
+                                                      <select name="category" class="select form-control" id="category" v-model="addedExtractionField.category" :disabled="addedExtractionField.field_section !== 'EF'"> 
+                                                          <option value=""> Select A Category </option> 
+                                                          <option value="ST">Study Design</option> 
+                                                          <option value="T">Treatment</option> 
+                                                          <option value="SR">Study Result</option> 
+                                                      </select> 
+                                                  </div> 
+                                              </div> 
+                                            </div>
+                            
+                                            <div class="form-group " v-if="addedExtractionField.field_section"> 
+                                                <label for="type" class=""> Field Type </label> 
+                                                <div class=""> 
+                                                    <select name="type" class="select form-control" id="type" v-model="addedExtractionField.type"> 
+                                                        <option value=""> Select A Type </option> 
+                                                        <option value="DROP_DOWN">Drop Down</option> 
+                                                        <option value="TEXT">Text</option> 
+                                                        <option value="LONG_TEXT">Long Text</option> 
+                                                    </select> 
+                                                </div> 
+                                            </div> 
+                            
+                                            <div v-if="addedExtractionField.type === 'DROP_DOWN'" class="form-group"> 
+                                                <label class=""> Drop Down Values </label> 
+                                                <div 
+                                                  style="display: flex;"
+                                                  class="mt-2" 
+                                                  :key="index" 
+                                                  v-for="(item, index) in addedExtractionField.drop_down_values"
+                                                >
+                                                    <input 
+                                                      type="text" 
+                                                      name="link" 
+                                                      placeholder="Enter a value"
+                                                      class="textinput textInput form-control" 
+                                                      v-model="addedExtractionField.drop_down_values[index]"
+                                                    /> 
+                                                    <button 
+                                                      class="delete-option-button" 
+                                                      type="button"  
+                                                      v-on:click="onRemoveDropDownItem(index)"
+                                                    > 
+                                                      <img src="/static/images/icons/delete-icon.svg" alt="delete-icon" srcset=""> 
+                                                    </button>
+                                                </div>
+                                                <button 
+                                                  class="secondary-gray-button" 
+                                                  style="margin-top: 8px;" 
+                                                  type="button" 
+                                                  v-on:click="onAddDropDownItem()"
+                                                  :disabled="!canAddNewDropDownItem()"
+                                                > 
+                                                  Add Drop Down Item
+                                                  <div class="icon-option-add-more"><img src="/static/images/icons/plus-icon.png" alt="plus"></div>
+                                                </button>
+                                            </div> 
+                                        </div>
+                                        <div class="horizantal-devider mt-2 mb-2"></div>
+                                        <div class="modal-footer-extraction">
+                                          <button class="secondary-gray-button" v-on:click="hideModal('add-extraction')" type="button"> Cancel </button>
+                                          <button type="submit" class="primary-button ml" ref="modal-submit-btn" :disabled="onAddExtractionFieldValidation"> Submit Extraction </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="board-view">
+                  <ul class="board-header">
+                    <li class="check"> 
+                      <input type="checkbox" name="check-article" ref="checkAll" v-model="isCheckAll" v-on:change="onCheckAll" />
+                    </li>
+                    
+                    <li class="field"> 
+                      Extraction
+                    </li>
+        
+                    <li class="details"> 
+                      Details
+                    </li>
+        
+                  </ul>
+        
+                  <ul v-for="field in visibileExtractionFields" class="board-content" :key="field.id">
+                    <li class="field-details">
+                      <div class="field-details-header">
+                        <div style="width: 16px;">
+                          <input type="checkbox" name="check-field" v-model="selectedExtractionFields" :value="field.id" />
+                        </div>
+                        <div class="field-id"> #[[field.id]] </div>
+                        <div class="center-v field-title-wrapper" style="align-items: start;">
+                          <div class="field-title"> 
+                            [[field.name]] 
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="field-details-section">
+                        <div v-if="field.description" class="field-detail-title">
+                          Description:
+                        </div>
+                        <div v-else class="field-detail-title"> No Description Was Provided </div>
+                        <div class="field-detail-text">
+                          {% autoescape off %}
+                            <span v-html="field.description">
+                            </span>
+                          {% endautoescape %}
+                        </div>
+                        <div v-if="field.ai_prompte" class="field-detail-title">
+                          AI Prompt:
+                        </div>
+                        <div v-else class="field-detail-title"> No AI Prompt Was Provided </div>
+                        <div class="field-detail-text">
+                          {% autoescape off %}
+                            <span v-html="field.ai_prompte">
+                            </span>
+                          {% endautoescape %}
+                        </div>
+
+                        <div v-if="field.type === 'Drop Down'" class="mt-2">
+                          <div class="field-detail-title" style="margin-top: 5px;">
+                            Drop Down Values:
+                          </div>
+                          <ul class="ml-2 field-dropdpwn-list">
+                            <li v-for="item in field.drop_down_values" :key="item"> [[ item ]] </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="field-details-section">
+                        <div class="field-detail-title">
+                          Preview:
+                        </div>
+                        <div v-if="field.type === 'Drop Down'" class="field-detail-text">
+                          <label for="field.id" class="mt-2 mb"> [[ field.description || formatFieldName(field.name) ]] </label>
+                          <select :id="field.id" disabled>
+                            <option v-for="item in field.drop_down_values"  :key="item" :value="item"> [[item]] </option>
+                          </select>
+                        </div>
+                        <div v-else class="field-detail-text">
+                          <label for="field.id" class="mt-2 mb"> [[ field.description || formatFieldName(field.name) ]] </label>
+                          <input :id="field.id" type="text" :value="field.value" disabled/>
+                        </div>
+                      </div>
+
+                    </li>
+        
+                    <li class="actions">
+                      <div class="actions-section"> 
+        
+                        <div class="action-item">
+                          <div class="actions-header"> Field Name: </div>
+                          <div class="actions-content"> 
+                            [[field.name]]
+                          </div>
+                        </div>
+                        <div class="action-item">
+                          <div class="actions-header"> Type: </div>
+                          <div class="actions-content"> 
+                            [[field.type]]
+                          </div>
+                        </div>
+                        <div class="action-item">
+                          <div class="actions-header"> field section: </div>
+                          <div class="actions-content"> 
+                            [[field.field_section]]
+                          </div>
+                        </div>
+                        <div class="action-item">
+                          <div class="actions-header"> Category: </div>
+                          <div class="actions-content"> 
+                            [[field.category]]
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="horizantal-devider"> </div>
+        
+                      <div class="actions-footer">
+                        <button class="secondary-gray-button mr center-v"  v-on:click="showEditExtractionModal(field)" :disabled="isArchived">
+                          <img src="{% static 'images/icons/black-edit-icon.svg' %}" alt="delete-icon" srcset="" class="secondary-gray-button-icon">  
+                          <div class="ml"> Edit </div>
+                        </button>
+                        <button class="error-button" v-on:click="showModal('delete-field'+field.id)" :disabled="isArchived"> Delete </button>
+                        <div class="modal" :id="'delete-field'+field.id">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                    <div class="modal-header-icon-wrapper delete-icon">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                      Delete Extraction Field
+                                  </div>
+                                  <div class="modal-body"> 
+                                      Are you Sure you want to delete this Extraction Field with ID <strong> [[ field.id ]] </strong> ?
+                                      Please contact your project manager or senior medical writer. Deleting some extraction fields may 
+                                      affect the final output of the LITR document or even cause issues during the generation of the final reports.
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button class="secondary-gray-button mr w-50" v-on:click="hideModal('delete-field'+field.id)"> Cancel </button>
+                                    <button class="error-button w-50" v-on:click="onDeleteField(field.id)" :ref="'confirm-delete'+field.id"> Yes, Delete </button>  
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="modal" id="edit-extraction">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <div class="modal-header-icon-wrapper info-icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                      <path d="M13.3754 10.4995H10.0004M10.0004 10.4995H6.62537M10.0004 10.4995V13.8744M10.0004 10.4995L10.0004 7.12447M19 4.87498L19 16.125C19 17.989 17.489 19.5 15.625 19.5H4.375C2.51104 19.5 1 17.989 1 16.125V4.87498C1 3.01103 2.51104 1.5 4.375 1.5H15.625C17.489 1.5 19 3.01103 19 4.87498Z" stroke="#014EE9" stroke-width="1.2" stroke-linecap="round"/>
+                                  </svg>
+                              </div>
+                              Edit Extraction Field
+                          </div>
+                          <form 
+                              method="post" 
+                              class="event_form" 
+                              enctype="multipart/form-data" 
+                              v-on:submit="onEditExtractionField" 
+                          >
+                              <div class="modal-body"> 
+                                  <div id="type" class="form-group"> 
+                                      <label for="name" class=""> Field Name<span class="obligation-field" style="color:red">*</span></label> 
+                                      <div class=""> 
+                                          <input type="text" name="name" v-model="editedExtractionField.name" class="textinput textInput form-control" placeholder="Field Name"/> 
+                                      </div> 
+                                  </div> 
+                                  <div id="type" class="form-group"> 
+                                      <label for="name_in_report" class=""> 
+                                          Display Name<span class="obligation-field" style="color:red">*</span>            
+                                      </label>
+                                      <div class=""> 
+                                          <input type="text" name="name_in_report" placeholder="Display Name" v-model="editedExtractionField.name_in_report" class="textinput textInput form-control"/> 
+                                      </div> 
+                                      <div class="hint"> How do you want this field to appear named in the LITR Report? </div> 
+                                  </div> 
+                                  <div id="type" class="form-group"> 
+                                      <label for="desc" class=""> Description </label> 
+                                      <div class=""> 
+                                          <textarea  name="desc" rows="4" v-model="editedExtractionField.description" class="form-control" placeholder="Enter a description..." /></textarea> 
+                                      </div> 
+                                  </div> 
+                                  <div id="type" class="form-group"> 
+                                    <label for="desc" class=""> AI Prompt </label> 
+                                    <div class=""> 
+                                        <textarea  name="desc" rows="4" v-model="editedExtractionField.ai_prompte" class="form-control" placeholder="Enter a your prompte..." /></textarea> 
+                                        <div class="hint"> If no AI prompt is provided, automatic suggestions will not be available for this field. </div> 
+                                    </div> 
+                                </div> 
+                                  <div class="horizantal-devider mt-2 mb-2"></div>
+                                  <div class="section-categoty-section">
+                                    <div class="form-group form-group-dual-one"> 
+                                        <label for="category" class=""> Field Section </label> 
+                                        <div class=""> 
+                                            <select name="field_section" class="select form-control" id="category" v-model="editedExtractionField.field_section"> 
+                                                <option value=""> Select A Section </option> 
+                                                <option value="SO"> Suitability and Outcomes (All Articles including SoTA) </option>
+                                                <option value="QC"> Quality and Contribution Questions</option> 
+                                                <option value="MR"> MDCG Ranking </option> 
+                                                <option value="EF"> Extraction Fields </option> 
+                                                <option value="ST"> SoTa </option> 
+                                                <option value="CS"> Custom Section </option> 
+                                            </select> 
+                                        </div> 
+                                    </div> 
+
+                                    <div class="form-group form-group-dual-two">
+                                        <label for="category" class=""> Extraction Category </label> 
+                                        <div class=""> 
+                                            <select name="category" class="select form-control" id="category" v-model="editedExtractionField.category" :disabled="editedExtractionField.field_section !== 'EF'"> 
+                                                <option value=""> Select A Category </option> 
+                                                <option value="ST">Study Design</option> 
+                                                <option value="T">Treatment</option> 
+                                                <option value="SR">Study Result</option> 
+                                            </select> 
+                                        </div> 
+                                    </div> 
+                                  </div>
+                  
+                                  <div class="form-group " v-if="editedExtractionField.field_section"> 
+                                      <label for="type" class=""> Field Type </label> 
+                                      <div class=""> 
+                                          <select name="type" class="select form-control" id="type" v-model="editedExtractionField.type"> 
+                                              <option value=""> Select A Type </option> 
+                                              <option value="DROP_DOWN">Drop Down</option> 
+                                              <option value="TEXT">Text</option> 
+                                              <option value="LONG_TEXT">Long Text</option> 
+                                            </select> 
+                                      </div> 
+                                  </div> 
+                  
+                                  <div v-if="editedExtractionField.type === 'DROP_DOWN'" class="form-group"> 
+                                      <label class=""> Drop Down Values </label> 
+                                      <div 
+                                        style="display: flex;"
+                                        class="mt-2" 
+                                        :key="index" 
+                                        v-for="(item, index) in editedExtractionField.drop_down_values"
+                                      >
+                                        <input 
+                                          type="text" 
+                                          name="link" 
+                                          placeholder="Enter a value"
+                                          class="textinput textInput form-control" 
+                                          v-model="editedExtractionField.drop_down_values[index]"
+                                        /> 
+                                        <button 
+                                          class="delete-option-button" 
+                                          type="button"  
+                                          v-on:click="onRemoveDropDownItem(index,true)"
+                                        > 
+                                          <img src="/static/images/icons/delete-icon.svg" alt="delete-icon" srcset=""> 
+                                        </button>
+                                      </div>
+                                      <button 
+                                        class="secondary-gray-button" 
+                                        style="margin-top: 8px;" 
+                                        type="button" 
+                                        v-on:click="onAddDropDownItem(true)"
+                                        :disabled="!canAddNewDropDownItem(true)"
+                                      > 
+                                        Add Drop Down Item
+                                        <div class="icon-option-add-more"><img src="/static/images/icons/plus-icon.png" alt="plus"></div>
+                                      </button>
+                                  </div> 
+                              </div>
+                              <div class="horizantal-devider mt-2 mb-2"></div>
+                              <div class="modal-footer-extraction">
+                                <button class="secondary-gray-button" v-on:click="hideModal('edit-extraction')" type="button"> Cancel </button>
+                                <button type="submit" class="primary-button ml" ref="modal-submit-btn" :disabled="onEditExtractionFieldValidation"> Update Extraction </button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+                </div>
+                <div class="floated-actions" v-if="selectedExtractionFields.length">
+                  <div>
+                    [[ selectedExtractionFields.length ]] Selected
+                  </div>
+                  <button class="error-button delete-all-button" ref="specificBulkUpdate" v-on:click="showModal('fields-bulk-delete')" :disabled="isArchived">
+                    Delete All
+                    <img src="/static/images/icons/delete-icon-white.svg" alt="delete-icon" srcset="" class="delete-all-button-icon">
+                  </button>
+                  
+                  <button v-on:click="clearSelectedExtractionFields" class="dark-button mr">
+                    Close
+                  </button>
+                </div>
+
+                <div class="modal" id="fields-bulk-delete">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                            <div class="modal-header-icon-wrapper delete-icon">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                              Delete [[ selectedExtractionFields.length ]]  Extractions
+                          </div>
+                          <div class="modal-body"> 
+                              Are you Sure you want to delete the [[ selectedExtractionFields.length ]] Selected Extraction Field with IDs:
+                              <ul class="ml-2 field-dropdpwn-list">
+                                <li v-for="field in selectedExtractionFields"> [[ field ]] </li>
+                              </ul>
+                              
+                              Please contact your project manager or senior medical writer. Deleting some extraction fields may 
+                              affect the final output of the LITR document or even cause issues during the generation of the final reports.
+                          </div>
+                          <div class="modal-footer">
+                            <button class="secondary-gray-button mr w-50" v-on:click="hideModal('fields-bulk-delete')"> Cancel </button>
+                            <button class="error-button w-50" v-on:click="onBulkDeleteFields()"> Yes, Delete </button>  
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const extractionsURL = "{% url 'lit_reviews:extraction_fields_api' id=literature_review_id %}";
+    const deleteExtractionFieldURL = "{% url 'lit_reviews:extraction_fields_delete_api' id=literature_review_id %}";
+    const litReviewID = "{{ literature_review_id }}";
+</script>
+
+{% endblock %}
+
+{% block 'scripts-block' %}
+    <script src="{% static 'lit_reviews/vue/extraction_fields.js' %}" > </script>
+{% endblock %}

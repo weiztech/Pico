@@ -1,0 +1,2814 @@
+
+PMC - PMC8738938
+PMID- 35097488
+IS  - 2473-0114 (Electronic)
+VI  - 7
+IP  - 1
+DP  - 2022 Jan
+TI  - AOFAS Annual Meeting 2021.
+LID - 24730114211060251
+LA  - eng
+PT  - Journal Article
+DEP - 20220104
+TA  - Foot Ankle Orthop
+JT  - Foot & Ankle Orthopaedics
+AID - 10.1177/24730114211060251 [doi]
+AID - 10.1177_24730114211060251 [pii]
+SO  - Foot Ankle Orthop. 2022 Jan 4;7(1):. doi:10.1177/24730114211060251.
+
+PMC - PMC9862981
+PMID- 36670374
+IS  - 1471-2474 (Electronic)
+VI  - 24
+DP  - 2023
+TI  - “Functional outcomes and MRI-based tendon healing after (antero-) superior
+      rotator cuff repair among patients under 50 years: retrospective analysis of
+      traumatic versus non-traumatic rotator cuff tears”.
+LID - 52
+AB  - Background: Rotator cuff tears among patients under 50 years either result from
+      an adequate trauma or are considered non-traumatic due to work-related or
+      athletic overuse. The impact of these different mechanisms on postoperative
+      functional outcomes and tendon healing has not yet been fully understood.
+      Therefore, it was the purpose of this study to investigate the influence of
+      etiology of (antero-)superior rotator cuff tears on postoperative outcomes and
+      the healing rates after arthroscopic rotator cuff repair in a young patient
+      population. Methods: Patients under 50 years who underwent arthroscopic rotator
+      cuff repair between 2006–2017 for an anterosuperior rotator cuff tear with a
+      minimum follow up of 24 months were included in this study. Revision surgeries or
+      reconstructive concomitant procedures other than long head of the biceps
+      tenodesis were excluded. Patients were divided into two groups according to the
+      etiology of their rotator cuff tear (traumatic vs. non-traumatic). Demographic
+      and outcome scores including the American Shoulder and Elbow Surgeons (ASES)
+      score, the Constant Score (CS), bilateral strength measurements and postoperative
+      tendon integrity evaluated on magnetic resonance imaging (MRI) were assessed and 
+      compared between both groups. Results: The mean follow up for this study was
+      55.6 months (24 – 158). Twenty-one patients (50.0%) had a traumatic RCT and 21
+      patients (50.0%) had a non-traumatic tear. Outcome scores did not differ
+      significantly between groups. Strength measurements of the supraspinatus revealed
+      significantly decreased force of the affected side as opposed to the
+      contralateral side (p = 0.001), regardless of etiology. Retear rates were similar
+      in both groups (37.5% and 33.3%, p = n.s.). Cuff integrity at follow-up was not
+      predictive of superior scores or strength. Conclusion: Surgical treatment of
+      traumatic and non-traumatic RCT yields good clinical results in patients under
+      the age of 50. The etiology of the rotator cuff tear did not significantly affect
+      postoperative outcomes or healing rates. About one third of the patients suffered
+      from a retear postoperatively, however retears were not predictive of inferior
+      outcomes at midterm follow-up. Study design: Level III. Trial registration:
+      Retrospectively registered.
+FAU - Themessl, Alexander
+AU  - Themessl A
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Wagner, Timon
+AU  - Wagner T
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Rupp, Marco-Christopher
+AU  - Rupp MC
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Degenhardt, Hannes
+AU  - Degenhardt H
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Woertler, Klaus
+AU  - Woertler K
+AD  - grid.6936.a0000000123222966Department of Radiology, Technical University of
+      Munich, Munich, Germany
+FAU - Hatter, Kate A.
+AU  - Hatter KA
+AD  - grid.189509.c0000000100241216Department of Surgery/ Emergency Medicine, Duke
+      University Hospital, Durham, NC USA
+FAU - Imhoff, Andreas B.
+AU  - Imhoff AB
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Siebenlist, Sebastian
+AU  - Siebenlist S
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Pogorzelski, Jonas
+AU  - Pogorzelski J
+AUID- ORCID: 0000-0002-6178-4940
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20230121
+PHST- 2022/05/29 [received]
+PHST- 2023/01/17 [accepted]
+TA  - BMC Musculoskelet Disord
+JT  - BMC Musculoskeletal Disorders
+AID - 6174 [pii]
+AID - 10.1186/s12891-023-06174-7 [doi]
+SO  - BMC Musculoskelet Disord. 2023 Jan 21;24:. doi:10.1186/s12891-023-06174-7.
+
+PMC - PMC10037835
+PMID- 36964584
+IS  - 1745-6215 (Electronic)
+VI  - 24
+DP  - 2023
+TI  - Suture-tape augmentation of anterior cruciate ligament reconstruction: a
+      prospective, randomised controlled trial (STACLR).
+LID - 224
+AB  - Background: Anterior cruciate ligament (ACL) reconstruction aims to restore
+      anteroposterior and rotatory stability to the knee following ACL injury. This
+      requires the graft to withstand the forces applied during the process of
+      ligamentisation and the rehabilitative period. We hypothesise that the use of
+      suture tape augmentation of single bundle ACL reconstruction (ACLR) will reduce
+      residual knee laxity and improve patient-reported outcomes at 2-year follow-up.
+      We will conduct a 1:1 parallel arm single-centre randomised controlled trial
+      comparing suture tape augmented ACLR to standard ACLR technique. Methods: The
+      study design will be a parallel arm 1:1 allocation ratio randomised controlled
+      trial. Sixty-six patients aged 18 and over waitlisted for primary ACLR will be
+      randomised. Patients requiring osteotomy and extra-articular tenodesis and who
+      have had previous contralateral ACL rupture or repair of meniscal or cartilage
+      pathology that modifies the post-operative rehabilitation will be excluded. The
+      primary outcome measure will be the side-to-side difference in anterior tibial
+      translation (measured on the GNRB arthrometer) at 24 months post-surgery. GNRB
+      arthrometer measures will also be taken preoperatively, at 3 months and 12 months
+      post-surgery. Secondary outcomes will include patient-reported outcome measures
+      (PROMs) collected online, including quality of life, activity and readiness to
+      return to sport, complication rates (return to theatre, graft failure and rates
+      of sterile effusion), examination findings and return to sport outcomes.
+      Participants will be seen preoperatively, at 6 weeks, 3 months, 12 months and 24 
+      months post-surgery. Participants and those taking arthrometer measures will be
+      blinded to allocation. Discussion: This will be the first randomised trial to
+      investigate the effect of suture-tape augmentation of ACLR on either objective or
+      subjective outcome measures. The use of suture-tape augmentation in ACLR has been
+      associated with promising biomechanical and animal-level studies, exhibiting
+      equivalent complication profiles to the standard technique, with initial
+      non-comparative clinical studies establishing possible areas of advantage for the
+      technique. The successful completion of this trial will allow for an improved
+      understanding of the in situ validity of tape augmentation whilst potentially
+      providing a further platform for surgical stabilisation of the ACL graft. Trial
+      registration: Australia New Zealand Clinical Trial Registry ACTRN12621001162808. 
+      Universal Trial Number (UTN): U1111-1268-1487. Registered prospectively on 27
+      August 2021 Supplementary Information: The online version contains supplementary 
+      material available at 10.1186/s13063-023-07127-0.
+FAU - Huntington, Lachlan
+AU  - Huntington L
+AUID- ORCID: 0000-0002-5393-9738
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+FAU - Griffith, Andrew
+AU  - Griffith A
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+FAU - Spiers, Libby
+AU  - Spiers L
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+FAU - Pile, Rebecca
+AU  - Pile R
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+FAU - Batty, Lachlan
+AU  - Batty L
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+FAU - Tulloch, Scott
+AU  - Tulloch S
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+FAU - Tran, Phong
+AU  - Tran P
+AD  - grid.490142.aDepartment of Orthopaedic Surgery, Western Health, Footscray
+      Hospital, Level 1 South, Gordon St, Footscray, Melbourne, VIC 3011 Australia
+LA  - eng
+PT  - Journal Article
+DEP - 20230324
+GR  - Global Investigator Initiated Research Grant
+GR  - Victorian Orthopaedic Fund
+PHST- 2022/12/05 [received]
+PHST- 2023/01/30 [accepted]
+TA  - Trials
+JT  - Trials
+AID - 7127 [pii]
+AID - 10.1186/s13063-023-07127-0 [doi]
+SO  - Trials. 2023 Mar 24;24:. doi:10.1186/s13063-023-07127-0.
+
+PMC - PMC9925465
+PMID- 35064826
+IS  - 0936-8051 (Print)
+IS  - 1434-3916 (Electronic)
+VI  - 143
+IP  - 2
+DP  - 2023
+TI  - Locking suture repair versus ligament augmentation—a biomechanical study
+      regarding the treatment of acute lateral collateral ligament injuries of the
+      elbow.
+PG  - 857-63
+AB  - Background: Lateral collateral ligament (LCL) tears are frequently observed in
+      fractures and dislocations of the elbow. Recent biomechanical evidence suggests
+      that additional ligament augmentation may improve repair stability. The aim of
+      this biomechanical in-vitro study was to compare the resistance of a locking
+      suture repair of the LCL with a ligament augmentation technique. Material and
+      methods: Eight fresh frozen cadaveric elbows were evaluated for stability against
+      varus/posterolateral rotatory forces (3 Nm). A strain gauge (µm/m; negative
+      values) was placed at the origin and insertion of the lateral ulnar collateral
+      ligament (LUCL) and cyclic loading was performed for 1000 cycles. We analyzed
+      three distinct scenarios: (A) native LCL, (B) locking transosseou suture repair
+      of the LCL, (C) simple LCL repair with additional ligament augmentation of the
+      LUCL. Results: The mean measured strain was − 416.1 µm/m (A), − 618 µm/m (B) and 
+      − 288.5 µm/m (C) with the elbow flexion at 90°; the strain was significantly
+      higher in scenario B compared to C (p = .01). During the cyclic load (1000) the
+      mean measured strain was − 523.1 µm/m (B) and − 226.3 µm/m (C) with the elbow
+      flexion at 60°; the strain was significantly higher in scenario B compared to C
+      (p = .01). No significant difference between the first and the last cycles was
+      observed (p = .09; p = .07). One failure of the LCL repair was observed after
+      1000 cycles; none of the ligament augmentations failed. Conclusion: Ligament
+      augmentation (C) provides higher resistance compared to the native LCL (A) and to
+      the locking suture repair technique (B). Both techniques, however, hold up during
+      1000 cycles. While ligament augmentation might enhance the primary stability of
+      the repair, future clinical studies have to show whether this increase in
+      resistance leads to negative effects like higher rates of posttraumatic elbow
+      stiffness. Level of evidence: Basic science study, biomechanics.
+FAU - Ott, Nadine
+AU  - Ott N
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+FAU - Harland, Arne
+AU  - Harland A
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+FAU - Lanzerath, Fabian
+AU  - Lanzerath F
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+FAU - Leschinger, Tim
+AU  - Leschinger T
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+FAU - Hackl, Michael
+AU  - Hackl M
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+FAU - Wegmann, Kilian
+AU  - Wegmann K
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+FAU - Müller, Lars Peter
+AU  - Müller LP
+AD  - grid.6190.e0000 0000 8580 3777Department of Trauma and Orthopedic Surgery,
+      University Hospital Cologne and Faculty of Medicine, University of Cologne,
+      Kerpener Street 62, 50937 Cologne, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20220122
+PHST- 2021/06/19 [received]
+PHST- 2022/01/01 [accepted]
+TA  - Arch Orthop Trauma Surg
+JT  - Archives of Orthopaedic and Trauma Surgery
+AID - 4337 [pii]
+AID - 10.1007/s00402-022-04337-0 [doi]
+SO  - Arch Orthop Trauma Surg. 2023;143(2):857-63. Epub 2022 Jan 22
+      doi:10.1007/s00402-022-04337-0.
+
+PMC - PMC9990254
+PMID- 36879269
+IS  - 1752-1947 (Electronic)
+VI  - 17
+DP  - 2023
+TI  - Simultaneous bilateral quadriceps tendon rupture in a healthy young male: a case 
+      report.
+LID - 85
+AB  - Background: Simultaneous bilateral quadriceps tendon rupture is rare,
+      particularly in young individuals with no prior medical history. We present the
+      case of a young man who presented with bilateral quadriceps tendon rupture. Case 
+      presentation: A 27-year-old Japanese man missed a step while descending a flight 
+      of stairs, stumbled, and became aware of severe pain in both knees. He had no
+      past medical history, but was severely obese, with a body mass index of
+      43.7 kg/m2 (height 177 cm, weight 137 kg). Five days after injury, he was
+      referred to our hospital for examination and treatment. Bilateral quadriceps
+      tendon rupture was diagnosed based on magnetic resonance imaging, and quadriceps 
+      tendon repair with suture anchor was performed on both knees 14 days after
+      injury. The postoperative rehabilitation protocol was to immobilize both knees in
+      extension for 2 weeks, then to gradually proceed with weight-bearing and gait
+      training using hinged knee braces. Both knees obtained a range of motion from 0° 
+      to 130° without any extension lag by 3 months postoperatively. One year
+      postoperatively, tenderness was evident at the suture anchor in the right knee.
+      That suture anchor was therefore removed in a second operation, and histological 
+      evaluation of the tendon of the right knee revealed no pathological changes. As
+      of 19 months after the primary surgery, the patient showed a range of motion from
+      0° to 140° in both knees, did not complain of any disability, and had fully
+      returned to normal daily activities. Conclusions: We experienced simultaneous
+      bilateral quadriceps tendon rupture in a 27-year-old man with no past medical
+      history other than obesity. Suture anchor repair was performed for both
+      quadriceps tendon ruptures and achieved a favorable postoperative outcome.
+FAU - Sasaki, Ryo
+AU  - Sasaki R
+AD  - grid.411731.10000 0004 0531 3030Department of Orthopaedic Surgery, School of
+      Medicine, International University of Health and Welfare, 4-3 Kōzunomori, Narita 
+      City, Chiba 286-8686 Japan
+FAU - Nagashima, Masaki
+AU  - Nagashima M
+AUID- ORCID: 0000-0002-5954-1536
+AD  - grid.411731.10000 0004 0531 3030Department of Orthopaedic Surgery, School of
+      Medicine, International University of Health and Welfare, 4-3 Kōzunomori, Narita 
+      City, Chiba 286-8686 Japan
+FAU - Aibara, Noriyuki
+AU  - Aibara N
+AD  - grid.415958.40000 0004 1771 6769Department of Orthopaedic Surgery, International 
+      University of Health and Welfare Mita Hospital, 1-4-3 Mita, Minato-ku, Tokyo
+      108-8329 Japan
+FAU - Aomatsu, Shuji
+AU  - Aomatsu S
+AD  - grid.415958.40000 0004 1771 6769Department of Orthopaedic Surgery, International 
+      University of Health and Welfare Mita Hospital, 1-4-3 Mita, Minato-ku, Tokyo
+      108-8329 Japan
+FAU - Aida, Shinsuke
+AU  - Aida S
+AD  - grid.415958.40000 0004 1771 6769Department of Pathology, International University
+      of Health and Welfare Mita Hospital, 1-4-3 Mita, Minato-ku, Tokyo 108-8329 Japan
+FAU - Takeshima, Kenichiro
+AU  - Takeshima K
+AD  - grid.411731.10000 0004 0531 3030Department of Orthopaedic Surgery, School of
+      Medicine, International University of Health and Welfare, 4-3 Kōzunomori, Narita 
+      City, Chiba 286-8686 Japan
+FAU - Ishii, Ken
+AU  - Ishii K
+AD  - grid.411731.10000 0004 0531 3030Department of Orthopaedic Surgery, School of
+      Medicine, International University of Health and Welfare, 4-3 Kōzunomori, Narita 
+      City, Chiba 286-8686 Japan
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20230307
+PHST- 2022/03/03 [received]
+PHST- 2023/02/01 [accepted]
+TA  - J Med Case Rep
+JT  - Journal of Medical Case Reports
+AID - 3802 [pii]
+AID - 10.1186/s13256-023-03802-7 [doi]
+SO  - J Med Case Rep. 2023 Mar 7;17:. doi:10.1186/s13256-023-03802-7.
+
+PMC - PMC8728444
+PMID- 34983813
+IS  - 1757-790X (Electronic)
+VI  - 15
+IP  - 1
+DP  - 2022
+TI  - Primary repair of multiligament knee injury with InternalBrace ligament
+      augmentation.
+LID - e247173
+AB  - Multiligament injury of the knee usually occurs as a result of high-energy trauma
+      causing tibiofemoral dislocation. These are rare but potentially limb-threatening
+      injuries, frequently involving nerve or arterial damage and often leading to
+      severe complex instability. Management generally favours surgical reconstruction 
+      of the affected ligaments, with controversy regarding optimal treatment. We
+      present a severe multiligament knee injury (Schenk classification KD-IV involving
+      both cruciate and both collateral ligaments) in a competitive showjumper. A
+      combined arthroscopic/open technique of single-stage surgical repair and suture
+      augmentation was used, repairing all affected ligaments. The patient made an
+      excellent recovery, returning to work after 12 weeks and riding after 22 weeks.
+      After 5-year follow-up, she has regained her previous level of competition
+      without subsequent injury. Multiligament repair with suture augmentation is a
+      viable approach to the management of knee dislocation injuries. We propose that
+      this could provide superior outcomes to traditional reconstruction techniques
+      using autograft or synthetic reconstruction.
+FAU - Paterson-Byrne, Paul Andre
+AU  - Paterson-Byrne PA
+AUID- ORCID: 0000-0002-2127-9851
+AD  - Trauma & Orthopaedics, Health Education England, Sunderland, UK
+FAU - Wilson, William Thomas
+AU  - Wilson WT
+AUID- ORCID: 0000-0001-9025-081X
+AD  - Trauma & Orthopaedics, NHS Greater Glasgow and Clyde, Glasgow, UK
+FAU - Hopper, Graeme Philip
+AU  - Hopper GP
+AD  - Trauma & Orthopaedics, NHS Greater Glasgow and Clyde, Glasgow, UK
+FAU - MacKay, Gordon M
+AU  - MacKay GM
+AD  - Orthopaedics, Rosshall Hospital, Glasgow, UK
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20220104
+PHST- 2021/12/28 [accepted]
+TA  - BMJ Case Rep
+JT  - BMJ Case Reports
+AID - bcr-2021-247173 [pii]
+AID - 10.1136/bcr-2021-247173 [doi]
+SO  - BMJ Case Rep. 2022 Jan 4;15(1):. doi:10.1136/bcr-2021-247173.
+
+PMC - PMC11168785
+PMID- 38870329
+IS  - 2160-3251 (Electronic)
+VI  - 14
+IP  - 2
+DP  - 2024 Apr-Jun
+TI  - Internal Joint Stabilization for Recurrent Nontraumatic Elbow Dislocation in a
+      Skeletally Immature Patient.
+LID - e24.00074
+AB  - Case:: A 14-year-old adolescent boy with SCN1B mutation experienced frequent
+      seizures and recurrent elbow dislocation, occurring up to 30 times per day.
+      Following failed conservative treatment, the decision was made to surgically
+      repair the lateral collateral ligament complex and stabilize the elbow with the
+      internal joint stabilizer (IJS). At more than 3 years postoperatively, the
+      patient has not had a dislocation event and will retain the device for the
+      foreseeable future to maintain predictable elbow stability. Conclusion:: Although
+      there is scant evidence supporting the use of the IJS in pediatric cases, the
+      current case supports its use in pediatric elbow instability.
+FAU - Stoneham, Adam C.S.
+AU  - Stoneham AC
+AD  - University Hospitals, Southampton, United Kingdom
+FAU - Lindisfarne, Edward
+AU  - Lindisfarne E
+AUID- ORCID: https://orcid.org/0000-0002-7184-5794
+AD  - University Hospitals, Southampton, United Kingdom
+FAU - Hargreaves, David
+AU  - Hargreaves D
+AD  - University Hospitals, Southampton, United Kingdom
+FAU - Heifner, John J.
+AU  - Heifner JJ
+AUID- ORCID: https://orcid.org/0009-0006-9335-1126
+AD  - Miami Orthopaedic Research Foundation, Miami, Florida
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240613
+TA  - JBJS Case Connect
+JT  - Jbjs Case Connector
+AID - CC-D-24-00074 [pii]
+AID - 10.2106/JBJS.CC.24.00074 [doi]
+SO  - JBJS Case Connect. 2024 Jun 13;14(2):. doi:10.2106/JBJS.CC.24.00074.
+
+PMC - PMC11645734
+PMID- 39678438
+IS  - 2325-9671 (Electronic)
+VI  - 12
+IP  - 12
+DP  - 2024 Dec
+TI  - Knotless Suture Anchors Display Favorable Elongation but an Inferior Ultimate
+      Failure Load Versus Titanium Suture Anchors and All-Suture Anchors: A
+      Biomechanical Comparison in a Porcine Model.
+LID - 23259671241300520
+AB  - Background:: Several types of suture anchors, which differ in their working
+      principles, are available for fixation of ligamentous structures in knee surgery.
+      How the choice of a suture anchor type influences the biomechanical stability of 
+      ligament fixation is largely unknown. Purpose:: To compare the biomechanical
+      properties of different suture anchor designs regarding primary stability for
+      tendon fixation and repair in medial collateral ligament (MCL) surgery. Study
+      Design:: Controlled laboratory study. Methods:: The primary stability of MCL
+      fixation was assessed in a porcine model utilizing 1 of 3 suture anchor types: a 
+      5.5-mm titanium suture anchor (TSA), a 2.8-mm all-suture anchor (ASA), or a
+      5.5-mm polyether ether ketone knotless suture anchor (KLSA). Primary stability
+      was assessed using a uniaxial material testing machine. Cyclic loading at 50 N
+      and 100 N was applied for 500 cycles each, followed by a load-to-failure test.
+      Results:: After 500 cycles at 50 N, the KLSA (2.4 ± 0.3 mm) showed significantly 
+      (P < .05) reduced elongation in comparison to the TSA (4.0 ± 0.9 mm) and ASA (3.6
+      ± 0.7 mm), and after 500 cycles at 100 N, the KLSA (6.5 ± 1.4 mm) again showed
+      significantly (P < .05) reduced elongation in comparison to the TSA (11.0 ± 2.2
+      mm) and ASA (12.0 ± 3.6 mm). However, the KLSA (213 ± 27 N) showed a
+      significantly (P < .05) inferior ultimate failure load in comparison to the TSA
+      (300 ± 20 N) and ASA (348 ± 23 N). In comparison to the TSA (113.0 ± 11.0 N/mm)
+      and ASA (113.6 ± 14.4 N/mm), the KLSA (150.7 ± 11.6 N/mm) displayed the highest
+      stiffness (P < .05). No significant differences were observed regarding yield
+      load. Conclusion:: KLSAs displayed significantly reduced elongation, at the cost 
+      of a reduced ultimate failure load, in comparison to TSAs and ASAs. Clinical
+      Relevance:: Surgeons should be aware that differences exist between different
+      suture anchor types regarding their biomechanical stability. KLSAs may be
+      favorable for fixation of peripheral ligaments in knee surgery.
+FAU - Deichsel, Adrian
+AU  - Deichsel A
+AUID- ORCID: https://orcid.org/0000-0003-1643-5992
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Rolf, Jana
+AU  - Rolf J
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Raschke, Michael J.
+AU  - Raschke MJ
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Milstrey, Alexander
+AU  - Milstrey A
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Klimek, Matthias
+AU  - Klimek M
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Peez, Christian
+AU  - Peez C
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Herbst, Elmar
+AU  - Herbst E
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+FAU - Kittl, Christoph
+AU  - Kittl C
+AD  - Department of Trauma, Hand and Reconstructive Surgery, University Hospital
+      Münster, Münster, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20241213
+PHST- 2024/05/17 [received]
+PHST- 2024/05/28 [accepted]
+TA  - Orthop J Sports Med
+JT  - Orthopaedic Journal of Sports Medicine
+AID - 10.1177/23259671241300520 [doi]
+AID - 10.1177_23259671241300520 [pii]
+SO  - Orthop J Sports Med. 2024 Dec 13;12(12):. doi:10.1177/23259671241300520.
+
+PMC - PMC10543955
+PMID- 37675973
+IS  - 0363-5465 (Print)
+IS  - 1552-3365 (Electronic)
+VI  - 51
+IP  - 12
+DP  - 2023 Oct
+TI  - Favorable Patient-Reported, Clinical, and Functional Outcomes 2 Years After ACL
+      Repair and InternalBrace Augmentation Compared With ACL Reconstruction and
+      Healthy Controls.
+PG  - 3131-41
+AB  - Background:: Recently, interest in anterior cruciate ligament (ACL) preservation 
+      and repair after proximal ACL tears has been resurrected. Although good clinical 
+      outcomes have been reported in the literature with adequate patient selection, to
+      date detailed scientific evidence for the functional benefit of primary ACL
+      repair with ligament augmentation is scarce. Purpose:: To compare
+      patient-reported, clinical, and functional outcomes in patients 2 years after ACL
+      repair and InternalBrace augmentation (ACL-IB) with age- and sex-matched patients
+      2 years after ACL reconstruction (ACL-R) and with matched healthy controls. Study
+      Design:: Cohort study; Level of evidence, 3. Methods:: In total, 29 patients 2
+      years after ACL-IB, 27 sex- and age- matched patients 2 years after ACL-R
+      (hamstring autografts), and 29 matched healthy controls were included.
+      Patient-reported outcomes were assessed using the International Knee
+      Documentation Committee score, Knee injury and Osteoarthritis Outcome Score,
+      EQ-5D-5L, Tegner Activity Scale, and Anterior Cruciate Ligament Return to Sports 
+      after Injury scale. Surgery time was recorded. For clinical outcomes, range of
+      motion and thigh and shank circumference were measured, and passive anterior
+      translation was determined using the Rolimeter. Isokinetic muscle strength was
+      measured using a Biodex dynamometer. The limb symmetry index
+      (operated/contralateral or nondominant/dominant × 100), side-to-side differences 
+      (operated – contralateral, nondominant – dominant), and hamstring-quadriceps
+      ratios were calculated for functional parameters. Failure and reoperation rates
+      were not compared. Results:: Two years after surgery, patients treated with
+      ACL-IB showed good to excellent patient-reported outcomes comparable with those
+      of patients after ACL-R. Surgery time, including concomitant surgeries, was
+      significantly shorter in the ACL-IB group (mean, 81 minutes) compared with the
+      ACL-R group (mean, 97 minutes) (P = .024). Isokinetic muscle strength was
+      comparable between patient groups without significant differences in extensor and
+      flexor strength or in hamstring-quadriceps ratios. Conclusion:: These results
+      suggest that ACL-IB achieves comparable patient-reported, clinical, and
+      functional outcomes with ACL-R at 2 years postoperatively and, after careful
+      patient selection, should be considered as a valuable early treatment alternative
+      for proximal ACL tears. Registration:: NCT04429165 (ClinicalTrials.gov
+      identifier).
+FAU - Müller, Sebastian
+AU  - Müller S
+AD  - Department of Orthopaedics and Traumatology, University Hospital Basel, Basel,
+      Switzerland
+FAU - Bühl, Linda
+AU  - Bühl L
+AD  - Department of Orthopaedics and Traumatology, University Hospital Basel, Basel,
+      Switzerland
+FAU - Nüesch, Corina
+AU  - Nüesch C
+AD  - Department of Orthopaedics and Traumatology, University Hospital Basel, Basel,
+      Switzerland
+FAU - Pagenstert, Geert
+AU  - Pagenstert G
+AD  - Department of Clinical Research, University of Basel, Basel, Switzerland
+FAU - Mündermann, Annegret
+AU  - Mündermann A
+AD  - Department of Orthopaedics and Traumatology, University Hospital Basel, Basel,
+      Switzerland
+FAU - Egloff, Christian
+AU  - Egloff C
+AD  - Department of Orthopaedics and Traumatology, University Hospital Basel, Basel,
+      Switzerland
+LA  - eng
+PT  - Journal Article
+DEP - 20230907
+PHST- 2023/02/06 [received]
+PHST- 2023/07/11 [accepted]
+TA  - Am J Sports Med
+JT  - The American Journal of Sports Medicine
+AID - 10.1177/03635465231194784 [doi]
+AID - 10.1177_03635465231194784 [pii]
+SO  - Am J Sports Med. 2023 Oct;51(12):3131-41. Epub 2023 Sep 7
+      doi:10.1177/03635465231194784.
+
+PMC - PMC10755778
+PMID- 37926628
+IS  - 1008-1275 (Print)
+IS  - 1008-1275 (Electronic)
+VI  - 26
+IP  - 6
+DP  - 2023 Nov
+TI  - A new method of anterior talofibular ligament reconstruction: Arthroscopically
+      artificial ligament reconstruction with tensional remnant-repair.
+PG  - 317-22
+AB  - Purpose: To investigate the clinical effects of arthroscopically artificial
+      ligament reconstruction with tensional remnant-repair in patients who are obese, 
+      and/or with demand for highly intensive sports, and/or with poor-quality ligament
+      remnants. Methods: A retrospective case series study was performed on patients
+      treated by arthroscopically anterior talofibular ligament (ATFL) reconstruction
+      with tensional remnant repair technique from January 2019 to August 2021. General
+      data, including demographics, surgical time, and postoperative adverse events,
+      were recorded. The American Orthopaedic Foot and Ankle Society score (AOFAS),
+      foot and ankle ability measure (FAAM), visual analog scale (VAS), and anterior
+      talar translation were measured preoperatively and at 6 weeks, 3 months, and 2
+      years postoperatively. Ultrasonography examination was performed preoperatively
+      and 2 years postoperatively to evaluate the ATFL. Data were analyzed using SPSS
+      19.0. F test was used to analyze the pre- and postoperative VAS, FAAM, and AOFAS 
+      scores. The significance was set at p < 0.05. Results: There were 20 males and 10
+      females among the patients with a mean age of (30.71 ± 5.81) years. The average
+      surgical time was (40.21 ± 8.59) min. No adverse events were observed after
+      surgery. At 2 years postoperatively, the anterior talar translation test showed
+      grade 0 laxity in all patients. VAS score significantly decreased from
+      preoperatively to 6 weeks, 3 months, and 2 years postoperatively (p < 0.001).
+      Improvement of FAAM score and the AOFAS score from preoperatively to 6 weeks, 3
+      months, and 2 years postoperatively was statistically significant (p < 0.001). At
+      3 months postoperatively, most patients (23/30) could return to their pre-injured
+      activities of daily living status. At 2 years postoperatively, all patients were 
+      able to return to their pre-injured activities of daily living status, and almost
+      every patient (18/19) who expected highly intensive sports returned to sports
+      with only 1 obese patient failing to achieve the goal. The ultrasonography
+      examination at 2 years postoperatively showed that there was a linear band
+      structure of soft tissue on the tension-rich fiber tape image from the fibular to
+      the talar attachment sits of ATFL. Conclusion: The novel arthroscopically
+      artificial ligament reconstruction with tensional remnant-repair technique for
+      ATFL achieved satisfactory clinical outcomes in the short and medium term after
+      operation, and allowed early return to pre-injured activities, which could be a
+      reliable option for patients with chronic lateral ankle instability.
+FAU - Huang, Qiu
+AU  - Huang Q
+AD  - Department of Sports Medicine, Huashan Hospital, Fudan University, Shanghai,
+      200040, China
+FAU - Ji, Xiao-Xi
+AU  - Ji XX
+AD  - Department of Sports Medicine, Huashan Hospital, Fudan University, Shanghai,
+      200040, China
+FAU - Zhu, Wen-Hui
+AU  - Zhu WH
+AD  - Department of Sports Medicine, Huashan Hospital, Fudan University, Shanghai,
+      200040, China
+FAU - Cai, Ye-Hua
+AU  - Cai YH
+AD  - Department of Ultrasound, Huashan Hospital, Fudan University, Shanghai, 200040,
+      China
+FAU - Cao, Lie-Hu
+AU  - Cao LH
+AD  - Department of Orthopedics, Shanghai Baoshan Luodian Hospital, Shanghai, 200000,
+      China
+FAU - Wang, Yong-Cai
+AU  - Wang YC
+AD  - Department of Joint Surgery, People's Hospital of Leshan, Leshan, Sichuan
+      province, 614000, China
+LA  - eng
+PT  - Journal Article
+DEP - 20231026
+PHST- 2023/08/24 [received]
+PHST- 2023/09/30 [revised]
+PHST- 2023/10/20 [accepted]
+PHST- 2023/10/26 [aheadofprint]
+TA  - Chin J Traumatol
+JT  - Chinese Journal of Traumatology
+AID - S1008-1275(23)00098-6 [pii]
+AID - 10.1016/j.cjtee.2023.10.001 [doi]
+SO  - Chin J Traumatol. 2023 Nov;26(6):317-22. Epub 2023 Oct 26
+      doi:10.1016/j.cjtee.2023.10.001.
+
+PMC - PMC10651537
+PMID- 37233797
+IS  - 1633-8065 (Print)
+IS  - 1432-1068 (Electronic)
+VI  - 33
+IP  - 8
+DP  - 2023
+TI  - Clinical and biomechanical outcomes following patellar tendon repair with suture 
+      tape augmentation.
+PG  - 3569-76
+AB  - Purpose: Patellar tendon ruptures (PTR) occur predominantly in middle-aged
+      patients following indirect trauma. The aim of this study was to quantify the
+      short-term results using a suture tape augmentation technique for the repair of
+      PTR. Methods: All consecutive patients with acute (< 6 weeks) PTR who underwent
+      suture tape augmentation between 03/2014 and 11/2019 at a single institution with
+      a minimum follow-up of 12 months were retrospectively evaluated. Outcome measures
+      included Visual Analog Scale (VAS) for pain, Tegner Activity Scale (TAS) and
+      return to sport rates, Lysholm score, International Knee Documentation Committee 
+      subjective knee form (IKDC) as well as Knee Injury and Osteoarthritis Outcome
+      Score (KOOS). Additionally, a standardized clinical examination and an isometric 
+      strength evaluation of knee extension and flexion were performed. It was
+      hypothesized that high return to sport rates and good functional outcome would be
+      observed and that the majority of patients would not present with a severe
+      (> 20%) knee extension strength deficit when compared to the contralateral side. 
+      Results: A total of 7 patients (mean age 37.0 ± SD 13.5 years; 6 male/1 female)
+      were available for final assessment at a median follow-up of 17.0 (25–75% IQR
+      16.0–77.0) months. Three injuries occurred during ball sports, two injuries
+      occurred during winter sports, and one injury each occurred during a motorcycling
+      and skateboarding accident. The average time between trauma and surgery was
+      4.7 ± 2.6 days. At follow-up, patients reported little pain (VAS: 0 [0–0.4]).
+      Return to sport was possible for all patients 8.9 ± 4.0 months postoperatively at
+      a high level (TAS: 7.0 [6.0–7.0]). Five patients (71.4%) returned to the
+      preinjury level of play, and 2 (28.6%) did not return to the preinjury level of
+      play. Patient-reported outcome measures were moderate to good (Lysholm score:
+      80.4 ± 14.5; IKDC: 84.2 ± 10.6; KOOS subscales: pain 95.6 ± 6.0, symptoms 81.1
+      [64.9–89.1], activities of daily living 98.5 [94.1–100], sport and recreation
+      function 82.9 ± 14.1 and knee-related quality of life 75.9 ± 16.3). All patients 
+      were very satisfied (57.1%) or satisfied (42.9%) with the postoperative result.
+      No postoperative complications were reported. Strength measurements revealed a
+      severe knee extension deficit in 3 patients (42.9%), but no significant deficit
+      of isometric knee extension or flexion strength in comparison with the
+      contralateral side was observed overall (p > 0.05). Conclusion: Suture tape
+      augmentation in acute PTR repair leads to good functional outcome without major
+      complications. Although a severe knee extension strength deficit may occur in
+      some patients postoperatively, an excellent return to sports rate and high
+      patient satisfaction can be expected nonetheless. Level of evidence:
+      Retrospective cohort study; III.
+FAU - Hinz, Maximilian
+AU  - Hinz M
+AUID- ORCID: 0000-0002-2649-8420
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sports
+      Orthopaedics, Technical University of Munich, Ismaninger Straße 22, 81675 Munich,
+      Germany
+FAU - Geyer, Stephanie
+AU  - Geyer S
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sports
+      Orthopaedics, Technical University of Munich, Ismaninger Straße 22, 81675 Munich,
+      Germany
+FAU - Winden, Felix
+AU  - Winden F
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sports
+      Orthopaedics, Technical University of Munich, Ismaninger Straße 22, 81675 Munich,
+      Germany
+FAU - Braunsperger, Alexander
+AU  - Braunsperger A
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sport and
+      Health Sciences, Prevention Center, Technical University of Munich, Munich,
+      Germany
+FAU - Kreuzpointner, Florian
+AU  - Kreuzpointner F
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sport and
+      Health Sciences, Prevention Center, Technical University of Munich, Munich,
+      Germany
+FAU - Irger, Markus
+AU  - Irger M
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sports
+      Orthopaedics, Technical University of Munich, Ismaninger Straße 22, 81675 Munich,
+      Germany
+FAU - Imhoff, Andreas B.
+AU  - Imhoff AB
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sports
+      Orthopaedics, Technical University of Munich, Ismaninger Straße 22, 81675 Munich,
+      Germany
+FAU - Mehl, Julian
+AU  - Mehl J
+AD  - https://ror.org/02kkvpp62grid.6936.a0000 0001 2322 2966Department of Sports
+      Orthopaedics, Technical University of Munich, Ismaninger Straße 22, 81675 Munich,
+      Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20230526
+PHST- 2023/02/26 [received]
+PHST- 2023/05/05 [accepted]
+TA  - Eur J Orthop Surg Traumatol
+JT  - European Journal of Orthopaedic Surgery & Traumatology
+AID - 3572 [pii]
+AID - 10.1007/s00590-023-03572-4 [doi]
+SO  - Eur J Orthop Surg Traumatol. 2023;33(8):3569-76. Epub 2023 May 26
+      doi:10.1007/s00590-023-03572-4.
+
+PMC - PMC10350377
+PMID- 37254251
+IS  - 1757-7853 (Print)
+IS  - 1757-7861 (Electronic)
+VI  - 15
+IP  - 7
+DP  - 2023 Jul
+TI  - A Novel Surgical Technique for Neglected Volar Dislocation of the Lunate: Cases
+      Report and Literature Review.
+PG  - 1920-5
+AB  - Background: Treatments for chronic perilunate or lunate dislocations are very
+      difficult and associated with poor prognoses. There is no established treatment
+      method and are still many controversies. Case Presentation: We reported three
+      cases of chronic neglected lunate volar dislocation treated with a novel surgical
+      technique. All three cases were males with wrist pain and tingling sensation.
+      Radiographs confirmed chronic volar dislocation of the lunate. Open reduction was
+      performed by combined volar and dorsal approaches. After anatomical reduction,
+      scapholunate and lunotriquetral interosseous ligament reconstructions were
+      performed with the palmaris longus tendon and synthetic tape. The patients had an
+      uneventful postoperative period with satisfactory functional outcomes at the last
+      follow‐up. Conclusions: We believe that open reduction and interosseous ligament 
+      reconstruction using the autogenous tendon and synthetic tape may be a valuable
+      option for treating chronic volar dislocation of the lunate.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Kang, Soo‐Hwan
+AU  - Kang S
+AUID- ORCID: https://orcid.org/0000-0002-5968-2523
+AD  - Department of Orthopaedic Surgery, St. Vincent's Hospital, College of MedicineThe
+      Catholic University of KoreaSeoulRepublic of Korea
+FAU - Park, Hyun Woo
+AU  - Park HW
+AUID- ORCID: https://orcid.org/0000-0002-2927-1344
+AD  - Department of Orthopaedic Surgery, St. Vincent's Hospital, College of MedicineThe
+      Catholic University of KoreaSeoulRepublic of Korea
+FAU - Im, Jin‐Hyung
+AU  - Im J
+AUID- ORCID: https://orcid.org/0000-0001-9074-2283
+AD  - Department of Orthopaedic Surgery, Yeouido St. Mary's Hospital, College of
+      MedicineThe Catholic University of KoreaSeoulRepublic of Korea
+FAU - Park, Jong Woo
+AU  - Park JW
+AUID- ORCID: https://orcid.org/0000-0002-1746-0877
+AD  - Department of Orthopaedic Surgery, St. Vincent's Hospital, College of MedicineThe
+      Catholic University of KoreaSeoulRepublic of Korea
+FAU - Lim, Dohyung
+AU  - Lim D
+AUID- ORCID: https://orcid.org/0000-0003-3752-7079
+AD  - Department of Mechanical EngineeringSejong UniversitySeoulRepublic of Korea
+FAU - Kim, Yoon‐Vin
+AU  - Kim Y
+AUID- ORCID: https://orcid.org/0000-0002-6534-2453
+AD  - Department of Orthopaedic Surgery, Bucheon St. Mary's Hospital, College of
+      MedicineThe Catholic University of KoreaSeoulRepublic of Korea
+FAU - Ha, Seunghun
+AU  - Ha S
+AUID- ORCID: https://orcid.org/0009-0004-9320-6231
+AD  - Department of Orthopaedic Surgery, Bucheon St. Mary's Hospital, College of
+      MedicineThe Catholic University of KoreaSeoulRepublic of Korea
+FAU - Park, Il‐Jung
+AU  - Park I
+AUID- ORCID: https://orcid.org/0000-0001-8262-4287
+AD  - Department of Orthopaedic Surgery, Bucheon St. Mary's Hospital, College of
+      MedicineThe Catholic University of KoreaSeoulRepublic of Korea
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20230530
+GR  - BCMC21AH04
+PHST- 2023/04/14 [revised]
+PHST- 2022/09/23 [received]
+PHST- 2023/04/18 [accepted]
+TA  - Orthop Surg
+JT  - Orthopaedic Surgery
+AID - 10.1111/os.13760 [doi]
+AID - OS13760 [pii]
+SO  - Orthop Surg. 2023 May 30;15(7):1920-5. doi:10.1111/os.13760.
+
+PMC - PMC11444949
+PMID- 39364099
+IS  - 2005-291X (Print)
+IS  - 2005-4408 (Electronic)
+VI  - 16
+IP  - 5
+DP  - 2024 Oct
+TI  - Dorsal Scapholunate Ligament Complex Reconstruction Using Suture Tape-Augmented
+      Autologous Free Tendon Graft for Chronic Scapholunate Dissociation.
+PG  - 790-9
+AB  - Background: The treatment of chronic scapholunate dissociation (SLD) can be
+      challenging due to several factors such as poor quality of ligament, malalignment
+      of the carpus, limited surgical options, and risk of recurrent instability.
+      Various surgical techniques have been developed, but there is ongoing debate
+      regarding the optimal surgical technique. This study aimed to report the clinical
+      and radiological outcomes after dorsal scapholunate (SL) ligament complex
+      reconstruction using suture tape-augmented autologous tendon graft. Methods: The 
+      study included patients with Garcia-Elias stage 3–4 chronic SLD, SL advanced
+      collapse (SLAC) stage 1, and a follow-up period exceeding 1 year. Pre- and
+      postoperative SL gap, SL angle (SLA), radiolunate angle (RLA), and dorsal
+      scaphoid translation (DST) were measured, and wrist active range of motion,
+      Modified Mayo Wrist Score (MMWS), and visual analog scale (VAS) were evaluated.
+      Results: Nine patients were included in this study with a mean follow-up period
+      of 17 months (range, 15–31 months). All patients were male, with a mean age of 49
+      years (range, 30–62 years). Eight patients were classified as Garcia-Elias stage 
+      4, while one was classified as SLAC 1. The median (range) of preoperative,
+      immediate postoperative, and final follow-up measurements for SL gap, SLA, RLA,
+      and DST were 5.4 mm (4.5–5.9), 2.1 mm (1.8–2.5), and 2.5 mm (2.0–2.8) (p =
+      0.008); 76° (69°–88°), 50° (32°–56°), and 54° (50°–64°) (p = 0.008); 22°
+      (11.5°–33°), 2.8° (0.5°–3.8°), and 3.8° (2.2°–5.6°) (p = 0.008); and 2.8 mm
+      (2.0–3.4), 0.8 mm (0.1–1.2), and 1.0 mm (0.1–2.0) (p = 0.008), respectively.
+      Immediately after surgery, all radiological measurements showed significant
+      improvement, which persisted up to 15 months postoperatively. The preoperative
+      and final follow-up measurements of active flexion, extension, radial deviation, 
+      and ulnar deviation of the wrist showed significant improvement. The median
+      preoperative and final follow-up values of MMWS were 51.1 (range, 40–60) and 88.3
+      (range, 85–95) (p = 0.007), respectively, and those of VAS were 7 (range, 6–8)
+      and 2 (range, 1–3) (p = 0.007), respectively. Conclusions: Dorsal SL ligament
+      complex reconstruction using suture tape-augmented autologous free tendon graft
+      could be regarded as a feasible and straightforward technique for addressing
+      irreparable chronic SLD.
+FAU - Park, Ho Youn
+AU  - Park HY
+AUID- ORCID: https://orcid.org/0000-0001-8781-5533
+AD  - Department of Orthopaedic Surgery, Uijeongbu St. Mary’s Hospital, College of
+      Medicine, The Catholic University of Korea, Uijeongbu, Korea.
+FAU - Chae, Seungbum
+AU  - Chae S
+AUID- ORCID: https://orcid.org/0000-0003-3469-9289
+AD  - Department Orthopedic Surgery, Daegu Catholic University Hospital, College of
+      Medicine, The Daegu Catholic University of Korea, Daegu, Korea.
+FAU - Lee, Joo-Yup
+AU  - Lee JY
+AUID- ORCID: https://orcid.org/0000-0002-6337-3977
+AD  - Department of Orthopaedic Surgery, Eunpyeong St. Mary’s Hospital, College of
+      Medicine, The Catholic University of Korea, Seoul, Korea.
+FAU - Lee, Jeong-Han
+AU  - Lee JH
+AUID- ORCID: https://orcid.org/0009-0007-4173-5926
+AD  - Department of Orthopaedic Surgery, Bucheon St. Mary’s Hospital, College of
+      Medicine, The Catholic University of Korea, Bucheon, Korea.
+FAU - Kim, Seung Hyo
+AU  - Kim SH
+AUID- ORCID: https://orcid.org/0000-0001-6014-4477
+AD  - Department of Orthopaedic Surgery, Uijeongbu St. Mary’s Hospital, College of
+      Medicine, The Catholic University of Korea, Uijeongbu, Korea.
+FAU - Park, Il-Jung
+AU  - Park IJ
+AUID- ORCID: https://orcid.org/0000-0001-8262-4287
+AD  - Department of Orthopaedic Surgery, Bucheon St. Mary’s Hospital, College of
+      Medicine, The Catholic University of Korea, Bucheon, Korea.
+LA  - eng
+PT  - Journal Article
+DEP - 20240604
+GR  - BCMC24IH01
+PHST- 2024/01/18 [received]
+PHST- 2024/04/24 [revised]
+PHST- 2024/04/24 [accepted]
+PHST- 2024/06/04 [aheadofprint]
+TA  - Clin Orthop Surg
+JT  - Clinics in Orthopedic Surgery
+AID - 10.4055/cios24032 [doi]
+SO  - Clin Orthop Surg. 2024 Oct;16(5):790-9. Epub 2024 Jun 04 doi:10.4055/cios24032.
+
+PMC - PMC11582185
+PMID- 39347966
+IS  - 0936-8051 (Print)
+IS  - 1434-3916 (Electronic)
+VI  - 144
+IP  - 11
+DP  - 2024
+TI  - Clinical significance of posterior talofibular ligament injury in chronic lateral
+      ankle instability.
+PG  - 5021-30
+AB  - Purpose: Although arthroscopic repair of the anterior talofibular ligament (ATFL)
+      is widely performed, the effect of posterior talofibular ligament (PTFL) injury
+      on clinical outcomes remains unclear. This study aimed to evaluate the magnetic
+      resonance imaging (MRI) findings of the PTFL in chronic lateral ankle instability
+      (CLAI) and determine whether the presence or absence of PTFL injury affected the 
+      postoperative outcomes of arthroscopic ATFL repair. Materials and methods: Forty 
+      ankles of 35 patients who underwent arthroscopic repair for CLAI were included in
+      this study as the experimental group, together with 25 ankles of 24 patients
+      without CLAI as the control group. The PTFL thickness (PTFLT) and PTFL
+      cross-sectional area (PTFLCSA) were measured using MRI and compared between the
+      control and CLAI groups. The clinical outcomes of arthroscopic repair were
+      compared between ankles with and without PTFL injuries. Results: The mean PTFLT
+      and PTFLCSA values were significantly higher in the CLAI group than in the
+      control group. The PTFLT and PTFLCSA in the PTFL injury group were significantly 
+      larger than those in the non-injury group in the CLAI group. Postoperatively,
+      there were no significant differences in clinical scores and talar tilt angles on
+      stress radiographs between ankles with and without PTFL injury; however,
+      instability recurrence was frequently observed in ankles with PTFL injury (32.1%)
+      compared to the ankles without PTFL injury (16.7%). Poor-quality ATFL remnant,
+      ATFL inferior fascicle, and calcaneofibular ligament injuries were frequently
+      observed in ankles with PTFL injuries. Conclusions: Our findings indicate that
+      PTFL injury is highly associated with CLAI but it does not affect postoperative
+      clinical scores. However, postoperative instability recurrence was more often
+      observed in ankles with PTFL injuries, given that they frequently have
+      poor-quality ATFL remnants and CFL injuries. Evidence level: Level III
+FAU - Nakasa, Tomoyuki
+AU  - Nakasa T
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of Artificial
+      Joints and Biomaterials, Graduate School of Biomedical and Health Sciences,
+      Hiroshima University, Hiroshima, Japan
+FAU - Ikuta, Yasunari
+AU  - Ikuta Y
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+FAU - Kawabata, Shingo
+AU  - Kawabata S
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+FAU - Sakurai, Satoru
+AU  - Sakurai S
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+FAU - Moriwaki, Dan
+AU  - Moriwaki D
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+FAU - Ishibashi, Saori
+AU  - Ishibashi S
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+FAU - Silan, Asyumaredha Asril
+AU  - Silan AA
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+FAU - Adachi, Nobuo
+AU  - Adachi N
+AD  - https://ror.org/03t78wx29grid.257022.00000 0000 8711 3200Department of
+      Orthopaedic Surgery, Graduate School of Biomedical and Health Sciences, Hiroshima
+      University, Hiroshima, Japan
+LA  - eng
+PT  - Journal Article
+DEP - 20240930
+PHST- 2024/06/04 [received]
+PHST- 2024/09/22 [accepted]
+TA  - Arch Orthop Trauma Surg
+JT  - Archives of Orthopaedic and Trauma Surgery
+AID - 5598 [pii]
+AID - 10.1007/s00402-024-05598-7 [doi]
+SO  - Arch Orthop Trauma Surg. 2024;144(11):5021-30. Epub 2024 Sep 30
+      doi:10.1007/s00402-024-05598-7.
+
+PMC - PMC10145241
+PMID- 37109610
+IS  - 1010-660X (Print)
+IS  - 1648-9144 (Electronic)
+VI  - 59
+IP  - 4
+DP  - 2023 Apr
+TI  - Anatomical Augmentation Using Suture Tape for Acute Syndesmotic Injury in
+      Maisonneuve Fracture: A Case Report.
+LID - 652
+AB  - Ankle syndesmosis is crucial to the integrity of the ankle joint and
+      weight-bearing; an injury to this structure can lead to significant disability.
+      The treatment methods for distal syndesmosis injuries are controversial. The
+      representative treatment methods include transsyndesmotic screw fixation and
+      suture-button fixation, and good results with suture tape augmentation have
+      recently been reported. However, an augmentation using suture tape is only
+      possible when the posterior inferior tibiofibular ligament (PITFL) is intact.
+      This study describes the case of an unstable syndesmosis injury, accompanied by
+      anterior inferior tibiofibular ligament (AITFL) and PITFL injuries, which were
+      treated successfully using suture tape. A 39-year-old male patient sustained
+      right ankle damage while skateboarding. His leg and ankle radiographs revealed a 
+      widening of the medial clear space, a posterior malleolus fracture, a reduced
+      “syndesmosis overlap” compared with the contralateral side, and a proximal fibula
+      fracture. The magnetic resonance imaging revealed ruptured deltoid ligaments,
+      accompanied by AITFL, PITFL, and interosseous ligament injuries. A diagnosis of a
+      Maisonneuve fracture with an unstable syndesmotic injury was made. The patient
+      underwent an open syndesmotic joint reduction, along with an AITFL and PITFL
+      augmentation. This anatomical reduction was confirmed using intraoperative
+      arthroscopy and postoperative computed tomography (CT). An axial CT that was
+      performed at the 6-month follow-up exam revealed a similar alignment of the
+      syndesmosis between the injured and uninjured sides. There were no surgical
+      complications and the patient did not complain of discomfort in his daily life.
+      At the 12-month follow-up exam, a good clinical outcome was confirmed. As a
+      treatment for unstable syndesmosis injury, ligament augmentation using suture
+      tape shows satisfactory clinical outcomes and can be considered as a useful and
+      reliable method for anatomical restoration and rapid rehabilitation.
+FAU - Yoon, Sung-Joon
+AU  - Yoon SJ
+AD  - Department of Orthopaedic Surgery, Soonchunhyang University Hospital Cheonan, 31,
+      Suncheonhyang 6-gil, Dongam-gu, Cheonan 31151, Republic of Korea
+FAU - Jung, Ki-Jin
+AU  - Jung KJ
+AUID- ORCID: https://orcid.org/0000-0001-8777-0603
+AD  - Department of Orthopaedic Surgery, Soonchunhyang University Hospital Cheonan, 31,
+      Suncheonhyang 6-gil, Dongam-gu, Cheonan 31151, Republic of Korea
+FAU - Hong, Yong-Cheol
+AU  - Hong YC
+AUID- ORCID: https://orcid.org/0000-0003-2002-5021
+AD  - Department of Orthopaedic Surgery, Soonchunhyang University Hospital Cheonan, 31,
+      Suncheonhyang 6-gil, Dongam-gu, Cheonan 31151, Republic of Korea
+FAU - Yeo, Eui-Dong
+AU  - Yeo ED
+AUID- ORCID: https://orcid.org/0000-0002-7844-3552
+AD  - Department of Orthopaedic Surgery, Veterans Health Service Medical Center, Seoul 
+      05368, Republic of Korea
+FAU - Lee, Hong-Seop
+AU  - Lee HS
+AD  - Department of Foot and Ankle Surgery, Nowon Eulji Medical Center, Eulji
+      University, 68, Hangeulbiseok-ro, Nowon-gu, Seoul 01830, Republic of Korea
+FAU - Won, Sung-Hun
+AU  - Won SH
+AUID- ORCID: https://orcid.org/0000-0002-5471-7432
+AD  - Department of Orthopaedic Surgery, Soonchunhyang University Hospital Seoul, 59,
+      Daesagwan-ro, Yongsan-gu, Seoul 04401, Republic of Korea
+FAU - Lee, Byung-Ryul
+AU  - Lee BR
+AD  - Department of Orthopaedic Surgery, Soonchunhyang University Hospital Cheonan, 31,
+      Suncheonhyang 6-gil, Dongam-gu, Cheonan 31151, Republic of Korea
+FAU - Ji, Jae-Young
+AU  - Ji JY
+AUID- ORCID: https://orcid.org/0000-0001-7220-3868
+AD  - Department of Anesthesiology and Pain Medicine, Soonchunhyang University Hospital
+      Cheonan, 31, Suncheonhyang 6-gil, Dongam-gu, Cheonan 31151, Republic of Korea
+FAU - Lee, Dhong-Won
+AU  - Lee DW
+AD  - Department of Orthopaedic Surgery, Konkuk University Medical Center, 120-1,
+      Neungdong-ro, Gwangjin-gu, Seoul 05030, Republic of Korea
+FAU - Kim, Woo-Jong
+AU  - Kim WJ
+AUID- ORCID: https://orcid.org/0000-0002-4579-1008
+AD  - Department of Orthopaedic Surgery, Soonchunhyang University Hospital Cheonan, 31,
+      Suncheonhyang 6-gil, Dongam-gu, Cheonan 31151, Republic of Korea
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20230325
+GR  - 2023-0002
+PHST- 2023/02/05 [received]
+PHST- 2023/03/09 [revised]
+PHST- 2023/03/23 [accepted]
+TA  - Medicina (Kaunas)
+JT  - Medicina
+AID - 10.3390/medicina59040652 [doi]
+AID - medicina-59-00652 [pii]
+SO  - Medicina (Kaunas). 2023 Mar 25;59(4):. doi:10.3390/medicina59040652.
+
+PMC - PMC10749018
+PMID- 38114287
+IS  - 2044-6055 (Electronic)
+VI  - 13
+IP  - 12
+DP  - 2023
+TI  - Internal brace augmentation reconstruction versus standard anterior cruciate
+      ligament reconstruction: a randomised controlled clinical trial study protocol.
+LID - e065254
+AB  - Introduction: Anterior cruciate ligament (ACL) rupture is one of the most common 
+      knee injuries in sports, and the gold standard for treating ACL rupture is tendon
+      graft reconstruction. Internal brace technology is being used nowadays for
+      ligament repair; however, more relevant in vivo clinical evidence is required for
+      using internal brace technology in ACL reconstruction (ACLR). We conducted a
+      randomised controlled trial to investigate the clinical efficacy of internal
+      brace technology in ACLR. Methods and analysis: This randomised,
+      parallel-controlled trial included patients with ACL rupture who underwent
+      inpatient surgery at the Department of Orthopaedics, Xiangya Hospital, Central
+      South University. Random number table method was used to assign the participants 
+      to either the test or the control group. The test group underwent ACLR using the 
+      internal brace technique, whereas the control group underwent standard ACLR.
+      Uniform postoperative rehabilitation protocol was used for both the groups.
+      Patient-reported outcomes included preoperative baseline and postoperative
+      recovery at 1, 3, 6, 12 and 24 months. The primary outcome was International Knee
+      Documentation Committee function from baseline (ACL rupture) to 6 months
+      postoperatively. Secondary outcomes included (1) other patient outcome reporting 
+      metrics, Lysholm knee score, Knee Injury and Osteoarthritis Outcome Score and
+      Visual Analog Scale; (2) the use of Kneelax3 knee stabiliser to assess knee
+      stability; (3) occurrence of adverse events, such as graft refraction or
+      symptomatic instability, postoperative infection and contralateral injury and (4)
+      magnetic resonance images at 12 and 24 months after ACLR. Ethics and
+      dissemination: This trial was approved by the Medical Ethics Committee of the
+      Xiangya Hospital of Central South University on 26 October 2021. Data will be
+      published in peer-reviewed journals and presented at national and international
+      conferences. Trial registration number: ChiCTR2200057526.
+FAU - Lu, Wenhao
+AU  - Lu W
+AUID- ORCID: 0000-0001-6224-2249
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Liu, Di
+AU  - Liu D
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Cai, Zijun
+AU  - Cai Z
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Pan, Linyuan
+AU  - Pan L
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Xie, Wenqing
+AU  - Xie W
+AUID- ORCID: 0000-0001-9810-7372
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Jin, Hongfu
+AU  - Jin H
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Liu, Xu
+AU  - Liu X
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Li, Yusheng
+AU  - Li Y
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+FAU - Xiao, Wenfeng
+AU  - Xiao W
+AD  - Department of Orthopaedics, Xiangya Hospital Central South University, Changsha, 
+      Hunan, China
+LA  - eng
+PT  - Journal Article
+DEP - 20231219
+GR  - 2021KFJJ02
+PHST- 2022/06/01 [received]
+PHST- 2023/12/06 [accepted]
+TA  - BMJ Open
+JT  - BMJ Open
+AID - bmjopen-2022-065254 [pii]
+AID - 10.1136/bmjopen-2022-065254 [doi]
+SO  - BMJ Open. 2023 Dec 19;13(12):. doi:10.1136/bmjopen-2022-065254.
+
+PMC - PMC10995808
+PMID- 38584627
+IS  - 2212-6287 (Electronic)
+VI  - 13
+IP  - 3
+DP  - 2024 Mar
+TI  - Seatbelt Anterior Cruciate Ligament Reconstruction: A Variant of Internal Brace
+      in Anterior Cruciate Ligament Reconstruction With an Adjustable Loop.
+LID - 102892
+AB  - In recent years, there has been a growing interest in primary anterior cruciate
+      ligament repair with the help of mechanical reinforcement techniques that employ 
+      synthetic grafting. The concept of ligament augmentation with reinforcement
+      suture or internal bracing consists of stabilizing the repaired ligament and
+      augmenting it with an ultra-high molecular weight polyethylene suture or tape,
+      which guarantees greater resistance, safety during healing, and a more
+      accelerated rehabilitation. In this work, we propose a variant of anterior
+      cruciate ligament augmentation with suture, replacing the suture tape with an
+      adjustable-loop reinforcement system, which is connected to the adjustable
+      suspension devices for the graft in the femur and the tibia, surrounding the
+      graft as a seatbelt.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Aramberri Gutiérrez, Mikel
+AU  - Aramberri Gutiérrez M
+AD  - ALAI Sports Medicine Clinic, Madrid, Spain
+FAU - Verdecia Ortiz, Alejandro
+AU  - Verdecia Ortiz A
+AD  - Hospital Comarcal de Vinarós, Vinarós, Castellón, Comunidad Valenciana, Spain
+FAU - Hernández Arellano, César
+AU  - Hernández Arellano C
+AD  - Hospital Regional Libertador Bernardo O'Higgins, Rancagua, Chile
+FAU - Mediavilla Arza, Iñaki
+AU  - Mediavilla Arza I
+AD  - University Hospital of Basurto, Bilbao, Spain
+FAU - Solís-Mencía, Cristian Alberto
+AU  - Solís-Mencía CA
+AD  - Department of Medicine, Faculty of Health Sciences, University of Deusto, Bilbao,
+      Bizkaia, Spain
+FAU - Tiso D’Orazio, Giovanni
+AU  - Tiso D’Orazio G
+AD  - ALAI Sports Medicine Clinic, Madrid, Spain
+LA  - eng
+PT  - Journal Article
+DEP - 20240101
+PHST- 2023/07/15 [received]
+PHST- 2023/11/21 [accepted]
+TA  - Arthrosc Tech
+JT  - Arthroscopy Techniques
+AID - S2212-6287(23)00353-5 [pii]
+AID - 10.1016/j.eats.2023.102892 [doi]
+SO  - Arthrosc Tech. 2024 Jan 01;13(3):. doi:10.1016/j.eats.2023.102892.
+
+PMC - PMC9483053
+PMID- 35894161
+IS  - 1757-7853 (Print)
+IS  - 1757-7861 (Electronic)
+VI  - 14
+IP  - 9
+DP  - 2022 Sep
+TI  - Repair of Bilateral Quadriceps Tendon Rupture Using a Modified Knotless Suture
+      Anchor and Internal Brace Technique: Surgical Technique and Case Report.
+PG  - 2396-401
+AB  - Background: Quadriceps tendon rupture (QTR) is a rare clinical condition often
+      caused by indirect injury in healthy people. In addition, spontaneous and
+      bilateral ruptures can occur in patients with predisposing factors, such as
+      endocrine or rheumatic disease. Currently, several QTR repair techniques have
+      been proposed; however, no consensus exists about the best repair technique. Case
+      Presentations: A 55‐year‐old man with renal failure secondary to
+      glomerulonephritis suffered from spontaneous bilateral quadriceps tendon
+      ruptures. Based on a knotless suture anchor and internal brace, a novel
+      double‐row suture‐bridge configuration surgical approach was used to treat the
+      patient. At 11‐month follow‐up, the patient maintained excellent function, with a
+      Lysholm score of 91 for both knees. Conclusions: This technique may be an
+      effective method for repairing ruptured quadriceps tendons.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Wang, Xiaoping
+AU  - Wang X
+AUID- ORCID: https://orcid.org/0000-0001-9672-6540
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+FAU - Huang, Daoqiang
+AU  - Huang D
+AUID- ORCID: https://orcid.org/0000-0001-6407-3813
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+FAU - Feng, Weili
+AU  - Feng W
+AUID- ORCID: https://orcid.org/0000-0002-4408-4619
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+FAU - Wu, Weiwei
+AU  - Wu W
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+FAU - Huang, Jian
+AU  - Huang J
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+FAU - Chen, Luyao
+AU  - Chen L
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+FAU - Tu, Yumin
+AU  - Tu Y
+AD  - First Department of Orthopedics, Affiliated Xiaolan HospitalSouthern Medical
+      UniversityZhongshanChina
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20220727
+PHST- 2022/05/19 [revised]
+PHST- 2021/08/11 [received]
+PHST- 2022/05/20 [accepted]
+TA  - Orthop Surg
+JT  - Orthopaedic Surgery
+AID - 10.1111/os.13362 [doi]
+AID - OS13362 [pii]
+SO  - Orthop Surg. 2022 Jul 27;14(9):2396-401. doi:10.1111/os.13362.
+
+PMC - PMC9719228
+PMID- 36463220
+IS  - 0949-2321 (Print)
+IS  - 2047-783X (Electronic)
+VI  - 27
+DP  - 2022
+TI  - Transosseous suture versus suture anchor fixation for inferior pole fractures of 
+      the patella in osteoporotic bone: a biomechanical study.
+LID - 270
+AB  - Background: The surgical treatment of inferior patellar pole fractures can be a
+      challenge, especially in geriatric patients, who are particularly frequently
+      affected by osteoporosis. The objective of this biomechanical study was to
+      compare the performance of suture anchor and transosseous suture fixation in
+      fractures of the inferior patellar pole in context of bone mineral density.
+      Methods: Twelve fresh-frozen human cadaveric knees received a transverse
+      osteotomy, simulating an AO/OTA 34C1.3 inferior pole fracture of the patella.
+      These fractures were fixated with either suture anchors (SA; Corkscrew® FT
+      4.5 mm) or transosseous suture (TS; #2 FiberWire®). Cyclic loading tests were
+      performed by pulling the quadriceps tendon against gravity from 90° flexion to
+      almost full extension (5°) for 1000 cycles. Motion and fracture gap displacement 
+      were tracked until failure occurred. Subsequently, loading to failure tests
+      followed. Differences between groups were compared using unpaired t-tests, and
+      correlations were calculated with Pearson’s correlation coefficient. Results: The
+      suture anchor group showed significantly fewer cycles to failure than the
+      transosseous suture group (SA: 539.0 ± 465.6 cycles, TS: 1000 ± 0 cycles,
+      P = 0.04). Bone mineral density correlated positively with cycles to failure in
+      the suture anchor group (Pearson’s r = 0.60, P = 0.02). No differences in
+      fracture gap displacement could be proven after 100 cycles (SA: 4.1 ± 2.6 mm, TS:
+      6.5 ± 2.6 mm, P = 0.19); 500 cycles (SA: 6.4 ± 6.1 mm, TS: 9.6 ± 3.8 mm,
+      P = 0.39); and 1000 cycles (SA: 4.0 ± 0.4 mm, TS: 11.0 ± 4.5 mm, P = 0.08).
+      Furthermore, the mean destructive load to failure in the suture anchor group was 
+      also significantly lower than in the transosseous suture group (SA:
+      422.4 ± 212.2 N, TS: 825.7 ± 189.3 N, P = 0.04). Conclusions: Suture anchors may 
+      be a viable alternative to transosseous suture in younger patients for clinical
+      advantages, but in osteoporotic bone, the more stable osteosynthesis with
+      transosseous suture continues to prove superior. Therefore, trauma surgeons might
+      consider the use of transosseous suture in elderly patients, especially in those 
+      presenting with low bone mineral density values.
+FAU - Seggewiss, Jana
+AU  - Seggewiss J
+AUID- ORCID: 0000-0002-9808-9597
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Nicolini, Luis Fernando
+AU  - Nicolini LF
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Lichte, Philipp
+AU  - Lichte P
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Greven, Johannes
+AU  - Greven J
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Ribeiro, Marx
+AU  - Ribeiro M
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Prescher, Andreas
+AU  - Prescher A
+AD  - grid.412301.50000 0000 8653 1507Institute of Molecular and Cellular Anatomy, RWTH
+      Aachen University Hospital, Pauwelsstr. 30, 52074 Aachen, Germany
+FAU - Michalik, Roman
+AU  - Michalik R
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Herren, Christian
+AU  - Herren C
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Kobbe, Philipp
+AU  - Kobbe P
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Hildebrand, Frank
+AU  - Hildebrand F
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+FAU - Pishnamaz, Miguel
+AU  - Pishnamaz M
+AD  - grid.412301.50000 0000 8653 1507Department of Orthopaedics, Trauma and
+      Reconstructive Surgery, RWTH Aachen University Hospital, Pauwelsstr. 30, 52074
+      Aachen, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20221203
+PHST- 2022/03/08 [received]
+PHST- 2022/11/17 [accepted]
+TA  - Eur J Med Res
+JT  - European Journal of Medical Research
+AID - 903 [pii]
+AID - 10.1186/s40001-022-00903-9 [doi]
+SO  - Eur J Med Res. 2022 Dec 3;27:. doi:10.1186/s40001-022-00903-9.
+
+PMC - PMC10691290
+PMID- 37975527
+IS  - 0363-5465 (Print)
+IS  - 1552-3365 (Electronic)
+VI  - 51
+IP  - 14
+DP  - 2023 Dec
+TI  - Outcomes of Anterior Cruciate Ligament Reconstruction With Independently
+      Tensioned Suture Tape Augmentation at 5-Year Follow-up.
+PG  - 3658-64
+AB  - Background:: Reconstruction using autograft remains the gold standard surgical
+      treatment for anterior cruciate ligament (ACL) injuries. However, up to 10% to
+      15% of patients will suffer a graft failure in the future. Cadaveric studies have
+      demonstrated that the addition of suture tape augmentation to ACL autograft
+      constructs can increase graft strength and reduce elongation under cyclical
+      loading. Purpose/Hypothesis:: This study aimed to investigate the clinical
+      outcomes and rerupture rates after ACL reconstruction (ACLR) with suture tape
+      augmentation. We hypothesized that augmentation with suture tape would lead to
+      lower rerupture rates. Study Design:: Case series; Level of evidence, 4.
+      Methods:: Patients undergoing primary ACLR using hamstring or patellar tendon
+      autografts augmented with suture tape between 2015 and 2019 were recruited
+      prospectively. Patients with multiligament injuries or a concomitant lateral
+      extra-articular procedure were excluded. Patients were observed in person for 6
+      months, and patient-reported outcome measures (PROMs) were collected at 2 and 5
+      years postoperatively. All patients were contacted, and records were reviewed to 
+      determine the incidence of graft failure. PROMs collected were as follows: Knee
+      injury and Osteoarthritis Outcome Score (KOOS), Veterans RAND 12-Item Health
+      Survey (VR-12), Tegner and Marx activity scores, and visual analog scale for pain
+      (VAS). Results:: A total of 97 patients, with a mean age of 34.7 (±13.4) years,
+      were included (76% men; 52 hamstring and 45 patellar tendon grafts). The mean
+      graft diameter was 8 (±1) mm. There was 1 rerupture (1.1%) out of the 90 patients
+      who were contactable at a mean of 5 years postoperatively. Median KOOS scores at 
+      2 years were as follows: Pain, 94; Symptoms, 86; Activities of Daily Living, 99; 
+      Sport and Recreation, 82; and Quality of Life, 81. The postoperative scores were 
+      significantly higher than the preoperative scores (P < .001). The VR-12 Physical 
+      score improved from 43 preoperatively to 55 at 2 years and remained at 56 at 5
+      years. The VAS pain, Tegner, and Marx scores were 0, 6, and 9, respectively, at 2
+      years postoperatively. There was no difference in PROMs between graft types.
+      Conclusion:: This study demonstrates encouraging results of suture tape
+      augmentation of autograft ACLR for both hamstring and patellar tendon grafts. The
+      failure rate of 1.1% at a mean follow-up of 5 years is lower than published rates
+      for reconstruction, and PROMs results are satisfactory. The technique is safe to 
+      use and may permit a return to the preinjury sporting level with a lower chance
+      of reinjury.
+FAU - Wilson, William T.
+AU  - Wilson WT
+AUID- ORCID: https://orcid.org/0000-0001-9025-081X
+AD  - Department of Biomedical Engineering, University of Strathclyde, Glasgow, UK
+FAU - Kennedy, Matthew J.
+AU  - Kennedy MJ
+AD  - Department of Orthopaedics, NHS Greater Glasgow & Clyde, Glasgow, UK
+FAU - MacLeod, Douglas
+AU  - MacLeod D
+AD  - Department of Orthopaedics, NHS Greater Glasgow & Clyde, Glasgow, UK
+FAU - Hopper, Graeme P.
+AU  - Hopper GP
+AUID- ORCID: https://orcid.org/0000-0001-8770-6097
+AD  - Department of Orthopaedics, NHS Lanarkshire, Glasgow, UK
+FAU - MacKay, Gordon M.
+AU  - MacKay GM
+AD  - Rosshall Hospital, Glasgow, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20231117
+PHST- 2023/04/27 [received]
+PHST- 2023/09/06 [accepted]
+TA  - Am J Sports Med
+JT  - The American Journal of Sports Medicine
+AID - 10.1177/03635465231207623 [doi]
+AID - 10.1177_03635465231207623 [pii]
+SO  - Am J Sports Med. 2023 Dec;51(14):3658-64. Epub 2023 Nov 17
+      doi:10.1177/03635465231207623.
+
+PMC - PMC10288782
+PMID- 37353825
+IS  - 1471-2474 (Electronic)
+VI  - 24
+DP  - 2023
+TI  - Intact revision rotator cuff repair stabilizes muscle atrophy and fatty
+      infiltration after minimum follow up of two years.
+LID - 515
+AB  - Background: The extent of fatty infiltration and rotator cuff (RC) atrophy is
+      crucial for the clinical results after rotator cuff repair (RCR). The purpose of 
+      this study was to evaluate changes in fatty infiltration and RC atrophy after
+      revision RCR and to correlate them with functional outcome parameters. Methods:
+      Patients who underwent arthroscopic revision RCR for symptomatic recurrent
+      full-thickness tear of the supraspinatus tendon between 2008 and 2014 and were
+      retrospectively reviewed with a minimum follow up of 2 years. Magnetic resonance 
+      imaging (MRI) was performed pre- and postoperatively to assess 1) tendon
+      integrity after revision RCR according to Sugaya classification, (2) RC atrophy
+      according to Thomazeau classification, and (3) fatty infiltration according to
+      Fuchs MRI classification. Constant score (CS) and the American Shoulder and Elbow
+      Surgeon (ASES) score were used to correlate functional outcome, tendon integrity,
+      and muscle degeneration. Results: 19 patients (17 males and 2 females) with a
+      mean age of 57.5 years (range, 34 to 72) were included into the study at a mean
+      follow-up of 50.3 months (range, 24 – 101). At final evaluation, 9 patients (47%)
+      presented with intact RCR and 10 patients (53%) suffered a re-tear after revision
+      repair. No progress of fatty infiltration was observed postoperatively in the
+      group with intact RC, atrophy progressed in only 1 out of 9 patient (11%). Fatty 
+      infiltration progressed in 5/10 patients (50%) and RC atrophy increased in 2/10
+      patients (20%) within the re-tear group. CS (42.7 ± 17.7 preop, 65.2 ± 20.1
+      postop) and ASES (47.7 ± 17.2 preop, 75.4 ± 23.7 postop) improved significantly
+      from pre- to postoperatively (p < 0.001). A positive correlation between fatty
+      infiltration and RC integrity was detected (r = 0.77, p < 0.01). No correlation
+      between clinical outcome and tendon integrity or RC atrophy was observed.
+      Conclusion: Arthroscopic revision RCR leads to reliable functional outcomes even 
+      in case of a recurrent RC retear. An intact RCR maintains the preoperative state 
+      of fatty infiltration and muscle atrophy but does not lead to muscle
+      regeneration. Level of evidence: Level IV; Therapeutic study.
+FAU - Lacheta, Lucca
+AU  - Lacheta L
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Siebenlist, Sebastian
+AU  - Siebenlist S
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Scheiderer, Bastian
+AU  - Scheiderer B
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Beitzel, Knut
+AU  - Beitzel K
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Woertler, Klaus
+AU  - Woertler K
+AD  - grid.6936.a0000000123222966Musculoskeletal Radiology Section, TUM School of
+      Medicine, Technical University of Munich, Ismaninger Str. 22, 81675 Munich,
+      Germany
+FAU - Imhoff, Andreas B.
+AU  - Imhoff AB
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Buchmann, Stefan
+AU  - Buchmann S
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Willinger, Lukas
+AU  - Willinger L
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20230623
+PHST- 2022/08/14 [received]
+PHST- 2023/06/09 [accepted]
+TA  - BMC Musculoskelet Disord
+JT  - BMC Musculoskeletal Disorders
+AID - 6616 [pii]
+AID - 10.1186/s12891-023-06616-2 [doi]
+SO  - BMC Musculoskelet Disord. 2023 Jun 23;24:. doi:10.1186/s12891-023-06616-2.
+
+PMC - PMC10493536
+PMID- 35485559
+IS  - 1306-696X (Print)
+IS  - 1307-7945 (Electronic)
+VI  - 28
+IP  - 3
+DP  - 2022 Mar
+TI  - Does anterolateral ligament internal bracing improve the outcomes of anterior
+      cruciate ligament reconstruction in patients with generalized joint
+      hypermobility?
+PG  - 320-7
+AB  - BACKGROUND:: Generalized joint hypermobility (GJH) is a risk factor for anterior 
+      cruciate ligament (ACL) injury and ACL graft failure and is considered an
+      indication for anterolateral ligament (ALL) reconstruction. The aim of this
+      retrospective study was to compare functional outcomes, rupture rates, and
+      residual instability in patients with GJH undergoing isolated ACL reconstruction 
+      or combined ACL reconstruction and ALL augmentation with internal bracing
+      (ALL-IB). METHODS:: Sixty-eight patients with GJH and unilateral ACL injury were 
+      randomly assigned to undergo either isolated ACL reconstruction (Group 1) or
+      combined ACL reconstruction and ALL-IB (Group 2). The patients were evaluated
+      pre- and postoperatively; their medical histories; physical examination results; 
+      anterior knee translation, as measured using the KT-1000 arthrometer; and scores 
+      of validated knee assessments were recorded. RESULTS:: Groups 1 and 2 consisted
+      of 37 and 31 patients, respectively. The mean follow-up was 30.1±4.1 and 28.1±2.9
+      months, respectively. In the final evaluation, the patients in Group 2 showed
+      better rotational stability, as evaluated by the pivot-shift test (p=0.013);
+      better anteroposterior stability, as evaluated by KT-1000 arthrometry (p=0.001); 
+      similar function (p=0.14 for the Lysholm, p=0.11 for the Cincinnati, and p=0.19
+      for the International Knee Documentation Committee subjective score); and failure
+      rate (p=0.41). CONCLUSION:: The functional outcomes were similar between the
+      groups. The stability outcomes after combined ACL and ALL-IB were better than
+      those after isolated ACL reconstruction in patients with GJH. However, the
+      technique and its results need to be validated in larger patient series and
+      prospective randomized controlled trials.
+FAU - Toker, Mehmet Berkin
+AU  - Toker MB
+AD  - Department of Orthopaedics and Traumatology, Acıbadem Fulya Hospital Sports
+      Medicine Center, İstanbul-Turkey
+FAU - Erden, Tunay
+AU  - Erden T
+AD  - Department of Orthopaedics and Traumatology, Acıbadem Fulya Hospital Sports
+      Medicine Center, İstanbul-Turkey
+FAU - Toprak, Ali
+AU  - Toprak A
+AD  - Department of Biostatistics and Medical Informatics, Bezmialem Vakıf University
+      Faculty of Medicine, İstanbul-Turkey
+FAU - Taşer, Ömer Faruk
+AU  - Taşer ÖF
+AD  - Department of Orthopaedics and Traumatology, Acıbadem Fulya Hospital Sports
+      Medicine Center, İstanbul-Turkey
+LA  - eng
+PT  - Journal Article
+DEP - 20220301
+PHST- 2021/09/23 [received]
+PHST- 2021/12/28 [accepted]
+TA  - Ulus Travma Acil Cerrahi Derg
+JT  - Turkish Journal of Trauma & Emergency Surgery
+AID - TJTES-28-320 [pii]
+AID - 10.14744/tjtes.2021.39998 [doi]
+SO  - Ulus Travma Acil Cerrahi Derg. 2022 Mar 01;28(3):320-7.
+      doi:10.14744/tjtes.2021.39998.
+
+PMC - PMC10125935
+PMID- 35137251
+IS  - 1633-8065 (Print)
+IS  - 1432-1068 (Electronic)
+VI  - 33
+IP  - 4
+DP  - 2023
+TI  - Midterm outcome and strength assessment after quadriceps tendon refixation with
+      suture anchors.
+PG  - 869-75
+AB  - Purpose: Quadriceps tendon ruptures (QTR) occur predominantly in middle-aged
+      patients through violent eccentric contraction that occurs either when trying to 
+      regain balance or during a fall on the hyperflexed knee. The aim of this study
+      was to quantify midterm postoperative results, including strength potential
+      measured via standardized strength tests following acute (< six weeks) quadriceps
+      tendon refixation using suture anchors. Methods: All consecutive patients with
+      QTR who underwent surgical suture anchor refixation between 2012 and 2019 at a
+      single institution with a minimum follow-up of 12 months were retrospectively
+      evaluated. Outcome measures included Tegner Activity Scale (TAS), Lysholm score, 
+      International Knee Documentation Committee subjective knee form (IKDC), Knee
+      injury and Osteoarthritis Outcome Score (KOOS) subscales, return to work rates,
+      and Visual Analog Scale (VAS) for pain. Additionally, a standardized clinical
+      examination and an isometric strength assessment of knee extension and flexion
+      were performed. Results: A total of 17 patients (median age 61.0 [25–75% IQR
+      50.5–72.5]) were available for final assessment at a mean follow-up of 47.1 ± SD 
+      25.4 months. The majority of patients were male (82.4%) and most injuries
+      occurred due to a fall on the hyperflexed knee (76.5%). The average time interval
+      between trauma and surgery was 12.7 ± 7.5 days. Patients achieved a moderate
+      level of activity postoperatively with a median TAS of 4 (3–5.5) and reported
+      good to excellent outcome scores (Lysholm score: 97 (86.5–100); IKDC:
+      80.7 ± 13.5; KOOS subscales: pain 97.2 (93.1–100), symptoms 92.9 (82.5–100),
+      activities of daily living 97.1 (93.4–100), sport and recreation function 80
+      (40–97.5) and knee-related quality of life 87.5 (62.5–100). All patients were
+      able to fully return to work and reported little pain [VAS: 0 (0–0)]. No
+      postoperative complications were reported. Strength measurements revealed a
+      significant deficit of knee extension strength in comparison to the contralateral
+      side (p = 0.011). Conclusion: Suture anchor refixation of acute QTR leads to good
+      functional results and high patient satisfaction without major complications.
+      Isometric knee extension strength, however, may not be fully restored compared to
+      the unaffected side.
+FAU - Geyer, Stephanie
+AU  - Geyer S
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+FAU - Winden, Felix
+AU  - Winden F
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+FAU - Braunsperger, Alexander
+AU  - Braunsperger A
+AD  - grid.6936.a0000000123222966Prevention Center, Department of Sport and Health
+      Sciences, Technical University of Munich, Munich, Germany
+FAU - Kreuzpointner, Florian
+AU  - Kreuzpointner F
+AD  - grid.6936.a0000000123222966Prevention Center, Department of Sport and Health
+      Sciences, Technical University of Munich, Munich, Germany
+FAU - Kleim, Benjamin D.
+AU  - Kleim BD
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+FAU - Lappen, Sebastian
+AU  - Lappen S
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+FAU - Imhoff, Andreas B.
+AU  - Imhoff AB
+AUID- ORCID: 0000-0001-5085-6446
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+FAU - Mehl, Julian
+AU  - Mehl J
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+FAU - Hinz, Maximilian
+AU  - Hinz M
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Klinikum
+      Rechts der Isar, Technical University of Munich, Ismaninger Straße 22, 81675
+      Munich, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20220209
+PHST- 2021/10/18 [received]
+PHST- 2022/01/24 [accepted]
+TA  - Eur J Orthop Surg Traumatol
+JT  - European Journal of Orthopaedic Surgery & Traumatology
+AID - 3218 [pii]
+AID - 10.1007/s00590-022-03218-x [doi]
+SO  - Eur J Orthop Surg Traumatol. 2023;33(4):869-75. Epub 2022 Feb 9
+      doi:10.1007/s00590-022-03218-x.
+
+PMC - PMC9069722
+PMID- 35513813
+IS  - 1471-2474 (Electronic)
+VI  - 23
+DP  - 2022
+TI  - Biomechanical properties of a suture anchor system from human allogenic
+      mineralized cortical bone matrix for rotator cuff repair.
+LID - 422
+AB  - Background: Suture anchors (SAs) made of human allogenic mineralized cortical
+      bone matrix are among the newest developments in orthopaedic and trauma surgery. 
+      Biomechanical properties of an allogenic mineralized suture anchor (AMSA) are not
+      investigated until now. The primary objective was the biomechanical investigation
+      of AMSA and comparing it to a metallic suture anchor (MSA) and a bioabsorbable
+      suture anchor (BSA) placed at the greater tuberosity of the humeral head of
+      cadaver humeri. Additionally, we assessed the biomechanical properties of the SAs
+      with bone microarchitecture parameters. Methods: First, bone microarchitecture of
+      12 fresh frozen human cadaver humeri from six donors was analyzed by
+      high-resolution peripheral quantitative computed tomography. In total, 18 AMSAs, 
+      9 MSAs, and 9 BSAs were implanted at a 60° angle. All three SA systems were
+      systematically implanted alternating in three positions within the greater
+      tuberosity (position 1: anterior, position 2: central, position 3: posterior)
+      with a distance of 15 mm to each other. Biomechanical load to failure was
+      measured in a uniaxial direction at 135°. Results: Mean age of all specimens was 
+      53.6 ± 9.1 years. For all bone microarchitecture measurements, linear regression 
+      slope estimates were negative which implies decreasing values with increasing age
+      of specimens. Positioning of all three SA systems at the greater tuberosity was
+      equally distributed (p = 0.827). Mean load to failure rates were higher for AMSA 
+      compared to MSA and BSA without reaching statistical significance between the
+      groups (p = 0.427). Anchor displacement was comparable for all three SA systems, 
+      while there were significant differences regarding failure mode between all three
+      SA systems (p < 0.001). Maximum load to failure was reached in all cases for
+      AMSA, in 44.4% for MSA, and in 55.6% for BSA. Suture tear was observed in 55.6%
+      for MSA and in 22.2% for BSA. Anchor breakage was solely seen for BSA (22.2%). No
+      correlations were observed between bone microarchitecture parameters and load to 
+      failure rates of all three suture anchor systems. Conclusions: The AMSA showed
+      promising biomechanical properties for initial fixation strength for RCR. Since
+      reduced BMD is an important issue for patients with chronic rotator cuff lesions,
+      the AMSA is an interesting alternative to MSA and BSA. Also, the AMSA could
+      improve healing of the enthesis. Supplementary Information: The online version
+      contains supplementary material available at 10.1186/s12891-022-05371-0.
+FAU - Schanda, Jakob E.
+AU  - Schanda JE
+AD  - grid.420022.60000 0001 0723 5126Department for Trauma Surgery, AUVA Trauma Center
+      Vienna-Meidling, Vienna, Austria
+FAU - Obermayer-Pietsch, Barbara
+AU  - Obermayer-Pietsch B
+AD  - grid.11598.340000 0000 8988 2476Department of Internal Medicine, Division of
+      Endocrinology and Diabetology, Medical University of Graz, Graz, Austria
+FAU - Sommer, Gerhard
+AU  - Sommer G
+AD  - grid.410413.30000 0001 2294 748X Institute of Biomechanics, Graz University of
+      Technology, Graz, Austria
+FAU - Heuberer, Philipp R.
+AU  - Heuberer PR
+AD  - healthPi Medical Center, Vienna, Austria
+FAU - Laky, Brenda
+AU  - Laky B
+AD  - Austrian Research Group for Regenerative and Orthopedic Medicine (AURROM),
+      Vienna, Austria
+FAU - Muschitz, Christian
+AU  - Muschitz C
+AD  - grid.488364.5II Medical Department, Vinforce, St. Vincent Hospital Vienna,
+      Vienna, Austria
+FAU - Pastl, Klaus
+AU  - Pastl K
+AD  - surgebright GmbH, Lichtenberg, Austria
+FAU - Pastl, Eva
+AU  - Pastl E
+AD  - surgebright GmbH, Lichtenberg, Austria
+FAU - Fialka, Christian
+AU  - Fialka C
+AD  - grid.420022.60000 0001 0723 5126Department for Trauma Surgery, AUVA Trauma Center
+      Vienna-Meidling, Vienna, Austria
+FAU - Mittermayr, Rainer
+AU  - Mittermayr R
+AD  - grid.420022.60000 0001 0723 5126Department for Trauma Surgery, AUVA Trauma Center
+      Vienna-Meidling, Vienna, Austria
+FAU - Grillari, Johannes
+AU  - Grillari J
+AD  - grid.420022.60000 0001 0723 5126Ludwig Boltzmann Institute for Traumatology, The 
+      Research Center in Cooperation with AUVA, Vienna, Austria
+FAU - Foessl, Ines
+AU  - Foessl I
+AD  - Michael Ogon Laboratory for Orthopaedic Research, Vienna, Austria
+LA  - eng
+PT  - Journal Article
+DEP - 20220505
+PHST- 2021/09/12 [received]
+PHST- 2022/04/25 [accepted]
+TA  - BMC Musculoskelet Disord
+JT  - BMC Musculoskeletal Disorders
+AID - 5371 [pii]
+AID - 10.1186/s12891-022-05371-0 [doi]
+SO  - BMC Musculoskelet Disord. 2022 May 5;23:. doi:10.1186/s12891-022-05371-0.
+
+PMC - PMC9978029
+PMID- 36859502
+IS  - 2045-2322 (Electronic)
+VI  - 13
+DP  - 2023
+TI  - A suture anchor-based repair technique for type IV jersey finger injuries: a
+      biomechanical investigation.
+LID - 3493
+AB  - The aim of this biomechanical investigation was to evaluate a repair technique
+      for type IV FDP tendon avulsions using a suture anchor, addressing the bony and
+      the tendinous aspect of this injury simultaneously. In 45 distal phalanges from
+      human anatomical specimens the injury was simulated and repairs were performed
+      with a suture anchor using an innovative technique, interosseous sutures and a
+      combination of screws and an interosseous suture. Repetitive loading for 500
+      cycles simulated postoperative mobilization. Repairs were loaded to failure
+      thereafter. Elongation of the tendon-suture complex, gap formation at the
+      bone-bone contact line and at the bone-tendon insertion line, load at first
+      noteworthy displacement (2 mm), load at failure and the mechanism of failure were
+      assessed. The suture anchor technique was superior biomechanically considering
+      load at failure (mean: 72.8 N), bony gap formation (mean: 0.1 mm) as well as
+      tendinous gap formation (mean: 0.7 mm), implying a preferable stability of the
+      repair. Overall, this study demonstrates good ex vivo mechanical stability for a 
+      proposed suture anchor repair technique for type IV FDP tendon avulsion injuries,
+      which might enable early postoperative mobilization in patients. The technique's 
+      subcutaneous implant placement and low implant load are expected to reduce
+      potential complications observed in other commonly used repair techniques. This
+      approach warrants further evaluation in vivo. 
+FAU - Halát, Gabriel
+AU  - Halát G
+AD  - grid.22937.3d0000 0000 9259 8492Department of Orthopedics and Trauma Surgery,
+      Division of Trauma Surgery, Medical University of Vienna, Vienna, Austria
+FAU - Negrin, Lukas Leopold
+AU  - Negrin LL
+AD  - grid.22937.3d0000 0000 9259 8492Department of Orthopedics and Trauma Surgery,
+      Division of Trauma Surgery, Medical University of Vienna, Vienna, Austria
+FAU - Hoppe, Paul Lennart
+AU  - Hoppe PL
+AD  - grid.22937.3d0000 0000 9259 8492Department of Orthopedics and Trauma Surgery,
+      Division of Trauma Surgery, Medical University of Vienna, Vienna, Austria
+FAU - Unger, Ewald
+AU  - Unger E
+AD  - grid.22937.3d0000 0000 9259 8492Center for Medical Physics and Biomedical
+      Engineering, Medical University of Vienna, Vienna, Austria
+FAU - Koch, Thomas
+AU  - Koch T
+AD  - grid.5329.d0000 0001 2348 4034Institute of Materials Science and Technology,
+      Faculty of Mechanical and Industrial Engineering, TU Wien, Vienna, Austria
+FAU - Hirtler, Lena
+AU  - Hirtler L
+AD  - grid.22937.3d0000 0000 9259 8492Department of Anatomy, Center for Anatomy and
+      Cell Biology, Medical University of Vienna, Vienna, Austria
+FAU - Hajdu, Stefan
+AU  - Hajdu S
+AD  - grid.22937.3d0000 0000 9259 8492Department of Orthopedics and Trauma Surgery,
+      Division of Trauma Surgery, Medical University of Vienna, Vienna, Austria
+LA  - eng
+PT  - Journal Article
+DEP - 20230301
+GR  - EMEA19052
+PHST- 2022/08/02 [received]
+PHST- 2023/02/21 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 30373 [pii]
+AID - 10.1038/s41598-023-30373-w [doi]
+SO  - Sci Rep. 2023 Mar 1;13:. doi:10.1038/s41598-023-30373-w.
+
+PMC - PMC9552571
+PMID- 36199231
+IS  - 1234-1010 (Print)
+IS  - 1643-3750 (Electronic)
+VI  - 28
+DP  - 2022
+TI  - Anterior Talofibular Ligament All-Inside Arthroscopic Reconstruction with
+      InternalBrace™ for Chronic Lateral Ankle Instability.
+PG  - e937699-1-8
+AB  - Background: Anterior talofibular ligament (ATFL) is the most easily injured or
+      even broken of ankle sprain. Patients who fail to receive conservative treatment,
+      resulting in persistent ankle swelling, painful and functional decline that it is
+      so-called chronic lateral ankle instability (CLAI). It makes sense to investigate
+      all-inside arthroscopic reconstruction of ATFL with InternalBrace™ for CLAI.
+      Material/Methods: We included 108 patients who underwent all-inside arthroscopic 
+      ATFL reconstruction with InternalBrace™ for CLAI from January 2018 to April 2020 
+      through a retrospective study. Patients age ranged from 19 to 58 years (mean
+      35.6±8.7 years). Several elements are used to evaluate the clinical consequences 
+      of ankle function, including the American Orthopedic Foot and Ankle Society
+      (AOFAS), Japanese Society for Surgery of the Foot Ankle-Hindfoot (JSSF), Kofoed, 
+      Tegner scores and complications, and the tilt angle of talus (TT) and the
+      anterior displacement of talus (ADT) with stressing radiographs were taken to
+      measure in follow-ups. Results: All 108 patients had all-inside arthroscopic
+      procedures performed smoothly without serious complications. During the follow-up
+      period (26.7±2.6 months on average), no recurrence of ankle instability and other
+      serious complications happened. The AOFAS, JSSF, Kofoed, and Tegner scores
+      significantly increased as time went by postoperatively, which proved
+      statistically significant (P<0.01). Regarding stress-radiographic measurements,
+      TT significantly decreased from (9.5±1.1)° preoperatively to (2.6±0.6)° at the
+      latest follow-up (P<0.01), while ADT significantly decreased from (9.5±1.0) mm
+      preoperatively to (2.6±0.6) mm at the latest examination (P<0.01). Conclusions:
+      All-inside arthroscopic ATFL reconstruction with the InternalBrace™ for CLAI is
+      beneficial for ankle stability, allowing earlier return to activities.
+FAU - Zeng, Guang-Long
+AU  - Zeng GL
+AD  - Department of Orthopedics, Dongguan Hospital of Traditional Chinese Medicine,
+      Dongguan, Guangdong, PR China
+FAU - Cai, Li-Min
+AU  - Cai LM
+AD  - Department of Orthopedics, Dongguan People’s Hospital, Dongguan, Guangdong, PR
+      China
+FAU - Xie, QingXiang
+AU  - Xie Q
+AD  - Department of Orthopedics, Dongguan Hospital of Traditional Chinese Medicine,
+      Dongguan, Guangdong, PR China
+FAU - Huang, Hao-Bo
+AU  - Huang HB
+AD  - Department of Orthopedics, Dongguan Hospital of Traditional Chinese Medicine,
+      Dongguan, Guangdong, PR China
+FAU - Li, Yong-Cong
+AU  - Li YC
+AD  - Graduate School, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong, 
+      PR China
+FAU - Su, Bo-Yuan
+AU  - Su BY
+AD  - Department of Orthopedics, Dongguan Hospital of Traditional Chinese Medicine,
+      Dongguan, Guangdong, PR China
+LA  - eng
+PT  - Journal Article
+DEP - 20221006
+PHST- 2022/07/04 [received]
+PHST- 2022/09/06 [accepted]
+TA  - Med Sci Monit
+JT  - Medical Science Monitor : International Medical Journal of Experimental and
+      Clinical Research
+AID - 10.12659/MSM.937699 [doi]
+AID - 937699 [pii]
+SO  - Med Sci Monit. 2022 Oct 06;28:e937699-1-8. doi:10.12659/MSM.937699.
+
+PMC - PMC11444947
+PMID- 39364115
+IS  - 2005-291X (Print)
+IS  - 2005-4408 (Electronic)
+VI  - 16
+IP  - 5
+DP  - 2024 Oct
+TI  - Isolated Latissimus Dorsi Transfer versus Combined Latissimus Dorsi and Teres
+      Major Tendon Transfer for Irreparable Anterosuperior Rotator Cuff Tears.
+PG  - 761-73
+AB  - Background: Irreparable anterosuperior rotator cuff tears (IASRCTs) present
+      significant challenges, especially in young, active patients with limited
+      joint-preserving options. Recently, latissimus dorsi (LD) transfer and combined
+      latissimus dorsi and teres major (LDTM) transfer have gained attention as a
+      potential surgical option. We aimed to compare the clinical and radiological
+      outcomes of LD versus combined LDTM transfer in IASRCTs. Methods: In this
+      retrospective comparative study, 53 patients with IASRCTs were analyzed after
+      undergoing either LD transfer attached to lesser tuberosity (LT) (LD group, n =
+      23) or combined LDTM transfer attached to greater tuberosity (GT) (LDTM group, n 
+      = 30). Clinical evaluations included the visual analog scale score for pain,
+      active shoulder range of motion (ROM), University of California Los Angeles
+      Shoulder Score, American Shoulder and Elbow Surgeons score, activities of daily
+      living that require active internal rotation (ADLIR) scores, and subscapularis
+      (SSC)-specific examinations. Radiographic analyses involved assessing
+      acromiohumeral distance (AHD), Hamada grade, the rate of anterior glenohumeral
+      subluxation reduction, and integrity of the transferred tendon. Results:
+      Postoperatively, both groups demonstrated significant improvements in pain and
+      clinical scores (p < 0.001). At the 2-year follow-up, the LDTM group showed
+      superior internal rotation strength (p < 0.001), ADLIR score (p = 0.017), and
+      SSC-specific physical examination results (belly-press, p = 0.027; bear-hug, p = 
+      0.031; lift-off, p = 0.032). No significant changes in AHD or Hamada grade were
+      observed in either group. At final follow-up, no significant differences were
+      found between the 2 groups in terms of AHD (p = 0.539) and Hamada grade (p =
+      0.974). Although preoperative anterior glenohumeral subluxation was improved in
+      both groups, the LDTM group showed a statistically significantly higher rate of
+      restoration compared to the LD group (p = 0.015). Conclusions: While both LD and 
+      combined LDTM transfers for IASRCTs improved postoperative pain relief, clinical 
+      scores, and active ROM, the combined LDTM transfer attached to GT was superior to
+      LD transfer attached to LT in terms of internal rotational strength, ADLIR score,
+      and SSC-specific examinations. Neither group showed significant progress in cuff 
+      tear arthropathy or decreased AHD at 2-year follow-up; however, the combined LDTM
+      transfer notably improved preoperative anterior glenohumeral subluxation.
+FAU - Baek, Chang Hee
+AU  - Baek CH
+AUID- ORCID: https://orcid.org/0000-0002-3169-7141
+AD  - Department of Orthopaedic Surgery, Yeosu Baek Hospital, Yeosu, Korea.
+FAU - Kim, Jung Gon
+AU  - Kim JG
+AUID- ORCID: https://orcid.org/0000-0001-6951-6126
+AD  - Department of Orthopaedic Surgery, Yeosu Baek Hospital, Yeosu, Korea.
+FAU - Kim, Bo Taek
+AU  - Kim BT
+AUID- ORCID: https://orcid.org/0000-0002-2907-1940
+AD  - Department of Orthopaedic Surgery, Yeosu Baek Hospital, Yeosu, Korea.
+FAU - Kim, Seung Jin
+AU  - Kim SJ
+AUID- ORCID: https://orcid.org/0009-0006-7426-0210
+AD  - Department of Orthopaedic Surgery, Yeosu Baek Hospital, Yeosu, Korea.
+LA  - eng
+PT  - Journal Article
+DEP - 20240913
+PHST- 2024/03/13 [received]
+PHST- 2024/05/11 [revised]
+PHST- 2024/05/20 [accepted]
+PHST- 2024/09/13 [aheadofprint]
+TA  - Clin Orthop Surg
+JT  - Clinics in Orthopedic Surgery
+AID - 10.4055/cios24115 [doi]
+SO  - Clin Orthop Surg. 2024 Oct;16(5):761-73. Epub 2024 Sep 13 doi:10.4055/cios24115.
+
+PMC - PMC9088232
+PMID- 35551392
+IS  - 2474-7661 (Electronic)
+VI  - 6
+IP  - 5
+DP  - 2022 May
+TI  - Triple Surgical Fixation Technique for an Isolated Greater Trochanter Fracture in
+      an Amateur Weightlifter.
+LID - e21.00127
+AB  - Isolated greater trochanter fractures have been infrequently described in the
+      literature and are typically managed conservatively. Functional strength after
+      injury to the abductor complex can be markedly affected resulting in a
+      Trendelenburg gait and overall abductor weakness. We present a case of a
+      35-year-old athlete who underwent surgical fixation because of notable fracture
+      displacement and function debility. This case vignette demonstrates the
+      importance of using all available interdisciplinary orthopaedic surgery
+      literature to provide a patient-specific surgical construct. Our patient
+      benefitted from arthroscopic, arthroplasty, and trauma evidence-based medicine to
+      successfully treat his displaced greater trochanteric hip fracture. Successful
+      surgical fixation was enhanced by combining three different methods of fixation: 
+      osteosynthesis with partially threaded screws and washers (DePuy Synthes), suture
+      anchor (Arthrex) direct fracture approximation and tendon reinforcement, and a
+      knotless double-row suture bridge (Arthrex) tension band construct. The patient
+      was able to return weightlifting at 4 months postoperatively with no evidence of 
+      weakness or trendelenburg gait.
+FAU - Sanderson, Brent
+AU  - Sanderson B
+AUID- ORCID: https://orcid.org/0000-0002-4275-3823
+FAU - Washburn, Frederic
+AU  - Washburn F
+FAU - Allison, Daniel
+AU  - Allison D
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20220509
+PHST- 2021/05/20 [received]
+PHST- 2022/03/15 [accepted]
+TA  - J Am Acad Orthop Surg Glob Res Rev
+JT  - JAAOS Global Research & Reviews
+AID - JAAOSGlobal-D-21-00127 [pii]
+AID - 10.5435/JAAOSGlobal-D-21-00127 [doi]
+SO  - J Am Acad Orthop Surg Glob Res Rev. 2022 May 9;6(5):.
+      doi:10.5435/JAAOSGlobal-D-21-00127.
+
+PMC - PMC9859873
+PMID- 35972519
+IS  - 0942-2056 (Print)
+IS  - 1433-7347 (Electronic)
+VI  - 31
+IP  - 1
+DP  - 2023
+TI  - Medial patellofemoral ligament reconstruction using nonresorbable sutures yields 
+      comparable outcomes to reconstruction with a pedicled quadriceps tendon autograft
+      when performed in addition to bony risk factor correction.
+PG  - 264-71
+AB  - Purpose: To evaluate the results for reconstruction of the medial patellofemoral 
+      ligament using synthetic nonresorbable sutures (S-MPFL-R) in comparison to MPFL-R
+      using quadriceps tendon autograft (QT-MPFL-R) in patients undergoing simultaneous
+      correction of anatomic risk factors for lateral patellar instability (LPI) at a
+      minimum of 2 years of follow-up. Methods: Between November 2018 and June 2019, 19
+      patients (male/female 8/11; mean age 26 ± 7 years) underwent S-MPFL-R
+      (FiberTape®) in combination with the correction of predisposing risk factors for 
+      LPI. The control group of 38 patients (male/female 16/22, mean age 26 ± 6 years) 
+      who underwent QT-MPFL-R was matched 1:2 by sex, age, anatomic risk factors, and
+      concomitant surgical correction of bony risk factors. The Banff Patella
+      Instability Instrument 2.0 (BPII 2.0) and a numerical analog scale (NAS 0–10) for
+      patellofemoral pain and subjective knee joint function were used to assess
+      patients’ reported quality of life before and after surgery. Results: The BPII
+      2.0 score increased from 35.0 ± 21.7 points to 79.7 ± 13.3 points (p < 0.0001) in
+      the S-MPRL-R group and from 44.3 ± 19.6 points to 80.9 ± 15 points (p < 0.0001)
+      in the QT-MPFL-R group from preoperatively to postoperatively, respectively,
+      without any significant difference between the groups. In the S-MPFL-R group and 
+      QT-MPFL-R group, 95% (18/19) and 92% (35/38) of patients, respectively, crossed
+      the minimally clinically important difference reported for the BPII 2.0. NAS
+      values for pain and subjective knee joint function improved significantly in both
+      groups (p < 0.0001, p < 0.0001) without any significant difference between the
+      groups at the final follow-up. Conclusions: This study demonstrates that
+      nonresorbable sutures can serve as a viable option for MPFL-R, yielding
+      comparable outcomes compared to quadriceps tendon autograft reconstruction when
+      performed concomitantly with the correction of anatomic risk factors for LPI.
+      This option reduces the need for autologous tendon harvesting or the use of
+      allografts for MPFL-R. Level of evidence: Level III.
+FAU - Milinkovic, Danko Dan
+AU  - Milinkovic DD
+AUID- ORCID: 0000-0002-0672-2640
+AD  - grid.6363.00000 0001 2218 4662Center for Musculoskeletal Surgery,
+      Charité-University Medicine Berlin, Luisenstrasse 64, 10117 Berlin, Germany
+FAU - Zimmermann, Felix
+AU  - Zimmermann F
+AD  - grid.418303.d0000 0000 9528 7251Berufsgenossenschaftliche Unfallklinik
+      Ludwigshafen, Ludwigshafen am Rhein, Germany
+FAU - Balcarek, Peter
+AU  - Balcarek P
+AD  - grid.491774.8Arcus Sportklinik, Pforzheim, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20220816
+PHST- 2022/02/10 [received]
+PHST- 2022/08/03 [accepted]
+TA  - Knee Surg Sports Traumatol Arthrosc
+JT  - Knee Surgery, Sports Traumatology, Arthroscopy
+AID - 7104 [pii]
+AID - 10.1007/s00167-022-07104-1 [doi]
+SO  - Knee Surg Sports Traumatol Arthrosc. 2023;31(1):264-71. Epub 2022 Aug 16
+      doi:10.1007/s00167-022-07104-1.
+
+PMC - PMC11022449
+PMID- 38632590
+IS  - 1471-2474 (Electronic)
+VI  - 25
+DP  - 2024
+TI  - Additional suture augmentation to anterior cruciate ligament reconstruction with 
+      hamstring autografts bring no benefits to clinical results, graft maturation and 
+      graft-bone interface healing.
+LID - 301
+AB  - Background: From the perspective of graft protection and early rehabilitation
+      during the maturation and remodeling phases of graft healing, suture augmentation
+      (SA) for anterior cruciate ligament reconstruction (ACLR) has attracted more and 
+      more attention. Study Design: Retrospective study. Purpose: To determine whether 
+      the additional SA affects clinical results, graft maturation and graft-bone
+      interface healing during two years follow-up after ACLR. Methods: 20 ACLRs with
+      additional SA (ACLR-SA group) and 20 ACLRs without additional SA (ACLR group)
+      were performed between January 2020 and December 2021 by the same surgeon and
+      were retrospectively analyzed. Pre- and postoperative International Knee
+      Documentation Committee (IKDC) scores, Lysholm scores, graft failure and
+      reoperation were evaluated. The signal/noise quotient (SNQ) of autografts and the
+      signal intensity of graft-bone interface were analyzed. All 40 patients in
+      ACLR-SA group and ACLR group completed 2-years follow-up. Results: There was no
+      patient in the two cohorts experienced graft failure and reoperation. The
+      postoperative IKDC and Lysholm scores have been significantly improved compared
+      with preoperative scored in both ACLR-SA group and ACLR group, however, there was
+      no significant difference between two groups. The SNQ of proximal graft of
+      ACLR-SA group (14.78 ± 8.62 vs. 8.1 ± 5.5, p = 0.041) was significantly greater
+      while the grades of graft-bone interface healing of posterior tibial was
+      significantly lower than that of ACLR group at 1-year postoperatively (p = 0.03),
+      respectively. There were no significant differences between the two groups of the
+      SNQ of proximal, distal medial graft segments, and the graft-bone interface
+      healing grades of anterior femoral, posterior femoral, anterior tibial and
+      posterior tibial at other time points (p>0.05). Conclusions: The additional SA in
+      ACLR had no effect on IKDC scores, Lysholm scores, graft maturation and
+      graft-bone interface healing at 2-year postoperatively. Our research does not
+      support the routine use of SA in ACLR.
+FAU - Meng, Qingyang
+AU  - Meng Q
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Dai, Ruilan
+AU  - Dai R
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Wang, Cheng
+AU  - Wang C
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Shi, Weili
+AU  - Shi W
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Jiang, Yanfang
+AU  - Jiang Y
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Liu, Ningjing
+AU  - Liu N
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Li, Rui
+AU  - Li R
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Ao, Yingfang
+AU  - Ao Y
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Gong, Xi
+AU  - Gong X
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+FAU - Ma, Yong
+AU  - Ma Y
+AD  - grid.411642.40000 0004 0605 3760Department of Sports Medicine, Beijing Key
+      Laboratory of Sports Injuries, Peking University Third Hospital, Institute of
+      Sports Medicine of Peking University, 49 North Garden Road, Haidian District,
+      Beijing, 100191 People’s Republic of China
+LA  - eng
+PT  - Journal Article
+DEP - 20240417
+GR  - BMU2023YFJHMX008
+GR  - BYSYZHKC2023114
+PHST- 2023/11/09 [received]
+PHST- 2024/04/09 [accepted]
+TA  - BMC Musculoskelet Disord
+JT  - BMC Musculoskeletal Disorders
+AID - 7426 [pii]
+AID - 10.1186/s12891-024-07426-w [doi]
+SO  - BMC Musculoskelet Disord. 2024 Apr 17;25:. doi:10.1186/s12891-024-07426-w.
+
+PMC - PMC10744733
+PMID- 38132916
+IS  - 2076-3271 (Electronic)
+VI  - 11
+IP  - 4
+DP  - 2023 Dec
+TI  - The Use of Synthetic Graft for MPFL Reconstruction Surgery: A Systematic Review
+      of the Clinical Outcomes.
+LID - 75
+AB  - (1) Background: Acute patella dislocation (APD) is a prevalent knee injury, with 
+      rates between 5.8–77.8 per 100,000. APD often results in repeat lateral patella
+      dislocations due to the instability of the medial patellofemoral ligament (MPFL).
+      Non-operative treatments have a 50% recurrence rate. While autologous grafting
+      for MPFL has been favored, surgeons are now exploring synthetic grafts. We aimed 
+      to assess the effectiveness of synthetic grafts in MPFL reconstruction surgeries 
+      for repeated patellar dislocations; (2) Methods: Our research was based on a
+      thorough search from the National Institute of Health and Clinical Excellence
+      Healthcare Databases, using the Modified Coleman Methodology Score for quality
+      assessment; (3) Results: Six studies met the inclusion criteria. A total of 284
+      patients and 230 knees were included. Seventy-five percent of patients were
+      graded to have excellent-good clinical outcomes using the Crosby and Insall
+      Grading System. International Knee Documentation Committee score and Knee injury 
+      and Osteoarthritis Outcome Score scores showed 59% and 60% post-operative
+      improvement, respectively; (4) Conclusions: All studies showed improvement in
+      post-operative functional outcomes and report no serious adverse events. The 6
+      mm, LARS (Orthomedic Ltd., Dollard-des-Ormeaux, QC, Canada) proved to have the
+      most improvement in post-operative outcomes when used as a double bundle graft.
+FAU - Tanos, Panayiotis
+AU  - Tanos P
+AUID- ORCID: https://orcid.org/0000-0001-5742-0995
+AD  - Institute of Applied Health Sciences, University of Aberdeen, Aberdeen AB24 3FX, 
+      UK; p.tanos@outlook.com
+FAU - Neo, Chryssa
+AU  - Neo C
+AUID- ORCID: https://orcid.org/0000-0002-3143-3007
+AD  - Queen Elizabeth Hospital Gateshead, Gateshead Health NHS Foundation Trust,
+      Gateshead NE9 6SX, UK; neochryssa@gmail.com
+FAU - Tong, Edwin
+AU  - Tong E
+AD  - Aberdeen Royal Infirmary, NHS Grampian, Aberdeen AB25 2ZN, UK;
+      edwin.tong@nhs.scot
+FAU - Volpin, Andrea
+AU  - Volpin A
+AD  - Trauma and Orthopaedics, Dr Gray’s Hospital, NHS Grampian, Elgin IV30 1SN, UK
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20231128
+PHST- 2023/09/21 [received]
+PHST- 2023/11/04 [revised]
+PHST- 2023/11/23 [accepted]
+TA  - Med Sci (Basel)
+JT  - Medical Sciences
+AID - 10.3390/medsci11040075 [doi]
+AID - medsci-11-00075 [pii]
+SO  - Med Sci (Basel). 2023 Nov 28;11(4):. doi:10.3390/medsci11040075.
+
+PMC - PMC10432468
+PMID- 36905294
+IS  - 1757-7853 (Print)
+IS  - 1757-7861 (Electronic)
+VI  - 15
+IP  - 8
+DP  - 2023 Aug
+TI  - Arthroscopic Autologous Coracoacromial Ligament Augment Technique for Particle
+      Thickness of Rotator Cuff with at Least Two Years Follow‐Up.
+PG  - 2157-66
+AB  - Objective: Patch technology has been the new technique in the treatment of
+      partial thickness of the rotator cuff tear (PTRCTs) to address the limitation of 
+      traditional techniques. Compared with allogeneic patches and artificial
+      materials, coracoacromial ligament is obviously closer to their own biology. The 
+      purpose of the study was to evaluate the functional and radiographic outcomes
+      following arthroscopic autologous coracoacromial ligament augment technique for
+      treatment of PTRCTs. Method: This study included three female patients with
+      PTRCTs who underwent arthroscopy operation in 2017 with an average age of
+      51 years (range from 50 to 52 years). The coracoacromial ligament implant was
+      attached to the bursal side surface of the tendon. The clinical results were
+      evaluated by American Shoulder and Elbow Surgeons (ASES) score, Simple Shoulder
+      Test (SST), acromiohumeral distance (AHD) and muscle strength before and
+      12 months after operation. Magnetic resonance imaging (MRI) was performed
+      24 months after operation to assess the integrity of the anatomical structure of 
+      the original tear site. Result: The average ASES score improved significantly
+      from 57.3 preoperatively to 95.0 at 1‐year follow‐up. The strength improved
+      significantly from grade 3 preoperatively to grade 5 at 1 year. Two of three
+      patients underwent the MRI at 2‐year follow‐up. Radiographic released the
+      complete healing of rotator cuff tear. No implant‐related serious adverse events 
+      were reported. Conclusion: The new technique of using autogenous coracoacromial
+      ligament patch augment provides good clinical results on patients with PTRCTs.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Zhang, Yuanhao
+AU  - Zhang Y
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Zhou, Min
+AU  - Zhou M
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Hou, Jingyi
+AU  - Hou J
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Zhang, Jinming
+AU  - Zhang J
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Zhou, Chuanhai
+AU  - Zhou C
+AUID- ORCID: https://orcid.org/0000-0002-2365-8417
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Long, Yi
+AU  - Long Y
+AUID- ORCID: https://orcid.org/0000-0001-6840-3517
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Ke, Meng
+AU  - Ke M
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Tang, Yiyong
+AU  - Tang Y
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+FAU - Yang, Rui
+AU  - Yang R
+AUID- ORCID: https://orcid.org/0000-0001-7457-5163
+AD  - Sun Yat‐sen Memorial HospitalSun Yat‐sen UniversityGuangzhouChina
+LA  - eng
+PT  - Journal Article
+DEP - 20230311
+GR  - 82002342
+PHST- 2023/02/09 [revised]
+PHST- 2022/12/13 [received]
+PHST- 2023/02/10 [accepted]
+TA  - Orthop Surg
+JT  - Orthopaedic Surgery
+AID - 10.1111/os.13697 [doi]
+AID - OS13697 [pii]
+SO  - Orthop Surg. 2023 Mar 11;15(8):2157-66. doi:10.1111/os.13697.
+
+PMC - PMC9568480
+PMID- 35357531
+IS  - 0942-2056 (Print)
+IS  - 1433-7347 (Electronic)
+VI  - 30
+IP  - 11
+DP  - 2022
+TI  - High return to sports and return to work rates after anatomic lateral ankle
+      ligament reconstruction with tendon autograft for isolated chronic lateral ankle 
+      instability.
+PG  - 3862-70
+AB  - Purpose: To evaluate clinical outcomes as well as return to sports (RTS) and
+      return to work (RTW) rates following anatomic lateral ankle ligament
+      reconstruction with a tendon autograft for chronic lateral ankle instability
+      (CLAI) in a high-risk population, and to compare these outcome parameters between
+      patients having received a gracilis tendon autograft (GT) and free split peroneus
+      brevis tendon (PBT) autograft. Methods: Twenty-eight consecutive patients, who
+      were diagnosed with CLAI, presenting with ≥ 1 risk factor (ligamentous
+      hyperlaxity, insufficient substance of native ligament and/or high-demand
+      athlete), who underwent ankle ligament reconstruction with a tendon autograft
+      between January 2011 and December 2018, were included in this retrospective
+      study. At 63.7 ± 28.0 months (24–112), 23 patients with a mean age of
+      29.7 ± 10.9 years were available for follow-up. The Karlsson Score, the Foot and 
+      Ankle Outcome Score (FAOS), the Tegner Activity Scale and the visual analog scale
+      (VAS) for pain were collected at a minimum follow-up of 24 months. RTS and RTW
+      were evaluated by questionnaire. A subgroup analysis with regard to the graft
+      used for ankle ligament reconstruction (GT versus PBT) was performed. Results:
+      Patients reported a Karlsson score of 82.1 ± 17.5 (37–100), a FAOS score of
+      87.8 ± 8.4 (73–99), a median Tegner activity scale of 5.0 (IQR 4–6) and a VAS for
+      pain of 0.5 ± 0.9 (0–4) at rest and of 2.0 ± 2.1 (0–7) during activities at final
+      follow-up. Postoperatively, 96% of patients had returned to sports after
+      8.3 ± 6.2 months. All patients (100%) had returned to work at 3.5 ± 5.7 (0–24)
+      months, with 87% reporting an equal or improved working ability compared to that 
+      preoperatively. Postoperatively, exercise hours per week were significantly
+      reduced compared to preoperatively in patients with a split PBT (n = 12;
+      13.0 ± 12.9 to 5.6 ± 6.4 h, p = 0.038) autograft as opposed to patients with a GT
+      autograft (n = 11; 13.1 ± 8.7 to 12.4 ± 7.1 h, n.s.). No other group differences 
+      were observed. Conclusion: Good patient-reported outcomes as well as excellent
+      RTS and RTW rates can be achieved in high-risk patients undergoing ankle ligament
+      reconstruction with a tendon autograft for CLAI. These results may be helpful in 
+      preoperatively managing patients’ expectations regarding sports- and work-related
+      outcomes and provide tangible data on the expectable time frame of the individual
+      return to sports and work trajectory. Level of evidence: IV. Supplementary
+      Information: The online version contains supplementary material available at
+      10.1007/s00167-022-06937-0.
+FAU - Rupp, Marco-Christopher
+AU  - Rupp MC
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Degenhardt, Hannes
+AU  - Degenhardt H
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Winkler, Philipp W.
+AU  - Winkler PW
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Hinz, Maximilian
+AU  - Hinz M
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Ehmann, Yannick J.
+AU  - Ehmann YJ
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Imhoff, Andreas B.
+AU  - Imhoff AB
+AUID- ORCID: 0000-0001-5085-6446
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Pogorzelski, Jonas
+AU  - Pogorzelski J
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+FAU - Themessl, Alexander
+AU  - Themessl A
+AD  - grid.6936.a0000000123222966Department of Orthopaedic Sports Medicine, Technical
+      University of Munich, Ismaninger Str. 22, 81675 Munich, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20220331
+PHST- 2021/09/21 [received]
+PHST- 2022/03/07 [accepted]
+TA  - Knee Surg Sports Traumatol Arthrosc
+JT  - Knee Surgery, Sports Traumatology, Arthroscopy
+AID - 6937 [pii]
+AID - 10.1007/s00167-022-06937-0 [doi]
+SO  - Knee Surg Sports Traumatol Arthrosc. 2022;30(11):3862-70. Epub 2022 Mar 31
+      doi:10.1007/s00167-022-06937-0.
+
+PMC - PMC9348917
+PMID- 35937388
+IS  - 2314-6133 (Print)
+IS  - 2314-6141 (Electronic)
+VI  - 2022
+DP  - 2022
+TI  - Comparison of Modified Broström Procedure with or without Suture Tape
+      Augmentation Technique for the Chronic Lateral Ankle Instability.
+LID - 6172280
+AB  - Purpose: To compare the clinical outcomes of the modified Broström repair (MBR)
+      with or without suture tape augmentation (STA) for managing the chronic lateral
+      ankle instability. Methods: 72 patients with chronic lateral ankle instability
+      treated at our hospital from January 2018 to July 2019 were included, with 37
+      patients receiving the MBR and 35 treated by the MBR with STA. The clinical
+      efficacy of the two techniques was assessed in terms of VAS, AOFAS, and Karlsson 
+      scores and by physical examination in follow-ups. Results: In all 72 patients,
+      operations were successful, and the patients were followed up for 29.3 months on 
+      average (range, 24-43 months). There were no significant differences in
+      preoperative pain, AOFAS, and Karlsson scores between the two groups. Compared
+      with preoperative findings, all the functional scores were significantly improved
+      in both groups 3 months after the operation and at the last follow-up. Three
+      months after the operation, the STA group had significantly lower VAS and higher 
+      AOFAS scores than the isolated MBR group, suggesting that patients in the STA
+      group suffered less pain and achieved better functional improvement. However, the
+      VAS and functional scores at the last follow-up and the Karlsson score at 3
+      months postoperatively showed no intragroup difference in both groups.
+      Conclusion: MBR with or without STA could achieve good results for the treatment 
+      of chronic lateral ankle instability. Compared with the widely used MBR,
+      combining with STA may be more effective in promoting rehabilitation in early
+      term.
+FAU - Li, Ji
+AU  - Li J
+AUID- ORCID: https://orcid.org/0000-0002-5565-7582
+AD  - Senior Department of Orthopedics, The Fourth Medical Center of Chinese PLA
+      General Hospital, No. 51, Fucheng Road, Haidian District, 100048 Beijing, China
+FAU - Qi, Wei
+AU  - Qi W
+AUID- ORCID: https://orcid.org/0000-0002-5619-0961
+AD  - Senior Department of Orthopedics, The Fourth Medical Center of Chinese PLA
+      General Hospital, No. 51, Fucheng Road, Haidian District, 100048 Beijing, China
+FAU - Yun, Xing
+AU  - Yun X
+AUID- ORCID: https://orcid.org/0000-0002-9318-6590
+AD  - Senior Department of Orthopedics, The Fourth Medical Center of Chinese PLA
+      General Hospital, No. 51, Fucheng Road, Haidian District, 100048 Beijing, China
+FAU - Wei, Yu
+AU  - Wei Y
+AUID- ORCID: https://orcid.org/0000-0002-9974-4442
+AD  - Senior Department of Orthopedics, The Fourth Medical Center of Chinese PLA
+      General Hospital, No. 51, Fucheng Road, Haidian District, 100048 Beijing, China
+FAU - Liu, Yang
+AU  - Liu Y
+AUID- ORCID: https://orcid.org/0000-0001-7026-2485
+AD  - Senior Department of Orthopedics, The Fourth Medical Center of Chinese PLA
+      General Hospital, No. 51, Fucheng Road, Haidian District, 100048 Beijing, China
+FAU - Wei, Min
+AU  - Wei M
+AUID- ORCID: https://orcid.org/0000-0002-6780-4412
+AD  - Senior Department of Orthopedics, The Fourth Medical Center of Chinese PLA
+      General Hospital, No. 51, Fucheng Road, Haidian District, 100048 Beijing, China
+LA  - eng
+PT  - Journal Article
+DEP - 20220727
+GR  - 20XLS26
+PHST- 2022/03/28 [received]
+PHST- 2022/07/09 [accepted]
+TA  - Biomed Res Int
+JT  - BioMed Research International
+AID - 10.1155/2022/6172280 [doi]
+SO  - Biomed Res Int. 2022 Jul 27;2022:. doi:10.1155/2022/6172280.
+
+PMC - PMC10374787
+PMID- 36547750
+IS  - 0936-8051 (Print)
+IS  - 1434-3916 (Electronic)
+VI  - 143
+IP  - 8
+DP  - 2023
+TI  - Recreational activity after open hip abductor repair.
+PG  - 5143-8
+AB  - Background: Hip abductor tear (HAT) is an increasingly diagnosed cause of
+      refractory lateral hip pain and dysfunction, affecting 10–25% of the general
+      population. Purpose: (1) to determine the rate of return to activity and to
+      assess the physical and recreational activity of patients undergoing open hip
+      abductor repair (oHATr) and (2) to describe the modification or initiation of new
+      sports disciplines. Study design: Case series; Level of evidence, 4. Methods: A
+      total of 28 patients (29 hips) who underwent an oHATr were prospectively analyzed
+      at a midterm follow-up of 3.5 (range 2–5) years. The sports and recreational
+      activity levels, as well as type of sports practiced before and after surgery,
+      and The Veterans RAND 12 Item Health Survey (VR-12) were assessed via
+      questionnaire. Results: At the final follow-up, all patients were active in
+      sports after surgery. The duration and frequency of sports activities showed a
+      slight decrease (48–42 min per week and 3.2–2.9 sessions per week, respectively) 
+      (p = 0.412 and 0.135, respectively). The VR-12 had a score of 45 (13.12–63.18)
+      points for the physical component and 41 (32–53.8) points for the mental
+      component. 100% of the patients would undergo the surgery again. 95% of patients 
+      were satisfied with the overall results of the surgical outcome, with 98%
+      satisfied with their hip pain relief and ability to undertake daily and work
+      activities. Moreover, 94% were satisfied with their ability to return to
+      recreational activities. The failure rate in our cohort was approximately 14%.
+      Conclusion: All patients who underwent an oHATr were able to return at least to
+      one type of sport. This cohort was highly satisfied with their sports involvement
+      and recreational activity achievement. In addition, 88% of patients reported that
+      oHATr improved sports activity. There was a shift from higher to lower impact
+      sports. Furthermore, just 3 hips present a retear after surgery.
+FAU - Navas, Luis
+AU  - Navas L
+AUID- ORCID: 0000-0001-7447-9593
+AD  - Department of Orthopaedic and Trauma Surgery, Orthopädische Klinik Paulinenhilfe,
+      Diakonieklinikum, Rosenbergstrasse 38, 70192 Stuttgart, Germany
+FAU - Zimmerer, Alexander
+AU  - Zimmerer A
+AD  - grid.491774.8ARCUS Sportklinik, Rastatterstraße 17-19, 72175 Pforzheim, Germany
+FAU - Hausschild, Matthias
+AU  - Hausschild M
+AD  - grid.491774.8ARCUS Sportklinik, Rastatterstraße 17-19, 72175 Pforzheim, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20221222
+PHST- 2022/09/05 [received]
+PHST- 2022/12/11 [accepted]
+TA  - Arch Orthop Trauma Surg
+JT  - Archives of Orthopaedic and Trauma Surgery
+AID - 4734 [pii]
+AID - 10.1007/s00402-022-04734-5 [doi]
+SO  - Arch Orthop Trauma Surg. 2023;143(8):5143-8. Epub 2022 Dec 22
+      doi:10.1007/s00402-022-04734-5.
+
+PMC - PMC9895014
+PMID- 36469104
+IS  - 0934-6694 (Print)
+IS  - 1439-0981 (Electronic)
+VI  - 35
+IP  - 1
+DP  - 2023
+TI  - Augmentierte Primärnaht „internal bracing“ nach ligamentärer Ellenbogenluxation.
+PG  - 43-55
+AB  - Objective: Aim of surgical treatment is the primary stabilization of the unstable
+      elbow following a ligamentous elbow dislocation. Indications: Ligamentous elbow
+      dislocations are typically accompanied by injuries to the surrounding musculature
+      and collateral ligaments of the elbow joint. Surgical treatment is indicated in
+      case of failure of nonoperative therapy, i.e., when a dislocation can only be
+      prevented in immobilization > 90° and pronation of the elbow or an active
+      muscular centering of the elbow fails after 5–7 days. Contraindications:
+      Contraindications for a solely “internal bracing” augmented primary suture are
+      generally in the case of accompanying bony injuries in elbow dislocations,
+      extensive soft-tissue injuries, and septic arthritis of the elbow. Surgical
+      technique: The augmented primary suture of the elbow is performed using both
+      a lateral (Kocher or Kaplan) and medial (FCU split) approach to the elbow. After 
+      reduction of the elbow, the collateral ligaments are first augmented with
+      high-strength polyethylene suture and fixed in the distal humerus together with
+      another high-strength polyethylene augmentation suture. The extensors and flexors
+      are then fixed to the medial and lateral epicondyle, respectively, using suture
+      anchors. Postoperative management: The aim of the postoperative management is
+      early functional exercise of the elbow. The elbow is placed in an elbow brace to 
+      avoid varus and valgus load. Results: Between August 2018 and January 2020,
+      a total of 12 patients were treated with an augmented primary suture following
+      unstable ligamentous elbow dislocation. After a mean follow-up of
+      14 ± 12.7 months, the mean Mayo Elbow Performance Score was 98.5 points with
+      a mean functional arc of 115°. None of the patients reported a recurrent
+      dislocation or persistent instability of the elbow.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Rausch, Valentin
+AU  - Rausch V
+AD  - grid.5570.70000 0004 0490 981XChirurgische Universitätsklinik und Poliklinik, BG 
+      Universitätsklinikum Bergmannsheil Bochum, Ruhr-Universität Bochum,
+      Bürkle-de-la-Camp Platz 1, 44789 Bochum, Deutschland
+FAU - Königshausen, Matthias
+AU  - Königshausen M
+AD  - grid.5570.70000 0004 0490 981XChirurgische Universitätsklinik und Poliklinik, BG 
+      Universitätsklinikum Bergmannsheil Bochum, Ruhr-Universität Bochum,
+      Bürkle-de-la-Camp Platz 1, 44789 Bochum, Deutschland
+FAU - Schildhauer, Thomas A.
+AU  - Schildhauer TA
+AD  - grid.5570.70000 0004 0490 981XChirurgische Universitätsklinik und Poliklinik, BG 
+      Universitätsklinikum Bergmannsheil Bochum, Ruhr-Universität Bochum,
+      Bürkle-de-la-Camp Platz 1, 44789 Bochum, Deutschland
+FAU - Geßmann, Jan
+AU  - Geßmann J
+AD  - grid.5570.70000 0004 0490 981XChirurgische Universitätsklinik und Poliklinik, BG 
+      Universitätsklinikum Bergmannsheil Bochum, Ruhr-Universität Bochum,
+      Bürkle-de-la-Camp Platz 1, 44789 Bochum, Deutschland
+LA  - eng
+PT  - Journal Article
+DEP - 20221205
+PHST- 2021/01/10 [received]
+PHST- 2021/06/23 [revised]
+PHST- 2021/09/25 [accepted]
+TA  - Oper Orthop Traumatol
+JT  - Operative Orthopadie Und Traumatologie
+AID - 788 [pii]
+AID - 10.1007/s00064-022-00788-1 [doi]
+SO  - Oper Orthop Traumatol. 2023;35(1):43-55. Epub 2022 Dec 5
+      doi:10.1007/s00064-022-00788-1.
+
+PMC - PMC9157963
+PMID- 35174716
+IS  - 0035-8843 (Print)
+IS  - 1478-7083 (Electronic)
+VI  - 104
+IP  - 6
+DP  - 2022 Jun
+TI  - Consecutive ipsilateral inferior pole patella and superior patella sleeve
+      fractures.
+PG  - e190-2
+AB  - We present a rare, previously undescribed case of a superior patella sleeve
+      fracture in a skeletally immature adolescent male, just 1 month following surgery
+      for an ipsilateral traumatic inferior pole patella fracture. This was initially
+      missed resulting in a delay to surgery. We recommend a high index of suspicion is
+      key in these patients who re-present following subsequent trauma and alternative 
+      X-ray views such as a flexed lateral can be extremely beneficial.
+FAU - Hannah, A
+AU  - Hannah A
+AD  - Sheffield Teaching Hospitals NHS Foundation Trust, UK
+FAU - Stoddard, JE
+AU  - Stoddard J
+AD  - Sheffield Teaching Hospitals NHS Foundation Trust, UK
+FAU - Sutton, PM
+AU  - Sutton P
+AD  - Sheffield Teaching Hospitals NHS Foundation Trust, UK
+LA  - eng
+PT  - Journal Article
+PHST- 2021/09/27 [accepted]
+TA  - Ann R Coll Surg Engl
+JT  - Annals of The Royal College of Surgeons of England
+AID - 10.1308/rcsann.2021.0286 [doi]
+AID - rcsann.2021.0286 [pii]
+SO  - Ann R Coll Surg Engl. 2022 Jun;104(6):e190-2. doi:10.1308/rcsann.2021.0286.
+
+PMC - PMC9732635
+PMID- 36321600
+IS  - 1757-7853 (Print)
+IS  - 1757-7861 (Electronic)
+VI  - 14
+IP  - 12
+DP  - 2022 Dec
+TI  - Allogeneic Tendon Transplantation for the Treatment of Pathological Patellar
+      Ligament Defect in Children: Technical Note and 4‐Year Follow‐Up.
+PG  - 3431-40
+AB  - Objective: The absence of patellar ligament will bring about a severe negative
+      impact on daily life. Many reconstruction techniques have been described in
+      adults. However, there is a lack of technical introduction regarding the
+      reconstruction of the patellar ligament in children. The purpose of this study
+      was to report a surgical technique for reconstructing the patellar ligament in
+      children. Method: A retrospective analysis of the clinical data on a patellar
+      ligament (tendon sheath fibroma) patient with allogeneic tendon reconstruction.
+      An 8‐year‐old child with postoperative recurrence of left patellar ligament tumor
+      was enrolled in our study. Anterior tibialis tendon allograft was used to
+      reconstruct the patellar ligament after complete resection of the patellar
+      ligament for the tumor. The tunnels were constructed on the deep surface of the
+      tibial tubercle and the root of the quadriceps tendon (to decrease the harmful
+      impact on patella development), respectively. The allogeneic tendon was passed
+      through the tunnels above in the shape of “8,” and the two ends of the tendon
+      were attached to the bleeding bone bed at the inferior edge of the patella with
+      suture anchors to achieve better bone‐tendon healing. During the follow‐up, the
+      knee's range of motion and imaging manifestations were recorded. Result:
+      Postoperative pathology suggests chondromesenchymal hamartoma, a rare benign soft
+      tissue tumor different from the previous operation (tendon sheath fibroma).
+      During the 4‐year follow‐up, the patient's active range of motion of the knee
+      achieved 0° to 120°; and the patient could walk normally without any external
+      help. Physical examinations (the apprehension sign and J sign) showed no
+      ligamentous instability or patellar ligament tenderness. Imaging analysis showed 
+      that the ratio length of the patellar ligament to the patella was almost normal. 
+      The integrity, continuity, and shape of the allogeneic ligament showed excellent 
+      results in MRI. Combined with clinical and imaging findings, allogeneic tendon
+      patellar ligament reconstruction was deemed successful. Conclusion: Allogeneic
+      ligament reconstruction technique can provide a treatment option by
+      reconstructing the extensor mechanism, minimizing the impact on patellar
+      development, and augmenting biological healing for children with the absence of
+      the patellar ligament.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Zhou, Min
+AU  - Zhou M
+AUID- ORCID: https://orcid.org/0000-0002-9755-4549
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Long, Yi
+AU  - Long Y
+AUID- ORCID: https://orcid.org/0000-0001-6840-3517
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Yu, Menglei
+AU  - Yu M
+AUID- ORCID: https://orcid.org/0000-0002-5848-0508
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Guo, Jiang
+AU  - Guo J
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Tang, Yiyong
+AU  - Tang Y
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Li, Fangqi
+AU  - Li F
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Li, Qingyue
+AU  - Li Q
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Zhang, Yuanhao
+AU  - Zhang Y
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Zheng, Zhenze
+AU  - Zheng Z
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Hou, Jingyi
+AU  - Hou J
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+FAU - Yang, Rui
+AU  - Yang R
+AUID- ORCID: https://orcid.org/0000-0001-7457-5163
+AD  - Department of OrthopedicsSun Yat‐sen Memorial Hospital, Sun Yat‐sen
+      UniversityGuangzhouChina
+LA  - eng
+PT  - Journal Article
+DEP - 20221102
+GR  - 81972067
+PHST- 2022/07/21 [revised]
+PHST- 2021/04/18 [received]
+PHST- 2022/07/25 [accepted]
+TA  - Orthop Surg
+JT  - Orthopaedic Surgery
+AID - 10.1111/os.13475 [doi]
+AID - OS13475 [pii]
+SO  - Orthop Surg. 2022 Nov 02;14(12):3431-40. doi:10.1111/os.13475.

@@ -1,0 +1,117 @@
+.wrapper {
+    max-height: calc( 100vh - 150px );
+    overflow-y: auto;
+    position: relative;
+    /* margin-top: 90px; */
+}
+
+.article-title {
+    /* position: sticky; */
+    margin-bottom: 20px;
+    top: 0px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    z-index: 100;
+    padding: 10px 1.25rem;
+}
+
+/* ###################################### 
+    #### VALIDATE SEARCH TERM ######
+###################################### */
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.warning-alert {
+    border-radius: 7px;
+    border: 1px solid #FFBD52;
+    background: rgba(255, 189, 82, 0.22);
+    padding: 5px 20px;
+}
+
+.success-alert {
+    border-radius: 7px;
+    border: 1px solid  #17C3B2;
+    background-color: rgb(23, 195, 178, 0.22);
+    padding: 5px 20px;
+}
+
+.warning-button {
+    border-radius: 4px;
+    border: 1px solid #FFBD52;
+    color: white;
+    background-color: #FFBD52;
+    font-family: Times;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.warning-button:hover {
+    border-radius: 4px;
+    border: 1px solid #FFBD52;
+    color: #FFBD52;
+    background-color: transparent;
+}
+
+.success-button {
+    border-radius: 4px;
+    border: 1px solid #17C3B2;;
+    color: white;
+    background-color: #17C3B2;;
+    font-family: Times;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.success-button:hover {
+    border-radius: 4px;
+    border: 1px solid #17C3B2;
+    color: #17C3B2;
+    background-color: transparent;
+}
+
+.search-terms-validator {
+    display: flex;
+    align-items: center;
+}
+
+.warning-label {
+    color: #FFBD52;
+    font-family: Times;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.success-label {
+    color: #17C3B2;
+    font-family: Times;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

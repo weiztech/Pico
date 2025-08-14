@@ -1,0 +1,53 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
+<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> CiteMed add your citations Add-in </title>
+
+    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
+    <link rel="stylesheet" href="https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/office-ui-fabric-core/11.1.0/css/fabric.min.css"/>
+
+    <!-- Template styles -->
+    <link href="{% static 'css/theme/citemed_ms_word_extention.css' %}" rel="stylesheet" type="text/css" />
+    
+</head>
+
+<body class="ms-font-m ms-welcome ms-Fabric">
+    <header class="ms-welcome__header ms-bgColor-neutralLighter">
+        <img width="150" height="90" src="https://review.citemed.io/static/images/new_logo.svg" alt="Contoso" title="Contoso" />
+    </header>
+    <div id="debug" style="background-color: white;"> </div>
+    <main id="app-body" class="ms-welcome__main body-section" style="display: none;">
+        <form id="search-form" class="search-form">
+            <input type="search" placeholder="Search citation by title, abstract ...etc" id="search-input" class="search-input"/>
+        </form>
+
+        <div id="loading" class="loader"></div>
+
+        <ul  id="list-records" class="ms-List ms-welcome__features"> </ul>
+        
+        <div class="buttons" id="buttons-section">
+            <button id="previous" class="btn"> Previous Page </button>
+            <button id="current-page" class="btn"> </button>
+            <button id="next" class="btn"> Next Page </button>
+        </div>
+
+        <p><label id="item-subject"></label></p>
+    </main>
+</body>
+
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Office JavaScript API -->
+<script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+<script type="text/javascript" src="{% static 'lit_reviews/js/citemed_ms_word_extention.js' %}"></script>
+
+</html>

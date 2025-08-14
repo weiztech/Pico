@@ -1,0 +1,150 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%E2%80%98Robotic+surgery%E2%80%99+and+%E2%80%98ICG+imaging%E2%80%99+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 27899040
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170227
+LR  - 20170227
+IS  - 1745-2422 (Electronic)
+IS  - 1743-4440 (Linking)
+VI  - 14
+IP  - 1
+DP  - 2017 Jan
+TI  - Clinical role of fluorescence imaging in colorectal surgery - a review.
+PG  - 75-82
+LID - 10.1080/17434440.2017.1265444 [doi]
+AB  - INTRODUCTION: Anastomotic leak (AL) after colorectal surgery is a devastating
+      complication; decreased blood perfusion is an important risk factor. Surgeons
+      rely on subjective measures to assess bowel perfusion. Fluorescence imaging (FI) 
+      with indocyanine green (ICG) provides a real-time objective assessment of
+      intestinal perfusion. Areas covered: A PubMed search using the terms
+      'fluorescence imaging', 'indocyanine green', 'colon and rectal surgery' was
+      undertaken. Sixteen articles between 2010 to present were identified. Main
+      outcomes were leak rate reduction, change in surgical plan, and technical
+      feasibility. Change in surgical strategy due to FI was recorded in 11 studies.
+      Two case control studies showed overall reduction of 4% and 12% in AL rate and
+      one showed no change in AL rate between groups. Expert commentary: According to
+      the available literature, FI is technically feasible and alters surgical strategy
+      in a non-negligible number of patients possibly effecting AL rates.
+FAU - Mizrahi, Ido
+AU  - Mizrahi I
+AD  - a Department of Colorectal Surgery , Cleveland Clinic Florida , Weston , FL ,
+      USA.
+FAU - Wexner, Steven D
+AU  - Wexner SD
+AD  - a Department of Colorectal Surgery , Cleveland Clinic Florida , Weston , FL ,
+      USA.
+LA  - eng
+PT  - Journal Article
+PT  - Meta-Analysis
+PT  - Review
+DEP - 20161205
+PL  - England
+TA  - Expert Rev Med Devices
+JT  - Expert review of medical devices
+JID - 101230445
+SB  - IM
+MH  - Case-Control Studies
+MH  - Clinical Trials as Topic
+MH  - Colorectal Surgery/*methods
+MH  - Humans
+MH  - Optical Imaging/*methods
+MH  - Prospective Studies
+MH  - Retrospective Studies
+OTO - NOTNLM
+OT  - *Fluorescence imaging
+OT  - *anastomotic leak
+OT  - *colon surgery
+OT  - *indocyanine green
+OT  - *rectal surgery
+EDAT- 2016/12/03 06:00
+MHDA- 2017/02/28 06:00
+CRDT- 2016/12/01 06:00
+PHST- 2016/12/03 06:00 [pubmed]
+PHST- 2017/02/28 06:00 [medline]
+PHST- 2016/12/01 06:00 [entrez]
+AID - 10.1080/17434440.2017.1265444 [doi]
+PST - ppublish
+SO  - Expert Rev Med Devices. 2017 Jan;14(1):75-82. doi: 10.1080/17434440.2017.1265444.
+      Epub 2016 Dec 5.
+
+PMID- 27288654
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171030
+LR  - 20171030
+IS  - 1749-4486 (Electronic)
+IS  - 1749-4478 (Linking)
+VI  - 42
+IP  - 1
+DP  - 2017 Feb
+TI  - Controversies in the management of deep neck space infection in children: an
+      evidence-based review.
+PG  - 156-163
+LID - 10.1111/coa.12692 [doi]
+AB  - BACKGROUND: Deep neck space infection (DNSI) is defined as infection in the
+      potential spaces and fascial planes of the neck. Early recognition of DNSI can be
+      challenging due to the complex head and neck anatomy; hence, a high index of
+      suspicion is required to prevent a delay in diagnosis and appropriate management.
+      OBJECTIVE OF REVIEW: There remains a lack of consensus on the management of
+      paediatric DNSI with many advocating a more aggressive approach with immediate
+      surgical drainage, while others favour a more conservative approach with medical 
+      management in the first instance. The current literature on the management of
+      paediatric DNSI is reviewed. TYPE OF REVIEW AND SEARCH STRATEGY: A literature
+      review performed in November 2015 searched PubMed using the terms 'deep neck
+      space', 'infection', 'paediatric', 'pediatric', 'children', 'imaging',
+      'conservative', 'antibiotic' and 'surgery'. Articles not in the English language 
+      were excluded. RESULTS: (i) Clinical presentation: Management of a compromised
+      airway is the priority. Clinical history and examination enables the
+      identification of the primary source of infection and presence of complications. 
+      (ii) Investigations: Laboratory and microbiological investigations should be
+      appropriately targeted, and CT imaging is the modality utilised in most cases.
+      The presence of specific complications may warrant other imaging modalities.
+      (iii) Antibiotics: An evidence-based antibiotic regime is proposed. (iv)
+      Conservative treatment: In children lacking indications for surgical
+      intervention, a trial 48 h of intravenous antibiotics (IV Abx) should be
+      commenced. v) Surgical intervention: Indications include signs of airway
+      compromise, presence of complications, no clinical improvement after 48 h of IV
+      Abx, abscess >2.2 cm on CT imaging, age <4 years and ITU admission. CONCLUSIONS: 
+      An appreciation of head and neck anatomy is vital to understanding disease
+      pathology and potential complications of DNSI, which may be life threatening.
+      Both conservative and surgical approaches are viable treatment options and may
+      compliment each other. Current evidence suggests that clinical management should 
+      be targeted towards the individual patient as factors such as age of the child
+      may influence the balance of a conservative versus a surgical approach.
+CI  - (c) 2016 John Wiley & Sons Ltd.
+FAU - Lawrence, R
+AU  - Lawrence R
+AD  - Department of Otolaryngology, Queen's Medical Centre, Nottingham, UK.
+FAU - Bateman, N
+AU  - Bateman N
+AD  - Department of Otolaryngology, Royal Manchester Children's Hospital, Manchester,
+      UK.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20160630
+PL  - England
+TA  - Clin Otolaryngol
+JT  - Clinical otolaryngology : official journal of ENT-UK ; official journal of
+      Netherlands Society for Oto-Rhino-Laryngology & Cervico-Facial Surgery
+JID - 101247023
+SB  - IM
+MH  - Abscess/*diagnosis/etiology/*therapy
+MH  - Age Factors
+MH  - Child
+MH  - Fascia
+MH  - Humans
+MH  - *Neck
+EDAT- 2016/06/12 06:00
+MHDA- 2017/10/31 06:00
+CRDT- 2016/06/12 06:00
+PHST- 2016/06/09 00:00 [accepted]
+PHST- 2016/06/12 06:00 [pubmed]
+PHST- 2017/10/31 06:00 [medline]
+PHST- 2016/06/12 06:00 [entrez]
+AID - 10.1111/coa.12692 [doi]
+PST - ppublish
+SO  - Clin Otolaryngol. 2017 Feb;42(1):156-163. doi: 10.1111/coa.12692. Epub 2016 Jun
+      30.

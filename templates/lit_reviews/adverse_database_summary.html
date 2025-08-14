@@ -1,0 +1,239 @@
+{% extends 'base_lit_reviews.html' %} {% load static %} 
+{% load crispy_forms_tags %} 
+{% block 'head' %}
+    <link
+    href="{% static 'css/theme/adverse_events.css' %}"
+    rel="stylesheet"
+    type="text/css"
+    />
+{% endblock %} 
+
+{% block 'help_section' %}
+    <a
+    href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/fixing-missing-citations"
+    target="_blank"
+    >
+    <span >Need help with this page? <br /> Read the Wiki</span>
+    <div>
+        <img src="{% static 'images/icons/wiki-icon.svg' %}" />
+    </div>
+    </a>
+{% endblock %} 
+
+{% block 'body' %}
+
+    <div class="form-content" id="ae-list">
+        <div class="section-header mb">
+            <div class="center-v w-100">
+                Adverse Database Summaries
+                <div
+                class="tooltip-elt"
+                title="This view displays a list of all included/similar Adverse Events & Recalls related to the literature review, and categorizes them by their database. It also allows users to add a summary for each database listed in this view."
+                >
+                <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="" />
+                </div>
+                <div class="tooltip" style="padding-left: 10px;">
+                    <a class="help-button warning"
+                    href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/adverse-event-review#writing-adverse-event-summaries"
+                    target="_blank">
+                      <span>What do I do on this page?</span>
+                    </a>
+                    <span class="tooltiptext">Need help with this page? <br/> Read the Wiki</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="horizantal-devider mt-2 mb-2"></div>
+
+        <div>
+            {% for row in rows %}
+                <h2 class="mb-2">{{ row.database }}</h2>
+            {% if row.ae_events %}
+                <h3 class="mt-2 mb">Events</h3>
+                <table class="custom-table">
+                    <thead >
+                        <tr>
+                        <th style="width: 80px;">
+                            ID
+                        </th>
+                        <th style="width: 150px;">Event DB Name</th>
+                        <th style="width: 100px;">Event Link </th>
+                        <th style="width: 120px;">Event Type</th>
+                        <th style="width: 200px;">Event Description</th>
+                        <th style="width: 140px;">Event Manufacturer</th>
+                        <th style="width: 120px;">Event Date</th>
+                        <th style="width: 250px;"> Manual Details </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ae_event in row.ae_events %}
+                        <tr>
+                        <td> #{{ ae_event.ae.id }}</td>
+                        <td>{{ ae_event.ae.db.name }}</td>
+                        <td> 
+                            {% if ae_event.ae.event_uid %}
+                                <a class="link" target="_blank" href="{{ ae_event.ae.event_uid }}"> Event Link </a>
+                            {% else %}
+                                <span> Not Available. </span>
+                            {% endif %}
+                        </td>
+                        <td>{{ ae_event.ae.event_type }}</td>
+                        <td>
+                            <div class="event-desc" title="{{  ae_event.ae.description }}">
+                                {{ ae_event.ae.description|make_list|slice:':100'|join:'' }}...
+                            </div>
+                        </td>
+                        <td>{{ ae_event.ae.manufacturer }}</td>
+                        <td>{{ ae_event.ae.event_date }}</td>
+                        <td>
+                            <div class="mt">
+                                <strong> Manual Type: </strong> {{ ae_event.ae.manual_type }}
+                            </div>
+                            <div class="mt">
+                                <strong> Manual Severity: </strong> {{ ae_event.ae.manual_severity }}
+                            </div>
+                            <div class="mt">
+                                <strong> Manual link : </strong>
+                                {% if ae_event.ae.manual_link %}
+                                <a
+                                    href="{{ ae_event.ae.manual_link }}"
+                                    target="_blank"
+                                    class="link"
+                                >
+                                    Review
+                                </a>
+                                {% else %}
+                                    Not Available.
+                                {% endif %}
+                            </div>
+                            <div class="mt">
+                                <strong> Manual PDF : </strong>
+                                {% if ae_event.ae.manual_pdf %}
+                                <a
+                                    href="{{ ae_event.ae.manual_pdf.url }}"
+                                    target="_blank"
+                                    class="link"
+                                >
+                                    Review PDF
+                                </a>
+                                {% else %}
+                                    Not Available.
+                                {% endif %}
+                            </div>
+                        </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% elif row.events_exceeded_limits %}
+                <div class="mt-2">
+                    <h3>Events</h3>
+                    There are more than 100 adverse events included please follow
+                    <a
+                        href="{% url 'literature_reviews:ae_list' id=literature_review_id %}"
+                        target="_blank"
+                    >
+                        this link
+                    </a>
+                    to review the list of included events
+                </div>
+            {% endif %} 
+            {% if row.ae_recalls %}
+                <h3 class="mt-2 mb">Recalls</h3>
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                ID
+                            </th>
+                            <th>Recall DB Name</th>
+                            <th>Recall UID</th>
+                            <th>Product Desc</th>
+                            <th>Recall Class</th>
+                            <th>Trade Name</th>
+                            <th>First Name</th>
+                            <th>Recall Resson</th>
+                            <th>Recall Date</th>
+                            <th style="width: 250px;"> Manual Details </th>   
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ae_recall in row.ae_recalls %}
+                        <tr>
+                        <td>#{{ ae_recall.ae.id }}</td>
+                        <td>{{ ae_recall.ae.db.name }}</td>
+                        <td>{{ ae_recall.ae.event_uid }}</td>
+                        <td>{{ ae_recall.ae.product_description }}</td>
+                        <td>{{ ae_recall.ae.recall_class }}</td>
+                        <td>{{ ae_recall.ae.trade_name }}</td>
+                        <td>{{ ae_recall.ae.firm_name }}</td>
+                        <td>{{ ae_recall.ae.recall_reason }}</td>
+                        <td>{{ ae_recall.ae.event_date }}</td>
+                        <td>
+                            <div class="mt">
+                                <strong> Manual Type: </strong> {{ ae_recall.ae.manual_type }}
+                            </div>
+                            <div class="mt">
+                                <strong> Manual Severity: </strong> {{ ae_recall.ae.manual_severity }}
+                            </div>
+                            <div class="mt">
+                                <strong> Manual link : </strong>
+                                {% if ae_recall.ae.manual_link %}
+                                <a
+                                    href="{{ ae_recall.ae.manual_link }}"
+                                    target="_blank"
+                                    class="link"
+                                >
+                                    Review
+                                </a>
+                                {% else %}
+                                    Not Available.
+                                {% endif %}
+                            </div>
+                            <div class="mt">
+                                <strong> Manual PDF : </strong>
+                                {% if ae_recall.ae.manual_pdf %}
+                                <a
+                                    href="{{ ae_recall.ae.manual_pdf.url }}"
+                                    target="_blank"
+                                    class="link"
+                                >
+                                    Review PDF
+                                </a>
+                                {% else %}
+                                    Not Available.
+                                {% endif %}
+                            </div>
+                        </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% elif row.recalls_exceeded_limits %}
+                <div class="mt-2">
+                    <h3>Recalls</h3>
+                    <a
+                        href="{% url 'literature_reviews:ae_list' id=literature_review_id %}"
+                        target="_blank"
+                    >
+                        There are more than 100 recalls included please follow this link to
+                        review the list of included recalls
+                    </a>
+                </div>
+            {% endif %}
+            <form method="post">
+                {% csrf_token %} {% crispy row.form row.form.helper %}
+                {% if is_archived %}
+                    <input type="submit" value="Submit" class="primary-button mt disabled" />
+                {% else %}
+                    <input type="submit" value="Submit" class="primary-button mt" />
+                {% endif %}
+            </form>
+
+            {% with rows|last as last %} {% if last.database != row.database %}
+                <div class="horizantal-devider mt-2 mb-2"></div>
+            {% endif %} {% endwith %} {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

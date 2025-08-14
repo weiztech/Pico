@@ -1,0 +1,610 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+{% comment %} <link href="{% static 'css/theme/projects.css' %}" rel="stylesheet" type="text/css" /> {% endcomment %}
+<link href="{% static 'css/theme/literature_review_list_vue.css' %}" rel="stylesheet" type="text/css" />
+<link href="{% static 'css/theme/articles_list.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+
+{% block 'body' %}
+
+<div id="app" v-cloak>
+  {% if literature_reviews_count < 3 %}
+    <div class="onboarding-section">
+      <div class="center-v w-100 mb-2">
+        <div class="onbording-container">
+          <div class="onbording-div" v-on:click="showModal('letter-popup')">
+            <div class="onbording-icon">
+              <img
+                src="{% static 'images/sidebar/mail-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+              A Letter from our Founder
+            </span>
+          </div>
+          <div class="onbording-div" v-on:click="showModal('intro-video-popup')">
+            <div class="onbording-icon">
+              <img
+                src="{% static 'images/icons/video-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+              Watch an Intro Video
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-v w-100">
+        <div class="onbording-container">
+          <div class="onbording-div" v-on:click="initiatTourGuide">
+            <div class="onbording-icon">
+              <img
+                src="{% static 'images/sidebar/play-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+              Take A Quick Onboarding Tour
+            </span>
+          </div>
+          <a href="https://citemedical.notion.site/Complete-User-Guide-CiteMed-io-624483282e594f7d8bb71611100fd7cc" target="_blank" class="onbording-div">
+            <div class="onbording-icon">
+              <img
+                src="{% static 'images/icons/wiki-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+              Read Our Documentation
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Pop Up Models For Onboarding Section -->
+      <div class="modal bg-modal" id="letter-popup">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-video">
+                    Letter From Our Founder
+                </div>
+                <div class="modal-body"> 
+                  <div class="onboarding-letter">
+                    <h2>Welcome, {{ user.username }}</h2>
+                    <p>Thanks for giving us a try. I’ll keep this brief.</p>
+                    <p>We’ve designed <a href="http://CiteMed.io" target="_blank">CiteMed.io</a> to do one thing only. Allow you to perform systematic literature reviews as quickly and accurately as possible, without over-complicating and over-selling the process.</p>
+                    <p>Search, review, extract, make an output. We’re confident we do this better than anyone else out there.</p>
+                    <p>There are loads of tools that claim to do that, but none you can simply sign up for and try your project out on. That’s where we differ. We want people to use our app, break it, and tell us about it. In an ideal world, things never break, but you will at least have a question or two about a confusing screen, or a ‘what do I do here?’ kind of moment.</p>
+                    <p>For these and more, we’re here for you.</p>
+                    <p>A few ways to get going as quickly and smoothly as possible:</p>
+                    <ol>
+                      <li>You can watch the video to the right where I set up a project.</li>
+                      <li>You can take a look at our example project filled with data.</li>
+                      <li>Or you can just create your own and get to work with some questions/answers along the way.</li>
+                    </ol>
+                    <p>If you have a team, or prefer the personal touch, you can book a time slot with me and the team right <a href="https://meetings.hubspot.com/ethan-drower/citemedio-onboarding" target="_blank">here at this link</a>. We’ll help you set up a real project and start reviewing. No charge.</p>
+                    <p>I could keep going, but at this point, we think it’s best for you to give the app a try and let us know your feedback. We’re a click or email away if you need us.</p>
+                    <p>Sincerely,</p>
+                    <p style="color: var(--Gray-500);">Ethan Drower & Team CiteMed.</p>
+                  </div>
+                </div>
+                <div class="modal-footer modal-footer-video">
+                    <button 
+                        class="secondary-gray-button ml w-100" 
+                        v-on:click="hideModal('letter-popup')"
+                    > Close </button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal bg-modal" id="intro-video-popup">
+        <div class="modal-dialog modal-dialog-video">
+            <div class="modal-content">
+                <div class="modal-header modal-header-video">
+                    Intro Video
+                </div>
+                <div class="modal-body"> 
+                  <iframe src="https://www.loom.com/embed/2d233c970c8441a5aa85432b5b47842f?sid=18e46bdc-9970-4bf8-a693-88435ae6c68a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width: 100%; height: 470px;"></iframe>
+                </div>
+                <div class="modal-footer modal-footer-video">
+                    <button 
+                        class="secondary-gray-button ml w-100" 
+                        v-on:click="hideModal('intro-video-popup')"
+                    > Close </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  
+  <div class="form-contentt">
+    
+    <div class="analysis-card" id="tour-step-01">
+      <div class="analysis-card-header">
+        Articles Overview
+      </div>
+
+      <div class="analysis-card-content">
+        <div>
+          <div class="articles-count secondary"> 
+            [[ reviewAnalysis && formatCount(reviewAnalysis.counts.total) ]]
+          </div>
+          <div class="articles-count-desc secondary">
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="3" fill="#6B7281"/>
+            </svg>
+            Total
+          </div>
+        </div>
+
+        <div class="vertical-devider" style="height: 52px;"> </div>
+
+        <div> 
+          <div class="articles-count primary"> 
+            [[ reviewAnalysis && formatCount(reviewAnalysis.counts.reviewed) ]]
+          </div>
+          <div class="articles-count-desc primary">
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="3" fill="#3578FF"/>
+            </svg>
+            Reviewed
+          </div>
+        </div>
+
+        <div class="vertical-devider" style="height: 52px;"> </div>
+
+        <div>
+          <div class="articles-count warning"> 
+            [[ reviewAnalysis && formatCount(reviewAnalysis.counts.pending) ]]
+          </div>
+          <div class="articles-count-desc warning">
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="3" fill="#F78009"/>
+            </svg>
+            Pending
+          </div>
+        </div>
+
+        <div class="vertical-devider" style="height: 52px;"> </div>
+
+        <div>
+          <div class="articles-count success"> 
+            [[ reviewAnalysis && formatCount(reviewAnalysis.counts.completed) ]]
+          </div>
+          <div class="articles-count-desc success">
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4.00002" cy="4" r="3" fill="#21BD62"/>
+            </svg>
+            Completed
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="filters">
+      <div class="search-section">
+        <form @submit.prevent="onSearch">
+          <input 
+            type="search" 
+            placeholder="Search by Project name, Device and Company" 
+            name="article-search" 
+            v-model="searchTerm"
+          />
+          <button type="submit" class="search-button">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z" fill="#9BA5B9"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z" fill="#9BA5B9"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="filter-button ml projects-list-tour" v-on:click="showModal('filters-slider')" id="tour-step-04">
+        <div class="filter-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg v-if="isFilterApplied" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+            <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+          </svg>
+        </div>
+        Filter Results
+      </div>
+
+      <div class="filter-button ml" v-if="isFilterApplied" v-on:click="onClearFilters">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Clear Filters
+      </div>
+
+      <div class="slider" id="filters-slider">
+        <div class="slider-dialog">
+          <div class="slider-dialog-inner ">
+            <div class="slider-header">
+              <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              Filters
+            </div>
+
+            <div class="slider-content">
+              <div class="filter-section">
+                <div class="header"> Created Date </div>
+                <div class="filter-checks"> 
+                  <div class="d-grid grid-2 gap-10">
+                    <div class="field-control">
+                      <label>Start Date</label>
+                      <input type="date" v-model="selectedStartDate" />
+                    </div>
+                    <div class="field-control">
+                      <label>End date</label>
+                      <input type="date" v-model="selectedEndDate" />
+                    </div>
+                  </div>
+                  <!-- <div class="filter-check"> 
+                    
+                  </div> -->
+                </div>
+              </div>
+              <div class="horizantal-devider "> </div>
+              
+              <div class="filter-section" v-if="litReivews.length">
+                <div class="header"> Device Type </div>
+                <div class="filter-checks"> 
+                  <div class="filter-check"> 
+                    <select name="" id="" v-model="selectedDeviceType">
+                      <option value="">Select a Device</option>
+                      <option :value="device.id" :key="device.id" v-for="device in devicesTypeFilter">[[device.name]]</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="horizantal-devider "> </div>
+
+              <div class="filter-section" v-if="litReivews.length">
+                <div class="header"> Manufacturer Type </div>
+                <div class="filter-checks"> 
+                  <div class="filter-check"> 
+                    <select name="" id="" v-model="selectedManufacturerType">
+                      <option value="">Select a Manufacturer </option>
+                      <option 
+                        :value="manufacturer.id" 
+                        :key="manufacturer.id" 
+                        v-for="manufacturer in manufacturersTypeFilter"
+                      > 
+                        [[manufacturer.name]]
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="horizantal-devider "> </div>
+
+              <!-- Project Type Filter-->
+              <div class="filter-section">
+                <div class="header"> Project Type </div>
+                <div class="filter-selects">                         
+                                         
+                  <div class="filter-select position-relative" :class="{selected:!projecTypeFilter.length || projecTypeFilter.includes('all')}"> 
+                      <input type="checkbox" v-model="projecTypeFilter" value="all" /> All
+                  </div>
+                  
+                  <div class="filter-select position-relative" :class="{selected:projecTypeFilter.includes('lit_review')}"> 
+                      <input type="checkbox" v-model="projecTypeFilter" value="lit_review"/> Lit Review
+                  </div>
+                  <div class="filter-select position-relative" :class="{selected:projecTypeFilter.includes('CER')}"> 
+                      <input type="checkbox" v-model="projecTypeFilter" value="CER"/> CER
+                  </div>
+                  <div class="filter-select position-relative" :class="{selected:projecTypeFilter.includes('PMCF')}"> 
+                      <input type="checkbox" v-model="projecTypeFilter" value="PMCF"/> PMCF
+                  </div>
+                  <div class="filter-select position-relative" :class="{selected:projecTypeFilter.includes('Vigilance')}"> 
+                      <input type="checkbox" v-model="projecTypeFilter" value="Vigilance"/> Vigilance
+                  </div>                      
+                </div>
+              </div>
+
+              <div class="horizantal-devider "> </div>
+              <!-- Search Type Filter-->
+              <div class="filter-section">
+                <div class="header"> Search Type </div>
+                <div class="filter-selects">                                                                        
+                  <div class="filter-select position-relative" :class="{selected:!searchTypeFilter.length || searchTypeFilter.includes('all')}"> 
+                      <input type="checkbox" v-model="searchTypeFilter" value="all" /> All
+                  </div>                        
+                  <div class="filter-select position-relative" :class="{selected:searchTypeFilter.includes('regular')}"> 
+                      <input type="checkbox" v-model="searchTypeFilter" value="regular"/> Regular
+                  </div>
+                  <div class="filter-select position-relative" :class="{selected:searchTypeFilter.includes('auto_search')}"> 
+                      <input type="checkbox" v-model="searchTypeFilter" value="auto_search"/> Auto search
+                  </div>                                            
+                </div>
+              </div>
+
+              <div class="horizantal-devider "> </div>
+              <!-- Status Filter-->
+              <div class="filter-section">
+                <div class="header"> STATUS </div>
+                <div class="filter-selects">                         
+                                         
+                  <div class="filter-select position-relative" :class="{selected:!statusFilter.length || statusFilter.includes('all')}"> 
+                      <input type="checkbox" v-model="statusFilter" value="all"/> All
+                  </div>
+                  
+                  {% comment %}
+                    <div class="filter-select position-relative" :class="{selected:statusFilter.includes('In Progress')}"> 
+                        <input type="checkbox" v-model="statusFilter" value="In Progress"/> In Progress
+                    </div>
+                    <div class="filter-select position-relative" :class="{selected:statusFilter.includes('Completed')}"> 
+                        <input type="checkbox" v-model="statusFilter" value="Completed"/> Completed
+                    </div>                                              
+                    <div class="filter-select position-relative" :class="{selected:statusFilter.includes('Cancelled')}"> 
+                        <input type="checkbox" v-model="statusFilter" value="Cancelled"/> Cancelled
+                    </div>                                              
+                    <div class="filter-select position-relative" :class="{selected:statusFilter.includes('Not Started')}"> 
+                        <input type="checkbox" v-model="statusFilter" value="Not Started"/> Not Started
+                    </div>      
+                  {% endcomment %}
+
+                  <div class="filter-select position-relative" :class="{selected:statusFilter.includes('active')}"> 
+                    <input type="checkbox" v-model="statusFilter" value="active"/> Active
+                  </div> 
+                  <div class="filter-select position-relative" :class="{selected:statusFilter.includes('archived')}"> 
+                      <input type="checkbox" v-model="statusFilter" value="archived"/> Archived
+                  </div>                                              
+                </div>
+              </div> 
+            </div>
+            <div class="slider-content">
+         
+
+            </div>
+          
+            <div class="slider-footer" style="position: absolute;">
+              <button class="primary-button" v-on:click="onSearch" :disabled="isLoading">
+                Apply Filters
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="ml-auto center-v">
+        {% if env != "PROD" %}
+          <button
+              target-id="test-project"
+              class="secondary-button mr"
+              v-on:click="showModal('test-project')"
+          > Create Test Project
+          </button>
+
+          <!-- Create Test Project Modal -->
+          <div class="modal" id="test-project">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <div class="modal-header-icon-wrapper info-icon">
+                              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M15.8754 12.4995H12.5004M12.5004 12.4995H9.12537M12.5004 12.4995V15.8744M12.5004 12.4995L12.5004 9.12447M21.5 6.87498L21.5 18.125C21.5 19.989 19.989 21.5 18.125 21.5H6.875C5.01104 21.5 3.5 19.989 3.5 18.125V6.87498C3.5 5.01103 5.01104 3.5 6.875 3.5H18.125C19.989 3.5 21.5 5.01103 21.5 6.87498Z" stroke="#014EE9" stroke-width="1.2" stroke-linecap="round"/>
+                              </svg>
+                          </div>
+                          Create Test Project
+                      </div>
+                      <div class="modal-body" >
+                          <div>
+                              <div style="width: max-content;"> <label for="ltreviews" class="text-left"> Select a project </label> </div>
+                              <select id="ltreviews">
+                                  {% for review in object_list %}
+                                      <option value="{{review.id}}"> {{ review }} </option>
+                                  {% endfor %}
+                              </select>
+                          </div>
+                          <div style="text-align: left;">
+                              <label class="text-left" for="device-name"> Device Name</label>
+                              <input type="text" name="device-name" id="device-name">
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" id="createLiteratureProjectTestBTN" class="primary-button mr">
+                              <div class="loader" style="display: none;"></div>
+                              <span class="content"> Create </span>
+                          </button>
+                          <button type="button" class="secondary-gray-button" v-on:click="hideModal('test-project')">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        {% endif %}
+
+        <a class="ml-auto projects-list-tour" href="{% url 'literature_reviews:create_literaturereview' %}" role="button" aria-pressed="true" id="tour-step-02">
+          <button class="primary-button mr"> Create New Project    </button>
+        </a> 
+      </div>
+
+    </div> 
+
+    <!-- <v-tour :steps="steps" :options="tourOptions" name="projects-tour"></v-tour> -->
+
+    <p v-if="isLoading">Loading ...</p>
+    <div v-else>    
+    <table class="custom-table projects-list-tour" id="tour-step-03">
+      <thead>
+        <tr>            
+          <th>
+            <span v-on:click="sortBy('project__project_name')" >
+              Project Name
+              <img src="{% static 'images/icons/filter.png' %}" />
+            </span>
+          </th>
+          <th> Device</th> 
+          <th> Manufacturer </th>            
+          <th> Company </th>
+          <th> Type </th>
+          <th> Created at </th>
+          <th style="width: 280px;"> Articles State </th>
+      </tr>
+      </thead>
+      <tbody v-if="litReivews.length" class="bg-white">
+        <tr v-for="review in litReivews" :id="'review-'+review.id" :key="review.id">         
+          <td> 
+            <a :href="review.absolute_url">
+              <div class="center-v table-cell"> 
+                <div class="table-cell-text"> [[ getProjectName(review) ]]  </div>
+                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none" >
+                  <path d="M5.4375 2H3.1875C2.25552 2 1.5 2.75552 1.5 3.68749V9.31251C1.5 10.2445 2.25552 11 3.1875 11H8.8125C9.74448 11 10.5 10.2445 10.5 9.31251V7.06247M7.68722 2.00014L10.5 2M10.5 2V4.5313M10.5 2L5.71834 6.78109" stroke="#9BA5B9" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </a> 
+          </td>
+          <td> 
+            <div class="table-cell">
+              [[ review.device ? review.device.name : '' ]]
+            </div>
+          </td>
+          <td> 
+            <div class="table-cell">
+              [[ review.manufacturer ? review.manufacturer : '' ]]
+            </div>
+          </td>
+          <td> 
+            <div class="table-cell">
+              [[ review.client ? review.client.name : '' ]]
+            </div>
+          </td>
+          <td> 
+            <div class="table-cell">
+              [[ review.is_autosearch ? 'Auto Search': 'Regular' ]] - [[ review.project ? review.project.type_display: '' ]] 
+            </div>
+          </td>
+          <td> 
+            <div class="table-cell">
+              [[ review.created_at ? review.created_at : review.date_of_search ]]
+            </div> 
+          </td>
+          <td> 
+            <div class="table-cell">
+              <div class="acticle-state mr">
+                <div class="badge secondary w-100"> Total : [[ review.articles_analysis.total ]]</div>
+                <div class="badge primary"> Reviewed : [[ review.articles_analysis.reviewed ]]</div>
+              </div>
+              <div class="acticle-state">
+                <div class="badge warning"> Pending : [[ review.articles_analysis.pending ]]</div>
+                <div class="badge success"> Completed : [[ review.articles_analysis.completed ]]</div>
+              </div>
+            </div>
+          </td>                  
+        </tr>
+      </tbody>
+    </table>
+   
+  
+    <div class="table-footer" id="step2">
+      <div class="left-section"> 
+        <select v-model="pageSize">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+      </div>
+      <div class="middle-section projects-list-tour" id="tour-step-05"> 
+        <div class="pagination">
+          <span> 
+            <button :class="pagination.previous ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadLitReviews(pagination.current-1)">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </span>         
+          <div class="pagination-content">
+            
+            <button 
+              class="pagintaion-item" 
+              v-on:click="loadLitReviews(1)" 
+              v-if="pagination.current > 1"
+            > 1
+            </button>
+            <button class="seperator" v-if="pagination.current > 2"> ... </button>
+  
+            <button 
+              v-for="page in pagination.page_range" 
+              :class="page === pagination.current ? 'pagintaion-item selected' : 'pagintaion-item'"
+              v-if="page === pagination.current || ( page < pagination.last && page > 1)" 
+              v-on:click="loadLitReviews(page)"
+            > 
+              [[page]]
+            </button>
+            <button class="seperator" v-if="pagination.current < pagination.last"> ... </button>
+            <button 
+              class="pagintaion-item" 
+              v-on:click="loadLitReviews(pagination.last)" 
+              v-if="pagination.current < pagination.last"
+            > [[pagination.last]]
+            </button>
+          </div>
+  
+          <span> 
+            <button :class="pagination.next ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadLitReviews(pagination.current+1)" >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.93994 13.28L10.2866 8.93333C10.7999 8.42 10.7999 7.58 10.2866 7.06667L5.93994 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div class="right-section"> 
+        [[tablePageIndicator]]
+      </div>
+    </div>
+  </div>
+
+    <!-- loader section -->
+    <div class="update-loading-section" id="update-loading-section">
+      <div class="update-loading-popup">
+          <div class="mb-4">
+              <img
+              src="{% static 'images/new_logo.svg' %}"
+              class="d-inline-block align-top"
+              alt="citemed-logo"
+              />
+          </div>
+  
+          <div class="mt-3">
+              Please don't refresh the page Until the process is completed.
+          </div>
+          
+          <div class="update-loading-popup-progress"><div></div><div></div><div></div></div>
+      </div>
+  
+    </div>
+  
+  </div>
+</div>
+
+
+{% endblock %}
+
+
+{% block 'after-body' %} 
+<script>
+    const literatureReviewURL = "{% url 'lit_reviews:literature_review_list_api' %}"; 
+    const literatureReviewAnalysisURL = "{% url 'lit_reviews:literature_review_analysis_api' %}"; 
+
+</script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/lit_reviews_list_vue.js' %}"></script>
+{% endblock %}

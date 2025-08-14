@@ -1,0 +1,250 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27IMAGE1+Rubina%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8232793
+PMID- 34203814
+IS  - 2079-7737 (Electronic)
+VI  - 10
+IP  - 6
+DP  - 2021 Jun
+TI  - Walnut (J. regia) Agro-Residues as a Rich Source of Phenolic Compounds.
+LID - 535
+AB  - Simple Summary: Agro-residues are usually discarded as landfill, or burnt or left
+      to decompose in the orchard. The efficient use of these walnut agro-residues
+      would be a strategy that simultaneously helps to preserve the environment and
+      boosts the economic outcome for farmers and companies. While some studies have
+      reported on the content of bioactive compounds in walnut husks, little or nothing
+      is known to date about the bioactive compounds in the buds and bark. Potentially,
+      if walnut parts are used as a valuable source of bioactive compound, they might
+      still be reused for other purposes. The identification and quantification of new 
+      phenolics between the different parts of the plant was carried out. It provided
+      valuable data on their phenolic contents, and demonstrated where the extraction
+      of individual phenolics would be meaningful. These data also show origin-related 
+      phenolic contents across the cultivars, and thus these phenolic profiles might
+      serve to define the origins of different walnut cultivars. The study will help to
+      propose new directions for further studies essential for agro-food, cosmetics and
+      pharmacy industries. Abstract: The present study was designed to identify and
+      quantify the major phenolic compounds (phenolics) in the inner and outer husks,
+      buds and bark of the Persian walnut, Juglans regia L. A comparison across six
+      different cultivars grown in Slovenia was also carried out: ‘Fernor’, ‘Fernette’,
+      ‘Franquette’, ‘Sava’, ‘Krka’ and ‘Rubina’. A total of 83 compounds were
+      identified, which included 25 naphthoquinones, 15 hydroxycinnamic acids, 8
+      hydroxybenzoic acids, 13 flavanols, 2 flavones, 1 flavanone and 19 flavonols. For
+      the first time, 38 phenolics in the husks, 57 phenolics in the buds and 29
+      phenolics in the bark were presented in J. regia within this study.
+      Naphthoquinones were the major phenolics determined, approximately 75% of all
+      analysed phenolics in the inner husk, 85% in the outer husk, 50% in buds and 80% 
+      in bark. The highest content of phenolics was found in the walnut buds, followed 
+      by the bark, the inner husk and the outer husk. On the basis of these high
+      phenolic contents, walnut husks, buds and bark represented valuable by-products
+      of the walnut tree. These data also show origin-related phenolic contents across 
+      the cultivars, and thus these phenolic profiles might serve to define the origins
+      of different walnut cultivars.
+FAU - Medic, Aljaz
+AU  - Medic A
+AUID- ORCID: https://orcid.org/0000-0002-1533-2628
+FAU - Jakopic, Jerneja
+AU  - Jakopic J
+AUID- ORCID: https://orcid.org/0000-0002-2920-7668
+FAU - Solar, Anita
+AU  - Solar A
+AUID- ORCID: https://orcid.org/0000-0001-9755-4998
+FAU - Hudina, Metka
+AU  - Hudina M
+AUID- ORCID: https://orcid.org/0000-0002-1821-5443
+FAU - Veberic, Robert
+AU  - Veberic R
+AUID- ORCID: https://orcid.org/0000-0002-1421-5163
+LA  - eng
+PT  - Journal Article
+DEP - 20210615
+PHST- 2021/05/24 [received]
+PHST- 2021/06/10 [accepted]
+TA  - Biology (Basel)
+JT  - Biology
+AID - 10.3390/biology10060535 [doi]
+AID - biology-10-00535 [pii]
+SO  - Biology (Basel). 2021 Jun 15;10(6):. doi:10.3390/biology10060535.
+
+PMC - PMC6963724
+PMID- 31756943
+IS  - 2304-8158 (Electronic)
+VI  - 8
+IP  - 12
+DP  - 2019 Dec
+TI  - Influence of Ripening Stage and Cultivar on Physicochemical Properties and
+      Antioxidant Compositions of Aronia Grown in South Korea.
+LID - 598
+AB  - The present study investigated the fruits of aronia (Aronia melanocarpa) across
+      different stages of maturity and analyzed their physicochemical properties,
+      antioxidant compositions, and activities. The selected aronia cultivars
+      (‘Viking’, ‘McKenzie’, and ‘Kingstar K1’ were categorized based on maturity into 
+      the immature stage (red tip), intermediary stage (red), and mature stage (dark
+      purple). The key sugar components of aronia fruits were fructose, glucose, and
+      sorbitol, while the main organic acid was found to be malic acid. The antioxidant
+      content and activity of all three aronia cultivars showed significantly higher
+      values for the red tip stage than the red or dark purple stages. However, the
+      total anthocyanin content of aronia was the highest at the dark purple stage in
+      three cultivars. The main polyphenols in aronia fruits were found to be catechol 
+      and chlorogenic acid, with a decreasing tendency as maturation progressed. As a
+      result, the red tip stage of aronia fruits contains comparatively more abundant
+      flavonoids, phenolic compounds and polyphenols than the dark purple stage, with
+      higher antioxidant activity.
+FAU - Yang, Haejo
+AU  - Yang H
+AD  - Department of Environmental Horticulture, Dankook University, Cheonan, Chungnam
+      31116, Korea; gowh1231@naver.com
+FAU - Kim, Young-Jun
+AU  - Kim YJ
+AUID- ORCID: https://orcid.org/0000-0001-7232-6008
+AD  - Department of Food Science and Technology, Seoul National University of Science
+      and Technology, Seoul 01811, Korea
+FAU - Shin, Youngjae
+AU  - Shin Y
+AD  - Department of Food Engineering, Dankook University, Cheonan, Chungnam 31116,
+      Korea
+LA  - eng
+PT  - Journal Article
+DEP - 20191120
+PHST- 2019/10/17 [received]
+PHST- 2019/11/19 [accepted]
+TA  - Foods
+JT  - Foods
+AID - 10.3390/foods8120598 [doi]
+AID - foods-08-00598 [pii]
+SO  - Foods. 2019 Nov 20;8(12):. doi:10.3390/foods8120598.
+
+PMC - PMC5550924
+PMID- 28808585
+IS  - 2058-6124 (Electronic)
+VI  - 3
+DP  - 2017
+TI  - Spinal cord injury during the second trimester of pregnancy.
+PG  - 17052-
+AB  - Introduction:: Pregnancies in women with spinal cord injury (SCI) are at greater 
+      risk of morbidity and mortality. Although pregnancy after SCI is well elaborated 
+      in the literature, SCI occurring during pregnancy is rarely reported. Abrupt
+      changes in the body physiology because of SCI and the resulting disability add a 
+      risk to maternal and fetal well-being. Not only is the burden of care increased
+      but there is also a higher risk of developing pressure ulcers, urinary tract
+      infections, autonomic instability, intrauterine growth retardation and venous
+      thromboembolism. Case Presentation:: We report a case of a 32-year-old lady who
+      had a traumatic SCI at C6 level during the second trimester of her pregnancy. She
+      was admitted to a tertiary care rehabilitation facility after 2 months of her
+      injury. This case highlights the comprehensive approach toward her management,
+      including rehabilitation, spinal intervention and obstetrical care. To the best
+      of our knowledge, this is the first case report of its kind from the Middle East.
+      Discussion:: Multi-system involvement due to SCI during pregnancy results in
+      intense physiological changes that affect the treatment options for anesthesia,
+      surgery, labor and comprehensive rehabilitation. This case report emphasizes the 
+      need for well-equipped, specialized centers for similar patients in developing
+      health systems and aims to increase the awareness for management of SCI during
+      pregnancy using a comprehensive approach.
+FAU - Qureshi, Ahmad Zaheer
+AU  - Qureshi AZ
+AD  - Department of Physical Medicine and Rehabilitation King Fahad Medical City,
+      Riyadh, Saudi Arabia
+FAU - Ullah, Sami
+AU  - Ullah S
+AD  - Department of Physical Medicine and Rehabilitation King Fahad Medical City,
+      Riyadh, Saudi Arabia
+FAU - AlSaleh, Anas Jehad
+AU  - AlSaleh AJ
+AD  - Department of Physical Medicine and Rehabilitation King Fahad Medical City,
+      Riyadh, Saudi Arabia
+FAU - Ullah, Rubina’
+AU  - Ullah R
+AD  - Department of Physical Medicine and Rehabilitation King Fahad Medical City,
+      Riyadh, Saudi Arabia
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20170810
+PHST- 2017/06/15 [received]
+PHST- 2017/07/05 [revised]
+PHST- 2017/07/06 [accepted]
+TA  - Spinal Cord Ser Cases
+JT  - Spinal Cord Series and Cases
+AID - scsandc201752 [pii]
+AID - 10.1038/scsandc.2017.52 [doi]
+SO  - Spinal Cord Ser Cases. 2017 Aug 10;3:17052-. doi:10.1038/scsandc.2017.52.
+
+PMC - PMC6152740
+PMID- 28590446
+IS  - 1420-3049 (Electronic)
+VI  - 22
+IP  - 6
+DP  - 2017 Jun
+TI  - Fruits of Black Chokeberry Aronia melanocarpa in the Prevention of Chronic
+      Diseases.
+LID - 944
+AB  - In recent years, growing attention has been focused on the utilization of natural
+      sources of antioxidants in the prevention of chronic diseases. Black chokeberry
+      (Aronia melanocarpa) represents a lesser known fruit species utilized mainly as
+      juices, purees, jams, jellies and wine, as important food colorants or
+      nutritional supplements. The fruit is valued as a great source of antioxidants,
+      especially polyphenols, such as phenolic acids (neochlorogenic and chlorogenic
+      acids) and flavonoids (anthocyanins, proanthocyanidins, flavanols and flavonols),
+      particularly cyanidin-3-galactoside and cyanidin-3-arabinoside, as well as
+      (−)-epicatechin units. The berries of A. melanocarpa, due to the presence and the
+      high content of these bioactive components, exhibit a wide range of positive
+      effects, such as strong antioxidant activity and potential medicinal and
+      therapeutic benefits (gastroprotective, hepatoprotective, antiproliferative or
+      anti-inflammatory activities). They could be also contributory toward the
+      prevention of chronic diseases including metabolic disorders, diabetes and
+      cardiovascular diseases, because of supportive impacts on lipid profiles, fasting
+      plasma glucose and blood pressure levels.
+FAU - Jurikova, Tunde
+AU  - Jurikova T
+AD  - Institute for teacher training, Faculty of Central European Studies, Constantine 
+      the Philosopher University in Nitra, Drazovska 4, Nitra SK-949 74, Slovakia;
+      tjurikova@ukf.sk
+FAU - Mlcek, Jiri
+AU  - Mlcek J
+AD  - Department of Food Analysis and Chemistry, Faculty of Technology, Tomas Bata
+      University in Zlín, nám. T. G. Masaryka 5555, CZ-760 01 Zlín, Czech Republic;
+      skrovankova@ft.utb.cz (S.S.); sumczynski@ft.utb.cz, (D.S.); ihlavacova@ft.utb.cz 
+      (I.H.); lsnopek@ft.utb.cz (L.S.)
+FAU - Skrovankova, Sona
+AU  - Skrovankova S
+AD  - Department of Food Analysis and Chemistry, Faculty of Technology, Tomas Bata
+      University in Zlín, nám. T. G. Masaryka 5555, CZ-760 01 Zlín, Czech Republic;
+      skrovankova@ft.utb.cz (S.S.); sumczynski@ft.utb.cz, (D.S.); ihlavacova@ft.utb.cz 
+      (I.H.); lsnopek@ft.utb.cz (L.S.)
+FAU - Sumczynski, Daniela
+AU  - Sumczynski D
+AD  - Department of Food Analysis and Chemistry, Faculty of Technology, Tomas Bata
+      University in Zlín, nám. T. G. Masaryka 5555, CZ-760 01 Zlín, Czech Republic;
+      skrovankova@ft.utb.cz (S.S.); sumczynski@ft.utb.cz, (D.S.); ihlavacova@ft.utb.cz 
+      (I.H.); lsnopek@ft.utb.cz (L.S.)
+FAU - Sochor, Jiri
+AU  - Sochor J
+AD  - Department of Viticulture and Enology, Faculty of Horticulture, Mendel University
+      in Brno, Valticka 337, CZ-691 44 Lednice, Czech Republic; sochor.jirik@seznam.cz
+FAU - Hlavacova, Irena
+AU  - Hlavacova I
+AD  - Department of Food Analysis and Chemistry, Faculty of Technology, Tomas Bata
+      University in Zlín, nám. T. G. Masaryka 5555, CZ-760 01 Zlín, Czech Republic;
+      skrovankova@ft.utb.cz (S.S.); sumczynski@ft.utb.cz, (D.S.); ihlavacova@ft.utb.cz 
+      (I.H.); lsnopek@ft.utb.cz (L.S.)
+FAU - Snopek, Lukas
+AU  - Snopek L
+AD  - Department of Food Analysis and Chemistry, Faculty of Technology, Tomas Bata
+      University in Zlín, nám. T. G. Masaryka 5555, CZ-760 01 Zlín, Czech Republic;
+      skrovankova@ft.utb.cz (S.S.); sumczynski@ft.utb.cz, (D.S.); ihlavacova@ft.utb.cz 
+      (I.H.); lsnopek@ft.utb.cz (L.S.)
+FAU - Orsavova, Jana
+AU  - Orsavova J
+AD  - Language Centre, Faculty of Humanities, Tomas Bata University in Zlín, nám. T. G.
+      Masaryka 5555, CZ-760 01 Zlín, Czech Republic; orsavova@fhs.utb.cz
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20170607
+PHST- 2017/05/03 [received]
+PHST- 2017/06/05 [accepted]
+TA  - Molecules
+JT  - Molecules : A Journal of Synthetic Chemistry and Natural Product Chemistry
+AID - 10.3390/molecules22060944 [doi]
+AID - molecules-22-00944 [pii]
+SO  - Molecules. 2017 Jun 07;22(6):. doi:10.3390/molecules22060944.

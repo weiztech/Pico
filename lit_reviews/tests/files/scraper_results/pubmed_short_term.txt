@@ -1,0 +1,2091 @@
+PMID- 36580226
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230213
+LR  - 20230213
+IS  - 1534-6285 (Electronic)
+IS  - 1527-2737 (Linking)
+VI  - 24
+IP  - 3
+DP  - 2023 Mar
+TI  - Ergonomic Considerations in Urologic Surgery.
+PG  - 143-155
+LID - 10.1007/s11934-022-01142-5 [doi]
+AB  - PURPOSE OF REVIEW: This paper aims to discuss the various work-related 
+      musculoskeletal disorders (WRMDs) among urologists and provide an overview of the 
+      latest recommendations to improve awareness of ergonomic principles that can be 
+      applied in the operating room, with special consideration of challenges faced 
+      during pregnancy. RECENT FINDINGS: Urologists suffer from a large burden of 
+      WRMDs. The main drivers of pain associated with the various surgical approaches 
+      include repetitive movements, static and awkward body positions, and the use of 
+      burdensome equipment. Pregnant surgeons are at an even greater risk of WRMDs and 
+      face high rates of pregnancy complications. Laparoscopy, endoscopy, 
+      robot-assisted surgeries, and open surgeries present unique ergonomic challenges 
+      for the practicing urologist. Proper posture and equipment use, optimal operating 
+      room setup, intraoperative stretching breaks, and an emphasis on teaching 
+      ergonomic principles can reduce the risk of WRMDs. Surgeons are also at increased 
+      risk of WRMDs during pregnancy but may continue to operate while taking measures 
+      to limit physical exertion and fatigue. Improving awareness of and incorporating 
+      ergonomic principles early in a urologist's career may reduce the risk of injury 
+      and improve operative performance and longevity.
+CI  - © 2022. The Author(s), under exclusive licence to Springer Science+Business 
+      Media, LLC, part of Springer Nature.
+FAU - Gillespie, Anton M
+AU  - Gillespie AM
+AD  - Columbia University Vagelos College of Physicians & Surgeons, 630 W 168th St, New 
+      York, NY, 10032, USA.
+FAU - Wang, Connie
+AU  - Wang C
+AD  - Department of Urology, Columbia University Irving Medical Center, 161 Fort 
+      Washington Ave, New York, NY, 10032, USA.
+FAU - Movassaghi, Miyad
+AU  - Movassaghi M
+AD  - Department of Urology, Columbia University Irving Medical Center, 161 Fort 
+      Washington Ave, New York, NY, 10032, USA. mm5320@cumc.columbia.edu.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20221229
+PL  - United States
+TA  - Curr Urol Rep
+JT  - Current urology reports
+JID - 100900943
+SB  - IM
+MH  - Humans
+MH  - Ergonomics
+MH  - *Laparoscopy/adverse effects
+MH  - Urologic Surgical Procedures/adverse effects
+MH  - *Musculoskeletal Diseases/etiology/prevention & control
+MH  - *Robotic Surgical Procedures/adverse effects
+OTO - NOTNLM
+OT  - Musculoskeletal disorders
+OT  - Operating room
+OT  - Pregnancy
+OT  - Surgical ergonomics
+OT  - Urologic surgery
+OT  - Urology
+EDAT- 2022/12/30 06:00
+MHDA- 2023/02/14 06:00
+CRDT- 2022/12/29 11:19
+PHST- 2022/11/23 00:00 [accepted]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2023/02/14 06:00 [medline]
+PHST- 2022/12/29 11:19 [entrez]
+AID - 10.1007/s11934-022-01142-5 [pii]
+AID - 10.1007/s11934-022-01142-5 [doi]
+PST - ppublish
+SO  - Curr Urol Rep. 2023 Mar;24(3):143-155. doi: 10.1007/s11934-022-01142-5. Epub 2022 
+      Dec 29.
+
+PMID- 36581691
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230301
+LR  - 20240913
+IS  - 1432-2323 (Electronic)
+IS  - 0364-2313 (Print)
+IS  - 0364-2313 (Linking)
+VI  - 47
+IP  - 4
+DP  - 2023 Apr
+TI  - Three Centuries of Appendicectomy.
+PG  - 928-936
+LID - 10.1007/s00268-022-06874-6 [doi]
+AB  - BACKGROUND: Save for the contribution of Charles McBurney, who described his 
+      eponymous point and the appendicectomy incision, the history of appendicectomy is 
+      largely unknown among the medical profession. This review traces the history from 
+      the first anatomical depiction of the appendix to the development of open 
+      appendicectomy and the recent minimally invasive and non-operative methods. 
+      METHODS: Historical articles, monographs and books containing anatomical 
+      descriptions of the vermiform appendix and reports of appendicitis and its 
+      surgical treatment were retrieved after searching the PubMed, Google Scholar and 
+      Embase databases from their inception to 31 March 2022. RESULTS: The first 
+      inadvertent appendicectomy was performed during an operation for a groin hernia 
+      by Cookesley in 1731, and Mestivier was the first to drain a right iliac fossa 
+      abscess, due to appendicitis, in 1757. Krönlein performed the first 
+      appendicectomy for acute appendicitis in 1884 but his patient died. The first 
+      successful appendicectomy for acute appendicitis leading to patient survival was 
+      by Morton in 1887. In 1976, Wirschafter and Kaufman performed an inadvertent 
+      colonoscopic appendicectomy and, in 1980, Semm carried out the first laparoscopic 
+      appendicectomy. The first appendicectomy via a natural orifice (transgastric) 
+      appendicectomy was by Rao and Reddy in 2004. CONCLUSION: This historical review 
+      charts the development of surgical knowledge concerning the management of 
+      appendicitis, from the first anatomical drawings of the appendix and descriptions 
+      of appendicitis to the development of surgical and conservative treatments up to 
+      the present day. It also corrects some inaccuracies of attribution in previous 
+      historical reviews.
+CI  - © 2022. The Author(s).
+FAU - Herrod, Philip J J
+AU  - Herrod PJJ
+AD  - Gastrointestinal Surgery, Nottingham Digestive Diseases Centre and National 
+      Institute for Health Research (NIHR) Nottingham Biomedical Research Centre, 
+      Nottingham University Hospitals NHS Trust and University of Nottingham, Queen's 
+      Medical Centre, Nottingham, NG7 2UH, UK.
+FAU - Kwok, Alex T
+AU  - Kwok AT
+AD  - Gastrointestinal Surgery, Nottingham Digestive Diseases Centre and National 
+      Institute for Health Research (NIHR) Nottingham Biomedical Research Centre, 
+      Nottingham University Hospitals NHS Trust and University of Nottingham, Queen's 
+      Medical Centre, Nottingham, NG7 2UH, UK.
+FAU - Lobo, Dileep N
+AU  - Lobo DN
+AUID- ORCID: 0000-0003-1187-5796
+AD  - Gastrointestinal Surgery, Nottingham Digestive Diseases Centre and National 
+      Institute for Health Research (NIHR) Nottingham Biomedical Research Centre, 
+      Nottingham University Hospitals NHS Trust and University of Nottingham, Queen's 
+      Medical Centre, Nottingham, NG7 2UH, UK. dileep.lobo@nottingham.ac.uk.
+AD  - MRC Versus Arthritis Centre for Musculoskeletal Ageing Research, School of Life 
+      Sciences, University of Nottingham, Queen's Medical Centre, Nottingham, UK. 
+      dileep.lobo@nottingham.ac.uk.
+LA  - eng
+GR  - MR/P021220/1/MRC_/Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20221229
+PL  - United States
+TA  - World J Surg
+JT  - World journal of surgery
+JID - 7704052
+SB  - IM
+MH  - Humans
+MH  - *Appendicitis/surgery
+MH  - Appendectomy/methods
+MH  - *Appendix/surgery
+MH  - Acute Disease
+MH  - Abscess/surgery
+MH  - *Laparoscopy
+PMC - PMC9971071
+COIS- None of the authors has a conflict of interest to declare.
+EDAT- 2022/12/30 06:00
+MHDA- 2023/03/03 06:00
+PMCR- 2022/12/29
+CRDT- 2022/12/29 23:24
+PHST- 2022/11/29 00:00 [accepted]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2023/03/03 06:00 [medline]
+PHST- 2022/12/29 23:24 [entrez]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - 10.1007/s00268-022-06874-6 [pii]
+AID - 6874 [pii]
+AID - 10.1007/s00268-022-06874-6 [doi]
+PST - ppublish
+SO  - World J Surg. 2023 Apr;47(4):928-936. doi: 10.1007/s00268-022-06874-6. Epub 2022 
+      Dec 29.
+
+PMID- 36615085
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230111
+IS  - 2077-0383 (Print)
+IS  - 2077-0383 (Electronic)
+IS  - 2077-0383 (Linking)
+VI  - 12
+IP  - 1
+DP  - 2022 Dec 29
+TI  - The Correlation between Chronic Endometritis and Tubal-Factor Infertility.
+LID - 10.3390/jcm12010285 [doi]
+LID - 285
+AB  - OBJECTIVE: To identify the prevalence and risk factors for chronic endometritis 
+      (CE) with tubal factors and the correlation between chronic endometritis and 
+      tubal factors among infertile populations. METHOD: A total of 52 patients with 
+      chronic endometritis (CE group) who underwent laparoscopy and hysteroscopic 
+      surgery were recruited between July 2020 and December 2021. A total of 38 
+      patients without chronic endometritis (non-CE group) were included as a control. 
+      Patients with endometriosis and intra-uterine abnormalities were excluded. 
+      Endometrial samples were collected during surgery for CD138 immunohistochemistry 
+      staining for the diagnosis of CE. Preoperative information (including age, 
+      reproductive health characteristics, previous medical and surgical history), 
+      intra-operative information (including the patency of the fallopian tube, the 
+      presence of hydrosalpinx, score and the grade of tubal lesion condition) and 
+      post-operative information (counts of CD138-positive HPF in the endometrial 
+      specimen) were collected. RESULT: A multivariate analysis revealed that tubal 
+      factors with unilateral or bilateral occlusion were significantly higher in the 
+      CE group (OR 3.066, 95% CI 1.020-9.213, p = 0.046). The bilateral occlusion of 
+      fallopian tubes (OR 8.785, 95% CI 1.408-54.818, p = 0.020) rather than unilateral 
+      occlusion (OR 2.860, 95% CI 0.893-9.162, p = 0.077) was significantly associated 
+      with chronic endometritis. The presence of a hydrosalpinx on one side (OR 7.842, 
+      95% CI 1.279-48.086, p = 0.026) or both sides (OR 9.450, 95% CI 1.037-86.148, p = 
+      0.046) was significantly associated with chronic endometritis. The comparison of 
+      CD138-positive HPF counts among the tubal occlusion patients without 
+      hydrosalpinx, patients with unilateral hydrosalpinx and patients with bilateral 
+      hydrosalpinx were as follows: 1 HPF (50.00% vs. 12.50% vs. 11.11%, p = 0.051), 2 
+      HPF (38.89% vs. 25.00% vs. 22.22%, p = 0.615), ≥3 HPF (11.11% vs. 62.50% vs. 
+      66.67%, p = 0.005). The stage of tubal condition was positively correlated with 
+      CD138-positive HPF counts in women with chronic endometritis (r = 0.460, p = 
+      0.001). CONCLUSION: CE was closely related to the blockage of fallopian tubes and 
+      hydrosalpinx. The severity degree of the fallopian lesion condition was 
+      associated with inflammation of the endometrium.
+FAU - Zou, Yujie
+AU  - Zou Y
+AD  - Reproductive Medicine Center, Renmin Hospital of Wuhan University, Wuhan 430060, 
+      China.
+FAU - Li, Saijiao
+AU  - Li S
+AD  - Reproductive Medicine Center, Renmin Hospital of Wuhan University, Wuhan 430060, 
+      China.
+FAU - Ming, Lei
+AU  - Ming L
+AD  - Reproductive Medicine Center, Renmin Hospital of Wuhan University, Wuhan 430060, 
+      China.
+FAU - Yang, Yan
+AU  - Yang Y
+AD  - Gynecology Department, Third Hospital of Wuhan City, Wuhan 430060, China.
+FAU - Ye, Peng
+AU  - Ye P
+AD  - Department of Pharmacy, Renmin Hospital of Wuhan University, Wuhan 430060, China.
+FAU - Zou, Jinjing
+AU  - Zou J
+AD  - Department of Pulmonary and Critical Care Medicine, Renmin Hospital of Wuhan 
+      University, Wuhan 430060, China.
+LA  - eng
+GR  - 81771618/National Natural Science Foundation of China/
+GR  - 81971356/National Natural Science Foundation of China/
+PT  - Journal Article
+DEP - 20221229
+PL  - Switzerland
+TA  - J Clin Med
+JT  - Journal of clinical medicine
+JID - 101606588
+PMC - PMC9821727
+OTO - NOTNLM
+OT  - chronic endometritis (CE)
+OT  - hydrosalpinx
+OT  - inflammatory factors
+OT  - laparoscopy
+OT  - plasma cell
+OT  - tubal factor infertility
+COIS- The authors declare no conflict of interest.
+EDAT- 2023/01/09 06:00
+MHDA- 2023/01/09 06:01
+PMCR- 2022/12/29
+CRDT- 2023/01/08 01:32
+PHST- 2022/11/17 00:00 [received]
+PHST- 2022/12/10 00:00 [revised]
+PHST- 2022/12/27 00:00 [accepted]
+PHST- 2023/01/08 01:32 [entrez]
+PHST- 2023/01/09 06:00 [pubmed]
+PHST- 2023/01/09 06:01 [medline]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - jcm12010285 [pii]
+AID - jcm-12-00285 [pii]
+AID - 10.3390/jcm12010285 [doi]
+PST - epublish
+SO  - J Clin Med. 2022 Dec 29;12(1):285. doi: 10.3390/jcm12010285.
+
+PMID- 36580100
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230329
+LR  - 20230329
+IS  - 2731-698X (Electronic)
+IS  - 2731-6971 (Linking)
+VI  - 94
+IP  - 4
+DP  - 2023 Apr
+TI  - [Robots in visceral and thoracic surgery-Quo vadis?].
+PG  - 318-324
+LID - 10.1007/s00104-022-01787-5 [doi]
+AB  - Robotic surgical systems are now an inherent part of the German hospital 
+      landscape. In recent years, there has been an enormous increase in installed 
+      systems and operations performed, especially in abdominal surgery. Even though 
+      there is a lack of studies with the highest grade of evidence, the advantages of 
+      the technique are obvious-particularly technically demanding operations can now 
+      be performed safely and less invasively for patients. Robotics are now being 
+      implemented in many non-university institutions. At the Israelite Hospital 
+      (Israelitisches Krankenhaus) Hamburg it could be demonstrated that with 
+      systematic and modular training, i.e. execution of certain surgical steps, it is 
+      possible to significantly flatten the learning curve while maintaining excellent 
+      oncological quality, postoperative morbidity and mortality. The costs to have 
+      a system up and running are the main limitations for the implementation of 
+      robotic surgery. The acquisition, material and maintenance costs are substantial 
+      so that the type of intervention and the training of prospective surgeons are 
+      limited by the costs. The robotic approach will fully unroll its disruptive 
+      character compared to laparoscopy once it is competitive not only qualitatively 
+      in the field of medical contents but also economically. In the future the ROBIN 
+      working group of the German Society for General and Visceral Surgery (DGAV) wants 
+      to create the basic prerequisites for valid studies by working with registers and 
+      could act as an independent central intermediary between hospitals and the 
+      industry to promote practical innovations and systematic training for surgeons.
+CI  - © 2022. The Author(s), under exclusive licence to Springer Medizin Verlag GmbH, 
+      ein Teil von Springer Nature.
+FAU - Umstadt, Julia
+AU  - Umstadt J
+AD  - Klinik für Chirurgie, Israelitisches Krankenhaus Hamburg, Akademisches 
+      Lehrkrankenhaus der Universität Hamburg, Viszeral-Medizinisches Zentrum, 
+      Orchideenstieg 14, 22297, Hamburg, Deutschland.
+FAU - Kallenberger, Mali
+AU  - Kallenberger M
+AD  - Klinik für Chirurgie, Israelitisches Krankenhaus Hamburg, Akademisches 
+      Lehrkrankenhaus der Universität Hamburg, Viszeral-Medizinisches Zentrum, 
+      Orchideenstieg 14, 22297, Hamburg, Deutschland.
+FAU - Bäumer, Ole
+AU  - Bäumer O
+AD  - Klinik für Chirurgie, Israelitisches Krankenhaus Hamburg, Akademisches 
+      Lehrkrankenhaus der Universität Hamburg, Viszeral-Medizinisches Zentrum, 
+      Orchideenstieg 14, 22297, Hamburg, Deutschland.
+FAU - Egberts, Jan-Hendrik
+AU  - Egberts JH
+AD  - Klinik für Chirurgie, Israelitisches Krankenhaus Hamburg, Akademisches 
+      Lehrkrankenhaus der Universität Hamburg, Viszeral-Medizinisches Zentrum, 
+      Orchideenstieg 14, 22297, Hamburg, Deutschland. j.egberts@ik-h.de.
+LA  - ger
+PT  - English Abstract
+PT  - Journal Article
+PT  - Review
+TT  - Roboter in der Viszeral- und Thoraxchirurgie – quo vadis?
+DEP - 20221229
+PL  - Germany
+TA  - Chirurgie (Heidelb)
+JT  - Chirurgie (Heidelberg, Germany)
+JID - 9918383081906676
+SB  - IM
+MH  - Humans
+MH  - *Robotics/methods
+MH  - *Thoracic Surgery
+MH  - Prospective Studies
+MH  - *Robotic Surgical Procedures
+MH  - *Laparoscopy/methods
+OTO - NOTNLM
+OT  - Costs
+OT  - Disruptive technology
+OT  - Modular surgical training
+OT  - ROBIN working group
+OT  - Robotic surgery
+EDAT- 2022/12/30 06:00
+MHDA- 2023/03/29 06:04
+CRDT- 2022/12/29 11:13
+PHST- 2022/11/28 00:00 [accepted]
+PHST- 2023/03/29 06:04 [medline]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2022/12/29 11:13 [entrez]
+AID - 10.1007/s00104-022-01787-5 [pii]
+AID - 10.1007/s00104-022-01787-5 [doi]
+PST - ppublish
+SO  - Chirurgie (Heidelb). 2023 Apr;94(4):318-324. doi: 10.1007/s00104-022-01787-5. 
+      Epub 2022 Dec 29.
+
+PMID- 36644530
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230117
+IS  - 2296-875X (Print)
+IS  - 2296-875X (Electronic)
+IS  - 2296-875X (Linking)
+VI  - 9
+DP  - 2022
+TI  - Optimal extent of lymph node dissection in gastric cancer.
+PG  - 1093324
+LID - 10.3389/fsurg.2022.1093324 [doi]
+LID - 1093324
+AB  - Gastric cancer still remains a major cause of cancer-related deaths globally. 
+      Stage-adapted, individualized treatment is crucial to achieving optimal 
+      oncological outcomes. Postoperative morbidity and accurate nodal staging are 
+      heavily influenced by the extent of lymph node dissection. On one hand, 
+      insufficient lymphadenectomy may result in understaging and undertreatment of a 
+      patient, on the other hand, unnecessary lymph node dissection may result in a 
+      higher rate of postoperative complications. Approximately one-third of patients 
+      with gastric cancer undergoes an avoidable lymph node dissection. Many of the 
+      recent treatment updates in the management of gastric cancer have a major 
+      influence on both surgical and oncological approaches. Currently, a wide range of 
+      endoscopic, minimally invasive, and hybrid surgical techniques are available. The 
+      concept of sentinel node biopsy and utilization of the Maruyama Computer Program 
+      are significant components of stage-adapted gastric cancer surgery. Likewise, 
+      centralization and application of national guidelines, widespread use of 
+      neoadjuvant therapy, and the stage migration phenomenon are serious concerns to 
+      be discussed. Our goal is to review the available surgical strategies for gastric 
+      cancer, with a primary focus on lymphadenectomy.
+CI  - © 2022 Varga, Kolozsi, Nagy and Tóth.
+FAU - Varga, Zsolt
+AU  - Varga Z
+AD  - Department of Surgery, University of Debrecen, Debrecen, Hungary.
+FAU - Kolozsi, Péter
+AU  - Kolozsi P
+AD  - Department of Surgery, University of Debrecen, Debrecen, Hungary.
+FAU - Nagy, Kitti
+AU  - Nagy K
+AD  - Department of Surgery, University of Debrecen, Debrecen, Hungary.
+FAU - Tóth, Dezső
+AU  - Tóth D
+AD  - Department of Surgery, University of Debrecen, Debrecen, Hungary.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20221229
+PL  - Switzerland
+TA  - Front Surg
+JT  - Frontiers in surgery
+JID - 101645127
+PMC - PMC9834278
+OTO - NOTNLM
+OT  - D1D2
+OT  - gastrectomy
+OT  - gastric cancer
+OT  - laparoscopy
+OT  - lymph node
+OT  - lymphadenectomy
+COIS- The authors declare that the research was conducted in the absence of any 
+      commercial or financial relationships that could be construed as a potential 
+      conflict of interest.
+EDAT- 2023/01/17 06:00
+MHDA- 2023/01/17 06:01
+PMCR- 2022/12/29
+CRDT- 2023/01/16 03:03
+PHST- 2022/11/08 00:00 [received]
+PHST- 2022/12/15 00:00 [accepted]
+PHST- 2023/01/16 03:03 [entrez]
+PHST- 2023/01/17 06:00 [pubmed]
+PHST- 2023/01/17 06:01 [medline]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - 10.3389/fsurg.2022.1093324 [doi]
+PST - epublish
+SO  - Front Surg. 2022 Dec 29;9:1093324. doi: 10.3389/fsurg.2022.1093324. eCollection 
+      2022.
+
+PMID- 36582076
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230307
+LR  - 20230307
+IS  - 1447-0756 (Electronic)
+IS  - 1341-8076 (Linking)
+VI  - 49
+IP  - 3
+DP  - 2023 Mar
+TI  - A case of cystic lymphangioma arising from the parauterine tissue.
+PG  - 1048-1051
+LID - 10.1111/jog.15531 [doi]
+AB  - A 57-year-old woman, gravida 3, para 3, with no complaints visited our hospital 
+      for right-sided adnexal tumor found incidentally in cancer screening. She had no 
+      medical history, surgical history, or gynecological disease. Imaging studies 
+      showed a 5-cm lobular cystic tumor on the right side of uterus. We suspected 
+      right hydrosalpinx and decided to perform diagnostic laparoscopy. During 
+      laparoscopy, the right adnexa was found to be atrophic, and the tumor was located 
+      in the broad ligament. The tumor was observed to be a multilocular cyst 
+      containing yellow fluid that developed from the right parauterine tissue. The 
+      tumor was resected from the surrounding tissue. Histological examination revealed 
+      that the multilocular cyst contained a vascular component surrounding the 
+      lymphatic endothelium and was decided to be a cystic lymphangioma. The patient 
+      was followed up and there was no evidence of recurrence at postoperative 
+      7 months. We experienced a very rare case of lymphangioma arising from the 
+      parauterine tissue. The laparoscopic approach can assist with both diagnosis and 
+      treatment.
+CI  - © 2022 Japan Society of Obstetrics and Gynecology.
+FAU - Semba, Satoki
+AU  - Semba S
+AUID- ORCID: 0000-0003-1066-6634
+AD  - Department of Obstetrics and Gynecology, Kurashiki Medical Center, Okayama, 
+      Japan.
+FAU - Kodama, Takashi
+AU  - Kodama T
+AD  - Department of Reproductive Medicine, Hiroshima Prefectural Hospital, Hiroshima, 
+      Japan.
+FAU - Nomura, Nana
+AU  - Nomura N
+AD  - Department of Obstetrics and Gynecology, Higashihiroshima Medical Center, 
+      Hiroshima, Japan.
+FAU - Sato, Yuki
+AU  - Sato Y
+AD  - Department of Obstetrics and Gynecology, Higashihiroshima Medical Center, 
+      Hiroshima, Japan.
+FAU - Urabe, Satoshi
+AU  - Urabe S
+AD  - Department of Gynecology, Yasuda Hospital, Hiroshima, Japan.
+FAU - Hirata, Eiji
+AU  - Hirata E
+AD  - Hirata Women's Clinic, Hiroshima, Japan.
+LA  - eng
+PT  - Case Reports
+DEP - 20221229
+PL  - Australia
+TA  - J Obstet Gynaecol Res
+JT  - The journal of obstetrics and gynaecology research
+JID - 9612761
+SB  - IM
+MH  - Female
+MH  - Humans
+MH  - Middle Aged
+MH  - *Lymphangioma, Cystic/diagnosis/pathology/surgery
+MH  - *Lymphangioma/pathology
+MH  - *Cysts
+MH  - *Laparoscopy/methods
+OTO - NOTNLM
+OT  - broad ligament
+OT  - laparoscopic surgery
+OT  - lymphangioma
+OT  - parauterine tissue
+OT  - retroperitoneum
+EDAT- 2022/12/31 06:00
+MHDA- 2023/03/08 06:00
+CRDT- 2022/12/30 00:43
+PHST- 2022/03/24 00:00 [received]
+PHST- 2022/12/19 00:00 [accepted]
+PHST- 2022/12/31 06:00 [pubmed]
+PHST- 2023/03/08 06:00 [medline]
+PHST- 2022/12/30 00:43 [entrez]
+AID - 10.1111/jog.15531 [doi]
+PST - ppublish
+SO  - J Obstet Gynaecol Res. 2023 Mar;49(3):1048-1051. doi: 10.1111/jog.15531. Epub 
+      2022 Dec 29.
+
+PMID- 36721570
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230202
+IS  - 2168-8184 (Print)
+IS  - 2168-8184 (Electronic)
+IS  - 2168-8184 (Linking)
+VI  - 14
+IP  - 12
+DP  - 2022 Dec
+TI  - Large Haemoperitoneum Caused by a Ruptured Endometrioma: A Case Report.
+PG  - e33113
+LID - 10.7759/cureus.33113 [doi]
+LID - e33113
+AB  - We report a case of large hemoperitoneum caused by a ruptured endometrioma in a 
+      25-year-old Virgo woman. Hemoperitoneum caused by ruptured endometrioma is a rare 
+      entity. The diagnosis should be given consideration when a patient with known or 
+      suspected endometriosis presents with signs of intra-abdominal hemorrhage.
+CI  - Copyright © 2022, Daniilidis et al.
+FAU - Daniilidis, Angelos
+AU  - Daniilidis A
+AD  - Obstetrics and Gynecology, Aristotle University School of Medicine, Hippokration 
+      General Hospital, Thessaloniki, GRC.
+FAU - Grigoriadis, Georgios
+AU  - Grigoriadis G
+AD  - Obstetrics and Gynecology, Aristotle University School of Medicine, Hippokration 
+      General Hospital, Thessaloniki, GRC.
+FAU - Papandreou, Panagiotis
+AU  - Papandreou P
+AD  - Obstetrics and Gynecology, Aristotle University School of Medicine, Hippokration 
+      General Hospital, Thessaloniki, GRC.
+FAU - Dalakoura, Dimitra
+AU  - Dalakoura D
+AD  - Obstetrics and Gynecology, Aristotle University School of Medicine, Hippokration 
+      General Hospital, Thessaloniki, GRC.
+FAU - Papanikolaou, Alexis
+AU  - Papanikolaou A
+AD  - Obstetrics and Gynecology, Aristotle University School of Medicine, Hippokration 
+      General Hospital, Thessaloniki, GRC.
+LA  - eng
+PT  - Case Reports
+DEP - 20221229
+PL  - United States
+TA  - Cureus
+JT  - Cureus
+JID - 101596737
+PMC - PMC9884310
+OTO - NOTNLM
+OT  - endometrioma
+OT  - endometriosis
+OT  - hemoperitoneum
+OT  - hemorrhage
+OT  - laparoscopy
+COIS- The authors have declared that no competing interests exist.
+EDAT- 2023/02/02 06:00
+MHDA- 2023/02/02 06:01
+PMCR- 2022/12/29
+CRDT- 2023/02/01 01:47
+PHST- 2022/12/29 00:00 [accepted]
+PHST- 2023/02/01 01:47 [entrez]
+PHST- 2023/02/02 06:00 [pubmed]
+PHST- 2023/02/02 06:01 [medline]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - 10.7759/cureus.33113 [doi]
+PST - epublish
+SO  - Cureus. 2022 Dec 29;14(12):e33113. doi: 10.7759/cureus.33113. eCollection 2022 
+      Dec.
+
+PMID- 36580116
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230321
+LR  - 20230520
+IS  - 1432-0711 (Electronic)
+IS  - 0932-0067 (Linking)
+VI  - 307
+IP  - 4
+DP  - 2023 Apr
+TI  - Learning laparoscopic hysterectomy: analysis of different surgeons' individual 
+      learning curves.
+PG  - 1065-1072
+LID - 10.1007/s00404-022-06893-7 [doi]
+AB  - OBJECTIVE: The aim of this study was to examine the development of surgical 
+      skills among surgeons learning total laparoscopic hysterectomy (TLH), using 
+      differences in complication rates between surgeons with different levels of 
+      experience and analyzing the development of individual operating times. STUDY 
+      DESIGN: This retrospective, single-center cohort study included 576 total 
+      laparoscopic hysterectomy procedures conducted between January 2015 and December 
+      2019 at the municipal hospital in Karlsruhe, Germany. All TLHs were performed by 
+      eight surgeons, two of whom were experienced and six inexperienced. Complications 
+      were graded using the Clavien-Dindo classification. RESULTS: No differences in 
+      complication rates were seen between experienced and inexperienced surgeons. With 
+      growing numbers of procedures, most surgeons quickly became faster, leading to 
+      reduced operating times. However, experienced surgeons who had performed more 
+      than 100 procedures also became faster, not reaching a time plateau after 
+      adjustment for weight of the uterus, presurgery score, and adnexal score. 
+      CONCLUSIONS: Learning laparoscopic hysterectomy in routine practice is safe for 
+      patients, and surgeons rapidly become faster as growing numbers of procedures are 
+      performed. Operating times for experienced surgeons who have carried out more 
+      than 100 operations also improve, and a time plateau is not reached.
+CI  - © 2022. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+      part of Springer Nature.
+FAU - Schützendübel, Malte
+AU  - Schützendübel M
+AUID- ORCID: 0000-0002-5592-2649
+AD  - Department of Obstetrics and Gynecology, Karlsruhe Municipal Hospital, 
+      Moltkestrasse 90, 76133, Karlsruhe, Germany. malte94@hotmail.de.
+AD  - Friedrich Alexander University of Erlangen-Nürnberg, Erlangen, Germany. 
+      malte94@hotmail.de.
+FAU - Boosz, Alexander
+AU  - Boosz A
+AD  - Department of Obstetrics and Gynecology, Karlsruhe Municipal Hospital, 
+      Moltkestrasse 90, 76133, Karlsruhe, Germany.
+FAU - Baev, Evgeni
+AU  - Baev E
+AD  - Department of Obstetrics and Gynecology, Karlsruhe Municipal Hospital, 
+      Moltkestrasse 90, 76133, Karlsruhe, Germany.
+FAU - Häberle, Lothar
+AU  - Häberle L
+AD  - Department of Obstetrics and Gynecology, Erlangen University Hospital, Erlangen, 
+      Germany.
+FAU - Müller, Andreas
+AU  - Müller A
+AD  - Department of Obstetrics and Gynecology, Karlsruhe Municipal Hospital, 
+      Moltkestrasse 90, 76133, Karlsruhe, Germany.
+AD  - Friedrich Alexander University of Erlangen-Nürnberg, Erlangen, Germany.
+LA  - eng
+PT  - Journal Article
+DEP - 20221229
+PL  - Germany
+TA  - Arch Gynecol Obstet
+JT  - Archives of gynecology and obstetrics
+JID - 8710213
+SB  - IM
+MH  - Female
+MH  - Humans
+MH  - Learning Curve
+MH  - Cohort Studies
+MH  - Retrospective Studies
+MH  - *Laparoscopy/methods
+MH  - Postoperative Complications/etiology
+MH  - Hysterectomy/methods
+MH  - *Surgeons
+OTO - NOTNLM
+OT  - Complication rates
+OT  - Learning curve
+OT  - Operating time
+OT  - Surgical training
+OT  - Total laparoscopic hysterectomy
+EDAT- 2022/12/30 06:00
+MHDA- 2023/03/22 06:00
+CRDT- 2022/12/29 11:14
+PHST- 2022/10/12 00:00 [received]
+PHST- 2022/12/13 00:00 [accepted]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2023/03/22 06:00 [medline]
+PHST- 2022/12/29 11:14 [entrez]
+AID - 10.1007/s00404-022-06893-7 [pii]
+AID - 10.1007/s00404-022-06893-7 [doi]
+PST - ppublish
+SO  - Arch Gynecol Obstet. 2023 Apr;307(4):1065-1072. doi: 10.1007/s00404-022-06893-7. 
+      Epub 2022 Dec 29.
+
+PMID- 36581610
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230704
+LR  - 20230704
+IS  - 1758-5910 (Electronic)
+IS  - 1758-5902 (Linking)
+VI  - 16
+IP  - 3
+DP  - 2023 Jul
+TI  - Precision laparoscopic sentinel node navigation surgery for femoral skin cancer.
+PG  - 523-527
+LID - 10.1111/ases.13159 [doi]
+AB  - Navigation surgery using indocyanine green (ICG) fluorescence imaging has been 
+      used in thoracoabdominal surgery, and its usefulness has been reported in many 
+      cases. In this study, laparoscopic lateral lymph node dissection was performed 
+      using ICG fluorescence imaging in a patient with left femoral spinous cell 
+      carcinoma with inguinal and external iliac lymph node metastases. Spinous cell 
+      carcinoma is classified as a rare cancer in Japan, and there is a scarcity of 
+      evidence for pelvic lymph node dissection, as well as a lack of studies that 
+      mention the dissection area. We hypothesized that visualization of lymph nodes 
+      and lymph flow using intraoperative ICG fluorescence imaging would indicate the 
+      area of dissection and lead to more efficient dissection. In conclusion, 
+      intraoperative ICG fluorescence imaging may be useful in this area where there is 
+      limited evidence, although there are some limitations.
+CI  - © 2022 Asia Endosurgery Task Force and Japan Society of Endoscopic Surgery and 
+      John Wiley & Sons Australia, Ltd.
+FAU - Hanzawa, Shunya
+AU  - Hanzawa S
+AD  - Department of Gastroenterological Surgery, Okayama University Graduate School of 
+      Medicine, Dentistry and Pharmaceutical Sciences, Japan.
+FAU - Teraishi, Fuminori
+AU  - Teraishi F
+AUID- ORCID: 0000-0001-5133-2644
+AD  - Department of Gastroenterological Surgery, Okayama University Graduate School of 
+      Medicine, Dentistry and Pharmaceutical Sciences, Japan.
+AD  - Department of Minimally Invasive Therapy Center, Okayama University Hospital, 
+      Okayama, Japan.
+FAU - Matsumi, Yuki
+AU  - Matsumi Y
+AUID- ORCID: 0000-0003-3874-7372
+AD  - Department of Gastroenterological Surgery, Okayama University Graduate School of 
+      Medicine, Dentistry and Pharmaceutical Sciences, Japan.
+FAU - Tachibana, Kota
+AU  - Tachibana K
+AD  - Department of Dermatology, Okayama University Graduate School of Medicine, 
+      Dentistry and Pharmaceutical Sciences, Okayama, Japan.
+FAU - Fujiwara, Toshiyoshi
+AU  - Fujiwara T
+AD  - Department of Gastroenterological Surgery, Okayama University Graduate School of 
+      Medicine, Dentistry and Pharmaceutical Sciences, Japan.
+AD  - Department of Minimally Invasive Therapy Center, Okayama University Hospital, 
+      Okayama, Japan.
+LA  - eng
+GR  - Okayama University/
+PT  - Case Reports
+DEP - 20221229
+PL  - Japan
+TA  - Asian J Endosc Surg
+JT  - Asian journal of endoscopic surgery
+JID - 101506753
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - Humans
+MH  - Sentinel Lymph Node Biopsy/methods
+MH  - Lymph Nodes/diagnostic imaging/surgery/pathology
+MH  - Lymph Node Excision/methods
+MH  - Indocyanine Green
+MH  - *Skin Neoplasms/diagnostic imaging/surgery/pathology
+MH  - *Laparoscopy/methods
+MH  - *Carcinoma/pathology
+MH  - Optical Imaging/methods
+OTO - NOTNLM
+OT  - fluorescence navigation
+OT  - indocyanine green
+OT  - skin cancer
+EDAT- 2022/12/30 06:00
+MHDA- 2023/07/04 06:42
+CRDT- 2022/12/29 23:02
+PHST- 2022/11/30 00:00 [revised]
+PHST- 2022/09/01 00:00 [received]
+PHST- 2022/12/15 00:00 [accepted]
+PHST- 2023/07/04 06:42 [medline]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2022/12/29 23:02 [entrez]
+AID - 10.1111/ases.13159 [doi]
+PST - ppublish
+SO  - Asian J Endosc Surg. 2023 Jul;16(3):523-527. doi: 10.1111/ases.13159. Epub 2022 
+      Dec 29.
+
+PMID- 36601385
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230111
+IS  - 1179-1411 (Print)
+IS  - 1179-1411 (Electronic)
+IS  - 1179-1411 (Linking)
+VI  - 14
+DP  - 2022
+TI  - Women's Perception of Transgastric and Transvaginal Natural Orifice Transluminal 
+      Endoscopic Surgery (NOTES) - Impact of Medical Education, Stage of Life and 
+      Cross-Cultural Aspects.
+PG  - 1881-1895
+LID - 10.2147/IJWH.S382457 [doi]
+AB  - INTRODUCTION: Despite that NOTES produces at least matchable clinical long-term 
+      results when compared to laparoscopy, still a restraint within the medical 
+      community and among patients is evident. Consequently, it might be meaningful to 
+      evaluate factors of patient's NOTES perception to promote its acceptance. NOTES 
+      is still quite novel and questionnaires regarding its perception by the public is 
+      still lacking even so in the Middle East. Aim of our survey is to investigate the 
+      viewpoint of female healthcare staff on NOTES. MATERIALS AND METHODS: A total of 
+      350 questionnaires along with written information about Minimally Invasive 
+      Surgery and NOTES were distributed among the female staff in a Tertiary-care 
+      Hospital in Abu Dhabi, 257 were returned completely anonymously and voluntarily 
+      and entered into a database with a response rate of 73%. We surveyed factors like 
+      religion, medical background, age as well as history of previous laparoscopy, 
+      endoscopy, birth and other aspects that may impact a woman's perception of both 
+      transgastric and transvaginal NOTES for cholecystectomy and ovariectomy, 
+      respectively. RESULTS: Univariate analyses revealed the majority of Muslim women 
+      to be more receptive to NOTES as a choice of surgical technique for 
+      cholecystectomy and for ovariectomy, respectively, when compared to Christians 
+      and Hindus. However, when compared to Muslims, Christian and Hindu groups had a 
+      larger share of medical professions. Women with a medical background would opt 
+      significantly less for NOTES. Among younger women, NOTES cholecystectomy was 
+      refused due to anxiety concerning future pregnancies and sexual dysfunction. 
+      Multinomial logistic regression analysis determined medical background and with 
+      independent predictive value for the overall choice of interventional technique 
+      (p<0.001). Marital status played a significant role only in the comparison of 
+      laparoscopy vs transgastric NOTES when performing cholecystectomy and ovariectomy 
+      (p<0.01). CONCLUSION: In this first study emanating from the Middle East, medical 
+      education and partly life stage rather than cross-cultural differences seem to 
+      influence NOTES perception in women.
+CI  - © 2022 Benhidjeb et al.
+FAU - Benhidjeb, Tahar
+AU  - Benhidjeb T
+AUID- ORCID: 0000-0001-5014-7260
+AD  - Department of General and Visceral Surgery, Center for General, Vascular, 
+      Thoracic and Visceral Surgery, Protestant Hospital of Bethel Foundation, 
+      University Hospital OWL, Campus Bielefeld Bethel, University of Bielefeld, 
+      Bielefeld, Germany.
+AD  - The New European Surgical Academy (NESA), Berlin, Germany.
+FAU - Benhidjeb, Isabel
+AU  - Benhidjeb I
+AD  - Department of Urology, Center for Computer-Assisted and Robotic Urology, 
+      Protestant Hospital of Bethel Foundation, University Hospital OWL, Campus 
+      Bielefeld Bethel, University of Bielefeld, Bielefeld, Germany.
+FAU - Stark, Michael
+AU  - Stark M
+AD  - The New European Surgical Academy (NESA), Berlin, Germany.
+FAU - Kreisel, Stefan
+AU  - Kreisel S
+AD  - Department of Psychiatry and Psychotherapy, Section Gerontopsychiatry, Protestant 
+      Hospital of Bethel Foundation, University Hospital OWL, Campus Bielefeld Bethel, 
+      University of Bielefeld, Bielefeld, Germany.
+FAU - Krüger, Martin
+AU  - Krüger M
+AD  - Department of Internal Medicine and Gastroenterology, Protestant Hospital of 
+      Bethel Foundation, University Hospital OWL, Campus Bielefeld Bethel, University 
+      of Bielefeld, Bielefeld, Germany.
+FAU - Pfitzenmaier, Jesco
+AU  - Pfitzenmaier J
+AD  - Department of Urology, Center for Computer-Assisted and Robotic Urology, 
+      Protestant Hospital of Bethel Foundation, University Hospital OWL, Campus 
+      Bielefeld Bethel, University of Bielefeld, Bielefeld, Germany.
+FAU - Schulte Am Esch, Jan
+AU  - Schulte Am Esch J
+AD  - Department of General and Visceral Surgery, Center for General, Vascular, 
+      Thoracic and Visceral Surgery, Protestant Hospital of Bethel Foundation, 
+      University Hospital OWL, Campus Bielefeld Bethel, University of Bielefeld, 
+      Bielefeld, Germany.
+LA  - eng
+PT  - Journal Article
+DEP - 20221229
+PL  - New Zealand
+TA  - Int J Womens Health
+JT  - International journal of women's health
+JID - 101531698
+PMC - PMC9807120
+OTO - NOTNLM
+OT  - Arab female
+OT  - natural orifice translumenal endoscopic surgery
+OT  - perception
+COIS- The author declared no potential conflicts of interest with respect to the 
+      research, authorship, and/or publication of this article.
+EDAT- 2023/01/06 06:00
+MHDA- 2023/01/06 06:01
+PMCR- 2022/12/29
+CRDT- 2023/01/05 02:30
+PHST- 2022/07/25 00:00 [received]
+PHST- 2022/11/17 00:00 [accepted]
+PHST- 2023/01/05 02:30 [entrez]
+PHST- 2023/01/06 06:00 [pubmed]
+PHST- 2023/01/06 06:01 [medline]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - 382457 [pii]
+AID - 10.2147/IJWH.S382457 [doi]
+PST - epublish
+SO  - Int J Womens Health. 2022 Dec 29;14:1881-1895. doi: 10.2147/IJWH.S382457. 
+      eCollection 2022.
+
+PMID- 36675753
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230308
+IS  - 2075-4426 (Print)
+IS  - 2075-4426 (Electronic)
+IS  - 2075-4426 (Linking)
+VI  - 13
+IP  - 1
+DP  - 2022 Dec 30
+TI  - Effects of Using Barbed Suture in Myomectomy on Adhesion Formation and Adverse 
+      Pregnancy Outcome.
+LID - 10.3390/jpm13010092 [doi]
+LID - 92
+AB  - Background: There is still concern regarding postoperative adhesion formation and 
+      adverse effects on pregnancy outcomes caused by barbed suture (BS) after 
+      myomectomy. The aim of this study was to compare the postoperative adhesion and 
+      pregnancy outcomes between conventional suture (CS) and BS after minimally 
+      invasive myomectomy (MIM) by robotic myomectomy (RM) or laparoscopic myomectomy 
+      (LM). Methods: The medical records of 94 women who had undergone MIM with CS and 
+      97 who had undergone MIM with BS and achieved pregnancy were reviewed. 
+      Postoperative adhesion was evaluated following cesarean section. Results: The 
+      number of removed myomas was greater (5.3 ± 4.6 vs. 3.5 ± 3.1, p = 0.001) and the 
+      size of the largest myoma was larger (7.0 ± 2.2 vs. 5.8 ± 2.7 cm, p = 0.001) in 
+      the BS group relative to the CS group. A total of 98.9% of patients in the CS 
+      group and 45.4% in the BS group had undergone LM (p < 0.001), while the others 
+      underwent RM. There was no significant difference in the presence of 
+      postoperative adhesion at cesarean section between the BS and CS groups (45.5 vs. 
+      43.7%, p = 0.095). Additionally, there were no intergroup differences in 
+      pregnancy complications such as preterm labor, placenta previa, accrete or 
+      abruption. Note also that in our logistic regression analysis, the suture type 
+      (BS or CS) was excluded from the independent risk factors regarding postoperative 
+      adhesion formation. Conclusions: Our data indicated that the incidence of 
+      postoperative adhesion after MIM with BS was similar when compared with CS. Also 
+      it seems that the suture type does not have a significant effect on pregnancy 
+      outcomes.
+FAU - Won, Seyeon
+AU  - Won S
+AUID- ORCID: 0000-0002-2254-2703
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Choi, Su Hyeon
+AU  - Choi SH
+AUID- ORCID: 0000-0003-1433-2690
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Lee, Nara
+AU  - Lee N
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Shim, So Hyun
+AU  - Shim SH
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Kim, Mi Kyoung
+AU  - Kim MK
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Kim, Mi-La
+AU  - Kim ML
+AUID- ORCID: 0000-0003-1011-5664
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Jung, Yong Wook
+AU  - Jung YW
+AUID- ORCID: 0000-0003-2098-8143
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+FAU - Yun, Bo Seong
+AU  - Yun BS
+AD  - Department of Obstetrics and Gynecology, CHA Ilsan Medical Center, CHA University 
+      School of Medicine, Goyang 10414, Republic of Korea.
+FAU - Seong, Seok Ju
+AU  - Seong SJ
+AD  - Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA 
+      University School of Medicine, Seoul 06135, Republic of Korea.
+LA  - eng
+PT  - Journal Article
+DEP - 20221230
+PL  - Switzerland
+TA  - J Pers Med
+JT  - Journal of personalized medicine
+JID - 101602269
+PMC - PMC9862078
+OTO - NOTNLM
+OT  - laparoscopy
+OT  - robotic surgical procedures
+OT  - uterine fibroids
+OT  - uterine myomectomy
+COIS- The authors declare that they have no conflict of interest and nothing to 
+      disclose.
+EDAT- 2023/01/22 06:00
+MHDA- 2023/01/22 06:01
+PMCR- 2022/12/30
+CRDT- 2023/01/21 01:32
+PHST- 2022/10/29 00:00 [received]
+PHST- 2022/11/27 00:00 [revised]
+PHST- 2022/12/26 00:00 [accepted]
+PHST- 2023/01/21 01:32 [entrez]
+PHST- 2023/01/22 06:00 [pubmed]
+PHST- 2023/01/22 06:01 [medline]
+PHST- 2022/12/30 00:00 [pmc-release]
+AID - jpm13010092 [pii]
+AID - jpm-13-00092 [pii]
+AID - 10.3390/jpm13010092 [doi]
+PST - epublish
+SO  - J Pers Med. 2022 Dec 30;13(1):92. doi: 10.3390/jpm13010092.
+
+PMID- 36577814
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221230
+LR  - 20230215
+IS  - 1435-2451 (Electronic)
+IS  - 1435-2443 (Linking)
+VI  - 408
+IP  - 1
+DP  - 2022 Dec 29
+TI  - Multicenter retrospective cohort Italian study on elective laparoscopic 
+      cholecystectomy performed by the surgical residents.
+PG  - 3
+LID - 10.1007/s00423-022-02738-8 [doi]
+AB  - PURPOSE: This retrospective multicenter cohort study aimed to evaluate the 
+      clinical outcomes (mortality rate, operative time, complications) of elective 
+      laparoscopic cholecystectomy (LC) when performed by a surgical resident in 
+      comparison to experienced consultant in the backdrop of Italian academic centers. 
+      METHODS: Retrospective review of all patients undergoing elective LC between 
+      January 2016 and January 2022 at six teaching hospitals across Italy was 
+      performed. Cases were identified using the Current Procedural Terminology (CPT) 
+      code 5123 (LC without cholangiogram). All cases of emergency surgery, ASA 
+      score > 3, or when cholecystectomy was performed with another surgical procedure, 
+      were excluded. All suitable cases were divided into 2 groups based on primary 
+      surgeon: consultant or senior resident. Main outcome was complication rates 
+      (intraoperative and peri/postoperative); secondary outcomes included operative 
+      time, the length of stay, and the rate of conversion to open. RESULTS: A total of 
+      2331 cases (1425 females) were included, of which, consultants performed 1683 LCs 
+      (72%), while the residents performed 648 (28%) surgeries. The groups were 
+      statistically comparable regarding demographics, history of previous abdominal 
+      surgery, operative time, or intraoperative complications. The rate of conversion 
+      to open cholecystectomy was 1.42% for consultant and none for resident 
+      (p = 0.02). A statistically significant difference was observed between groups 
+      regarding the average length of stay (2.2 ± 3 vs 1.6 ± 1.3 days p = 0.03). 
+      Similarly, postoperative complications (1.7% vs 0.5%) resulted in statistically 
+      significant (p = 0.02) favoring resident group. CONCLUSIONS: Our study 
+      demonstrates that in selected patients, senior residents can safely perform LC 
+      when supervised by senior staff surgeons.
+CI  - © 2022. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+      part of Springer Nature.
+FAU - Iossa, Angelo
+AU  - Iossa A
+AUID- ORCID: 0000-0002-6798-8100
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy. angelo.iossa@uniroma1.it.
+FAU - Micalizzi, Alessandra
+AU  - Micalizzi A
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy.
+FAU - Giuffrè, Mary
+AU  - Giuffrè M
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy.
+FAU - Ciccioriccio, Maria Chiara
+AU  - Ciccioriccio MC
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy.
+FAU - Termine, Pietro
+AU  - Termine P
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy.
+FAU - De Angelis, Francesco
+AU  - De Angelis F
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy.
+FAU - Boru, Cristian Eugeniu
+AU  - Boru CE
+AD  - Department of Medical-Surgical Sciences and Biotechnologies, Faculty of Pharmacy 
+      and Medicine, University of Rome-Polo Pontino, ICOT Hospital, 'La Sapienza, 
+      Latina, Italy.
+FAU - Di Buono, Giuseppe
+AU  - Di Buono G
+AUID- ORCID: 0000-0001-9928-6448
+AD  - Department of Surgical, Oncological and Oral Sciences, University of Palermo, 
+      Palermo, Italy.
+FAU - Salzano, Antonio
+AU  - Salzano A
+AD  - Department of Surgical Sciences, University of Turin, Citta della Salute e della 
+      Scienza Hospital, Turin, Italy.
+FAU - Chiozza, Matteo
+AU  - Chiozza M
+AUID- ORCID: 0000-0002-0879-5229
+AD  - Department of Morphology, Surgery and Experimental Medicine, Sant'Anna University 
+      Hospital, University of Ferrara, Ferrara, Italy.
+FAU - Agostini, Carlotta
+AU  - Agostini C
+AD  - Department of Digestive Surgery, Careggi University Hospital, Florence, Italy.
+FAU - Silvestri, Vania
+AU  - Silvestri V
+AD  - Department of Gastroenterology, Endocrinology and Surgical Endoscopy, University 
+      Hospital Federico II of Naples, Naples, Italy.
+FAU - Agrusa, Antonino
+AU  - Agrusa A
+AUID- ORCID: 0000-0003-1276-1475
+AD  - Department of Surgical, Oncological and Oral Sciences, University of Palermo, 
+      Palermo, Italy.
+FAU - Anania, Gabriele
+AU  - Anania G
+AUID- ORCID: 0000-0001-9255-3312
+AD  - Department of Morphology, Surgery and Experimental Medicine, Sant'Anna University 
+      Hospital, University of Ferrara, Ferrara, Italy.
+FAU - Bracale, Umberto
+AU  - Bracale U
+AUID- ORCID: 0000-0002-9868-0889
+AD  - Department of Gastroenterology, Endocrinology and Surgical Endoscopy, University 
+      Hospital Federico II of Naples, Naples, Italy.
+FAU - Coratti, Francesco
+AU  - Coratti F
+AUID- ORCID: 0000-0001-5980-7333
+AD  - Department of Digestive Surgery, Careggi University Hospital, Florence, Italy.
+FAU - Cavallaro, Giuseppe
+AU  - Cavallaro G
+AUID- ORCID: 0000-0001-7121-2295
+AD  - Department of Surgery 'P. Valdoni', Head-General Surgery Unit, University of 
+      Rome, ICOT Hospital, La Sapienza', Latina, Italy.
+FAU - Corcione, Francesco
+AU  - Corcione F
+AD  - Department of Gastroenterology, Endocrinology and Surgical Endoscopy, University 
+      Hospital Federico II of Naples, Naples, Italy.
+FAU - Morino, Mario
+AU  - Morino M
+AUID- ORCID: 0000-0003-4540-1409
+AD  - Department of Surgical Sciences, University of Turin, Citta della Salute e della 
+      Scienza Hospital, Turin, Italy.
+FAU - Silecchia, Gianfranco
+AU  - Silecchia G
+AUID- ORCID: 0000-0003-2356-0505
+AD  - Department of Medical-Surgical Sciences and Translation Medicine, Faculty of 
+      Medicine and Psychology, Sapienza University of Rome, S. Andrea Hospital, Rome, 
+      Italy.
+LA  - eng
+PT  - Journal Article
+PT  - Multicenter Study
+DEP - 20221229
+PL  - Germany
+TA  - Langenbecks Arch Surg
+JT  - Langenbeck's archives of surgery
+JID - 9808285
+SB  - IM
+EIN - Langenbecks Arch Surg. 2023 Feb 16;408(1):92. doi: 10.1007/s00423-023-02824-5. 
+      PMID: 36792843
+MH  - Female
+MH  - Humans
+MH  - *Cholecystectomy, Laparoscopic/methods
+MH  - Retrospective Studies
+MH  - *Internship and Residency
+MH  - Cohort Studies
+MH  - Cholecystectomy/methods
+MH  - Postoperative Complications/epidemiology
+OTO - NOTNLM
+OT  - Elective cholecystectomy
+OT  - Laparoscopic cholecystectomy
+OT  - Operative time
+OT  - Resident education
+OT  - Surgical education
+EDAT- 2022/12/29 06:00
+MHDA- 2022/12/31 06:00
+CRDT- 2022/12/28 23:29
+PHST- 2022/06/21 00:00 [received]
+PHST- 2022/10/18 00:00 [accepted]
+PHST- 2022/12/28 23:29 [entrez]
+PHST- 2022/12/29 06:00 [pubmed]
+PHST- 2022/12/31 06:00 [medline]
+AID - 10.1007/s00423-022-02738-8 [pii]
+AID - 10.1007/s00423-022-02738-8 [doi]
+PST - epublish
+SO  - Langenbecks Arch Surg. 2022 Dec 29;408(1):3. doi: 10.1007/s00423-022-02738-8.
+
+PMID- 37416734
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20240921
+IS  - 2475-0328 (Electronic)
+IS  - 2475-0328 (Linking)
+VI  - 7
+IP  - 4
+DP  - 2023 Jul
+TI  - Impact of laparoscopic gastrectomy on long-term prognosis of patients with 
+      primary T3 or more advanced gastric cancer: A propensity score matching analysis.
+PG  - 594-602
+LID - 10.1002/ags3.12651 [doi]
+AB  - BACKGROUND: There is no consensus regarding a better long-term prognosis with 
+      laparoscopic gastrectomy than with open surgery in patients with advanced gastric 
+      cancer, especially in patients with T3 or more advanced gastric cancer. We 
+      investigated the impact of laparoscopic gastrectomy on the long-term prognosis of 
+      patients who underwent radical gastrectomy for primary T3 or more advanced 
+      gastric cancer. METHODS: This single-center, retrospective cohort study included 
+      294 consecutive patients who underwent radical gastrectomy for primary T3 or more 
+      advanced gastric cancer from April 2008 through April 2017. We compared overall 
+      survival between laparoscopic and open surgery, using propensity score matching 
+      to adjust for baseline characteristics. We also investigated prognostic factors 
+      for overall survival by a forward stepwise procedure of Cox proportional hazards 
+      regression for multivariate analysis. RESULTS: There were 136 (46.3%) and 158 
+      (53.7%) patients in the laparoscopy and open groups, respectively. The median 
+      follow-up period was 39 mo. After matching, there were 97 patients in each group, 
+      with no significant differences in background characteristics. After matching, 
+      the overall survival was significantly worse in the open group than in the 
+      laparoscopy group (P < 0.001). Multivariate analyses also showed that open 
+      surgery was an independent poor prognostic factor for overall survival (hazard 
+      ratio: 2.160, 95% concordance interval: 1.365-3.419, P = 0.001). CONCLUSION: 
+      Overall survival may be better with laparoscopic gastrectomy than with open 
+      surgery for patients with primary T3 or more advanced gastric cancer.
+CI  - © 2022 The Authors. Annals of Gastroenterological Surgery published by John Wiley 
+      & Sons Australia, Ltd on behalf of The Japanese Society of Gastroenterological 
+      Surgery.
+FAU - Matsui, Ryota
+AU  - Matsui R
+AUID- ORCID: 0000-0003-0541-2357
+AD  - Department of Gastroenterological Surgery Ishikawa Prefectural Central Hospital 
+      Kanazawa Japan.
+AD  - Department of Gastrointestinal Surgery/Breast Surgery, Graduate School of Medical 
+      Science Kanazawa University Kanazawa Japan.
+FAU - Inaki, Noriyuki
+AU  - Inaki N
+AD  - Department of Gastroenterological Surgery Ishikawa Prefectural Central Hospital 
+      Kanazawa Japan.
+AD  - Department of Gastrointestinal Surgery/Breast Surgery, Graduate School of Medical 
+      Science Kanazawa University Kanazawa Japan.
+FAU - Tsuji, Toshikatsu
+AU  - Tsuji T
+AUID- ORCID: 0000-0002-3430-0568
+AD  - Department of Gastroenterological Surgery Ishikawa Prefectural Central Hospital 
+      Kanazawa Japan.
+AD  - Department of Gastrointestinal Surgery/Breast Surgery, Graduate School of Medical 
+      Science Kanazawa University Kanazawa Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20221229
+PL  - Japan
+TA  - Ann Gastroenterol Surg
+JT  - Annals of gastroenterological surgery
+JID - 101718062
+PMC - PMC10319619
+OTO - NOTNLM
+OT  - gastric cancer
+OT  - laparoscopic gastrectomy
+OT  - overall survival
+OT  - prognosis
+OT  - relapse‐free survival
+COIS- The authors declare no conflicts of interest.
+EDAT- 2023/07/07 06:42
+MHDA- 2023/07/07 06:43
+PMCR- 2022/12/29
+CRDT- 2023/07/07 04:09
+PHST- 2022/10/18 00:00 [received]
+PHST- 2022/12/07 00:00 [revised]
+PHST- 2022/12/19 00:00 [accepted]
+PHST- 2023/07/07 06:43 [medline]
+PHST- 2023/07/07 06:42 [pubmed]
+PHST- 2023/07/07 04:09 [entrez]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - AGS312651 [pii]
+AID - 10.1002/ags3.12651 [doi]
+PST - epublish
+SO  - Ann Gastroenterol Surg. 2022 Dec 29;7(4):594-602. doi: 10.1002/ags3.12651. 
+      eCollection 2023 Jul.
+
+PMID- 36581689
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230301
+LR  - 20230429
+IS  - 1432-2323 (Electronic)
+IS  - 0364-2313 (Print)
+IS  - 0364-2313 (Linking)
+VI  - 47
+IP  - 4
+DP  - 2023 Apr
+TI  - Safety and Feasibility of Primary Closure Following Laparoscopic Common Bile Duct 
+      Exploration for Treatment of Choledocholithiasis.
+PG  - 1023-1030
+LID - 10.1007/s00268-022-06871-9 [doi]
+AB  - BACKGROUND: T-tube drainage following laparoscopic common bile duct (CBD) 
+      exploration may lead to T-tube displacement and water-electrolyte disorders, 
+      affecting patients' quality of life. In particular, biliary peritonitis may 
+      develop in a small number of patients after T-tube removal, requiring 
+      reoperation. This prospective cohort study was performed to investigate the 
+      safety and feasibility of primary closure following laparoscopic CBD exploration 
+      for the treatment of choledocholithiasis. METHODS: Patients who were treated for 
+      choledocholithiasis by laparoscopic CBD exploration with primary closure from 
+      January 2019 to March 2022 comprised the PC group (n = 145). Patients who were 
+      treated for choledocholithiasis by laparoscopic CBD exploration with T-tube 
+      drainage during this period comprised the TD group (n = 153). Perioperative and 
+      follow-up outcomes were collected and statistically analyzed. RESULTS: The TD and 
+      PC groups showed significant differences in the operation time (124.6 ± 40.8 vs. 
+      106 ± 36.4 min, P = 0.000) and postoperative hospital stay (7.1 ± 2.6 vs. 
+      5.9 ± 2.0 days, P = 0.000). No significant difference was observed in terms of 
+      blood loss, the ratio of conversion to laparotomy, and postoperative parameters. 
+      Preoperative albumin and total bilirubin levels were the risk factors of bile 
+      leakage after surgery. No patients developed CBD stricture or carcinogenesis, The 
+      rates of residual and recurrent stones in the TD and PC groups were 1.97% vs. 
+      1.40% and 1.31% vs. 1.40%, respectively, with no significant difference 
+      (P = 1.000 for both). CONCLUSIONS: Primary closure following laparoscopic CBD 
+      exploration is safe and feasible for selected patients with choledocholithiasis.
+CI  - © 2022. The Author(s).
+FAU - Xiang, Lunjian
+AU  - Xiang L
+AD  - Department of Hepatobiliary Surgery, Chongqing University Three Gorges Hospital, 
+      165 Xincheng Road, Wanzhou District, Chongqing, China.
+FAU - Li, Jingjing
+AU  - Li J
+AD  - Department of Ultrasound, Chongqing University Three Gorges Hospital, 165 
+      Xincheng Road, Wanzhou District, Chongqing, China.
+FAU - Liu, Dingzhi
+AU  - Liu D
+AD  - Department of Hepatobiliary Surgery, Chongqing University Three Gorges Hospital, 
+      165 Xincheng Road, Wanzhou District, Chongqing, China.
+FAU - Yan, Lang
+AU  - Yan L
+AD  - Department of Hepatobiliary Surgery, Chongqing University Three Gorges Hospital, 
+      165 Xincheng Road, Wanzhou District, Chongqing, China.
+FAU - Zeng, Hongrui
+AU  - Zeng H
+AD  - Department of Hepatobiliary Surgery, Chongqing University Three Gorges Hospital, 
+      165 Xincheng Road, Wanzhou District, Chongqing, China.
+FAU - Liu, Yan
+AU  - Liu Y
+AD  - Department of Hepatobiliary Surgery, Chongqing University Three Gorges Hospital, 
+      165 Xincheng Road, Wanzhou District, Chongqing, China. llf_200601@163.com.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20221229
+PL  - United States
+TA  - World J Surg
+JT  - World journal of surgery
+JID - 7704052
+SB  - IM
+EIN - World J Surg. 2023 Apr;47(4):1033. doi: 10.1007/s00268-023-06905-w. PMID: 
+      36656360
+MH  - Humans
+MH  - *Choledocholithiasis/surgery
+MH  - Common Bile Duct/surgery
+MH  - Feasibility Studies
+MH  - Prospective Studies
+MH  - Quality of Life
+MH  - Treatment Outcome
+MH  - Retrospective Studies
+MH  - Drainage
+MH  - *Laparoscopy/adverse effects
+MH  - Length of Stay
+MH  - Postoperative Complications/epidemiology/etiology/surgery
+PMC - PMC9971104
+COIS- Lunjian Xiang, Jingjing Li, Dingzhi Liu,Lang Yan, Hongrui Zeng, and Yan Liu have 
+      no conflicts of interest or financial ties to disclose.
+EDAT- 2022/12/30 06:00
+MHDA- 2023/03/03 06:00
+PMCR- 2022/12/29
+CRDT- 2022/12/29 23:24
+PHST- 2022/11/29 00:00 [accepted]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2023/03/03 06:00 [medline]
+PHST- 2022/12/29 23:24 [entrez]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - 10.1007/s00268-022-06871-9 [pii]
+AID - 6871 [pii]
+AID - 10.1007/s00268-022-06871-9 [doi]
+PST - ppublish
+SO  - World J Surg. 2023 Apr;47(4):1023-1030. doi: 10.1007/s00268-022-06871-9. Epub 
+      2022 Dec 29.
+
+PMID- 36585645
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230111
+IS  - 1865-1372 (Print)
+IS  - 1865-1380 (Electronic)
+IS  - 1865-1372 (Linking)
+VI  - 15
+IP  - 1
+DP  - 2022 Dec 30
+TI  - Bowel obstruction secondary to internal hernia in a hereditary angioedema 
+      patient: a case report.
+PG  - 69
+LID - 10.1186/s12245-022-00475-9 [doi]
+LID - 69
+AB  - BACKGROUND: Gastrointestinal attacks are frequent symptoms in patients diagnosed 
+      with hereditary angioedema (HAE). Cases of self-limited bowel intussusception and 
+      unneeded exploratory laparotomy due to lack of knowledge about HAE have been 
+      reported. Furthermore, after the introduction of C1-esterase inhibitor (C1-INH) 
+      concentrate, the recommended medication for HAE attacks, treatment has become 
+      typically medical in nature. We share a rare case where operative exploration was 
+      indicated to resolve a mechanical small bowel obstruction secondary to an HAE 
+      attack. CASE REPORT: An 80-year-old woman with HAE presented with lower left 
+      abdominal pain, vomiting, and nausea. Computed tomography (CT) showed edema of 
+      the small bowel and stomach as well as possible signs of mechanical small bowel 
+      obstruction. The patient was treated with C1-INH concentrate but showed only mild 
+      signs of relief, warranting diagnostic laparoscopy. Intraoperative findings 
+      showed internal herniation and strangulation of the small bowel caused by 
+      adhesions forming a band. After surgical intervention, no bowel resection was 
+      needed. CONCLUSION: Although C1-INH concentrate remains the principal treatment 
+      for HAE, gastrointestinal attacks may potentially cause surgical emergencies.
+CI  - © 2022. The Author(s).
+FAU - Tanaka, Atsuhito
+AU  - Tanaka A
+AD  - Kobe City Medical Center General Hospital, 2-1-1 Minatojima-Minamimachi, Chuo-ku, 
+      Kobe, Hyogo Prefecture, 650-0047, Japan. atsuhito.tanaka17@gmail.com.
+FAU - Huh, Ji Young
+AU  - Huh JY
+AD  - Kobe City Medical Center General Hospital, 2-1-1 Minatojima-Minamimachi, Chuo-ku, 
+      Kobe, Hyogo Prefecture, 650-0047, Japan.
+FAU - Yamamoto, Takamasa
+AU  - Yamamoto T
+AD  - Kobe City Nishi-Kobe Medical Center, 5-7-1 Kojidai, Nishi-ku, Kobe, Hyogo 
+      Prefecture, 651-2273, Japan.
+FAU - Washio, Ken
+AU  - Washio K
+AD  - Kobe City Nishi-Kobe Medical Center, 5-7-1 Kojidai, Nishi-ku, Kobe, Hyogo 
+      Prefecture, 651-2273, Japan.
+FAU - Ariyoshi, Koichi
+AU  - Ariyoshi K
+AD  - Kobe City Medical Center General Hospital, 2-1-1 Minatojima-Minamimachi, Chuo-ku, 
+      Kobe, Hyogo Prefecture, 650-0047, Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20221230
+PL  - England
+TA  - Int J Emerg Med
+JT  - International journal of emergency medicine
+JID - 101469435
+PMC - PMC9805238
+OTO - NOTNLM
+OT  - Adhesions
+OT  - Hereditary angioedema
+OT  - Internal hernia
+OT  - Mechanical small bowel obstruction
+COIS- The authors declare that they have no competing interests.
+EDAT- 2022/12/31 06:00
+MHDA- 2022/12/31 06:01
+PMCR- 2022/12/30
+CRDT- 2022/12/30 23:46
+PHST- 2022/09/28 00:00 [received]
+PHST- 2022/12/22 00:00 [accepted]
+PHST- 2022/12/30 23:46 [entrez]
+PHST- 2022/12/31 06:00 [pubmed]
+PHST- 2022/12/31 06:01 [medline]
+PHST- 2022/12/30 00:00 [pmc-release]
+AID - 10.1186/s12245-022-00475-9 [pii]
+AID - 475 [pii]
+AID - 10.1186/s12245-022-00475-9 [doi]
+PST - epublish
+SO  - Int J Emerg Med. 2022 Dec 30;15(1):69. doi: 10.1186/s12245-022-00475-9.
+
+PMID- 36587738
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230130
+LR  - 20230202
+IS  - 2468-7847 (Electronic)
+IS  - 2468-7847 (Linking)
+VI  - 52
+IP  - 2
+DP  - 2023 Feb
+TI  - Facilitating method for removal of the large uterus after laparoscopic 
+      hysterectomy: Vaginal vault vertical incision.
+PG  - 102530
+LID - S2468-7847(22)00212-4 [pii]
+LID - 10.1016/j.jogoh.2022.102530 [doi]
+AB  - BACKGROUND: In patients with a large uterus, an important part of the 
+      laparoscopic hysterectomy operation time is the phase of removing the uterus from 
+      the abdomen.The development of techniques that will shorten the morcellation time 
+      is the key to reducing the total operation time. AIM: To evaluate the effect of 
+      vaginal cuff vertical incision in accelerating removal of the large uterus in 
+      laparoscopic hysterectomy. METHODS: This study was performed with patients who 
+      underwent total laparoscopic hysterectomy. In the study group, a vertical 
+      incision was performed in the middle of the posterior vaginal stump before the 
+      vaginal removal of the larger uterus (weighing more than 500 g). The control 
+      group consisted of patients who underwent vaginal morcellation after conventional 
+      colpotomy. Patients in both groups were matched in terms of uterine weights 
+      +/-50 g and the same vaginal morcellation technique was applied to all patients. 
+      RESULTS: In patients who underwent a vertical incision procedure, the time to 
+      remove the uterus from the abdomen (17.55±2.53 min vs 26.62±4.72 min, p<0.001) 
+      and the total operation time (130.81±12.83 min vs.143.29±13, 15 min, p = 0.001) 
+      was statistically significantly less than the patients without vertical incision. 
+      There was no difference between the groups in terms of intraoperative 
+      complications, drop in hemoglobin levels, time to flatus, postoperative 6th,24th 
+      hour visual analog score and length of hospital stay. CONCLUSIONS: The vertical 
+      incision procedure reduces the time to remove the large uterus from the abdomen 
+      after laparoscopic hysterectomy and, accordingly, the total operation time. This 
+      procedure may be the preferred method before vaginal morcellation, especially in 
+      large uterus.
+CI  - Copyright © 2022 Elsevier Masson SAS. All rights reserved.
+FAU - Karaca, İbrahim
+AU  - Karaca İ
+AD  - Department of Obstetrics and Gynecology, İzmir Bakircay University, İzmir, 
+      Turkey.
+FAU - Demirayak, Gökhan
+AU  - Demirayak G
+AD  - Department of Obstetrics and Gynecology, Bakirkoy Dr. Sadi Konuk Training and 
+      Research Hospital, İstanbul, Turkey.
+FAU - Öztürk, Emine
+AU  - Öztürk E
+AD  - Department of Obstetrics and Gynecology, Bakirkoy Dr. Sadi Konuk Training and 
+      Research Hospital, İstanbul, Turkey.
+FAU - Adıyeke, Mehmet
+AU  - Adıyeke M
+AD  - Department of Obstetrics and Gynaecology, Health Sciences University Tepecik 
+      Education and Research Hospital, Izmir, Turkey.
+FAU - Hamdi İnan, A
+AU  - Hamdi İnan A
+AD  - Department of Obstetrics and Gynaecology, Health Sciences University Tepecik 
+      Education and Research Hospital, Izmir, Turkey.
+FAU - Karaca, Suna Yıldırım
+AU  - Karaca SY
+AD  - Department of Obstetrics and Gynaecology, Health Sciences University Tepecik 
+      Education and Research Hospital, Izmir, Turkey. Electronic address: 
+      drsunayildirimkaraca@gmail.com.
+LA  - eng
+PT  - Journal Article
+DEP - 20221229
+PL  - France
+TA  - J Gynecol Obstet Hum Reprod
+JT  - Journal of gynecology obstetrics and human reproduction
+JID - 101701588
+RN  - Uterine Anomalies
+SB  - IM
+MH  - Female
+MH  - Pregnancy
+MH  - Humans
+MH  - *Colpotomy
+MH  - Uterus/surgery
+MH  - Hysterectomy/adverse effects/methods
+MH  - *Laparoscopy/methods
+OTO - NOTNLM
+OT  - Large uterus
+OT  - Surgical technique
+OT  - Total laparoscopic hysterectomy
+OT  - Vaginal morcellation
+COIS- Declaration of Competing Interest The authors have declared that they have no 
+      conflicts of interests in connection with this article.
+EDAT- 2023/01/02 06:00
+MHDA- 2023/01/31 06:00
+CRDT- 2023/01/01 19:12
+PHST- 2022/10/09 00:00 [received]
+PHST- 2022/12/25 00:00 [revised]
+PHST- 2022/12/28 00:00 [accepted]
+PHST- 2023/01/02 06:00 [pubmed]
+PHST- 2023/01/31 06:00 [medline]
+PHST- 2023/01/01 19:12 [entrez]
+AID - S2468-7847(22)00212-4 [pii]
+AID - 10.1016/j.jogoh.2022.102530 [doi]
+PST - ppublish
+SO  - J Gynecol Obstet Hum Reprod. 2023 Feb;52(2):102530. doi: 
+      10.1016/j.jogoh.2022.102530. Epub 2022 Dec 29.
+
+PMID- 36879935
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20240202
+IS  - 0971-9202 (Print)
+IS  - 0975-6434 (Electronic)
+IS  - 0975-6434 (Linking)
+VI  - 73
+IP  - 1
+DP  - 2023 Feb
+TI  - Laparoscopic Radical Hysterectomy for Endometrial Carcinoma in a Woman with an 
+      Ectopic Pelvic Kidney.
+PG  - 83-85
+LID - 10.1007/s13224-022-01721-z [doi]
+AB  - A 59-year-old post-menopausal female presented with complaints of per vaginal 
+      spotting for 3 months. Histopathological examination of contents of dilation and 
+      curettage revealed endometrial carcinoma (FIGO stage I), along with benign 
+      endocervical polyps. MRI also showed presence of left-sided structure indicative 
+      of ectopic pelvic kidney. The patient underwent laparoscopic radical 
+      hysterectomy, bilateral salpingo-oophorectomy and bilateral ilio-obturator lymph 
+      node dissection. Dissection was started along the left pelvic plane. The left 
+      pelvic kidney was seen, and left ureter was located and confirmed below the 
+      uterus. The patient withstood the procedure well. Anomalies of pelvic anatomy, 
+      such as a malpresentation of the kidney and ureter, may prove as surgical 
+      challenges while performing open and laparoscopic surgery. However, in depth 
+      preoperative imaging, meticulous intraoperative dissection and proper 
+      identification of surrounding structures reduces the risk of such complications.
+CI  - © Federation of Obstetric & Gynecological Societies of India 2022.
+FAU - Kedia, Bela
+AU  - Kedia B
+AD  - Fortis Hospital, Mumbai, Maharashtra India. GRID: grid.459544.d. ISNI: 0000 0004 
+      5939 1085
+AD  - Guru Nanak Hospital, Mumbai, India.
+FAU - Chordiya, Nilesh
+AU  - Chordiya N
+AD  - Jupiter Hospital, Thane, Maharashtra India. GRID: grid.517568.8. ISNI: 0000 0004 
+      1770 8611
+AD  - Saifee Hospital, Mumbai, Maharashtra India. GRID: grid.416467.6. ISNI: 0000 0004 
+      1807 8279
+AD  - S L Raheja Hospital, Mumbai, Maharashtra India. GRID: grid.477921.e. ISNI: 0000 
+      0004 1801 7716
+FAU - Ganatra, Keya
+AU  - Ganatra K
+AUID- ORCID: 0000-0003-2528-4890
+AD  - Seth Gordhandas Sunderdas Medical College and King Edward Memorial Hospital, 
+      Mumbai, India. GRID: grid.414807.e. ISNI: 0000 0004 1766 8840
+LA  - eng
+PT  - Case Reports
+DEP - 20221230
+PL  - India
+TA  - J Obstet Gynaecol India
+JT  - Journal of obstetrics and gynaecology of India
+JID - 0374763
+PMC - PMC9984624
+OTO - NOTNLM
+OT  - Kidney abnormality
+OT  - Laparoscopy
+OT  - Pelvic anatomy
+COIS- Conflict of interestThe authors declare that they have no conflict of interest 
+      and nothing to disclose.
+EDAT- 2023/03/08 06:00
+MHDA- 2023/03/08 06:01
+PMCR- 2024/02/01
+CRDT- 2023/03/07 01:59
+PHST- 2022/06/16 00:00 [received]
+PHST- 2022/10/05 00:00 [accepted]
+PHST- 2023/03/07 01:59 [entrez]
+PHST- 2023/03/08 06:00 [pubmed]
+PHST- 2023/03/08 06:01 [medline]
+PHST- 2024/02/01 00:00 [pmc-release]
+AID - 1721 [pii]
+AID - 10.1007/s13224-022-01721-z [doi]
+PST - ppublish
+SO  - J Obstet Gynaecol India. 2023 Feb;73(1):83-85. doi: 10.1007/s13224-022-01721-z. 
+      Epub 2022 Dec 30.
+
+PMID- 36581714
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230419
+LR  - 20230420
+IS  - 1432-0711 (Electronic)
+IS  - 0932-0067 (Linking)
+VI  - 307
+IP  - 5
+DP  - 2023 May
+TI  - Study of postoperative complications after the implementation of a 
+      multidisciplinary care pathway for patients with digestive endometriosis.
+PG  - 1459-1468
+LID - 10.1007/s00404-022-06899-1 [doi]
+AB  - PURPOSE: To assess the quality of care following the establishment of a 
+      multidisciplinary care pathway for patient operated on for deep pelvic 
+      endometriosis with digestive impairment. METHODS: We conducted a retrospective 
+      monocentric study of patients suffering from deep infiltrating endometriosis, 
+      treated in Gynaecological Department at Toulouse University Hospital from January 
+      2018 to December 2020. We compared our results to those of our previous study, 
+      Gornes et al. which showed a postoperative complication occurred in 37.8% of the 
+      cases and a postoperative severe complication according to the Clavien-Dindo 
+      classification (grades 3b) rate of 18.3%. RESULTS: 98 patients were included. Our 
+      study shows a clear decrease in postoperative complications with an overall 
+      complication rate of 19.4% and severe complications (grades 3b) of 4.1%. The rate 
+      of complication appeared to be significantly less frequent in the case of shaving 
+      in relation to other digestive procedures (p = 0.008) and in the case of a lesion 
+      of < 20 mm by MRI (p = 0.01). The use of multidisciplinary surgical care was more 
+      frequent in the case of multiple locations (66.7% vs. 41.8%, p = 0.07) and was 
+      more frequent in the case of transmural damage with echo endoscopy (and to a 
+      lesser degree in the case of damage of the muscularis or mucous membrane) 
+      (p = 0.05). CONCLUSIONS: Multidisciplinary care of endometriosis with digestive 
+      damage appears to be indispensable. The intraoperative intervention of a skilled 
+      digestive surgeon of bowel endometriosis helps create the best balance between 
+      effectiveness-complications-functional prognosis, with a reduction of severe 
+      postoperative complications.
+CI  - © 2022. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+      part of Springer Nature.
+FAU - Weyl, Ariane
+AU  - Weyl A
+AD  - Department of Gynecologic Surgery, University Hospital Center, Toulouse, France.
+AD  - I2MC, National Institute of Health and Medical Research (INSERM) U1297, 
+      University of Toulouse 3 and Toulouse University Hospital, Toulouse, France.
+FAU - Sevy, Virginie
+AU  - Sevy V
+AD  - Department of Gynecologic Surgery, Hospital Center, Montauban, France.
+FAU - Lepage, Benoît
+AU  - Lepage B
+AD  - Department of Epidemiology, University Hospital Center, Toulouse, France.
+FAU - Vidal, Fabien
+AU  - Vidal F
+AD  - Department of Gynecologic Surgery, La Croix du Sud Hopital, Quint Fonsegrives, 
+      France.
+FAU - Kirzin, Sylvain
+AU  - Kirzin S
+AD  - Department of Digestive Surgery, La Croix du Sud Hopital, Quint Fonsegrives, 
+      France.
+FAU - Legac, Yann Tanguy
+AU  - Legac YT
+AD  - Department of Gynecologic Surgery, University Hospital Center, Toulouse, France.
+FAU - Lesourd, Florence
+AU  - Lesourd F
+AD  - Department of Medical Gynecology, University Hospital Center, Toulouse, France.
+FAU - Gosset, Anna
+AU  - Gosset A
+AD  - Department of Medical Gynecology, University Hospital Center, Toulouse, France.
+FAU - Capdet, Jérome
+AU  - Capdet J
+AD  - Department of Gynecologic Surgery, Rive Gauche Hospital, Toulouse, France.
+FAU - Leguevaque, Pierre
+AU  - Leguevaque P
+AD  - Department of Gynecologic Surgery, Pasteur Hospital, Toulouse, France.
+FAU - Bournet, Barbara
+AU  - Bournet B
+AD  - Department of Gastroenterology, University Hospital Center, Toulouse, France.
+FAU - Lenfant, Françoise
+AU  - Lenfant F
+AD  - I2MC, National Institute of Health and Medical Research (INSERM) U1297, 
+      University of Toulouse 3 and Toulouse University Hospital, Toulouse, France.
+FAU - Brierre, Thibaut
+AU  - Brierre T
+AD  - Department of Urology, University Hospital Center, Toulouse, France.
+FAU - Gornes, Hugo
+AU  - Gornes H
+AD  - Department of Gynecologic Surgery, Occitanie Hospital, Toulouse, France.
+FAU - Buscail, Etienne
+AU  - Buscail E
+AD  - Department of Digestive Surgery, University Hospital Center, Toulouse, France.
+FAU - Chantalat, Elodie
+AU  - Chantalat E
+AUID- ORCID: 0000-0001-5639-3294
+AD  - Department of Gynecologic Surgery, University Hospital Center, Toulouse, France. 
+      echantalat@yahoo.fr.
+AD  - I2MC, National Institute of Health and Medical Research (INSERM) U1297, 
+      University of Toulouse 3 and Toulouse University Hospital, Toulouse, France. 
+      echantalat@yahoo.fr.
+LA  - eng
+PT  - Journal Article
+DEP - 20221230
+PL  - Germany
+TA  - Arch Gynecol Obstet
+JT  - Archives of gynecology and obstetrics
+JID - 8710213
+SB  - IM
+MH  - Female
+MH  - Humans
+MH  - *Endometriosis/pathology
+MH  - *Rectal Diseases/surgery
+MH  - Retrospective Studies
+MH  - Critical Pathways
+MH  - Treatment Outcome
+MH  - Postoperative Complications/epidemiology/etiology/surgery
+MH  - *Laparoscopy/methods
+MH  - *Digestive System Surgical Procedures/methods
+OTO - NOTNLM
+OT  - Deep infiltrating endometriosis
+OT  - Multidisciplinary care pathway
+OT  - Postoperative complications
+EDAT- 2022/12/30 06:00
+MHDA- 2023/04/19 06:41
+CRDT- 2022/12/29 23:27
+PHST- 2022/09/26 00:00 [received]
+PHST- 2022/12/17 00:00 [accepted]
+PHST- 2023/04/19 06:41 [medline]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2022/12/29 23:27 [entrez]
+AID - 10.1007/s00404-022-06899-1 [pii]
+AID - 10.1007/s00404-022-06899-1 [doi]
+PST - ppublish
+SO  - Arch Gynecol Obstet. 2023 May;307(5):1459-1468. doi: 10.1007/s00404-022-06899-1. 
+      Epub 2022 Dec 30.
+
+PMID- 36581835
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230102
+LR  - 20230103
+IS  - 1471-2253 (Electronic)
+IS  - 1471-2253 (Linking)
+VI  - 22
+IP  - 1
+DP  - 2022 Dec 30
+TI  - Effect of facemask oxygenation with and without positive pressure ventilation on 
+      gastric volume during anesthesia induction in patients undergoing laparoscopic 
+      cholecystectomy or partial hepatectomy: a randomized controlled trial.
+PG  - 412
+LID - 10.1186/s12871-022-01958-1 [doi]
+LID - 412
+AB  - BACKGROUND: Studies focusing on the relationship between gastric volume and 
+      facemask oxygenation without ventilation during apnea in anesthesia induction are 
+      scarce. This study compared the change in gastric volume during apnea in 
+      anesthesia induction using facemask ventilation and facemask oxygenation without 
+      ventilation in adults undergoing laparoscopic surgery. METHODS: In this 
+      prospective, randomized, double-blinded trial, 70 adults undergoing laparoscopic 
+      surgery under general anesthesia were divided into two groups to receive facemask 
+      oxygenation with and without ventilation for 60 seconds after loss of 
+      consciousness. Before anesthesia induction and after endotracheal intubation, the 
+      gastric antral cross-sectional area was measured with ultrasound imaging. 
+      Arterial blood gases were tested at baseline (T1), after preoxygenation (T2), 
+      after loss of consciousness (T3), and before and after endotracheal intubation 
+      (T4 and T5, respectively). RESULTS: Sixty patients were included (ventilation 
+      n = 30; non ventilation n = 30, 10 patients were excluded). The median [IQR] 
+      change of gastric antral cross-sectional area in ventilation group was 
+      significantly higher than in non ventilation group (0.83 [0.20 to 1.54] vs. 0.10 
+      [- 0.11 to 0.56] cm(2), P = 0.001). At T4 and T5, the PaO(2) in ventilation group 
+      was significantly higher than in non ventilation group (T4: 391.83 ± 61.53 vs. 
+      336.23 ± 74.99 mmHg, P < 0.01; T5: 364.00 ± 58.65 vs. 297.13 ± 86.95 mmHg, 
+      P < 0.01), while the PaCO(2) in non ventilation group was significantly higher 
+      (T4: 46.57 ± 5.78 vs. 37.27 ± 6.10 mmHg, P < 0.01; T5: 48.77 ± 6.59 vs. 
+      42.63 ± 6.03 mmHg, P < 0.01) and the pH value in non ventilation group was 
+      significantly lower (T4: 7.35 ± 0.029 vs 7.42 ± 0.047, P < 0.01; T5: 7.34 ± 0.033 
+      vs 7.39 ± 0.044, P < 0.01). At T4, the HCO(3)(-) in non ventilation group was 
+      significantly higher (25.79 ± 2.36 vs. 23.98 ± 2.18 mmol l(- 1), P < 0.01). 
+      CONCLUSIONS: During apnoea, the increase in gastric volume was milder in patients 
+      undergoing facemask oxygenation without ventilation than with positive pressure 
+      ventilation. TRIAL REGISTRATION: ChiCTR2100054193, 10/12/2021, Title: "Effect of 
+      positive pressure and non-positive pressure ventilation on gastric volume during 
+      induction of general anesthesia in laparoscopic surgery: a randomized controlled 
+      trial". Website: https://www.chictr.ogr.cn .
+CI  - © 2022. The Author(s).
+FAU - He, Guangting
+AU  - He G
+AD  - Department of Anesthesiology, NanFang Hospital, Southern Medical University, 1838 
+      Guangzhou Avenue North, Guangzhou, 510515, People's Republic of China.
+FAU - Ma, Liyun
+AU  - Ma L
+AD  - Department of Anesthesiology, NanFang Hospital, Southern Medical University, 1838 
+      Guangzhou Avenue North, Guangzhou, 510515, People's Republic of China.
+FAU - Tian, Ke
+AU  - Tian K
+AD  - Department of Anesthesiology, NanFang Hospital, Southern Medical University, 1838 
+      Guangzhou Avenue North, Guangzhou, 510515, People's Republic of China.
+FAU - Cao, Yuqi
+AU  - Cao Y
+AD  - Department of Anesthesiology, NanFang Hospital, Southern Medical University, 1838 
+      Guangzhou Avenue North, Guangzhou, 510515, People's Republic of China.
+FAU - Qin, Zaisheng
+AU  - Qin Z
+AD  - Department of Anesthesiology, NanFang Hospital, Southern Medical University, 1838 
+      Guangzhou Avenue North, Guangzhou, 510515, People's Republic of China. 
+      qzsmzk@163.com.
+LA  - eng
+GR  - 81973305/National Natural Science Foundation of China, Beijing, People's Republic 
+      of China./
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20221230
+PL  - England
+TA  - BMC Anesthesiol
+JT  - BMC anesthesiology
+JID - 100968535
+SB  - IM
+MH  - Adult
+MH  - Humans
+MH  - *Masks
+MH  - *Cholecystectomy, Laparoscopic
+MH  - Apnea
+MH  - Hepatectomy
+MH  - Prospective Studies
+MH  - Anesthesia, General/methods
+MH  - Unconsciousness
+PMC - PMC9801608
+OTO - NOTNLM
+OT  - Anesthesia induction
+OT  - Facemask oxygenation
+OT  - Gastric volume
+OT  - Laparoscopic surgery
+COIS- All authors declare that they have no competing interests.
+EDAT- 2022/12/30 06:00
+MHDA- 2023/01/03 06:00
+PMCR- 2022/12/30
+CRDT- 2022/12/29 23:35
+PHST- 2022/09/16 00:00 [received]
+PHST- 2022/12/26 00:00 [accepted]
+PHST- 2022/12/29 23:35 [entrez]
+PHST- 2022/12/30 06:00 [pubmed]
+PHST- 2023/01/03 06:00 [medline]
+PHST- 2022/12/30 00:00 [pmc-release]
+AID - 10.1186/s12871-022-01958-1 [pii]
+AID - 1958 [pii]
+AID - 10.1186/s12871-022-01958-1 [doi]
+PST - epublish
+SO  - BMC Anesthesiol. 2022 Dec 30;22(1):412. doi: 10.1186/s12871-022-01958-1.
+
+PMID- 36577828
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20230103
+LR  - 20230215
+IS  - 1435-2451 (Electronic)
+IS  - 1435-2443 (Linking)
+VI  - 408
+IP  - 1
+DP  - 2022 Dec 29
+TI  - Long-term (11 + years) efficacy of sleeve gastrectomy as a stand-alone bariatric 
+      procedure: a single-center retrospective observational study.
+PG  - 4
+LID - 10.1007/s00423-022-02734-y [doi]
+AB  - INTRODUCTION: Sleeve gastrectomy (SG) is currently the most commonly performed 
+      bariatric procedure worldwide. The aim of the present study was to evaluate the 
+      long-term efficacy of SG as a stand-alone bariatric procedure. METHODS: A 
+      single-center retrospective analysis of 104 patients who underwent SG as a 
+      stand-alone bariatric procedure between January 2005 and December 2009. Weight 
+      loss, weight regain, remission or improvement of comorbidities and the new onset 
+      of comorbidities were the main outcomes of the study. RESULTS: The percent excess 
+      body weight loss (%EBWL), percent excess body mass weight (BMI) loss (%EBMIL), 
+      and percent total body weight loss (%TBWL) were 59 ± 25, 69 ± 29, and 29 ± 12, 
+      respectively, after a mean follow-up of 13.4 years. At the last follow-up, nearly 
+      two thirds of patients (67.3%) had an %EBWL greater than 50. The percentage of 
+      patients who experienced significant weight regain ranged from 47 to 64%, 
+      depending on the definition used for weight regain. The rate of improvement or 
+      remission of hypertension, type 2 diabetes, dyslipidemia, obstructive sleep 
+      apnea, and degenerative joint disease at a mean follow-up of 13.4 years was 40%, 
+      94.7%, 70%, 100%, and 42.9%, respectively. The new onset of gastroesophageal 
+      reflux disease (GERD) symptoms in the same period was 43%. CONCLUSION: Our data 
+      supports that SG results in long-lasting weight loss in the majority of patients 
+      and acceptable rates of remission or improvement of comorbidities. Weight regain 
+      and GERD may be issues of particular concern during long-term follow-up after SG.
+CI  - © 2022. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+      part of Springer Nature.
+FAU - Kehagias, Ioannis
+AU  - Kehagias I
+AD  - Division of Bariatric and Metabolic Surgery, Department of Surgery, General 
+      University Hospital of Patras, 26504, Patras, Rio, Greece.
+FAU - Bellou, Aggeliki
+AU  - Bellou A
+AD  - Department of Anesthesiology and Critical Care Medicine, General University 
+      Hospital of Patras, 26504, Patras, Rio, Greece.
+FAU - Kehagias, Dimitrios
+AU  - Kehagias D
+AD  - Department of Surgery, General University Hospital of Patras, Rio, 26504, Patras, 
+      Greece.
+FAU - Markopoulos, George
+AU  - Markopoulos G
+AD  - Department of Surgery, Saint Andrew's General Hospital, 26335, Patras, Greece.
+FAU - Amanatidis, Theofilos
+AU  - Amanatidis T
+AD  - Department of Intensive Care Unit, General University Hospital of Larissa, 41334, 
+      Larissa, Greece.
+FAU - Alexandrou, Andreas
+AU  - Alexandrou A
+AD  - 1st Department of Surgery, National and Kapodistrian University of Athens Medical 
+      School, Laiko Hospital, 11527, Athens, Greece.
+FAU - Albanopoulos, Konstantinos
+AU  - Albanopoulos K
+AD  - National and Kapodistrean University of Athens Medical School, 11527, Athens, 
+      Greece.
+FAU - Lampropoulos, Charalampos
+AU  - Lampropoulos C
+AUID- ORCID: 0000-0003-1512-2273
+AD  - Department of Intensive Care Unit, Saint Andrew's General Hospital, 26335, 
+      Patras, Greece. x_lamp@hotmail.com.
+LA  - eng
+PT  - Journal Article
+PT  - Observational Study
+DEP - 20221229
+PL  - Germany
+TA  - Langenbecks Arch Surg
+JT  - Langenbeck's archives of surgery
+JID - 9808285
+SB  - IM
+EIN - Langenbecks Arch Surg. 2023 Feb 16;408(1):92. doi: 10.1007/s00423-023-02824-5. 
+      PMID: 36792843
+MH  - Humans
+MH  - *Bariatrics
+MH  - Follow-Up Studies
+MH  - Gastrectomy/methods
+MH  - *Gastroesophageal Reflux
+MH  - *Laparoscopy/methods
+MH  - *Obesity, Morbid/surgery
+MH  - Retrospective Studies
+MH  - Treatment Outcome
+MH  - Weight Gain
+MH  - Weight Loss
+OTO - NOTNLM
+OT  - Gastroesophageal reflux disease
+OT  - Long-term outcomes
+OT  - Sleeve gastrectomy
+OT  - Weight loss
+OT  - Weight regain
+EDAT- 2022/12/29 06:00
+MHDA- 2022/12/31 06:00
+CRDT- 2022/12/28 23:29
+PHST- 2022/05/05 00:00 [received]
+PHST- 2022/10/15 00:00 [accepted]
+PHST- 2022/12/28 23:29 [entrez]
+PHST- 2022/12/29 06:00 [pubmed]
+PHST- 2022/12/31 06:00 [medline]
+AID - 10.1007/s00423-022-02734-y [pii]
+AID - 10.1007/s00423-022-02734-y [doi]
+PST - epublish
+SO  - Langenbecks Arch Surg. 2022 Dec 29;408(1):4. doi: 10.1007/s00423-022-02734-y.
+
+PMID- 36721547
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230202
+IS  - 2168-8184 (Print)
+IS  - 2168-8184 (Electronic)
+IS  - 2168-8184 (Linking)
+VI  - 14
+IP  - 12
+DP  - 2022 Dec
+TI  - Laparoscopic Sacrocervicopexy Using Ethibond Suture Graft: A Very Economic Yet 
+      Effective Fertility Preserving Surgery for Pelvic Organ Prolapse.
+PG  - e33086
+LID - 10.7759/cureus.33086 [doi]
+LID - e33086
+AB  - BACKGROUND: The modern era has witnessed a transition to a phase of 
+      uterus-preserving surgeries and so holds true for pelvic organ prolapse (POP) 
+      surgeries as well. Laparoscopic sacrocervicopexy has become a preferred surgical 
+      modality for moderate to severe degrees of POP in most women of the childbearing 
+      age group. With the alarming incidences of mesh erosion, synthetic mesh has 
+      almost gone off the market. We advocate a very simple and cost-effective 
+      technique of laparoscopic sacrocervicopexy using an Ethibond suture graft. 
+      MATERIALS AND METHODS: It was a pilot prospective observational study over one 
+      year. Consecutive consenting women with symptomatic prolapsed uterus Stage-II of 
+      the central component of the quantitative POP classification (POP-Q) were 
+      recruited. Laparoscopic sacrocervicopexy was performed under general anesthesia 
+      using the standard protocols, and patients were prospectively followed for six 
+      months after surgery. The duration of surgery and hospital stay were noted. 
+      Patient satisfaction was rated using a five-point Likert scale. The vaginal 
+      length was measured immediately after and six months post-surgery. Sexual 
+      function was assessed using the validated female sexual function index (FSFI) 
+      scale six months after sacrocervicopexy. RESULTS: Out of 28 recruited women, the 
+      majority were multiparous, highly qualified, and belonged to the middle 
+      socio-economic class. Seven patients had co-morbidity in the form of hypertension 
+      (17.8%), diabetes (7.1%), and cardiovascular diseases (7.1%). The mean duration 
+      of surgery was 105.8±7.2 minutes in the study population. The mean duration of 
+      hospital stay was 2.2±0.6 days. No surgical site infection was noted in any of 
+      the cases. Most patients rated "very satisfied" experiences following surgery 
+      (67.9%). The mean vaginal length after surgery was 7.6±1.2 centimeters. After a 
+      follow-up period of six months, the mean vaginal length was 7.4±0.8 centimeters. 
+      The mean FSFI score was 30.8±2.4. CONCLUSION: Laparoscopic sacrocervicopexy with 
+      Ethibond suture graft is a cost-effective and safe surgical technique for POP in 
+      resource-limited settings. It also obviates the additional cost of synthetic mesh 
+      and the long-term risks of mesh erosion.
+CI  - Copyright © 2022, Sharma et al.
+FAU - Sharma, Jagadish C
+AU  - Sharma JC
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Sarkar, Avir
+AU  - Sarkar A
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Choudhary, Neelima
+AU  - Choudhary N
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Chandra, Ramesh
+AU  - Chandra R
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Anupma, Anupma
+AU  - Anupma A
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Munda, Geetanjali
+AU  - Munda G
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Anand, Ujjwala
+AU  - Anand U
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Kollabathula, Pragathi
+AU  - Kollabathula P
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+FAU - Jesingh, Bhumika
+AU  - Jesingh B
+AD  - Obstetrics and Gynecology, Employees' State Insurance Corporation (ESIC) Medical 
+      College and Hospital, Faridabad, IND.
+LA  - eng
+PT  - Journal Article
+DEP - 20221229
+PL  - United States
+TA  - Cureus
+JT  - Cureus
+JID - 101596737
+PMC - PMC9884064
+OTO - NOTNLM
+OT  - female sexual function index
+OT  - gynecologic endoscopy
+OT  - laparoscopic technique
+OT  - pelvic organ prolapse
+OT  - sacrocervicopexy
+COIS- The authors have declared that no competing interests exist.
+EDAT- 2023/02/02 06:00
+MHDA- 2023/02/02 06:01
+PMCR- 2022/12/29
+CRDT- 2023/02/01 01:47
+PHST- 2022/12/29 00:00 [accepted]
+PHST- 2023/02/01 01:47 [entrez]
+PHST- 2023/02/02 06:00 [pubmed]
+PHST- 2023/02/02 06:01 [medline]
+PHST- 2022/12/29 00:00 [pmc-release]
+AID - 10.7759/cureus.33086 [doi]
+PST - epublish
+SO  - Cureus. 2022 Dec 29;14(12):e33086. doi: 10.7759/cureus.33086. eCollection 2022 
+      Dec.

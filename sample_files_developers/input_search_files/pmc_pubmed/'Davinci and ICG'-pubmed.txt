@@ -1,0 +1,144 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27Davinci+and+ICG%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 29719391
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180611
+LR  - 20181114
+IS  - 1178-2013 (Electronic)
+IS  - 1176-9114 (Linking)
+VI  - 13
+DP  - 2018
+TI  - Combined use of fluorescence with a magnetic tracer and dilution effect upon
+      sentinel node localization in a murine model.
+PG  - 2427-2433
+LID - 10.2147/IJN.S153163 [doi]
+AB  - Background: Sentinel node biopsy using radioisotope and blue dye remains a gold
+      standard for axillary staging in breast cancer patients with low axillary burden.
+      However, limitations in the use of radioisotopes have resulted in emergence of
+      novel techniques. This is the first in vivo study to assess the feasibility of
+      combining the two most common novel techniques of using a magnetic tracer and
+      indocyanine green (ICG) fluorescence. Materials and methods: A total of 48 mice
+      were divided into eight groups. Groups 1 and 2, the co-localization groups,
+      received an injection of magnetic tracers (Resovist((R)) and Sienna+((R)),
+      respectively) and ICG fluorescence; distilled water was used as the solvent of
+      ICG. Groups 3 and 4, the diluted injection groups, received an injection of
+      magnetic tracers (Resovist and Sienna+, respectively) and saline for dilution.
+      Groups 5, 6, and 7, the control groups, received magnetic tracer (Resovist,
+      Sienna+) and ICG alone, respectively. Fluorescent intensity assessment and iron
+      quantification of excised popliteal lymph nodes were performed. Group 1', a
+      co-localization group, received an injection of magnetic tracers (Resovist) and
+      ICG' fluorescence: saline was used as the solvent for ICG. Results: Lymphatic
+      uptake of all tracers was confined to the popliteal nodes only, with
+      co-localization confirmed in all cases and no significant difference in
+      fluorescent intensity or iron content of ex vivo nodes between the groups (except
+      for Group 1'). There was no impact of dilution on the iron content in the diluted
+      Sienna+ group, but it significantly enhanced Resovist uptake (P=0.005). In
+      addition, there was a significant difference in iron content (P=0.003) in Group
+      1'. Conclusion: The combination of a magnetic tracer (Resovist or Sienna+) and
+      ICG fluorescence is feasible for sentinel node biopsy and will potentially allow 
+      for precise transcutaneous node identification, in addition to accurate
+      intraoperative assessment. This radioisotope-free "combined technique" warrants
+      further assessment within a clinical trial.
+FAU - Kuwahata, Akihiro
+AU  - Kuwahata A
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+FAU - Ahmed, Muneer
+AU  - Ahmed M
+AD  - Division of Cancer Studies, King's College London, Guy's Hospital Campus, Great
+      Maze Pond, London, UK.
+FAU - Saeki, Kohei
+AU  - Saeki K
+AD  - Graduate School of Agriculture and Life Sciences, The University of Tokyo, Hongo,
+      Bunkyo-ku, Tokyo, Japan.
+FAU - Chikaki, Shinichi
+AU  - Chikaki S
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+FAU - Kaneko, Miki
+AU  - Kaneko M
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+FAU - Qiu, Wenqi
+AU  - Qiu W
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+FAU - Xin, Zonghao
+AU  - Xin Z
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+FAU - Yamaguchi, Shinji
+AU  - Yamaguchi S
+AD  - Graduate School of Agriculture and Life Sciences, The University of Tokyo, Hongo,
+      Bunkyo-ku, Tokyo, Japan.
+FAU - Kaneko, Akiko
+AU  - Kaneko A
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+FAU - Douek, Michael
+AU  - Douek M
+AD  - Division of Cancer Studies, King's College London, Guy's Hospital Campus, Great
+      Maze Pond, London, UK.
+FAU - Kusakabe, Moriaki
+AU  - Kusakabe M
+AD  - Graduate School of Agriculture and Life Sciences, The University of Tokyo, Hongo,
+      Bunkyo-ku, Tokyo, Japan.
+AD  - Matrix Cell Research Institute Inc., Ibaraki, Japan.
+FAU - Sekino, Masaki
+AU  - Sekino M
+AD  - Department of Electrical Engineering and Information Systems, Graduate School of 
+      Engineering, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20180419
+PL  - New Zealand
+TA  - Int J Nanomedicine
+JT  - International journal of nanomedicine
+JID - 101263847
+RN  - 0 (Coloring Agents)
+RN  - 0 (Dextrans)
+RN  - 0 (Magnetite Nanoparticles)
+RN  - E1UOL152H7 (Iron)
+RN  - G6N3J05W84 (ferumoxides)
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - Aged
+MH  - Animals
+MH  - Breast Neoplasms/pathology
+MH  - Coloring Agents/chemistry
+MH  - Dextrans/*chemistry
+MH  - Disease Models, Animal
+MH  - *Dye Dilution Technique
+MH  - Female
+MH  - Fluorescence
+MH  - Humans
+MH  - Indocyanine Green/chemistry
+MH  - Iron/metabolism
+MH  - Lymph Nodes/*pathology
+MH  - Magnetite Nanoparticles/*chemistry
+MH  - Mice
+MH  - Middle Aged
+MH  - Particle Size
+MH  - Sentinel Lymph Node Biopsy/*methods
+MH  - Static Electricity
+PMC - PMC5914738
+OTO - NOTNLM
+OT  - combined technique
+OT  - dilutional effect
+OT  - fluorescence dye
+OT  - magnetic nanoparticles
+OT  - sentinel node biopsy
+COIS- Disclosure The authors report no conflicts of interest in this work.
+EDAT- 2018/05/03 06:00
+MHDA- 2018/06/12 06:00
+CRDT- 2018/05/03 06:00
+PHST- 2018/05/03 06:00 [entrez]
+PHST- 2018/05/03 06:00 [pubmed]
+PHST- 2018/06/12 06:00 [medline]
+AID - 10.2147/IJN.S153163 [doi]
+AID - ijn-13-2427 [pii]
+PST - epublish
+SO  - Int J Nanomedicine. 2018 Apr 19;13:2427-2433. doi: 10.2147/IJN.S153163.
+      eCollection 2018.

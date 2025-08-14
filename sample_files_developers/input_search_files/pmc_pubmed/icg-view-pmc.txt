@@ -1,0 +1,225 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=icg-view&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC7203106
+PMID- 32376983
+IS  - 2045-2322 (Electronic)
+VI  - 10
+DP  - 2020
+TI  - Intraoperative Laser Speckle Contrast Imaging For Real-Time Visualization of
+      Cerebral Blood Flow in Cerebrovascular Surgery: Results From Pre-Clinical
+      Studies.
+LID - 7614
+AB  - Cerebrovascular surgery can benefit from an intraoperative system that conducts
+      continuous monitoring of cerebral blood flow (CBF). Such a system must be handy, 
+      non-invasive, and directly integrated into the surgical workflow. None of the
+      currently available techniques, considered alone, meets all these criteria. Here,
+      we introduce the SurgeON™ system: a newly developed non-invasive modular tool
+      which transmits high-resolution Laser Speckle Contrast Imaging (LSCI) directly
+      onto the eyepiece of the surgical microscope. In preclinical rodent and rabbit
+      models, we show that this system enabled the detection of acute perfusion changes
+      as well as the recording of temporal response patterns and degrees of flow
+      changes in various microvascular settings, such as middle cerebral artery
+      occlusion, femoral artery clipping, and complete or incomplete cortical vessel
+      cautery. During these procedures, a real-time visualization of vasculature and
+      CBF was available in high spatial resolution through the eyepiece as a direct
+      overlay on the live morphological view of the surgical field. Upon comparison
+      with indocyanine green angiography videoangiography (ICG-VA) imaging, also
+      operable via SurgeON, we found that direct-LSCI can produce greater information
+      than ICG-VA and that continuous display of data is advantageous for performing
+      immediate LSCI-guided adjustments in real time.
+FAU - Mangraviti, Antonella
+AU  - Mangraviti A
+AD  - 0000 0001 2171 9311grid.21107.35Department of Neurosurgery, Johns Hopkins
+      University, Baltimore, MD United States
+FAU - Volpin, Francesco
+AU  - Volpin F
+AD  - 0000 0001 2171 9311grid.21107.35Department of Neurosurgery, Johns Hopkins
+      University, Baltimore, MD United States
+FAU - Cha, Jaepyeong
+AU  - Cha J
+AD  - grid.505446.6Vasoptic Medical, Inc., Baltimore, MD United States
+FAU - Cunningham, Samantha I.
+AU  - Cunningham SI
+AD  - grid.505446.6Vasoptic Medical, Inc., Baltimore, MD United States
+FAU - Raje, Karan
+AU  - Raje K
+AD  - grid.505446.6Vasoptic Medical, Inc., Baltimore, MD United States
+FAU - Brooke, M. Jason
+AU  - Brooke MJ
+AD  - grid.505446.6Vasoptic Medical, Inc., Baltimore, MD United States
+FAU - Brem, Henry
+AU  - Brem H
+AUID- ORCID: 0000-0001-7539-4786
+AD  - 0000 0001 2171 9311grid.21107.35Department of Neurosurgery, Johns Hopkins
+      University, Baltimore, MD United States
+FAU - Olivi, Alessandro
+AU  - Olivi A
+AD  - 0000 0001 2171 9311grid.21107.35Department of Neurosurgery, Johns Hopkins
+      University, Baltimore, MD United States
+FAU - Huang, Judy
+AU  - Huang J
+AD  - 0000 0001 2171 9311grid.21107.35Department of Neurosurgery, Johns Hopkins
+      University, Baltimore, MD United States
+FAU - Tyler, Betty M.
+AU  - Tyler BM
+AUID- ORCID: 0000-0001-9800-6969
+AD  - 0000 0001 2171 9311grid.21107.35Department of Neurosurgery, Johns Hopkins
+      University, Baltimore, MD United States
+FAU - Rege, Abhishek
+AU  - Rege A
+AD  - grid.505446.6Vasoptic Medical, Inc., Baltimore, MD United States
+LA  - eng
+PT  - Journal Article
+DEP - 20200506
+GR  - R43EB019856-01A1
+PHST- 2019/01/31 [received]
+PHST- 2020/04/01 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 64492 [pii]
+AID - 10.1038/s41598-020-64492-5 [doi]
+SO  - Sci Rep. 2020 May 6;10:. doi:10.1038/s41598-020-64492-5.
+
+PMC - PMC6571345
+PMID- 31333973
+IS  - 2169-7574 (Electronic)
+VI  - 7
+IP  - 5
+DP  - 2019 May
+TI  - Real-time Indocyanine Green Videolymphography Navigation for Lymphaticovenular
+      Anastomosis.
+LID - e2253
+AB  - Indocyanine green (ICG) lymphography is a useful imaging modality for evaluation 
+      of lymphedema and detection of lymphatic vessels. It also allows us to ensure
+      patency of the anastomosed vessels intraoperatively. However, strong light from
+      the operating microscope usually disturbs ICG fluorescence imaging. Only some
+      built-in ICG camera systems with specific operating microscopes make real-time
+      ICG lymphography possible in lymphaticovenular anastomosis (LVA). We applied a
+      new high-resolution ICG videolymphography system, which is separated from the
+      operating microscope. Because the system can divide near-infrared fluorescence
+      light of ICG from visible light of the operating microscope, real-time ICG
+      videolymphography-navigated LVA under operating microscope illumination is
+      possible regardless types of operating microscopes. The study involved 10
+      patients with upper extremity lymphedema characterized by International Society
+      of Lymphology stage 2 and treated by 3 lymphaticovenular anastomoses at the
+      forearm (30 lymphaticovenular anastomoses incorporating 30 lymphatic vessels)
+      under real-time ICG videolymphography. The rate of intraoperative detection of
+      lymphatic vessels using real-time ICG videolymphography was 86.7% (0.25–0.85 mm
+      in diameter), and that of lymph flow through the lymphaticovenular anastomoses
+      was 76.7%. None of lymphatic vessels and no flow were detected under the
+      microscope light by means of another non-built-in ICG lymphography camera.
+      Real-time ICG videolymphography in LVA is beneficial, because the surgeon could
+      find lymphatic vessels easily by checking dual images of original view and ICG
+      fluorescent view and ensure accuracy of the LVA in a suture by a suture without
+      any pauses of the surgical procedures.
+FAU - Seki, Yukio
+AU  - Seki Y
+AD  - From the Department of Plastic and Reconstructive Surgery, St. Marianna
+      University School of Medicine, Kanagawa, Japan
+FAU - Kajikawa, Akiyoshi
+AU  - Kajikawa A
+AD  - From the Department of Plastic and Reconstructive Surgery, St. Marianna
+      University School of Medicine, Kanagawa, Japan
+FAU - Yamamoto, Takumi
+AU  - Yamamoto T
+AD  - From the Department of Plastic and Reconstructive Surgery, St. Marianna
+      University School of Medicine, Kanagawa, Japan
+FAU - Takeuchi, Takayuki
+AU  - Takeuchi T
+AD  - From the Department of Plastic and Reconstructive Surgery, St. Marianna
+      University School of Medicine, Kanagawa, Japan
+FAU - Terashima, Takahiro
+AU  - Terashima T
+AD  - Department of General Surgery, Shonan Atsugi Hospital, Kanagawa, Japan.
+FAU - Kurogi, Norimitsu
+AU  - Kurogi N
+AD  - Department of General Surgery, Shonan Atsugi Hospital, Kanagawa, Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20190524
+PHST- 2019/03/12 [received]
+PHST- 2019/03/18 [accepted]
+TA  - Plast Reconstr Surg Glob Open
+JT  - Plastic and Reconstructive Surgery Global Open
+AID - 10.1097/GOX.0000000000002253 [doi]
+SO  - Plast Reconstr Surg Glob Open. 2019 May 24;7(5):.
+      doi:10.1097/GOX.0000000000002253.
+
+PMC - PMC5660891
+PMID- 29142584
+IS  - 1682-8631 (Print)
+IS  - 1682-4016 (Electronic)
+VI  - 48
+IP  - 6
+DP  - 2016
+TI  - Viability of five different pre- and intraoperative imaging methods for
+      autologous breast reconstruction.
+PG  - 326-33
+AB  - Background: Autologous breast reconstruction is an integral part in the treatment
+      of breast cancer. While computed tomography angiography (CTA) is an established
+      preoperative diagnostic tool for microsurgeons, no study has so far evaluated and
+      compared five different imaging methods and their value for the reconstructive
+      team. In order to determine the feasibility of each of the tools for routine or
+      specialized diagnostic application, the methods’ efficiency and informative value
+      were analyzed. Methods: We retrospectively analyzed imaging data of 41 patients
+      used for perforator location and assessment for regional perfusion and vessel
+      patency in patients undergoing autologous breast reconstruction with deep
+      inferior epigastric perforator flap (DIEP), transverse rectus abdominis muscle
+      flap (TRAM), or transverse myocutaneous gracilis flap (TMG). Five different
+      imaging techniques were used: hand held Doppler (HHD), CT angiography (CTA),
+      macroscopic indocyanine green (ICG) video angiography, microscope-integrated ICG 
+      video angiography, and laser Doppler imaging (LDI). Results: CTA proved to be the
+      best tool for preoperative determination of the highly variable anatomy of the
+      abdominal region, whereas HHD showed the same information on perforator
+      localization with some false-positive results. Intraoperative HHD was an
+      excellent tool for dissection and vessel patency judgment. Microscope-integrated 
+      ICG was an excellent tool to document the patency of microanastomoses. In our
+      series, macroscopic perfusion measurement with ICG or LDI was only justified in
+      special situations, where information on perfusion of abdominal or mastectomy
+      flaps was required. LDI did not add any additional information. Conclusion:
+      Preoperative assessment should be performed by CTA with verification of the
+      perforator location by HHD. Intraoperative HHD and microscope-integrated ICG
+      contribute most toward the evaluation of vessel patency. ICG and LDI should only 
+      be used for special indications.
+FAU - Schrögendorfer, K. F.
+AU  - Schrögendorfer KF
+AD  - Division of Plastic and Reconstructive Surgery, Department of Surgery, Medical
+      University of Vienna, Währinger Guertel 18–20, 1090 Vienna, Austria
+FAU - Nickl, S.
+AU  - Nickl S
+AD  - Division of Plastic and Reconstructive Surgery, Department of Surgery, Medical
+      University of Vienna, Währinger Guertel 18–20, 1090 Vienna, Austria
+FAU - Keck, M.
+AU  - Keck M
+AD  - Division of Plastic and Reconstructive Surgery, Department of Surgery, Medical
+      University of Vienna, Währinger Guertel 18–20, 1090 Vienna, Austria
+FAU - Lumenta, D. B.
+AU  - Lumenta DB
+AD  - Division of Plastic and Reconstructive Surgery, Department of Surgery, Medical
+      University of Vienna, Währinger Guertel 18–20, 1090 Vienna, Austria
+FAU - Loewe, C.
+AU  - Loewe C
+AD  - Department of Radiology, Division of Cardiovascular and Interventional Radiology,
+      Medical University of Vienna, Vienna, Austria
+FAU - Gschwandtner, M.
+AU  - Gschwandtner M
+AD  - Department of Angiology, Medical University of Vienna, Vienna, Austria
+FAU - Haslik, W.
+AU  - Haslik W
+AD  - Division of Plastic and Reconstructive Surgery, Department of Surgery, Medical
+      University of Vienna, Währinger Guertel 18–20, 1090 Vienna, Austria
+FAU - Nedomansky, J.
+AU  - Nedomansky J
+AD  - Division of Plastic and Reconstructive Surgery, Department of Surgery, Medical
+      University of Vienna, Währinger Guertel 18–20, 1090 Vienna, Austria
+LA  - eng
+PT  - Journal Article
+DEP - 20161019
+PHST- 2016/08/08 [received]
+PHST- 2016/09/14 [accepted]
+TA  - Eur Surg
+JT  - European Surgery
+AID - 449 [pii]
+AID - 10.1007/s10353-016-0449-6 [doi]
+SO  - Eur Surg. 2016;48(6):326-33. Epub 2016 Oct 19 doi:10.1007/s10353-016-0449-6.

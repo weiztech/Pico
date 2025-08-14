@@ -1,0 +1,253 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+
+{% block title%}
+    <title>CiteMed - Vigilance</title>
+{% endblock %}
+
+{% block head %}{% endblock %}
+
+{% block body %}
+    <div class="content__container" id="content">
+        <div class="sub-navbar-home">
+            <div class="sub-navbar-home-item-text">
+                Vigilance
+            </div>
+            <div :class="active_tab === 'ae_events' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="ae_events-tab" v-on:click="changeselectedtab('ae_events')">
+                AE Events
+            </div>
+            <div :class="active_tab === 'ae_recalls' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="ae_recalls-tab" v-on:click="changeselectedtab('ae_recalls')">
+                AE Recalls
+            </div>
+            <div :class="active_tab === 'articles' ? 'sub-navbar-home-item-active' : 'sub-navbar-home-item-inactive'" id="articles-tab" v-on:click="changeselectedtab('articles')">
+                Articles
+            </div>
+        </div>
+        <div class="vigilance-filter-navbar">
+            <!-- <div class="project-filter-navbar-search">
+
+                    <img
+                        src="{% static 'images/icons/search-icon.svg' %}"
+                        alt=""
+                        class="project-filter-navbar-search-icon"
+                    />
+                    <input type="text" class="project-filter-navbar-search-input" placeholder="Search for Event Description, Article Name">
+
+            </div> -->
+            <div class="input-group search_filter search-project-name-section">
+                <input type="text" class="form-control search-project-name-section-input" id="searchTerm" placeholder="Search for Event Description, Article Name" value="{{search_term}}">
+                <div class="input-group-append  search-project-name-section-input-submit">
+                <button class="btn search-btn" type="button" v-on:click="searchFilter({{selected_status}},{{selected_device}})">
+                    <span class="fa fa-search"></span>
+                </button>
+                </div>
+            </div>
+            <div class="filters__inner__item" style="margin-left: 25px;"> 
+                <!-- Button trigger modal -->
+                <button type="button" class="vigilance-filter-navbar-type" data-toggle="modal" data-target="#statusFilter">
+                    Filter By Status
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="statusFilter" tabindex="-1" role="dialog" aria-labelledby="statusFilterLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header vigilance-filter-popup-header">
+                        <h5 class="modal-title" id="statusFilterLabel"> Filter By Status </h5>
+                        </div>
+                        <div class="modal-body vigilance-filter-popup-body">
+                            {% for choice in status_filter_choices %}
+                                <div class="p-0 form-group form-check">
+                                    <input 
+                                        class="filter-checkbox filter-status-checkbox" type="checkbox" 
+                                        value="{{choice.0}}" id="check-{{choice.0}}" 
+                                        {% if choice.0 in selected_status%} checked {% endif %}
+                                    />
+                                    <label class="form-check-label" for="check-{{choice.0}}"> {{choice.1}} </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="btn-status-filter"  class="vigilance-filter-save-btn" v-on:click="filterStatus({{selected_device}})"> Save </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filters__inner__item"> 
+                <!-- Button trigger modal -->
+                <button type="button" class="vigilance-filter-navbar-type" data-toggle="modal" data-target="#deviceFilter">
+                    Filter By Device
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="deviceFilter" tabindex="-1" role="dialog" aria-labelledby="deviceFilterLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header vigilance-filter-popup-header">
+                        <h5 class="modal-title" id="deviceFilterLabel"> Filter By Device </h5>
+                        </div>
+                        <div class="modal-body vigilance-filter-popup-body">
+                            {% for device in device_filter_choices %}
+                                <div class="p-0 form-group form-check">
+                                    <input 
+                                        class="filter-checkbox filter-device-checkbox" 
+                                        type="checkbox" value="{{ device.id }}" id="check-{{ device.id }}" 
+                                        {% if device.id in selected_device %} checked {% endif %}
+                                    />
+                                    <label class="form-check-label" for="check-{{ device.id }}"> {{ device.name }} </label>
+                              </div>
+                            {% endfor %}
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="btn-device-filter" class="vigilance-filter-save-btn" v-on:click="filterDevice({{selected_status}})"> Save </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-filter-navbar-submit"> 
+                <button class="project-filter-navbar-submit-btn" id="btn-clear" v-on:click="onClearFilters"> Clear Filters </button>
+            </div>
+        </div>
+        <div :class="active_tab === 'ae_events' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="ae_events-section">
+            <div class="">
+                {% if ae_events %}
+                    <div class="project-table-header">
+                        <div class="message-table-header ae_event-table-date">Date</div>
+                        <div class="message-table-header ae_event-table-datebase">Database</div>
+                        <div class="message-table-header ae_event-table-event">Event Description</div>
+                        <div class="message-table-header ae_event-table-status"> Status </div>
+                        <div class="message-table-header ae_event-table-details"> Full Details </div>
+                    </div>
+                    <div class="project-table-body">
+                        {% for ae_event in ae_events %}
+                        <div class="project-table-body-item">
+                            <div class="message-table-body ae_event-table-date"> {{ae_event.ae.event_date}} </div>
+                            <div class="message-table-body ae_event-table-datebase"> {{ ae_event.search.db.name }} </div>
+                            <div class="message-table-body ae_event-table-event"> 
+                            {% if  ae_event.ae.description%}
+                                {{ ae_event.ae.description }} 
+                            {% else %}
+                                N/A
+                            {% endif %}
+                            </div>
+                            <div class="message-table-body ae_event-table-status"> {{ ae_event.get_state_display }} </div>
+                            <div class="message-table-body ae_event-table-details">
+                                <a class="project-table-body-action-link" href="{% url 'client_portal:event_details' id=ae_event.id %}"> 
+                                    <img
+                                    src="{% static 'images/icons/plus-detail-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-action-icon"
+                                    />   
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <div class="no-project-text">No data.</div>
+                {% endif %}
+            </div>
+        </div>
+        <div :class="active_tab === 'ae_recalls' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="ae_recalls-section">
+            {% if ae_recalls %}
+                <div class="project-table-header">
+                    <div class="message-table-header ae_event-table-date">Date</div>
+                    <div class="message-table-header ae_event-table-datebase">Database</div>
+                    <div class="message-table-header ae_event-table-event">Event Description</div>
+                    <div class="message-table-header ae_event-table-status"> Status </div>
+                    <div class="message-table-header ae_event-table-details"> Full Details </div>
+                </div>
+                <div class="project-table-body">
+                    {% for ae_recall in ae_recalls %}
+                    <div class="project-table-body-item">
+                        <div class="message-table-body ae_event-table-date"> {{ae_recall.ae.event_date}} </div>
+                        <div class="message-table-body ae_event-table-datebase"> {{ ae_recall.search.db.name }} </div>
+                        <div class="message-table-body ae_event-table-event"> 
+                        {% if  ae_recall.ae.description%}
+                            {{ ae_recall.ae.description }} 
+                        {% else %}
+                            N/A
+                        {% endif %}
+                        </div>
+                        <div class="message-table-body ae_event-table-status"> {{ ae_recall.get_state_display }} </div>
+                        <div class="message-table-body ae_event-table-details">
+                            <a class="project-table-body-action-link" href="{% url 'client_portal:recall_details' id=ae_recall.id %}"> 
+                                <img
+                                src="{% static 'images/icons/plus-detail-icon.svg' %}"
+                                alt=""
+                                class="project-table-body-action-icon"
+                                />   
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="no-project-text">No data.</div>
+            {% endif %}
+
+        </div>
+        <div :class="active_tab === 'articles' ? 'home-section-item-selected' : 'home-section-item-unselected'" id="articles-section">
+            {% if articles %}
+                <div class="project-table-header">
+                    <div class="message-table-header ae_event-table-date">Date</div>
+                    <div class="message-table-header ae_event-table-datebase">Database</div>
+                    <div class="message-table-header ae_event-table-event">Article Tilte</div>
+                    <div class="message-table-header ae_event-table-status"> Status </div>
+                    <div class="message-table-header ae_event-table-details"> Full Details </div>
+                </div>
+                <div class="project-table-body">
+                    {% for article_review in articles %}
+                        <div class="project-table-body-item">
+                            <div class="message-table-body ae_event-table-date">    
+                                {% if  article_review.article.publication_year%}
+                                    {{ article_review.article.publication_year }} 
+                                {% else %}
+                                    N/A
+                                {% endif %}
+                            </div>
+                            <div class="message-table-body ae_event-table-datebase"> {{ article_review.search.db.name  }} </div>
+                            <div class="message-table-body ae_event-table-event"> 
+                                {% if  article_review.article.title%}
+                                    {{ article_review.article.title }} 
+                                {% else %}
+                                    N/A
+                                {% endif %}
+                            </div>
+                            <div class="message-table-body ae_event-table-status"> {{ article_review.get_state_display }} </div>
+                            <div class="message-table-body ae_event-table-details">
+                                <a class="project-table-body-action-link" href="{% url 'client_portal:article_details' id=article_review.id %}"> 
+                                    <img
+                                    src="{% static 'images/icons/plus-detail-icon.svg' %}"
+                                    alt=""
+                                    class="project-table-body-action-icon"
+                                    />   
+                                </a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="no-project-text">No data.</div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    {% if env == 'PROD' %}
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+    {% else %}
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+    {% endif %}
+
+    <script src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+    <script src="{% static 'vue-cdn/bootstrap-vue-2.23.1.js' %}"></script>
+    <script src="{% static 'client_portal/vue/vigilance.js' %}" > </script>
+
+{% endblock %}

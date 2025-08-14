@@ -1,0 +1,176 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block 'head' %}
+<link href="{% static 'css/theme/article_tags.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% comment %}
+    {% block 'help_section' %} 
+        <a href="#">
+            <span>Need help with this page? <br/> Read the Wiki</span>
+            <div>
+            <img src="{% static 'images/icons/wiki-icon.svg' %}">
+            </div>
+        </a>
+    {% endblock %} 
+{% endcomment %}
+
+{% block 'body' %}
+    <div id="article-tags-app">
+        <div v-if="isLoading"> Loading ... </div>
+        <div v-else class="content-section">
+            <div class="form-content table-section">
+                <div class="section-header">
+                    <h3 class="center-v"> 
+                        Article Tags
+                        <div class="tooltip-elt" title="These tags can be attached later on to articles, to help sort, filer and categories them">
+                            <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">  
+                        </div>
+                    </h3>
+                </div>
+                <div class="horizantal-devider mt-2 mb-2"> </div>
+                <div class="form-content-inner">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col"> Tag </th>
+                                <th scope="col"> Description </th>
+                                <th scope="col" style="width: 150px;"> Number Of Usage </th>
+                                <th scope="col"> Actions </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="tag in tags">
+                                <td> 
+                                    <div 
+                                        class="mr-2 badge" 
+                                        :style="'background-color: rgba'+tag.rbga_color+'; width: max-content; color: '+tag.color+'; border: 1px solid '+tag.color+'; padding: 5px 20px;'"
+                                    > 
+                                        [[tag.name]]
+                                    </div> 
+                                </td>
+                                <td> 
+                                    [[tag.description]] 
+                                </td>
+                                <td> 
+                                    [[tag.usage]] 
+                                </td>
+                                <td>
+                                    <div class="center-v">
+                                        <button class="secondary-gray-button mr center-v" style="display: flex;" v-on:click="onClickEditTag(tag)" :disabled="isArchived">
+                                            <img src="{% static 'images/icons/black-edit-icon.svg' %}" alt="delete-icon" srcset="">  
+                                            <div class="ml"> Edit </div>
+                                        </button>
+        
+                                        <button :class="['error-outlined-button', { 'disabled': isArchived }]"  v-on:click="showModal('deleteArticleTag-' + tag.id)" :disabled="isArchived">
+                                            <img src="{% static 'images/icons/delete-icon.svg' %}" alt="delete-icon" srcset="">  
+                                            Delete
+                                        </button>
+                                    </div>
+        
+                                    <!-- Delete Tag Modal -->
+                                    <div class="modal" :id="'deleteArticleTag-' + tag.id">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <div class="modal-header-icon-wrapper delete-icon">
+                                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </div>
+                                                    Delte Article Tag
+                                                </div>
+                                                <div class="modal-body"> 
+                                                     Are you sure you want to delete this article with ID #[[tag.id]]
+                                                <div class="modal-footer">
+                                                    <button class="secondary-gray-button mr w-50" v-on:click="hideModal('deleteArticleTag-' + tag.id)"> Cancel </button>
+                                                    <button class="error-button w-50" v-on:click="onDeleteTag(tag.id)"> Yes, Delete </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="form-content actions-section">
+                <div class="section-header">
+                    <h3 class="center-v"> 
+                        <span v-if="isEdit"> Edit Tag </span>
+                        <span v-else> Create New Tag </span>
+                    </h3>
+                </div>
+                <div class="horizantal-devider mt-2 mb-2"> </div>
+                <form v-on:submit="onSubmit">
+                    <div class="form-content-inner">
+                        <div class="section-header">
+                            <h3 class="center-v" style="width: 100%;"> 
+                                Tag Preview
+                                <div class="ml-auto" v-if="formTagInfo.name">
+                                    <div class="badge" :style="'background-color: '+addTagColorRGBA+'; width: max-content; color: '+formTagInfo.color+'; border: 1px solid '+formTagInfo.color+'; padding: 5px 20px;'">
+                                        [[formTagInfo.name]]
+                                    </div>
+                                </div>
+                            </h3>
+                        </div>
+                        
+                        <div class="horizantal-devider mt-3 mb-3"> </div>
+
+                        <div class="form-group" style="text-align: left;">
+                            <label class="text-left" for="article-name"> Tag Name </label>
+                            <input type="text" name="article-name" class="form-control" id="article-name" v-model="formTagInfo.name">
+                        </div>
+                        <div class="form-group" style="text-align: left;">
+                            <label class="text-left" for="article-color"> Color </label>
+                            <input type="color" name="article-color" id="article-color" v-model="formTagInfo.color" />
+                        </div>
+                        <div class="form-group" style="text-align: left;">
+                            <label class="text-left" for="article-description"> Description </label>
+                            <textarea 
+                                name="article-description" 
+                                class="form-control" 
+                                id="article-description" 
+                                v-model="formTagInfo.description" 
+                                rows="5"
+                            >
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="horizantal-devider mt-2 mb-2"> </div>
+                    <div class="center-v">
+                        <button class="secondary-gray-button ml-auto mr" type="button" v-on:click="onCancelEdit" :disabled="isArchived">
+                            Cancel
+                        </button>
+                        <button type="submit" class="primary-button" :disabled="isArchived"> 
+                            <div v-if="isEdit"> 
+                                Edit 
+                            </div>
+                            <div v-else class="center-v">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 20" fill="none">
+                                    <path d="M5.5 10H15.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.5 15V5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Create New Tag 
+                            </div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block 'scripts-block' %}
+    <script>
+        const TagsListAPI = "{% url 'lit_reviews:article_tags_list_api' id=literature_review_id %}";
+        const CreateTagAPI = "{% url 'lit_reviews:article_tags_create_api' id=literature_review_id %}";
+        const litReviewID = "{{ literature_review_id }}";
+    </script>
+    <script src="{% static "lit_reviews/vue/tags.js" %}" > </script>
+
+{% endblock %}

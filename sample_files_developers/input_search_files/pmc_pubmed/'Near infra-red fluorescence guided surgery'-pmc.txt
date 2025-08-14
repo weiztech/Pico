@@ -1,0 +1,77 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27Near+infra-red+fluorescence+guided+surgery%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC7103177
+PMID- 31520193
+IS  - 0930-2794 (Print)
+IS  - 1432-2218 (Electronic)
+VI  - 33
+IP  - Suppl 2
+DP  - 2019
+TI  - 27th International Congress of the European Association for Endoscopic Surgery
+      (EAES) Sevilla, Spain, 12–15 June 2019.
+PG  - 485-781
+LA  - eng
+PT  - Journal Article
+PT  - News
+DEP - 20190913
+TA  - Surg Endosc
+JT  - Surgical Endoscopy
+AID - 7109 [pii]
+AID - 10.1007/s00464-019-07109-x [doi]
+SO  - Surg Endosc. 2019;33(Suppl 2):485-781. Epub 2019 Sep 13
+      doi:10.1007/s00464-019-07109-x.
+
+PMC - PMC5220044
+PMID- 28090510
+IS  - 2305-5839 (Print)
+IS  - 2305-5847 (Electronic)
+VI  - 4
+IP  - 23
+DP  - 2016 Dec
+DP  - 2016 Dec
+TI  - Augmented and virtual reality in surgery—the digital surgical environment:
+      applications, limitations and legal pitfalls.
+LID - 454
+AB  - The continuing enhancement of the surgical environment in the digital age has led
+      to a number of innovations being highlighted as potential disruptive technologies
+      in the surgical workplace. Augmented reality (AR) and virtual reality (VR) are
+      rapidly becoming increasingly available, accessible and importantly affordable,
+      hence their application into healthcare to enhance the medical use of data is
+      certain. Whether it relates to anatomy, intraoperative surgery, or post-operative
+      rehabilitation, applications are already being investigated for their role in the
+      surgeons armamentarium. Here we provide an introduction to the technology and the
+      potential areas of development in the surgical arena.
+FAU - Khor, Wee Sim
+AU  - Khor WS
+AD  - Department of Plastic & Reconstructive Surgery, University Hospital of South
+      Manchester NHS Foundation Trust, Manchester, UK;
+FAU - Baker, Benjamin
+AU  - Baker B
+AD  - Department of Plastic & Reconstructive Surgery, University Hospital of South
+      Manchester NHS Foundation Trust, Manchester, UK;
+FAU - Amin, Kavit
+AU  - Amin K
+AD  - Department of Plastic & Reconstructive Surgery, University Hospital of South
+      Manchester NHS Foundation Trust, Manchester, UK;
+FAU - Chan, Adrian
+AU  - Chan A
+AD  - Occipital VR, Toronto, Ontario, Canada;
+FAU - Patel, Ketan
+AU  - Patel K
+AD  - Division of Plastic Surgery, Keck School of Medicine of USC, Los Angeles, CA,
+      USA;
+FAU - Wong, Jason
+AU  - Wong J
+AD  - Plastic & Reconstructive Surgery Research, The University of Manchester,
+      Manchester, UK
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PHST- 2016/07/30 [received]
+PHST- 2016/11/24 [accepted]
+TA  - Ann Transl Med
+JT  - Annals of Translational Medicine
+AID - atm-04-23-454 [pii]
+AID - 10.21037/atm.2016.12.23 [doi]
+SO  - Ann Transl Med. 2016 Dec;4(23):. doi:10.21037/atm.2016.12.23.

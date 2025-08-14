@@ -1,0 +1,7 @@
+# inventory.yml
+all:
+  children:
+    demo:
+      hosts:
+        demo-1:
+          ansible_host: 134.122.25.54

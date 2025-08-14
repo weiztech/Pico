@@ -1,0 +1,631 @@
+table {
+    table-layout: fixed;
+}
+
+.body-content {
+    background-color: transparent;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.upper-body-content {
+    height: 52px;
+}
+
+.appraisals-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.appraisals-list {
+    background-color: var(--Gray-5, #FFF);
+    padding: 10px;
+    margin-top: 20px;
+    overflow-y: auto;
+    max-height: 88vh;
+    flex: 1;
+}
+
+.appraisals-insights.active{
+    min-width: 250px;
+}
+
+.appraisals-insights {
+    width: 35px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.insight-item {
+    display: flex;
+    padding: 10px 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    color: var(--Gray-900, #181A1E);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 130%; /* 18.2px */
+}
+
+.insight-item.header {
+    font-weight: 600;
+}
+
+.slider-footer {
+    position: absolute;
+}
+
+.appraisal-details-card {
+    border-radius: 8px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background-color: var(--Gray-5, #FFF);
+    margin-top: 10px;
+}
+
+.appraisal-details-card .header {
+    padding: 10px 16px;
+}
+
+.appraisal-details-card .content {
+    padding: 16px;
+}
+
+.appraisal-details-card .title {
+    color: #181A1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+
+.appraisal-details-card .abstract {
+    color: var(--Gray-700, #4A505C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+
+.appraisal-details-card .extractions {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 20px;
+}
+
+.menu-navbar {
+    display: flex;
+    position: fixed;
+    top: 51px;
+    background-color: #FAFAFF;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu-navbar-item {
+    color: var(--Gray-500, #667085);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 181.818% */
+    border-bottom: 2px solid var(--Gray-500, #667085);
+    padding: 5px 11px;
+}
+
+.menu-navbar-item.active,
+.menu-navbar-item:hover {
+    color: var(--Primary-900, #014EE9);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 181.818% */
+    border-bottom: 2px solid var(--Primary-900, #014EE9);
+    padding: 5px 11px;
+}
+
+.menu-navbar-item.inactive {
+    color: var(--Gray-100, #CDD3E0);
+    cursor: default;
+    pointer-events: none;
+}
+
+.form-actions {
+    padding: 8px 36px 8px 16px;
+    justify-content: space-between;
+    left: 240px !important;
+	width: calc(100vw - 240px) !important;
+}
+
+.file-download-icon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-5, #FFF);
+    
+    /* UI Shadow */
+    box-shadow: 0px 0px 3px 0px rgba(82, 87, 97, 0.10);
+}
+
+.info-card:hover a {
+    color: var(--Primary-900, #014EE9);
+}
+
+.sub-extraction-devider {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1px;
+    background-color: #CDD3E0;
+    height: 20px;
+}
+
+.sub-extraction-delete-btn {
+ padding: 5px;
+}
+
+.sub-extraction-delete-btn img {
+    width: 12px;
+}
+
+.sub-extraction-badge {
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+
+.field-group {
+    margin-bottom: 1rem;
+}
+
+.field-group-label {
+    /* font-weight: bold; */
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.sub-field {
+    /* margin-left: 1rem; */
+    margin-bottom: 1rem;
+    /* padding-left: 1rem;
+    border-left: 2px solid #eee; */
+}
+
+.sub-field:last-child {
+    margin-bottom: 0;
+}
+
+.sub-field-label {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.sub-extraction-number {
+    background: #f5f5f5;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.textarea {
+    width: 100%;    /* or any desired width */
+    height: 140px;   /* or any desired height */
+    resize: both;    /* allows user to resize the textarea */
+}
+
+.form-actions-right-btns{
+    display: flex;
+    
+}
+
+.pdf-container {
+    height: 100%;
+    background: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pdf-container embed {
+    height: 100%;
+    width: 100%;
+}
+
+.no-pdf-message {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 1.1em;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.close-btn {
+    font-weight: 600;
+    font-size: 10px;
+    background: none;
+    border: none;
+    color: #4A505C;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.close-btn:hover {
+    opacity: 0.8;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.pdf-section {
+    width: 70%;
+    position: sticky;
+    top: 90px; /* Match your navbar height */
+    height: calc(100vh - 90px);
+    transition: all 0.3s ease;
+}
+
+.form-section {
+    flex: 1;
+    transition: all 0.3s ease;
+}
+
+/* When PDF is hidden */
+.content-wrapper.pdf-hidden .form-section {
+    width: 100%;
+}
+
+.content-wrapper.pdf-hidden .pdf-section {
+    display: none;
+}
+
+.pdf-content{
+    height: 75vh;
+}
+
+.header-pdf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-wrapper:not(.pdf-hidden) .appraisal-details-card .extractions {
+    grid-template-columns: 1fr;
+}
+
+.ai-controls {
+    display: flex;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+/* Vertical AI controls for textareas in extraction fields */
+.textarea-controls.ai-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+/* Special case for textarea fields - vertical controls */
+.long-text-field .ai-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+/* Adjust input with controls for textarea specifically */
+.textarea-container .input-with-controls {
+    align-items: flex-start;
+}
+
+/* Adjust for textarea containers */
+.long-text-field .input-with-controls {
+    align-items: flex-start;
+}
+
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.refuse-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.ai-value {
+    color: #666;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.field-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    background-color: #f8f9fa;
+    border-color: #DEE2E6;
+}
+
+.form-group {
+    position: relative;
+}
+
+.input-with-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Base styles for all AI buttons */
+.ai-button {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+/* Accept button styles */
+.ai-button.accept-btn {
+    background-color: #E8FEF1;
+    border: 1px solid #CBF8DD;
+    transition: background-color 0.2s ease;
+}
+
+/* Accept button hover effect */
+.ai-button.accept-btn:hover {
+    background-color: #CBF8DD;
+}
+
+/* Accept button icon */
+.ai-button.accept-btn img {
+    width: 20px;
+    /* No height specified - will maintain aspect ratio */
+}
+
+/* Edit button styles */
+.ai-button.edit-btn {
+    background-color: #FFF5EB;
+    border: 1px solid #FEE3C7;
+    transition: background-color 0.2s ease;
+}
+
+/* Edit button hover effect */
+.ai-button.edit-btn:hover {
+    background-color: #FEE3C7;
+}
+
+/* Edit button icon */
+.ai-button.edit-btn img {
+    width: 18px;
+    /* No height specified - will maintain aspect ratio */
+}
+
+/* Refuse button styles */
+.ai-button.refuse-btn {
+    background-color: #FEF3F2;
+    border: 1px solid #FEE4E2;
+    transition: background-color 0.2s ease;
+}
+
+/* Refuse button hover effect */
+.ai-button.refuse-btn:hover {
+    background-color: #FEE4E2;
+}
+
+/* Refuse button icon */
+.ai-button.refuse-btn img {
+    width: 20px;
+    /* No height specified - will maintain aspect ratio */
+}
+
+/* Simplified button styles */
+.ai-button.simplified-btn {
+    background-color: #E7E0F4;
+    border:1px solid #dcd3ed;
+}
+
+.ai-button.simplified-btn:hover {
+    background-color: #dcd3ed;
+}
+
+/* For fields using simplified values */
+.field-simplified {
+    background-color: #f0edff !important;
+    border-color: #8884d8 !important;
+}
+.ai-button.simplified-btn img {
+    width: 20px;
+    /* No height specified - will maintain aspect ratio */
+}
+
+/* AI controls container */
+.ai-controls {
+    display: flex;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+/* Vertical AI controls for textareas in extraction fields */
+.textarea-controls.ai-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+/* Input with controls container */
+.input-with-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Adjust for textarea containers */
+.textarea-container .input-with-controls {
+    align-items: flex-start;
+}
+
+/* Disabled field styling */
+.field-disabled {
+    background-color: #f8f9fa;
+    border-color: #DEE2E6;
+}
+
+/* AI Icon Container */
+.ai-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    min-width: 40px;
+    height: 100%;
+    min-height: 34px;
+    border: 1px solid #DDE8FF;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+/* AI Icon styling */
+.ai-icon-container img {
+    width: 15px;
+    height: auto;
+}
+
+/* Update input-with-controls to accommodate the new icon */
+.input-with-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* For textarea containers, maintain vertical alignment */
+.textarea-container .input-with-controls,
+.long-text-field .input-with-controls {
+    align-items: flex-start;
+}
+
+/* For textarea containers, adjust the icon container height */
+.textarea-container .ai-icon-container,
+.long-text-field .ai-icon-container {
+    height: 140px; /* Match textarea height */
+}
+
+/* Style for action buttons section */
+.action-btns-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+/* Make buttons flex grow equally */
+.action-btns-section button,
+.action-btns-section a,
+.action-btns-section form {
+    flex: 1;
+    margin: 0;
+}
+
+/* Ensure forms don't break the layout */
+.action-btns-section form {
+    display: flex;
+}
+
+/* Center-v fix for nested containers */
+.action-btns-section .center-v {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* For responsive behavior */
+@media (max-width: 768px) {
+    .action-btns-section {
+        flex-direction: column;
+    }
+    
+    .action-btns-section button,
+    .action-btns-section a,
+    .action-btns-section form {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.search-term-title{
+    font-weight: 800;
+    margin-right: 5px;
+}
+.header-left-text {
+    color: #4A505C;
+    font-size: 12px;
+    margin-right: 4px;
+}
+.header-left-icon {
+    width: 16px;
+}
+.header-left {
+    display: flex;
+}
+.header-right-icon {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.secondary-gray-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.btn-content{
+    display: flex;
+}
+.action-btns-section-item {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+.file-uploader .image-details {
+ width: 100%;
+}
+
+.no-results {
+    font-size: 15px;
+    border-radius: 5px;
+}

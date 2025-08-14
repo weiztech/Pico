@@ -1,0 +1,16 @@
+{% extends 'base_lit_reviews.html' %}
+{% load crispy_forms_tags %}
+{% block 'body' %}
+
+<form method="post" enctype="multipart/form-data" class="edit-adverse-recall">
+    <legend class="edit-adverse-recall-header"> Edit Adverse Recall </legend>
+    {% csrf_token %}
+    <div class="form-group mb-2 mr-2 ml-auto"> 
+        {% crispy form %}
+        {% crispy form_review %} 
+    </div>
+    <button type="submit" class="btn success-btn mb-2 ml-auto"> Save </button>
+    <a href="{% url 'literature_reviews:manual_ae_searches' id=literature_review_id %}" class="btn cancel-btn mb-2 mr-2"> Cancel</a>
+</form>
+
+{% endblock %}

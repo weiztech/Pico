@@ -1,0 +1,194 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% block 'head' %}
+<link href="{% static 'css/error_page.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %}
+<a href="https://citemed-io.gitbook.io/citemed.io-documentation/" target="_blank">
+  <span>Need help with this page? <br /> Read the Wiki</span>
+  <div>
+    <img src="{% static 'images/icons/wiki-icon.svg' %}">
+  </div>
+</a>
+{% endblock %}
+
+{% block 'body' %}
+    <div class="body-div" id="error-app">
+        <div class="left-div">
+            <div class="error-header-section">
+                <h1 class="error-code">403</h1>
+                <div class="error-title">Permission Denied</div>
+            </div>
+            <div class="error-message-section">
+                <div class="error-oops">ooops...</div>
+                <div class="error-description">
+                    Sorry. Permission Denied you don't have permission to access this page.
+                </div>
+            </div>
+            <div class="error-btns">
+                {% if referring_page %}
+                    <a href="{{referring_page}}">
+                        <button class="primary-button">
+                            <img src="{% static 'images/icons/back-arrow-icon.svg' %}" alt="Arrow Left" class="arrow-icon">
+                            Go Back
+                        </button>
+                    </a>
+                {% else %}
+                    <a href="/literature_reviews">
+                        <button class="primary-button">
+                            <img src="{% static 'images/icons/back-arrow-icon.svg' %}" alt="Arrow Left" class="arrow-icon">
+                            Go Back
+                        </button>
+                    </a>
+                {% endif %}
+                <button class="secondary-gray-button report-bug-btn" id="report-bug-btn" onclick="showPopup()">Report a Bug</button>
+            </div>
+        </div>
+        <div class="right-div">
+            <img
+                    src="{% static 'images/error-plug.svg' %}"
+                    id="icon"
+                    alt="Plug Icon"
+                    class="plug-error-img"
+                    />
+        </div>
+        <div class="modal" id="reportbug-popup">
+            <div class="modal-dialog" style="width: 500px;">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-header-icon-wrapper warning-icon">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                        stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <h5 class="modal-title">Report a Bug</h5>
+                </div>
+                <div class="modal-body">
+                  <div class="quick-help-section">
+                    <p>Need immediate help? Try these resources first:</p>
+                    <a href="https://citemed-io.gitbook.io/citemed.io-documentation/" target="_blank" class="help-link">
+                      <i class="fas fa-book"></i> Read the Wiki
+                    </a>
+                    <a href="#" class="help-link">
+                      <i class="fas fa-video"></i> Book ScreenShare Support Call
+                    </a>
+                  </div>
+                  
+                  <hr style="border: 0; border-top: 1px solid #BCC4D3; margin: 1em 0;">
+                  
+                  <h6>Submit a Support Request</h6>
+                  <form id="support-form">
+                    {% csrf_token %}
+                    
+                    <!-- Description Field -->
+                    <div class="form-group">
+                      <label for="description">How can we help? <span class="required">*</span></label>
+                      <textarea 
+                        id="description" 
+                        v-model="supportForm.description" 
+                        class="form-control" 
+                        rows="4" 
+                        placeholder="Please describe the issue you're experiencing..."
+                        required>
+                      </textarea>
+                    </div>
+                    
+                    <!-- Demo Video Link Field -->
+                    <div class="form-group">
+                      <label for="demo-video">Show us the issue (Loom Video Link)</label>
+                      <input 
+                        type="text" 
+                        id="demo-video" 
+                        v-model="supportForm.demo_video" 
+                        class="form-control" 
+                        placeholder="https://www.loom.com/share/..."
+                      />
+                      <small class="form-text text-muted">Optional: Share a Loom video link to help us understand the issue better</small>
+                    </div>
+                    
+                    <!-- Follow-up Options -->
+                    <div class="form-group">
+                      <label>How do you want us to follow-up? <span class="required">*</span></label>
+                      <div class="radio-group">
+                        <div class="form-check">
+                          <input 
+                            class="form-check-input" 
+                            type="radio" 
+                            name="follow_up" 
+                            id="follow-phone" 
+                            value="phone" 
+                            v-model="supportForm.follow_up_option"
+                          >
+                          <label class="form-check-label" for="follow-phone">
+                            <i class="fas fa-phone"></i> Call Me
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input 
+                            class="form-check-input" 
+                            type="radio" 
+                            name="follow_up" 
+                            id="follow-email" 
+                            value="email" 
+                            v-model="supportForm.follow_up_option"
+                          >
+                          <label class="form-check-label" for="follow-email">
+                            <i class="fas fa-envelope"></i> Email
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input 
+                            class="form-check-input" 
+                            type="radio" 
+                            name="follow_up" 
+                            id="follow-teams" 
+                            value="teams" 
+                            v-model="supportForm.follow_up_option"
+                          >
+                          <label class="form-check-label" for="follow-teams">
+                            <i class="fab fa-microsoft"></i> Teams Meeting
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button 
+                    type="button" 
+                    class="secondary-gray-button ml-auto mr" 
+                    @click="hidePopup()"
+                    >
+                        Cancel
+                    </button>
+                    <button 
+                      type="button" 
+                      class="btn primary-button" 
+                      @click="submitSupportForm"
+                      :disabled="isButtonDisabled"
+                      :class="{ 'disabled': isButtonDisabled }"
+                    >
+                      <span v-if="isSubmitting">
+                        <i class="fas fa-spinner fa-spin"></i> Submitting...
+                      </span>
+                      <span v-else>
+                        <i class="fas fa-paper-plane"></i> Submit Form
+                      </span>
+                    </button>  
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block 'scripts-block' %}
+<script>
+    const SupportTicketUrl = "{% url 'literature_reviews:support_ticket_create_api' %}";
+</script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/error.js' %}"></script>
+
+{% endblock %}

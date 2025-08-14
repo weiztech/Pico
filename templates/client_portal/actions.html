@@ -1,0 +1,71 @@
+{% extends "base_client_portal.html" %}
+{% block title%}
+    <title>Messages and Alerts</title>
+{% endblock %}
+{% block body %}
+<div class="content__container" id="content">
+    {% if user.client %}
+        <div class="text">Messages and Alerts - {{user.client.name}}</div>
+    {% else %}
+        <div class="text">Messages and Alerts - {{user.username}}</div>
+    {% endif %}
+    <div class="block">
+{% if actions %}
+<table class="table__data">
+    <thead class="table__thead">
+    <tr>
+        <th class="table__list__th small__th"></th>
+        <th class="table__list__th middle__th">Date sent</th>
+        <th class="table__list__th small__th">Project ID</th>
+        <th class="table__list__th">Message</th>
+        <th class="table__list__th middle__th">Resolved status</th>
+        <th class="table__list__th small__th"></th>
+    </tr>
+    </thead>
+    <tbody class="table__tbody">
+        <tbody class="table__tbody">
+            {% for action in actions %}
+                <tr>
+                    {% if action.type == 'message' %}
+                    <td class="table__td">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0.5H5C2 0.5 0 2 0 5.5V12.5C0 16 2 17.5 5 17.5H15C18 17.5 20 16 20 12.5V5.5C20 2 18 0.5 15 0.5ZM15.47 6.59L12.34 9.09C11.68 9.62 10.84 9.88 10 9.88C9.16 9.88 8.31 9.62 7.66 9.09L4.53 6.59C4.21 6.33 4.16 5.85 4.41 5.53C4.67 5.21 5.14 5.15 5.46 5.41L8.59 7.91C9.35 8.52 10.64 8.52 11.4 7.91L14.53 5.41C14.85 5.15 15.33 5.2 15.58 5.53C15.84 5.85 15.79 6.33 15.47 6.59Z" fill="#24242B"/>
+                        </svg>
+                    </td>
+                    {% elif action.type == 'alert' %}
+                    <td class="table__td">
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20C9.1 20 10 19.1 10 18H6C6 19.1 6.89 20 8 20ZM14 14V9C14 5.93 12.36 3.36 9.5 2.68V2C9.5 1.17 8.83 0.5 8 0.5C7.17 0.5 6.5 1.17 6.5 2V2.68C3.63 3.36 2 5.92 2 9V14L0 16V17H16V16L14 14Z" fill="#24242B"/>
+                        </svg>
+                    </td>
+                    {% elif action.type == 'vigilance' %}
+                    <td class="table__td">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="000000" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 20C15.7467 20 20 15.7467 20 10.5C20 5.25329 15.7467 1 10.5 1C5.25329 1 1 5.25329 1 10.5C1 15.7467 5.25329 20 10.5 20Z" fill="#24242B" stroke="#24242B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 21L19 19" fill="#24242B" stroke="#24242B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </td>
+                    {% elif action.type == 'renewal' %}
+                    <td class="table__td">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 16.01C6.83 16.01 4.25 13.43 4.25 10.26C4.25 7.09 6.83 4.51 10 4.51C10.14 4.51 10.29 4.53 10.43 4.54L10.15 4.22C9.88 3.91 9.91 3.43 10.22 3.16C10.53 2.89 11.01 2.92 11.28 3.23L12.95 5.14C12.96 5.15 12.96 5.16 12.97 5.17C12.98 5.18 12.99 5.18 12.99 5.19C13.01 5.22 13.02 5.26 13.04 5.3C13.06 5.35 13.09 5.39 13.1 5.44C13.11 5.49 13.11 5.53 13.12 5.58C13.12 5.63 13.13 5.67 13.13 5.72C13.13 5.77 13.11 5.81 13.09 5.86C13.07 5.91 13.06 5.96 13.04 6C13.02 6.04 12.98 6.08 12.95 6.12C12.92 6.15 12.91 6.19 12.88 6.21C12.87 6.22 12.86 6.22 12.85 6.23C12.84 6.24 12.84 6.25 12.83 6.25L10.89 7.67C10.76 7.77 10.6 7.81 10.45 7.81C10.22 7.81 9.99 7.7 9.84 7.5C9.6 7.17 9.67 6.7 10 6.45L10.56 6.04C10.37 6.03 10.19 6.01 10 6.01C7.66 6.01 5.75 7.92 5.75 10.26C5.75 12.6 7.66 14.51 10 14.51C12.34 14.51 14.25 12.6 14.25 10.26C14.25 9.41 14 8.6 13.54 7.9C13.31 7.56 13.4 7.09 13.75 6.86C14.09 6.63 14.56 6.72 14.79 7.07C15.42 8.02 15.76 9.12 15.76 10.26C15.75 13.44 13.17 16.01 10 16.01Z" fill="#24242B"/>
+                        </svg>
+                    </td>
+                    {% else %}
+                    <td class="table__td"></td>
+                    {% endif %}
+                    <td class="table__td">{{ action.date_sent }}</td>
+                    <td class="table__td">{{ action.project.id }}</td>
+                    <td class="table__td left__td truncate-text">{{ action.message }}</td>
+                    <td class="table__td">{{ action.resolved_status }}</td>
+                    <td class="table__td"><a class="details__btn" href="/client_portal/action_details/{{action.id}}">Read</a></td>
+                </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="text">No data.</div>
+{% endif %}
+{% endblock %}
+{% block script %}
+{% endblock %}

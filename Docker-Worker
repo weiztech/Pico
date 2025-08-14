@@ -1,0 +1,37 @@
+# Use Python 3.12.2 image based on Debian Bullseye in its slim variant as the base image
+FROM python:3.10-slim-bullseye
+
+# Set an environment variable to unbuffer Python output, aiding in logging and debugging
+ENV PYTHONBUFFERED=1
+
+# Define an environment variable for the web service's port, commonly used in cloud services
+ENV PORT 8000
+
+# Set the working directory within the container to /app for any subsequent commands
+WORKDIR /app
+
+# Copy the entire current directory contents into the container at /app
+COPY . /app/
+
+#install deps
+RUN apt update && apt install git libpq-dev python3-dev  -y
+RUN apt-get install gcc -y
+
+# Upgrade pip to ensure we have the latest version for installing dependencies
+RUN pip install --upgrade pip
+# Install dependencies from the requirements.txt file to ensure our Python environment is ready
+#RUN pip install gunicorn
+RUN pip install -r requirements.txt
+
+#RUN python manage.py makemigrations
+#RUN python manage.py migrate
+#RUN python manage.py createsuperuser
+# Set the command to run our web service using Gunicorn, binding it to 0.0.0.0 and the PORT environment variable
+#CMD gunicorn backend.wsgi --preload --timeout 30 --keep-alive 5 --log-level debug --bind 0.0.0.0:"${PORT}"
+#CMD ["gunicorn", "--config", "gunicorn_config.py", "backend.wsgi:application", "--preload", "--timeout", "30", "--keep-alive", "5", "--log-level", "debug"]
+
+#worker: celery -A backend worker -P threads --concurrency=2 --loglevel=INFO ## for celery search handling
+CMD ["celery", "-A", "backend", "worker", "-P", "threads", "--concurrency=5"]
+
+# Inform Docker that the container listens on the specified network port at runtime
+EXPOSE ${PORT}

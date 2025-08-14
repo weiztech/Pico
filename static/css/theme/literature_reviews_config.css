@@ -1,0 +1,65 @@
+.body-content {
+    background-color: transparent;
+}
+
+.form-card {
+    max-width: 1000px;
+}
+
+.form-card-ris-settings-right {
+    max-width: 700px;
+    margin-right: 10px;
+}
+
+.form-card-ris-settings-left {
+    max-width: 700px;
+    margin-left: 10px;
+}
+
+.vertical-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical-box-section {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.vertical-box-item {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.select-error {
+    box-shadow: 0px 0px 0px 2px rgb(255, 58, 58), 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.settings-app{
+    display: flex;
+}
+
+.label-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.label-item > input[type="text"] {
+    width: 100%;
+}
+
+.submit-label-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.custome-labels-section{
+    margin-top: 15px;
+}

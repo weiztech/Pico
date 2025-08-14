@@ -1,0 +1,78 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+{% block title%}
+    <title>CiteMed - Project Details</title>
+{% endblock %}
+{% block body %}
+    <div class="content__container" id="content">
+        <div class="sub-navbar-home">
+            <div class="sub-navbar-home-item-text">
+                {% if project %}
+                    Project Details - {{project.lit_review.device.name}} - {{user.client.name}}
+                {% else %}
+                    Project Details - {{user.username}}
+                {% endif %}
+            </div>
+        </div>
+        <div class="project-detail-section">
+            {% if project %}
+            <div class="project-detail-section-header">
+                <div class="project-detail-section-header-item">
+                    <span class="project-detail-section-header-item-bold">Project Name:</span> {{ project }}
+                </div>
+                <div class="project-detail-section-header-item">
+                    <span class="project-detail-section-header-item-bold">Date:</span> {{ project.initial_complated_date }}
+                </div>
+                <div class="project-detail-section-header-item">
+                    <span class="project-detail-section-header-item-bold">Type:</span> {{ project.type }}
+                </div>
+            </div>
+            <div class="message-detail-section-body">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Shared Drive Access:</span>
+                </div>
+                <div class="message-detail-section-header-item-message">
+                    {% if project.share_drive_url %}
+                    <a class="block__files" href="{{ project.share_drive_url }}">Shared Drive Access</a>
+                    {% else %}
+                    <div class="block__files">Have not drive to shared</div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="message-detail-section-body">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Deliverables:</span>
+                </div>
+                <div class="message-detail-section-header-item-message">
+                    Some files here
+                </div>
+            </div>
+            <div class="message-detail-section-body">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Intake - Document Discovery:</span>
+                </div>
+                <div class="message-detail-section-header-item-message">
+                    Some files here
+                </div>
+            </div>
+            <div class="message-detail-section-body">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Manage Project:</span>
+                </div>
+                <div class="message-detail-section-header-item-message">
+                    Some files here
+                </div>
+            </div>
+            <div class="details__footer">
+                <a class="details__btn" style="padding: 10px 25px;" href="/client_portal/{{project.id}}/intake_form">Intake Form</a>
+                <div class="footer">(Incomlete, In progress, Complete)</div>
+            </div>
+            
+            {% else %}
+                <div class="no-project-text">Not found.</div>
+            {% endif %}
+        </div>  
+    </div>                 
+{% endblock %}
+{% block script %}
+{% endblock %}

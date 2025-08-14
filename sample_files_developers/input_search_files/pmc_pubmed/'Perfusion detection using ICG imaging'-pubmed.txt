@@ -1,0 +1,92 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27Perfusion+detection+using+ICG+imaging%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 27609053
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170614
+LR  - 20170614
+IS  - 1768-319X (Electronic)
+IS  - 0294-1260 (Linking)
+VI  - 61
+IP  - 6
+DP  - 2016 Dec
+TI  - [Use of indocyanine green angiography in reconstructive surgery: Brief review].
+PG  - 858-867
+LID - S0294-1260(16)30142-X [pii]
+LID - 10.1016/j.anplas.2016.07.021 [doi]
+AB  - BACKGROUND: The success of flap surgery is highly dependant of vascularisation,
+      according to the principle of dermal and subdermal perfusion. This principle
+      requires compatible dimensions for the survival of the flap. Indocyanine green
+      angiography (ICG), a technique enabling an assessment of vascularization by
+      fluorescence, has received a considerable impetus during the last two decades.
+      The purpose of this article was to conduct a review on this technique and to
+      evaluate its relevance in flap surgery. METHOD: We reviewed all articles
+      referenced on PubMed from 1995 till 2015 using a search combining the terms
+      'indocyanine green', 'flap', 'near-infrared', 'fluorescence', 'imaging' OR
+      'angiography'. RESULTS: One hundred fifty five articles were found and among
+      those thirty-four were selected. ICG is a reliable technique to locate perforants
+      vessels, to determine the outlines of the flat and evaluate its per- and
+      postoperative viability and to appraise anastomoses. CONCLUSION: This technique
+      allows a reliable and real-time assessment of potential necrotic areas and an
+      improvement in the detection of complications compared to conventional
+      techniques.
+CI  - Copyright A(c) 2016 Elsevier Masson SAS. All rights reserved.
+FAU - Echalier, C
+AU  - Echalier C
+AD  - Service d'orthopedie, de traumatologie, de chirurgie plastique, reconstructrice
+      et assistance main, CHRU Jean-Minjoz, 3, boulevard Fleming, 25033 Besancon,
+      France. Electronic address: camille_echalier@live.fr.
+FAU - Pluvy, I
+AU  - Pluvy I
+AD  - Service d'orthopedie, de traumatologie, de chirurgie plastique, reconstructrice
+      et assistance main, CHRU Jean-Minjoz, 3, boulevard Fleming, 25033 Besancon,
+      France.
+FAU - Pauchot, J
+AU  - Pauchot J
+AD  - Service d'orthopedie, de traumatologie, de chirurgie plastique, reconstructrice
+      et assistance main, CHRU Jean-Minjoz, 3, boulevard Fleming, 25033 Besancon,
+      France.
+LA  - fre
+PT  - Journal Article
+PT  - Review
+TT  - Angiographie au vert d'indocyanine en chirurgie reconstructrice : revue de la
+      litterature.
+DEP - 20160905
+PL  - France
+TA  - Ann Chir Plast Esthet
+JT  - Annales de chirurgie plastique et esthetique
+JID - 8305839
+RN  - 0 (Coloring Agents)
+RN  - IX6J1063HV (Indocyanine Green)
+SB  - IM
+MH  - *Coloring Agents
+MH  - *Fluorescein Angiography
+MH  - Humans
+MH  - *Indocyanine Green
+MH  - *Reconstructive Surgical Procedures
+MH  - Surgical Flaps/*blood supply
+OTO - NOTNLM
+OT  - Angiographie
+OT  - Angiography
+OT  - Chirurgie reconstructrice
+OT  - Flap
+OT  - Indocyanine green
+OT  - Lambeau
+OT  - Necrosis
+OT  - Necrose
+OT  - Reconstructive surgery
+OT  - Vert d'indocyanine
+EDAT- 2016/09/10 06:00
+MHDA- 2017/06/15 06:00
+CRDT- 2016/09/10 06:00
+PHST- 2016/04/27 00:00 [received]
+PHST- 2016/07/27 00:00 [accepted]
+PHST- 2016/09/10 06:00 [pubmed]
+PHST- 2017/06/15 06:00 [medline]
+PHST- 2016/09/10 06:00 [entrez]
+AID - S0294-1260(16)30142-X [pii]
+AID - 10.1016/j.anplas.2016.07.021 [doi]
+PST - ppublish
+SO  - Ann Chir Plast Esthet. 2016 Dec;61(6):858-867. doi: 10.1016/j.anplas.2016.07.021.
+      Epub 2016 Sep 5.

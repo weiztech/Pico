@@ -1,0 +1,72 @@
+---
+- name: Quick Deploy Application Updates
+  hosts: staging
+  become: true
+  remote_user: root
+
+  vars:
+    project_deployed_path: "/home/dockeruser/CiteMedical/"
+    project_root: "../.."
+    services:
+      - gunicorn
+      - celery
+
+  tasks:
+    # First, we synchronize only the application code, excluding unnecessary files
+    - name: Sync project files
+      synchronize:
+        src: "{{ project_root }}/"
+        dest: "{{ project_deployed_path }}"
+        rsync_opts:
+          - "--exclude=.git"
+          - "--exclude=*.pyc"
+          - "--exclude=__pycache__"
+          - "--exclude=venv"
+          - "--exclude=.env"
+          - "--exclude=node_modules"
+          - "--exclude=docker*"  # Exclude Dockerfile and docker-compose
+          - "--exclude=*.yml"    # Exclude deployment configs
+        delete: no              # Don't delete files not in source
+
+
+    # Ensure proper permissions after sync
+    - name: Set correct permissions
+      file:
+        path: "{{ project_deployed_path }}"
+        owner: dockeruser
+        group: dockeruser
+        recurse: yes
+        mode: "0755"
+
+    # Gracefully restart the services within the containers
+    - name: Restart Gunicorn
+      community.docker.docker_compose_v2:
+        project_src: "{{ project_deployed_path }}"
+        services:
+          - web  # Assuming 'web' is your service name
+        state: restarted
+
+    - name: Restart Celery Workers
+      community.docker.docker_compose_v2:
+        project_src: "{{ project_deployed_path }}"
+        services:
+          - celery  # Assuming 'celery' is your service name
+        state: restarted
+
+    # Optional: Clear Python cache
+    - name: Clear Python cache
+      file:
+        path: "{{ project_deployed_path }}/path/to/your/python/code/__pycache__"
+        state: absent
+
+    # Optional: Run database migrations if needed
+    - name: Run database migrations
+      command: docker compose -f {{ project_deployed_path }}/docker-compose.yml run --rm web python manage.py migrate
+      register: migration_result
+      ignore_errors: yes
+
+    # Log the deployment
+    - name: Record deployment timestamp
+      copy:
+        content: "{{ ansible_date_time.iso8601 }}"
+        dest: "{{ project_deployed_path }}/last_deploy.txt"

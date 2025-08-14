@@ -1,0 +1,1046 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <title>Living Review</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
+    <link href="{% static 'css/theme/help_popup.css' %}" rel="stylesheet" type="text/css" />
+
+    <script src="{% static 'lit_reviews/jquery-3.4.1.min.js' %}"></script>
+
+    <!-- New Theme -->
+    <link href="{% static 'css/theme/global.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/theme/layout.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/theme/lit_review_base.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/theme/living_review_detail.css' %}" rel="stylesheet" type="text/css" />
+
+
+    <!-- Vue JS Tour -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vue-tour@2.0.0/dist/vue-tour.min.css">
+    <link rel="stylesheet" href="{% static 'intro/intro.min.css' %}" />
+  </head>
+
+  <body>
+    <!-- Sidebar -->
+    {% if subscription.licence_type == 'sandbox' or subscription.licence_type == 'credits'%}
+    <div class="sidebar sidebar-sandbox" id="side-bar">
+  {% else %}
+    <div class="sidebar" id="side-bar">
+  {% endif %}
+    <!-- Logo -->
+    <div class="logo-section">
+      <a
+        class="logo-icon {% if not review_title %} mr-auto {% endif %}"
+        href="{% url 'literature_reviews:literature_review_list' %}"
+      >
+        <img
+          src="{% static 'images/new_logo.svg' %}"
+          height="30"
+          class="d-inline-block align-top"
+          alt="citemed logo"
+        />
+      </a>
+    </div>
+    {% include "lit_reviews/sidebar.html" %}
+  </div>
+  <!-- sidebar-container END -->
+    <div id="living-review-detail" class="page-wrapper" v-cloak>
+      <!-- NavBar -->
+      <nav :class="!collapse ? 'top-nav-bar-section' : 'top-nav-bar-section-collapse'">
+        <div class="top-navbar-right-side">
+          <a class="menu-option-content-back" href="{% url 'literature_reviews:literature_review_list' %}">
+            <div class="icon-section-back">
+              <img style="width: 16px;"
+                src="{% static 'images/icons/Arrows-left.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+          </a>
+          <div class="living-review-title-section">
+            <h1 class="living-review-title">
+              [[livingReview?.device?.name]]
+            </h1>
+            <span class="living-review-title-span">
+              Review #[[selectedProjectID]]
+            </span>
+          </div>
+        </div>
+
+        <!-- Review Configuration -->
+        <div class="top-navbar-left-side">
+          <button class="secondary-gray-button configuration-button" v-on:click="showModal('review-configuration-slider')">
+            <img src="{% static 'images/icons/gear-icon.png' %}" alt="gear icon" class="configuration-icon"/>
+            Review Configuration
+          </button>
+          <button v-on:click="showModal('create-literature-review-modal')" class="primary-button" disabled>
+            Generate Report
+          </button>
+        </div>
+      </nav>
+      <!-- Left Sidebar -->
+      <!-- add defult left sidebar -->
+
+      <!-- MAIN -->
+      <div :class="!collapse ? 'body-content' : 'body-content-collapse'"> 
+        <living-review-analysis
+          v-if="livingReview"
+          title="Under Evaluation Device"
+          :relevant-articles="livingReview.under_review_analysis.relevant_articles"
+          :relevant-articles-before="livingReview.under_review_analysis.relevant_articles_before"
+          :reviewed-articles="livingReview.under_review_analysis.reviewed_articles"
+          :reviewed-articles-before="livingReview.under_review_analysis.reviewed_articles_before"
+          upper-icon="{% static 'images/icons/upper-icon.png' %}"
+          same-icon="{% static 'images/icons/same-icon.png' %}"
+          lower-icon="{% static 'images/icons/lower-icon.png' %}"
+        > </living-review-analysis>
+
+        <div class="center-v" style="gap: 10px;">
+          <living-review-analysis
+            v-if="livingReview && livingReview.similar_devices.length"
+            title="Similar Devices"
+            :relevant-articles="livingReview.similar_analysis.relevant_articles"
+            :relevant-articles-before="livingReview.similar_analysis.relevant_articles_before"
+            :reviewed-articles="livingReview.similar_analysis.reviewed_articles"
+            :reviewed-articles-before="livingReview.similar_analysis.reviewed_articles_before"
+            upper-icon="{% static 'images/icons/upper-icon.png' %}"
+            same-icon="{% static 'images/icons/same-icon.png' %}"
+            lower-icon="{% static 'images/icons/lower-icon.png' %}"
+          > </living-review-analysis>
+   
+          <living-review-analysis
+            v-if="livingReview && livingReview.competitor_devices.length"
+            title="Competitor Devices"
+            :relevant-articles="livingReview.competitor_analysis.relevant_articles"
+            :relevant-articles-before="livingReview.competitor_analysis.relevant_articles_before"
+            :reviewed-articles="livingReview.competitor_analysis.reviewed_articles"
+            :reviewed-articles-before="livingReview.competitor_analysis.reviewed_articles_before"
+            upper-icon="{% static 'images/icons/upper-icon.png' %}"
+            same-icon="{% static 'images/icons/same-icon.png' %}"
+            lower-icon="{% static 'images/icons/lower-icon.png' %}"
+          > </living-review-analysis>
+
+        </div>
+
+        <div  class="form-content results-container">
+          <!-- SEARCH SECTION -->
+          <div class="section-header">
+            <h3 class="center-v">
+              Articles
+              <!-- <page-wiki-helper wiki-link=""> </page-wiki-helper> -->
+
+              <div 
+                v-if="selectedProject" 
+                class="faded-filter"
+                ref="under-evaluation-filter"
+                v-on:click="onFilterWithMentions('under')"
+              > 
+                Under Evaluation Devices ([[selectedProject.under_evaluation_device_mentions_counts]])
+              </div>
+              <div 
+                v-if="selectedProject" 
+                class="faded-filter"
+                ref="similar-devices-filter"
+                v-on:click="onFilterWithMentions('similar')"
+              > 
+                Similar Devices ([[selectedProject.similar_device_mentions_counts]])
+              </div>
+              <div 
+                v-if="selectedProject" 
+                class="faded-filter"
+                ref="competitor-devices-filter"
+                v-on:click="onFilterWithMentions('competitor')"
+              > 
+                Competitor Devices ([[selectedProject.competitor_device_mentions_counts]])
+              </div>
+            </h3>
+            <div class="center-v">
+              <span class="mr"> Total Articles </span>
+              <span class="badge badge-squared secondary"> <strong> [[selectedLiteratureReviewArticles.length]] </strong> </span>
+            </div>
+          </div>
+          <!-- RESULTS SECTION -->
+          <div class="horizantal-devider"> </div>
+          <div class="content-results"> 
+            <div class="filters">
+              <div class="search-section">
+                <form v-on:submit="onApplyFilters">
+                  <input 
+                    type="search" 
+                    placeholder="Search for titles, citations etc." 
+                    name="article-search" 
+                    v-model="searchTerm"
+                  />
+                  <button type="submit" class="search-button">
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                          fill="#9BA5B9"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                          fill="#9BA5B9"
+                        />
+                      </svg>
+                  </button>
+                </form>
+              </div>
+    
+              <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+                <div class="filter-icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <svg v-if="isFiltersApplied" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                    fill="none">
+                    <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+                  </svg>
+                </div>
+                Filter
+              </div>
+    
+              <div class="ml-auto"> </div>
+          
+              <div class="filter-button ml" v-if="isFiltersApplied || searchTerm" v-on:click="onClearFilters">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Clear Filters
+              </div>
+    
+              <div class="slider" id="filters-slider">
+                <div class="slider-dialog">
+                  <div class="slider-dialog-inner ">
+                    <div class="slider-header">
+                      <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                      Filters
+                    </div>
+
+                    <div class="slider-content">  
+                      <!-- <div class="filter-section">
+                        <div class="header"> Date Range </div>
+                        <div class="filter-checks"> 
+                          <div class="date-filter">
+                            <div class="field-control">
+                              <label>Start Date</label>
+                              <input type="date" v-model="selectedStartDate" />
+                            </div>
+                            <div class="field-control">
+                              <label>End date</label>
+                              <input type="date" v-model="selectedEndDate" />
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+                      
+                      <div class="horizantal-devider "> </div>
+
+                      <div class="filter-section" v-if="dbs.length">
+                        <div class="header"> DATABASE </div>
+                        <h3 class="mt-3"> Clinical Trials Databases </h3>
+                        <div class="filter-checks"> 
+                          <div class="filter-check" v-for="db in dbs" :key="db.id" v-if="!db.is_ae && !db.is_recall"> 
+                            <label :for="db.entrez_enum"> 
+                              <img src="{% static 'assets/client_portal/img/db-icon-blue.svg' %}" class="db-icon-selection">
+                              [[db.displayed_name]]
+                            </label> 
+                            <input type="checkbox" v-model="selectedDatabases" name="database" :value="db.entrez_enum" :id="db.entrez_enum"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="slider-footer">
+                      <button class="primary-button" v-on:click="onApplyFilters">
+                        Apply Filters
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review Configuration Slider -->
+              <div class="slider" id="review-configuration-slider">
+                <div class="slider-dialog">
+                  <div class="slider-dialog-inner">
+                    <div class="slider-header">
+                      <button class="pagintaion-item mr" v-on:click="onCloseReviewConfiguration">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                      Review Configuration
+                    </div>
+
+                    <div class="slider-content-configuration">
+                      <!-- Protocol Section -->
+                      <div class="configuration-section">
+                        <h3 class="configuration-section-title">Protocol</h3>
+                        <div class="configuration-section-content">
+                          <div class="configuration-section-left">
+                            <li class="center-v mb-2">
+                              <label class="c-pointer configuration-section-left-label">
+                                <div class="client-profile-image ml mr">
+                                  <div class="client-logo-section project-icon">
+                                    <img
+                                      id="project-img"
+                                      alt="project logo"
+                                      src="{% static 'images/icons/Project Protocol.png' %}"
+                                    />
+                                  </div>
+                                </div>
+                                <div> 
+                                  <div class="mb configuration-section-left-label-text"> <strong> [[livingReview?.device?.name]] </strong> </div>
+                                  <div class="configuration-section-left-label-subtext"> [[livingReview?.client ]] </div>
+                                </div>
+                              </label>
+                            </li>
+                          </div>
+                          <div class="configuration-section-right">
+                            <div class="mt-2 ml-2 w-50 interval-select-wrapper">
+                              <label for="time-interval" class="form-label"> Time Interval </label>
+                              <div v-if="livingReview">
+                                <custom-select
+                                  id="time-interval"
+                                  name="time-interval"
+                                  :options="intervalOptions"
+                                  :default-selected="livingReview.interval"
+                                  :on-change="onChangeTimeInterval"
+                                >
+                                </custom-select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Devices Section -->
+                      <div class="configuration-section">
+                        <h3 class="configuration-section-title">Devices</h3>
+                        
+                        <!-- Device Navigation Tabs -->
+                        <div class="device-tabs">
+                          <button 
+                            class="device-tab"
+                            :class="{ 'active': activeDeviceTab === 'evaluation' }"
+                            @click="activeDeviceTab = 'evaluation'"
+                          >
+                            Under Evaluation
+                          </button>
+                          <button 
+                            class="device-tab"
+                            :class="{ 'active': activeDeviceTab === 'similar' }"
+                            @click="activeDeviceTab = 'similar'"
+                          >
+                            Similar <div class="devices-count">[[livingReview?.similar_devices?.length || 0]]</div> 
+                          </button>
+                          <button 
+                            class="device-tab"
+                            :class="{ 'active': activeDeviceTab === 'competitor' }"
+                            @click="activeDeviceTab = 'competitor'"
+                          >
+                            Competitor <div class="devices-count">[[livingReview?.competitor_devices?.length || 0]]</div> 
+                          </button>
+                        </div>
+
+                        <!-- Under Evaluation Tab Content -->
+                        <div class="device-tab-content" v-if="activeDeviceTab === 'evaluation'">
+                          <div class="hint mt-2 mb-2">The primary device for which the review will be created first. You can select only one of them.</div>
+                          
+                          <div class="device-controls">
+                            <button
+                              class="secondary-gray-button"
+                              v-on:click="showModal('create-device')"
+                              disabled
+                            >
+                              + Create New
+                            </button>
+                            <div class="search-form">
+                              <input
+                                type="search"
+                                placeholder="Search For Device"
+                                name="device-search"
+                                v-model="deviceSearchTerm"
+                              />
+                              <button type="button" class="search-button">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                                    fill="#9BA5B9"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                                    fill="#9BA5B9"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="devices-selection-area">
+                            <ul class="devices-list">
+                              <li
+                                v-for="device in searchedDevices"
+                                :key="'device-'+device.id"
+                                class="center-v"
+                              >
+                                <input
+                                  :value="device.id"
+                                  :id="'evaluation-device-'+device.id"
+                                  name="evaluation-device"
+                                  type="radio"
+                                  class="mr"
+                                  :checked="livingReview?.device?.id === device.id"
+                                  @change="onSelectEvaluationDevice(device.id)"
+                                  class="c-pointer"
+                                />
+                                <label :for="'evaluation-device-'+device.id" class="c-pointer">
+                                  <div class="device-info">
+                                    <strong>[[device.name]]</strong>
+                                    <span class="device-manufacturer">([[device.manufacturer]])</span>
+                                  </div>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <!-- Similar Devices Tab Content -->
+                        <div class="device-tab-content" v-if="activeDeviceTab === 'similar'">
+                          <div class="hint mt-2 mb-2">
+                            Select similar devices to search for in the article results from periodic runs.
+                            <strong>You can select multiple items.</strong>
+                          </div>
+                          
+                          <div class="device-controls device-controls-others">
+                            <div class="search-form">
+                              <input
+                                type="search"
+                                placeholder="Search for a Device"
+                                name="similar-device-search"
+                                v-model="similarDevicesSearchTerm"
+                              />
+                              <button type="button" class="search-button">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                                    fill="#9BA5B9"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                                    fill="#9BA5B9"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="devices-selection-area">
+                            <ul class="devices-list mt">
+                              <li
+                                v-for="device in searchedSimilarDevices"
+                                :key="'similar-device-'+device.id"
+                                class="center-v device-check-space"
+                              >
+                                <input
+                                  :value="device.id"
+                                  :id="'similar-device-'+device.id"
+                                  name="similar-device"
+                                  type="checkbox"
+                                  class="mr"
+                                  :checked="isSimilarDeviceSelected(device.id)"
+                                  @change="onToggleSimilarDevice(device.id)"
+                                  class="c-pointer"
+                                />
+                                <label :for="'similar-device-'+device.id" class="c-pointer">
+                                  <div class="device-info">
+                                    <strong>[[device.name]]</strong>
+                                    <span class="device-manufacturer">([[device.manufacturer]])</span>
+                                  </div>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <!-- Competitor Devices Tab Content -->
+                        <div class="device-tab-content" v-if="activeDeviceTab === 'competitor'">
+                          <div class="hint mt-2 mb-2">
+                            Select competitor devices to search for in the article results from periodic runs.
+                            <strong>You can select multiple items.</strong>
+                          </div>
+                          
+                          <div class="device-controls device-controls-others">
+                            <div class="search-form">
+                              <input
+                                type="search"
+                                placeholder="Search for a Device"
+                                name="competitor-device-search"
+                                v-model="competitorDevicesSearchTerm"
+                              />
+                              <button type="button" class="search-button">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                                    fill="#9BA5B9"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                                    fill="#9BA5B9"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="devices-selection-area">
+                            <ul class="devices-list mt">
+                              <li
+                                v-for="device in searchedCompetitorDevices"
+                                :key="'competitor-device-'+device.id"
+                                class="center-v device-check-space"
+                              >
+                                <input
+                                  :value="device.id"
+                                  :id="'competitor-device-'+device.id"
+                                  name="competitor-device"
+                                  type="checkbox"
+                                  class="mr"
+                                  :checked="isCompetitorDeviceSelected(device.id)"
+                                  @change="onToggleCompetitorDevice(device.id)"
+                                  class="c-pointer"
+                                />
+                                <label :for="'competitor-device-'+device.id" class="c-pointer">
+                                  <div class="device-info">
+                                    <strong>[[device.name]]</strong>
+                                    <span class="device-manufacturer">([[device.manufacturer]])</span>
+                                  </div>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Auto-Summary and Alerts Section -->
+                      <div class="configuration-section">
+                        <h3 class="configuration-section-title">Auto-Summary and Alerts</h3>
+                        
+                        <div class="configuration-section-content">
+                          <div class="content">
+                            <div class="content-inner">
+                              <div class="center-v">
+                                <div class="hint"> Do you want us to automatically summarize and send any literature that may be most relevant? (Note, you can still conduct a full review manually yourself) </div>
+                              </div>
+                  
+                              <div class="alerts-selection-area">
+                                <ul class="devices-list mt">
+                                  <li
+                                    v-for="notification in notificationsTypes"
+                                    :key="'notification-'+notification.value"
+                                    class="center-v mb-2"
+                                  >
+                                    <input
+                                      :value="notification.value"
+                                      :id="'config-'+notification.value"
+                                      name="config-notification"
+                                      type="radio"
+                                      class="mr"
+                                      :checked="livingReview?.alert_type === notification.value"
+                                      @change="onChangeNotificationType(notification.value)"
+                                      class="c-pointer"
+                                    />
+                                    <label :for="'config-'+notification.value" class="c-pointer">
+                                      <strong> [[notification.description]] </strong>
+                                    </label>
+                                  </li>
+                                </ul>
+
+                                <div class="horizantal-devider"></div>
+
+                                <div class="mt-2 center-v">
+                                  <input
+                                    value="no"
+                                    id="config-empty-notification"
+                                    name="config-notification"
+                                    type="radio"
+                                    class="mr"
+                                    :checked="livingReview?.alert_type === 'no' || !livingReview?.alert_type"
+                                    @change="onChangeNotificationType('no')"
+                                    class="c-pointer"
+                                  />
+                                  <label for="config-empty-notification" class="c-pointer">
+                                    <strong> I don't want any notifications </strong>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="slider-footer">
+                      <button 
+                        class="primary-button" 
+                        v-on:click="onSaveReviewConfiguration"
+                        :disabled="isConfigurationLoading"
+                      >
+                        <span v-if="isConfigurationLoading">Saving...</span>
+                        <span v-else>Save Configuration</span>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>  
+
+            <!-- Create New Device Modal -->
+            <div class="modal modal-style-2" id="create-device">
+              <form v-on:submit="onCreateDevice">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <div>
+                        <div class="modal-header-icon-wrapper">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                          >
+                            <path
+                              d="M17 13V5.19231C17 4.25767 16.2165 3.5 15.25 3.5H4.75C3.7835 3.5 3 4.25767 3 5.19231V13M17 13C17.5523 13 18 13.4477 18 14V15.5C18 16.0523 17.5523 16.5 17 16.5H3C2.44772 16.5 2 16.0523 2 15.5V14C2 13.4477 2.44772 13 3 13M17 13H13.5L12 14H8.25L6.5 13H3"
+                              stroke="#3C404A"
+                              stroke-width="1.2"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </div>
+                        Create New Device
+                      </div>
+
+                      <button
+                        class="secondary-gray-button close-icon"
+                        v-on:click="hideModal('create-device')"
+                        type="button"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <path
+                            d="M12 4L4 12M12 12L4 4"
+                            stroke="#4A505C"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div style="text-align: left">
+                        <label class="text-left" for="device-name">
+                          Device Name<span class="invalid-feedback">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          name="device-name"
+                          id="device-name"
+                          v-model="newDevice.name"
+                        />
+                      </div>
+                      <div style="text-align: left">
+                        <label class="text-left" for="manufacturer*">
+                          Manufacturer<span class="invalid-feedback">*</span>
+                        </label>
+                        <div class="center-v">
+                          <input
+                            type="text"
+                            name="manufacturer*"
+                            id="manufacturer*"
+                            v-model="newDevice.manufacturer"
+                            v-if="isNewManufacturer"
+                          />
+                          <select v-else name="manufacturer*" v-model="newDevice.manufacturer">
+                            <option value=""> Select Manufacturer </option>
+                            <option v-for="manufacturer in manufacturers" :value="manufacturer.name"> [[manufacturer.name]] </option>
+                          </select>
+                          <button
+                            class="secondary-gray-button ml-2 no-break"
+                            type="button"
+                          >
+                            <span v-if="isNewManufacturer" v-on:click="onSwitchNewManufacturer(false)"> Choose Existing </span>
+                            <span v-else v-on:click="onSwitchNewManufacturer(true)"> Create New </span>
+                          </button>
+                        </div>
+                      </div>
+                      <div style="text-align: left">
+                        <label class="text-left" for="classification">
+                          Classification<span class="invalid-feedback">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          name="classification"
+                          id="classification"
+                          v-model="newDevice.classification"
+                        />
+                      </div>
+                      <div style="text-align: left">
+                        <label class="text-left" for="device-markets">
+                          Markets<span class="invalid-feedback">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          name="device-markets"
+                          id="device-markets"
+                          v-model="newDevice.markets"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="horizantal-devider mt-2"></div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="secondary-gray-button ml-auto mr"
+                      v-on:click="hideModal('create-device')"
+                    >
+                      Cancel
+                    </button>
+                    <button type="submit" class="primary-button" :disabled="!isCreateDeviceValid">
+                      Save Device
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div v-if="ResulsLoading"> <loader header-text="Loading Search Results..." /> </div>
+            <div v-else-if="selectedProject && selectedProject.is_missing === true"> 
+              <div class="badge warning missing-period-warning"> 
+                Unfortunately, this review doesn’t cover the selected time period 
+                ([[selectedProject.search.lit_start_date_of_search]] - [[selectedProject.search.lit_date_of_search]]).
+                <br /> 
+                There may have been an error—please contact the support team for assistance.
+              </div>
+            </div>
+            <table v-else-if="selectedLiteratureReviewArticles.length" class="custom-table" >
+              <thead>
+                <tr>
+                    <th style="width: 35px;">
+                      <input 
+                        type="checkbox" 
+                        :checked="isCheckAll" 
+                        v-on:change="toogleIsCheckAll"
+                      />
+                    </th>
+                    <th style="width: 200px;"> Database</th>  
+                    <th style="width: 200px;">
+                        <span>
+                            Title
+                            <img src="{% static 'images/icons/filter.png' %}" />
+                        </span>
+                    </th>
+                    <th>
+                      Abstract
+                    </th>
+                    <th style="width: 60px;">
+                      Rate
+                    </th>
+                     
+                    <th style="width: 60px;">
+                    </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="review in selectedLiteratureReviewArticles" :id="'review-'+review.id" :key="review.id">
+                  <td class="article-check"> 
+                    <input 
+                      type="checkbox" 
+                      name="check-article" 
+                      v-model="selectedReviews" 
+                      :value="review.id" 
+                    /> 
+                  </td>
+                  <td> 
+                    <span class="article-db"> 
+                      <span class="database-type mr">
+                        <span v-if="review.database.is_ae || review.database.is_recall"> AE </span>
+                        <span v-else> LIT </span>
+                      </span>
+                      [[ review.database.displayed_name ]] 
+                    </span>
+                  </td>
+    
+                  <td class="article-title" >
+                    [[ review.article.title ]]
+                  </td>
+    
+                  <td>
+                    <div class="article-abstract"  :title="review.article.abstract" v-html="truncateText(review.article.abstract,350)"></div>
+                  </td>
+    
+                  <td>
+                    [[ review.score ]]
+                  </td>
+
+                  <td>
+                    <div v-if="review.absolute_url" class="info-card w-max m-auto" style="padding: 2px;">
+                      <a class="center-v w-max" :href="review.absolute_url" target="_blank">
+                        <img src="{% static 'images/icons/open-link-icon.png' %}" alt="external link icon" class="external-link-icon"/>
+                      </a>
+                    </div>
+                  </td>       
+                </tr>
+              </tbody>
+            </table>
+        
+            
+            <div v-else>
+              <!-- Find the selected search from searchesHistory -->
+              No article found for this Literature Review.
+            </div>
+        
+          </div>
+        </div>
+      </div>
+      
+      <!-- right Sidebar -->
+      <div id="side-bar-right" :class="!collapse ? 'sidebar-right' : 'sidebar-right-collapse'">
+        <!-- back icon -->
+        <div class="sidebar-right-top">
+          <div class="sidebar-right-top-left-side">
+            <div class="icon-section-back c-pointer" v-on:click="collapseMenu">
+              <img style="width: 16px;"
+                src="{% static 'images/icons/collapse-icon.svg' %}"
+                alt="directory icon"
+                :class="!collapse ? '' : 'collapse-icon-rotate'"
+              />
+            </div>
+            <div v-if="!collapse">
+              <h1 class="history-title">
+                Review History
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-right-body"> 
+          <div :class="!collapse ? 'auto-updates-section' : 'auto-updates-section-collapse'">
+            <div class="auto-updates-text">
+              automatic updates
+            </div>
+            <div class="auto-updates-toggler">
+              <label class="switch">
+                <input class="btn-toggle" type="checkbox" v-model="isAutoUpdate" v-on:change="">
+                <span class="btn-on-off round"></span>
+              </label>
+            </div>
+          </div>
+          
+          <div v-if="isRecordsLoading">
+            <!-- loader section -->
+            <div class="loading-history-section" id="loading-history-section">
+              <div class="loading-history-section">
+                  <div class="mb-4">
+                      <img
+                      src="{% static 'images/new_logo.svg' %}"
+                      class="d-inline-block align-top"
+                      alt="citemed-logo"
+                      />
+                  </div>
+                  <div class="mt-3">
+                      Please don't refresh the page Until the process is completed.
+                  </div>
+                  <div class="update-loading-popup-progress"><div></div><div></div><div></div></div>
+              </div>
+            </div>
+          </div>
+          <div v-else-if="collapse">
+          </div>
+          <div v-else>
+            <div class="search-history-section" v-if="latestLiteratureReviews.length">
+              <div class="horizantal-history-divider"></div>
+              <div class="history-searches">
+                <div v-for="lit_review in latestLiteratureReviews" :id="lit_review.id" v-on:click="onSelectProject(lit_review.id)" :class="{ 'history-search-item-selected': lit_review.id === selectedProjectID}" class="history-search-item">
+                  <div class="default-test-item" >
+                    <div class="default-test-item-info">
+                      <div class="eye-hide-item" v-if="lit_review.id == selectedProjectID">
+                        <img
+                          src="{% static 'images/icons/glass-icon.png' %}"
+                          alt="open-eye icon"
+                          class="eye-show-item-open-img"
+                        />
+                      </div>
+                      <div class="eye-show-item" v-else>
+                        <img
+                          src="{% static 'images/icons/glass-icon-closed.png' %}"
+                          alt="closed-eye icon"
+                          class="eye-show-item-closed-img"
+                        />
+                      </div>
+  
+                      <div class="test-item">
+                        <div class="search-term-item">
+                          date of the Last run
+                        </div>
+                        <div class="search-time-item">
+                          [[lit_review.search.lit_start_date_of_search]]
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="additional-test-item">
+                    <div class="horizontal-divider-item"></div>
+                    <div class="additional-test-item-section">
+                      <div class="additional-test-item-section-terms"  v-if="lit_review.is_missing !== true">
+                        <div class="additional-test-item-section-term">
+                          <div class="additional-test-item-section-term-title">Abstracts</div>
+                          <div class="additional-test-item-section-term-value">[[lit_review.abstracts]]</div>
+                        </div>
+                        <div class="additional-test-item-section-term">
+                          <div class="additional-test-item-section-term-title">Included</div>
+                          <div class="additional-test-item-section-term-value">[[lit_review.included]]</div>
+                        </div>
+                        <div class="additional-test-item-section-term">
+                          <div class="additional-test-item-section-term-title">Incomplete</div>
+                          <div class="additional-test-item-section-term-value">[[lit_review.incomplete]]</div>
+                        </div>
+                      </div>
+                      
+                      <div :class="{'dates-section-warning': lit_review.is_missing}" class="additional-test-item-section-date">
+                        <div class="additional-test-item-section-date-title">Date of Search</div>
+                        <div class="additional-test-item-section-date-value">
+                          <div class="additional-test-item-section-date-value-icon">
+                            <img
+                              src="{% static 'images/icons/dates-icon.png' %}"
+                              alt="directory icon"
+                              class="additional-test-item-section-dates-value-icon"
+                            />
+                          </div>
+                          <div class="additional-test-item-section-date-value-dates">
+                            <div class="additional-test-item-section-date-value-dates-item">[[lit_review.search.lit_start_date_of_search]]</div>
+                            <div class="additional-test-item-section-date-value-dates-item">[[lit_review.search.lit_date_of_search]]</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="search-history-empty-section" v-else>
+  
+              <h1 class="my-history-title">Your History</h1>
+              <h2 class="my-history-subtitle">
+                There will be collected your search term history.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+
+   </body>
+
+  <script>  
+    const DatabasesListAPI = "{% url 'lit_reviews:databases' %}";
+    const LivingReviewDetailURL = "{% url 'lit_reviews:living_review_detail_api' id=0 %}";
+    const ArticleReviewListURL = "{% url 'lit_reviews:article_reviews_list_api' id=0 %}";
+    const DevicesListAPI = "{% url 'lit_reviews:devices_list_api' %}";
+    const ManufacturerListAPI = "{% url 'lit_reviews:manufacturer_list_api' %}";
+    const CreateDeviceAPI = "{% url 'lit_reviews:create_device_api' %}";
+    const LivingReviewUpdateAPI = "{% url 'lit_reviews:update_living_review_api' id=0 %}";
+
+    const is_archived = {{ is_archived|yesno:"true,false" }};
+  </script>
+
+<script type="application/javascript" src="{% static 'lit_reviews/js/globe.js' %}"></script>
+
+<!-- Vue JS -->
+{% if env == 'PROD' %}
+  <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0"></script>
+{% else %}
+  <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.7.0/dist/vue.js"></script>
+{% endif %}
+
+<script type="application/javascript" src="{% static 'vue-cdn/propper-2.11.8.min.js' %}"></script>
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/portal-vue@2.1.7/dist/portal-vue.umd.min.js"></script>
+
+<!-- Vue JS Tour -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue-tour@2.0.0/dist/vue-tour.umd.min.js"></script> -->
+<script src="{% static 'intro/intro.min.js' %}"></script>
+
+<!-- Axious -->
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/mixins.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/components/ui_elements.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/components/layout.js' %}" > </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/living_review_detail.js' %}" > </script>
+
+<!-- External Scripts -->
+<!-- Any external scripts should be placed here to avoid blocking the above scripts if anything went wrong -->
+</html>

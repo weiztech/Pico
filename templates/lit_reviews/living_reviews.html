@@ -1,0 +1,322 @@
+{% extends 'base_lit_reviews.html' %}
+{% block 'head' %}
+{% load static %}
+<link href="{% static 'css/theme/articles_list.css' %}" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://unpkg.com/@vuepic/vue-datepicker@latest/dist/main.css">
+<link href="{% static 'css/theme/living_reviews.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %} 
+
+  <a href=""
+  target="_blank">
+    <span>Need help with this page? <br/> Read the Wiki</span>
+    <div>
+      <img src="{% static 'images/icons/wiki-icon.svg' %}">
+    </div>   
+</a>
+
+{% endblock %} 
+
+{% block 'body' %}
+  <div id="living-reviews" v-cloak> 
+
+    <div class="form-content">
+        <div class="section-header">
+          <h3 class="center-v">
+            All Living Reviews
+            <!-- <div class="tooltip" style="padding-left: 10px;">
+              <a class="help-button"
+                href=""
+                target="_blank"
+              >
+                <span>What do I do on this page?</span>
+              </a>
+              <span class="tooltiptext">Need help with this page? <br/> Read the Wiki</span>
+            </div> -->
+          </h3>
+
+          <div>            
+          </div>
+          
+          <div class="center-v">
+            <a href="{% url 'lit_reviews:create_living_review' %}" class="primary-button w-100 mt-2">
+              Create New Living Review
+            </a>
+          </div>
+
+        </div>
+  
+        <div class="horizantal-devider"> </div>
+        <div class="content"> 
+
+          <div v-if="isPageLoading">
+            <loader 
+              header-text="Loading Results..." 
+            />
+          </div>
+
+          <div v-else>
+            <div class="filters">
+              <div class="search-section">
+                <form v-on:submit="onSearch">
+                  <input 
+                    type="search" 
+                    placeholder="Search For Articles by Title, Abstract ...etc" 
+                    name="living-review-search" 
+                    v-model="searchTerm"
+                  />
+                  <button type="submit" class="search-button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z" fill="#9BA5B9"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z" fill="#9BA5B9"/>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+    
+              <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+                <div class="filter-icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <svg v-if="isFiltersApplied" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                    fill="none">
+                    <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+                  </svg>
+                </div>
+                Filter Results
+              </div>
+    
+              <!-- Data Bases Applied Filters -->
+              <div class="applied-filters ml" v-if="selectedDevices.length && selectedDevices.length < 3">
+                <span style="font-weight: 600;"> Device </span> 
+                <div class="item" v-for="device in selectedDevices" :key="device">
+                  [[device]]
+                </div>
+              </div>
+    
+              <div class="applied-filters ml" v-else-if="selectedDevices.length">
+                <span style="font-weight: 600;"> Device </span> 
+                
+                <div class="item">
+                  [[ selectedDevices[0] ]]
+                </div>
+                <div class="item">
+                  [[ selectedDevices[1] ]]
+                </div>
+                <div class="item">
+                  +[[selectedDevices.length-2]]
+                </div>
+              </div>
+
+              <div class="applied-filters ml" v-if="selectedIntervals.length && selectedIntervals.length < 3">
+                <span style="font-weight: 600;"> Interval </span> 
+                <div class="item" v-for="interval in selectedIntervals" :key="interval">
+                  [[interval]]
+                </div>
+              </div>
+    
+              <div class="applied-filters ml" v-else-if="selectedIntervals.length">
+                <span style="font-weight: 600;"> Interval </span> 
+                
+                <div class="item">
+                  [[ selectedIntervals[0] ]]
+                </div>
+                <div class="item">
+                  [[ selectedIntervals[1] ]]
+                </div>
+                <div class="item">
+                  +[[selectedIntervals.length-2]]
+                </div>
+              </div>
+    
+              <div class="filter-button ml" v-if="isFiltersApplied || searchTerm" v-on:click="onClearFilters">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Clear Filters
+              </div>
+    
+              <div class="slider" id="filters-slider">
+                <div class="slider-dialog">
+                  <div class="slider-dialog-inner ">
+                    <div class="slider-header">
+                      <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                      Filters
+                    </div>
+    
+                    <div class="slider-content">
+                      <div class="filter-section" v-if="devices.length">
+                        <div class="header"> Devices </div>
+                        <div class="filter-checks"> 
+                          <div class="filter-check" v-for="device in devices" :key="device.id"> 
+                            <label :for="device.name"> 
+                              [[device.name]]
+                            </label> 
+                            <input type="checkbox" v-model="selectedDevices" name="device" :value="device.name" :id="device.name"/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="filter-section">
+                        <div class="header"> Intervals </div>
+                        <div class="filter-checks"> 
+                          <div class="filter-check" v-for="interval in intervals" :key="interval"> 
+                            <label :for="interval" class="interval-cell"> 
+                              [[interval]]
+                            </label> 
+                            <input type="checkbox" v-model="selectedIntervals" name="interval" :value="interval" :id="interval"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="slider-footer">
+                      <button class="primary-button" v-on:click="onFilter">
+                        Apply Filters
+                      </button>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+            </div> 
+          <!-- Table  -->
+          <table v-if="livingReviews.length" class="custom-table" >           
+              <tr>
+                  <!-- <th style="width: 35px;">
+                    <input 
+                      type="checkbox"
+                      name="check-article" 
+                      ref="checkAll"
+                      v-model="isCheckAll" 
+                    />
+                  </th> -->
+                  <th style="width: 70px;"> ID</th>
+                  <th> Product (Device) </th>
+                  <th style="width: 130px;"> Relevant Articles  </th>
+                  <th style="width: 130px;"> Reviewed Articles</th>
+                  <th style="width: 100px;"> Interval</th>
+                  <th style="width: 110px;"> Start Date</th>
+                  <th style="width: 110px;"> Last Run Date</th>
+                  <th style="width: 110px;"> Next Run</th>
+                  <th style="width: 110px;"> Actions </th>      
+                 
+              </tr>
+            </thead> 
+            <tbody>
+              <tr v-for="living_review in filteredReviews" :key="living_review.id">
+                <!-- <td> 
+                  <input 
+                    type="checkbox" 
+                    name="check-living_review"
+                    :value="living_review.id" 
+                  /> 
+                </td> -->
+                <td>                  
+                  #[[ living_review.id ]]
+                </td>
+                <td>                  
+                  [[ living_review.device.name ]]
+                </td>
+                <td>
+                  <span 
+                    :class="{
+                      'badge success': living_review.under_review_analysis.relevant_articles > living_review.under_review_analysis.relevant_articles_before,
+                      'badge error': living_review.under_review_analysis.relevant_articles < living_review.under_review_analysis.relevant_articles_before,
+                      'badge info': living_review.under_review_analysis.relevant_articles === living_review.under_review_analysis.relevant_articles_before
+                    }"
+                  >
+                    <img 
+                      v-if="living_review.under_review_analysis.relevant_articles > living_review.under_review_analysis.relevant_articles_before" 
+                      src="{% static 'images/icons/upper-icon.png' %}" 
+                      alt="Increase" 
+                      class="badge-icon"
+                    />
+                    <img 
+                      v-else-if="living_review.under_review_analysis.relevant_articles < living_review.under_review_analysis.relevant_articles_before" 
+                      src="{% static 'images/icons/lower-icon.png' %}" 
+                      alt="Decrease" 
+                      class="badge-icon"
+                    />
+                    <img 
+                      v-else="living_review.under_review_analysis.relevant_articles = living_review.under_review_analysis.relevant_articles_before" 
+                      src="{% static 'images/icons/same-icon.png' %}" 
+                      alt="Same" 
+                      class="badge-icon"
+                    />
+                    [[ living_review.under_review_analysis.relevant_articles ]]
+                  </span>
+                </td>
+                <td>
+                  <span 
+                    :class="{
+                      'badge success': living_review.under_review_analysis.reviewed_articles > living_review.under_review_analysis.reviewed_articles_before,
+                      'badge error': living_review.under_review_analysis.reviewed_articles < living_review.under_review_analysis.reviewed_articles_before,
+                      'badge info': living_review.under_review_analysis.reviewed_articles === living_review.under_review_analysis.reviewed_articles_before
+                    }"
+                  >
+                    <img 
+                      v-if="living_review.under_review_analysis.reviewed_articles > living_review.under_review_analysis.reviewed_articles_before" 
+                      src="{% static 'images/icons/upper-icon.png' %}" 
+                      alt="Increase" 
+                      class="badge-icon"
+                    />
+                    <img 
+                      v-else-if="living_review.under_review_analysis.reviewed_articles < living_review.under_review_analysis.reviewed_articles_before" 
+                      src="{% static 'images/icons/lower-icon.png' %}" 
+                      alt="Decrease" 
+                      class="badge-icon"
+                    />
+                    <img 
+                      v-else="living_review.under_review_analysis.relevant_articles = living_review.under_review_analysis.relevant_articles_before" 
+                      src="{% static 'images/icons/same-icon.png' %}" 
+                      alt="Same" 
+                      class="badge-icon"
+                    />
+                    [[ living_review.under_review_analysis.reviewed_articles ]]
+                  </span>
+                </td>
+                <td class="interval-cell">
+                  [[ living_review.interval ]]
+                </td>
+                <td class="start-date-cell">
+                  [[ living_review.start_date ]]
+                </td> 
+                <td class="last-run-date-cell">
+                  [[ living_review.last_run_date ]]
+                </td>
+                <td>
+                  [[ living_review.next_run_date ]]
+                </td>                  
+                <td>
+                  <a :href="`{% url 'lit_reviews:living_reviews' %}${living_review.id}/`" class="secondary-gray-button mt w-100">
+                    Details
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    
+    </div>
+
+  </div>
+{% endblock %}
+{% block 'scripts-block' %} 
+<script>
+    const DocumentsLibraryURL  = "{% url 'client_portal:documents_library_api' %}";
+    const LivingReviewURL  = "{% url 'lit_reviews:living_reviews_list' %}";
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuejs-datepicker/1.6.2/vuejs-datepicker.min.js" integrity="sha512-SxUBqfNhPSntua7WUkt171HWx4SV4xoRm14vLNsdDR/kQiMn8iMUeopr8VahPpuvRjQKeOiMJTJFH5NHzNUHYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{% static "lit_reviews/vue/living_reviews.js" %}" > </script>
+{% endblock %}

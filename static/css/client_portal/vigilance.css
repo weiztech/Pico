@@ -1,0 +1,100 @@
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.filters__inner {
+    width: max-content;
+    margin-left: auto;
+}
+
+.filters__inner__item {
+    width: max-content;
+}
+
+.filters button,
+.filters select {
+    background: #6D6BAF;
+    border-radius: 12px;
+    padding: 10px 40px;
+    color: white;
+    border: 2px solid #6D6BAF;
+    max-height: 45px;
+    box-sizing: border-box;
+}
+
+.filters select {
+    padding: 11px 40px;
+}
+.filters  select option{
+    background: white;
+    color: black;
+}
+
+.filters button:hover {
+    background: white;
+    border-radius: 12px;
+    padding: 10px 40px;
+    color: #6D6BAF;
+    border: 2px solid #6D6BAF;
+}
+
+.filters .modal-header {
+    background: #6D6BAF;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.filters .modal-footer {
+    border-top: none;
+}
+
+.filters .btn-filter {
+    padding: 10px 10px;
+}
+
+.filters .btn-filter:hover {
+    background: #6D6BAF;
+    padding: 10px 10px;
+}
+
+.filters .modal-body {
+    max-height: 300px;
+    overflow: auto;
+}
+
+input[type="checkbox"] {
+    background: #6D6BAF;  
+}
+
+.filters .filter-checkbox {
+    accent-color: #6D6BAF;
+}
+
+.filters ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+.filters ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.filters ::-webkit-scrollbar-thumb {
+    background: #6D6BAF; 
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+.filters ::-webkit-scrollbar-thumb:hover {
+    background: #6D6BAF; 
+}

@@ -1,0 +1,3592 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%27PDE+Neo+II%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC8454868
+PMID- 32213001
+IS  - 2050-6406 (Print)
+IS  - 2050-6414 (Electronic)
+VI  - 7
+IP  - Suppl 8
+DP  - 2019 Oct
+TI  - UEG Week 2019 Poster Presentations.
+PG  - 189-1030
+LA  - eng
+PT  - Journal Article
+DEP - 20191001
+TA  - United European Gastroenterol J
+JT  - United European Gastroenterology Journal
+AID - 10.1177/2050640619854671 [doi]
+AID - UEG2BF01068 [pii]
+SO  - United European Gastroenterol J. 2019 Oct 01;7(Suppl 8):189-1030.
+      doi:10.1177/2050640619854671.
+
+PMC - PMC8454845
+PMID- 32213000
+IS  - 2050-6406 (Print)
+IS  - 2050-6414 (Electronic)
+VI  - 7
+IP  - Suppl 8
+DP  - 2019 Oct
+TI  - UEG Week 2019 Oral Presentations.
+PG  - 10-188
+LA  - eng
+PT  - Journal Article
+DEP - 20191001
+TA  - United European Gastroenterol J
+JT  - United European Gastroenterology Journal
+AID - 10.1177/2050640619854670 [doi]
+AID - UEG2BF01067 [pii]
+SO  - United European Gastroenterol J. 2019 Oct 01;7(Suppl 8):10-188.
+      doi:10.1177/2050640619854670.
+
+PMC - PMC8048367
+PMID- 33853653
+IS  - 1750-1326 (Electronic)
+VI  - 16
+DP  - 2021
+TI  - AIF3 splicing switch triggers neurodegeneration.
+LID - 25
+AB  - Background: Apoptosis-inducing factor (AIF), as a mitochondrial flavoprotein,
+      plays a fundamental role in mitochondrial bioenergetics that is critical for cell
+      survival and also mediates caspase-independent cell death once it is released
+      from mitochondria and translocated to the nucleus under ischemic stroke or
+      neurodegenerative diseases. Although alternative splicing regulation of AIF has
+      been implicated, it remains unknown which AIF splicing isoform will be induced
+      under pathological conditions and how it impacts mitochondrial functions and
+      neurodegeneration in adult brain. Methods: AIF splicing induction in brain was
+      determined by multiple approaches including 5′ RACE, Sanger sequencing,
+      splicing-specific PCR assay and bottom-up proteomic analysis. The role of AIF
+      splicing in mitochondria and neurodegeneration was determined by its biochemical 
+      properties, cell death analysis, morphological and functional alterations and
+      animal behavior. Three animal models, including loss-of-function harlequin model,
+      gain-of-function AIF3 knockin model and conditional inducible AIF splicing model 
+      established using either Cre-loxp recombination or CRISPR/Cas9 techniques, were
+      applied to explore underlying mechanisms of AIF splicing-induced
+      neurodegeneration. Results: We identified a nature splicing AIF isoform lacking
+      exons 2 and 3 named as AIF3. AIF3 was undetectable under physiological conditions
+      but its expression was increased in mouse and human postmortem brain after
+      stroke. AIF3 splicing in mouse brain caused enlarged ventricles and severe
+      neurodegeneration in the forebrain regions. These AIF3 splicing mice died
+      2–4 months after birth. AIF3 splicing-triggered neurodegeneration involves both
+      mitochondrial dysfunction and AIF3 nuclear translocation. We showed that AIF3
+      inhibited NADH oxidase activity, ATP production, oxygen consumption, and
+      mitochondrial biogenesis. In addition, expression of AIF3 significantly increased
+      chromatin condensation and nuclear shrinkage leading to neuronal cell death.
+      However, loss-of-AIF alone in harlequin or gain-of-AIF3 alone in AIF3 knockin
+      mice did not cause robust neurodegeneration as that observed in AIF3 splicing
+      mice. Conclusions: We identified AIF3 as a disease-inducible isoform and
+      established AIF3 splicing mouse model. The molecular mechanism underlying AIF3
+      splicing-induced neurodegeneration involves mitochondrial dysfunction and AIF3
+      nuclear translocation resulting from the synergistic effect of loss-of-AIF and
+      gain-of-AIF3. Our study provides a valuable tool to understand the role of AIF3
+      splicing in brain and a potential therapeutic target to prevent/delay the
+      progress of neurodegenerative diseases. Supplementary Information: The online
+      version contains supplementary material available at 10.1186/s13024-021-00442-7.
+FAU - Liu, Shuiqiao
+AU  - Liu S
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Zhou, Mi
+AU  - Zhou M
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Ruan, Zhi
+AU  - Ruan Z
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Wang, Yanan
+AU  - Wang Y
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Chang, Calvin
+AU  - Chang C
+AD  - grid.21107.350000 0001 2171 9311Neuroregeneration and Stem Cell Programs,
+      Institute for Cell Engineering, Johns Hopkins University School of Medicine,
+      Baltimore, MD 21205 USA
+FAU - Sasaki, Masayuki
+AU  - Sasaki M
+AD  - grid.21107.350000 0001 2171 9311Neuroregeneration and Stem Cell Programs,
+      Institute for Cell Engineering, Johns Hopkins University School of Medicine,
+      Baltimore, MD 21205 USA
+FAU - Rajaram, Veena
+AU  - Rajaram V
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Lemoff, Andrew
+AU  - Lemoff A
+AD  - grid.267313.20000 0000 9482 7121Department of Biochemistry, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Nambiar, Kalyani
+AU  - Nambiar K
+AD  - grid.21107.350000 0001 2171 9311Neuroregeneration and Stem Cell Programs,
+      Institute for Cell Engineering, Johns Hopkins University School of Medicine,
+      Baltimore, MD 21205 USA
+FAU - Wang, Jennifer E.
+AU  - Wang JE
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Hatanpaa, Kimmo J.
+AU  - Hatanpaa KJ
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Luo, Weibo
+AU  - Luo W
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+FAU - Dawson, Ted M.
+AU  - Dawson TM
+AD  - grid.21107.350000 0001 2171 9311Neuroregeneration and Stem Cell Programs,
+      Institute for Cell Engineering, Johns Hopkins University School of Medicine,
+      Baltimore, MD 21205 USA
+FAU - Dawson, Valina L.
+AU  - Dawson VL
+AD  - grid.21107.350000 0001 2171 9311Neuroregeneration and Stem Cell Programs,
+      Institute for Cell Engineering, Johns Hopkins University School of Medicine,
+      Baltimore, MD 21205 USA
+FAU - Wang, Yingfei
+AU  - Wang Y
+AUID- ORCID: 0000-0002-8723-252X
+AD  - grid.267313.20000 0000 9482 7121Department of Pathology, University of Texas
+      Southwestern Medical Center, Dallas, TX 75390 USA
+LA  - eng
+PT  - Journal Article
+DEP - 20210414
+GR  - NS078049
+GR  - R35GM124693
+GR  - R01AG066166
+GR  - DKR
+GR  - 12SDG11900071
+GR  - I-1939-20170325
+GR  - RP170671
+GR  - R00CA168746
+GR  - DA000266
+PHST- 2020/10/03 [received]
+PHST- 2021/03/12 [accepted]
+TA  - Mol Neurodegener
+JT  - Molecular Neurodegeneration
+AID - 442 [pii]
+AID - 10.1186/s13024-021-00442-7 [doi]
+SO  - Mol Neurodegener. 2021 Apr 14;16:. doi:10.1186/s13024-021-00442-7.
+
+PMC - PMC8047485
+PMID- 33819752
+IS  - 2059-7029 (Electronic)
+VI  - 6
+IP  - 2
+DP  - 2021 Apr
+TI  - T-DM1 versus pertuzumab, trastuzumab and a taxane as first-line therapy of
+      early-relapsed HER2-positive metastatic breast cancer: an Italian multicenter
+      observational study.
+LID - 100099
+AB  - Background: The current standard first-line treatment of human epidermal growth
+      factor receptor 2 (HER2)-positive (+) metastatic breast cancer is the combination
+      of pertuzumab, trastuzumab and a taxane (P + T + taxane), while standard
+      second-line is ado-trastuzumab-emtansine (T-DM1). The registration trial of
+      pertuzumab, however, did not include early-relapsing patients, defined as
+      patients experiencing tumor relapse ≤12 months from the end of (neo)adjuvant
+      anti-HER2 therapy. Conversely, the pivotal trial of T-DM1 included some patients 
+      relapsing ≤6 months after the end of (neo)adjuvant trastuzumab. Thus, a
+      proportion of early-relapsing patients are currently eligible to receive T-DM1 as
+      first-line treatment. Nevertheless, no direct comparison exists between the two
+      regimens in this clinical setting. Patients and methods: We retrospectively
+      compared T-DM1 versus P + T + taxane as first-line treatment in two cohorts of
+      early-relapsing patients in an Italian ‘real-world’ setting, involving 14 public 
+      health care institutions. The primary endpoint was progression-free survival.
+      Secondary endpoints included patients' characterization, overall survival and
+      post-progression survival. Univariate and multivariate analyses were carried out.
+      All tests were two-sided and a P ≤ 0.05 was considered statistically significant.
+      Results: Among 1252 screened patients, 75 met the inclusion criteria. Forty-four 
+      (58.7%) received P + T + taxane and 31 (41.3%) received T-DM1. The two cohorts
+      showed similar characteristics of aggressiveness and no significant differences
+      in treatment history. T-DM1, compared with P + T + taxane was associated with
+      worse progression-free survival (adjusted hazard ratio: 2.26, 95% confidence
+      interval: 1.13-4.52, P = 0.021) and overall survival (adjusted hazard ratio:
+      3.95, 95% confidence interval: 1.38-11.32, P = 0.010), irrespective of previous
+      (neo)adjuvant treatment, age, hormone receptors status, time-to-relapse (≤6
+      months or within 6-12 months) and presence of visceral/brain metastases. No
+      differences were observed in post-progression survival (P = 0.095). Conclusions: 
+      Our study suggests superiority for P + T + taxane over T-DM1 as up-front
+      treatment of early-relapsing HER2+ metastatic breast cancer, which merits further
+      assessment in larger and prospective trials.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Schettini, F.
+AU  - Schettini F
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      Naples, Italy
+FAU - Conte, B.
+AU  - Conte B
+AD  - SOLTI Breast Cancer Research Group, Barcelona, Spain
+FAU - Buono, G.
+AU  - Buono G
+AD  - Oncology Unit, San Rocco Hospital, Sessa Aurunca, Italy
+FAU - De Placido, P.
+AU  - De Placido P
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      Naples, Italy
+FAU - Parola, S.
+AU  - Parola S
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      Naples, Italy
+FAU - Griguolo, G.
+AU  - Griguolo G
+AD  - Division of Oncology 2, Istituto Oncologico Veneto IRCCS, Padua, Italy
+FAU - Fabi, A.
+AU  - Fabi A
+AD  - Division of Medical Oncology 1, IRCCS Regina Elena National Cancer Institute,
+      Rome, Italy
+FAU - Bighin, C.
+AU  - Bighin C
+AD  - Medical Oncology Unit 2, IRCCS Ospedale Policlinico San Martino, Genoa, Italy
+FAU - Riccardi, F.
+AU  - Riccardi F
+AD  - Medical Oncology, ‘A. Cardarelli’ Hospital, Naples, Italy
+FAU - Cianniello, D.
+AU  - Cianniello D
+AD  - National Cancer Institute Fondazione ‘G. Pascale’, Naples, Italy
+FAU - De Laurentiis, M.
+AU  - De Laurentiis M
+AD  - National Cancer Institute Fondazione ‘G. Pascale’, Naples, Italy
+FAU - Puglisi, F.
+AU  - Puglisi F
+AD  - Department of Medicine (DAME), University of Udine, Udine, Italy
+FAU - Pelizzari, G.
+AU  - Pelizzari G
+AD  - Department of Clinical Oncology, CRO Aviano National Cancer Institute, Aviano,
+      Italy
+FAU - Bonotto, M.
+AU  - Bonotto M
+AD  - Department of Oncology, ASUFC University Hospital, Udine, Italy
+FAU - Russo, S.
+AU  - Russo S
+AD  - Department of Oncology, ASUFC University Hospital, Udine, Italy
+FAU - Frassoldati, A.
+AU  - Frassoldati A
+AD  - Oncology Unit, University Hospital St. Anna, Ferrara, Italy
+FAU - Pazzola, A.
+AU  - Pazzola A
+AD  - Division of Medical Oncology, AOU Sassari, Sassari, Italy
+FAU - Montemurro, F.
+AU  - Montemurro F
+AD  - Depertment of Medical Oncology, Candiolo Cancer Institute, Candiolo, Italy
+FAU - Lambertini, M.
+AU  - Lambertini M
+AD  - Department of Internal Medicine and Medical Specialties (DiMI), School of
+      Medicine, University of Genova, Genoa, Italy
+FAU - Guarneri, V.
+AU  - Guarneri V
+AD  - Division of Oncology 2, Istituto Oncologico Veneto IRCCS, Padua, Italy
+FAU - Cognetti, F.
+AU  - Cognetti F
+AD  - Department of Clinic and Molecular Medicine, ‘La Sapienza’ University of Rome,
+      Rome, Italy
+FAU - Locci, M.
+AU  - Locci M
+AD  - Department of Neuroscience, Reproductive Medicine, Odontostomatology, University 
+      of Naples ‘Federico II’, Naples, Italy
+FAU - Generali, D.
+AU  - Generali D
+AD  - Breast Cancer Unit, Azienda Socio Sanitaria Territoriale di Cremona, Cremona,
+      Italy
+FAU - Conte, P.
+AU  - Conte P
+AD  - Division of Oncology 2, Istituto Oncologico Veneto IRCCS, Padua, Italy
+FAU - De Placido, S.
+AU  - De Placido S
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      Naples, Italy
+FAU - Giuliano, M.
+AU  - Giuliano M
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      Naples, Italy
+FAU - Arpino, G.
+AU  - Arpino G
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      Naples, Italy
+FAU - Del Mastro, L.
+AU  - Del Mastro L
+AD  - Department of Internal Medicine and Medical Specialties (DiMI), School of
+      Medicine, University of Genova, Genoa, Italy
+LA  - eng
+PT  - Journal Article
+DEP - 20210402
+TA  - ESMO Open
+JT  - ESMO Open
+AID - S2059-7029(21)00056-9 [pii]
+AID - 10.1016/j.esmoop.2021.100099 [doi]
+SO  - ESMO Open. 2021 Apr 02;6(2):. doi:10.1016/j.esmoop.2021.100099.
+
+PMC - PMC7899555
+PMID- 33659040
+IS  - 1949-2553 (Electronic)
+VI  - 12
+IP  - 4
+DP  - 2021 Feb 16
+TI  - Reg4 and its downstream transcriptional activator CD44ICD in stage II and III
+      colorectal cancer.
+PG  - 278-91
+AB  - Reg4 is highly expressed in gastrointestinal malignancies and acts as a mitogenic
+      and pro-invasive factor. Our recent works suggest that Reg4 binds with CD44 and
+      induces its proteolytic cleavage to release intra-cytoplasmic domain of CD44
+      (CD44ICD). The goal of this study is to demonstrate clinical significance of the 
+      Reg4-CD44/CD44ICD pathway in stage II/III colon cancer and its association with
+      clinical parameters of aggression. We constructed a tissue microarray (TMA) of 93
+      stage II/III matched colon adenocarcinoma patients, 23 with recurrent disease.
+      The TMA was immunohistochemically stained for Reg4, CD44, and CD44ICD proteins
+      and analyzed to identify associations with tumor characteristics, recurrence and 
+      overall survival. The TMA data analysis showed a significant correlation between 
+      Reg4 and CD44 (r2 = 0.23, P = 0.028), CD44 and CD44ICD (r2 = 0.36, p = 0.0004),
+      and Reg4 and CD44ICD (r2 = 0.45, p ≤ 0.0001). Reg4 expression was associated with
+      larger tumor size (r2 = 0.23, p = 0.026). Although, no association was observed
+      between Reg4, CD44, or CD44ICD expression and disease recurrence, Reg4-positive
+      patients had a median survival of 4 years vs. 7 years for Reg4-negative patients 
+      (p = 0.04) in patients who recurred. Inhibition of the Reg4-CD44/CD44ICD pathway 
+      may be a future therapeutic target for colon cancer patients.
+FAU - Sninsky, Jared A.
+AU  - Sninsky JA
+AD  - Division of Gastroenterology, University of North Carolina School of Medicine,
+      Chapel Hill, NC 27599, USA
+FAU - Bishnupuri, Kumar S.
+AU  - Bishnupuri KS
+AD  - Division of Gastroenterology, Washington University School of Medicine, Saint
+      Louis, MO 63110, USA
+FAU - González, Iván
+AU  - González I
+AD  - Division of Pathology and Immunology, Washington University School of Medicine,
+      Saint Louis, MO 63110, USA
+FAU - Trikalinos, Nikolaos A.
+AU  - Trikalinos NA
+AD  - Division of Oncology, Washington University School of Medicine, Saint Louis, MO
+      63110, USA
+FAU - Chen, Ling
+AU  - Chen L
+AD  - Division of Biostatistics, Washington University School of Medicine, Saint Louis,
+      MO 63110, USA
+FAU - Dieckgraefe, Brian K.
+AU  - Dieckgraefe BK
+AD  - Division of Gastroenterology, Washington University School of Medicine, Saint
+      Louis, MO 63110, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20210216
+PHST- 2020/08/06 [received]
+PHST- 2021/01/26 [accepted]
+TA  - Oncotarget
+JT  - Oncotarget
+AID - 27896 [pii]
+AID - 10.18632/oncotarget.27896 [doi]
+SO  - Oncotarget. 2021 Feb 16;12(4):278-91. doi:10.18632/oncotarget.27896.
+
+PMC - PMC7873079
+PMID- 33564000
+IS  - 2045-2322 (Electronic)
+VI  - 11
+DP  - 2021
+TI  - Global chromatin organizer SATB1 acts as a context-dependent regulator of the
+      Wnt/Wg target genes.
+LID - 3385
+AB  - Special AT-rich binding protein-1 (SATB1) integrates higher-order chromatin
+      architecture with gene regulation, thereby regulating multiple signaling
+      pathways. In mammalian cells SATB1 directly interacts with β-catenin and
+      regulates the expression of Wnt targets by binding to their promoters. Whether
+      SATB1 regulates Wnt/wg signaling by recruitment of β-catenin and/or its
+      interactions with other components remains elusive. Since Wnt/Wg signaling is
+      conserved from invertebrates to humans, we investigated SATB1 functions in
+      regulation of Wnt/Wg signaling by using mammalian cell-lines and Drosophila.
+      Here, we present evidence that in mammalian cells, SATB1 interacts with
+      Dishevelled, an upstream component of the Wnt/Wg pathway. Conversely, ectopic
+      expression of full-length human SATB1 but not that of its N- or C-terminal
+      domains in the eye imaginal discs and salivary glands of third instar Drosophila 
+      larvae increased the expression of Wnt/Wg pathway antagonists and suppressed
+      phenotypes associated with activated Wnt/Wg pathway. These data argue that
+      ectopically-provided SATB1 presumably modulates Wnt/Wg signaling by acting as
+      negative regulator in Drosophila. Interestingly, comparison of SATB1 with PDZ-
+      and homeo-domain containing Drosophila protein Defective Proventriculus suggests 
+      that both proteins exhibit limited functional similarity in the regulation of
+      Wnt/Wg signaling in Drosophila. Collectively, these findings indicate that
+      regulation of Wnt/Wg pathway by SATB1 is context-dependent.
+FAU - Ramanujam, Praveena L.
+AU  - Ramanujam PL
+AD  - grid.417959.70000 0004 1764 2413Department of Biology, Centre of Excellence in
+      Epigenetics, Indian Institute of Science Education and Research, Dr. Homi Bhabha 
+      Road, Pune, 411008 India
+FAU - Mehrotra, Sonam
+AU  - Mehrotra S
+AD  - grid.417959.70000 0004 1764 2413Department of Biology, Centre of Excellence in
+      Epigenetics, Indian Institute of Science Education and Research, Dr. Homi Bhabha 
+      Road, Pune, 411008 India
+FAU - Kumar, Ram Parikshan
+AU  - Kumar RP
+AD  - grid.417634.30000 0004 0496 8123Centre for Cellular and Molecular Biology,
+      Hyderabad, India
+FAU - Verma, Shreekant
+AU  - Verma S
+AD  - grid.417634.30000 0004 0496 8123Centre for Cellular and Molecular Biology,
+      Hyderabad, India
+FAU - Deshpande, Girish
+AU  - Deshpande G
+AD  - grid.16750.350000 0001 2097 5006Department of Molecular Biology, Princeton
+      University, Princeton, NJ 08540 USA
+FAU - Mishra, Rakesh K.
+AU  - Mishra RK
+AD  - grid.417634.30000 0004 0496 8123Centre for Cellular and Molecular Biology,
+      Hyderabad, India
+FAU - Galande, Sanjeev
+AU  - Galande S
+AD  - grid.417959.70000 0004 1764 2413Department of Biology, Centre of Excellence in
+      Epigenetics, Indian Institute of Science Education and Research, Dr. Homi Bhabha 
+      Road, Pune, 411008 India
+LA  - eng
+PT  - Journal Article
+DEP - 20210209
+GR  - BT/01/COE/09/07
+GR  - JCB/2019/000013
+PHST- 2020/03/31 [received]
+PHST- 2021/01/05 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 81324 [pii]
+AID - 10.1038/s41598-021-81324-2 [doi]
+SO  - Sci Rep. 2021 Feb 9;11:. doi:10.1038/s41598-021-81324-2.
+
+PMC - PMC7911715
+PMID- 33573162
+IS  - 2075-1729 (Electronic)
+VI  - 11
+IP  - 2
+DP  - 2021 Feb
+TI  - Molecules and Mechanisms to Overcome Oxidative Stress Inducing Cardiovascular
+      Disease in Cancer Patients.
+LID - 105
+AB  - Reactive oxygen species (ROS) are molecules involved in signal transduction
+      pathways with both beneficial and detrimental effects on human cells. ROS are
+      generated by many cellular processes including mitochondrial respiration,
+      metabolism and enzymatic activities. In physiological conditions, ROS levels are 
+      well-balanced by antioxidative detoxification systems. In contrast, in
+      pathological conditions such as cardiovascular, neurological and cancer diseases,
+      ROS production exceeds the antioxidative detoxification capacity of cells,
+      leading to cellular damages and death. In this review, we will first describe the
+      biology and mechanisms of ROS mediated oxidative stress in cardiovascular
+      disease. Second, we will review the role of oxidative stress mediated by
+      oncological treatments in inducing cardiovascular disease. Lastly, we will
+      discuss the strategies that potentially counteract the oxidative stress in order 
+      to fight the onset and progression of cardiovascular disease, including that
+      induced by oncological treatments.
+FAU - Sabbatino, Francesco
+AU  - Sabbatino F
+AUID- ORCID: https://orcid.org/0000-0001-6431-8278
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+FAU - Conti, Valeria
+AU  - Conti V
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+FAU - Liguori, Luigi
+AU  - Liguori L
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      80131 Naples, Italy; luigiliguori1992@gmail.com (L.L.); vincenzo.tortor@gmail.com
+      (V.T.); chiara.carlomagno@unina.it (C.C.)
+FAU - Polcaro, Giovanna
+AU  - Polcaro G
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+FAU - Corbi, Graziamaria
+AU  - Corbi G
+AUID- ORCID: https://orcid.org/0000-0002-3441-889X
+AD  - Department of Medicine and Health Sciences, University of Molise, 86100
+      Campobasso, Italy; graziamaria.corbi@unimol.it
+FAU - Manzo, Valentina
+AU  - Manzo V
+AUID- ORCID: https://orcid.org/0000-0002-4521-0453
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+FAU - Tortora, Vincenzo
+AU  - Tortora V
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      80131 Naples, Italy; luigiliguori1992@gmail.com (L.L.); vincenzo.tortor@gmail.com
+      (V.T.); chiara.carlomagno@unina.it (C.C.)
+FAU - Carlomagno, Chiara
+AU  - Carlomagno C
+AUID- ORCID: https://orcid.org/0000-0001-5295-3004
+AD  - Department of Clinical Medicine and Surgery, University of Naples ‘Federico II’, 
+      80131 Naples, Italy; luigiliguori1992@gmail.com (L.L.); vincenzo.tortor@gmail.com
+      (V.T.); chiara.carlomagno@unina.it (C.C.)
+FAU - Vecchione, Carmine
+AU  - Vecchione C
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+FAU - Filippelli, Amelia
+AU  - Filippelli A
+AUID- ORCID: https://orcid.org/0000-0002-8235-9118
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+FAU - Pepe, Stefano
+AU  - Pepe S
+AD  - Department of Medicine, Surgery and Dentistry ‘Scuola Medica Salernitana’,
+      University of Salerno, 84081 Baronissi, Italy; vconti@unisa.it (V.C.);
+      gpolcaro@unisa.it (G.P.); vmanzo@unisa.it (V.M.); cvecchione@unisa.it (C.V.);
+      afilippelli@unisa.it (A.F.); spepe@unisa.it (S.P.)
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20210130
+PHST- 2020/12/30 [received]
+PHST- 2021/01/27 [accepted]
+TA  - Life (Basel)
+JT  - Life
+AID - 10.3390/life11020105 [doi]
+AID - life-11-00105 [pii]
+SO  - Life (Basel). 2021 Jan 30;11(2):. doi:10.3390/life11020105.
+
+PMC - PMC7659404
+PMID- 33204054
+IS  - 0971-7927 (Print)
+IS  - 0019-5308 (Electronic)
+TI  - Circular Migration and Precarity: Perspectives from Rural Bihar.
+PG  - 1-21
+AB  - Migration and mobilities are vastly underestimated in India. In particular,
+      circular migration remains poorly captured as circular migrants move back and
+      forth between source and destination regions. Based on survey data from rural
+      Bihar, an important source region of migration in India, this paper finds that a 
+      vast majority of migrants work and live in precarity in predominantly urban and
+      prosperous destinations across India. However, those at the lowest rungs of the
+      social and economic ladder in source regions—the scheduled castes and scheduled
+      tribes, other backward classes I and the labouring class—are the worst off at
+      destination; they are part of the most precarious shorter-term migration streams,
+      earn the lowest incomes, have the poorest conditions of work, and live in the
+      harshest circumstances. The paper shows that social and economic hierarchies, and
+      in turn, precarity in source region is reproduced at destination, and, thus,
+      there is little evidence that spatial mobility is associated with social
+      mobility. Focusing on migrants’ location, work, employment, income, housing, and 
+      access to basic services at destination, the paper foregrounds migrant precarity 
+      and adds to a small body of empirical literature that is significant in
+      understanding the spatial and structural elements of circular migration in India 
+      and in turn, the migration crisis that emerged as a result of the economic shock 
+      of the COVID 19 pandemic.
+FAU - Datta, Amrita
+AU  - Datta A
+AD  - grid.459612.d0000 0004 1767 065XDepartment of Liberal Arts, Indian Institute of
+      Technology Hyderabad, Sangareddy, Telengana India
+LA  - eng
+PT  - Journal Article
+DEP - 20201112
+PHST- 2020/09/21 [accepted]
+TA  - Indian J Labour Econ
+JT  - The Indian Journal of Labour Economics
+AID - 290 [pii]
+AID - 10.1007/s41027-020-00290-x [doi]
+SO  - Indian J Labour Econ. ;:1-21. doi:10.1007/s41027-020-00290-x.
+
+PMC - PMC7868971
+PMID- 32794321
+IS  - 1467-7644 (Print)
+IS  - 1467-7652 (Electronic)
+VI  - 19
+IP  - 2
+DP  - 2021 Feb
+TI  - Soybean (Glycine max) Haplotype Map (GmHapMap): a universal resource for soybean 
+      translational and functional genomics.
+PG  - 324-34
+AB  - Here, we describe a worldwide haplotype map for soybean (GmHapMap) constructed
+      using whole‐genome sequence data for 1007 Glycine max accessions and yielding
+      14.9 million variants as well as 4.3 M tag single‐nucleotide polymorphisms
+      (SNPs). When sampling random subsets of these accessions, the number of variants 
+      and tag SNPs plateaued beyond approximately 800 and 600 accessions, respectively.
+      This suggests extensive coverage of diversity within the cultivated soybean.
+      GmHapMap variants were imputed onto 21 618 previously genotyped accessions with
+      up to 96% success for common alleles. A local association analysis was performed 
+      with the imputed data using markers located in a 1‐Mb region known to contribute 
+      to seed oil content and enabled us to identify a candidate causal SNP residing in
+      the NPC1 gene. We determined gene‐centric haplotypes (407 867 GCHs) for the
+      55 589 genes and showed that such haplotypes can help to identify alleles that
+      differ in the resulting phenotype. Finally, we predicted 18 031 putative
+      loss‐of‐function (LOF) mutations in 10 662 genes and illustrated how such a
+      resource can be used to explore gene function. The GmHapMap provides a unique
+      worldwide resource for applied soybean genomics and breeding.
+FAU - Torkamaneh, Davoud
+AU  - Torkamaneh D
+AUID- ORCID: https://orcid.org/0000-0002-9782-5695
+AD  - Département de PhytologieUniversité LavalQuébec CityQCCanada
+FAU - Laroche, Jérôme
+AU  - Laroche J
+AD  - Institut de Biologie Intégrative et des Systèmes (IBIS)Université LavalQuébec
+      CityQCCanada
+FAU - Valliyodan, Babu
+AU  - Valliyodan B
+AD  - National Center for Soybean Biotechnology and Division of Plant
+      SciencesUniversity of MissouriColumbiaMOUSA
+FAU - O’Donoughue, Louise
+AU  - O’Donoughue L
+AD  - CÉROMCentre de recherche Sur Les Grains Inc.Saint‐Mathieu de BeloeilQCCanada
+FAU - Cober, Elroy
+AU  - Cober E
+AD  - Agriculture and Agri‐Food CanadaOttawaONCanada
+FAU - Rajcan, Istvan
+AU  - Rajcan I
+AD  - Department of Plant AgricultureUniversity of GuelphGuelphONCanada
+FAU - Vilela Abdelnoor, Ricardo
+AU  - Vilela Abdelnoor R
+AD  - Brazilian Corporation of Agricultural Research (Embrapa Soja)Warta CountyPRBrazil
+FAU - Sreedasyam, Avinash
+AU  - Sreedasyam A
+AD  - Institute for BiotechnologyHudsonAlphaHuntsvilleALUSA
+FAU - Schmutz, Jeremy
+AU  - Schmutz J
+AD  - Institute for BiotechnologyHudsonAlphaHuntsvilleALUSA
+FAU - Nguyen, Henry T.
+AU  - Nguyen HT
+AUID- ORCID: https://orcid.org/0000-0002-7597-1800
+AD  - National Center for Soybean Biotechnology and Division of Plant
+      SciencesUniversity of MissouriColumbiaMOUSA
+FAU - Belzile, François
+AU  - Belzile F
+AD  - Département de PhytologieUniversité LavalQuébec CityQCCanada
+LA  - eng
+PT  - Journal Article
+DEP - 20200914
+GR  - 5801
+PHST- 2019/10/02 [received]
+PHST- 2020/07/24 [revised]
+PHST- 2020/08/07 [accepted]
+TA  - Plant Biotechnol J
+JT  - Plant Biotechnology Journal
+AID - 10.1111/pbi.13466 [doi]
+AID - PBI13466 [pii]
+SO  - Plant Biotechnol J. 2021 Feb;19(2):324-34. Epub 2020 Sep 14
+      doi:10.1111/pbi.13466.
+
+PMC - PMC7339053
+PMID- 32629177
+IS  - 1522-8002 (Print)
+IS  - 1476-5586 (Electronic)
+VI  - 22
+IP  - 9
+DP  - 2020 Sep
+TI  - Dual inhibition of VEGF and PARP suppresses KRAS-mutant colorectal cancer.
+PG  - 365-75
+AB  - The addition of bevacizumab to chemotherapy has prolonged overall and
+      progression-free survival rates for metastatic colorectal cancer (mCRC). However,
+      KRAS-mutant (KRAS-mut) CRC, lacking an ideal targeted agent, represents an
+      inferior-response subgroup of patients. In the present study, we investigated a
+      combination approach of bevacizumab + olaparib in KRAS-mut CRC in a preclinical
+      setting. The combined therapy effectively prevented tumor growth in a KRAS-mut
+      cancer cell-derived xenograft model, although this effect was not observed in
+      vitro. Under bevacizumab treatment, we detected intratumor hypoxia and impaired
+      homologous recombination repair (HRR), accompanied by vascular regression. We
+      explored the underlying mechanism of this combined therapy by mimicking a hypoxic
+      condition in vitro using cobalt chloride (CoCl2). The results showed that hypoxia
+      impairs HRR and therefore sensitized KRAS-mut CRC cell lines HCT-116, SW620, and 
+      Lovo to olaparib. Furthermore, under this hypoxic condition, olaparib could
+      arrest the cell cycle in the G2/M phase, increase DNA damage and dramatically
+      induce cell apoptosis in KRAS-mut CRC cells. Taken together, these results
+      indicated that the combination of bevacizumab + olaparib could be a potential
+      therapeutic approach in a KRAS-mut CRC cohort.
+FAU - Zhong, Longhui
+AU  - Zhong L
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Wang, Rong
+AU  - Wang R
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Wang, Yanxia
+AU  - Wang Y
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Peng, Shunli
+AU  - Peng S
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Ma, Yueyun
+AU  - Ma Y
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Ding, Sijie
+AU  - Ding S
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Yang, Hong
+AU  - Yang H
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Chen, Shiyu
+AU  - Chen S
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Luo, Xiaoqing
+AU  - Luo X
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+FAU - Wang, Wei
+AU  - Wang W
+AD  - Department of Radiation Oncology, Nanfang Hospital, Southern Medical University, 
+      Guangzhou 510515, PR China
+LA  - eng
+PT  - Journal Article
+DEP - 20200703
+PHST- 2020/01/12 [received]
+PHST- 2020/06/02 [revised]
+PHST- 2020/06/05 [accepted]
+TA  - Neoplasia
+JT  - Neoplasia (New York, N.Y.)
+AID - S1476-5586(20)30123-8 [pii]
+AID - 10.1016/j.neo.2020.06.001 [doi]
+SO  - Neoplasia. 2020 Jul 03;22(9):365-75. doi:10.1016/j.neo.2020.06.001.
+
+PMC - PMC7537792
+PMID- 26218314
+IS  - 1538-4047 (Print)
+IS  - 1555-8576 (Electronic)
+VI  - 21
+IP  - 8
+TI  - Expression and clinical implication of cyclooxygenase-2 and E-cadherin in oral
+      squamous cell carcinomas.
+PG  - 667-74
+AB  - Epithelial-Mesenchymal Transition (EMT) and angiogenesis are crucial events for
+      development of aggressive and often fatal Oral Squamous Cell Carcinomas (OSCCs). 
+      Both promote cancer progression and metastasis development, but while the former 
+      induces the loss of E-cadherin expression and, hence cadherin switching; the
+      latter produces hematic blood vessel neo-formation and contribute to OSCC cell
+      growth, tumor mass development, and dissemination. Cyclooxygenase-2 (COX-2) has
+      an important role, not only in angiogenic mechanisms, but also in favoring cancer
+      invasion. Indeed it decreases the expression of E-cadherin and leads to
+      phenotypic changes in epithelial cells (EMT) enhancing their carcinogenic
+      potential. Our aim is to evaluate the interplay between E-cadherin cytoplasmic
+      delocalization, COX-2 up-regulation and COX-2 induced neo-angiogenesis in 120
+      cases of OSCC. We have analyzed the distribution and the number of neo-formed
+      endothelial buds surrounding infiltrating cells that express COX-2, as well as
+      the neo-formed vessels in chronic inflammatory infiltrate, which surround the
+      tumor. A double immunostaining method was employed in order to verify
+      co-localization of endothelial cell marker (CD34) and COX-2. IHC has also been
+      used to assess E-cadherin expression. Our data demonstrate that the OSCC cells,
+      which lose membranous E-cadherin staining, acquiring a cytoplasmic
+      delocalization, overexpress COX-2. Moreover, we find a new CD34+ vessel formation
+      (sprouting angiogenesis). Only basaloid type of OSCC showes low level of COX-2
+      expression together with very low level of neo-angiogenesis and consequent tumor 
+      necrosis. The well-known anti-metastatic effect of certain COX-2 inhibitors
+      suggests that these molecules might have clinical utility in the management of
+      advanced cancers.
+FAU - Santoro, Angela
+AU  - Santoro A
+AD  - Department of Anatomic Pathology, ‘Giovanni Paolo II’ Foundation-UCSC,
+      Campobasso, Italy
+FAU - Bufo, Pantaleo
+AU  - Bufo P
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia, Foggia, Italy
+FAU - Russo, Giuseppe
+AU  - Russo G
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia, Foggia, Italy
+FAU - Cagiano, Simona
+AU  - Cagiano S
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia, Foggia, Italy
+FAU - Papagerakis, Silvana
+AU  - Papagerakis S
+AD  - Laboratory of Head and Neck Cancer Invasion and Metastasis, Department of
+      Otolaryngology, Head and Neck Oncology, University of Michigan, Medical School,
+      Ann Arbor, MI, USA
+FAU - Bucci, Paolo
+AU  - Bucci P
+AD  - Department of Neuroscience, Reproductive and Odontostomatologies Science,
+      University of Naples ‘Federico II’, Naples, Italy
+FAU - Aquino, Gabriella
+AU  - Aquino G
+AD  - Section of Pathological Anatomy, National Cancer Institute ‘G. Pascale
+      Foundation’, Naples, Italy
+FAU - Longo, Francesco
+AU  - Longo F
+AD  - Head and Neck Medical Oncology Unit, National Cancer Institute ‘G. Pascale
+      Foundation’, Naples, Italy
+FAU - Feola, Antonia
+AU  - Feola A
+AD  - Department of Biology, University of Naples, Naples, Italy
+FAU - Giordano, Antonio
+AU  - Giordano A
+AD  - Department of Medicine, Surgery and Neuroscience, University of Siena, Siena,
+      Italy
+FAU - Di Carlo, Angelina
+AU  - Di Carlo A
+AD  - Department of Medico-Surgical Sciences and Biotechnologies, “Sapienza” University
+      of Rome, Rome, Italy
+FAU - Di Domenico, Marina
+AU  - Di Domenico M
+AD  - Department of Biochemistry, Biophisic and General Pathology Second University of 
+      Naples, Naples, Italy
+FAU - Pannone, Giuseppe
+AU  - Pannone G
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia, Foggia, Italy
+LA  - eng
+PT  - Journal Article
+TA  - Cancer Biol Ther
+JT  - Cancer Biology & Therapy
+AID - 10.1080/15384047.2015.1071741 [doi]
+AID - 1071741 [pii]
+SO  - Cancer Biol Ther. ;21(8):667-74. doi:10.1080/15384047.2015.1071741.
+
+PMC - PMC7187814
+IS  - 1478-4092 (Print)
+IS  - 1478-4092 (Electronic)
+VI  - 26
+IP  - 3
+DP  - 2020 Jun
+TI  - Researching the future of purchasing and supply management: The purpose and
+      potential of scenarios.
+PG  - 100624
+AB  - Drawing on prior research, the value of scenario planning as a methodology for
+      researching the future of purchasing and supply management (PSM) is explored.
+      Using three criteria of research quality – rigour, originality and significance –
+      it is shown how developing scenarios and analysing their implications present
+      new, important research opportunities for PSM academics, practitioners, and
+      leaders of the profession. Researching the future of PSM supports the
+      identification of uncertainties and anticipates change across many units and
+      levels of analysis of interest to PSM scholars and practitioners, such as the
+      profession/discipline, markets/sectors, or organisations. Scenarios are
+      particularly effective for: considering how the complex interaction of
+      macro-environmental factors affects the PSM context; avoiding incremental
+      thinking; surfacing assumptions and revealing significant blind spots. PSM
+      research using scenarios aligns with Corley and Gioia's (2011) call for
+      prescience-oriented research in which academics aim for more impactful research, 
+      enhancing sense-giving potential and theoretical relevance to practice, to better
+      perform their adaptive role in society.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Knight, Louise
+AU  - Knight L
+AD  - Faculty of Behavioural, Management and Social Sciences, University of Twente, PO 
+      Box 217 (Ravelijn), 7500AE, Enschede, the Netherlands
+FAU - Meehan, Joanne
+AU  - Meehan J
+AD  - University of Liverpool, Management School, Chatham Street, Liverpool, L69 7ZH,
+      UK
+FAU - Tapinos, Efstathios
+AU  - Tapinos E
+AD  - Hunter Centre of Entrepreneurship, Strathclyde Business School, 199 Cathedral St,
+      G4 0QU, Glasgow, UK
+FAU - Menzies, Laura
+AU  - Menzies L
+AD  - University of Liverpool, Management School, Chatham Street, Liverpool, L69 7ZH,
+      UK
+FAU - Pfeiffer, Alexandra
+AU  - Pfeiffer A
+AD  - DBFZ Deutsches For schungszentrum gGmbH, Torgauer Str. 116, D-04347, Leipzig,
+      Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20200428
+PHST- 2018/08/08 [received]
+PHST- 2020/04/15 [revised]
+PHST- 2020/04/24 [accepted]
+PHST- 2020/04/28 [aheadofprint]
+JT  - Journal of Purchasing and Supply Management
+AID - S1478-4092(20)30077-7 [pii]
+AID - 10.1016/j.pursup.2020.100624 [doi]
+AID - 100624 [pii]
+SO  - . 2020 Jun;26(3):100624. Epub 2020 Apr 28 doi:10.1016/j.pursup.2020.100624.
+
+PMC - PMC7286031
+PMID- 32269059
+IS  - 0003-4967 (Print)
+IS  - 1468-2060 (Electronic)
+VI  - 79
+IP  - 6
+DP  - 2020 Jun
+TI  - Horizontal fissuring at the osteochondral interface: a novel and unique
+      pathological feature in patients with obesity-related osteoarthritis.
+PG  - 811-8
+AB  - Objectives: Obesity is a well-recognised risk factor for osteoarthritis (OA). Our
+      aim is to characterise body mass index (BMI)-associated pathological changes in
+      the osteochondral unit and determine if obesity is the major causal antecedent of
+      early joint replacement in patients with OA. Methods: We analysed the correlation
+      between BMI and the age at which patients undergo total knee replacement (TKR) in
+      41 023 patients from the Australian Orthopaedic Association National Joint
+      Replacement Registry. We then investigated the effect of BMI on pathological
+      changes of the tibia plateau of knee joint in a representative subset of the
+      registry. Results: 57.58% of patients in Australia who had TKR were obese.
+      Patients with overweight, obese class I & II or obese class III received a TKR
+      1.89, 4.48 and 8.08 years earlier than patients with normal weight, respectively.
+      Microscopic examination revealed that horizontal fissuring at the osteochondral
+      interface was the major pathological feature of obesity-related OA. The frequency
+      of horizontal fissure was strongly associated with increased BMI in the
+      predominant compartment. An increase in one unit of BMI (1 kg/m2) increased the
+      odds of horizontal fissures by 14.7%. 84.4% of the horizontal fissures were
+      attributable to obesity. Reduced cartilage degradation and alteration of
+      subchondral bone microstructure were also associated with increased BMI.
+      Conclusions: The key pathological feature in OA patients with obesity is
+      horizontal fissuring at the osteochondral unit interface. Obesity is strongly
+      associated with a younger age of first TKR, which may be a result of horizontal
+      fissures.
+FAU - Chen, Lianzhi
+AU  - Chen L
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Yao, Felix
+AU  - Yao F
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Wang, Tao
+AU  - Wang T
+AUID- ORCID: 0000-0001-6899-7255
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Li, Guangyi
+AU  - Li G
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Chen, Peilin
+AU  - Chen P
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Bulsara, Max
+AU  - Bulsara M
+AD  - Institute for Health Research, University of Notre Dame, Fremantle, Western
+      Australia, Australia
+FAU - Zheng, Jessica Jun Yi
+AU  - Zheng JJY
+AD  - Department of Orthopaedic Surgery, Sir Charles Gairdner Hospital, Perth, Western 
+      Australia, Australia
+FAU - Landao-Bassonga, Euphemie
+AU  - Landao-Bassonga E
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Firth, Marty
+AU  - Firth M
+AD  - Centre for Applied Statistics, Department of Mathematics and Statistics,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Vasantharao, Praveen
+AU  - Vasantharao P
+AD  - Department of Orthopaedic Surgery, Royal Perth Hospital, Perth, Western
+      Australia, Australia
+FAU - Huang, Yigang
+AU  - Huang Y
+AD  - Department of Orthopaedic Surgery, Shanghai Jiao Tong University Affiliated Sixth
+      People’s Hospital, Shanghai, China
+FAU - Lorimer, Michelle
+AU  - Lorimer M
+AD  - South Australian Health and Medical Research Institute (SAHMRI), Adelaide, South 
+      Australia, Australia
+FAU - Graves, Stephen
+AU  - Graves S
+AD  - Australian Orthopaedic Association National Joint Replacement Registry, Adelaide,
+      South Australia, Australia
+FAU - Gao, Junjie
+AU  - Gao J
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Carey-Smith, Richard
+AU  - Carey-Smith R
+AD  - Department of Orthopaedic Surgery, Sir Charles Gairdner Hospital, Perth, Western 
+      Australia, Australia
+FAU - Papadimitriou, John
+AU  - Papadimitriou J
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Zhang, Changqing
+AU  - Zhang C
+AD  - Department of Orthopaedic Surgery, Shanghai Jiao Tong University Affiliated Sixth
+      People’s Hospital, Shanghai, China
+FAU - Wood, David
+AU  - Wood D
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+FAU - Jones, Christopher
+AU  - Jones C
+AD  - Medical School, Curtin University, Perth, Western Australia, Australia
+FAU - Zheng, Minghao
+AU  - Zheng M
+AUID- ORCID: 0000-0003-1185-4768
+AD  - Centre for Orthopaedic Research, Faculty of Health and Medical Sciences,
+      University of Western Australia, Perth, Western Australia, Australia
+LA  - eng
+PT  - Journal Article
+DEP - 20200408
+GR  - 81820102020
+PHST- 2020/01/03 [received]
+PHST- 2020/03/11 [revised]
+PHST- 2020/03/13 [accepted]
+PHST- 2020/04/08 [aheadofprint]
+TA  - Ann Rheum Dis
+JT  - Annals of the Rheumatic Diseases
+AID - annrheumdis-2020-216942 [pii]
+AID - 10.1136/annrheumdis-2020-216942 [doi]
+SO  - Ann Rheum Dis. 2020 Jun;79(6):811-8. Epub 2020 Apr 8
+      doi:10.1136/annrheumdis-2020-216942.
+
+PMC - PMC7225926
+PMID- 32231042
+IS  - 2072-6694 (Electronic)
+VI  - 12
+IP  - 4
+DP  - 2020 Apr
+TI  - Personalized Medicine—Current and Emerging Predictive and Prognostic Biomarkers
+      in Colorectal Cancer.
+LID - 812
+AB  - Colorectal cancer (CRC) is the third most common cancer diagnosed worldwide and
+      is heterogeneous both morphologically and molecularly. In an era of personalized 
+      medicine, the greatest challenge is to predict individual response to therapy and
+      distinguish patients likely to be cured with surgical resection of tumors and
+      systemic therapy from those resistant or non-responsive to treatment. Patients
+      would avoid futile treatments, including clinical trial regimes and ultimately
+      this would prevent under- and over-treatment and reduce unnecessary adverse side 
+      effects. In this review, the potential of specific biomarkers will be explored to
+      address two key questions—1) Can the prognosis of patients that will fare well or
+      poorly be determined beyond currently recognized prognostic indicators? and 2)
+      Can an individual patient’s response to therapy be predicted and those who will
+      most likely benefit from treatment/s be identified? Identifying and validating
+      key prognostic and predictive biomarkers and an understanding of the underlying
+      mechanisms of drug resistance and toxicity in CRC are important steps in order to
+      personalize treatment. This review addresses recent data on biological prognostic
+      and predictive biomarkers in CRC. In addition, patient cohorts most likely to
+      benefit from currently available systemic treatments and/or targeted therapies
+      are discussed in this review.
+FAU - Koulis, Christine
+AU  - Koulis C
+AUID- ORCID: https://orcid.org/0000-0002-3651-7621
+AD  - Cabrini Monash University Department of Surgery, Cabrini Health, Malvern 3144,
+      VIC, Australia; rayyap@gmail.com (R.Y.); rengel@cabrini.com.au (R.E.);
+      SimonWilkins@cabrini.com.au (S.W.); gemmasolon@gmail.com (G.S.);
+      pjm@colorectal.com.au (P.M.)
+FAU - Yap, Raymond
+AU  - Yap R
+AD  - Cabrini Monash University Department of Surgery, Cabrini Health, Malvern 3144,
+      VIC, Australia; rayyap@gmail.com (R.Y.); rengel@cabrini.com.au (R.E.);
+      SimonWilkins@cabrini.com.au (S.W.); gemmasolon@gmail.com (G.S.);
+      pjm@colorectal.com.au (P.M.)
+FAU - Engel, Rebekah
+AU  - Engel R
+AD  - Cabrini Monash University Department of Surgery, Cabrini Health, Malvern 3144,
+      VIC, Australia; rayyap@gmail.com (R.Y.); rengel@cabrini.com.au (R.E.);
+      SimonWilkins@cabrini.com.au (S.W.); gemmasolon@gmail.com (G.S.);
+      pjm@colorectal.com.au (P.M.)
+FAU - Jardé, Thierry
+AU  - Jardé T
+AUID- ORCID: https://orcid.org/0000-0001-7483-8672
+AD  - Department of Anatomy and Developmental Biology, Monash University, Clayton 3800,
+      VIC, Australia; thierry.jarde@monash.edu (T.J.); helen.abud@monash.edu (H.A.)
+FAU - Wilkins, Simon
+AU  - Wilkins S
+AD  - Cabrini Monash University Department of Surgery, Cabrini Health, Malvern 3144,
+      VIC, Australia; rayyap@gmail.com (R.Y.); rengel@cabrini.com.au (R.E.);
+      SimonWilkins@cabrini.com.au (S.W.); gemmasolon@gmail.com (G.S.);
+      pjm@colorectal.com.au (P.M.)
+FAU - Solon, Gemma
+AU  - Solon G
+AD  - Cabrini Monash University Department of Surgery, Cabrini Health, Malvern 3144,
+      VIC, Australia; rayyap@gmail.com (R.Y.); rengel@cabrini.com.au (R.E.);
+      SimonWilkins@cabrini.com.au (S.W.); gemmasolon@gmail.com (G.S.);
+      pjm@colorectal.com.au (P.M.)
+FAU - Shapiro, Jeremy D.
+AU  - Shapiro JD
+AD  - Cabrini Haematology and Oncology Centre, Cabrini Health, Malvern 3144, VIC,
+      Australia; jeremy.shapiro@monash.edu
+FAU - Abud, Helen
+AU  - Abud H
+AD  - Department of Anatomy and Developmental Biology, Monash University, Clayton 3800,
+      VIC, Australia; thierry.jarde@monash.edu (T.J.); helen.abud@monash.edu (H.A.)
+FAU - McMurrick, Paul
+AU  - McMurrick P
+AD  - Cabrini Monash University Department of Surgery, Cabrini Health, Malvern 3144,
+      VIC, Australia; rayyap@gmail.com (R.Y.); rengel@cabrini.com.au (R.E.);
+      SimonWilkins@cabrini.com.au (S.W.); gemmasolon@gmail.com (G.S.);
+      pjm@colorectal.com.au (P.M.)
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20200328
+PHST- 2020/02/20 [received]
+PHST- 2020/03/24 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers12040812 [doi]
+AID - cancers-12-00812 [pii]
+SO  - Cancers (Basel). 2020 Mar 28;12(4):. doi:10.3390/cancers12040812.
+
+PMC - PMC7077541
+PMID- 32022398
+IS  - 1582-1838 (Print)
+IS  - 1582-4934 (Electronic)
+VI  - 24
+IP  - 5
+DP  - 2020 Mar
+TI  - Pentamidine niosomes thwart S100B effects in human colon carcinoma biopsies
+      favouring wtp53 rescue.
+PG  - 3053-63
+AB  - S100B protein bridges chronic mucosal inflammation and colorectal cancer given
+      its ability to activate NF‐kappaB transcription via RAGE signalling and
+      sequestrate pro‐apoptotic wtp53. Being an S100B inhibitor, pentamidine
+      antagonizes S100B‐wtp53 interaction, restoring wtp53‐mediated pro‐apoptotic
+      control in cancer cells in several types of tumours. The expression of S100B,
+      pro‐inflammatory molecules and wtp53 protein was evaluated in human biopsies
+      deriving from controls, ulcerative colitis and colon cancer patients at baseline 
+      (a) and (b) following S100B targeting with niosomal PENtamidine VEhiculation
+      (PENVE), to maximize drug permeabilization in the tissue. Cultured biopsies
+      underwent immunoblot, EMSA, ELISA and biochemical assays for S100B and related
+      pro‐inflammatory/pro‐apoptotic proteins. Exogenous S100B (0.005‐5 μmol/L) alone, 
+      or in the presence of PENVE (0.005‐5 μmol/L), was tested in control biopsies
+      while PENVE (5 μmol/L) was evaluated on control, peritumoral, ulcerative colitis 
+      and colon cancer biopsies. Our data show that S100B level progressively increases
+      in control, peritumoral, ulcerative colitis and colon cancer enabling a
+      pro‐inflammatory/angiogenic and antiapoptotic environment, featured by iNOS, VEGF
+      and IL‐6 up‐regulation and wtp53 and Bax inhibition. PENVE inhibited S100B
+      activity, reducing its capability to activate RAGE/phosphor‐p38 MAPK/NF‐kappaB
+      and favouring its disengagement with wtp53. PENVE blocks S100B activity and
+      rescues wtp53 expression determining pro‐apoptotic control in colon cancer,
+      suggesting pentamidine as a potential anticancer drug.
+FAU - Seguella, Luisa
+AU  - Seguella L
+AD  - Department of Physiology and Pharmacology“Vittorio Erspamer”Sapienza University
+      of RomeRomeItaly
+FAU - Rinaldi, Federica
+AU  - Rinaldi F
+AD  - Center for Life Nano Science@SapienzaIstituto Italiano di Tecnologia
+      (ITT)RomeItaly
+FAU - Marianecci, Carlotta
+AU  - Marianecci C
+AD  - Department of Drug Chemistry and TechnologySapienza University of RomeRomeItaly
+FAU - Capuano, Riccardo
+AU  - Capuano R
+AD  - Department of Physiology and Pharmacology“Vittorio Erspamer”Sapienza University
+      of RomeRomeItaly
+FAU - Pesce, Mirella
+AU  - Pesce M
+AD  - Department of Physiology and Pharmacology“Vittorio Erspamer”Sapienza University
+      of RomeRomeItaly
+FAU - Annunziata, Giuseppe
+AU  - Annunziata G
+AUID- ORCID: https://orcid.org/0000-0002-1922-662X
+AD  - Department of PharmacyUniversity of Naples “Federico II”NaplesItaly
+FAU - Casano, Fabrizio
+AU  - Casano F
+AD  - Department of Physiology and Pharmacology“Vittorio Erspamer”Sapienza University
+      of RomeRomeItaly
+FAU - Bassotti, Gabrio
+AU  - Bassotti G
+AD  - Gastroenterology and Hepatology SectionDepartment of MedicineUniversity of
+      Perugia School of MedicinePerugiaItaly
+FAU - Sidoni, Angelo
+AU  - Sidoni A
+AD  - Pathology SectionDepartment of Experimental MedicineUniversity of Perugia School 
+      of MedicinePerugiaItaly
+FAU - Milone, Marco
+AU  - Milone M
+AD  - Department of Clinical Medicine and SurgeryUniversity of Naples “Federico
+      II”NaplesItaly
+FAU - Aprea, Giovanni
+AU  - Aprea G
+AD  - Department of Clinical Medicine and SurgeryUniversity of Naples “Federico
+      II”NaplesItaly
+FAU - de Palma, Giovanni Domenico
+AU  - de Palma GD
+AD  - Department of Clinical Medicine and SurgeryUniversity of Naples “Federico
+      II”NaplesItaly
+FAU - Carafa, Maria
+AU  - Carafa M
+AD  - Department of Drug Chemistry and TechnologySapienza University of RomeRomeItaly
+FAU - Pesce, Marcella
+AU  - Pesce M
+AUID- ORCID: https://orcid.org/0000-0001-5996-4259
+AD  - Department of Clinical Medicine and SurgeryUniversity of Naples “Federico
+      II”NaplesItaly
+FAU - Esposito, Giuseppe
+AU  - Esposito G
+AD  - Department of Physiology and Pharmacology“Vittorio Erspamer”Sapienza University
+      of RomeRomeItaly
+FAU - Sarnelli, Giovanni
+AU  - Sarnelli G
+AD  - Department of Clinical Medicine and SurgeryUniversity of Naples “Federico
+      II”NaplesItaly
+LA  - eng
+PT  - Journal Article
+DEP - 20200205
+PHST- 2019/05/08 [received]
+PHST- 2019/11/06 [revised]
+PHST- 2019/11/29 [accepted]
+TA  - J Cell Mol Med
+JT  - Journal of Cellular and Molecular Medicine
+AID - 10.1111/jcmm.14943 [doi]
+AID - JCMM14943 [pii]
+SO  - J Cell Mol Med. 2020 Mar;24(5):3053-63. Epub 2020 Feb 05 doi:10.1111/jcmm.14943.
+
+PMC - PMC6981648
+PMID- 31861757
+IS  - 1422-0067 (Electronic)
+VI  - 21
+IP  - 1
+DP  - 2020 Jan
+TI  - Extracellular Vesicles and Epigenetic Modifications Are Hallmarks of Melanoma
+      Progression.
+LID - 52
+AB  - Cutaneous melanoma shows a high metastatic potential based on its ability to
+      overcome the immune system’s control. The mechanisms activated for these
+      functions vary extremely and are also represented by the production of a number
+      of extracellular vesicles including exosomes. Other vesicles showing a potential 
+      role in the melanoma progression include oncosomes and melanosomes and the
+      majority of them mediate tumor processes including angiogenesis, immune
+      regulation, and modifications of the micro-environment. Moreover, a number of
+      epigenetic modifications have been described in melanoma and abundant production 
+      of altered microRNAs (mi-RNAs), non-coding RNAs, histones, and abnormal DNA
+      methylation have been associated with different phases of melanoma progression.
+      In addition, exosomes, miRNAs, and other molecular factors have been used as
+      potential biomarkers reflecting disease evolution while others have been
+      suggested to be potential druggable molecules for therapeutic application.
+FAU - Mannavola, Francesco
+AU  - Mannavola F
+AUID- ORCID: https://orcid.org/0000-0003-2623-4166
+AD  - Department of Biomedical Sciences and Clinical Oncology, University of Bari,
+      ‘Aldo Moro’, 70121 Bari, Italy; francesco.mannavola@gmail.com (F.M.);
+      ester86d@gmail.com (S.D.); mauro.civ@tiscali.it (M.C.); stuccistefania@gmail.com 
+      (L.S.S.); francesco.silvestris@uniba.it (F.S.)
+FAU - D’Oronzo, Stella
+AU  - D’Oronzo S
+AD  - Department of Biomedical Sciences and Clinical Oncology, University of Bari,
+      ‘Aldo Moro’, 70121 Bari, Italy; francesco.mannavola@gmail.com (F.M.);
+      ester86d@gmail.com (S.D.); mauro.civ@tiscali.it (M.C.); stuccistefania@gmail.com 
+      (L.S.S.); francesco.silvestris@uniba.it (F.S.)
+FAU - Cives, Mauro
+AU  - Cives M
+AUID- ORCID: https://orcid.org/0000-0002-3013-1816
+AD  - Department of Biomedical Sciences and Clinical Oncology, University of Bari,
+      ‘Aldo Moro’, 70121 Bari, Italy; francesco.mannavola@gmail.com (F.M.);
+      ester86d@gmail.com (S.D.); mauro.civ@tiscali.it (M.C.); stuccistefania@gmail.com 
+      (L.S.S.); francesco.silvestris@uniba.it (F.S.)
+FAU - Stucci, Luigia Stefania
+AU  - Stucci LS
+AD  - Department of Biomedical Sciences and Clinical Oncology, University of Bari,
+      ‘Aldo Moro’, 70121 Bari, Italy; francesco.mannavola@gmail.com (F.M.);
+      ester86d@gmail.com (S.D.); mauro.civ@tiscali.it (M.C.); stuccistefania@gmail.com 
+      (L.S.S.); francesco.silvestris@uniba.it (F.S.)
+FAU - Ranieri, Girolamo
+AU  - Ranieri G
+AD  - National Cancer Research Center, Istituto Tumori ‘Giovanni Paolo II’, 70121 Bari,
+      Italy; giroran@tiscalinet.it
+FAU - Silvestris, Franco
+AU  - Silvestris F
+AD  - Department of Biomedical Sciences and Clinical Oncology, University of Bari,
+      ‘Aldo Moro’, 70121 Bari, Italy; francesco.mannavola@gmail.com (F.M.);
+      ester86d@gmail.com (S.D.); mauro.civ@tiscali.it (M.C.); stuccistefania@gmail.com 
+      (L.S.S.); francesco.silvestris@uniba.it (F.S.)
+FAU - Tucci, Marco
+AU  - Tucci M
+AUID- ORCID: https://orcid.org/0000-0003-4008-4897
+AD  - Department of Biomedical Sciences and Clinical Oncology, University of Bari,
+      ‘Aldo Moro’, 70121 Bari, Italy; francesco.mannavola@gmail.com (F.M.);
+      ester86d@gmail.com (S.D.); mauro.civ@tiscali.it (M.C.); stuccistefania@gmail.com 
+      (L.S.S.); francesco.silvestris@uniba.it (F.S.)
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20191220
+PHST- 2019/11/06 [received]
+PHST- 2019/12/18 [accepted]
+TA  - Int J Mol Sci
+JT  - International Journal of Molecular Sciences
+AID - 10.3390/ijms21010052 [doi]
+AID - ijms-21-00052 [pii]
+SO  - Int J Mol Sci. 2019 Dec 20;21(1):. doi:10.3390/ijms21010052.
+
+PMC - PMC6886798
+PMID- 31790499
+IS  - 1932-6203 (Electronic)
+VI  - 14
+IP  - 12
+DP  - 2019
+TI  - Expression of myeloid Src-family kinases is associated with poor prognosis in AML
+      and influences Flt3-ITD kinase inhibitor acquired resistance.
+LID - e0225887
+AB  - Unregulated protein-tyrosine kinase signaling is a common feature of AML, often
+      involving mutations in Flt3 and overexpression of myeloid Src-family kinases
+      (Hck, Fgr, Lyn). Here we show that high-level expression of these Src kinases
+      predicts poor survival in a large cohort of AML patients. To test the therapeutic
+      benefit of Flt3 and Src-family kinase inhibition, we used the pyrrolopyrimidine
+      kinase inhibitor A-419259. This compound potently inhibits Hck, Fgr, and Lyn as
+      well as Flt3 bearing an activating internal tandem duplication (ITD). Flt3-ITD
+      expression sensitized human TF-1 myeloid cells to growth arrest by A-419259,
+      supporting direct action on the Flt3-ITD kinase domain. Cells transformed with
+      the Flt3-ITD mutants D835Y and F691L were resistant to A-419259, while
+      co-expression of Hck or Fgr restored inhibitor sensitivity to Flt3-ITD D835Y.
+      Conversely, Hck and Fgr mutants with engineered A-419259 resistance mutations
+      decreased sensitivity of TF-1/Flt3-ITD cells. To investigate de novo resistance
+      mechanisms, A-419259-resistant Flt3-ITD+ AML cell populations were derived via
+      long-term dose escalation. Whole exome sequencing identified a distinct Flt3-ITD 
+      kinase domain mutation (N676S/T) among all A-419259 target kinases in each of six
+      independent resistant cell populations. These studies show that Hck and Fgr
+      expression influences inhibitor sensitivity and the pathway to acquired
+      resistance in Flt3-ITD+ AML.
+FAU - Patel, Ravi K.
+AU  - Patel RK
+AD  - Department of Microbiology and Molecular Genetics, University of Pittsburgh
+      School of Medicine, Pittsburgh, Pennsylvania, United States of America
+FAU - Weir, Mark C.
+AU  - Weir MC
+AD  - Department of Microbiology and Molecular Genetics, University of Pittsburgh
+      School of Medicine, Pittsburgh, Pennsylvania, United States of America
+FAU - Shen, Kexin
+AU  - Shen K
+AD  - Department of Microbiology and Molecular Genetics, University of Pittsburgh
+      School of Medicine, Pittsburgh, Pennsylvania, United States of America
+FAU - Snyder, Daniel
+AU  - Snyder D
+AD  - Department of Microbiology and Molecular Genetics, University of Pittsburgh
+      School of Medicine, Pittsburgh, Pennsylvania, United States of America
+FAU - Cooper, Vaughn S.
+AU  - Cooper VS
+AUID- ORCID: 0000-0001-7726-0765
+AD  - Department of Microbiology and Molecular Genetics, University of Pittsburgh
+      School of Medicine, Pittsburgh, Pennsylvania, United States of America
+FAU - Smithgall, Thomas E.
+AU  - Smithgall TE
+AUID- ORCID: 0000-0001-5238-3806
+AD  - Department of Microbiology and Molecular Genetics, University of Pittsburgh
+      School of Medicine, Pittsburgh, Pennsylvania, United States of America
+LA  - eng
+PT  - Journal Article
+DEP - 20191202
+GR  - CA233576
+PHST- 2019/09/06 [received]
+PHST- 2019/11/14 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0225887 [doi]
+AID - PONE-D-19-25174 [pii]
+SO  - PLoS One. 2019 Dec 2;14(12):. doi:10.1371/journal.pone.0225887.
+
+PMC - PMC6943129
+PMID- 31777924
+IS  - 0305-1048 (Print)
+IS  - 1362-4962 (Electronic)
+VI  - 48
+IP  - 1
+DP  - 2020 Jan 10
+TI  - A single amino acid switch converts the Sleeping Beauty transposase into an
+      efficient unidirectional excisionase with utility in stem cell reprogramming.
+PG  - 316-31
+AB  - The Sleeping Beauty (SB) transposon is an advanced tool for genetic engineering
+      and a useful model to investigate cut-and-paste DNA transposition in vertebrate
+      cells. Here, we identify novel SB transposase mutants that display efficient and 
+      canonical excision but practically unmeasurable genomic re-integration. Based on 
+      phylogenetic analyses, we establish compensating amino acid replacements that
+      fully rescue the integration defect of these mutants, suggesting epistasis
+      between these amino acid residues. We further show that the transposons excised
+      by the exc+/int− transposase mutants form extrachromosomal circles that cannot
+      undergo a further round of transposition, thereby representing dead-end products 
+      of the excision reaction. Finally, we demonstrate the utility of the exc+/int−
+      transposase in cassette removal for the generation of reprogramming factor-free
+      induced pluripotent stem cells. Lack of genomic integration and formation of
+      transposon circles following excision is reminiscent of signal sequence removal
+      during V(D)J recombination, and implies that cut-and-paste DNA transposition can 
+      be converted to a unidirectional process by a single amino acid change.
+FAU - Kesselring, Lisa
+AU  - Kesselring L
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+FAU - Miskey, Csaba
+AU  - Miskey C
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+FAU - Zuliani, Cecilia
+AU  - Zuliani C
+AUID- ORCID: 0000-0001-6026-7207
+AD  - Structural and Computational Biology Unit, European Molecular Biology Laboratory,
+      Heidelberg 69117, Germany
+FAU - Querques, Irma
+AU  - Querques I
+AD  - Structural and Computational Biology Unit, European Molecular Biology Laboratory,
+      Heidelberg 69117, Germany
+FAU - Kapitonov, Vladimir
+AU  - Kapitonov V
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+FAU - Laukó, Andrea
+AU  - Laukó A
+AD  - BioTalentum Ltd, Gödöllő, 2100 Gödöllő, Hungary
+FAU - Fehér, Anita
+AU  - Fehér A
+AD  - BioTalentum Ltd, Gödöllő, 2100 Gödöllő, Hungary
+FAU - Palazzo, Antonio
+AU  - Palazzo A
+AD  - Department of Biology, University of Bari ‘Aldo Moro’, Italy
+FAU - Diem, Tanja
+AU  - Diem T
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+FAU - Lustig, Janna
+AU  - Lustig J
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+FAU - Sebe, Attila
+AU  - Sebe A
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+FAU - Wang, Yongming
+AU  - Wang Y
+AD  - Mobile DNA, Max Delbrück Center for Molecular Medicine, Berlin, Germany
+FAU - Dinnyés, András
+AU  - Dinnyés A
+AD  - BioTalentum Ltd, Gödöllő, 2100 Gödöllő, Hungary
+FAU - Izsvák, Zsuzsanna
+AU  - Izsvák Z
+AD  - Mobile DNA, Max Delbrück Center for Molecular Medicine, Berlin, Germany
+FAU - Barabas, Orsolya
+AU  - Barabas O
+AUID- ORCID: 0000-0002-2873-5872
+AD  - Structural and Computational Biology Unit, European Molecular Biology Laboratory,
+      Heidelberg 69117, Germany
+FAU - Ivics, Zoltán
+AU  - Ivics Z
+AUID- ORCID: 0000-0002-7803-6658
+AD  - Transposition and Genome Engineering, Division of Medical Biotechnology, Paul
+      Ehrlich Institute, Langen, Germany
+LA  - eng
+PT  - Journal Article
+DEP - 20191128
+GR  - 230675
+PHST- 2019/11/22 [accepted]
+PHST- 2019/11/07 [revised]
+PHST- 2018/12/18 [received]
+PHST- 2019/11/28 [aheadofprint]
+TA  - Nucleic Acids Res
+JT  - Nucleic Acids Research
+AID - 10.1093/nar/gkz1119 [doi]
+AID - gkz1119 [pii]
+SO  - Nucleic Acids Res. 2020 Jan 10;48(1):316-31. Epub 2019 Nov 28
+      doi:10.1093/nar/gkz1119.
+
+PMC - PMC6892276
+PMID- 30953752
+IS  - 0928-0987 (Print)
+IS  - 1879-0720 (Electronic)
+VI  - 139
+DP  - 2019 Nov 01
+TI  - Metabolism of the dual FLT-3/Aurora kinase inhibitor CCT241736 in preclinical and
+      human in vitro models: Implication for the choice of toxicology species.
+LID - 104899
+AB  - CCT241736 is a dual fms-like tyrosine kinase 3 (FLT3)/Aurora kinase inhibitor in 
+      development for the treatment of acute myeloid leukaemia. The successful
+      development of any new drug relies on adequate safety testing including
+      preclinical toxicology studies. Selection of an appropriate preclinical species
+      requires a thorough understanding of the compound's metabolic clearance and
+      pathways, as well as other pharmacokinetic and pharmacodynamic considerations. In
+      addition, elucidation of the metabolising enzymes in human facilitates improved
+      clinical prediction based on population pharmacokinetics and can inform drug-drug
+      interaction studies. Intrinsic clearance (CLint) determination and metabolite
+      profiling of CCT241736 in human and four preclinical species (dog, minipig, rat
+      and mouse) was undertaken in cryopreserved hepatocytes and liver microsomes.
+      Recombinant human cytochrome P450 bactosomes (rCYP) were utilised to provide
+      reaction phenotyping data and support prediction of metabolic pathways. CCT241736
+      exhibited low CLint in both hepatocytes and liver microsomes of human, dog,
+      minipig and rat, but considerably higher CLint in mouse. CYP3A4 and CYP3A5 were
+      identified as the major enzymes responsible for biotransformation of CCT241736 in
+      human, exclusively forming five out of seven metabolites. Minipig showed greatest
+      similarity to human with regard to both overall metabolic profile and abundance
+      of specific metabolites relative to parent compound, and is therefore proposed as
+      the most appropriate toxicological species. The greatest disparity was observed
+      between human and dog. Based on metabolic profile, either mouse or rat is a
+      suitable rodent species for toxicology studies.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Wood, Francesca L.
+AU  - Wood FL
+FAU - Shepherd, Sam
+AU  - Shepherd S
+FAU - Hayes, Angela
+AU  - Hayes A
+FAU - Liu, Manjuan
+AU  - Liu M
+FAU - Grira, Katia
+AU  - Grira K
+FAU - Mok, Yi
+AU  - Mok Y
+FAU - Atrash, Butrus
+AU  - Atrash B
+FAU - Faisal, Amir
+AU  - Faisal A
+FAU - Bavetsias, Vassilios
+AU  - Bavetsias V
+FAU - Linardopoulos, Spiros
+AU  - Linardopoulos S
+FAU - Blagg, Julian
+AU  - Blagg J
+FAU - Raynaud, Florence I.
+AU  - Raynaud FI
+LA  - eng
+PT  - Journal Article
+PHST- 2018/12/05 [received]
+PHST- 2019/02/26 [revised]
+PHST- 2019/04/02 [accepted]
+TA  - Eur J Pharm Sci
+JT  - European Journal of Pharmaceutical Sciences
+AID - S0928-0987(19)30142-3 [pii]
+AID - 10.1016/j.ejps.2019.04.004 [doi]
+AID - 104899 [pii]
+SO  - Eur J Pharm Sci. 2019 Nov 01;139:. doi:10.1016/j.ejps.2019.04.004.
+
+PMC - PMC6802126
+PMID- 31641433
+IS  - 2042-8898 (Print)
+IS  - 2042-8901 (Electronic)
+VI  - 9
+IP  - 6
+DP  - 2019 Dec 6
+TI  - On the beneficent thickness of water.
+LID - 20190061
+AB  - In the 1930s, Lars Onsager published his famous ‘reciprocal relations’ describing
+      free energy conversion processes. Importantly, these relations were derived on
+      the assumption that the fluxes of the processes involved in the conversion were
+      proportional to the forces (free energy gradients) driving them. For chemical
+      reactions, however, this condition holds only for systems operating close to
+      equilibrium—indeed very close; nominally requiring driving forces to be smaller
+      than kBT. Fairly soon thereafter, however, it was quite inexplicably observed
+      that in at least some biological conversions both the reciprocal relations and
+      linear flux–force dependency appeared to be obeyed no matter how far from
+      equilibrium the system was being driven. No successful explanation of how this
+      ‘paradoxical’ behaviour could occur has emerged and it has remained a mystery. We
+      here argue, however, that this anomalous behaviour is simply a gift of water, of 
+      its viscosity in particular; a gift, moreover, without which life almost
+      certainly could not have emerged. And a gift whose appreciation we primarily owe 
+      to recent work by Prof. R. Dean Astumian who, as providence has kindly seen to
+      it, was led to the relevant insights by the later work of Onsager himself.
+FAU - Branscomb, E.
+AU  - Branscomb E
+AUID- ORCID: 0000-0002-7194-4231
+AD  - Carl R. Woese Institute for Genomic Biology, and Department of Physics,
+      University of Illinois, 3113 IGB MC 195, 128 W. Gregory Dr., Urbana, IL 61801,
+      USA
+FAU - Russell, M. J.
+AU  - Russell MJ
+AD  - NASA Astrobiology Institute, Ames Research Center, Mountain View, CA, USA
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20191018
+GR  - Icy Worlds; agreement No. NNH06ZDA001N
+PHST- 2019/09/09 [accepted]
+PHST- 2019/10/18 [aheadofprint]
+TA  - Interface Focus
+JT  - Interface Focus
+AID - 10.1098/rsfs.2019.0061 [doi]
+AID - rsfs20190061 [pii]
+SO  - Interface Focus. 2019 Dec 6;9(6):. Epub 2019 Oct 18 doi:10.1098/rsfs.2019.0061.
+
+PMC - PMC7103177
+PMID- 31520193
+IS  - 0930-2794 (Print)
+IS  - 1432-2218 (Electronic)
+VI  - 33
+IP  - Suppl 2
+DP  - 2019
+TI  - 27th International Congress of the European Association for Endoscopic Surgery
+      (EAES) Sevilla, Spain, 12–15 June 2019.
+PG  - 485-781
+LA  - eng
+PT  - Journal Article
+PT  - News
+DEP - 20190913
+TA  - Surg Endosc
+JT  - Surgical Endoscopy
+AID - 7109 [pii]
+AID - 10.1007/s00464-019-07109-x [doi]
+SO  - Surg Endosc. 2019;33(Suppl 2):485-781. Epub 2019 Sep 13
+      doi:10.1007/s00464-019-07109-x.
+
+PMC - PMC7103147
+PMID- 31440833
+IS  - 0945-6317 (Print)
+IS  - 1432-2307 (Electronic)
+VI  - 475
+IP  - Suppl 1
+DP  - 2019
+TI  - Abstracts: 31stEuropean Congress of Pathology.
+PG  - 1-436
+LA  - eng
+PT  - Journal Article
+DEP - 20190822
+TA  - Virchows Arch
+JT  - Virchows Archiv
+AID - 2631 [pii]
+AID - 10.1007/s00428-019-02631-8 [doi]
+SO  - Virchows Arch. 2019;475(Suppl 1):1-436. Epub 2019 Aug 22
+      doi:10.1007/s00428-019-02631-8.
+
+PMC - PMC6721476
+PMID- 31430901
+IS  - 2072-6694 (Electronic)
+VI  - 11
+IP  - 8
+DP  - 2019 Aug
+TI  - Maintenance BEZ235 Treatment Prolongs the Therapeutic Effect of the Combination
+      of BEZ235 and Radiotherapy for Colorectal Cancer.
+LID - 1204
+AB  - Our previous study demonstrated that administration of NVP-BEZ235 (BEZ235), a
+      dual PI3K/mTOR inhibitor, before radiotherapy (RT) enhanced the radiotherapeutic 
+      effect in colorectal cancer (CRC) cells both in vitro and in vivo. Here, we
+      evaluated whether maintenance BEZ235 treatment, after combinatorial BEZ235 + RT
+      therapy, prolonged the antitumor effect in CRC. K-RAS mutant CRC cells (HCT116
+      and SW480), wild-type CRC cells (HT29), and HCT116 xenograft tumors were
+      separated into the following six study groups: (1) untreated (control); (2) RT
+      alone; (3) BEZ235 alone; (4) RT + BEZ235; (5) maintenance BEZ235 following RT +
+      BEZ235 (RT + BEZ235 + mBEZ235); and (6) maintenance BEZ235 following BEZ235
+      (BEZ235 + mBEZ235). RT + BEZ235 + mBEZ235 treatment significantly inhibited cell 
+      viability and increased apoptosis in three CRC cell lines compared to the other
+      five treatments in vitro. In the HCT116 xenograft tumor model, RT + BEZ235 +
+      mBEZ235 treatment significantly reduced the tumor size when compared to the other
+      five treatments. Furthermore, the expression of mTOR signaling molecules (p-rpS6 
+      and p-eIF4E), DNA double-strand break (DSB) repair-related molecules (p-ATM and
+      p-DNA-PKcs), and angiogenesis-related molecules (VEGF-A and HIF-1α) was
+      significantly downregulated after RT + BEZ235 + mBEZ235 treatment both in vitro
+      and in vivo when compared to the RT + BEZ235, RT, BEZ235, BEZ235 + mBEZ235, and
+      control treatments. Cleaved caspase-3, cleaved poly (ADP-ribose) polymerase
+      (PARP), 53BP1, and γ-H2AX expression in the HCT116 xenograft tissue and three CRC
+      cell lines were significantly upregulated after RT + BEZ235 + mBEZ235 treatment. 
+      Maintenance BEZ235 treatment in CRC cells prolonged the inhibition of cell
+      viability, enhancement of apoptosis, attenuation of mTOR signaling, impairment of
+      the DNA-DSB repair mechanism, and downregulation of angiogenesis that occurred
+      due to concurrent BEZ235 and RT treatment.
+FAU - Chen, Yu-Hsuan
+AU  - Chen YH
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+FAU - Wang, Chun-Wei
+AU  - Wang CW
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+FAU - Wei, Ming-Feng
+AU  - Wei MF
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+FAU - Tzeng, Yi-Shin
+AU  - Tzeng YS
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+FAU - Lan, Keng-Hsueh
+AU  - Lan KH
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+FAU - Cheng, Ann-Lii
+AU  - Cheng AL
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+FAU - Kuo, Sung-Hsin
+AU  - Kuo SH
+AUID- ORCID: https://orcid.org/0000-0003-0054-887X
+AD  - Department of Oncology, National Taiwan University Hospital, Taipei 10002, Taiwan
+LA  - eng
+PT  - Journal Article
+DEP - 20190819
+PHST- 2019/08/02 [received]
+PHST- 2019/08/16 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers11081204 [doi]
+AID - cancers-11-01204 [pii]
+SO  - Cancers (Basel). 2019 Aug 19;11(8):. doi:10.3390/cancers11081204.
+
+PMC - PMC7206114
+PMID- 31186534
+IS  - 1350-9047 (Print)
+IS  - 1476-5403 (Electronic)
+VI  - 27
+IP  - 1
+DP  - 2020 Jan
+TI  - A novel member of Prame family, Gm12794c, counteracts retinoic acid
+      differentiation through the methyltransferase activity of PRC2.
+PG  - 345-62
+AB  - Embryonic stem cells (ESCs) fluctuate among different levels of pluripotency
+      defined as metastates. Sporadically, metastable cellular populations convert to a
+      highly pluripotent metastate that resembles the preimplantation two-cell embryos 
+      stage (defined as 2C stage) in terms of transcriptome, DNA methylation, and
+      chromatin structure. Recently, we found that the retinoic acid (RA) signaling
+      leads to a robust increase of cells specifically expressing 2C genes, such as
+      members of the Prame family. Here, we show that Gm12794c, one of the most highly 
+      upregulated Prame members, and previously identified as a key player for the
+      maintenance of pluripotency, has a functional role in conferring ESCs resistance 
+      to RA signaling. In particular, RA-dependent expression of Gm12794c induces a
+      ground state-like metastate, as evaluated by activation of 2C-specific genes,
+      global DNA hypomethylation and rearrangement of chromatin similar to that
+      observed in naive totipotent preimplantation epiblast cells and 2C-like cells.
+      Mechanistically, we demonstrated that Gm12794c inhibits Cdkn1A gene expression
+      through the polycomb repressive complex 2 (PRC2) histone methyltransferase
+      activity. Collectively, our data highlight a molecular mechanism employed by ESCs
+      to counteract retinoic acid differentiation stimuli and contribute to shed light 
+      on the molecular mechanisms at grounds of ESCs naive pluripotency-state
+      maintenance.
+FAU - Napolitano, Giuliana
+AU  - Napolitano G
+AUID- ORCID: 0000-0002-1637-6016
+AD  - 0000 0001 0790 385Xgrid.4691.aDepartment of Biology, University of Naples
+      ‘Federico II’, Naples, Italy
+FAU - Tagliaferri, Daniela
+AU  - Tagliaferri D
+AD  - 0000 0004 4674 1402grid.428067.fBiogem, Istituto di Biologia e Genetica
+      Molecolare, Via Camporeale, Ariano Irpino (AV), Italy
+FAU - Fusco, Salvatore
+AU  - Fusco S
+AD  - 0000 0001 0790 385Xgrid.4691.aDepartment of Biology, University of Naples
+      ‘Federico II’, Naples, Italy
+FAU - Cirillo, Carmine
+AU  - Cirillo C
+AD  - 0000 0001 0790 385Xgrid.4691.aDepartment of Biology, University of Naples
+      ‘Federico II’, Naples, Italy
+FAU - De Martino, Ilaria
+AU  - De Martino I
+AD  - 0000 0001 0790 385Xgrid.4691.aDepartment of Biology, University of Naples
+      ‘Federico II’, Naples, Italy
+FAU - Addeo, Martina
+AU  - Addeo M
+AD  - 0000 0001 0790 385Xgrid.4691.aDepartment of Biology, University of Naples
+      ‘Federico II’, Naples, Italy
+FAU - Mazzone, Pellegrino
+AU  - Mazzone P
+AD  - 0000 0004 4674 1402grid.428067.fBiogem, Istituto di Biologia e Genetica
+      Molecolare, Via Camporeale, Ariano Irpino (AV), Italy
+FAU - Russo, Nicola Antonino
+AU  - Russo NA
+AD  - 0000 0004 4674 1402grid.428067.fBiogem, Istituto di Biologia e Genetica
+      Molecolare, Via Camporeale, Ariano Irpino (AV), Italy
+FAU - Natale, Francesco
+AU  - Natale F
+AD  - 0000 0001 0940 1669grid.6546.1Department of Biology, Technische Universität
+      Darmstadt, 64287 Darmstadt, Germany
+FAU - Cardoso, Maria Cristina
+AU  - Cardoso MC
+AUID- ORCID: 0000-0001-8427-8859
+AD  - 0000 0001 0940 1669grid.6546.1Department of Biology, Technische Universität
+      Darmstadt, 64287 Darmstadt, Germany
+FAU - De Luca, Luciana
+AU  - De Luca L
+AD  - IRCCS-CROB, Referral Cancer Center of Basilicata, Rionero in Vulture, Italy
+FAU - Lamorte, Daniela
+AU  - Lamorte D
+AD  - IRCCS-CROB, Referral Cancer Center of Basilicata, Rionero in Vulture, Italy
+FAU - La Rocca, Francesco
+AU  - La Rocca F
+AUID- ORCID: 0000-0002-8868-195X
+AD  - IRCCS-CROB, Referral Cancer Center of Basilicata, Rionero in Vulture, Italy
+FAU - De Felice, Mario
+AU  - De Felice M
+AD  - grid.429047.cIEOS, CNR, Naples, Italy
+FAU - Falco, Geppino
+AU  - Falco G
+AD  - 0000 0001 0790 385Xgrid.4691.aDepartment of Biology, University of Naples
+      ‘Federico II’, Naples, Italy
+LA  - eng
+PT  - Journal Article
+DEP - 20190611
+PHST- 2018/09/11 [received]
+PHST- 2019/02/11 [revised]
+PHST- 2019/04/03 [accepted]
+TA  - Cell Death Differ
+JT  - Cell Death and Differentiation
+AID - 359 [pii]
+AID - 10.1038/s41418-019-0359-9 [doi]
+SO  - Cell Death Differ. 2020 Jan;27(1):345-62. Epub 2019 Jun 11
+      doi:10.1038/s41418-019-0359-9.
+
+PMC - PMC6712542
+PMID- 31551621
+IS  - 0031-5850 (Print)
+IS  - 1878-9080 (Electronic)
+VI  - 42
+DP  - 2019 Jun
+TI  - A phylogenetic approach to a global supraspecific taxonomy of Cortinarius
+      (Agaricales) with an emphasis on the southern mycota.
+PG  - 261-90
+AB  - A section-based taxonomy of Cortinarius, covering large parts of the temperate
+      North and South Hemispheres, is presented. Thirty-seven previously described
+      sections are reviewed, while another forty-two sections are proposed as new or as
+      new combinations. Twenty additional clades are recovered but not formally
+      described. Furthermore, six new or combined species names are introduced, and one
+      species is neotypified. The structure is supported by morphological characters
+      and molecular evidence, based on two (nrITS and nrLSU) and four (nrITS, nrLSU,
+      rpb1 and rpb2) loci datasets and analysed by Maximum Likelihood methods (PhyML,
+      RAxML). Altogether 789 Cortinarius samples were included in the study.
+FAU - Soop, K.
+AU  - Soop K
+AD  - Honorary Research Associate, Swedish Museum of Natural History, Department of
+      Botany, Stockholm, Sweden;
+FAU - Dima, B.
+AU  - Dima B
+AD  - Department of Plant Anatomy, Institute of Biology, Eötvös Loránd University,
+      Pázmány Péter sétány 1/C, H-1117, Budapest, Hungary.
+FAU - Cooper, J.A.
+AU  - Cooper J
+AD  - Manaaki Whenua, P.O. Box 69040, Lincoln 7640, New Zealand.
+FAU - Park, D.
+AU  - Park D
+AD  - Manaaki Whenua, Private Bag 92170, Auckland Mail Centre, Auckland 1142, New
+      Zealand.
+FAU - Oertel, B.
+AU  - Oertel B
+AD  - Hoehenweg 15, D-53347 Alfter, Germany.
+LA  - eng
+PT  - Journal Article
+DEP - 20190528
+PHST- 2018/02/09 [received]
+PHST- 2019/02/10 [accepted]
+TA  - Persoonia
+JT  - Persoonia : Molecular Phylogeny and Evolution of Fungi
+AID - 10.3767/persoonia.2019.42.10 [doi]
+SO  - Persoonia. 2019 Jun;42:261-90. Epub 2019 May 28 doi:10.3767/persoonia.2019.42.10.
+
+PMC - PMC6523110
+PMID- 30999583
+IS  - 2076-3921 (Electronic)
+VI  - 8
+IP  - 4
+DP  - 2019 Apr
+TI  - Is There A Role for Abscisic Acid, A Proven Anti-Inflammatory Agent, in the
+      Treatment of Ischemic Retinopathies?
+LID - 104
+AB  - Ischemic retinopathies (IRs) are the main cause of severe visual impairment and
+      sight loss, and are characterized by loss of blood vessels, accompanied by
+      hypoxia, and neovascularization. Actual therapies, based on anti-vascular
+      endothelial growth factor (VEGF) strategies, antioxidants or anti-inflammatory
+      therapies are only partially effective or show some adverse side effects.
+      Abscisic acid (ABA) is a phytohormone present in vegetables and fruits that can
+      be naturally supplied by the dietary intake and has been previously studied for
+      its benefits to human health. It has been demonstrated that ABA plays a key role 
+      in glucose metabolism, inflammation, memory and tumor growth. This review focuses
+      on a novel and promising role of ABA as a potential modulator of angiogenesis,
+      oxidative status and inflammatory processes in the retina, which are the most
+      predominant characteristics of the IRs. Thus, this nutraceutical compound might
+      shed some light in new therapeutic strategies focused in the prevention or
+      amelioration of IRs-derived pathologies.
+FAU - Baliño, Pablo
+AU  - Baliño P
+AD  - Unitat predepartamental de Medicina, Universitat Jaume I, 12071 Castellón de la
+      Plana, Spain; balino@uji.es
+FAU - Gómez-Cadenas, Aurelio
+AU  - Gómez-Cadenas A
+AD  - Departament de Ciències Agràries i del Medi Natural, Universitat Jaume I, 12071
+      Castellón de la Plana, Spain; aurelio.gomez@uji.es
+FAU - López-Malo, Daniel
+AU  - López-Malo D
+AUID- ORCID: https://orcid.org/0000-0003-2661-7570
+AD  - Departamento de Ciencias Biomédicas, Universidad Europea de Valencia, 46010
+      Valencia, Spain; daniel.lopez2@universidadeuropea.es (D.L.-M.);
+      franciscojavier.romero@universidadeuropea.es (F.J.R.)
+FAU - Romero, Francisco Javier
+AU  - Romero FJ
+AUID- ORCID: https://orcid.org/0000-0001-8701-5907
+AD  - Departamento de Ciencias Biomédicas, Universidad Europea de Valencia, 46010
+      Valencia, Spain; daniel.lopez2@universidadeuropea.es (D.L.-M.);
+      franciscojavier.romero@universidadeuropea.es (F.J.R.)
+FAU - Muriach, María
+AU  - Muriach M
+AD  - Universitat Jaume I, Unitat predepartamental de Medicina, Avda/Sos Baynat, S/N,
+      12071 Castellón de la Plana, Spain
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190417
+PHST- 2019/02/28 [received]
+PHST- 2019/04/13 [accepted]
+TA  - Antioxidants (Basel)
+JT  - Antioxidants
+AID - 10.3390/antiox8040104 [doi]
+AID - antioxidants-08-00104 [pii]
+SO  - Antioxidants (Basel). 2019 Apr 17;8(4):. doi:10.3390/antiox8040104.
+
+PMC - PMC6486636
+PMID- 30820564
+IS  - 0305-1048 (Print)
+IS  - 1362-4962 (Electronic)
+VI  - 47
+IP  - 8
+DP  - 2019 May 07
+TI  - LARP4A recognizes polyA RNA via a novel binding mechanism mediated by disordered 
+      regions and involving the PAM2w motif, revealing interplay between PABP, LARP4A
+      and mRNA.
+PG  - 4272-91
+AB  - LARP4A belongs to the ancient RNA-binding protein superfamily of La-related
+      proteins (LARPs). In humans, it acts mainly by stabilizing mRNAs, enhancing
+      translation and controlling polyA lengths of heterologous mRNAs. These activities
+      are known to implicate its association with mRNA, protein partners and
+      translating ribosomes, albeit molecular details are missing. Here, we
+      characterize the direct interaction between LARP4A, oligoA RNA and the MLLE
+      domain of the PolyA-binding protein (PABP). Our study shows that LARP4A–oligoA
+      association entails novel RNA recognition features involving the N-terminal
+      region of the protein that exists in a semi-disordered state and lacks any
+      recognizable RNA-binding motif. Against expectations, we show that the La module,
+      the conserved RNA-binding unit across LARPs, is not the principal determinant for
+      oligoA interaction, only contributing to binding to a limited degree.
+      Furthermore, the variant PABP-interacting motif 2 (PAM2w) featured in the
+      N-terminal region of LARP4A was found to be important for both RNA and PABP
+      recognition, revealing a new role for this protein–protein binding motif. Our
+      analysis demonstrates the mutual exclusive nature of the PAM2w-mediated
+      interactions, thereby unveiling a tantalizing interplay between LARP4A, polyA and
+      PABP.
+FAU - Cruz-Gallardo, Isabel
+AU  - Cruz-Gallardo I
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Martino, Luigi
+AU  - Martino L
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Kelly, Geoff
+AU  - Kelly G
+AD  - MRC Biomedical NMR Centre, The Francis Crick Institute, London NW1 1AT, UK
+FAU - Atkinson, R Andrew
+AU  - Atkinson R
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Trotta, Roberta
+AU  - Trotta R
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - De Tito, Stefano
+AU  - De Tito S
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Coleman, Pierre
+AU  - Coleman P
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Ahdash, Zainab
+AU  - Ahdash Z
+AD  - Department of Chemistry, King’s College London, London SE1 1DB, UK
+FAU - Gu, Yifei
+AU  - Gu Y
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Bui, Tam T T
+AU  - Bui TTT
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+FAU - Conte, Maria R
+AU  - Conte MR
+AD  - Randall Centre for Cell and Molecular Biophysics, King’s College London, London
+      SE1 1UL, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20190301
+GR  - NF140482
+PHST- 2019/02/19 [accepted]
+PHST- 2019/02/15 [revised]
+PHST- 2018/12/10 [received]
+PHST- 2019/03/01 [aheadofprint]
+TA  - Nucleic Acids Res
+JT  - Nucleic Acids Research
+AID - 10.1093/nar/gkz144 [doi]
+AID - gkz144 [pii]
+SO  - Nucleic Acids Res. 2019 May 07;47(8):4272-91. Epub 2019 Mar 01
+      doi:10.1093/nar/gkz144.
+
+PMC - PMC6401268
+PMID- 30664851
+IS  - 0026-0495 (Print)
+IS  - 1532-8600 (Electronic)
+VI  - 93
+DP  - 2019 Apr
+TI  - Hyperinsulinemia drives hepatic insulin resistance in male mice with
+      liver-specific Ceacam1 deletion independently of lipolysis.
+PG  - 33-43
+AB  - Background:: CEACAM1 regulates insulin sensitivity by promoting insulin
+      clearance. Accordingly, global C57BL/6J.Cc1−/− null mice display hyperinsulinemia
+      due to impaired insulin clearance at 2 months of age, followed by insulin
+      resistance, steatohepatitis, visceral obesity and leptin resistance at 6 months. 
+      The study aimed at investigating the primary role of hepatic CEACAM1 in insulin
+      and lipid homeostasis independently of its metabolic effect in extra-hepatic
+      tissues. Methods:: Liver-specific C57BL/6J.AlbCre+Cc1fl/fl mice were generated
+      and their metabolic phenotype was characterized by comparison to that of their
+      littermate controls at 2-9 months of age, using hyperinsulinemic-euglycemic clamp
+      analysis and indirect calorimetry. The effect of hyperphagia on insulin
+      resistance was assessed by pair-feeding experiments. Results:: Liver-specific
+      AlbCre+Cc1fl/fl mutants exhibited impaired insulin clearance and hyperinsulinemia
+      at 2 months, followed by hepatic insulin resistance (assessed by
+      hyperinsulinemic-euglycemic clamp analysis) and steatohepatitis at ~ 7 months of 
+      age, at which point visceral obesity and hyperphagia developed, in parallel to
+      hyperleptinemia and blunted hypothalamic STAT3 phosphorylation in response to an 
+      intraperitoneal injection of leptin. Hyperinsulinemia caused hypothalamic insulin
+      resistance, followed by increased fatty acid synthase activity, which together
+      with defective hypothalamic leptin signaling contributed to hyperphagia and
+      reduced physical activity. Pair-feeding experiment showed that hyperphagia caused
+      systemic insulin resistance, as manifested by blunted insulin signaling in white 
+      adipose tissue and lipolysis at 8-9 months of age. Conclusion:: AlbCre+Cc1fl/fl
+      mutants provide an in vivo demonstration of the key role of impaired hepatic
+      insulin clearance and hyperinsulinemia in the pathogenesis of secondary hepatic
+      insulin resistance independently of lipolysis. They also reveal an important role
+      for the liver-hypothalamic axis in the regulation of energy balance and
+      subsequently, systemic insulin sensitivity.
+FAU - Ghadieh, Hilda E.
+AU  - Ghadieh HE
+AD  - Department of Biomedical Sciences, Heritage College of Osteopathic Medicine, Ohio
+      University, Athens, OH, USA
+FAU - Russo, Lucia
+AU  - Russo L
+AD  - Center for Diabetes and Endocrine Research, College of Medicine and Life
+      Sciences, University of Toledo, Toledo, OH, USA
+FAU - Muturi, Harrison T.
+AU  - Muturi HT
+AD  - Department of Biomedical Sciences, Heritage College of Osteopathic Medicine, Ohio
+      University, Athens, OH, USA
+FAU - Ghanem, Simona S.
+AU  - Ghanem SS
+AD  - Center for Diabetes and Endocrine Research, College of Medicine and Life
+      Sciences, University of Toledo, Toledo, OH, USA
+FAU - Manaserh, Iyad H.
+AU  - Manaserh IH
+AD  - Center for Diabetes and Endocrine Research, College of Medicine and Life
+      Sciences, University of Toledo, Toledo, OH, USA
+FAU - Noh, Hye Lim
+AU  - Noh HL
+AD  - Program in Molecular Medicine, University of Massachusetts Medical School,
+      Worcester, MA, USA
+FAU - Suk, Sujin
+AU  - Suk S
+AD  - Program in Molecular Medicine, University of Massachusetts Medical School,
+      Worcester, MA, USA
+FAU - Kim, Jason K.
+AU  - Kim JK
+AD  - Program in Molecular Medicine, University of Massachusetts Medical School,
+      Worcester, MA, USA
+FAU - Hill, Jennifer W.
+AU  - Hill JW
+AD  - Center for Diabetes and Endocrine Research, College of Medicine and Life
+      Sciences, University of Toledo, Toledo, OH, USA
+FAU - Najjar, Sonia M.
+AU  - Najjar SM
+AD  - Department of Biomedical Sciences, Heritage College of Osteopathic Medicine, Ohio
+      University, Athens, OH, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20190119
+TA  - Metabolism
+JT  - Metabolism: clinical and experimental
+AID - 10.1016/j.metabol.2019.01.008 [doi]
+MID - NIHMS1519735
+SO  - Metabolism. 2019 Apr;93:33-43. Epub 2019 Jan 19
+      doi:10.1016/j.metabol.2019.01.008.
+
+PMC - PMC6396136
+PMID- 30867733
+IS  - 1792-1074 (Print)
+IS  - 1792-1082 (Electronic)
+VI  - 17
+IP  - 3
+DP  - 2019 Mar
+TI  - Genetics, diagnosis and treatment of Lynch syndrome: Old lessons and current
+      challenges.
+PG  - 3048-54
+AB  - Lynch syndrome (LS) is an autosomal dominant genetic disorder associated with
+      germline mutations in DNA mismatch repair (MMR) genes. The carriers of pathogenic
+      mutations in these genes have an increased risk of developing a colorectal cancer
+      and/or LS-associated cancer. The LS-associated cancer types include carcinomas of
+      the endometrium, small intestine, stomach, pancreas and biliary tract, ovary,
+      brain, upper urinary tract and skin. The criteria for the clinical diagnosis of
+      LS and the procedures of the genetic testing for identification of pathogenetic
+      mutations carriers in MMR genes have long been known. A crucial point in the
+      mutation detection analysis is the correct definition of the pathogenecity
+      associated with MMR genetic variants, especially in order to include the mutation
+      carriers in the endoscopy surveillance programs more suited to them. Therefore,
+      this may help to improve the LS-associated cancer prevention programs. In the
+      present review, we also report the recent discoveries in molecular genetics of
+      LS, such as the new roles of MMR protein and immune response of MMR repair
+      deficiency in colorectal cancer. Finally, we discuss the main therapeutic
+      approaches, including immunotherapy, which represent a valid alternative to
+      traditional therapeutic methods and extend the life expectancy of patients that
+      have already developed LS-associated colorectal cancer.
+FAU - Duraturo, Francesca
+AU  - Duraturo F
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      ‘Federico II’, Naples I-80131, Italy
+FAU - Liccardo, Raffaella
+AU  - Liccardo R
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      ‘Federico II’, Naples I-80131, Italy
+FAU - De Rosa, Marina
+AU  - De Rosa M
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      ‘Federico II’, Naples I-80131, Italy
+FAU - Izzo, Paola
+AU  - Izzo P
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      ‘Federico II’, Naples I-80131, Italy
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190118
+PHST- 2018/06/21 [received]
+PHST- 2018/12/20 [accepted]
+PHST- 2019/01/18 [aheadofprint]
+TA  - Oncol Lett
+JT  - Oncology Letters
+AID - 10.3892/ol.2019.9945 [doi]
+AID - OL-0-0-9945 [pii]
+SO  - Oncol Lett. 2019 Mar;17(3):3048-54. Epub 2019 Jan 18 doi:10.3892/ol.2019.9945.
+
+PMC - PMC6243411
+PMID- 30479672
+IS  - 1758-8340 (Print)
+IS  - 1758-8359 (Electronic)
+VI  - 10
+DP  - 2018
+TI  - Assessing response to neo-adjuvant therapy in locally advanced rectal cancer
+      using Intra-voxel Incoherent Motion modelling by DWI data and Standardized Index 
+      of Shape from DCE-MRI.
+LID - 1758835918809875
+AB  - Background:: Our aim was to investigate preoperative chemoradiation therapy
+      (pCRT) response in locally advanced rectal cancer (LARC) comparing standardized
+      index of shape (SIS) obtained from dynamic contrast-enhanced magnetic resonance
+      imaging (DCE-MRI) with intravoxel-incoherent-motion-modelling-derived parameters 
+      by diffusion-weighted imaging (DWI). Materials and methods:: Eighty-eight
+      patients with LARC were subjected to MRI before and after pCRT. Apparent
+      diffusion coefficient (ADC), tissue diffusion (Dt), pseudodiffusion (Dp) and
+      perfusion fraction (f) were calculated and percentage changes ∆ADC, ∆Dt, ∆Dp, ∆f 
+      were computed. SIS was derived comparing DCE-MRI pre- and post-pCRT.
+      Nonparametric tests and receiver operating characteristic (ROC) curves were
+      performed. Results:: A total of 52 patients were classified as responders (tumour
+      regression grade; TRG ⩽ 2) and 36 as not-responders (TRG > 3). Mann–Whitney U
+      test showed statistically significant differences in SIS, ∆ADC and ∆Dt between
+      responders and not-responders and between complete responders (19 patients with
+      TRG = 1) versus incomplete responders. The best parameters to discriminate
+      responders by nonresponders were SIS and ∆ADC, with an accuracy of 91% and 82%
+      (cutoffs of −5.2% and 18.7%, respectively); the best parameters to detect
+      pathological complete responders were SIS, ∆f and ∆Dp with an accuracy of 78%
+      (cutoffs of 38.5%, 60.0% and 83.0%, respectively). No increase of performance was
+      observed by combining linearly each possible couple of parameters or combining
+      all parameters. Conclusion:: SIS allows assessment of preoperative treatment
+      response with high accuracy guiding the surgeon versus more or less conservative 
+      treatment. DWI-derived parameters reached less accuracy compared with SIS and
+      combining linearly DCE- and DWI-derived parameters; no increase of accuracy was
+      obtained.
+FAU - Petrillo, Antonella
+AU  - Petrillo A
+AD  - Radiology Unit, ‘Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale’, Naples,
+      Italy
+FAU - Fusco, Roberta
+AU  - Fusco R
+AD  - Radiology Unit, ‘Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale’, Via
+      Mariano Semmola, Naples 80131, Italy
+FAU - Granata, Vincenza
+AU  - Granata V
+AD  - Radiology Unit, ‘Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale’, Naples,
+      Italy
+FAU - Filice, Salvatore
+AU  - Filice S
+AD  - Radiology Unit, ‘Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale’, Naples,
+      Italy
+FAU - Sansone, Mario
+AU  - Sansone M
+AD  - Department of Electrical Engineering and Information Technologies, University
+      ‘Federico II’ of Naples, Naples, Italy
+FAU - Rega, Daniela
+AU  - Rega D
+AD  - Gastrointestinal Surgical Oncology Unit, ‘Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale’, Naples, Italy
+FAU - Delrio, Paolo
+AU  - Delrio P
+AD  - Gastrointestinal Surgical Oncology Unit, ‘Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale’, Naples, Italy
+FAU - Bianco, Francesco
+AU  - Bianco F
+AD  - Gastrointestinal Surgical Oncology Unit, ‘Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale’, Naples, Italy
+FAU - Romano, Giovanni Maria
+AU  - Romano GM
+AD  - Gastrointestinal Surgical Oncology Unit, ‘Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale’, Naples, Italy
+FAU - Tatangelo, Fabiana
+AU  - Tatangelo F
+AD  - Diagnostic Pathology Unit, ‘Istituto Nazionale Tumori, IRCCS, Fondazione G
+      Pascale’, Naples, Italy
+FAU - Avallone, Antonio
+AU  - Avallone A
+AD  - Gastrointestinal Medical Oncology Unit, ‘Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale’, Naples, Italy
+FAU - Pecori, Biagio
+AU  - Pecori B
+AD  - Radiotherapy Unit, ‘Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale’,
+      Naples, Italy
+LA  - eng
+PT  - Journal Article
+DEP - 20181116
+PHST- 2018/05/21 [received]
+PHST- 2018/09/24 [accepted]
+TA  - Ther Adv Med Oncol
+JT  - Therapeutic Advances in Medical Oncology
+AID - 10.1177/1758835918809875 [doi]
+AID - 10.1177_1758835918809875 [pii]
+SO  - Ther Adv Med Oncol. 2018 Nov 16;10:. doi:10.1177/1758835918809875.
+
+PMC - PMC6237494
+IS  - 1364-5021 (Print)
+IS  - 1471-2946 (Electronic)
+VI  - 474
+IP  - 2218
+DP  - 2018 Oct
+TI  - Disarrangements and instabilities in augmented one-dimensional hyperelasticity.
+LID - 20180312
+AB  - In the present work, the overall nonlinear elastic behaviour of a one-dimensional
+      multi-modular structure incorporating possible imperfections at the discrete
+      (microscale) level is derived with respect to both tensile and compressive
+      applied loads. The model is built up through the repetition of n units, each one 
+      comprising two rigid rods having equal lengths, linked by means of pointwise
+      constraints capable of elastically limiting motions in terms of relative
+      translations (sliders) and rotations (hinges). The mechanical response of the
+      structure is analysed by varying the number n of the elemental moduli, as well as
+      in the limit case of an infinite number of infinitesimal constituents, in light
+      of the theory of (first-order) structured deformations (SDs), which interprets
+      the deformation of any continuum body as the projection, at the macroscopic
+      scale, of geometrical changes occurring at the level of its sub-macroscopic
+      elements. In this way, a wide family of nonlinear elastic behaviours is generated
+      by tuning internal microstructural parameters, the tensile buckling and the
+      classical Euler's elastica under compressive loads resulting as special cases in 
+      the so-called continuum limit—say when n→∞. Finally, by plotting the results in
+      terms of the first Piola–Kirchhoff stress versus macroscopic stretch, it is for
+      the first time demonstrated that such SD-based one-dimensional models can be used
+      to generalize some standard hyperelastic behaviours by additionally taking into
+      account instability phenomena and concealed defects.
+FAU - Palumbo, Stefania
+AU  - Palumbo S
+AD  - Department of Civil, Environmental and Mechanical Engineering, University of
+      Trento, Trento, Italy
+FAU - Deseri, Luca
+AU  - Deseri L
+AD  - Department of Civil, Environmental and Mechanical Engineering, University of
+      Trento, Trento, Italy
+FAU - Owen, David R.
+AU  - Owen DR
+AD  - Department of Mathematical Sciences and Center for Nonlinear Analysis, Carnegie
+      Mellon University, Pittsburgh, PA, USA
+FAU - Fraldi, Massimiliano
+AU  - Fraldi M
+AUID- ORCID: 0000-0003-4164-8631
+AD  - Department of Structures for Engineering and Architecture, University of Napoli
+      Federico II, Naples, Italy
+LA  - eng
+PT  - Journal Article
+DEP - 20181024
+GR  - ARS01-01384-PROSCAN
+PHST- 2018/05/16 [received]
+PHST- 2018/09/20 [accepted]
+PHST- 2018/10/24 [aheadofprint]
+TA  - Proc Math Phys Eng Sci
+JT  - Proceedings. Mathematical, Physical, and Engineering Sciences
+AID - 10.1098/rspa.2018.0312 [doi]
+AID - rspa20180312 [pii]
+SO  - Proc Math Phys Eng Sci. 2018 Oct;474(2218):. Epub 2018 Oct 24
+      doi:10.1098/rspa.2018.0312.
+
+PMC - PMC6215137
+PMID- 30261672
+IS  - 2079-4991 (Electronic)
+VI  - 8
+IP  - 10
+DP  - 2018 Oct
+TI  - Coarse-Grained Molecular Dynamics Modelling of a Magnetic Polymersome.
+LID - 763
+AB  - A coarse-grained molecular dynamics framework is proposed to investigate the
+      equilibrium structure and quasi-static deformational response of a magnetic
+      polymersome, a hollow object whose magnetoactive part is its shell (membrane). In
+      the developed scheme, the shell is modelled as a pair of two concentric
+      interfaces, between which a layer of a linearly viscous fluid filled with
+      magnetic nanoparticles is confined; the thickness of this layer slightly exceeds 
+      the nanoparticle diameter. The shell boundaries possess weak bending elasticity, 
+      very high surface tension and are impermeable for the nanoparticles. The
+      nanoparticles bear permanent magnetic moments and are translationally and
+      rotationally free inside the layer. The factors favoring the particle aggregation
+      are the magneto-dipole coupling and Zeeman interaction with the external field;
+      the impeding factors are thermal motion and steric restrictions imposed by the
+      boundaries. The volume content of magnetic phase in the shell is sufficiently
+      small (below 11 vol.%) to enable one to clearly observe structure patterns
+      occurring in the basic state and under an applied magnetic field. As shown, both 
+      the particle concentration and the level of interparticle interaction strongly
+      affect the extent and type of the aggregation that, in turn, causes overall
+      deformation of the polymersome: stretching along the applied field and shrinking 
+      in the transverse plane.
+FAU - Ryzhkov, Aleksandr
+AU  - Ryzhkov A
+AUID- ORCID: https://orcid.org/0000-0003-4584-1113
+AD  - Department of Applied Physics, Perm National Research Polytechnic University,
+      Perm 614990, Russia
+FAU - Raikher, Yuriy
+AU  - Raikher Y
+AUID- ORCID: https://orcid.org/0000-0002-6167-6528
+AD  - Laboratory of Physics and Mechanics of Soft Matter, Institute of Continuous Media
+      Mechanics, Russian Academy of Sciences, Ural Branch, Perm 614013, Russia;
+      raikher@icmm.ru or i.l.raikher@urfu.ru
+LA  - eng
+PT  - Journal Article
+DEP - 20180927
+PHST- 2018/09/03 [received]
+PHST- 2018/09/23 [accepted]
+TA  - Nanomaterials (Basel)
+JT  - Nanomaterials
+AID - 10.3390/nano8100763 [doi]
+AID - nanomaterials-08-00763 [pii]
+SO  - Nanomaterials (Basel). 2018 Sep 27;8(10):. doi:10.3390/nano8100763.
+
+PMC - PMC6173144
+PMID- 30363388
+IS  - 1348-589X (Print)
+IS  - 1349-0923 (Electronic)
+VI  - 43
+IP  - 2
+DP  - 2018 May 20
+TI  - Identification of the novel hcbB operon catalyzing the dechlorination of
+      pentachlorophenol in the Gram-positive bacterium Nocardioides sp. strain PD653.
+PG  - 124-31
+AB  - While pcp genes are well known in Gram-negative bacteria to code for the enzymes 
+      responsible for pentachlorophenol (C6HCl5O; PCP) degradation, little is known
+      about PCP-degrading genes in Gram-positive bacteria. Here we describe a novel
+      gene operon possibly responsible for catalyzing the degradation of PCP in the
+      Gram-positive bacterium Nocardioides sp. strain PD653, which is capable of
+      mineralizing hexachlorobenzene (C6Cl6; HCB) via PCP. Transcriptome analysis based
+      on RNA-Seq revealed overexpressed genes in strain PD653 following exposure to
+      HCB. Based on in silico annotation, three open reading frames (ORFs) were
+      selected as biodegrading enzyme candidates. Recombinant E. coli cells expressing 
+      candidate genes degraded approximately 9.4 µmol L−1 PCP in 2 hr. Therefore, we
+      designated these genes as hcbB1, hcbB2, and hcbB3. Interestingly, PCP-degrading
+      activity was recorded when hcbB3 was coexpressed with hcbB1 or hcbB2, and the
+      function of HcbB3 was expected to be similar to chlorophenol 4-monooxygenase
+      (TftD).
+FAU - Ito, Koji
+AU  - Ito K
+AD  - Department of Agricultural Chemistry, Tokyo University of Agriculture
+FAU - Takagi, Kazuhiro
+AU  - Takagi K
+AD  - Department of Agricultural Chemistry, Tokyo University of Agriculture
+FAU - Matsushima, Yoshitaka
+AU  - Matsushima Y
+AD  - Department of Agricultural Chemistry, Tokyo University of Agriculture
+FAU - Iwasaki, Akio
+AU  - Iwasaki A
+AD  - Juntendo Medical Technology Innovation Center, Juntendo University
+FAU - Tanaka, Naoto
+AU  - Tanaka N
+AD  - Department of Molecular Microbiology, Tokyo University of Agriculture
+FAU - Kanesaki, Yu
+AU  - Kanesaki Y
+AD  - Genome Research Center, NODAI Research Institute, Tokyo University of Agriculture
+FAU - Martin-Laurent Martin-Laurent, Fabrice Fabrice
+AU  - Martin-Laurent Martin-Laurent FF
+AD  - UMR AgroEcologie, INRA, AgroSup Dijon, University of Bourgogne Franche-Comté
+FAU - Igimi, Shizunobu
+AU  - Igimi S
+AD  - Department of Agricultural Chemistry, Tokyo University of Agriculture
+LA  - eng
+PT  - Journal Article
+PHST- 2017/12/04 [received]
+PHST- 2018/02/06 [accepted]
+TA  - J Pestic Sci
+JT  - Journal of Pesticide Science
+AID - 10.1584/jpestics.D17-089 [doi]
+SO  - J Pestic Sci. 2018 May 20;43(2):124-31. doi:10.1584/jpestics.D17-089.
+
+PMC - PMC5964201
+PMID- 29867908
+IS  - 1664-302X (Electronic)
+VI  - 9
+DP  - 2018
+TI  - Arginine Catabolic Mobile Elements in Livestock-Associated Methicillin-Resistant 
+      Staphylococcal Isolates From Bovine Mastitic Milk in China.
+LID - 1031
+AB  - The arginine catabolic mobile element (ACME) facilitates colonization of
+      staphylococci on skin and mucous membranes by improving their tolerances to
+      polyamines and acidic conditions. ACME is inserted in tandem with the SCCmec
+      element and Staphylococcus epidermidis has been proposed to be a reservoir of
+      ACME for other staphylococci. In this study, we investigated the existence of
+      ACME in 146 staphylococcal isolates from mastitic milk and found 21 of them
+      carried ACME. Almost half of the investigated S. epidermidis isolates contained
+      the element. The whole genome of a S. epidermidis strain Y24 with ACME was
+      further sequenced and the ACME-SCCmec composite island was assembled. This
+      composite island is 81.3 kb long and consisted of 77 ORFs including a methicillin
+      resistance gene mecA, a type II’ ACME gene cluster, a virulence gene pls and
+      eight heavy metal tolerance genes. Wide existence of ACME in livestock-associated
+      staphylococci from this study and a potential risk of spreading ACME among
+      different staphylococcal species warrant close monitoring and further studies.
+FAU - Tong, Chao
+AU  - Tong C
+AD  - College of Animal Science and Technology, Northwest A&F University, Yangling,
+      China
+FAU - Wu, Zhaowei
+AU  - Wu Z
+AD  - College of Animal Science and Technology, Northwest A&F University, Yangling,
+      China
+FAU - Zhao, Xin
+AU  - Zhao X
+AD  - College of Animal Science and Technology, Northwest A&F University, Yangling,
+      China
+FAU - Xue, Huping
+AU  - Xue H
+AD  - College of Animal Science and Technology, Northwest A&F University, Yangling,
+      China
+LA  - eng
+PT  - Journal Article
+DEP - 20180516
+GR  - 31602023
+PHST- 2018/01/20 [received]
+PHST- 2018/05/01 [accepted]
+TA  - Front Microbiol
+JT  - Frontiers in Microbiology
+AID - 10.3389/fmicb.2018.01031 [doi]
+SO  - Front Microbiol. 2018 May 16;9:. doi:10.3389/fmicb.2018.01031.
+
+PMC - PMC7102261
+IS  - 0970-9134 (Print)
+IS  - 0973-7723 (Electronic)
+VI  - 34
+IP  - 2
+DP  - 2018
+TI  - Abstracts of the 64th Annual Conference of IACTS, February 2018.
+PG  - 181-331
+LA  - eng
+PT  - Journal Article
+DEP - 20180309
+TA  - Indian J Thorac Cardiovasc Surg
+JT  - Indian Journal of Thoracic and Cardiovascular Surgery
+AID - 649 [pii]
+AID - 10.1007/s12055-018-0649-8 [doi]
+SO  - Indian J Thorac Cardiovasc Surg. 2018;34(2):181-331. Epub 2018 Mar 9
+      doi:10.1007/s12055-018-0649-8.
+
+PMC - PMC5818070
+PMID- 29208635
+IS  - 1754-8403 (Print)
+IS  - 1754-8411 (Electronic)
+VI  - 11
+IP  - 1
+DP  - 2018 Jan 1
+TI  - The Sox2 promoter-driven CD63-GFP transgenic rat model allows tracking of neural 
+      stem cell-derived extracellular vesicles.
+LID - dmm028779
+AB  - Extracellular vesicles (EVs) can modulate microenvironments by transferring
+      biomolecules, including RNAs and proteins derived from releasing cells, to target
+      cells. To understand the molecular mechanisms maintaining the neural stem cell
+      (NSC) niche through EVs, a new transgenic (Tg) rat strain that can release human 
+      CD63-GFP-expressing EVs from the NSCs was established. Human CD63-GFP expression 
+      was controlled under the rat Sox2 promoter (Sox2/human CD63-GFP), and it was
+      expressed in undifferentiated fetal brains. GFP signals were specifically
+      observed in in vitro cultured NSCs obtained from embryonic brains of the Tg rats.
+      We also demonstrated that embryonic NSC (eNSC)-derived EVs were labelled by human
+      CD63-GFP. Furthermore, when we examined the transfer of EVs, eNSC-derived EVs
+      were found to be incorporated into astrocytes and eNSCs, thus implying an
+      EV-mediated communication between different cell types around NSCs. This new
+      Sox2/human CD63-GFP Tg rat strain should provide resources to analyse the
+      cell-to-cell communication via EVs in NSC microenvironments.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Yoshimura, Aya
+AU  - Yoshimura A
+AD  - Division of Laboratory Animals Resources, National Institute of Neuroscience,
+      National Center of Neurology and Psychiatry (NCNP), 4-1-1 Ogawa-Higashi, Kodaira,
+      Tokyo 187-8502, Japan
+FAU - Adachi, Naoki
+AU  - Adachi N
+AD  - Department of Mental Disorder Research, National Institute of Neuroscience, NCNP,
+      4-1-1 Ogawa-Higashi, Kodaira, Tokyo 187-8502, Japan
+FAU - Matsuno, Hitomi
+AU  - Matsuno H
+AD  - Department of Mental Disorder Research, National Institute of Neuroscience, NCNP,
+      4-1-1 Ogawa-Higashi, Kodaira, Tokyo 187-8502, Japan
+FAU - Kawamata, Masaki
+AU  - Kawamata M
+AD  - Division of Molecular and Cellular Medicine, National Cancer Center Research
+      Institute (NCC), 1-1 Tsukiji 5-chome, Chuo-ku, Tokyo 104-0045, Japan
+FAU - Yoshioka, Yusuke
+AU  - Yoshioka Y
+AD  - Division of Molecular and Cellular Medicine, National Cancer Center Research
+      Institute (NCC), 1-1 Tsukiji 5-chome, Chuo-ku, Tokyo 104-0045, Japan
+FAU - Kikuchi, Hisae
+AU  - Kikuchi H
+AD  - Department of Degenerative Neurological Diseases, National Institute of
+      Neuroscience, NCNP, 4-1-1 Ogawa-Higashi, Kodaira, Tokyo 187-8502, Japan
+FAU - Odaka, Haruki
+AU  - Odaka H
+AD  - Department of Mental Disorder Research, National Institute of Neuroscience, NCNP,
+      4-1-1 Ogawa-Higashi, Kodaira, Tokyo 187-8502, Japan
+FAU - Numakawa, Tadahiro
+AU  - Numakawa T
+AD  - Department of Mental Disorder Research, National Institute of Neuroscience, NCNP,
+      4-1-1 Ogawa-Higashi, Kodaira, Tokyo 187-8502, Japan
+FAU - Kunugi, Hiroshi
+AU  - Kunugi H
+AD  - Department of Mental Disorder Research, National Institute of Neuroscience, NCNP,
+      4-1-1 Ogawa-Higashi, Kodaira, Tokyo 187-8502, Japan
+FAU - Ochiya, Takahiro
+AU  - Ochiya T
+AUID- ORCID: 0000-0002-0776-9918
+AD  - Division of Molecular and Cellular Medicine, National Cancer Center Research
+      Institute (NCC), 1-1 Tsukiji 5-chome, Chuo-ku, Tokyo 104-0045, Japan
+FAU - Tamai, Yoshitaka
+AU  - Tamai Y
+AD  - Division of Laboratory Animals Resources, National Institute of Neuroscience,
+      National Center of Neurology and Psychiatry (NCNP), 4-1-1 Ogawa-Higashi, Kodaira,
+      Tokyo 187-8502, Japan
+LA  - eng
+PT  - Journal Article
+GR  - 26830061
+PHST- 2016/11/24 [received]
+PHST- 2017/11/15 [accepted]
+TA  - Dis Model Mech
+JT  - Disease Models & Mechanisms
+AID - 10.1242/dmm.028779 [doi]
+AID - DMM028779 [pii]
+SO  - Dis Model Mech. 2018 Jan 1;11(1):. doi:10.1242/dmm.028779.
+
+PMC - PMC5888986
+PMID- 29206895
+IS  - 0006-8950 (Print)
+IS  - 1460-2156 (Electronic)
+VI  - 141
+IP  - 4
+DP  - 2018 Apr
+TI  - Minimally conscious state or cortically mediated state?
+PG  - 949-60
+AB  - The term ‘minimally conscious state’ (MCS) was introduced to describe complex
+      non-reflexive behaviours in the absence of functional communication. In a
+      critical review, Naccache argues that MCS criteria do not inform us about
+      residual consciousness, but do inform us with certainty about the presence of a
+      Cortically Mediated State (CMS).
+OAB - Publisher: Abstract available from the publisher.
+FAU - Naccache, Lionel
+AU  - Naccache L
+AD  - AP-HP, Groupe hospitalier Pitié-Salpêtrière, Department of Neurology, 75013,
+      Paris, France
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20171201
+PHST- 2017/07/27 [received]
+PHST- 2017/09/07 [revised]
+PHST- 2017/09/27 [accepted]
+PHST- 2017/12/01 [aheadofprint]
+TA  - Brain
+JT  - Brain
+AID - 10.1093/brain/awx324 [doi]
+AID - awx324 [pii]
+SO  - Brain. 2018 Apr;141(4):949-60. Epub 2017 Dec 01 doi:10.1093/brain/awx324.
+
+PMC - PMC5906423
+PMID- 31390421
+IS  - 0035-9149 (Print)
+IS  - 1743-0178 (Electronic)
+VI  - 72
+IP  - 1
+DP  - 2018 Mar 20
+TI  - Managing failure: Sir Peter Brian Medawar's transplantation research.
+PG  - 75-100
+AB  - Sir Peter Medawar experimentally demonstrated immunological tolerance through his
+      tissue transplantation experiment in the early and mid-1950s. He made a central
+      contribution to modern biomedicine by showing that genetically distinct cells
+      introduced into a body during its foetal phase could not only be permanently
+      tolerated but also make the host accept any subsequent skin grafts from the
+      original cell donors. However, this discovery had only a limited clinical
+      applicability. None could practise Medawar's method on human foetuses in
+      preparation for their future need for organ or skin transplantation. I analyse
+      this problem by focusing on his management of ‘failures’ during the tissue
+      transplantation experiments. Through statistical, material, theoretical and
+      rhetorical strategies, he managed unsatisfactory findings of his research,
+      including unexpected skin infection, sudden animal death and irregularities in
+      homograft survival times. I argue that these strategies and their inherent
+      ambiguities constituted the course of Medawar's research, enabling him to
+      delineate the temporal dimensions of tolerance and a clinical relevance, which
+      were mutually contradictory. This paper thus illustrates the multiple roles that 
+      failures play in scientific research as well as the conflicting outcomes of
+      investigators' efforts to manage them.
+FAU - Park, Hyung Wook
+AU  - Park HW
+LA  - eng
+PT  - Journal Article
+DEP - 20171122
+PHST- 2017/11/22 [aheadofprint]
+TA  - Notes Rec R Soc Lond
+JT  - Notes and Records of the Royal Society of London
+AID - 10.1098/rsnr.2017.0020 [doi]
+AID - rsnr20170020 [pii]
+SO  - Notes Rec R Soc Lond. 2018 Mar 20;72(1):75-100. Epub 2017 Nov 22
+      doi:10.1098/rsnr.2017.0020.
+
+PMC - PMC5714155
+PMID- 29276346
+IS  - 0967-0106 (Print)
+IS  - 1460-3640 (Electronic)
+VI  - 48
+IP  - 6
+DP  - 2017 Dec
+TI  - From performance to performativity: The legitimization of US security contracting
+      and its consequences.
+PG  - 541-59
+AB  - Discussions about the legitimacy of private security companies (PSCs) in
+      multilateral military interventions abound. This article looks at how the United 
+      States has sought to legitimize the outsourcing of security services to PSCs
+      through performance-based contracting and performance assessments. Both
+      mechanisms aim to demonstrate the effective provision of publicly desirable
+      outcomes. However, the immaterial and socially constructed nature of security
+      presents major problems for performance assessments in terms of observable and
+      measurable outcomes. Performance has therefore given way to performativity – that
+      is, the repetitive enactment of particular forms of behaviour and capabilities
+      that are simply equated with security as an outcome. The implications of this
+      development for the ways in which security has been conceptualized, implemented
+      and experienced within US interventions have been profound. Ironically, the
+      concern with performance has not encouraged PSCs to pay increased attention to
+      their impacts on security environments and civilian populations, but has fostered
+      a preoccupation with activities and measurable capabilities that can be easily
+      assessed by government auditors.
+FAU - Krahmann, Elke
+AU  - Krahmann E
+LA  - eng
+PT  - Journal Article
+DEP - 20171025
+TA  - Secur Dialogue
+JT  - Security Dialogue
+AID - 10.1177/0967010617722650 [doi]
+AID - 10.1177_0967010617722650 [pii]
+SO  - Secur Dialogue. 2017 Dec;48(6):541-59. Epub 2017 Oct 25
+      doi:10.1177/0967010617722650.
+
+PMC - PMC5637053
+PMID- 29020918
+IS  - 1471-2156 (Electronic)
+VI  - 18
+DP  - 2017
+TI  - Hox genes reveal genomic DNA variation in tetraploid hybrids derived from
+      Carassius auratus red var. (female) × Megalobrama amblycephala (male).
+LID - 86
+AB  - Background: Allotetraploid F1 hybrids (4nF1) (AABB, 4n = 148) were generated from
+      the distant hybridization of Carassius auratus red var. (RCC) (AA, 2n = 100) (♀) 
+      × Megalobrama amblycephala (BSB) (BB, 2n = 48) (♂). It has been reported that Hox
+      gene clusters are highly conserved among plants and vertebrates. In this study,
+      we investigated the genomic organization of Hox gene clusters in the
+      allotetraploid F1 hybrids and their parents to investigate the polyploidization
+      process. Results: There were three copies of Hox genes in the 4nF1 hybrids, two
+      copies in RCC and one copy in BSB. In addition, obvious variation and
+      pseudogenization were observed in some Hox genes from 4nF1. Conclusion: Our
+      results reveal the influence of polyploidization on the organization and
+      evolution of Hox gene clusters in fish and also clarify some aspects of
+      vertebrate genome evolution. Electronic supplementary material: The online
+      version of this article (10.1186/s12863-017-0550-2) contains supplementary
+      material, which is available to authorized users.
+FAU - Wang, Y. D.
+AU  - Wang YD
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Qin, Q. B.
+AU  - Qin QB
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Yang, R.
+AU  - Yang R
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Sun, W. Z.
+AU  - Sun WZ
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Liu, Q. W.
+AU  - Liu QW
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Huo, Y. Y.
+AU  - Huo YY
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Huang, X.
+AU  - Huang X
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Tao, M.
+AU  - Tao M
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Zhang, C.
+AU  - Zhang C
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Li, T.
+AU  - Li T
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+FAU - Liu, S. J.
+AU  - Liu SJ
+AD  - 0000 0001 0089 3695grid.411427.5State Key Laboratory of Developmental Biology of 
+      Freshwater Fish, Hunan Normal University, Changsha, 410081 Hunan People’s
+      Republic of China
+LA  - eng
+PT  - Journal Article
+DEP - 20171011
+GR  - Grant Nos. 31201987, 31430088, and 31210103918
+PHST- 2017/05/20 [received]
+PHST- 2017/09/13 [accepted]
+TA  - BMC Genet
+JT  - BMC Genetics
+AID - 550 [pii]
+AID - 10.1186/s12863-017-0550-2 [doi]
+SO  - BMC Genet. 2017 Oct 11;18:. doi:10.1186/s12863-017-0550-2.
+
+PMC - PMC5709530
+PMID- 29185262
+IS  - 2005-0380 (Print)
+IS  - 2005-0399 (Electronic)
+VI  - 29
+IP  - 1
+DP  - 2018 Jan
+TI  - Mutational analysis of KRAS and its clinical implications in cervical cancer
+      patients.
+LID - e4
+AB  - Objective: The predictive and prognostic role of KRAS mutations in cervical
+      cancer remains inconclusive. The aim of this study was to explore the
+      clinicopathological and prognostic relevance of KRAS mutations in invasive
+      cervical cancers (ICC). Methods: Reverse transcription polymerase chain reaction 
+      (PCR) and Sanger sequencing were employed to detect KRAS mutations in 876 ICC
+      patients. Quantitative real-time PCR was used to detect human papillomavirus
+      (HPV) 16 and HPV 18. Results: Non-synonymous mutations of KRAS were identified in
+      30 (3.4%) patients. These mutations were more common in non-squamous cell
+      carcinoma than in squamous cell carcinoma (SCC) (8.2% vs. 2.2%, respectively,
+      p<0.001) and were associated with HPV 18 infection (p=0.003). The prevalence of
+      mutations was highest (18.2%) in the uncommon histological subtypes followed by
+      adenocarcinoma (AC, 7.3%) and adenosquamous carcinoma (ASC, 5.8%). During the
+      median follow-up of 55 months, compared to patients with wild-type KRAS, a
+      greater percentage of patients with mutant KRAS relapsed (20.0% vs. 42.9%,
+      respectively, p=0.007). The 3-year relapse-free survival was poorer in patients
+      with mutant KRAS than in patients without KRAS mutations (57.1% vs. 81.9%,
+      respectively, p=0.001). Furthermore, the multivariate analysis showed that the
+      presence of a KRAS mutation was an independent predictor for disease recurrence
+      (hazard ratio [HR]=2.064; 95% confidence interval [CI]=1.125–3.787; p=0.019).
+      Conclusion: KRAS mutations were predominant in non-SCCs of the cervix and were
+      associated with HPV 18 infection. A combination of KRAS mutation detection and
+      HPV genotyping would be useful in identifying patient with poor prognosis for
+      further interventions.
+FAU - Jiang, Wei
+AU  - Jiang W
+AUID- ORCID: https://orcid.org/0000-0001-7683-5811
+AD  - Department of Gynecological Oncology, Fudan University Shanghai Cancer Center,
+      Fudan University, Shanghai, China.
+FAU - Xiang, Libing
+AU  - Xiang L
+AUID- ORCID: https://orcid.org/0000-0001-8009-6521
+AD  - Department of Gynecological Oncology, Fudan University Shanghai Cancer Center,
+      Fudan University, Shanghai, China.
+FAU - Pei, Xuan
+AU  - Pei X
+AUID- ORCID: https://orcid.org/0000-0002-4654-2222
+AD  - Department of Gynecological Oncology, Fudan University Shanghai Cancer Center,
+      Fudan University, Shanghai, China.
+FAU - He, Tiancong
+AU  - He T
+AUID- ORCID: https://orcid.org/0000-0002-5736-3617
+AD  - Department of Gynecological Oncology, Fudan University Shanghai Cancer Center,
+      Fudan University, Shanghai, China.
+FAU - Shen, Xuxia
+AU  - Shen X
+AUID- ORCID: https://orcid.org/0000-0003-2302-7188
+AD  - Department of Oncology, Shanghai Medical College, Fudan University, Shanghai,
+      China.
+FAU - Wu, Xiaohua
+AU  - Wu X
+AUID- ORCID: https://orcid.org/0000-0002-6889-3541
+AD  - Department of Gynecological Oncology, Fudan University Shanghai Cancer Center,
+      Fudan University, Shanghai, China.
+FAU - Yang, Huijuan
+AU  - Yang H
+AUID- ORCID: https://orcid.org/0000-0003-4569-6454
+AD  - Department of Gynecological Oncology, Fudan University Shanghai Cancer Center,
+      Fudan University, Shanghai, China.
+LA  - eng
+PT  - Journal Article
+DEP - 20170926
+GR  - 81572803/81502236
+PHST- 2017/06/22 [received]
+PHST- 2017/08/30 [revised]
+PHST- 2017/09/12 [accepted]
+PHST- 2017/09/26 [aheadofprint]
+TA  - J Gynecol Oncol
+JT  - Journal of Gynecologic Oncology
+AID - 10.3802/jgo.2018.29.e4 [doi]
+SO  - J Gynecol Oncol. 2018 Jan;29(1):. Epub 2017 Sep 26 doi:10.3802/jgo.2018.29.e4.
+
+PMC - PMC7169716
+PMID- 28868734
+IS  - 0041-1132 (Print)
+IS  - 1537-2995 (Electronic)
+VI  - 57
+IP  - Suppl 3
+DP  - 2017 Sep
+TI  - Abstract Presentations from the AABB Annual Meeting San Diego, CA ctober 7‐10,
+      2017.
+PG  - 3A-264A
+LA  - eng
+PT  - Journal Article
+DEP - 20170904
+TA  - Transfusion
+JT  - Transfusion
+AID - 10.1111/trf.14286 [doi]
+AID - TRF14286 [pii]
+SO  - Transfusion. 2017 Sep;57(Suppl 3):3A-264A. Epub 2017 Sep 04
+      doi:10.1111/trf.14286.
+
+PMC - PMC5613885
+PMID- 28817352
+IS  - 0022-0345 (Print)
+IS  - 1544-0591 (Electronic)
+VI  - 96
+IP  - 11
+DP  - 2017 Oct
+TI  - ARHGAP29 Mutation Is Associated with Abnormal Oral Epithelial Adhesions.
+PG  - 1298-305
+AB  - Nonsyndromic cleft lip and/or palate (NSCL/P) is a prevalent birth defect of
+      complex etiology. Previous studies identified mutations in ARHGAP29 associated
+      with an increased risk for NSCL/P. To investigate the effects of ARHGAP29 in
+      vivo, we generated a novel murine allele by inserting a point mutation identified
+      in a patient with NSCL/P. This single-nucleotide variation of ARHGAP29 translates
+      to an early nonsense mutation (K326X), presumably resulting in loss-of-function
+      (LoF). Embryos from Arhgap29K326X/+ intercrosses were harvested at various time
+      points. No homozygous Arhgap29K326X animals were found in the 45 analyzed
+      litters, assessed as early as embryonic day 8.5 (e8.5). Coronal sectioning of
+      e13.5 and e14.5 heads revealed that 59% of Arhgap29K326X/+ mice (n = 37)
+      exhibited improper epithelial contact between developing oral structures, while
+      none were observed in wild types (n = 10). In addition, Arhgap29K326X/+ embryos
+      exhibited a significantly higher percentage of maxillary epithelium in contact
+      with mandibular epithelium. Immunofluorescent analyses of the periderm and oral
+      adhesions revealed the presence of Arhgap29 in periderm cells. These cells were
+      p63 negative, keratin 17 positive, and keratin 6 positive and present at sites of
+      adhesion, although occasionally disorganized. Oral adhesions did not appear to
+      impair palatogenesis, as all analyzed Arhgap29K326X/+ embryos showed confluent
+      palatal mesenchyme and epithelium at e18.5 (n = 16), and no mice were found with 
+      a cleft at birth. Collectively, our data demonstrate that ARHGAP29 is required
+      for embryonic survival and that heterozygosity for LoF variants of Arhgap29
+      increases the incidence and length of oral adhesions at a critical time point
+      during orofacial development. In conclusion, we validate the LoF nature of the
+      human K326X mutation in vivo and reveal a previously unknown effect of Arhgap29
+      in murine craniofacial development.
+FAU - Paul, B.J.
+AU  - Paul B
+AD  - Department of Anatomy and Cell Biology, The University of Iowa, Iowa City, IA,
+      USA
+FAU - Palmer, K.
+AU  - Palmer K
+AD  - The Jackson Laboratory, Bar Harbor, ME, USA
+FAU - Sharp, J.C.
+AU  - Sharp J
+AD  - The Jackson Laboratory, Bar Harbor, ME, USA
+FAU - Pratt, C.H.
+AU  - Pratt C
+AD  - The Jackson Laboratory, Bar Harbor, ME, USA
+FAU - Murray, S.A.
+AU  - Murray S
+AD  - The Jackson Laboratory, Bar Harbor, ME, USA
+FAU - Dunnwald, M.
+AU  - Dunnwald M
+AD  - Department of Anatomy and Cell Biology, The University of Iowa, Iowa City, IA,
+      USA
+LA  - eng
+PT  - Journal Article
+DEP - 20170817
+GR  - Fellowship, B.P.
+TA  - J Dent Res
+JT  - Journal of Dental Research
+AID - 10.1177/0022034517726079 [doi]
+AID - 10.1177_0022034517726079 [pii]
+SO  - J Dent Res. 2017 Oct;96(11):1298-305. Epub 2017 Aug 17
+      doi:10.1177/0022034517726079.
+
+PMC - PMC5513539
+PMID- 28715455
+IS  - 1932-6203 (Electronic)
+VI  - 12
+IP  - 7
+DP  - 2017
+TI  - Synthetic melanin bound to subunit vaccine antigens significantly enhances CD8+
+      T-cell responses.
+LID - e0181403
+AB  - Cytotoxic T-lymphocytes (CTLs) play a key role in immunity against cancer;
+      however, the induction of CTL responses with currently available vaccines remains
+      difficult. Because several reports have suggested that pigmentation and immunity 
+      might be functionally linked, we investigated whether melanin can act as an
+      adjuvant in vaccines. Short synthetic peptides (8–35 amino acids long) containing
+      T-cell epitopes were mixed with a solution of L-Dopa, a precursor of melanin. The
+      mixture was then oxidized to generate nanoparticles of melanin-bound peptides.
+      Immunization with melanin-bound peptides efficiently triggered CTL responses in
+      mice, even against self-antigens and at a very low dose of peptides (microgram
+      range). Immunization against a tumor antigen inhibited the growth of established 
+      tumors in mice, an effect that was abrogated by the depletion of CD8+
+      lymphocytes. These results demonstrate the efficacy of melanin as a vaccine
+      adjuvant.
+FAU - Carpentier, Antoine F.
+AU  - Carpentier AF
+AUID- ORCID: 0000-0003-2926-0060
+AD  - Université Paris 13, Sorbonne Paris Cité, Bobigny, France
+FAU - Geinguenaud, Frédéric
+AU  - Geinguenaud F
+AD  - Laboratoire CSPBAT, CNRS UMR 7244 UFR SMBH, Université Paris 13, Sorbonne Paris
+      Cité, Bobigny, France
+FAU - Tran, Thi
+AU  - Tran T
+AD  - INSERM U970, Université Paris Descartes, Sorbonne Paris-Cité. Equipe Labellisée
+      Ligue Contre le Cancer, Hôpital Européen Georges Pompidou, Paris, France
+FAU - Sejalon, Floraly
+AU  - Sejalon F
+AD  - Laboratoire de Recherches Biochirurgicales, Université Paris Descartes, Hôpital
+      Européen Georges Pompidou, Paris, France
+FAU - Martin, Antoine
+AU  - Martin A
+AD  - Service d’Anatomie et Cytologie Pathologiques, Hôpital Avicenne, Assistance
+      Publique-Hôpitaux de Paris (AP-HP), INSERM U978, Université Paris 13, Sorbonne
+      Paris Cité, Bobigny, France
+FAU - Motte, Laurence
+AU  - Motte L
+AD  - INSERM U1148, Laboratory for Vascular Translational Science, UFR SMBH, Université
+      Paris 13, Sorbonne Paris Cité, Bobigny, France
+FAU - Tartour, Eric
+AU  - Tartour E
+AD  - INSERM U970, Université Paris Descartes, Sorbonne Paris-Cité. Equipe Labellisée
+      Ligue Contre le Cancer, Hôpital Européen Georges Pompidou, Paris, France
+FAU - Banissi, Claire
+AU  - Banissi C
+AD  - Laboratoire de Recherches Biochirurgicales, Université Paris Descartes, Hôpital
+      Européen Georges Pompidou, Paris, France
+LA  - eng
+PT  - Journal Article
+DEP - 20170717
+PHST- 2016/12/30 [received]
+PHST- 2017/07/02 [accepted]
+TA  - PLoS One
+JT  - PLoS ONE
+AID - 10.1371/journal.pone.0181403 [doi]
+AID - PONE-D-16-51502 [pii]
+SO  - PLoS One. 2017 Jul 17;12(7):. doi:10.1371/journal.pone.0181403.
+
+PMC - PMC5493857
+PMID- 28668086
+IS  - 1744-8603 (Electronic)
+VI  - 13
+DP  - 2017
+TI  - The (Mis)appropriation of HIV/AIDS advocacy strategies in Global Mental Health:
+      towards a more nuanced approach.
+LID - 44
+AB  - Background: Mental health is increasingly finding a place on global health and
+      international development agendas. Advocates for Global Mental Health (GMH), and 
+      international organizations such as the World Health Organization (WHO) and the
+      World Bank, argue that treatments available in high-income countries should also 
+      be made available in low- and middle-income countries. Such arguments are often
+      made by comparing mental health to infectious diseases, including the relative
+      disease and economic burdens they impose, and pointing to the applicability of
+      the right to access treatment for mental health, not only infectious diseases.
+      HIV/AIDS advocacy in particular has been held up by GMH advocates as offering an 
+      appropriate strategy for generating global commitment. Discussion: There is a
+      need to assess how health issues are framed not only in relation to social goods 
+      outside of health (such as human rights, security or development), but also in
+      relation to other health or disease models, and how health policy and practice is
+      shaped as a result. The article debates the merits and consequences of likening
+      mental health to HIV/AIDS, and identifies four major problems with the model for 
+      GMH advocacy being developed through these analogies: 1. An inappropriately
+      universalizing global approach to context-specific problems; 2. A conception of
+      human rights that focuses on the right to access treatment at the expense of the 
+      right to refuse it; 3. A tendency to treat poverty as a psychiatric issue, rather
+      than recognizing that mental distress can be the result of poverty and other
+      forms of inequality; 4. The prioritization of destigmatization of disease over
+      social justice models. Conclusion: There are significant problems with the
+      wholesale adoption of an (often simplified) version of HIV/AIDS advocacy as a
+      model for GMH. Yet critical engagement with the important and nuanced differences
+      between HIV/AIDS and mental health may nevertheless point to some possibilities
+      for productive engagement and cross-fertilisation between advocates, activists
+      and scholars in both fields.
+FAU - Howell, Alison
+AU  - Howell A
+AD  - 0000 0004 1936 8796grid.430387.bDepartment of Political Science, Rutgers
+      University, Newark, USA
+FAU - Mills, China
+AU  - Mills C
+AUID- ORCID: 0000-0003-0615-234X
+AD  - 0000 0004 1936 9262grid.11835.3eSchool of Education, University of Sheffield,
+      Sheffield, UK
+FAU - Rushton, Simon
+AU  - Rushton S
+AD  - 0000 0004 1936 9262grid.11835.3eDepartment of Politics, University of Sheffield, 
+      Sheffield, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20170701
+PHST- 2017/03/29 [received]
+PHST- 2017/06/11 [accepted]
+TA  - Global Health
+JT  - Globalization and Health
+AID - 263 [pii]
+AID - 10.1186/s12992-017-0263-3 [doi]
+SO  - Global Health. 2017 Jul 1;13:. doi:10.1186/s12992-017-0263-3.
+
+PMC - PMC5431418
+PMID- 28473715
+IS  - 2045-2322 (Electronic)
+VI  - 7
+DP  - 2017
+TI  - Rationally co-targeting divergent pathways in KRAS wild-type colorectal cancers
+      by CANscript technology reveals tumor dependence on Notch and Erbb2.
+LID - 1502
+AB  - KRAS mutation status can distinguish between metastatic colorectal carcinoma
+      (mCRC) patients who may benefit from therapies that target the epidermal growth
+      factor receptor (EGFR), such as cetuximab. However, patients whose tumors harbor 
+      mutant KRAS (codons 12/13, 61 and 146) are often excluded from EGFR-targeted
+      regimens, while other patients with wild type KRAS will sometimes respond
+      favorably to these same drugs. These conflicting observations suggest that a more
+      robust approach to individualize therapy may enable greater frequency of positive
+      clinical outcome for mCRC patients. Here, we utilized alive tumor tissues in
+      ex-vivo platform termed CANscript, which preserves the native tumor
+      heterogeneity, in order to interrogate the antitumor effects of EGFR-targeted
+      drugs in mCRC (n = 40). We demonstrated that, irrespective of KRAS status,
+      cetuximab did not induce an antitumor response in a majority of patient tumors.
+      In the subset of non-responsive tumors, data showed that expression levels of
+      EGFR ligands contributed to a mechanism of resistance. Transcriptomic and
+      phosphoproteomic profiling revealed deregulation of multiple pathways,
+      significantly the Notch and Erbb2. Targeting these nodes concurrently resulted in
+      antitumor efficacy in a majority of cetuximab-resistant tumors. These findings
+      highlight the importance of integrating molecular profile and functional testing 
+      tools for optimization of alternate strategies in resistant population.
+FAU - Brijwani, Nilesh
+AU  - Brijwani N
+AD  - Division of Molecular Profiling, Mitra Biotech, Bangalore, Karnataka, 560099
+      India
+FAU - Jain, Misti
+AU  - Jain M
+AD  - Division of Molecular Profiling, Mitra Biotech, Bangalore, Karnataka, 560099
+      India
+FAU - Dhandapani, Muthu
+AU  - Dhandapani M
+AD  - grid.429715.cDivision of Cancer Biology, Mitra Biotech, Bangalore, Karnataka
+      560099 India
+FAU - Zahed, Farrah
+AU  - Zahed F
+AD  - Division of Molecular Profiling, Mitra Biotech, Bangalore, Karnataka, 560099
+      India
+FAU - Mukhopadhyay, Pragnashree
+AU  - Mukhopadhyay P
+AD  - grid.429715.cDivision of Molecular Pathology, Mitra Biotech, Bangalore, Karnataka
+      560099 India
+FAU - Biswas, Manjusha
+AU  - Biswas M
+AD  - grid.429715.cDivision of Molecular Pathology, Mitra Biotech, Bangalore, Karnataka
+      560099 India
+FAU - Khatri, Deepak
+AU  - Khatri D
+AD  - grid.429715.cDivision of Cancer Biology, Mitra Biotech, Bangalore, Karnataka
+      560099 India
+FAU - Radhakrishna, Vinod D.
+AU  - Radhakrishna VD
+AD  - grid.429715.cDivision of Oncology Pharmacology, Mitra Biotech, Bangalore,
+      Karnataka 560099 India
+FAU - Majumder, Biswanath
+AU  - Majumder B
+AD  - grid.429715.cDivision of Molecular Pathology, Mitra Biotech, Bangalore, Karnataka
+      560099 India
+FAU - Radhakrishnan, Padhma
+AU  - Radhakrishnan P
+AD  - Division of Cancer Biology, Mitra Biotech Inc., Woburn, 01801 MA USA
+FAU - Thiyagarajan, Saravanan
+AU  - Thiyagarajan S
+AD  - grid.429715.cDivision of Cancer Biology, Mitra Biotech, Bangalore, Karnataka
+      560099 India
+LA  - eng
+PT  - Journal Article
+DEP - 20170504
+PHST- 2016/08/17 [received]
+PHST- 2017/03/29 [accepted]
+TA  - Sci Rep
+JT  - Scientific Reports
+AID - 1566 [pii]
+AID - 10.1038/s41598-017-01566-x [doi]
+SO  - Sci Rep. 2017 May 4;7:. doi:10.1038/s41598-017-01566-x.
+
+PMC - PMC5410019
+PMID- 28465723
+IS  - 1755-8166 (Electronic)
+VI  - 10
+DP  - 2017
+TI  - A case with concurrent duplication, triplication, and uniparental isodisomy at
+      1q42.12-qter supporting microhomology-mediated break-induced replication model
+      for replicative rearrangements.
+LID - 15
+AB  - Background: Complex genomic rearrangements (CGRs) consisting of interstitial
+      triplications in conjunction with uniparental isodisomy (isoUPD) have rarely been
+      reported in patients with multiple congenital anomalies (MCA)/intellectual
+      disability (ID). One-ended DNA break repair coupled with microhomology-mediated
+      break-induced replication (MMBIR) has been recently proposed as a possible
+      mechanism giving rise to interstitial copy number gains and distal isoUPD,
+      although only a few cases providing supportive evidence in human congenital
+      diseases with MCA have been documented. Case presentation: Here, we report on the
+      chromosomal microarray (CMA)-based identification of the first known case with
+      concurrent interstitial duplication at 1q42.12-q42.2 and triplication at
+      1q42.2-q43 followed by isoUPD for the remainder of chromosome 1q (at 1q43-qter). 
+      In distal 1q duplication/triplication overlapping with 1q42.12-q43, variable
+      clinical features have been reported, and our 25-year-old patient with MCA/ID
+      presented with some of these frequently described features. Further analyses
+      including the precise mapping of breakpoint junctions within the CGR in a
+      sequence level suggested that the CGR found in association with isoUPD in our
+      case is a triplication with flanking duplications, characterized as a
+      triplication with a particularly long duplication-inverted
+      triplication-duplication (DUP-TRP/INV-DUP) structure. Because microhomology was
+      observed in both junctions between the triplicated region and the flanking
+      duplicated regions, our case provides supportive evidence for recently proposed
+      replication-based mechanisms, such as MMBIR, underlying the formation of
+      CGRs + isoUPD implicated in chromosomal disorders. Conclusions: To the best of
+      our knowledge, this is the first case of CGRs + isoUPD observed in 1q and having 
+      DUP-TRP/INV-DUP structure with a long proximal duplication, which supports
+      MMBIR-based model for genomic rearrangements. Molecular cytogenetic analyses
+      using CMA containing single-nucleotide polymorphism probes with further analyses 
+      of the breakpoint junctions are recommended in cases suspected of having complex 
+      chromosomal abnormalities based on discrepancies between clinical and
+      conventional cytogenetic findings. Electronic supplementary material: The online 
+      version of this article (doi:10.1186/s13039-017-0316-6) contains supplementary
+      material, which is available to authorized users.
+FAU - Kohmoto, Tomohiro
+AU  - Kohmoto T
+AD  - 0000 0001 1092 3579grid.267335.6Department of Human Genetics, Graduate School of 
+      Biomedical Sciences, Tokushima University, 3-18-15 Kuramoto-cho, Tokushima,
+      770-8503 Japan
+FAU - Okamoto, Nana
+AU  - Okamoto N
+AD  - 0000 0001 1092 3077grid.31432.37Department of Oral and Maxillofacial Surgery,
+      Kobe University Graduate School of Medicine, 7-5-1 Kusunoki-cho, Chuo-ku, Kobe,
+      Hyogo 650-0017 Japan
+FAU - Naruto, Takuya
+AU  - Naruto T
+AD  - 0000 0001 1092 3579grid.267335.6Department of Human Genetics, Graduate School of 
+      Biomedical Sciences, Tokushima University, 3-18-15 Kuramoto-cho, Tokushima,
+      770-8503 Japan
+FAU - Murata, Chie
+AU  - Murata C
+AD  - 0000 0001 1092 3579grid.267335.6Department of Human Genetics, Graduate School of 
+      Biomedical Sciences, Tokushima University, 3-18-15 Kuramoto-cho, Tokushima,
+      770-8503 Japan
+FAU - Ouchi, Yuya
+AU  - Ouchi Y
+AD  - 0000 0004 1761 798Xgrid.256115.4Division of Molecular Genetics, Institute for
+      Comprehensive Medical Science, Fujita Health University, 1-98 Dengakugakubo
+      Kutsukake-cho, Toyoake, Aichi 470-1192 Japan
+FAU - Fujita, Naoko
+AU  - Fujita N
+AD  - 0000 0004 1761 798Xgrid.256115.4Division of Molecular Genetics, Institute for
+      Comprehensive Medical Science, Fujita Health University, 1-98 Dengakugakubo
+      Kutsukake-cho, Toyoake, Aichi 470-1192 Japan
+FAU - Inagaki, Hidehito
+AU  - Inagaki H
+AD  - 0000 0004 1761 798Xgrid.256115.4Division of Molecular Genetics, Institute for
+      Comprehensive Medical Science, Fujita Health University, 1-98 Dengakugakubo
+      Kutsukake-cho, Toyoake, Aichi 470-1192 Japan
+FAU - Satomura, Shigeko
+AU  - Satomura S
+AD  - Japanese Red Cross Tokushima Hinomine Rehabilitation Center for People with
+      Disabilities, 4-1 Shinkai Chuden-cho, Komatsushima, Tokushima 773-0015 Japan
+FAU - Okamoto, Nobuhiko
+AU  - Okamoto N
+AD  - 0000 0004 0377 2137grid.416629.eDepartment of Medical Genetics, Osaka Medical
+      Center and Research Institute for Maternal and Child Health, 840 Murodo-cho,
+      Izumi, Osaka 594-1101 Japan
+FAU - Saito, Masako
+AU  - Saito M
+AD  - 0000 0001 1092 3579grid.267335.6Department of Human Genetics, Graduate School of 
+      Biomedical Sciences, Tokushima University, 3-18-15 Kuramoto-cho, Tokushima,
+      770-8503 Japan
+FAU - Masuda, Kiyoshi
+AU  - Masuda K
+AD  - 0000 0001 1092 3579grid.267335.6Department of Human Genetics, Graduate School of 
+      Biomedical Sciences, Tokushima University, 3-18-15 Kuramoto-cho, Tokushima,
+      770-8503 Japan
+FAU - Kurahashi, Hiroki
+AU  - Kurahashi H
+AD  - 0000 0004 1761 798Xgrid.256115.4Division of Molecular Genetics, Institute for
+      Comprehensive Medical Science, Fujita Health University, 1-98 Dengakugakubo
+      Kutsukake-cho, Toyoake, Aichi 470-1192 Japan
+FAU - Imoto, Issei
+AU  - Imoto I
+AUID- ORCID: 0000-0002-4150-7938
+AD  - 0000 0001 1092 3579grid.267335.6Department of Human Genetics, Graduate School of 
+      Biomedical Sciences, Tokushima University, 3-18-15 Kuramoto-cho, Tokushima,
+      770-8503 Japan
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20170428
+GR  - 26293304
+PHST- 2017/03/15 [received]
+PHST- 2017/04/21 [accepted]
+TA  - Mol Cytogenet
+JT  - Molecular Cytogenetics
+AID - 316 [pii]
+AID - 10.1186/s13039-017-0316-6 [doi]
+SO  - Mol Cytogenet. 2017 Apr 28;10:. doi:10.1186/s13039-017-0316-6.
+
+PMC - PMC5379139
+PMID- 28208155
+IS  - 0007-0920 (Print)
+IS  - 1532-1827 (Electronic)
+VI  - 116
+IP  - 7
+DP  - 2017 Mar 28
+TI  - PET/MR in invasive ductal breast cancer: correlation between imaging markers and 
+      histological phenotype.
+PG  - 893-902
+AB  - Background:: Differences in genetics and receptor expression (phenotypes) of
+      invasive ductal breast cancer (IDC) impact on prognosis and treatment response.
+      Immunohistochemistry (IHC), the most used technique for IDC phenotyping, has some
+      limitations including its invasiveness. We explored the possibility of
+      contrast-enhanced positron emission tomography magnetic resonance (CE-FDG PET/MR)
+      to discriminate IDC phenotypes. Methods:: 21 IDC patients with IHC assessment of 
+      oestrogen receptor (ER), progesterone receptor (PR), human epidermal growth
+      factor-2 (HER2), and antigen Ki-67 (Ki67) underwent CE-FDG PET/MR. Magnetic
+      resonance-perfusion biomarkers, apparent diffusion coefficient (ADC), and
+      standard uptake value (SUV) were compared with IHC markers and phenotypes, using 
+      a Student's t-test and one-way ANOVA. Results:: ER/PR− tumours demonstrated
+      higher Kepmean and SUVmax than ER or PR+ tumours. HER2− tumours displayed higher 
+      ADCmean, Kepmean, and SUVmax than HER2+tumours. Only ADCmean discriminated
+      Ki67⩽14% tumours (lower ADCmean) from Ki67>14% tumours. PET/MR biomarkers
+      correlated with IHC phenotype in 13 out of 21 patients (62% P=0.001).
+      Conclusions:: Positron emission tomography magnetic resonance might
+      non-invasively help discriminate IDC phenotypes, helping to optimise individual
+      therapy options.
+FAU - Catalano, Onofrio Antonio
+AU  - Catalano OA
+AD  - Martinos Center for Biomedical Imaging, Harvard Medical School, Massachusetts
+      General Hospital, 149 13th Street, Charlestown, MA 02129, USA
+FAU - Horn, Gary Lloyd
+AU  - Horn GL
+AD  - Department of Radiology, University of Texas Medical Branch, 301 University
+      Boulevard, Galveston, TX 77555, USA
+FAU - Signore, Alberto
+AU  - Signore A
+AD  - Nuclear Medicine Unit, University of Rome ‘La Sapienza', Viale del Policlinico 5,
+      Rome 00161, Italy
+FAU - Iannace, Carlo
+AU  - Iannace C
+AD  - Breast Unit, Ospedale Moscati, Avellino 83010, Italy
+FAU - Lepore, Maria
+AU  - Lepore M
+AD  - Department of Pathology, Ospedale Moscati, Avellino 83010, Italy
+FAU - Vangel, Mark
+AU  - Vangel M
+AD  - Department of Biostatistics, Martinos Center for Biomedical Imaging, Harvard
+      Medical School, Massachusetts General Hospital, 149 13th Street, Charlestown, MA 
+      02129, USA
+FAU - Luongo, Angelo
+AU  - Luongo A
+AD  - Department of Radiology, Gamma Cord, Benevento 82100, Italy
+FAU - Catalano, Marco
+AU  - Catalano M
+AD  - Department of Radiology, University of Naples ‘Federico II', Napoli 80131, Italy
+FAU - Lehman, Constance
+AU  - Lehman C
+AD  - Breast Imaging, Massachusetts General Hospital, Harvard Medical School, 55 Fruit 
+      Street, Boston, MA 02114, USA
+FAU - Salvatore, Marco
+AU  - Salvatore M
+AD  - Diagnostic Imaging, SDN, Via Gianturco 113, Napoli 80131, Italy
+FAU - Soricelli, Andrea
+AU  - Soricelli A
+AD  - Diagnostic Imaging, University of Naples ‘Parthenope', Napoli 80131, Italy
+FAU - Catana, Ciprian
+AU  - Catana C
+AD  - Department of Radiology, Martinos Center for Biomedical Imaging, Harvard Medical 
+      School, Massachusetts General Hospital, 149 13th Street, Charlestown, MA 02129,
+      USA
+FAU - Mahmood, Umar
+AU  - Mahmood U
+AD  - Precision Medicine and Radiology, Harvard Medical School, Martinos Center for
+      Biomedical Imaging, Massachusetts General Hospital, 149 13th Street, Charlestown,
+      MA 02129, USA
+FAU - Rosen, Bruce Robert
+AU  - Rosen BR
+AD  - Department of Radiology, Martinos Center for Biomedical Imaging, Harvard Medical 
+      School, Massachusetts General Hospital, 149 13th Street, Charlestown, MA 02129,
+      USA
+LA  - eng
+PT  - Journal Article
+DEP - 20170216
+PHST- 2017/01/01 [received]
+PHST- 2017/01/13 [revised]
+PHST- 2017/01/18 [accepted]
+PHST- 2017/02/16 [aheadofprint]
+TA  - Br J Cancer
+JT  - British Journal of Cancer
+AID - bjc201726 [pii]
+AID - 10.1038/bjc.2017.26 [doi]
+SO  - Br J Cancer. 2017 Mar 28;116(7):893-902. Epub 2017 Feb 16
+      doi:10.1038/bjc.2017.26.
+
+PMC - PMC5476365
+PMID- 28099423
+IS  - 0031-3998 (Print)
+IS  - 1530-0447 (Electronic)
+VI  - 81
+IP  - 6
+DP  - 2017 Jun
+TI  - High-Dose Erythropoietin Population Pharmacokinetics in Neonates with
+      Hypoxic-Ischemic Encephalopathy Receiving Hypothermia.
+PG  - 865-72
+AB  - Background: High-dose erythropoietin (Epo) is a promising neuroprotective
+      treatment in neonates with hypoxic ischemic encephalopathy (HIE) receiving
+      hypothermia. We evaluated the pharmacokinetics and dose-exposure relationships of
+      high-dose Epo in this population to inform future dosing strategies. Methods: We 
+      performed a population pharmacokinetic analysis of 47 neonates with HIE treated
+      with hypothermia who received up to 6 doses of Epo in two previous clinical
+      trials. We compared the ability of different dosing regimens to achieve the
+      target neuroprotective Epo exposure levels determined from animal models of
+      hypoxic-ischemia (i.e., area under the curve during the first 48 hours of
+      treatment [AUC48h] 140,000 mU*h/ml). Results: Birth weight scaled via allometry
+      was a significant predictor of Epo clearance and volume of distribution
+      (p<0.001). After accounting for birth weight, variation in Epo pharmacokinetics
+      between neonates was low (CV% 20%). All 23 neonates who received 1000 U/kg every 
+      24 h for the first 2 days of therapy achieved the target AUC48h 140,000 mU*h/ml. 
+      No neonate who received a lower dosing regimen achieved this target. Conclusions:
+      In neonates with HIE receiving hypothermia, Epo 1000 U/kg every 24 hours for the 
+      first 2 days of therapy resulted in consistent achievement of target exposures
+      associated with neuroprotection in animal models.
+FAU - Frymoyer, Adam
+AU  - Frymoyer A
+AD  - Department of Pediatrics, Stanford University
+FAU - Juul, Sandra E.
+AU  - Juul SE
+AD  - Department of Pediatrics, University of Washington, Seattle, Washington
+FAU - Massaro, An N.
+AU  - Massaro AN
+AD  - Department of Neonatology, Children’s National Health Systems, Washington DC
+FAU - Bammler, Theo K
+AU  - Bammler TK
+AD  - Department of Environmental and Occupational Health Sciences, University of
+      Washington, Seattle, Washington
+FAU - Wu, Yvonne W.
+AU  - Wu YW
+AD  - Department of Neurology, University of California, San Francisco, California
+LA  - eng
+PT  - Journal Article
+DEP - 20170118
+TA  - Pediatr Res
+JT  - Pediatric research
+AID - 10.1038/pr.2017.15 [doi]
+MID - NIHMS849261
+SO  - Pediatr Res. 2017 Jun;81(6):865-72. Epub 2017 Jan 18 doi:10.1038/pr.2017.15.
+
+PMC - PMC5204124
+PMID- 27927793
+IS  - 2046-2441 (Electronic)
+VI  - 6
+IP  - 12
+DP  - 2016 Dec
+TI  - Tumour biomarkers: homeostasis as a novel prognostic indicator.
+LID - 160254
+AB  - The term ‘personalized medicine’ refers to a medical procedure that consists in
+      the grouping of patients based on their predicted individual response to therapy 
+      or risk of disease. In oncologic patients, a ‘tailored’ therapeutic approach may 
+      potentially improve their survival and well-being by not only reducing the
+      tumour, but also enhancing therapeutic response and minimizing the adverse
+      effects. Diagnostic tests are often used to select appropriate and optimal
+      therapies that rely both on patient genome and other molecular/cellular analysis.
+      Several studies have shown that lifestyle and environmental factors can influence
+      the epigenome and that epigenetic events may be involved in carcinogenesis. Thus,
+      in addition to traditional biomarkers, epigenetic factors are raising
+      considerable interest, because they could potentially be used as an excellent
+      tool for cancer diagnosis and prognosis. In this review, we summarize the role of
+      conventional cancer genetic biomarkers and their association with epigenomics.
+      Furthermore, we will focus on the so-called ‘homeostatic biomarkers’ that result 
+      from the physiological response to cancer, emphasizing the concept that an
+      altered ‘new’ homeostasis influence not only tumour environment, but also the
+      whole organism.
+FAU - Falco, Michela
+AU  - Falco M
+AD  - Struttura Semplice Dipartimentale Sperimentazione Animale, Istituto Nazionale
+      Tumori ‘Fondazione G. Pascale’, IRCCS, Via Mariano Semmola, 80131 Naples, Italy
+FAU - Palma, Giuseppe
+AU  - Palma G
+AD  - Struttura Semplice Dipartimentale Sperimentazione Animale, Istituto Nazionale
+      Tumori ‘Fondazione G. Pascale’, IRCCS, Via Mariano Semmola, 80131 Naples, Italy
+FAU - Rea, Domenica
+AU  - Rea D
+AD  - Struttura Semplice Dipartimentale Sperimentazione Animale, Istituto Nazionale
+      Tumori ‘Fondazione G. Pascale’, IRCCS, Via Mariano Semmola, 80131 Naples, Italy
+FAU - De Biase, Davide
+AU  - De Biase D
+AD  - Department of Veterinary Medicine and Animal Production, University of Naples
+      ‘Federico II’, Via Delpino 1, 80137 Naples, Italy
+FAU - Scala, Stefania
+AU  - Scala S
+AD  - Molecular lmmunology and Immuneregulation, Istituto Nazionale per lo Studio e la 
+      Cura dei Tumori, IRCCS Naples ‘Fondazione G. Pascale’, Naples, italy, Istituto
+      Nazionale Tumori ‘Fondazione G. Pascale’, IRCCS, Via Mariano Semmola, 80131
+      Naples, Italy
+FAU - D'Aiuto, Massimiliano
+AU  - D'Aiuto M
+AD  - Division of Breast Surgery, Department of Breast Disease, National Cancer
+      Institute, IRCCS, ‘Fondazione Pascale’, Naples, Italy
+FAU - Facchini, Gaetano
+AU  - Facchini G
+AD  - Division of Medical Oncology, Department of Uro-Gynaecological Oncology, ,
+      Istituto Nazionale per lo Studio e la Cura dei Tumori ‘Fondazione G. Pascale’,
+      IRCCS, 80131 Naples, Italy
+FAU - Perdonà, Sisto
+AU  - Perdonà S
+AD  - Department of Urology, Istituto Nazionale per lo Studio e la Cura dei Tumori
+      ‘Fondazione G. Pascale’, IRCCS, 80131 Naples, Italy
+FAU - Barbieri, Antonio
+AU  - Barbieri A
+AD  - Struttura Semplice Dipartimentale Sperimentazione Animale, Istituto Nazionale
+      Tumori ‘Fondazione G. Pascale’, IRCCS, Via Mariano Semmola, 80131 Naples, Italy
+FAU - Arra, Claudio
+AU  - Arra C
+AUID- ORCID: 0000-0003-3162-2091
+AD  - Struttura Semplice Dipartimentale Sperimentazione Animale, Istituto Nazionale
+      Tumori ‘Fondazione G. Pascale’, IRCCS, Via Mariano Semmola, 80131 Naples, Italy
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20161207
+PHST- 2016/09/08 [received]
+PHST- 2016/11/10 [accepted]
+TA  - Open Biol
+JT  - Open Biology
+AID - 10.1098/rsob.160254 [doi]
+AID - rsob160254 [pii]
+SO  - Open Biol. 2016 Dec 7;6(12):. doi:10.1098/rsob.160254.
+
+PMC - PMC5356820
+PMID- 27911859
+IS  - 1949-2553 (Electronic)
+VI  - 8
+IP  - 2
+DP  - 2017 Jan 10
+TI  - KRAS exon 2 codon 13 mutation is associated with a better prognosis than codon 12
+      mutation following lung metastasectomy in colorectal cancer.
+PG  - 2514-24
+AB  - Introduction: The utilization of molecular markers as routinely used biomarkers
+      is steadily increasing. We aimed to evaluate the potential different prognostic
+      values of KRAS exon 2 codons 12 and 13 after lung metastasectomy in colorectal
+      cancer (CRC). Results: KRAS codon 12 mutations were observed in 116 patients
+      (77%), whereas codon 13 mutations were observed in 34 patients (23%). KRAS codon 
+      13 mutations were associated with both longer time to pulmonary recurrence (TTPR)
+      (median TTPR: 78 months (95% CI: 50.61–82.56) vs 56 months (95% CI:
+      68.71–127.51), P = 0.008) and improved overall survival (OS) (median OS: 82
+      months vs 54 months (95% CI: 48.93–59.07), P = 0.009). Multivariate analysis
+      confirmed that codon 13 mutations were associated with better outcomes (TTPR: HR:
+      0.40 (95% CI: 0.17–0.93), P = 0.033); OS: HR: 0.39 (95% CI: 0.14–1.07), P =
+      0.07). Otherwise, no significant difference in OS (P = 0.78) or TTPR (P = 0.72)
+      based on the type of amino-acid substitutions was observed among KRAS codon 12
+      mutations. Materials and Methods: We retrospectively reviewed data from 525
+      patients who underwent a lung metastasectomy for CRC in two departments of
+      thoracic surgery from 1998 to 2015 and focused on 150 patients that had KRAS exon
+      2 codon 12/13 mutations. Conclusions: KRAS: exon 2 codon 13 mutations, compared
+      to codon 12 mutations, seem to be associated with better outcomes following lung 
+      metastasectomy in CRC. Prospective multicenter studies are necessary to fully
+      understand the prognostic value of KRAS mutations in the lung metastases of CRC.
+FAU - Renaud, Stéphane
+AU  - Renaud S
+AD  - Department of Thoracic Surgery, Strasbourg University Hospital, Strasbourg,
+      France
+FAU - Guerrera, Francesco
+AU  - Guerrera F
+AD  - Department of Thoracic Surgery, Strasbourg University Hospital, Strasbourg,
+      France
+FAU - Seitlinger, Joseph
+AU  - Seitlinger J
+AD  - Department of Thoracic Surgery, Strasbourg University Hospital, Strasbourg,
+      France
+FAU - Costardi, Lorena
+AU  - Costardi L
+AD  - Department of Thoracic Surgery, Azienda Ospedaliera Universitaria Città della
+      Salute e della Scienza di Torino, Torino, Italy
+FAU - Schaeffer, Mickaël
+AU  - Schaeffer M
+AD  - Department of Biostatistics, Strasbourg University Hospital, Strasbourg, France
+FAU - Romain, Benoit
+AU  - Romain B
+AD  - Research Unit EA3430, Tumoral Progression and Micro-Environment, Epidemiological 
+      and Translational Approaches, Strasbourg University, Strasbourg, France
+FAU - Mossetti, Claudio
+AU  - Mossetti C
+AD  - Department of Thoracic Surgery, Azienda Ospedaliera Universitaria Città della
+      Salute e della Scienza di Torino, Torino, Italy
+FAU - Claire-Voegeli, Anne
+AU  - Claire-Voegeli A
+AD  - Department of Molecular Biology, Strasbourg University Hospital, Strasbourg,
+      France
+FAU - Filosso, Pier Luigi
+AU  - Filosso PL
+AD  - Department of Thoracic Surgery, Azienda Ospedaliera Universitaria Città della
+      Salute e della Scienza di Torino, Torino, Italy
+FAU - Legrain, Michèle
+AU  - Legrain M
+AD  - Department of Molecular Biology, Strasbourg University Hospital, Strasbourg,
+      France
+FAU - Ruffini, Enrico
+AU  - Ruffini E
+AD  - Department of Thoracic Surgery, Azienda Ospedaliera Universitaria Città della
+      Salute e della Scienza di Torino, Torino, Italy
+FAU - Falcoz, Pierre-Emmanuel
+AU  - Falcoz PE
+AD  - Department of Thoracic Surgery, Strasbourg University Hospital, Strasbourg,
+      France
+FAU - Oliaro, Alberto
+AU  - Oliaro A
+AD  - Department of Thoracic Surgery, Azienda Ospedaliera Universitaria Città della
+      Salute e della Scienza di Torino, Torino, Italy
+FAU - Massard, Gilbert
+AU  - Massard G
+AD  - Department of Thoracic Surgery, Strasbourg University Hospital, Strasbourg,
+      France
+LA  - eng
+PT  - Journal Article
+DEP - 20161129
+PHST- 2016/08/25 [received]
+PHST- 2016/11/21 [accepted]
+TA  - Oncotarget
+JT  - Oncotarget
+AID - 13697 [pii]
+AID - 10.18632/oncotarget.13697 [doi]
+SO  - Oncotarget. 2016 Nov 29;8(2):2514-24. doi:10.18632/oncotarget.13697.
+
+PMC - PMC6054138
+PMID- 27874062
+IS  - 1759-4774 (Print)
+IS  - 1759-4782 (Electronic)
+VI  - 14
+IP  - 4
+DP  - 2017 Apr
+TI  - Systemic, perioperative management of muscle-invasive bladder cancer and future
+      horizons.
+PG  - 221-34
+AB  - Many patients diagnosed with muscle-invasive bladder cancer (MIBC) will develop
+      distant metastatic disease. Over the past three decades, perioperative
+      cisplatin-based chemotherapy has been investigated for its ability to reduce the 
+      number of deaths from bladder cancer. Insufficient evidence is available to fully
+      support the use of such chemotherapy in the adjuvant setting; however,
+      neoadjuvant cisplatin-based combination chemotherapy has become a standard of
+      care for eligible patients based on the improved disease-specific and overall
+      survival demonstrated in two randomized phase III trials, compared with surgery
+      alone. For patients with disease downstaging to non-MIBC at the time of radical
+      cystectomy as a result of neoadjuvant chemotherapy, outcomes are outstanding,
+      with 5-year overall survival of 80–90%. Nevertheless, the inability to define
+      before treatment the patients who will and those who will not achieve such a
+      response has impeded the achievement of better outcomes for patients with MIBC.
+      High-throughput DNA and RNA profiling technologies might help to overcome this
+      barrier and enable a more-personalized approach to the use of cytotoxic
+      neoadjuvant chemotherapy. In the past 2 years, trial results have demonstrated
+      the unprecedented ability of immune-checkpoint blockade to induce durable
+      remissions in patients with metastatic disease that has progressed after
+      chemotherapy; studies are now urgently needed to determine how best to
+      incorporate this powerful therapeutic modality into the care of patients with
+      MIBC. Herein, we review the evolution of chemotherapy and immunotherapy for
+      muscle-invasive bladder cancer.
+FAU - Funt, Samuel A.
+AU  - Funt SA
+FAU - Rosenberg, Jonathan E.
+AU  - Rosenberg JE
+LA  - eng
+PT  - Journal Article
+DEP - 20161122
+TA  - Nat Rev Clin Oncol
+JT  - Nature reviews. Clinical oncology
+AID - 10.1038/nrclinonc.2016.188 [doi]
+MID - NIHMS980444
+SO  - Nat Rev Clin Oncol. 2017 Apr;14(4):221-34. Epub 2016 Nov 22
+      doi:10.1038/nrclinonc.2016.188.

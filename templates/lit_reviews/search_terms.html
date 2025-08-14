@@ -1,0 +1,1643 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block 'head' %}
+<link href="{% static 'css/theme/search_terms.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %}
+<a href="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/how-to-set-search-terms"
+  target="_blank">
+  <span>Need help with this page? <br /> Read the Wiki</span>
+  <div>
+    <img src="{% static 'images/icons/wiki-icon.svg' %}">
+  </div>
+</a>
+{% endblock %}
+
+{% block 'body' %}
+
+<div id="app" class="search-terms-container" v-cloak>
+  <div v-if="isRecordsLoading"> Loading... </div>
+  <div v-else>
+
+    <toast id="max-terms-toast" ref="max-terms-toast" title="Search Queries Warning" type="warning" expires="100000">
+      <div>
+        The max Search Queries that should be included in this project are [[maxTerms]],
+        but you currently have [[ totalTermsCount ]] which is exceeding the maximum
+        please contact PM to discuss this, before moving to 1st pass unclassified.
+        <br>
+        Still stuck? Get instant help from our team by submitting a ticket <a
+          href="https://share.hsforms.com/1jqB4CJx9RxyvGL3qQYo2rgcq0hk" target=”_blank”> HERE.</a>
+      </div>
+      <button class="secondary-gray-button mt" v-on:click="hideToast('max-terms-toast')"> Ok, I Understand </button>
+    </toast>
+
+    <div class="modal" id="delete-warning-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper delete-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z"
+                  stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Delete Search Query Warning
+          </div>
+          <div v-if="delete_warning_data.hasFile" class="modal-body">
+            If you proceed with deleting this Search Query <strong> [[ delete_warning_data.termTruncate ]] </strong>, it
+            will be removed from databases [[ delete_warning_data.dbs ]].
+            However, please note that this may also result in the deletion of some potentially relevant results.
+            Are you absolutely sure you want to continue with this action?
+          </div>
+          <div v-else class="modal-body">
+            Are you sure you want to delete this Search Query <strong> [[ delete_warning_data.termTruncate ]] </strong> ?
+          </div>
+          <div class="modal-footer">
+            <button class="error-button w-50"
+              v-on:click="onDeleteSearchTerm(delete_warning_data.propID, delete_warning_data.term)"
+              :disabled="isDeletePending"
+            > Yes, Proceed
+            </button>
+            <button class="secondary-gray-button w-50 ml" v-on:click="hideModal('delete-warning-modal')"> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="bulk-delete-confirm">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper delete-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z"
+                  stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Bulk Delete Search Query Warning
+          </div>
+          <div class="modal-body">
+            [[selectedTerms.length]] selected Queries will be deleted Please note that this may also result in the
+            deletion of some potentially relevant results.
+            Are you absolutely sure you want to continue with this action?
+          </div>
+          <div class="modal-footer">
+            <button 
+              class="error-button w-50" 
+              v-on:click="onBulkDelete"
+              :disabled="isBulkDeletePending"
+            > 
+              Yes, Proceed
+            </button>
+            <button class="secondary-gray-button w-50 ml" v-on:click="hideModal('bulk-delete-confirm')"> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="update-term-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Update Search Query Warning
+          </div>
+          <div class="modal-body">
+            If you proceed with updating this Search Query <strong> [[ update_warning_data.term ]] </strong>,
+            the update may potentially delete some results.
+            Are you absolutely sure you want to continue with this action?
+          </div>
+          <div class="modal-footer">
+            <button class="primary-button w-50" v-on:click="onUpdateTerm(update_warning_data.propID, $event, true)">
+              Yes,
+              Proceed </button>
+            <button class="secondary-gray-button w-50 ml" v-on:click="hideModal('update-term-warning')"> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="split-term-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Split Search Query Warning
+          </div>
+          <div class="modal-body">
+            If you proceed with splitting this Search Query <strong> [[ update_warning_data.term ]] </strong>,
+            the update may potentially delete some results.
+            Are you absolutely sure you want to continue with this action?
+          </div>
+          <div class="modal-footer">
+            <button class="primary-button w-50" v-on:click="onSplitTermSubmitted($event, false)">
+              Yes,
+              Proceed </button>
+            <button class="secondary-gray-button w-50 ml" v-on:click="hideModal('split-term-warning')"> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="update-term-maude-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Update Search Query Warning
+          </div>
+          <div class="modal-body">
+            If you proceed with updating this Search Query <strong> [[ update_warning_data.term ]] </strong>,
+            the update will not applied for FDA MAUDE and Maude Recalls because the product code field only accepts
+            3-digit codes as a Search Query.
+            Are you absolutely sure you want to continue with this action?
+            <div class="horizantal-devider mt-2 mb-2"> </div>
+            <div class="hint mt-2">
+              Need help on how to perform a manual search on the database and download the results file?
+              Please check out our
+              <span v-for="db in dbs" :key="db.id">
+                <a v-if="db.entrez_enum === 'maude'" :href="db.instructions_for_search" target="_blank"
+                  class="primary-link">Wiki Instructions.</a>
+              </span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="primary-button w-50" v-on:click="onSubmitTerm($event, validateQuotes=true, validateMaude=false, isRemoveTermQuote=false)">
+              Yes,
+              Proceed </button>
+            <button class="secondary-gray-button w-50 ml" v-on:click="hideModal('update-term-maude-warning')"> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="update-term-signle-quote-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Update Search Query Warning
+          </div>
+          <div class="modal-body">
+            If you proceed with updating this Search Query <strong> [[ update_warning_data.term ]] </strong>,
+            Single Quotes May Affect the Results of Your Search. Do you want to replace it?
+          </div>
+          <div class="modal-footer">
+            <button class="primary-button" v-on:click="onSubmitTerm($event, validateQuotes=false, validateMaude=false, isRemoveTermQuote=true)"> Yes,
+              Replace it with double quotes. </button>
+            <button class="error-button ml" v-on:click="onSubmitTerm($event, validateQuotes=false, validateMaude=false, isRemoveTermQuote=false)"> No, I
+              want to use one quote. </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="update-term-validation-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Update Search Query Warning
+          </div>
+          <div class="modal-body">
+            If you proceed with updating this Search Query <strong> [[ update_warning_data.term ]] </strong>,
+            Single Quotes May Affect the Results of Your Search.
+            Additionally, the update may potentially delete some results.
+            Are you absolutely sure you want to continue with this action?
+          </div>
+          <div class="modal-footer">
+            <button class="primary-button mr" v-on:click="onUpdateTerm(update_warning_data.propID, $event,true)"> Yes,
+              proceed, and Replace it with double quotes. </button>
+            <button class="error-button mr" v-on:click="onUpdateTerm(update_warning_data.propID, $event,false)"> Yes,
+              proceed, but keep using one quote. </button>
+          </div>
+          <button class="secondary-gray-button w-100 mt-2" v-on:click="hideModal('update-term-validation-warning')"> Cancel </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="bulk-update-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Bulk Update Warning
+          </div>
+          <div class="modal-body">
+            Bulk update will update all the selected Search Queries with your current modification (Term + Type),
+            the update may potentially delete some results.
+            Are you absolutely sure you want to continue with this action?
+          </div>
+          <div class="modal-footer">
+            <button class="error-button w-50" v-on:click="onBulkUpdate"> Yes, Proceed </button>
+            <button class="secondary-gray-button w-50 ml" v-on:click="hideModal('bulk-update-warning')"> Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal x1-index" id="expected-failed-warning">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Results Estimation Unavailable.
+          </div>
+          <div class="modal-body">
+            <div v-if="scraperError">
+              [[scraperError]]
+            </div>
+            <div v-else>
+              Oops! We weren't able to get your estimate results for [[ currentExpectedDB ]] at this time,
+              <br />
+              but don't worry your Search Queries are saved and you can still download all the results in the next step of
+              your review.
+            </div>
+
+            <br />
+            <br />
+            Still need help ? contact us at support@citemedical.com
+          </div>
+          <div class="modal-footer">
+            <button class="secondary-gray-button w-100 ml" v-on:click="hideModal('expected-failed-warning')"> Got it!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="add-term-blocker-toast">
+      <div class="modal-dialog" style="width: 450px;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper warning-icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4V8.91447M12 16.7248V16.7642M17.6699 20.5H6.33007C4.7811 20.5 3.47392 19.4763 3.06265 18.0757C2.88709 17.4778 3.10281 16.8551 3.43276 16.3249L9.10269 6.10102C10.4311 3.96632 13.5689 3.96633 14.8973 6.10103L20.5672 16.3249C20.8972 16.8551 21.1129 17.4778 20.9373 18.0757C20.5261 19.4763 19.2189 20.5 17.6699 20.5Z"
+                  stroke="#DC7003" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            Search Protocol Missing Fields
+          </div>
+          <div class="modal-body">
+            Please make sure All Search Protocol fields are filled out before adding a new Query.
+            <a href="{% url 'literature_reviews:search_protocol' id=literature_review_id %}"
+              class="secondary-button mt">
+              Navigate to Search Protocol View
+            </a>
+            <br>
+            Still stuck? Get instant help from our team by submitting a ticket
+            <a href="https://share.hsforms.com/1jqB4CJx9RxyvGL3qQYo2rgcq0hk" target=”_blank”> HERE.</a>
+          </div>
+          <div class="modal-footer">
+            <a href="{% url 'literature_reviews:search_protocol' id=literature_review_id %}"
+              class="primary-button w-50 mr">
+              Navigate to Search Protocol
+            </a>
+            <button class="error-button w-50" v-on:click="showModal('add-edit-term-modal')"> Proceed Regardless
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-content search-terms-table-wrapper">
+      <div class="section-header">
+        <h2 class="mr-2" id="button"> Search Queries ([[filteredTerms.length ? filteredTerms.length : terms.length ]])
+        </h2>
+        <div v-if="searchTerms && searchTerms.length">
+          <search-term-validator :init-validator="validator"> </search-term-validator>
+        </div>
+        <page-wiki-helper
+          wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/how-to-set-search-terms">
+        </page-wiki-helper>
+
+        <button class="secondary-gray-button small-button ml-auto" v-on:click="showModal('search-config-slider')"
+          type="button">
+          <div class="center-v">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none"
+              style="margin-bottom: 1px;">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12.25 4.58317L7 1.6665L1.75 4.58317V10.4165L7 13.3332L12.25 10.4165V4.58317ZM7 9.44428C8.11602 9.44428 9.02073 8.57372 9.02073 7.49984C9.02073 6.42595 8.11602 5.55539 7 5.55539C5.88398 5.55539 4.97927 6.42595 4.97927 7.49984C4.97927 8.57372 5.88398 9.44428 7 9.44428Z"
+                stroke="#9BA5B9" stroke-width="1.2" stroke-linejoin="round" />
+            </svg>
+            <span class="ml">
+              Protocol Configuration
+            </span>
+          </div>
+        </button>
+        <div class="slider" id="search-config-slider">
+          <div class="slider-dialog">
+            <div class="slider-dialog-inner ">
+              <div class="slider-header">
+                <button class="pagintaion-item mr" v-on:click="hideModal('search-config-slider')">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72"
+                      stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </button>
+                Search Protocol Configuration
+              </div>
+
+              <div class="slider-content" v-if="searchProtocol">
+
+                <div class="info-card mt-2">
+                  <div class="center-v">
+                    <h3> Literature Date of Search </h3>
+                    <svg class="ml-auto mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="43"
+                      viewBox="0 0 16 43" fill="none">
+                      <rect width="16" height="43" rx="4" fill="#E7ECF5" />
+                      <path
+                        d="M10.2475 34.2475C10.3842 34.1108 10.3842 33.8892 10.2475 33.7525C10.1108 33.6158 9.8892 33.6158 9.75251 33.7525L10.2475 34.2475ZM8 36L7.75251 36.2475C7.8892 36.3842 8.1108 36.3842 8.24749 36.2475L8 36ZM6.24749 33.7525C6.1108 33.6158 5.8892 33.6158 5.75251 33.7525C5.61583 33.8892 5.61583 34.1108 5.75251 34.2475L6.24749 33.7525ZM8.35 9.5C8.35 9.3067 8.1933 9.15 8 9.15C7.8067 9.15 7.65 9.3067 7.65 9.5L8.35 9.5ZM8 23.25H8.35H8ZM8 15H7.65H8ZM8.74749 35.7475C8.88417 35.6108 8.88417 35.3892 8.74749 35.2525C8.6108 35.1158 8.3892 35.1158 8.25251 35.2525L8.74749 35.7475ZM9.25251 34.2525C9.11583 34.3892 9.11583 34.6108 9.25251 34.7475C9.3892 34.8842 9.6108 34.8842 9.74749 34.7475L9.25251 34.2525ZM6.25251 34.7475C6.3892 34.8842 6.6108 34.8842 6.74749 34.7475C6.88417 34.6108 6.88417 34.3892 6.74749 34.2525L6.25251 34.7475ZM7.74749 35.2525C7.6108 35.1158 7.3892 35.1158 7.25251 35.2525C7.11583 35.3892 7.11583 35.6108 7.25251 35.7475L7.74749 35.2525ZM8.35 34.9375C8.35 34.7442 8.1933 34.5875 8 34.5875C7.8067 34.5875 7.65 34.7442 7.65 34.9375H8.35ZM7.65 32.8125C7.65 33.0058 7.8067 33.1625 8 33.1625C8.1933 33.1625 8.35 33.0058 8.35 32.8125H7.65ZM8.35 30.6875C8.35 30.4942 8.1933 30.3375 8 30.3375C7.8067 30.3375 7.65 30.4942 7.65 30.6875H8.35ZM7.65 28.5625C7.65 28.7558 7.8067 28.9125 8 28.9125C8.1933 28.9125 8.35 28.7558 8.35 28.5625H7.65ZM8.35 26.4375C8.35 26.2442 8.1933 26.0875 8 26.0875C7.8067 26.0875 7.65 26.2442 7.65 26.4375H8.35ZM7.65 24.3125C7.65 24.5058 7.8067 24.6625 8 24.6625C8.1933 24.6625 8.35 24.5058 8.35 24.3125H7.65ZM8.35 22.2188C8.35 22.0255 8.1933 21.8687 8 21.8687C7.8067 21.8687 7.65 22.0255 7.65 22.2188H8.35ZM7.65 20.1562C7.65 20.3495 7.8067 20.5063 8 20.5063C8.1933 20.5063 8.35 20.3495 8.35 20.1562H7.65ZM8.35 18.0938C8.35 17.9005 8.1933 17.7437 8 17.7437C7.8067 17.7437 7.65 17.9005 7.65 18.0938H8.35ZM7.65 16.0312C7.65 16.2245 7.8067 16.3812 8 16.3812C8.1933 16.3812 8.35 16.2245 8.35 16.0312H7.65ZM8.35 13.625C8.35 13.4317 8.1933 13.275 8 13.275C7.8067 13.275 7.65 13.4317 7.65 13.625H8.35ZM7.65 10.875C7.65 11.0683 7.8067 11.225 8 11.225C8.1933 11.225 8.35 11.0683 8.35 10.875L7.65 10.875ZM8.24749 36.2475L8.74749 35.7475L8.25251 35.2525L7.75251 35.7525L8.24749 36.2475ZM9.74749 34.7475L10.2475 34.2475L9.75251 33.7525L9.25251 34.2525L9.74749 34.7475ZM5.75251 34.2475L6.25251 34.7475L6.74749 34.2525L6.24749 33.7525L5.75251 34.2475ZM7.25251 35.7475L7.75251 36.2475L8.24749 35.7525L7.74749 35.2525L7.25251 35.7475ZM8.35 36V34.9375H7.65V36H8.35ZM8.35 32.8125V30.6875H7.65V32.8125H8.35ZM8.35 28.5625V26.4375H7.65V28.5625H8.35ZM8.35 24.3125V23.25H7.65V24.3125H8.35ZM8.35 23.25V22.2188H7.65V23.25H8.35ZM8.35 20.1562L8.35 18.0938H7.65L7.65 20.1562H8.35ZM8.35 16.0312L8.35 15H7.65L7.65 16.0312H8.35ZM8.35 15L8.35 13.625H7.65L7.65 15H8.35ZM8.35 10.875L8.35 9.5L7.65 9.5L7.65 10.875L8.35 10.875Z"
+                        fill="#4A505C" />
+                      <path d="M10 34L8 36M8 36L6 34M8 36V30.5" stroke="#4A505C" stroke-width="0.7"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <circle cx="8" cy="9.5" r="2" fill="#4A505C" />
+                    </svg>
+                    <div>
+                      <div> [[ dateFormat(searchProtocol.lit_start_date_of_search) ]] </div>
+                      <div> [[ dateFormat(searchProtocol.lit_date_of_search) ]] </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info-card mt-2">
+                  <div class="center-v">
+                    <h3> Adverse Event Date of Search </h3>
+                    <svg class="ml-auto mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="43"
+                      viewBox="0 0 16 43" fill="none">
+                      <rect width="16" height="43" rx="4" fill="#E7ECF5" />
+                      <path
+                        d="M10.2475 34.2475C10.3842 34.1108 10.3842 33.8892 10.2475 33.7525C10.1108 33.6158 9.8892 33.6158 9.75251 33.7525L10.2475 34.2475ZM8 36L7.75251 36.2475C7.8892 36.3842 8.1108 36.3842 8.24749 36.2475L8 36ZM6.24749 33.7525C6.1108 33.6158 5.8892 33.6158 5.75251 33.7525C5.61583 33.8892 5.61583 34.1108 5.75251 34.2475L6.24749 33.7525ZM8.35 9.5C8.35 9.3067 8.1933 9.15 8 9.15C7.8067 9.15 7.65 9.3067 7.65 9.5L8.35 9.5ZM8 23.25H8.35H8ZM8 15H7.65H8ZM8.74749 35.7475C8.88417 35.6108 8.88417 35.3892 8.74749 35.2525C8.6108 35.1158 8.3892 35.1158 8.25251 35.2525L8.74749 35.7475ZM9.25251 34.2525C9.11583 34.3892 9.11583 34.6108 9.25251 34.7475C9.3892 34.8842 9.6108 34.8842 9.74749 34.7475L9.25251 34.2525ZM6.25251 34.7475C6.3892 34.8842 6.6108 34.8842 6.74749 34.7475C6.88417 34.6108 6.88417 34.3892 6.74749 34.2525L6.25251 34.7475ZM7.74749 35.2525C7.6108 35.1158 7.3892 35.1158 7.25251 35.2525C7.11583 35.3892 7.11583 35.6108 7.25251 35.7475L7.74749 35.2525ZM8.35 34.9375C8.35 34.7442 8.1933 34.5875 8 34.5875C7.8067 34.5875 7.65 34.7442 7.65 34.9375H8.35ZM7.65 32.8125C7.65 33.0058 7.8067 33.1625 8 33.1625C8.1933 33.1625 8.35 33.0058 8.35 32.8125H7.65ZM8.35 30.6875C8.35 30.4942 8.1933 30.3375 8 30.3375C7.8067 30.3375 7.65 30.4942 7.65 30.6875H8.35ZM7.65 28.5625C7.65 28.7558 7.8067 28.9125 8 28.9125C8.1933 28.9125 8.35 28.7558 8.35 28.5625H7.65ZM8.35 26.4375C8.35 26.2442 8.1933 26.0875 8 26.0875C7.8067 26.0875 7.65 26.2442 7.65 26.4375H8.35ZM7.65 24.3125C7.65 24.5058 7.8067 24.6625 8 24.6625C8.1933 24.6625 8.35 24.5058 8.35 24.3125H7.65ZM8.35 22.2188C8.35 22.0255 8.1933 21.8687 8 21.8687C7.8067 21.8687 7.65 22.0255 7.65 22.2188H8.35ZM7.65 20.1562C7.65 20.3495 7.8067 20.5063 8 20.5063C8.1933 20.5063 8.35 20.3495 8.35 20.1562H7.65ZM8.35 18.0938C8.35 17.9005 8.1933 17.7437 8 17.7437C7.8067 17.7437 7.65 17.9005 7.65 18.0938H8.35ZM7.65 16.0312C7.65 16.2245 7.8067 16.3812 8 16.3812C8.1933 16.3812 8.35 16.2245 8.35 16.0312H7.65ZM8.35 13.625C8.35 13.4317 8.1933 13.275 8 13.275C7.8067 13.275 7.65 13.4317 7.65 13.625H8.35ZM7.65 10.875C7.65 11.0683 7.8067 11.225 8 11.225C8.1933 11.225 8.35 11.0683 8.35 10.875L7.65 10.875ZM8.24749 36.2475L8.74749 35.7475L8.25251 35.2525L7.75251 35.7525L8.24749 36.2475ZM9.74749 34.7475L10.2475 34.2475L9.75251 33.7525L9.25251 34.2525L9.74749 34.7475ZM5.75251 34.2475L6.25251 34.7475L6.74749 34.2525L6.24749 33.7525L5.75251 34.2475ZM7.25251 35.7475L7.75251 36.2475L8.24749 35.7525L7.74749 35.2525L7.25251 35.7475ZM8.35 36V34.9375H7.65V36H8.35ZM8.35 32.8125V30.6875H7.65V32.8125H8.35ZM8.35 28.5625V26.4375H7.65V28.5625H8.35ZM8.35 24.3125V23.25H7.65V24.3125H8.35ZM8.35 23.25V22.2188H7.65V23.25H8.35ZM8.35 20.1562L8.35 18.0938H7.65L7.65 20.1562H8.35ZM8.35 16.0312L8.35 15H7.65L7.65 16.0312H8.35ZM8.35 15L8.35 13.625H7.65L7.65 15H8.35ZM8.35 10.875L8.35 9.5L7.65 9.5L7.65 10.875L8.35 10.875Z"
+                        fill="#4A505C" />
+                      <path d="M10 34L8 36M8 36L6 34M8 36V30.5" stroke="#4A505C" stroke-width="0.7"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <circle cx="8" cy="9.5" r="2" fill="#4A505C" />
+                    </svg>
+                    <div>
+                      <div> [[ dateFormat(searchProtocol.ae_start_date_of_search) ]] </div>
+                      <div> [[ dateFormat(searchProtocol.ae_date_of_search) ]] </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="info-card mt-2">
+                  <div class="center-v">
+                    <h3> Max Articles Reviewed </h3> 
+                    <div class="ml-auto"> [[ searchProtocol.max_articles_reviewed ]] Articles</div>
+                  </div>
+                </div> -->
+
+                <div class="info-card mt-2">
+                  <div class="center-v">
+                    <h3> Max Imported Articles </h3>
+                    <div class="ml-auto"> [[ searchProtocol.max_imported_search_results ]] Articles </div>
+                  </div>
+                </div>
+
+
+                <div class="info-card mt-2">
+                  <div class="center-v">
+                    <h3> Total Search Queries </h3>
+                    <div class="ml-auto"> [[ totalTermsCount ]] Search Queries </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="slider-footer">
+                <button class="secondary-gray-button" v-on:click="hideModal('search-config-slider')">
+                  Close
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="horizantal-devider"> </div>
+
+      <div class="content">
+        <div class="filters">
+          <div class="search-section">
+            <form v-on:submit="onSearch">
+              <input type="search" placeholder="Search by Query or Database Name" name="article-search"
+                v-model="searchTerm" />
+              <button type="submit" class="search-button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                    fill="#9BA5B9" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                    fill="#9BA5B9" />
+                </svg>
+              </button>
+            </form>
+          </div>
+
+          <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+            <div class="filter-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z"
+                  stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <svg v-if="filteredTerms.length" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6"
+                height="6" viewBox="0 0 6 6" fill="none">
+                <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+              </svg>
+            </div>
+            Filter Results
+          </div>
+
+          <!-- Database Applied Filters -->
+          <div v-if="dbAppliedFilters.length" class="applied-filters ml">
+            <span style="font-weight: 600;"> Selected Databases </span>
+            <div class="item" v-if="dbAppliedFilters.length > 0">
+              [[ dbAppliedFilters[0] ]]
+            </div>
+            <div class="item" v-if="dbAppliedFilters.length > 1">
+              [[ dbAppliedFilters[1] ]]
+            </div>
+            <div class="item" v-if="dbAppliedFilters.length > 2">
+              +[[dbAppliedFilters.length-2]]
+            </div>
+          </div>
+
+          <div v-if="filteredTerms.length || dbAppliedFilters.length || isSearchApplied" v-on:click="onClearFilters"
+            class="filter-button ml">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665"
+                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331"
+                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332"
+                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            Clear Filters
+          </div>
+
+          <div class="slider" id="filters-slider">
+            <div class="slider-dialog">
+              <div class="slider-dialog-inner ">
+                <div class="slider-header">
+                  <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72"
+                        stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  Filters
+                </div>
+
+                <div class="slider-content">
+
+                  <div class="filter-section">
+                    <div class="header"> STATUS </div>
+                    <div class="filter-selects">
+                      <div :class="statusFilter === '' ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleStatusFilter('all')">
+                        All
+                      </div>
+                      <div :class="statusFilter === 'UPDATED' ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleStatusFilter('UPDATED')">
+                        Updated
+                      </div>
+                      <div :class="statusFilter === 'FAILED' ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleStatusFilter('FAILED')">
+                        Failed
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- IF PROJECT TYPE IS CUSTOME -->
+                  <div v-if="projectType == 'Custom'">
+                    <div class="header"> Type </div>
+                    <div class="filter-selects">
+                      <div 
+                        :class="customTypeFilter === '' ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="customTypeFilter('all')">
+                        All
+                      </div>
+                      <div 
+                        v-for="type in SearchLabelOptions" 
+                        :class="customTypeFilter === type.label ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleCustomTypeFilter(type.label)"
+                      >
+                        [[type.label]]
+                      </div>
+                    </div>
+                  </div>
+
+                  <div v-else class="filter-section">
+                    <div class="header"> Type </div>
+                    <div class="filter-selects">
+                      <div :class="typeFilter === '' ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleTypeFilter('all')">
+                        All
+                      </div>
+                      <div :class="typeFilter === true ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleTypeFilter(true)">
+                        Sota
+                      </div>
+                      <div :class="typeFilter === false ? 'filter-select selected' : 'filter-select'"
+                        v-on:click="toggleTypeFilter(false)">
+                        Device
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="filter-section" v-if="dbs.length">
+                    <div class="header"> DATABASE </div>
+                    <h3 class="mt-3"> Clinical Trials Databases </h3>
+                    <div class="filter-checks">
+                      <div class="filter-check" v-for="db in lit_dbs" :key="db.id">
+                        <label :for="db.entrez_enum">
+                          <img src="{% static 'assets/client_portal/img/db-icon-blue.svg' %}" class="db-icon-selection">
+                          [[db.displayed_name]]
+                        </label>
+                        <input type="checkbox" name="filter-database" v-model="dbFilter" :value="db.entrez_enum"
+                          :id="db.entrez_enum" />
+                      </div>
+                    </div>
+
+                    <h3 class="mt-3"> Adverse Event Databases </h3>
+                    <div class="filter-checks">
+                      <div class="filter-check" v-for="db in ae_dbs" :key="db.id">
+                        <label :for="db.entrez_enum">
+                          <img src="{% static 'assets/client_portal/img/db-icon-blue.svg' %}" class="db-icon-selection">
+                          [[db.displayed_name]]
+                        </label>
+                        <input type="checkbox" name="filter-database" v-model="dbFilter" :value="db.entrez_enum"
+                          :id="db.entrez_enum" />
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="slider-footer">
+                  <button class="primary-button" v-on:click="onFilter">
+                    Apply Filters
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div> 
+
+          <button class="primary-button ml-auto" 
+            :disabled="isArchived"
+            v-on:click="onShowAddTermModal">
+            Add Search Query
+          </button>
+
+          <div class="modal add-term-modal" id="add-edit-term-modal">
+            <div class="modal-dialog">
+              <form v-on:submit="onSubmitTerm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="modal-header-icon-wrapper info-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                          d="M15.3754 11.9995H12.0004M12.0004 11.9995H8.62537M12.0004 11.9995V15.3744M12.0004 11.9995L12.0004 8.62447M21 6.37498L21 17.625C21 19.489 19.489 21 17.625 21H6.375C4.51104 21 3 19.489 3 17.625V6.37498C3 4.51103 4.51104 3 6.375 3H17.625C19.489 3 21 4.51103 21 6.37498Z"
+                          stroke="#014EE9" stroke-width="1.2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    [[ newTerm.isUpdateTerm ? 'Edit Search Query' : 'Add Search Query' ]]
+
+                    <div class="hint mt-2"> The search query you enter will be run directly on ALL selected databases </div>
+                  </div>
+
+                  <div class="modal-body">
+
+                    <label for="search-term-input"> 
+                      Search Query 
+                      <span
+                        class="tooltip-elt ml-2"
+                        title="This is the exact query that will be run on the selected databases"
+                      >
+                        <img
+                          src="{% static 'images/icons/tooltip.svg' %}"
+                          alt=""
+                          srcset=""
+                        />
+                      </span>
+                    </label>
+                    <textarea rows="4" id="search-term-input" v-model="newTerm.term" name="term"> </textarea>
+
+                    <!-- IF PROJECT TYPE IS CUSTOME -->
+                    <div v-if="projectType == 'Custom'">
+                      <label for="term-type"> Search Query Type label </label>
+                      <select id="term-type" name="term-type" v-model="newTerm.type">
+                        <option value=""> Select A Type Please </option>
+                        <option :value="type.label" v-for="type in SearchLabelOptions"> [[type.label]] </option>
+                      </select>
+                    </div>
+                    <!-- IF PROJECT TYPE IS NOT CUSTOME -->
+                    <div v-else>            
+                      <label for="term-type"> 
+                        Search Query Type 
+                        <span
+                          class="tooltip-elt ml-2"
+                          title="This is a label we apply to your search to help you group your results in the final report"
+                        >
+                          <img
+                            src="{% static 'images/icons/tooltip.svg' %}"
+                            alt=""
+                            srcset=""
+                          />
+                        </span>
+                      </label>
+                      
+                      <select id="term-type" name="term-type" v-model="newTerm.type">
+                        <option value=""> Select A Type Please </option>
+                        <option value="device"> Device </option>
+                        <option value="sota"> Sota </option>
+                      </select>
+                    </div>
+
+                    <div v-if="newTerm.dbs.includes('ct_gov')">
+                      <label for="term-type"> Clinical Trials Search Field </label>
+                      <select id="clinicalTrialsSearchField" name="clinicalTrialsSearchField"
+                        v-model="newTerm.clinicalTrialsSearchField">
+                        <option :value="option" v-for="option in clinicalTrialsSearchFields"> [[ option ]] </option>
+                      </select>
+                    </div>
+
+                    <div v-if="newTerm.dbs.includes('maude')">
+                      <label for="term-type"> FDA Maude Search Field </label>
+                      <select id="maudeSearchField" name="maudeSearchField" v-model="newTerm.maudeSearchField">
+                        <option :value="option" v-for="option in maudeSearchFields"> [[ option ]] </option>
+                      </select>
+                    </div>
+
+                    <label> Databases </label>
+                    <div class="mt-2">
+                      Don't see the right databases available? 
+                      make sure it's selected in your 
+                      <a 
+                        href="{% url 'lit_reviews:search_protocol' id=literature_review_id %}" 
+                        class="link" 
+                        target="_blank"
+                      > 
+                        Search Protocol  
+                      </a>
+                      section first. 
+                    </div>
+
+                    <div class="center-h mt-2">
+                      <div class="databases-box w-50 mr">
+                        <h3> Clinical Literature Databases </h3>
+                        <div class="databases-list">
+                          <div class="filter-check">
+                            <label for="clinical-select-all"> Select All </label>
+                            <input type="checkbox" id="clinical-select-all" v-on:change="onSelectAllClinicalDBs" :checked="isAllClinicalDBSelected"/>
+                          </div>
+                          <div class="filter-check" v-for="db in lit_dbs" :key="db.id">
+                            <label :for="'add-term-db-'+db.entrez_enum">
+                              <span class="litreview-icon mr-2">
+                                <img src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                                  alt="lit-review-icon" />
+                              </span>
+                              [[db.displayed_name]]
+                            </label>
+                            <input type="checkbox" name="database" :value="db.entrez_enum"
+                              :id="'add-term-db-'+db.entrez_enum" v-model="newTerm.dbs" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="databases-box w-50 mr">
+                        <h3> Adverse Event Databases </h3>
+                        <div class="databases-list">
+                          <div class="filter-check">
+                            <label for="ae-select-all"> Select All </label>
+                            <input type="checkbox" id="ae-select-all" v-on:change="onSelectAllAEDBs" :checked="isAllAEDBSelected"/>
+                          </div>
+                          <div class="filter-check" v-for="db in ae_dbs" :key="db.id">
+                            <label :for="'add-term-db-'+db.entrez_enum">
+                              <span class="litreview-icon mr-2">
+                                <img src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                                  alt="lit-review-icon" />
+                              </span>
+                              [[db.displayed_name]]
+                            </label>
+                            <input type="checkbox" name="database" :value="db.entrez_enum"
+                              :id="'add-term-db-'+db.entrez_enum" v-model="newTerm.dbs" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="badge warning mt-2" v-if="newTerm.dbs.length > 1" style="display: block;"> 
+                      Heads up! You have selected multiple databases for this Search Query. 
+                      the Query will be run exactly as entered on all selected databases, 
+                      so please ensure that your syntax will work for both. 
+                      <a href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/search-term-syntax-and-errors" target="_blank" class="link"> CiteMed Database Syntax Reference.  </a>
+                    </div>
+
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="secondary-gray-button w-50"
+                      v-on:click="hideModal('add-edit-term-modal')"> Cancel </button>
+                    <button 
+                      type="sbumit" 
+                      class="primary-button w-50 ml" 
+                      :disabled="!isCreateNewTermValid"
+                      :class="{ loading: isCreatingTermLoading }"
+                    >
+                      [[ newTerm.isUpdateTerm ? 'Edit Search Query' : 'Add New Search Query']]
+                    </button>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="modal add-term-modal" id="split-terms-modal">
+            <div class="modal-dialog">
+              <form v-on:submit="onSplitTermSubmitted">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="modal-header-icon-wrapper info-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                          d="M15.3754 11.9995H12.0004M12.0004 11.9995H8.62537M12.0004 11.9995V15.3744M12.0004 11.9995L12.0004 8.62447M21 6.37498L21 17.625C21 19.489 19.489 21 17.625 21H6.375C4.51104 21 3 19.489 3 17.625V6.37498C3 4.51103 4.51104 3 6.375 3H17.625C19.489 3 21 4.51103 21 6.37498Z"
+                          stroke="#014EE9" stroke-width="1.2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    Split Query 
+                  </div>
+
+                  <div class="hint mt-2"> 
+                    Do you have a slightly different syntax for a specific database for this Search Query? you can split it into a separate Search Query by tweaking the syntax and selecting only the relative databases
+                  </div>
+                  <div class="modal-body">
+                    <label for="search-term-input"> 
+                      Search Query 
+                      <span
+                        class="tooltip-elt ml-2"
+                        title="This is the exact query that will be run on the selected databases"
+                      >
+                        <img
+                          src="{% static 'images/icons/tooltip.svg' %}"
+                          alt=""
+                          srcset=""
+                        />
+                      </span>
+                    </label>
+                    <textarea rows="4" id="search-term-input" v-model="splitTerm.term" name="term"> </textarea>
+
+                    <label for="term-type"> 
+                      Search Query Type 
+                      <span
+                        class="tooltip-elt ml-2"
+                        title="This is a label we apply to your search to help you group your results in the final report"
+                      >
+                        <img
+                          src="{% static 'images/icons/tooltip.svg' %}"
+                          alt=""
+                          srcset=""
+                        />
+                      </span>
+                    </label>
+                    <select id="term-type" name="term-type" v-model="splitTerm.type">
+                      <option value=""> Select A Type Please </option>
+                      <option value="device"> Device </option>
+                      <option value="sota"> Sota </option>
+                    </select>
+
+                    <div v-if="splitTerm.dbs.includes('ct_gov')">
+                      <label for="term-type"> Clinical Trials Search Field </label>
+                      <select id="clinicalTrialsSearchField" name="clinicalTrialsSearchField"
+                        v-model="splitTerm.clinicalTrialsSearchField">
+                        <option :value="option" v-for="option in clinicalTrialsSearchFields"> [[ option ]] </option>
+                      </select>
+                    </div>
+
+                    <div v-if="splitTerm.dbs.includes('maude')">
+                      <label for="term-type"> FDA Maude Search Field </label>
+                      <select id="maudeSearchField" name="maudeSearchField" v-model="splitTerm.maudeSearchField">
+                        <option :value="option" v-for="option in maudeSearchFields"> [[ option ]] </option>
+                      </select>
+                    </div>
+
+                    <label> Databases </label>
+                    <div class="mt-2">
+                      Don't see the right databases available? 
+                      make sure it's selected in your 
+                      <a 
+                        href="{% url 'lit_reviews:search_protocol' id=literature_review_id %}" 
+                        class="link" 
+                        target="_blank"
+                      > 
+                        Search Protocol  
+                      </a>
+                      section first. 
+                    </div>
+                    
+                    <div class="center-h mt-2">
+                      <div class="databases-box w-50 mr">
+                        <h3> Clinical Literature Databases </h3>
+                        <div class="databases-list">
+                          <div class="filter-check" v-for="db in splitTerm.dbsOptions" :key="db.id">
+                            <label :for="'split-term-db'+db.entrez_enum">
+                              <span class="litreview-icon mr-2">
+                                <img src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                                  alt="lit-review-icon" />
+                              </span>
+                              [[db.displayed_name]]
+                            </label>
+                            <input type="checkbox" name="database" :value="db.entrez_enum"
+                              :id="'split-term-db'+db.entrez_enum" v-model="splitTerm.dbs" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="databases-box w-50 mr">
+                        <h3> Adverse Event Databases </h3>
+                        <div class="databases-list">
+                          <div class="filter-check" v-for="db in splitTerm.aeDbsOptions" :key="db.id">
+                            <label :for="'split-term-db'+db.entrez_enum">
+                              <span class="litreview-icon mr-2">
+                                <img src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                                  alt="lit-review-icon" />
+                              </span>
+                              [[db.displayed_name]]
+                            </label>
+                            <input type="checkbox" name="database" :value="db.entrez_enum"
+                              :id="'split-term-db'+db.entrez_enum" v-model="splitTerm.dbs" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="badge warning mt-2" v-if="newTerm.dbs.length > 1" style="display: block;"> 
+                      Heads up! You have selected multiple databases for this Search Query. 
+                      the Query will be run exactly as entered on all selected databases, 
+                      so please ensure that your syntax will work for both.
+                      <a href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/search-term-syntax-and-errors" target="_blank" class="link"> CiteMed Database Syntax Reference. </a>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="secondary-gray-button w-50"
+                      v-on:click="hideModal('split-terms-modal')"> Cancel </button>
+                    <button type="sbumit" class="primary-button w-50 ml" :disabled="!isSplitTermValid">
+                      Split Search Query
+                    </button>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+
+        <table class="custom-table section-wrapper">
+          <thead>
+            <tr>
+              <th style="width: 30px;"> <input type="checkbox" class="table-checkbox" ref="checkAll"
+                  v-model="isCheckAll" /> </th>
+              <th style="width: 50px;">ID</td>
+              <th style="width: 100px;"> Status </th>
+              <th style="cursor: pointer; width: 300px;" v-on:click="onSortTerm">
+                Search Query
+                <span
+                  class="tooltip-elt ml-2 mb"
+                  title="This is the exact query that will be run on the selected databases"
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+
+                <img src="{% static 'images/icons/filter.png' %}" />
+              </th>
+              <th style="width: 100px;"> 
+                Type 
+                <span
+                  class="tooltip-elt ml-2 mb"
+                  title="This is a label we apply to your search to help you group your results in the final report"
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+              </th>
+              <th style="width: 300px;"> 
+                Database Expected Result Count 
+                <span
+                  class="tooltip-elt ml-2 mb"
+                  title="These are our best-guess for the result counts from each database for the search query entered. You can click each one to review it directly on the database"
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+              </th>
+              <th v-if="!isArchived" style="width: 100px;"> Actions </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="item in searchTerms" :key="item.id">
+              <td>
+                <input class="table-checkbox" type="checkbox" ref="selectedRow" :value="isTermIncluded(item)"
+                  :checked="isTermIncluded(item)" v-on:change="onRowChecked(item)" />
+              </td>
+              <td> P[[item.index]] </td>
+              <td style="text-align: center;">
+                <div class="center-v">
+                  <span v-if="getReportStatus(item) === 'FAILED'">
+                    <a class="badge error c-pointer"
+                      v-on:click="onErrorDisplay(item.value[item.value.length-1].report.errors)">
+                      Failed
+                    </a>
+                  </span>
+                  <span v-else-if="getReportStatus(item)" :class="getReportStatusClasses(getReportStatus(item))">
+                    [[ getReportStatus(item) ]]
+                  </span>
+                </div>
+              </td>
+              <td>
+                <textarea class="border-less-textarea" type="text" :id="'term_'+[[item.value[0].proposal.id]]"
+                  :value="[[item.term]]" v-on:input="onTermChange(item.id, $event)" name="term" rows="4">
+                  [[item.term]] 
+                </textarea>
+              </td>
+              <td>
+                <div v-if="projectType == 'Custom'">
+                  <select v-model="item.value[0].proposal.search_label" :id="'sota-'+[[item.value[0].proposal.id]]">
+                    <option :value="type.label" v-for="type in SearchLabelOptions" :key="type.label"> [[type.label]] </option>
+                  </select>
+                </div>
+                <div v-else>
+                  <custom-select :id="'sota-'+[[item.value[0].proposal.id]]" :name="'sota-'+[[item.value[0].proposal.id]]"
+                    :options="typeSelcetOptions"
+                    :default-selected="item.value[0].proposal.is_sota_term == true ? true : false">
+                  </custom-select>
+                </div>
+              </td>
+              <td>
+                <div class="database-section-wrapper">
+                  <div class="databases-section" :ref="'db-section-'+item.id">
+
+                    <div v-for="termItem in item.value">
+                      <div v-if="item.value[0].report && item.value[0].report.status === 'FETCHING_PREVIEW'"
+                        class="center-v mb">
+                        <div class="center-v">
+                          <span class="database-type mr">
+                            <span v-if="termItem.proposal.db_is_ae || termItem.proposal.db_is_recall"> AE </span>
+                            <span v-else> LIT </span>
+                          </span>
+                          [[ termItem.proposal.db ]]
+                          <span v-if="dbPreviews.includes(termItem.proposal.db_entrez_enum)" class="badge secondary ml">
+                            Pending...
+                          </span>
+                          <span v-else class="ml">
+                            ( [[ termItem.count ]] )
+                          </span>
+                        </div>
+                      </div>
+
+                      <div v-else class="center-v mb" :key="termItem.proposal.db">
+                        <div class="center-v">
+                          <span class="database-type mr">
+                            <span v-if="termItem.proposal.db_is_ae || termItem.proposal.db_is_recall"> AE </span>
+                            <span v-else> LIT </span>
+                          </span>
+                          [[ termItem.proposal.db ]]
+                          <div class="tooltip">
+                            <button class="secondary-gray-button database-config-button"
+                              @click="showDatabaseConfig(termItem.proposal)">
+                              <img src="{% static 'images/icons/setting.svg' %}">
+                            </button>
+                            <span class="tooltiptext">Database Configurations</span>
+                          </div>
+                          <span v-if="termItem.count === 'Failed'" class="ml">
+                            <a class="warning-db-icon c-pointer"
+                              v-on:click="onDisplayExpectCountFailedError(termItem.proposal.db, termItem.scraper_error)">                              
+                              <span
+                                class=""
+                                title="Preview Unavailable"
+                              >
+                                <svg 
+                                  width="16" 
+                                  height="16" 
+                                  viewBox="0 0 16 16" 
+                                  fill="none" 
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  style="height: 16px; margin-bottom: -3px;"
+                                >
+                                  <path 
+                                    d="M8 8V5M8 10.2236V10.25M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8Z" 
+                                    stroke="#B54708" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </span>
+
+                            </a>
+                          </span>
+                          <span v-else-if="termItem.count === 'Warning'" class="ml">
+                            <a class="badge warning c-pointer" v-on:click="onDIsplayMaudeWarning">
+                              Warning
+                            </a>
+                          </span>
+                          <span v-else class="ml">
+                             ( [[ termItem.count ]] )
+                          </span>
+                        </div>
+
+                        <div
+                          v-if="dbPreviews.includes(termItem.proposal.db_entrez_enum) && termItem.count !== 'Failed'"
+                          v-on:click="onPreviewResults(termItem.preview, termItem.expected_result_count, termItem.proposal.db_entrez_enum)"
+                          class="c-pointer ml" style="width: 14px;" title="Preview"
+                        >
+                          <svg 
+                            v-if="urlDbPreviews.includes(termItem.proposal.db_entrez_enum)"
+                            xmlns="http://www.w3.org/2000/svg" width="12" height="13" 
+                            viewBox="0 0 12 13" fill="none" class="link-svg"
+                          >
+                            <path
+                              d="M5.4375 2H3.1875C2.25552 2 1.5 2.75552 1.5 3.68749V9.31251C1.5 10.2445 2.25552 11 3.1875 11H8.8125C9.74448 11 10.5 10.2445 10.5 9.31251V7.06247M7.68722 2.00014L10.5 2M10.5 2V4.5313M10.5 2L5.71834 6.78109"
+                              stroke="#9BA5B9" stroke-linecap="round" stroke-linejoin="round" 
+                            />
+                          </svg>
+                          <img v-else src="{% static 'images/icons/eye-link.png' %}" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <button v-if="item.value.length > 3" v-on:click="expandDatabaseSection(item.id)"
+                      class="secondary-gray-button expand-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path
+                          d="M8.28705 2.3335H11.6666M11.6666 2.3335V5.71281M11.6666 2.3335L7.7238 6.27603M5.71279 11.6668H2.33325M2.33325 11.6668V8.28752M2.33325 11.6668L6.27604 7.7243"
+                          stroke="#9BA5B9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </td>
+              <td v-if="!isArchived">
+                <div class="center-v actions-terms-btns">
+                  <div :id="'single-update-'+item.value[0].proposal.id" :disabled="isArchived"
+                    v-on:click="onSignleTermUpdate(item.value[0].proposal.id)"
+                    :class="['c-pointer actions-terms-btns-item-edit', { 'disabled': isArchived }]"
+                    >
+                    <span class="actions-terms-btns-span">Edit</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                      class="actions-terms-btns-item-icon">
+                      <path
+                        class="actions-terms-btns-item-edit-icon"
+                        d="M9.25186 3.24763C9.38321 3.11627 9.53915 3.01208 9.71077 2.94099C9.8824 2.8699 10.0663 2.83331 10.2521 2.83331C10.4379 2.83331 10.6218 2.8699 10.7934 2.94099C10.9651 3.01208 11.121 3.11627 11.2524 3.24763C11.3837 3.37898 11.4879 3.53492 11.559 3.70655C11.6301 3.87817 11.6667 4.06211 11.6667 4.24788C11.6667 4.43364 11.6301 4.61758 11.559 4.78921C11.4879 4.96083 11.3837 5.11677 11.2524 5.24812L4.50068 11.9998L1.75 12.75L2.50019 9.9993L9.25186 3.24763Z"
+                        stroke="#4A505C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  
+                  <div 
+                    v-if="item.value.length > 1"
+                    :id="'split-'+item.value[0].proposal.id"
+                    v-on:click="onSplitTerm(item)" 
+                    class="c-pointer left-tooltip actions-terms-btns-item-split" 
+                    title="Do you have a slightly different syntax for a specific database for this search query? You can split it into a separate query by tweaking the syntax and selecting only the relevant databases"
+                    >
+                    <span class="actions-terms-btns-span">Split</span>
+                    <svg width="142" height="114" viewBox="0 0 142 114" fill="none" xmlns="http://www.w3.org/2000/svg" class="actions-terms-btns-item-icon-split">
+                      <path class="actions-terms-btns-item-split-icon" d="M8.61 1.1368C6.3025 -0.688983 2.95218 -0.265936 1.13281 2.04969C-0.686565 4.36531 -0.265003 7.72742 2.0425 9.55321L133.393 112.866C135.7 114.691 139.05 114.268 140.87 111.953C142.689 109.637 142.267 106.275 139.96 104.449L108.565 79.7567L128.644 59.6063C141.18 47.0263 141.18 26.6532 128.644 14.0731C117.551 2.94031 100.067 1.49305 87.3091 10.6442L86.9541 10.8891C83.7591 13.1825 83.0269 17.6356 85.3122 20.8196C87.5975 24.0036 92.035 24.7606 95.2078 22.4673L95.5628 22.2223C102.685 17.1235 112.425 17.9251 118.593 24.1372C125.582 31.1509 125.582 42.5063 118.593 49.52L97.2934 70.895L90.2156 65.3286C95.6072 53.3497 93.2109 38.9884 83.6481 29.3919C72.0662 17.747 53.8059 16.8786 41.2034 26.7868L8.61 1.1368ZM53.0294 36.0716C59.7078 32.754 68.0503 33.8673 73.6194 39.4782C78.0569 43.9313 79.7209 50.2325 78.4341 56.0661L53.0294 36.0716ZM90.2156 92.7153L49.0134 60.1184C48.5475 68.9802 51.7203 77.9532 58.3766 84.6106C67.0075 93.272 79.3216 95.9661 90.2378 92.693L90.2156 92.7153ZM25.8719 41.8384L13.3581 54.3962C0.822186 66.9762 0.822186 87.3493 13.3581 99.9294C24.4519 111.062 41.9356 112.509 54.6934 103.358L55.0484 103.113C58.2434 100.82 58.9756 96.3669 56.6903 93.1829C54.405 89.9989 49.9675 89.2419 46.7947 91.5352L46.4397 91.7802C39.3175 96.879 29.5772 96.0774 23.4091 89.8653C16.42 82.8294 16.42 71.4739 23.4091 64.4602L37.1209 50.7001L25.8941 41.8161L25.8719 41.8384Z"/>
+                    </svg>
+                  </div>
+
+                  <div v-on:click="onDeleteTriggered(item.value[0].proposal.id, item.term, item.is_search_file, $event)"
+                    :id="'delete-'+item.term" :class="['c-pointer actions-terms-btns-item-delete', { 'disabled': isArchived }]">
+                    <span class="actions-terms-btns-span">Delete</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13" fill="none"
+                      class="actions-terms-btns-item-icon-delete">
+                      <path d="M0.75 3H1.91667H11.25" stroke="#4A505C" stroke-width="1.2" stroke-linecap="round"
+                        stroke-linejoin="round" class="actions-terms-btns-item-delete-icon"/>
+                      <path
+                        d="M3.66669 3.00002V1.83335C3.66669 1.52393 3.7896 1.22719 4.0084 1.0084C4.22719 0.789603 4.52393 0.666687 4.83335 0.666687H7.16669C7.47611 0.666687 7.77285 0.789603 7.99164 1.0084C8.21044 1.22719 8.33335 1.52393 8.33335 1.83335V3.00002M10.0834 3.00002V11.1667C10.0834 11.4761 9.96044 11.7729 9.74164 11.9916C9.52285 12.2104 9.22611 12.3334 8.91669 12.3334H3.08335C2.77393 12.3334 2.47719 12.2104 2.2584 11.9916C2.0396 11.7729 1.91669 11.4761 1.91669 11.1667V3.00002H10.0834Z"
+                        stroke="#4A505C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="actions-terms-btns-item-delete-icon"/>
+                    </svg>
+                  </div>
+
+                  <div :class="['c-pointer actions-terms-btns-item-reload', { 'disabled': isArchived }]"
+                    v-on:click="onUpdateTriggered(item.index,item.value[0].proposal.id, item.term, item.is_search_file, $event)"
+                    :disabled="getReportStatus(item) === 'SAVING' || getReportStatus(item) === 'Fetching Expected Count' || isArchived"
+                    title="Update Search Term & Reload Results Counts"
+                    >
+                    <span class="actions-terms-btns-span">Reload</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="actions-terms-btns-item-icon-reload" viewBox="0 0 14 15" fill="none">
+                      <path
+                        d="M11.1586 8.9585C10.5648 10.8216 8.86404 12.1668 6.85867 12.1668C4.35944 12.1668 2.33341 10.0775 2.33341 7.50016C2.33341 4.92283 4.35944 2.8335 6.85867 2.8335C8.53365 2.8335 9.99608 3.77196 10.7785 5.16683M9.40412 5.75016H11.6667V3.41683"
+                        stroke="#181A1E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="actions-terms-btns-item-reload-icon"/>
+                    </svg>
+                  </div>
+
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="mt-2 mb-2 w-50 m-auto">
+          <button class="primary-button w-100" 
+            :disabled="isArchived"
+            v-on:click="onShowAddTermModal">
+            Add A New Search Query
+          </button>
+        </div>
+
+        <button class="badge success ready-alert mt-2 mb-3 btn-done w-50" v-on:click="showModal('term-done-modal')">
+          <h3>
+            Done Adding Search Queries ?
+          </h3>
+        </button>
+        
+        <div class="modal" id="term-done-modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-body">
+                <div class="hint mt-2">
+                  If you've finished adding your Search Queries, we can now download and process all the results. Click
+                  next to complete this step and move to the next step
+                </div>
+              </div>
+              <div class="modal-footer">
+
+                <button class="secondary-gray-button mt w-100" v-on:click="hideModal('term-done-modal')" type="button">
+                  Close
+                </button>
+                <a href="{% url 'lit_reviews:search_dashboard' id=literature_review_id %}"
+                  class="primary-button ml mt w-100" type="button">
+                  Next
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="floated-actions" v-if="selectedTerms.length">
+      <div>
+        [[ selectedTerms.length ]] Selected
+      </div>
+      <button class="dark-button mr bulk-update" id="bulk-update" v-on:click="onBulkUpdateTriggered" :disabled="isArchived">
+        Bulk Update
+      </button>
+      <button class="dark-button" ref="specificBulkUpdate" v-on:click="showModal('db-bulk-update')" :disabled="isArchived">
+        Bulk DB Change
+      </button>
+
+      <div v-on:click="showModal('bulk-delete-confirm')" :class="['c-pointer', { 'disabled': isArchived }]">
+        <img src="{% static 'images/icons/light-delete.png' %}" style="width: 20px;" />
+      </div>
+    </div>
+
+    <!-- DB Change Bulk Modal -->
+    <div class="modal add-term-modal" id="db-bulk-update">
+      <div class="modal-dialog">
+        <form v-on:submit="onSpecificBulkUpdate">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-header-icon-wrapper info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M15.3754 11.9995H12.0004M12.0004 11.9995H8.62537M12.0004 11.9995V15.3744M12.0004 11.9995L12.0004 8.62447M21 6.37498L21 17.625C21 19.489 19.489 21 17.625 21H6.375C4.51104 21 3 19.489 3 17.625V6.37498C3 4.51103 4.51104 3 6.375 3H17.625C19.489 3 21 4.51103 21 6.37498Z"
+                    stroke="#014EE9" stroke-width="1.2" stroke-linecap="round" />
+                </svg>
+              </div>
+              Bulk Database Change
+
+              <div class="hint mt-2"> Select the databases you would like to apply to the chosen Search Queries. </div>
+            </div>
+
+            <div class="modal-body">
+              <div class="center-h mt-2">
+                <div class="databases-box w-50 mr">
+                  <h3> Clinical Literature Databases </h3>
+                  <div class="databases-list">
+                    <div class="filter-check">
+                      <label for="clinical-select-all"> Select All </label>
+                      <input type="checkbox" id="clinical-select-all" v-on:change="onSelectAllClinicalDBsBulk" />
+                    </div>
+                    <div class="filter-check" v-for="db in lit_dbs" :key="db.id">
+                      <label :for="'bulk-db-'+db.entrez_enum">
+                        <span class="litreview-icon mr-2">
+                          <img src="{% static 'images/icons/lit-review-icon-black.png' %}" alt="lit-review-icon" />
+                        </span>
+                        [[db.displayed_name]]
+                      </label>
+                      <input v-model="dbBulkTerm.dbs" :value="db.entrez_enum" :id="'bulk-db-'+db.entrez_enum"
+                        type="checkbox" name="bulk-database" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="databases-box w-50 mr">
+                  <h3> Adverse Event Databases </h3>
+                  <div class="databases-list">
+                    <div class="filter-check">
+                      <label for="ae-select-all"> Select All </label>
+                      <input type="checkbox" id="ae-select-all" v-on:change="onSelectAllAEDBsBulk" />
+                    </div>
+                    <div class="filter-check" v-for="db in ae_dbs" :key="db.id">
+                      <label :for="'bulk-db-'+db.entrez_enum">
+                        <span class="litreview-icon mr-2">
+                          <img src="{% static 'images/icons/lit-review-icon-black.png' %}" alt="lit-review-icon" />
+                        </span>
+                        [[db.displayed_name]]
+                      </label>
+                      <input v-model="dbBulkTerm.dbs" :value="db.entrez_enum" :id="'bulk-db-'+db.entrez_enum"
+                        type="checkbox" name="bulk-database" />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <label> </label>
+
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="secondary-gray-button w-50" v-on:click="hideModal('db-bulk-update')"> Cancel
+              </button>
+              <button type="sbumit" class="primary-button w-50 ml" :disabled="!dbBulkTerm.dbs.length">
+                Update
+              </button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Previews section -->
+    <div class="modal preview-modal" id="preview-resuls-section">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-icon-wrapper info-icon">
+              <img src="{% static 'images/icons/preview-header.png' %}" alt="preview icon" />
+            </div>
+            <h2> Results Preview </h2>
+            <div v-if="previews.length == 50" class="hint mt-2 mb-2"> Note: Below preview shows only first 50 articles
+            </div>
+          </div>
+
+          <!-- If a maude preview -->
+          <div v-if="previews.length && Object.keys(previews[0]).includes('manufacturer')" class="modal-body">
+            <div class="inner-preview-popup ">
+              <table class="custom-table" v-if="previews.length" v-if="articles.length">
+                <thead>
+                  <tr>
+                    <th style="width: 50px;"> ID </th>
+                    <th style="width: 250px;"> Type </th>
+                    <th style="width: 250px;"> Manufacturer </th>
+                    <th style="width: 450px;"> Description </th>
+                    <th> Event Link </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(preview, index) in previews" :key="preview.id">
+                    <td> #[[ index ]] </td>
+                    <td> [[ preview.event_type ]] </td>
+                    <td> [[ preview.manufacturer ]] </td>
+                    <td> [[ preview.description.slice(0, 300) ]]... </td>
+                    <td> <a href="{{ event.ae.event_uid }}" class="link" target="_blank"> Event Link </a> </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div v-else> 0 Articles Were Found. </div>
+            </div>
+          </div>
+
+          <!-- If a recall preview -->
+          <div v-else-if="previews.length && Object.keys(previews[0]).includes('recall_class')" class="modal-body">
+            <div class="inner-preview-popup ">
+              <table class="custom-table" v-if="previews.length" v-if="articles.length">
+                <thead>
+                  <tr>
+                    <th style="width: 50px;"> ID </th>
+                    <th style="width: 250px;"> Name </th>
+                    <th style="width: 250px;"> Class </th>
+                    <th> Description </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(preview, index) in previews" :key="preview.id">
+                    <td> #[[ index ]] </td>
+                    <td> [[ preview.firm_name ]] - [[ preview.trade_name ]] </td>
+                    <td> [[ preview.recall_class ]] </td>
+                    <td> [[ preview.product_description ]] </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div v-else> 0 Articles Were Found. </div>
+            </div>
+          </div>
+
+          <!-- If literature search preview -->
+          <div v-else class="modal-body">
+            <div class="inner-preview-popup ">
+              <table class="custom-table" v-if="previews.length" v-if="articles.length">
+                <thead>
+                  <tr>
+                    <th style="width: 50px;"> ID </th>
+                    <th style="width: 250px;"> Title </th>
+                    <th> Abstract </th>
+                    <th style="width: 250px;"> Citation </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(preview, index) in previews" :key="preview.id">
+                    <td> #[[ index ]] </td>
+                    <td> [[ preview.title ]] </td>
+                    <td> [[ preview.abstract.slice(0, 800) ]]... </td>
+                    <td> [[ preview.citation ]] </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div v-else> 0 Articles Were Found. </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button class="secondary-gray-button w-100" v-on:click="hideModal('preview-resuls-section')"> Close Preview
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- At the end of your template, but still inside the #app div -->
+    <!-- At the end of your template, but still inside the #app div -->
+    <database-config-viewer
+      id="db-config-viewer"
+      :current-db="currentDB"
+      :current-db-type="currentDBType"
+      :current-db-config-start-date="currentDBConfigStartDate"
+      :current-db-config-end-date="currentDBConfigEndDate"
+      :excluded-params-name="excludedParamsName"
+      @hide-modal="hideModal"
+    ></database-config-viewer>
+  
+  </div>
+  <!-- loader section #2 -->
+  <div class="update-loading-section" id="loading-section">
+    <div class="update-loading-popup">
+      <div class="mb-3">
+        <img src="{% static 'images/new_logo.svg' %}" class="d-inline-block align-top" alt="citemed-logo" />
+      </div>
+
+      <div class="update-loading-popup-text">
+        An action is taking place, please don't refresh the page Until the process is completed! this process may take a
+        few minutes.
+      </div>
+
+      <div class="update-loading-popup-progress">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal FOR PUBMED RESULTS PREVIEW -->
+  <div class="modal" id="pubmed-preview-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-header-icon-wrapper info-icon">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.3543 8.15251L16.3479 8.15247M19.5229 3.35142L13.7226 2.90523C13.2083 2.86568 12.7024 3.05281 12.3377 3.41751L2.91787 12.8374C2.2279 13.5274 2.2279 14.646 2.91787 15.336L9.16441 21.5825C9.85439 22.2725 10.9731 22.2725 11.663 21.5825L21.0829 12.1627C21.4476 11.798 21.6347 11.2921 21.5952 10.7779L21.149 4.9775C21.0822 4.10862 20.3918 3.41825 19.5229 3.35142Z"
+                stroke="#206AFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          Preview Search Results
+        </div>
+        <div class="modal-body">
+          <h4> Please click the below link to preview the search results </h4>
+          <a :href="previewResultsURL" class="link info-link" target="_blank" id="preview-pubmed-url"> Preview Results
+            Link </a>
+        </div>
+        <div class="modal-footer">
+          <button class="secondary-gray-button" v-on:click="hideModal('pubmed-preview-modal')"> Close Preview </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal FOR PMC RESULTS PREVIEW -->
+  <div class="modal" id="pmc-preview-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-header-icon-wrapper info-icon">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.3543 8.15251L16.3479 8.15247M19.5229 3.35142L13.7226 2.90523C13.2083 2.86568 12.7024 3.05281 12.3377 3.41751L2.91787 12.8374C2.2279 13.5274 2.2279 14.646 2.91787 15.336L9.16441 21.5825C9.85439 22.2725 10.9731 22.2725 11.663 21.5825L21.0829 12.1627C21.4476 11.798 21.6347 11.2921 21.5952 10.7779L21.149 4.9775C21.0822 4.10862 20.3918 3.41825 19.5229 3.35142Z"
+                stroke="#206AFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          Preview Search Results
+        </div>
+        <div class="modal-body">
+          <form style="display: none;" id="pmc-preview-form" method="post" action="https://www.ncbi.nlm.nih.gov/pmc"
+            target="_blank">
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_PageController.PreviousPageName" value="results" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailReport" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailFormat" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailCount" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailStart" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailSort" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.Email" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailSubject" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailText" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailQueryKey" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.EmailHID"
+              value="1xoqLET3g-pmrjkwovwRoezMlr9P-btrpf-mxzaMpm" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.QueryDescription" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.Key" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.Answer" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.Holding" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.HoldingFft" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.HoldingNdiSet" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.OToolValue" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.EmailTab.SubjectList" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Facets.FacetsUrlFrag" id="pmc-preview-toast-date-filter" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Facets.FacetSubmitted" value="true" />
+            <input name="EntrezSystem2.PEntrez.PMC.Facets.BMFacets" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.sPresentation" value="DocSum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.sPageSize" value="20" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.sSort" value="none" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.FFormat" value="DocSum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.FSort" value="" />
+            <input name="email_format" value="DocSum" />
+            <input name="email_sort" value="" />
+            <input name="email_count" value="20" />
+            <input name="email_start" value="1" />
+            <input name="email_address" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.FileFormat" value="docsum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.LastPresentation" value="docsum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.Presentation" value="docsum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.PageSize" value="20" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.LastPageSize" value="20" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.Sort" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.LastSort" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.FileSort" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.Format" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.LastFormat" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_ResultsSearchController.ResultCount"
+              value="8" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_ResultsSearchController.RunLastQuery"
+              value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.sPresentation2" value="DocSum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.sPageSize2" value="20" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.sSort2" value="none" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.FFormat2" value="DocSum" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_DisplayBar.FSort2" value="" />
+            <input name="email_format2" value="DocSum" />
+            <input name="email_sort2" value="" />
+            <input name="email_count2" value="20" />
+            <input name="email_start2" value="1" />
+            <input name="email_address2" value="" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_FilterTab.CurrFilter" value="all" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_FilterTab.LastFilter" value="all" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_MultiItemSupl.Pmc_RelatedDataLinks.rdDatabase"
+              value="rddbto" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.Pmc_MultiItemSupl.Pmc_RelatedDataLinks.DbName"
+              value="pmc" />
+            <input name="EntrezSystem2.PEntrez.PMC.Pmc_ResultsPanel.HistoryDisplay.Cmd" value="search" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.Db" value="pmc" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LastDb" value="pmc" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.Term" id="pmc-preview-toast-term" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LastTabCmd" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LastQueryKey" value="3" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.IdsFromResult" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LastIdsFromResult" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LinkName" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LinkReadableName" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.LinkSrcDb" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.Cmd" value="search" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.TabCmd" value="" />
+            <input name="EntrezSystem2.PEntrez.DbConnector.QueryKey" value="" />
+            <input name="p$a" value="" />
+            <input name="p$l" value="EntrezSystem2" />
+            <input name="p$st" value="pmc" />
+
+          </form>
+          <h4> Please click the below link to preview the search results </h4>
+          <a onclick="document.getElementById('pmc-preview-form').submit();" class="link info-link"> Preview Results
+            Link </a>
+        </div>
+        <div class="modal-footer">
+          <button class="secondary-gray-button" v-on:click="hideModal('pmc-preview-modal')"> Close Preview </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{% endblock %}
+
+{% block 'scripts-block' %}
+<script type="application/javascript">
+  const searchTermsURL = "{% url 'lit_reviews:search_terms_api' id=literature_review_id %}";
+  const searchTermsUpdateURL = "{% url 'lit_reviews:search_terms_update_api' id=literature_review_id %}";
+  const searchTermsValidatorURL = "{% url 'lit_reviews:search_terms_validator_api' id=literature_review_id %}";
+  const previewResultsURL = "{% url 'lit_reviews:preview_results_api' id=literature_review_id %}";
+  const previewStatusURL = "{% url 'lit_reviews:preview_status_api' id=literature_review_id %}";
+  let searchTermsDeleteURL = "{% url 'lit_reviews:search_terms_delete_api' id=literature_review_id prop_id=0 %}";
+  const ResultSummaryURL = "{% url 'lit_reviews:result_summary_api' id=literature_review_id %}";
+  const BulkDeleteURL = "{% url 'lit_reviews:search_terms_bulk_delete_api' id=literature_review_id %}";
+
+  const litReviewID = "{{literature_review_id}}";
+  const maxTerms = "{{max_terms}}";
+  const projectType = "{{project_type}}";
+</script>
+
+<script type="application/javascript" src="{% static  'lit_reviews/vue/terms_validator_component.js' %}"> </script>
+<script type="application/javascript" src="{% static 'lit_reviews/vue/search_terms.js' %}"> </script>
+{% endblock %}

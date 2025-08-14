@@ -1,0 +1,540 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27PDE+Neo+II%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 33819752
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20210430
+IS  - 2059-7029 (Electronic)
+IS  - 2059-7029 (Linking)
+VI  - 6
+IP  - 2
+DP  - 2021 Apr
+TI  - T-DM1 versus pertuzumab, trastuzumab and a taxane as first-line therapy of
+      early-relapsed HER2-positive metastatic breast cancer: an Italian multicenter
+      observational study.
+PG  - 100099
+LID - S2059-7029(21)00056-9 [pii]
+LID - 10.1016/j.esmoop.2021.100099 [doi]
+AB  - BACKGROUND: The current standard first-line treatment of human epidermal growth
+      factor receptor 2 (HER2)-positive (+) metastatic breast cancer is the combination
+      of pertuzumab, trastuzumab and a taxane (P + T + taxane), while standard
+      second-line is ado-trastuzumab-emtansine (T-DM1). The registration trial of
+      pertuzumab, however, did not include early-relapsing patients, defined as
+      patients experiencing tumor relapse </=12 months from the end of (neo)adjuvant
+      anti-HER2 therapy. Conversely, the pivotal trial of T-DM1 included some patients 
+      relapsing </=6 months after the end of (neo)adjuvant trastuzumab. Thus, a
+      proportion of early-relapsing patients are currently eligible to receive T-DM1 as
+      first-line treatment. Nevertheless, no direct comparison exists between the two
+      regimens in this clinical setting. PATIENTS AND METHODS: We retrospectively
+      compared T-DM1 versus P + T + taxane as first-line treatment in two cohorts of
+      early-relapsing patients in an Italian 'real-world' setting, involving 14 public 
+      health care institutions. The primary endpoint was progression-free survival.
+      Secondary endpoints included patients' characterization, overall survival and
+      post-progression survival. Univariate and multivariate analyses were carried out.
+      All tests were two-sided and a P </= 0.05 was considered statistically
+      significant. RESULTS: Among 1252 screened patients, 75 met the inclusion
+      criteria. Forty-four (58.7%) received P + T + taxane and 31 (41.3%) received
+      T-DM1. The two cohorts showed similar characteristics of aggressiveness and no
+      significant differences in treatment history. T-DM1, compared with P + T + taxane
+      was associated with worse progression-free survival (adjusted hazard ratio: 2.26,
+      95% confidence interval: 1.13-4.52, P = 0.021) and overall survival (adjusted
+      hazard ratio: 3.95, 95% confidence interval: 1.38-11.32, P = 0.010), irrespective
+      of previous (neo)adjuvant treatment, age, hormone receptors status,
+      time-to-relapse (</=6 months or within 6-12 months) and presence of
+      visceral/brain metastases. No differences were observed in post-progression
+      survival (P = 0.095). CONCLUSIONS: Our study suggests superiority for P + T +
+      taxane over T-DM1 as up-front treatment of early-relapsing HER2+ metastatic
+      breast cancer, which merits further assessment in larger and prospective trials.
+CI  - Copyright (c) 2021 The Authors. Published by Elsevier Ltd.. All rights reserved.
+FAU - Schettini, F
+AU  - Schettini F
+AD  - Department of Clinical Medicine and Surgery, University of Naples 'Federico II', 
+      Naples, Italy; Translational Genomics and Targeted Therapies in Solid Tumors
+      Group, August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona,
+      Spain; SOLTI Breast Cancer Research Group, Barcelona, Spain. Electronic address: 
+      schettini@clinic.cat.
+FAU - Conte, B
+AU  - Conte B
+AD  - SOLTI Breast Cancer Research Group, Barcelona, Spain; Medical Oncology Unit 2,
+      IRCCS Ospedale Policlinico San Martino, Genoa, Italy.
+FAU - Buono, G
+AU  - Buono G
+AD  - Oncology Unit, San Rocco Hospital, Sessa Aurunca, Italy.
+FAU - De Placido, P
+AU  - De Placido P
+AD  - Department of Clinical Medicine and Surgery, University of Naples 'Federico II', 
+      Naples, Italy.
+FAU - Parola, S
+AU  - Parola S
+AD  - Department of Clinical Medicine and Surgery, University of Naples 'Federico II', 
+      Naples, Italy.
+FAU - Griguolo, G
+AU  - Griguolo G
+AD  - Division of Oncology 2, Istituto Oncologico Veneto IRCCS, Padua, Italy;
+      Department of Surgery, Oncology and Gastroenterology, University of Padova,
+      Padua, Italy.
+FAU - Fabi, A
+AU  - Fabi A
+AD  - Division of Medical Oncology 1, IRCCS Regina Elena National Cancer Institute,
+      Rome, Italy.
+FAU - Bighin, C
+AU  - Bighin C
+AD  - Medical Oncology Unit 2, IRCCS Ospedale Policlinico San Martino, Genoa, Italy.
+FAU - Riccardi, F
+AU  - Riccardi F
+AD  - Medical Oncology, 'A. Cardarelli' Hospital, Naples, Italy.
+FAU - Cianniello, D
+AU  - Cianniello D
+AD  - National Cancer Institute Fondazione 'G. Pascale', Naples, Italy.
+FAU - De Laurentiis, M
+AU  - De Laurentiis M
+AD  - National Cancer Institute Fondazione 'G. Pascale', Naples, Italy.
+FAU - Puglisi, F
+AU  - Puglisi F
+AD  - Department of Medicine (DAME), University of Udine, Udine, Italy; Department of
+      Clinical Oncology, CRO Aviano National Cancer Institute, Aviano, Italy.
+FAU - Pelizzari, G
+AU  - Pelizzari G
+AD  - Department of Clinical Oncology, CRO Aviano National Cancer Institute, Aviano,
+      Italy.
+FAU - Bonotto, M
+AU  - Bonotto M
+AD  - Department of Oncology, ASUFC University Hospital, Udine, Italy.
+FAU - Russo, S
+AU  - Russo S
+AD  - Department of Oncology, ASUFC University Hospital, Udine, Italy.
+FAU - Frassoldati, A
+AU  - Frassoldati A
+AD  - Oncology Unit, University Hospital St. Anna, Ferrara, Italy.
+FAU - Pazzola, A
+AU  - Pazzola A
+AD  - Division of Medical Oncology, AOU Sassari, Sassari, Italy.
+FAU - Montemurro, F
+AU  - Montemurro F
+AD  - Depertment of Medical Oncology, Candiolo Cancer Institute, Candiolo, Italy.
+FAU - Lambertini, M
+AU  - Lambertini M
+AD  - Department of Internal Medicine and Medical Specialties (DiMI), School of
+      Medicine, University of Genova, Genoa, Italy; Department of Medical Oncology,
+      U.O.C. Clinica di Oncologia Medica, IRCCS Ospedale Policlinico San Martino,
+      Genoa, Italy.
+FAU - Guarneri, V
+AU  - Guarneri V
+AD  - Division of Oncology 2, Istituto Oncologico Veneto IRCCS, Padua, Italy;
+      Department of Surgery, Oncology and Gastroenterology, University of Padova,
+      Padua, Italy.
+FAU - Cognetti, F
+AU  - Cognetti F
+AD  - Department of Clinic and Molecular Medicine, 'La Sapienza' University of Rome,
+      Rome, Italy.
+FAU - Locci, M
+AU  - Locci M
+AD  - Department of Neuroscience, Reproductive Medicine, Odontostomatology, University 
+      of Naples 'Federico II', Naples, Italy.
+FAU - Generali, D
+AU  - Generali D
+AD  - Breast Cancer Unit, Azienda Socio Sanitaria Territoriale di Cremona, Cremona,
+      Italy; Department of Medical, Surgery and Health Sciences, University of Trieste,
+      Trieste, Italy.
+FAU - Conte, P
+AU  - Conte P
+AD  - Division of Oncology 2, Istituto Oncologico Veneto IRCCS, Padua, Italy;
+      Department of Surgery, Oncology and Gastroenterology, University of Padova,
+      Padua, Italy.
+FAU - De Placido, S
+AU  - De Placido S
+AD  - Department of Clinical Medicine and Surgery, University of Naples 'Federico II', 
+      Naples, Italy.
+FAU - Giuliano, M
+AU  - Giuliano M
+AD  - Department of Clinical Medicine and Surgery, University of Naples 'Federico II', 
+      Naples, Italy.
+FAU - Arpino, G
+AU  - Arpino G
+AD  - Department of Clinical Medicine and Surgery, University of Naples 'Federico II', 
+      Naples, Italy.
+FAU - Del Mastro, L
+AU  - Del Mastro L
+AD  - Department of Internal Medicine and Medical Specialties (DiMI), School of
+      Medicine, University of Genova, Genoa, Italy; U.O.S.D. Breast Unit, IRCCS
+      Ospedale Policlinico San Martino, Genoa, Italy.
+LA  - eng
+PT  - Journal Article
+DEP - 20210402
+PL  - England
+TA  - ESMO Open
+JT  - ESMO open
+JID - 101690685
+SB  - IM
+PMC - PMC8047485
+OTO - NOTNLM
+OT  - HER2
+OT  - T-DM1
+OT  - breast cancer
+OT  - first-line
+OT  - pertuzumab
+OT  - trastuzumab
+COIS- Disclosure MG, GA and SDP have declared honoraria from Roche, Pfizer,
+      Astra-Zeneca, Novartis, Celgene, Eli Lilly, Amgen and Eisai outside the submitted
+      work. ML acted as consultant for Roche, AstraZenenca, Novartis, and received
+      speaker honoraria from Roche, Takeda, Novartis, Lilly, Pfizer, Sandoz outside the
+      submitted work. LDM has declared honoraria from Roche, Pfizer, Ipsen, Eli Lilly, 
+      Eisai, Novartis, Takeda and Merck Sharp & Dohme (MSD), consulting/advisory role
+      for Roche and Eli Lilly, travels, accommodations and expenses from Roche, Pfizer 
+      and Celgene outside the submitted work. MDL has declared consulting fees from
+      Pfizer, Novartis, Eli Lilly, Roche, Eisai, Celgene. FP has declared honoraria for
+      advisory boards, activities as a speaker, travel grants, research grants from
+      Amgen, AstraZeneca, Celgene, Eisai, Eli Lilly, Ipsen, MSD, Novartis,
+      Pierre-Fabre, Pfizer, Roche and Takeda, and research funding from AstraZeneca,
+      Eisai, Roche and Italian Ministry of Health outside the submitted work. PFC
+      reports grants from Merck KGaA, Roche and Bristol-Myers Squibb; grants and
+      personal fees from Novartis and EliLilly; personal fees from AstraZeneca, outside
+      the submitted work. VG reports personal fees from Novartis, Roche, EliLilly, MSD,
+      outside the submitted work. DG has declared consulting fees from Novartis, Lilly 
+      and Pfizer, research funding from LILT, Novartis, AstraZeneca and University of
+      Trieste outside the submitted work. GB received honoraria for speaker activities 
+      and travel grants from GlaxoSmithKline, Novartis, Pfizer, Roche, Genetic Spa,
+      outside the submitted work. FM declared advisory role for Roche, Novartis,
+      AstraZeneca, Pfizer, Eli Lilly, Pierre Fabre, Daiichi Sankyo, travel grants from 
+      Roche and financial support from the Fondazione Piemontese per la Ricerca sul
+      Cancro (FPRC) Onlus 5 x mille funding from the Italian Ministry of Health 2017
+      outside the submitted work. AF has declared honoraria for advisory board from
+      Roche and Novartis, activity as speaker for Pfizer and Lilly, travel grant from
+      Roche, Novartis, Pfizer, Lilly and AstraZeneca outside the submitted work. The
+      other authors have nothing to declare. Data sharing The anonymized database is
+      available from the corresponding author upon reasonable request. The R codes used
+      are available from the corresponding author upon reasonable request.
+EDAT- 2021/04/06 06:00
+MHDA- 2021/04/06 06:00
+CRDT- 2021/04/05 20:15
+PHST- 2020/12/28 00:00 [received]
+PHST- 2021/02/06 00:00 [revised]
+PHST- 2021/02/27 00:00 [accepted]
+PHST- 2021/04/06 06:00 [pubmed]
+PHST- 2021/04/06 06:00 [medline]
+PHST- 2021/04/05 20:15 [entrez]
+AID - S2059-7029(21)00056-9 [pii]
+AID - 10.1016/j.esmoop.2021.100099 [doi]
+PST - ppublish
+SO  - ESMO Open. 2021 Apr;6(2):100099. doi: 10.1016/j.esmoop.2021.100099. Epub 2021 Apr
+      2.
+
+PMID- 30867733
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20201001
+IS  - 1792-1074 (Print)
+IS  - 1792-1074 (Linking)
+VI  - 17
+IP  - 3
+DP  - 2019 Mar
+TI  - Genetics, diagnosis and treatment of Lynch syndrome: Old lessons and current
+      challenges.
+PG  - 3048-3054
+LID - 10.3892/ol.2019.9945 [doi]
+AB  - Lynch syndrome (LS) is an autosomal dominant genetic disorder associated with
+      germline mutations in DNA mismatch repair (MMR) genes. The carriers of pathogenic
+      mutations in these genes have an increased risk of developing a colorectal cancer
+      and/or LS-associated cancer. The LS-associated cancer types include carcinomas of
+      the endometrium, small intestine, stomach, pancreas and biliary tract, ovary,
+      brain, upper urinary tract and skin. The criteria for the clinical diagnosis of
+      LS and the procedures of the genetic testing for identification of pathogenetic
+      mutations carriers in MMR genes have long been known. A crucial point in the
+      mutation detection analysis is the correct definition of the pathogenecity
+      associated with MMR genetic variants, especially in order to include the mutation
+      carriers in the endoscopy surveillance programs more suited to them. Therefore,
+      this may help to improve the LS-associated cancer prevention programs. In the
+      present review, we also report the recent discoveries in molecular genetics of
+      LS, such as the new roles of MMR protein and immune response of MMR repair
+      deficiency in colorectal cancer. Finally, we discuss the main therapeutic
+      approaches, including immunotherapy, which represent a valid alternative to
+      traditional therapeutic methods and extend the life expectancy of patients that
+      have already developed LS-associated colorectal cancer.
+FAU - Duraturo, Francesca
+AU  - Duraturo F
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      'Federico II', Naples I-80131, Italy.
+FAU - Liccardo, Raffaella
+AU  - Liccardo R
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      'Federico II', Naples I-80131, Italy.
+FAU - De Rosa, Marina
+AU  - De Rosa M
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      'Federico II', Naples I-80131, Italy.
+FAU - Izzo, Paola
+AU  - Izzo P
+AD  - Department of Molecular Medicine and Medical Biotechnology, University of Naples 
+      'Federico II', Naples I-80131, Italy.
+AD  - CEINGE Biotecnologie Avanzate, University of Naples 'Federico II', Naples
+      I-80131, Italy.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190118
+PL  - Greece
+TA  - Oncol Lett
+JT  - Oncology letters
+JID - 101531236
+PMC - PMC6396136
+OTO - NOTNLM
+OT  - Lynch syndrome
+OT  - correlation genotype-phenotype
+OT  - highly immunogenic frame-shift neo-peptides
+OT  - immunotherapy
+OT  - mismatch repair genes
+OT  - unclassified genetic variants
+EDAT- 2019/03/15 06:00
+MHDA- 2019/03/15 06:01
+CRDT- 2019/03/15 06:00
+PHST- 2018/06/21 00:00 [received]
+PHST- 2018/12/20 00:00 [accepted]
+PHST- 2019/03/15 06:00 [entrez]
+PHST- 2019/03/15 06:00 [pubmed]
+PHST- 2019/03/15 06:01 [medline]
+AID - 10.3892/ol.2019.9945 [doi]
+AID - OL-0-0-9945 [pii]
+PST - ppublish
+SO  - Oncol Lett. 2019 Mar;17(3):3048-3054. doi: 10.3892/ol.2019.9945. Epub 2019 Jan
+      18.
+
+PMID- 30479672
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200930
+IS  - 1758-8340 (Print)
+IS  - 1758-8340 (Linking)
+VI  - 10
+DP  - 2018
+TI  - Assessing response to neo-adjuvant therapy in locally advanced rectal cancer
+      using Intra-voxel Incoherent Motion modelling by DWI data and Standardized Index 
+      of Shape from DCE-MRI.
+PG  - 1758835918809875
+LID - 10.1177/1758835918809875 [doi]
+AB  - Background: Our aim was to investigate preoperative chemoradiation therapy (pCRT)
+      response in locally advanced rectal cancer (LARC) comparing standardized index of
+      shape (SIS) obtained from dynamic contrast-enhanced magnetic resonance imaging
+      (DCE-MRI) with intravoxel-incoherent-motion-modelling-derived parameters by
+      diffusion-weighted imaging (DWI). Materials and methods: Eighty-eight patients
+      with LARC were subjected to MRI before and after pCRT. Apparent diffusion
+      coefficient (ADC), tissue diffusion (Dt), pseudodiffusion (Dp) and perfusion
+      fraction (f) were calculated and percentage changes ADC, Dt, Dp, f were computed.
+      SIS was derived comparing DCE-MRI pre- and post-pCRT. Nonparametric tests and
+      receiver operating characteristic (ROC) curves were performed. Results: A total
+      of 52 patients were classified as responders (tumour regression grade; TRG 2) and
+      36 as not-responders (TRG > 3). Mann-Whitney U test showed statistically
+      significant differences in SIS, ADC and Dt between responders and not-responders 
+      and between complete responders (19 patients with TRG = 1) versus incomplete
+      responders. The best parameters to discriminate responders by nonresponders were 
+      SIS and ADC, with an accuracy of 91% and 82% (cutoffs of -5.2% and 18.7%,
+      respectively); the best parameters to detect pathological complete responders
+      were SIS, f and Dp with an accuracy of 78% (cutoffs of 38.5%, 60.0% and 83.0%,
+      respectively). No increase of performance was observed by combining linearly each
+      possible couple of parameters or combining all parameters. Conclusion: SIS allows
+      assessment of preoperative treatment response with high accuracy guiding the
+      surgeon versus more or less conservative treatment. DWI-derived parameters
+      reached less accuracy compared with SIS and combining linearly DCE- and
+      DWI-derived parameters; no increase of accuracy was obtained.
+FAU - Petrillo, Antonella
+AU  - Petrillo A
+AD  - Radiology Unit, 'Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale', Naples,
+      Italy.
+FAU - Fusco, Roberta
+AU  - Fusco R
+AD  - Radiology Unit, 'Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale', Via
+      Mariano Semmola, Naples 80131, Italy.
+FAU - Granata, Vincenza
+AU  - Granata V
+AD  - Radiology Unit, 'Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale', Naples,
+      Italy.
+FAU - Filice, Salvatore
+AU  - Filice S
+AD  - Radiology Unit, 'Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale', Naples,
+      Italy.
+FAU - Sansone, Mario
+AU  - Sansone M
+AD  - Department of Electrical Engineering and Information Technologies, University
+      'Federico II' of Naples, Naples, Italy.
+FAU - Rega, Daniela
+AU  - Rega D
+AD  - Gastrointestinal Surgical Oncology Unit, 'Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale', Naples, Italy.
+FAU - Delrio, Paolo
+AU  - Delrio P
+AD  - Gastrointestinal Surgical Oncology Unit, 'Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale', Naples, Italy.
+FAU - Bianco, Francesco
+AU  - Bianco F
+AD  - Gastrointestinal Surgical Oncology Unit, 'Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale', Naples, Italy.
+FAU - Romano, Giovanni Maria
+AU  - Romano GM
+AD  - Gastrointestinal Surgical Oncology Unit, 'Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale', Naples, Italy.
+FAU - Tatangelo, Fabiana
+AU  - Tatangelo F
+AD  - Diagnostic Pathology Unit, 'Istituto Nazionale Tumori, IRCCS, Fondazione G
+      Pascale', Naples, Italy.
+FAU - Avallone, Antonio
+AU  - Avallone A
+AD  - Gastrointestinal Medical Oncology Unit, 'Istituto Nazionale Tumori, IRCCS,
+      Fondazione G Pascale', Naples, Italy.
+FAU - Pecori, Biagio
+AU  - Pecori B
+AD  - Radiotherapy Unit, 'Istituto Nazionale Tumori, IRCCS, Fondazione G Pascale',
+      Naples, Italy.
+LA  - eng
+PT  - Journal Article
+DEP - 20181116
+PL  - England
+TA  - Ther Adv Med Oncol
+JT  - Therapeutic advances in medical oncology
+JID - 101510808
+PMC - PMC6243411
+OTO - NOTNLM
+OT  - LARC
+OT  - SIS change
+OT  - assessment response
+OT  - diffusion parameters change
+OT  - neoadjuvant therapy
+COIS- Conflict of interest statement: The authors declare that there is no conflict of 
+      interest.
+EDAT- 2018/11/28 06:00
+MHDA- 2018/11/28 06:01
+CRDT- 2018/11/28 06:00
+PHST- 2018/05/21 00:00 [received]
+PHST- 2018/09/24 00:00 [accepted]
+PHST- 2018/11/28 06:00 [entrez]
+PHST- 2018/11/28 06:00 [pubmed]
+PHST- 2018/11/28 06:01 [medline]
+AID - 10.1177/1758835918809875 [doi]
+AID - 10.1177_1758835918809875 [pii]
+PST - epublish
+SO  - Ther Adv Med Oncol. 2018 Nov 16;10:1758835918809875. doi:
+      10.1177/1758835918809875. eCollection 2018.
+
+PMID- 26218314
+OWN - NLM
+STAT- In-Process
+LR  - 20210422
+IS  - 1555-8576 (Electronic)
+IS  - 1538-4047 (Linking)
+VI  - 21
+IP  - 8
+DP  - 2020 Aug 2
+TI  - Expression and clinical implication of cyclooxygenase-2 and E-cadherin in oral
+      squamous cell carcinomas.
+PG  - 667-674
+LID - 10.1080/15384047.2015.1071741 [doi]
+AB  - Epithelial-Mesenchymal Transition (EMT) and angiogenesis are crucial events for
+      development of aggressive and often fatal Oral Squamous Cell Carcinomas (OSCCs). 
+      Both promote cancer progression and metastasis development, but while the former 
+      induces the loss of E-cadherin expression and, hence cadherin switching; the
+      latter produces hematic blood vessel neo-formation and contribute to OSCC cell
+      growth, tumor mass development, and dissemination. Cyclooxygenase-2 (COX-2) has
+      an important role, not only in angiogenic mechanisms, but also in favoring cancer
+      invasion. Indeed it decreases the expression of E-cadherin and leads to
+      phenotypic changes in epithelial cells (EMT) enhancing their carcinogenic
+      potential. Our aim is to evaluate the interplay between E-cadherin cytoplasmic
+      delocalization, COX-2 up-regulation and COX-2 induced neo-angiogenesis in 120
+      cases of OSCC. We have analyzed the distribution and the number of neo-formed
+      endothelial buds surrounding infiltrating cells that express COX-2, as well as
+      the neo-formed vessels in chronic inflammatory infiltrate, which surround the
+      tumor. A double immunostaining method was employed in order to verify
+      co-localization of endothelial cell marker (CD34) and COX-2. IHC has also been
+      used to assess E-cadherin expression. Our data demonstrate that the OSCC cells,
+      which lose membranous E-cadherin staining, acquiring a cytoplasmic
+      delocalization, overexpress COX-2. Moreover, we find a new CD34+ vessel formation
+      (sprouting angiogenesis). Only basaloid type of OSCC showes low level of COX-2
+      expression together with very low level of neo-angiogenesis and consequent tumor 
+      necrosis. The well-known anti-metastatic effect of certain COX-2 inhibitors
+      suggests that these molecules might have clinical utility in the management of
+      advanced cancers.
+FAU - Santoro, Angela
+AU  - Santoro A
+AD  - Department of Anatomic Pathology, 'Giovanni Paolo II' Foundation-UCSC ,
+      Campobasso, Italy.
+FAU - Bufo, Pantaleo
+AU  - Bufo P
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia , Foggia, Italy.
+FAU - Russo, Giuseppe
+AU  - Russo G
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia , Foggia, Italy.
+FAU - Cagiano, Simona
+AU  - Cagiano S
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia , Foggia, Italy.
+FAU - Papagerakis, Silvana
+AU  - Papagerakis S
+AD  - Laboratory of Head and Neck Cancer Invasion and Metastasis, Department of
+      Otolaryngology, Head and Neck Oncology, University of Michigan, Medical School , 
+      Ann Arbor, MI, USA.
+FAU - Bucci, Paolo
+AU  - Bucci P
+AD  - Department of Neuroscience, Reproductive and Odontostomatologies Science,
+      University of Naples 'Federico II' , Naples, Italy.
+FAU - Aquino, Gabriella
+AU  - Aquino G
+AD  - Section of Pathological Anatomy, National Cancer Institute 'G. Pascale
+      Foundation' , Naples, Italy.
+FAU - Longo, Francesco
+AU  - Longo F
+AD  - Head and Neck Medical Oncology Unit, National Cancer Institute 'G. Pascale
+      Foundation' , Naples, Italy.
+FAU - Feola, Antonia
+AU  - Feola A
+AD  - Department of Biology, University of Naples , Naples, Italy.
+AD  - Department of Biochemistry, Biophisic and General Pathology Second University of 
+      Naples , Naples, Italy.
+FAU - Giordano, Antonio
+AU  - Giordano A
+AD  - Department of Medicine, Surgery and Neuroscience, University of Siena , Siena,
+      Italy.
+AD  - Sbarro Institute for Cancer Research and Molecular Medicine, Center for
+      Biotechnology, Temple University , Philadelphia, PA, USA.
+FAU - Di Carlo, Angelina
+AU  - Di Carlo A
+AD  - Department of Medico-Surgical Sciences and Biotechnologies, "Sapienza" University
+      of Rome , Rome, Italy.
+FAU - Di Domenico, Marina
+AU  - Di Domenico M
+AD  - Department of Biochemistry, Biophisic and General Pathology Second University of 
+      Naples , Naples, Italy.
+AD  - Sbarro Institute for Cancer Research and Molecular Medicine, Center for
+      Biotechnology, Temple University , Philadelphia, PA, USA.
+FAU - Pannone, Giuseppe
+AU  - Pannone G
+AD  - Department of Clinical and Experimental Medicine, Institute of Pathological
+      Anatomy, University of Foggia , Foggia, Italy.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200617
+PL  - United States
+TA  - Cancer Biol Ther
+JT  - Cancer biology & therapy
+JID - 101137842
+SB  - IM
+PMC - PMC7537792
+OTO - NOTNLM
+OT  - * Prostaglandins
+OT  - *CD-34
+OT  - *Cox-2
+OT  - *E-cadherin
+OT  - *OSCC
+OT  - *TMA
+OT  - *neo-angiogenesis
+OT  - *tumor microenvironment
+EDAT- 2015/07/29 06:00
+MHDA- 2015/07/29 06:00
+CRDT- 2015/07/29 06:00
+PHST- 2015/07/29 06:00 [pubmed]
+PHST- 2015/07/29 06:00 [medline]
+PHST- 2015/07/29 06:00 [entrez]
+AID - 10.1080/15384047.2015.1071741 [doi]
+PST - ppublish
+SO  - Cancer Biol Ther. 2020 Aug 2;21(8):667-674. doi: 10.1080/15384047.2015.1071741.
+      Epub 2020 Jun 17.

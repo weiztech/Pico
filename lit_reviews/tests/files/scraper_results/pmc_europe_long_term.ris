@@ -1,0 +1,118 @@
+TY  - EJOUR
+AN  - 36676748
+DB  - PubMed
+DO  - 10.3390/medicina59010124
+TI  - Comparison between Retrograde Flexible Ureteroscopy and Percutaneous Nephrolithotomy for the Treatment of Renal Stones of 2-4 cm
+AU  - Cosmin, Cozma
+AU  - Georgescu, Dragos Adrian
+AU  - Geavlete, Petrisor
+AU  - Popescu, Razvan-Ionut
+AU  - Geavlete, Bogdan
+IS  - 1
+VL  - 59
+DA  - 2023/01//
+PY  - 2023
+T2  - Medicina (Kaunas, Lithuania)
+J2  - Medicina (Kaunas)
+SN  - 1010-660X
+SP  - 124
+AB  - Background and objectives: Renal stones are widespread, with a lifetime prevalence of 10% in adults. Flexible ureteroscopy enables urologists to treat lower calyx stones or even complex renal stones through the natural orifice and achieve an acceptable stone-free rate. Hence, we analyzed the effectiveness and safety of FURS versus PCNL in treating renal stones between 20 and 40 mm in diameter. Materials and methods: We retrospectively analyzed 250 consecutive patients with large renal solitary stones (stone burden between 2 and 4 cm) from 1 January 2019 to 31 December 2020. The patients were divided into two groups: group 1 (125 patients), in which the patients were treated by a retrograde flexible ureteroscopic approach, and group 2 (125 patients), in which we used percutaneous nephrolithotomy. Stone characteristics and anatomical data were observed based on the computed tomography (CT) and/or KUB (Kidney-ureter-Bladder) radiography imaging archive. Results: The mean stone burden was 26.38 ± 4.453 mm in group 1 and 29.44 ± 4.817 mm in group 2. The stone-free rate after the first ureteroscopy was higher for the PNL(percutaneous nephrolithotomy) group (90.4%) than the F-URS group (68%). After two sessions of ureteroscopy, the SFR was 88.8% in the first group, and after three procedures, the SFR rose to 95.2%. The overall complication rate was higher in group 1 than in group 2 (18.4% vs. 16.8%), but without statistical relevance (p > 0.5). Furthermore, we encountered more grade III and IV complications in the PNL group (8.8% vs. 4.8%, p < 0.05). Conclusion: Flexible ureteroscopy proves to be efficient in treating renal stones over 2 cm. However, the patients must be informed that more than one procedure might be necessary to overcome the entire stone burden.
+AD  - Department of Urology, Carol Davila University of Medicine and Pharmacy, 050474 Bucharest, Romania.
+LA  - eng
+KW  - Kidney Calculi
+KW  - Nephrolithotomy, Percutaneous
+UR  - http://europepmc.org/abstract/MED/36676748
+UR  - https://www.mdpi.com/1648-9144/59/1/124/pdf?version=1673181920
+UR  - https://doi.org/10.3390/medicina59010124
+UR  - https://europepmc.org/articles/PMC9864526
+UR  - https://europepmc.org/articles/PMC9864526?pdf=render
+ER  - 
+
+TY  - JOUR
+AN  - 36909718
+DB  - PubMed
+DO  - 10.1016/j.ijheatmasstransfer.2022.123843
+TI  - Model-based simulations of pulsed laser ablation using an embedded finite element method
+AU  - Liu, Yangyuanchen
+AU  - Claus, Susanne
+AU  - Kerfriden, Pierre
+AU  - Chen, Junqin
+AU  - Zhong, Pei
+AU  - Dolbow, John E
+VL  - 204
+DA  - 2023/05//
+PY  - 2023
+JO  - International journal of heat and mass transfer
+J2  - Int J Heat Mass Transf
+SN  - 0017-9310
+SP  - 123843
+AB  - A model of thermal ablation with application to multi-pulsed laser lithotripsy is presented. The approach is based on a one-sided Stefan-Signorini model for thermal ablation, and relies on a level-set function to represent the moving interface between the solid phase and a fictitious gas phase (representing the ablated material). The model is discretized with an embedded finite element method, wherein the interface geometry can be arbitrarily located relative to the background mesh. Nitsche's method is adopted to impose the Signorini condition on the moving interface. A bound constraint is also imposed to deal with thermal shocks that can arise during representative simulations of pulsed ablation with high-power lasers. We report simulation results based on experiments for pulsed laser ablation of wet BegoStone samples treated in air, where Begostone has been used as a phantom material for kidney stone. The model is calibrated against experimental measurements by adjusting the percentage of incoming laser energy absorbed at the surface of the stone sample. Simulation results are then validated against experimental observations for the crater area, volume, and geometry as a function of laser pulse energy and duration. Our studies illustrate how the spreading of the laser beam from the laser fiber tip with concomitantly reduced incident laser irradiance on the damaged crater surface explains trends in both the experimental observations and the model-based simulation results.
+AD  - Department of Mechanical Engineering and Materials Science, Duke University, Durham, NC, USA.
+LA  - eng
+UR  - http://europepmc.org/abstract/MED/36909718
+UR  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10004101
+UR  - https://doi.org/10.1016/j.ijheatmasstransfer.2022.123843
+UR  - https://europepmc.org/articles/PMC10004101
+UR  - https://europepmc.org/articles/PMC10004101?pdf=render
+UR  - https://doi.org/10.1016/j.ijheatmasstransfer.2022.123843
+ER  - 
+
+TY  - EJOUR
+AN  - 36769699
+DB  - PubMed
+DO  - 10.3390/jcm12031052
+TI  - Bowel Perforation after Extracorporeal Wave Lithotripsy: A Review of the Literature
+AU  - Fontanet, Sofia
+AU  - Farré, Alba
+AU  - Angerri, Oriol
+AU  - Kanashiro, Andrés
+AU  - Suquilanda, Edgar
+AU  - Bollo, Jesús
+AU  - Gallego, Maria
+AU  - Sánchez-Martín, Francisco Maria
+AU  - Millán, Félix
+AU  - Palou, Joan
+AU  - Bonnin, Diana
+AU  - Emiliani, Esteban
+IS  - 3
+VL  - 12
+DA  - 2023/01//
+PY  - 2023
+T2  - Journal of clinical medicine
+J2  - J Clin Med
+SN  - 2077-0383
+SP  - 1052
+AB  - <h4>Introduction</h4>Extracorporeal wave lithotripsy (ESWL) is considered a first-line treatment for renal and ureteral stones up to 10-20 mm in diameter. Complications are uncommon, with a reported rate of 0-6% in the literature. Bowel perforation has only been described in a few case reports but requires rapid diagnosis and treatment.<h4>Methods</h4>A review of the literature from PubMed/Medline, Embase, Cochrane, and Web of Science databases was performed including studies reporting bowel perforation secondary to ESWL between January 1990 and June 2022.<h4>Results</h4>We found 16 case reports of intestinal perforation in the literature. Although some patients had previously undergone abdominal surgery or had inflammatory intestinal disease, others were without comorbidities that could lead to complications. Abdominal pain was the main symptom and imaging was required to confirm the diagnosis, which usually necessitated a surgical intervention. As regards the ESWL technique, it appears that the combination of a high energy level and the prone position constitutes a risk factor for these rare complications. At the authors' centre, only one case has been reported among 24,000 ESWL procedures over 20 years: A 59-year-old female who underwent ESWL for a distal right ureteral stone presented acute abdominal pain and free intraperitoneal pelvic fluid on ultrasound. A CT scan revealed a small bowel perforation requiring open laparotomy with primary closure.<h4>Conclusions</h4>In conclusion, although bowel perforation after ESWL is rare, progressive abdominal pain with tenderness at physical examination requires proper imaging evaluation to exclude bowel perforation and prompt intervention if required.
+AD  - Department of Urology, Fundación Puigvert, Autonomous University of Barcelona, 08025 Barcelona, Spain.
+LA  - eng
+UR  - http://europepmc.org/abstract/MED/36769699
+UR  - https://www.mdpi.com/2077-0383/12/3/1052/pdf?version=1675308388
+UR  - https://doi.org/10.3390/jcm12031052
+UR  - https://europepmc.org/articles/PMC9917583
+UR  - https://europepmc.org/articles/PMC9917583?pdf=render
+ER  - 
+
+TY  - JOUR
+AN  - 36622047
+DB  - PubMed
+DO  - 10.1021/acsnano.2c09737
+TI  - Multifunctional Nanostructures with Controllable Band Gap Giving Highly Stable Infrared Emissivity for Smart Thermal Management
+AU  - Delkowski, Michal
+AU  - Anguita, José Virgilio
+AU  - Smith, Christopher Toby Gibb
+AU  - Silva, S Ravi P
+DA  - 2023/01//
+PY  - 2023
+JO  - ACS nano
+J2  - ACS Nano
+SN  - 1936-0851
+AB  - Thermal control is essential to guarantee the optimal performance of most advanced electronic devices or systems. In space, orbital satellites face the issues of high thermal gradients, heating, and different thermal loads mediated by differential illumination from the Sun. Todaýs state-of-the-art thermal control systems provide protection; however, they are bulky and restrict the mass and power budgets for payloads. Here, we develop a lightweight optical superlattice nanobarrier structure to provide a smart thermal control solution. The structure consists of a moisture and outgassing physical barrier (MOB) coupled with atomic oxygen (AO)-UV protection functionality. The nanobarrier exhibits transmission and reflection of light by controlling the optical gap of individual layers to enable high infrared emissivity and variable solar absorptivity (minimum Δα<sub>S</sub> = 0.30) across other wavelengths. The multifunctional coating can be applied to heat-sensitive substrates by means of a bespoke room-temperature process. We demonstrate enhanced stability, energy-harvesting capability, and power savings by facilitating the radiation cooling and facility for active self-reconfiguration in orbit. In this way, the reduction of the operating temperature from ∼120 to ∼60 °C on space-qualified and nonmechanically controlled composite structures is also demonstrated.
+AD  - Advanced Technology Institute, Department of Electrical and Electronic Engineering, University of Surrey, Guildford, SurreyGU2 7XH, United Kingdom.
+LA  - eng
+UR  - http://europepmc.org/abstract/MED/36622047
+UR  - https://pubs.acs.org/doi/pdf/10.1021/acsnano.2c09737
+UR  - https://doi.org/10.1021/acsnano.2c09737
+UR  - https://europepmc.org/articles/PMC9878728
+UR  - https://europepmc.org/articles/PMC9878728?pdf=render
+ER  - 
+

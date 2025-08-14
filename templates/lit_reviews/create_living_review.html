@@ -1,0 +1,966 @@
+{% extends 'base_lit_reviews.html' %} {% load static %} {% load
+    crispy_forms_tags %} {% block 'head' %}
+    <link
+      href="{% static 'css/theme/create_lit_review.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{% static 'css/theme/create_living_review.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    {% endblock %} {% block 'body' %}
+    <div id="app" v-cloak>
+      <div class="page-wrapper">
+        <div class="forms-section">
+          <!-- Select Device -->
+          <div
+            :class="selectDeviceStatus === 'open' ? 'form-content' : selectDeviceStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+            ref="device-section"
+          >
+            <div class="section-header section-header-with-button">
+              <h4>
+                <div class="incomplete-icon mr"></div>
+                <div class="complete-icon mr">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 5.75L6.5253 10.25L5 8.71607"
+                      stroke="white"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                Device Under Evaluation
+                <span
+                  class="tooltip-elt right-tooltip"
+                  title="The primary device for which the review will be created first. You can select only one of them."
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+              </h4>
+              <button
+                class="primary-button"
+                :disabled="!livingReview.device"
+                v-on:click="goToNextStep"
+                type="button"
+                v-if="selectDeviceStatus === 'open' && !isEditDeviceSection"
+              >
+                Next Step
+              </button>
+              <button
+                class="secondary-gray-button"
+                v-if="selectDeviceStatus === 'completed'"
+                v-on:click="() => isEditDeviceSection=true"
+              >
+                <div class="center-v">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                    <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Edit
+                </div>
+              </button>
+              <button
+                class="primary-button"
+                v-if="isEditDeviceSection"
+                v-on:click="onDeviceUpdated"
+                :disabled="!livingReview.device"
+              >
+                Save
+              </button>
+            </div>
+    
+            <div class="horizantal-devider"></div>
+    
+            <div class="content">
+              <div class="content-inner">
+                <div class="hint mt-2 mb-2"> The primary device for which the review will be created first. You can select only one of them. </div>
+                <div class="center-v">
+                  <button
+                    class="secondary-gray-button"
+                    v-on:click="showModal('create-device')"
+                  >
+                    + Create New
+                  </button>
+                  <div class="search-form">
+                    <input
+                      type="search"
+                      placeholder="Search For Device"
+                      name="article-search"
+                      v-model="deviceSearchTerm"
+                    />
+                    <button type="button" class="search-button">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                          fill="#9BA5B9"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                          fill="#9BA5B9"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+    
+                  <!-- Create New Device Modal -->
+                  <div class="modal modal-style-2" id="create-device">
+                    <form v-on:submit="onCreateDevice">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <div>
+                              <div class="modal-header-icon-wrapper">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                >
+                                  <path
+                                    d="M17 13V5.19231C17 4.25767 16.2165 3.5 15.25 3.5H4.75C3.7835 3.5 3 4.25767 3 5.19231V13M17 13C17.5523 13 18 13.4477 18 14V15.5C18 16.0523 17.5523 16.5 17 16.5H3C2.44772 16.5 2 16.0523 2 15.5V14C2 13.4477 2.44772 13 3 13M17 13H13.5L12 14H8.25L6.5 13H3"
+                                    stroke="#3C404A"
+                                    stroke-width="1.2"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                              Create New Device
+                            </div>
+    
+                            <button
+                              class="secondary-gray-button close-icon"
+                              v-on:click="hideModal('create-device')"
+                              type="button"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                              >
+                                <path
+                                  d="M12 4L4 12M12 12L4 4"
+                                  stroke="#4A505C"
+                                  stroke-width="1.2"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+    
+                          <div class="modal-body">
+                            <div style="text-align: left">
+                              <label class="text-left" for="device-name">
+                                Device Name<span class="invalid-feedback"
+                                  >*</span
+                                ></label
+                              >
+                              <input
+                                type="text"
+                                name="device-name"
+                                id="device-name"
+                                v-model="newDevice.name"
+                              />
+                            </div>
+                            <div style="text-align: left">
+                              <label class="text-left" for="manufacturer*">
+                                Manufacturer<span class="invalid-feedback">*</span>
+                              </label>
+                              <div class="center-v">
+                                <input
+                                  type="text"
+                                  name="manufacturer*"
+                                  id="manufacturer*"
+                                  v-model="newDevice.manufacturer"
+                                  v-if="isNewManufacturer"
+                                />
+                                <select v-else name="manufacturer*" v-model="newDevice.manufacturer">
+                                  <option value=""> Select Manufacturer </option>
+                                  <option v-for="manufacturer in manufacturers" :value="manufacturer.name"> [[manufacturer.name]] </option>
+                                </select>
+                                <button
+                                  class="secondary-gray-button ml-2 no-break"
+                                  type="button"
+                                >
+                                  <span v-if="isNewManufacturer" v-on:click="onSwitchNewManufacturer(false)"> Choose Existing </span>
+                                  <span v-else v-on:click="onSwitchNewManufacturer(true)"> Create New </span>
+                                </button>
+                              </div>
+                            </div>
+                            <div style="text-align: left">
+                              <label class="text-left" for="classification">
+                                Classification
+                                <span class="invalid-feedback">*</span>
+                              </label>
+                              <input
+                                type="text"
+                                name="classification"
+                                id="classification"
+                                v-model="newDevice.classification"
+                              />
+                            </div>
+                            <div style="text-align: left">
+                              <label class="text-left" for="device-markets">
+                                Markets<span class="invalid-feedback">*</span>
+                              </label>
+                              <input
+                                type="text"
+                                name="device-markets"
+                                id="device-markets"
+                                v-model="newDevice.markets"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="horizantal-devider mt-2"></div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="secondary-gray-button ml-auto mr"
+                            v-on:click="hideModal('create-device')"
+                          >
+                            Cancel
+                          </button>
+                          <button type="submit" class="primary-button" :disabled="!isCreateDeviceValid">
+                            Save Device
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+    
+                <div>
+                  <ul class="devices-list mt">
+                    <li
+                      v-for="device in searchedDevices"
+                      :key="'device-'+device.id"
+                      class="center-v mb-2"
+                    >
+                      <input
+                        :value="device.id"
+                        :id="device.name"
+                        name="device"
+                        type="radio"
+                        class="mr"
+                        v-model="livingReview.device"
+                        class="c-pointer"
+                      />
+                      <label :for="device.name" class="c-pointer">
+                        [[device.name]]
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Select Protocol -->
+          <div
+            :class="selectProtocolStatus === 'open' ? 'form-content' : selectProtocolStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+            ref="device-section"
+          >
+            <div class="section-header section-header-with-button">
+              <h4>
+                <div class="incomplete-icon mr"></div>
+                <div class="complete-icon mr">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 5.75L6.5253 10.25L5 8.71607"
+                      stroke="white"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                Select Protocol
+                <span
+                  class="tooltip-elt right-tooltip"
+                  title="Select a previous project created for this device to copy protocol data and search terms from in the initial run"
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+              </h4>
+              <button
+                class="primary-button"
+                :disabled="!livingReview.protocol"
+                v-on:click="goToNextStep"
+                type="button"
+                v-if="selectProtocolStatus === 'open' && !isEditProtocol"
+              >
+                Next Step
+              </button>
+              <button
+                class="secondary-gray-button"
+                v-if="selectProtocolStatus === 'completed'"
+                v-on:click="() => isEditProtocol=true"
+              >
+                <div class="center-v">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                    <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Edit
+                </div>
+              </button>
+              <button
+                class="primary-button"
+                v-if="isEditProtocol"
+                v-on:click="() => isEditProtocol=false"
+                :disabled="!livingReview.protocol"
+              >
+                Save
+              </button>
+            </div>
+    
+            <div class="horizantal-devider"></div>
+    
+            <div class="content">
+              <div class="content-inner">
+                <div class="center-v">
+                  <div class="search-form" style="margin-left: 0px;">
+                    <input
+                      type="search"
+                      placeholder="Search for a protocol"
+                      name="article-search"
+                      v-model="reviewSearchTerm"
+                    />
+                    <button type="button" class="search-button">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                          fill="#9BA5B9"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                          fill="#9BA5B9"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+    
+                <div>
+                  <ul class="devices-list mt" v-if="searchedReviews.length">
+                    <li
+                      v-for="review in searchedReviews"
+                      :key="'review-'+review.id"
+                      class="center-v mb-2"
+                    >
+                      <input
+                        :value="review.id"
+                        :id="review.id"
+                        name="review"
+                        type="radio"
+                        class="mr"
+                        v-model="livingReview.protocol"
+                        class="c-pointer"
+                      />
+                      <label :for="review.id" class="c-pointer">
+                        <div class="client-profile-image ml mr">
+                          <div class="client-logo-section project-icon">
+                            <img
+                              id="project-img"
+                              alt="project logo"
+                              src="{% static 'images/icons/Project Protocol.png' %}"
+                            />
+                          </div>
+                        </div>
+                        <div> 
+                          <div class="mb"> <strong> [[review.label]] </strong> </div>
+                          <div> [[getClientWithID(review.client).name ]] </div>
+                        </div>
+                        
+                      </label>
+                    </li>
+                  </ul>
+
+                  <div v-else class="badge warning no-reviews-alert">
+                    You’ve created a new device, so there are currently no protocols associated with it. Please create a 
+                    <a :href="CreateLiteratureReviewURL+'?device='+livingReview.device+'&redirect_url='+CreateLivingReviewPageURL" class="ml"> new protocol here </a>.
+                    Note: This will take you to a separate page. Once the protocol is created, you’ll be redirected back to continue setting up your living review.                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Select Additional Devices -->
+          <div
+          :class="selectAdditionalDevices === 'open' ? 'form-content' : selectAdditionalDevices === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+          ref="device-section"
+        >
+          <div class="section-header section-header-with-button">
+            <h4>
+              <div class="incomplete-icon mr"></div>
+              <div class="complete-icon mr">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <path
+                    d="M11 5.75L6.5253 10.25L5 8.71607"
+                    stroke="white"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              Additional Devices <span class="hint ml"> (Optional) </span>
+              <span
+                class="tooltip-elt right-tooltip"
+                title="Additional Devices"
+              >
+                <img
+                  src="{% static 'images/icons/tooltip.svg' %}"
+                  alt=""
+                  srcset=""
+                />
+              </span>
+            </h4>
+            <button
+              class="primary-button"
+              v-on:click="goToNextStep"
+              type="button"
+              v-if="selectAdditionalDevices === 'open' && !isEditAdditionalDevices"
+            >
+              Next Step
+            </button>
+            <button
+              class="secondary-gray-button"
+              v-if="selectAdditionalDevices === 'completed'"
+              v-on:click="() => isEditAdditionalDevices=true"
+            >
+              <div class="center-v">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                  <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Edit
+              </div>
+            </button>
+            <button
+              class="primary-button"
+              v-if="isEditAdditionalDevices"
+              v-on:click="() => isEditAdditionalDevices=false"
+            >
+              Save
+            </button>
+          </div>
+  
+          <div class="horizantal-devider"></div>
+  
+          <div class="content">
+            <div class="content-inner center-v similar-competitors-section">
+
+              <!-- Similar Devices -->
+              <div class="content-inner-column">
+                <h3 class="mt-2"> Similar Devices </h3>
+                <div class="hint mt-2 mb-2"> 
+                  Select similar devices to search for in the article results from periodic runs. 
+                  <strong> You can select multiple items. </strong> 
+                </div>
+                <div class="center-v">
+                  <div class="search-form" style="margin-left: 0px;">
+                    <input
+                      class="additional-devices-search"
+                      type="search"
+                      placeholder="Search for a Device"
+                      name="article-search"
+                      v-model="similarDevicesSearchTerm"
+                    />
+                    <button type="button" class="search-button">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                          fill="#9BA5B9"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                          fill="#9BA5B9"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+    
+                <div>
+                  <ul class="devices-list mt">
+                    <li
+                      v-for="device in searchedSimilarDevices"
+                      :key="'device-'+device.id"
+                      class="center-v mb-2 pl pr"
+                    >
+                      <input
+                        :value="device.id"
+                        :id="'similar-'+device.id"
+                        name="similar-device"
+                        type="checkbox"
+                        class="mr"
+                        v-model="livingReview.similarDevices"
+                        class="c-pointer"
+                      />
+                      <label :for="'similar-'+device.id" class="c-pointer ml-2">
+                        [[device.name]]
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Competitor Devices -->
+              <div class="content-inner-column ml-2">
+                <h3 class="mt-2"> Competitor Devices </h3>
+                <div class="hint mt-2 mb-2"> 
+                  Select Competitor devices to search for in the article results from periodic runs. 
+                  <strong> You can select multiple items. </strong> 
+                </div>
+                <div class="center-v">
+                  <div class="search-form" style="margin-left: 0px;">
+                    <input
+                      class="additional-devices-search"
+                      type="search"
+                      placeholder="Search for a Device"
+                      name="article-search"
+                      v-model="competitorDevicesSearchTerm"
+                    />
+                    <button type="button" class="search-button">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                          fill="#9BA5B9"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                          fill="#9BA5B9"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+    
+                <div>
+                  <ul class="devices-list mt">
+                    <li
+                      v-for="device in searchedCompetitorDevices"
+                      :key="'device-'+device.id"
+                      class="center-v mb-2 pl pr"
+                    >
+                      <input
+                        :value="device.id"
+                        :id="'competitor-'+device.id"
+                        name="competitor-device"
+                        type="checkbox"
+                        class="mr"
+                        v-model="livingReview.competitorDevices"
+                        class="c-pointer"
+                      />
+                      <label :for="'competitor-'+device.id" class="c-pointer ml-2">
+                        [[device.name]]
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          </div>
+
+
+          <!-- Select Interval and Start Date -->
+          <div
+            :class="selectIntervalStatus === 'open' ? 'form-content' : selectIntervalStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+            ref="device-section"
+          >
+            <div class="section-header section-header-with-button">
+              <h4>
+                <div class="incomplete-icon mr"></div>
+                <div class="complete-icon mr">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 5.75L6.5253 10.25L5 8.71607"
+                      stroke="white"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                Select A Start Date And An Interval
+                <span
+                  class="tooltip-elt right-tooltip"
+                  title="Choose how often you want the generated reviews to be updated, and select the date when the updates should begin."
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+              </h4>
+              <button
+                class="primary-button"
+                :disabled="!livingReview.interval || !livingReview.startDate"
+                v-on:click="goToNextStep"
+                type="button"
+                v-if="selectIntervalStatus === 'open' && !isEditInterval"
+              >
+                Next Step
+              </button>
+              <button
+                class="secondary-gray-button"
+                v-if="selectIntervalStatus === 'completed'"
+                v-on:click="() => isEditInterval=true"
+              >
+                <div class="center-v">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                    <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Edit
+                </div>
+              </button>
+              <button
+                class="primary-button"
+                v-if="isEditInterval"
+                v-on:click="() => isEditInterval=false"
+                :disabled="!livingReview.interval || !livingReview.startDate"
+              >
+                Save
+              </button>
+            </div>
+    
+            <div class="horizantal-devider"></div>
+    
+            <div class="content">
+              <div class="content-inner">
+                <div class="hint"> 
+                  Choose how often you want the generated reviews to be updated, and select the date when the updates should begin. 
+                </div>
+
+                <div class="center-h"> 
+                  <!-- Start Date -->
+                  <div class="mt-2 w-50">
+                    <label for="living-review-start-date">Start Date</label>
+                    <input 
+                      type="date" 
+                      name="living-review-start-date"
+                      v-model="livingReview.startDate" 
+                    />
+                  </div>
+    
+                  <!-- Interval -->
+                  <div class="mt-2 ml-2 w-50 interval-select-wrapper">
+                    <label for="time-interval" class="form-label"> Time Interval </label>
+                    <div v-if="reviews.length">
+                      <custom-select
+                        id="time-interval"
+                        name="time-interval"
+                        :options="intervalOptions"
+                        :default-selected="livingReview.interval"
+                        :on-change="onChangeTimeInterval"
+                      >
+                      </custom-select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Set Notification Type -->
+          <div
+            :class="setNotificationsStatus === 'open' ? 'form-content' : setNotificationsStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+            ref="device-section"
+          >
+            <div class="section-header section-header-with-button">
+              <h4>
+                <div class="incomplete-icon mr"></div>
+                <div class="complete-icon mr">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 5.75L6.5253 10.25L5 8.71607"
+                      stroke="white"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                Auto-Summary and Alerts
+                <span
+                  class="tooltip-elt right-tooltip" 
+                  title="Send notifications on search runs."
+                >
+                  <img
+                    src="{% static 'images/icons/tooltip.svg' %}"
+                    alt=""
+                    srcset=""
+                  />
+                </span>
+              </h4>
+              <button
+                class="primary-button"
+                :disabled="!livingReview.notification"
+                v-on:click="goToNextStep"
+                type="button"
+                v-if="setNotificationsStatus === 'open' && !isEditNotifications"
+              >
+                Next Step
+              </button>
+              <button
+                class="secondary-gray-button"
+                v-if="setNotificationsStatus === 'completed'"
+                v-on:click="() => isEditNotifications=true"
+              >
+                <div class="center-v">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                    <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Edit
+                </div>
+              </button>
+              <button
+                class="primary-button"
+                v-if="isEditNotifications"
+                v-on:click="() => isEditNotifications=false"
+                :disabled="!livingReview.notification"
+              >
+                Save
+              </button>
+            </div>
+    
+            <div class="horizantal-devider"></div>
+    
+            <div class="content">
+              <div class="content-inner">
+                <div class="center-v">
+                  <div class="hint"> Do you want us to automatically summarize and send any literature that may be most relevant? (Note, you can still conduct a full review manually yourself) </div>
+                </div>
+    
+                <div>
+                  <ul class="devices-list mt">
+                    <li
+                      v-for="notification in notificationsTypes"
+                      :key="'notification-'+notification.value"
+                      class="center-v mb-2"
+                    >
+                      <input
+                        :value="notification.value"
+                        :id="notification.value"
+                        name="notification"
+                        type="radio"
+                        class="mr"
+                        v-model="livingReview.notification"
+                        class="c-pointer"
+                      />
+                      <label :for="notification.value" class="c-pointer">
+                        <strong> [[notification.description]] </strong>
+                      </label>
+                    </li>
+                  </ul>
+
+                  <div class="horizantal-devider"></div>
+
+                  <div class="mt-2 center-v">
+                    <input
+                      value="no"
+                      id="empty-notification"
+                      name="notification"
+                      type="radio"
+                      class="mr"
+                      v-model="livingReview.notification"
+                      class="c-pointer"
+                    />
+                    <label for="empty-notification" class="c-pointer">
+                      <strong> I don’t want any notifications </strong>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="badge success ready-alert mt-2" v-if="isCreateLivingReviewValid">
+            You Are All Set! Please Click The 'Create Living Review' Button To Get Started.
+          </div>
+        </div>
+        
+        <!-- Preview -->
+        <div class="form-content preview-section">
+          <div class="section-header">
+            <h4>Preview</h4>
+          </div>
+          <div class="horizantal-devider"></div>
+          <div class="content">    
+            <div class="mt-3">
+              <div class="details-section">
+                <h3> Device Under Evaluation </h3>
+                <h4 v-if="livingReview.device">[[ getDeviceWithID(livingReview.device).name ]]</h4>
+                <div v-else class="empty-text" style="width: 150px"></div>
+              </div>
+    
+              <div class="details-section">
+                <h3> Protocol </h3>
+                <h4 v-if="livingReview.protocol">[[ getReviewWithID(livingReview.protocol).label ]]</h4>
+                <div v-else class="empty-text" style="width: 150px"></div>
+              </div>
+    
+              <div class="details-section">
+                <h3> Start Date </h3>
+                <h4 v-if="livingReview.startDate">[[ formatDateUSA(livingReview.startDate) ]]</h4>
+                <div v-else class="empty-text" style="width: 150px"></div>
+              </div>
+    
+              <div class="details-section">
+                <h3> Interval </h3>
+                <h4 v-if="livingReview.interval">[[ livingReview.interval ]]</h4>
+                <div v-else class="empty-text" style="width: 150px"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    
+        <div class="form-actions">
+          <div class="form-progress center-v">
+            <div class="progress-bar mr-2">
+              <div
+                class="progress-inner"
+                :style="'width: '+progressPerccentage+'px'"
+              ></div>
+            </div>
+            [[currentStep]] of [[TOTAL_STEPS]]
+          </div>
+    
+          <button class="secondary-gray-button ml-auto" type="button">
+            Cancel
+          </button>
+          <button
+            type="submit"
+            class="primary-button mr-3 center-v"
+            v-on:click="onCreateLivingReview"
+            :disabled="!isCreateLivingReviewValid"
+            :class="{ loading: isCreateProjectLoading }"
+            style="display: flex;"
+          >
+            <div class="center-v w-100 w-max m-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                <path d="M14.5 8.5C14.5 11.8137 11.8137 14.5 8.5 14.5C5.18629 14.5 2.5 11.8137 2.5 8.5C2.5 5.18629 5.18629 2.5 8.5 2.5C9.44137 2.5 10.3321 2.71679 11.125 3.10317M13.375 4.75L8.125 10L6.625 8.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="ml"> Create Living Review </span>
+            </div> 
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    {% endblock %} {% block 'scripts-block' %}
+    
+    <script>
+      const CreatelivingReviewAPI =
+        "{% url 'lit_reviews:create_living_review_api' %}";
+      const CreateDeviceAPI = "{% url 'lit_reviews:create_device_api' %}";
+      const CreateClientAPI = "{% url 'lit_reviews:create_client_api' %}";
+      const ClientsListAPI = "{% url 'lit_reviews:clients_list_api' %}";
+      const LivingReviewsListView = "{% url 'lit_reviews:living_reviews' %}";
+      const DevicesListAPI = "{% url 'lit_reviews:devices_list_api' %}";
+      const ManufacturerListAPI = "{% url 'lit_reviews:manufacturer_list_api' %}";
+      const reviewListAPI = "{% url 'lit_reviews:reviews_list_api' %}";
+      const DEFAULT_CLIENT_LOGO = "{% static 'images/icons/Protocol.png' %}";
+      const GetDevicesAPI = "{% url 'lit_reviews:get-devie-api' device_id=0 %}";
+      const CreateLiteratureReviewURL = "{% url 'lit_reviews:create_literaturereview' %}";
+      const CreateLivingReviewPageURL = "{% url 'lit_reviews:create_living_review' %}";
+
+    </script>
+    
+    <script
+      type="application/javascript"
+      src="{% static 'lit_reviews/vue/create_living_review.js' %}"
+    ></script>
+    
+    {% endblock %}
+    

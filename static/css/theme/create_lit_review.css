@@ -1,0 +1,350 @@
+.body-content {
+    background-color: transparent;
+}
+
+.form-content {
+    max-width: 1200px;
+}
+
+
+.form-group > * {
+    flex-basis: 100%;
+}
+
+
+/* .form-content input:not([type='radio']) {
+    width: 368px;
+} */
+
+.form-group {
+    display: flex;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.form-content {
+    padding: 0px;
+    border-radius: 12px;
+
+}
+
+.form-content .content {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 500ms;
+}
+
+.form-content .content > .content-inner {
+    overflow: hidden;
+    padding: 2px;
+}
+
+.form-content .section-header {
+    padding: 11px 16px;
+}
+
+.form-content .section-header-with-button {
+    padding: 4px 16px;
+}
+
+.form-content .content {
+    padding: 16px;
+}
+
+.form-group label {
+    color: var(--Gray-900, #181A1E);
+
+    /* Title/T1 */
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 18.2px */
+}
+
+.page-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.forms-section {
+    width: 75%;
+}
+
+.search-form {
+    position: relative;
+    margin-left: auto;
+}
+
+.incomplete-icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-5, #FFF);
+    box-shadow: 0px 0px 4px 0px rgba(102, 108, 124, 0.30) inset;
+    display: none;
+}
+
+.complete-icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    border: 1px solid var(--Success-50, #E8FEF1);
+    background: var(--Gradient-Marker, linear-gradient(180deg, #A1D916 29.5%, #D5ED97 100%));
+    box-shadow: 0px 0px 4px 0px rgba(127, 166, 29, 0.20) inset;
+    display: none;
+}
+
+/* ############ Closed Section #############*/
+
+.form-content.closed-section .content {
+    grid-template-rows: 0fr;
+    padding: 0px;
+}
+
+.form-content.closed-section .content > .content-inner {
+    padding: 0px;
+}
+
+.closed-section .section-header {
+    padding: 11px 16px;
+}
+
+.closed-section .horizantal-devider {
+    display: none;
+}
+
+.closed-section .incomplete-icon {
+    display: block;
+}
+
+/* ############ Completed Section #############*/
+
+.form-content.completed-section .content {
+    grid-template-rows: 0fr;
+    padding: 0px;
+}
+
+.form-content.completed-section .content > .content-inner {
+    padding: 0px;
+}
+
+.completed-section .section-header {
+    padding: 6px 16px;
+}
+
+.completed-section .horizantal-devider {
+    display: none;
+}
+
+.completed-section .complete-icon {
+    display: block;
+}
+
+/* ############ CLIENT SECTION #############*/
+
+.litreview-icon {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 4.813px 5.25px 5.687px 5.25px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-25, #F9FAFC);
+}
+
+.clients-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.clients-list li {
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+}
+
+
+.clients-list li.selected, 
+.clients-list li:hover {
+    border-radius: 6px;
+    background: var(--Gray-25, #F9FAFC);
+
+    /* shadow-sm */
+    box-shadow: 0px 1px 4px 0px rgba(82, 87, 97, 0.08);
+}
+
+/* ############ PROJECT TYPE #############*/
+
+.litreview-type-box {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    cursor: pointer;
+
+    color: var(--Gray-400, #848D9F);
+    text-align: center;
+    /* Paragraph/P4 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+
+    border-radius: 8px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-5, #FFF);
+}
+
+.litreview-type-box img {
+    width: 32px;
+}
+
+.litreview-type-box h3 {
+    color: var(--Gray-900, #181A1E);
+    text-align: center;
+    
+    /* Head/H4 */
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 18.2px */
+    text-transform: capitalize;
+}
+
+.litreview-type-box.selected,
+.litreview-type-box:hover {
+    border-radius: 8px;
+    border: 1px solid var(--Primary-100, #CADBFF);
+    background: var(--Primary-5, #F5F8FF);
+    box-shadow: 0px 0px 0px 2px #D1E0FF;
+}
+
+/* ############ DEVICE #############*/
+
+.devices-list {
+    max-height: 300px;
+    overflow: auto;
+}
+
+/* ############ COPY DATA #############*/
+
+.yes-no {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    cursor: pointer;
+    font-size: 12px;
+
+    border-radius: 6px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-5, #FFF);
+}
+
+.yes-no.selected,
+.yes-no:hover {
+    border-radius: 6px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Primary-5, #F5F8FF);
+    box-shadow: 0px 0px 0px 2px #D1E0FF;
+}
+
+.inner-content-header {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.copy-data-content-section {
+    padding: 0px !important;
+}
+
+.copy-data-content-section .content-inner > .content-inner-section {
+    padding: 16px;
+}
+
+/* ############ PREVIEW #############*/
+.preview-section {
+    width: 390px;
+    height: max-content;
+}
+
+.project-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.client-profile-image {
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-50, #E7ECF5);
+    background: var(--Gray-25, #F9FAFC);
+}
+
+.client-logo-section {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.client-logo-section img {
+    width: 60px;
+    min-height: 60px;
+}
+
+.preview-section .empty-text {
+    margin-top: 5px;
+    height: 8px;
+    background-color: #E7ECF5;
+    border-radius: 3px;
+}
+
+.preview-section h3 {
+    color: var(--Gray-400, #848D9F);
+    margin-bottom: 8px;
+
+    /* Title/T3 */  
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 13px */
+    text-transform: uppercase;
+}
+
+.preview-section .details-section {
+    margin-top: 16px;
+}
+
+.preview-section .details-section:first-child {
+    margin-top: 0px;
+}
+
+.ready-alert {
+    font-size: 16px;
+    padding: 10px;
+}

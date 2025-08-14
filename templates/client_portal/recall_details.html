@@ -1,0 +1,103 @@
+{% extends "base_client_portal.html" %}
+{% block title%}
+    <title>CiteMed - Recall Details </title>
+{% endblock %}
+{% block head %}
+    {% load static %}
+    <link
+    href="{% static 'css/client_portal/event_details.css' %}"
+    rel="stylesheet"
+    type="text/css"
+    />
+{% endblock %}
+
+{% block body %}
+<div class="content__container" id="content">
+    <div class="sub-navbar-home">
+        <div class="sub-navbar-home-item-text">
+            Recall Details - {{ recall.search.literature_review }}
+        </div>
+    </div>
+    <div class="project-detail-section">
+        <div class="project-detail-section-header">
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Database:</span> {{ recall.search.db.name }}
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Event Type:</span> Recall
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Product Description:</span> 
+                {% if  recall.ae.product_description  %}
+                    {{ recall.ae.product_description }}
+                {% else %}
+                    N/A 
+                {% endif %} 
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Recall Class:</span> 
+                {% if  recall.ae.recall_class  %}
+                    {{ recall.ae.recall_class }}
+                {% else %}
+                    N/A 
+                {% endif %}
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Trade Name:</span> 
+                {% if  recall.ae.trade_name  %}
+                    {{ recall.ae.trade_name }}
+                {% else %}
+                    N/A 
+                {% endif %}
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Firm Name:</span> 
+                {% if recall.ae.firm_name  %}
+                    {{ recall.ae.firm_name }}
+                {% else %}
+                    N/A 
+                {% endif %}
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Recall Reason:</span> 
+                {% if  recall.ae.recall_reason  %}
+                    {{ recall.ae.recall_reason }}
+                {% else %}
+                    N/A 
+                {% endif %}
+            </div>
+            <div class="project-detail-section-header-item">
+                <span class="project-detail-section-header-item-bold">Recall Date:</span> 
+                {% if  recall.ae.event_date  %}
+                    {{ recall.ae.event_date }}
+                {% else %}
+                    N/A 
+                {% endif %}
+            </div>
+        </div>
+        <div class="message-detail-section-body">
+            <div class="message-detail-section-header-item">
+                <span class="message-detail-section-header-item-bold">Written Comments:</span>
+            </div>
+            <textarea class="message-detail-section-header-item-message" rows=5>Comments Here!</textarea>
+        </div>
+    </div>
+    <div class="row justify-content-end w-100">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+            <form class="status-form" method="post" action="{% url 'client_portal:recall_details' id=recall.id %}">
+                {% csrf_token %}
+                <select name="state"  class="event-detail-select-status">
+                    {% for choice in state_choices %}
+                        <option value="{{ choice.0 }}" {% if recall.state == choice.0 %} selected {% endif %}> {{ choice.1 }} </option>
+                    {% endfor %}
+                </select>
+                <button class="save-detail-btn" type="submit"> save </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+{% endblock %}

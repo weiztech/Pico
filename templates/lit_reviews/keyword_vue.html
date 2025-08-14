@@ -1,0 +1,120 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block 'head' %}
+<link href="{% static 'css/theme/keywords.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %} 
+    <a href="https://citemed-io.gitbook.io/citemed.io-documentation/abstract-reviewing/keyword-highlighting-and-abstract-sorting"
+        target="_blank">
+        <span>Need help with this page? <br/> Read the Wiki</span>
+        <div>
+         <img src="{% static 'images/icons/wiki-icon.svg' %}">
+        </div>
+    </a>
+{% endblock %} 
+
+{% block 'body' %}
+
+<div id="keyword-app" class="page-wrapper" v-cloak>
+    <div v-if="isLoading"> Loading ... </div>
+    <div v-else>
+        <div class="keyword-form">
+            <h2 class="keyword-header-text"> 
+                Keywords 
+                <page-wiki-helper wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/abstract-reviewing/keyword-highlighting-and-abstract-sorting"> </page-wiki-helper>   
+            </h2>
+            <div class="horizantal-devider"> </div>
+            <div class="add-custome-keyword-section">
+                <h2 class="keyword-header-text"> Default Keyword</h2>
+            </div>
+            <div id="comparison-section" class="form-group">
+                <label for="comparison_text" class=""> Comparison</label>
+                <div class="keyword-item">
+                      <input type="text" name="comparison_text" class="textinput textInput form-control keyword-text" id="comparison-text" 
+                        v-model="keyword.comparison"/>
+                      <input type="color" name="comparison_color" class="textinput textInput form-control keyword-color" id="comparison-color"
+                        v-model="keyword.comparison_color" />
+                </div>
+            </div>
+            <div id="exclusion-section" class="form-group">
+                <label for="exclusion_text" class=""> Exclusion</label>
+                <div class="keyword-item">
+                        <input type="text" name="exclusion_text" class="textinput textInput form-control keyword-text" id="exclusion-text"
+                            v-model="keyword.exclusion" />
+                        <input type="color" name="exclusion_color" class="textinput textInput form-control keyword-color" id="exclusion-color"
+                            v-model="keyword.exclusion_color" />
+                </div>
+            </div>
+            <div id="intervention-section" class="form-group">
+                <label for="intervention_text" class=""> Intervention</label>
+                <div class="keyword-item">
+                        <input type="text" name="intervention_text" class="textinput textInput form-control keyword-text" id="intervention-text"
+                        v-model="keyword.intervention" />
+                       <input type="color" name="intervention_color" class="textinput textInput form-control keyword-color" id="intervention-color"
+                        v-model="keyword.intervention_color" />
+                </div>
+            </div>
+            <div id="outcome-section" class="form-group">
+                <label for="outcome_text" class=""> Outcome</label>
+                <div class="keyword-item">
+                       <input type="text" name="outcome_text" class="textinput textInput form-control keyword-text" id="outcome-text"
+                        v-model="keyword.outcome" />
+                      <input type="color" name="outcome_color" class="textinput textInput form-control keyword-color" id="outcome-color"
+                        v-model="keyword.outcome_color" />
+                </div>
+            </div>
+            <div id="population-section" class="form-group">
+                <label for="population_text" class=""> Population</label>
+                <div class="keyword-item">
+                        <input type="text" name="population_text" class="textinput textInput form-control keyword-text" id="population-text"
+                        v-model="keyword.population" />
+                       <input type="color" name="population_color" class="textinput textInput form-control keyword-color" id="population-color"
+                        v-model="keyword.population_color" />
+                </div>
+            </div>
+            <div class="hint"> 
+                Note: In addition to the default keywords available above, some articles come with 
+                a predefined set of keywords. These keywords will be extracted 
+                during the import process and will be highlighted in this color <div class="default-kws"> </div>
+                <br />
+                To view the specific set of keywords for each article, 
+                you can check them under the 1st Pass Article Details View or the 2nd Pass Appraisal Details View.
+            </div>
+            <div class="horizantal-devider mt-2 mb-2"> </div>
+            <div class="add-custome-keyword-section">
+                <h2 class="keyword-header-text"> Custom Keyword</h2>
+            </div>
+            <div id="custome-keywords-section"  class="form-group" v-for="(kw, index) in custome_keywords" :key="index">
+                <div class="keyword-item" id="">
+                    <input type="text" name="" class="textinput textInput form-control keyword-text" id=""
+                        v-model="kw.custom_kw" />
+                    <input type="color" name="" class="textinput textInput form-control keyword-color" id=""
+                        v-model="kw.custom_kw_color" />
+                    <button class="error-button" :disabled="isArchived" v-on:click="deleteCustomKeyword(index,kw.id)">Delete</button>
+                </div>
+            </div>
+            <div class="submit-keyword-section">
+                <button class="primary-button mt-2" v-on:click="addCustomKeyword()" :disabled="isArchived"> Add new custom keyword</button>
+                <!-- <button class="primary-button mt-2" v-on:click="submitKeywordForm()" :disabled="isArchived" >Submit</button> -->
+            </div>
+            <div class="horizantal-devider"> </div>
+            <div class="submit-keyword-section">
+                <!-- <button class="primary-button mt-2" v-on:click="addCustomKeyword()" :disabled="isArchived"> Add new custom keyword</button> -->
+                <button class="primary-button mt-2" v-on:click="submitKeywordForm()" :disabled="isArchived" >Save My Changes </button>
+            </div>
+        </div>
+    </div>
+        
+</div>
+
+{% endblock %}
+
+{% block 'scripts-block' %} 
+    <script>
+        const KeywordURL = "{% url 'lit_reviews:keyword_api' id=literature_review_id %}";
+        const litReviewID = "{{ literature_review_id }}";
+    </script>
+    <script src="{% static "lit_reviews/vue/keyword.js" %}" > </script>
+{% endblock %}

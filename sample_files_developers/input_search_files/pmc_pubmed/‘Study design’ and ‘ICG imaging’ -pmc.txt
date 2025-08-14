@@ -1,0 +1,52 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%E2%80%98Study+design%E2%80%99+and+%E2%80%98ICG+imaging%E2%80%99+&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMC - PMC5811738
+PMID- 29328067
+IS  - 0950-222X (Print)
+IS  - 1476-5454 (Electronic)
+VI  - 32
+IP  - 2
+DP  - 2018 Feb
+TI  - A physical approach to model occlusions in the retinal microvasculature.
+PG  - 189-94
+AB  - Blood occlusions in the retinal microvasculature contribute to the pathology of
+      many disease states within the eye. These events can cause haemorrhaging and
+      retinal detachment, leading to a loss of vision in the affected patient. Here, we
+      present a physical approach to characterising the collective cell dynamics
+      leading to plug formation, through the use of a bespoke microfluidic device, and 
+      through the derivation of a probabilistic model. Our microfluidic device is based
+      on a filtration design that can tune the particle volume fraction of a flowing
+      suspension within a conduit, with sizes similar to arterioles. This allows us to 
+      control and reproduce an occlusive event. The formation of the occlusion can be
+      examined through the extracted motion of particles within the channel, which
+      enables the assessment of individual and collective particle dynamics in the time
+      leading to the clogging event. In particular, we observe that at the onset of the
+      occlusion, particles form an arch bridging the channel walls. The data presented 
+      here inform the development of our mathematical model, which captures the
+      essential factors promoting occlusions, and notably highlights the central role
+      of adhesion in these processes. Both the physical and probabilistic models rely
+      on significant approximations, and future investigation will seek to assess these
+      approximations, including the deformability and complex flow profiles of the
+      blood constituents. However, we anticipate that the general mechanisms of
+      occlusion may be elucidated from these simple models. As microvascular flows in
+      the eye can now be measured in vivo and non-invasively with single cell
+      resolution, our model will also be compared to the pathophysiological
+      characteristics of the human microcirculation.
+FAU - Fleck, O
+AU  - Fleck O
+AD  - Department of Engineering, Cambridge University, Cambridge, UK
+FAU - Savin, T
+AU  - Savin T
+AD  - Department of Engineering, Cambridge University, Cambridge, UK
+LA  - eng
+PT  - Journal Article
+DEP - 20180112
+PHST- 2017/10/27 [received]
+PHST- 2017/10/27 [accepted]
+PHST- 2018/01/12 [aheadofprint]
+TA  - Eye (Lond)
+JT  - Eye
+AID - eye2017270 [pii]
+AID - 10.1038/eye.2017.270 [doi]
+SO  - Eye (Lond). 2018 Feb;32(2):189-94. Epub 2018 Jan 12 doi:10.1038/eye.2017.270.

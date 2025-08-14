@@ -1,0 +1,33 @@
+/* .device-form-container input,
+.device-form-container select
+{
+    border-radius: 3px;
+    border: 1px solid #6D6BAF;
+    width: 600px;
+    height: 40px;
+    flex-shrink: 0;
+} */
+
+/* .device-form-container .form-group {
+    display: flex;
+    margin: 0px;
+    align-items: center; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+  
+/* Style the label */
+/* .device-form-container .form-group label {
+    flex: 0 0 auto; 
+    width:180px;
+    font-family: Times;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+} */
+
+.page-container {
+    width: calc(100vw - 300px);
+}

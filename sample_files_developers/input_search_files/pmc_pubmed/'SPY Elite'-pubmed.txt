@@ -1,0 +1,1671 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%27SPY+Elite%27&usehistory=y&reldate=1825&datetype=pdat&tool=biopython&email=A.N.Other%40example.com 
+ 
+ 
+PMID- 34420446
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210915
+LR  - 20210915
+IS  - 1464-5157 (Electronic)
+IS  - 0265-6736 (Linking)
+VI  - 38
+IP  - 2
+DP  - 2021 Sep
+TI  - Is high-intensity focused ultrasound (HIFU) an option for neoadjuvant therapy for
+      borderline resectable pancreatic cancer patients? - a systematic review.
+PG  - 75-80
+LID - 10.1080/02656736.2021.1909150 [doi]
+AB  - INTRODUCTION: Pancreatic cancer is with the poorest prognosis of all common
+      cancers worldwide. Despite the advances in treatment the results are poor
+      throughout the different methods. Pancreatic resection still yields the best
+      outcome. However only a quarter of the patients present at operable stage. HIFU
+      is a noninvasive technique that can be used to treat pancreatic cancer. AIM: The 
+      aim of this review is to perform a systematic review on the data about the
+      resection rate after HIFU ablation in patients with borderline resectable
+      pancreatic cancer (BRPC) and the impact of this technique over the oncological
+      results. MATERIALS AND METHODS: The PubMed and Wanfang databases were searched
+      using keywords: pancreatic cancer, HIFU ablation and high-intensity focused
+      ultrasound. All found articles were reviewed. The systematic review was performed
+      according to the Preferred Reporting Items for Systematic Reviews and
+      Meta-Analyses (PRISMA) standard guidelines. This study was financially supported 
+      by 2019 'Kuan-Ren Elite' Program of 2nd Affiliated Hospital of Chongqing Medical 
+      University, China (Grant no. KY2019G019). RESULTS: The English database search
+      showed 109 papers, of which 3 met the inclusion criteria. The Wanfang database
+      resulted in 110 papers; however, none met the inclusion criteria of the review.
+      From the included studies 97 patients underwent neoadjuvant HIFU ablation +/-
+      chemotherapy. Thirty-four patients reached resection (35.1%). In two patients,
+      residual tumor (R) classification was not reported. R0 resection rate in all
+      reported patients is 30.5% (29/95). R1 resection rate is 3.2% (3/95). CONCLUSION:
+      HIFU is found to be safe and feasible in locally advanced and metastatic
+      pancreatic cancer with proven downstaging and downsizing effects. Further
+      research on role of HIFU ablation as a neoadjuvant treatment for borderline
+      resectable pancreatic cancer is needed.
+FAU - Stanislavova, Nadya
+AU  - Stanislavova N
+AUID- ORCID: 0000-0002-9027-7833
+AD  - Faculty of Medicine, HIFU Center, University St. Marina Hospital, Medical
+      University, Pleven, Bulgaria.
+FAU - Karamanliev, Martin
+AU  - Karamanliev M
+AUID- ORCID: 0000-0001-5166-0752
+AD  - Department of Surgical Oncology, Faculty of Medicine, Medical University, Pleven,
+      Bulgaria.
+FAU - Ivanov, Tsvetomir
+AU  - Ivanov T
+AUID- ORCID: 0000-0002-2467-1648
+AD  - Department of Surgical Oncology, Faculty of Medicine, Medical University, Pleven,
+      Bulgaria.
+FAU - Yotsov, Tsanko
+AU  - Yotsov T
+AUID- ORCID: 0000-0003-3308-5736
+AD  - Department of Surgical Oncology, Faculty of Medicine, Medical University, Pleven,
+      Bulgaria.
+FAU - Zhou, Kun
+AU  - Zhou K
+AUID- ORCID: 0000-0002-1599-8630
+AD  - Clinical Center for Tumor Therapy, The Second Affiliated Hospital of Chongqing
+      Medical University, Chongqing, China.
+FAU - Dimitrov, Dobromir
+AU  - Dimitrov D
+AUID- ORCID: 0000-0003-3313-1093
+AD  - Faculty of Medicine, HIFU Center, University St. Marina Hospital, Medical
+      University, Pleven, Bulgaria.
+AD  - Department of Surgical Oncology, Faculty of Medicine, Medical University, Pleven,
+      Bulgaria.
+LA  - eng
+PT  - Journal Article
+PT  - Systematic Review
+PL  - England
+TA  - Int J Hyperthermia
+JT  - International journal of hyperthermia : the official journal of European Society 
+      for Hyperthermic Oncology, North American Hyperthermia Group
+JID - 8508395
+SB  - IM
+MH  - China
+MH  - *High-Intensity Focused Ultrasound Ablation
+MH  - Humans
+MH  - Neoadjuvant Therapy
+MH  - Pancreas
+MH  - *Pancreatic Neoplasms/surgery
+OTO - NOTNLM
+OT  - *HIFU
+OT  - *borderline resectable
+OT  - *focused ultrasound surgery
+OT  - *pancreatic cancer
+OT  - *systematic review
+EDAT- 2021/08/24 06:00
+MHDA- 2021/09/16 06:00
+CRDT- 2021/08/23 05:28
+PHST- 2021/08/23 05:28 [entrez]
+PHST- 2021/08/24 06:00 [pubmed]
+PHST- 2021/09/16 06:00 [medline]
+AID - 10.1080/02656736.2021.1909150 [doi]
+PST - ppublish
+SO  - Int J Hyperthermia. 2021 Sep;38(2):75-80. doi: 10.1080/02656736.2021.1909150.
+
+PMID- 34062033
+OWN - NLM
+STAT- Publisher
+LR  - 20210601
+IS  - 1365-2834 (Electronic)
+IS  - 0966-0429 (Linking)
+DP  - 2021 Jun 1
+TI  - Killing us softly with their wrongs: Nursing academia's 'killer elite' continue
+      unabated.
+LID - 10.1111/jonm.13391 [doi]
+AB  - In our combined 90+ years in nursing we have published over 700 papers. Nothing, 
+      however, evoked responses like "Academic nursing's killer elite'' (Thompson &
+      Darbyshire, 2013). To say that we 'touched a nerve' is an understatement, but we 
+      understated the malignant narcissist, corporate psychopath, dimensions of the
+      'killer elite' and extend that discussion now. We received then and continue to
+      receive, harrowing 'testimonies' (Hartin et al., 2020) from nurses describing,
+      not linguistically sanitised 'incivility', but sustained bullying, gaslighting
+      and corrosive narcissism by some senior academics who made their lives
+      intolerable.
+CI  - This article is protected by copyright. All rights reserved.
+FAU - Darbyshire, Philip
+AU  - Darbyshire P
+AUID- ORCID: https://orcid.org/0000-0002-6875-7144
+AD  - Retired Professor of Nursing, Adelaide, Australia.
+FAU - Thompson, David R
+AU  - Thompson DR
+AUID- ORCID: https://orcid.org/0000-0001-8518-6307
+AD  - Professor of Nursing, School of Nursing and Midwifery, Queen's University
+      Belfast, Belfast, UK.
+LA  - eng
+PT  - Editorial
+DEP - 20210601
+PL  - England
+TA  - J Nurs Manag
+JT  - Journal of nursing management
+JID - 9306050
+SB  - N
+EDAT- 2021/06/02 06:00
+MHDA- 2021/06/02 06:00
+CRDT- 2021/06/01 17:31
+PHST- 2021/06/01 17:31 [entrez]
+PHST- 2021/06/02 06:00 [pubmed]
+PHST- 2021/06/02 06:00 [medline]
+AID - 10.1111/jonm.13391 [doi]
+PST - aheadofprint
+SO  - J Nurs Manag. 2021 Jun 1. doi: 10.1111/jonm.13391.
+
+PMID- 33649475
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210521
+LR  - 20210715
+IS  - 1476-4687 (Electronic)
+IS  - 0028-0836 (Linking)
+VI  - 591
+IP  - 7849
+DP  - 2021 Mar
+TI  - 'Elite' researchers dominate citation space.
+PG  - 333-334
+LID - 10.1038/d41586-021-00553-7 [doi]
+FAU - Reardon, Sara
+AU  - Reardon S
+LA  - eng
+PT  - News
+PT  - Comment
+PL  - England
+TA  - Nature
+JT  - Nature
+JID - 0410462
+SB  - IM
+CON - Proc Natl Acad Sci U S A. 2021 Feb 16;118(7):. PMID: 33558230
+MH  - *Authorship
+MH  - Humans
+MH  - *Research Personnel
+OTO - NOTNLM
+OT  - *Authorship
+OT  - *Careers
+OT  - *Publishing
+EDAT- 2021/03/03 06:00
+MHDA- 2021/05/22 06:00
+CRDT- 2021/03/02 06:15
+PHST- 2021/03/03 06:00 [pubmed]
+PHST- 2021/05/22 06:00 [medline]
+PHST- 2021/03/02 06:15 [entrez]
+AID - 10.1038/d41586-021-00553-7 [doi]
+AID - 10.1038/d41586-021-00553-7 [pii]
+PST - ppublish
+SO  - Nature. 2021 Mar;591(7849):333-334. doi: 10.1038/d41586-021-00553-7.
+
+PMID- 33081792
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210429
+LR  - 20210429
+IS  - 1475-9276 (Electronic)
+IS  - 1475-9276 (Linking)
+VI  - 19
+IP  - 1
+DP  - 2020 Oct 20
+TI  - A qualitative analysis of vaccine decision makers' conceptualization and
+      fostering of 'community engagement' in India.
+PG  - 185
+LID - 10.1186/s12939-020-01290-5 [doi]
+AB  - BACKGROUND: Globally, and in India, research has highlighted the importance of
+      community engagement in achieving national vaccination goals and in promoting
+      health equity. However, community engagement is not well-defined and remains an
+      underutilized approach. There is also paucity of literature on community
+      engagement's effectiveness in achieving vaccination outcomes. To address that
+      gap, this study interviewed Indian vaccination decision makers to derive a shared
+      understanding of the evolving conceptualization of community engagement, and how 
+      it has been fostered during India's Decade of Vaccines (2010-2020). METHODS:
+      Semi-structured interviews were conducted with 25 purposefully sampled
+      national-level vaccine decision makers in India, including policymakers,
+      immunization program heads, and vaccine technical committee leads. Participants
+      were identified by their 'elite' status among decisionmakers in the Indian
+      vaccination space. Schutz' Social Phenomenological Theory guided development of
+      an a priori framework derived from the Social Ecological Model. The framework
+      helped organize participants' conceptualizations of communities, community
+      engagement, and related themes. Inter-rater reliability was computed for a
+      subsample of coded interviews, and findings were validated in a one-day member
+      check-in meeting with study participants and teams. RESULTS: The interviews
+      successfully elucidated participants' understanding of key terminology
+      ("community") and approaches to community engagement propagated by the vaccine
+      decision makers. Participants conceptualized 'communities' as vaccine-eligible
+      children, their parents, frontline healthcare workers, and vaccination
+      influencers. Engagement with those communities was understood to mean vaccine
+      outreach, capacity-building of healthcare workers, and information dissemination.
+      However, participants indicated that there were neither explicit policy
+      guidelines defining community engagement nor pertinent evaluation metrics,
+      despite awareness that community engagement is complex and under-researched.
+      Examples of different approaches to community engagement ranged from vaccine
+      imposition to empowered community vaccination decision-making. Finally,
+      participants proposed an operational definition of community engagement and
+      discussed concerns related to implementing it. CONCLUSIONS: Although decision
+      makers had different perceptions about what constitutes a community, and how
+      community engagement should optimally function, the combined group articulated
+      its importance to ensure vaccination equity and reiterated the need for concerted
+      political will to build trust with communities. At the same time, work remains to
+      be done both in terms of research on community engagement as well as development 
+      of appropriate implementation and outcome metrics.
+FAU - Dutta, Tapati
+AU  - Dutta T
+AUID- ORCID: 0000-0002-3272-1115
+AD  - Room No. 469, Berndt Hall, Public Health Department, Health Sciences Division,
+      Fort Lewis College, Durango, CO, 81301, USA. tdutta@fortlewis.edu.
+FAU - Meyerson, Beth E
+AU  - Meyerson BE
+AD  - Southwest Institute for Research on Women, College of Social & Behavioral
+      Sciences, Family & Community Medicine, College of Medicine, University of
+      Arizona, Tucson, USA.
+FAU - Agley, Jon
+AU  - Agley J
+AD  - Department of Applied Health Science, Prevention Insights, Indiana University
+      School of Public Health-Bloomington, 809 E 9th Street, Room 101, Bloomington, IN,
+      47405, USA.
+FAU - Barnes, Priscilla A
+AU  - Barnes PA
+AD  - Department of Applied Health Science, Indiana University School of Public
+      Health-Bloomington, 809 E 9th Street, Room 203, Bloomington, IN, 47405, USA.
+FAU - Sherwood-Laughlin, Catherine
+AU  - Sherwood-Laughlin C
+AD  - Department of Applied Health Science, Indiana University School of Public
+      Health-Bloomington, 801 E 7th Street, Room 102, Bloomington, IN, 47405, USA.
+FAU - Nicholson-Crotty, Jill
+AU  - Nicholson-Crotty J
+AD  - School of Public and Environmental Affairs, Indiana University, Room 351, 1315 E 
+      10th Street, Bloomington, IN, 47405, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20201020
+PL  - England
+TA  - Int J Equity Health
+JT  - International journal for equity in health
+JID - 101147692
+RN  - 0 (Vaccines)
+SB  - IM
+MH  - Administrative Personnel/*psychology
+MH  - Child
+MH  - Community Participation/*psychology
+MH  - Concept Formation
+MH  - *Decision Making
+MH  - Humans
+MH  - Immunization Programs/*organization & administration
+MH  - India
+MH  - Qualitative Research
+MH  - Vaccines/administration & dosage
+PMC - PMC7574459
+EDAT- 2020/10/22 06:00
+MHDA- 2021/04/30 06:00
+CRDT- 2020/10/21 05:38
+PHST- 2020/05/28 00:00 [received]
+PHST- 2020/09/24 00:00 [accepted]
+PHST- 2020/10/21 05:38 [entrez]
+PHST- 2020/10/22 06:00 [pubmed]
+PHST- 2021/04/30 06:00 [medline]
+AID - 10.1186/s12939-020-01290-5 [doi]
+AID - 10.1186/s12939-020-01290-5 [pii]
+PST - epublish
+SO  - Int J Equity Health. 2020 Oct 20;19(1):185. doi: 10.1186/s12939-020-01290-5.
+
+PMID- 32909207
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20210708
+IS  - 1432-2218 (Electronic)
+IS  - 0930-2794 (Linking)
+VI  - 35
+IP  - 8
+DP  - 2021 Aug
+TI  - Totally extraperitoneal repair for the 'sportsman's groin' via 'the Manchester
+      Groin Repair': a comparison of elite versus amateur athletes.
+PG  - 4371-4379
+LID - 10.1007/s00464-020-07930-9 [doi]
+AB  - BACKGROUND: Surgery has a recognised role in the treatment of 'sportsman's
+      groin'. This study hypothesises that elite athletes have a superior advantage in 
+      both pre- and post-op rehabilitation and therefore will present and resume
+      sporting activities quicker. METHODS: A retrospective analysis on a secure
+      database of athletes presenting with groin pain that underwent surgery for
+      'inguinal disruption'. All data were explored via appropriate descriptive
+      statistics and comparisons made between elite and amateur athletes. RESULTS: All 
+      patients were male (n = 144). The median age 33 years (range 14-72). The median
+      return to sporting activity was 4.5 weeks (range 2.0-16.0) with one amateur
+      athlete being unable to return to sporting activity. Using the mean of both
+      sides, a comparison of VAS pain scores at pre-operative and 1 month
+      post-operative time points showed a significant reduction (p < 0.001). Comparing 
+      'elite' versus 'amateur' athletes, significant differences were seen in patient
+      age (median 26 vs 40 years; p < 0.001), lead time to clinic presentation (median 
+      62.0 vs 111.5 days; p = 0.004), and time to return to sporting activity (4 vs 5
+      weeks; p = 0.019). Additional MRI findings within the groin girdle were found in 
+      89 patients (66.4%) and 34 patients (23.6%) had an MRI finding within the
+      adductor tendon. CONCLUSION: The Manchester Groin Rrepair is an effective
+      surgical management for 'inguinal disruption'. Elite athletes present quicker and
+      return to sport sooner. Given the prevalence of other findings, a
+      multidisciplinary approach to the 'sportsman's groin' is required.
+FAU - Pilkington, J J
+AU  - Pilkington JJ
+AD  - Department of Academic Hernia Surgery, Manchester University NHS Foundation
+      Trust, Manchester, UK.
+AD  - Centre for Bioscience, Manchester Metropolitan University, Manchester, UK.
+FAU - Obeidallah, R
+AU  - Obeidallah R
+AD  - Department of Academic Hernia Surgery, Manchester University NHS Foundation
+      Trust, Manchester, UK.
+FAU - Baltatzis, M
+AU  - Baltatzis M
+AD  - Department of Academic Hernia Surgery, Manchester University NHS Foundation
+      Trust, Manchester, UK.
+FAU - Fullwood, C
+AU  - Fullwood C
+AD  - Research & Innovation, Manchester University NHS Foundation Trust, Manchester,
+      UK.
+AD  - Centre for Biostatistics, Manchester University, Manchester, UK.
+FAU - Jamdar, S
+AU  - Jamdar S
+AD  - Department of Academic Hernia Surgery, Manchester University NHS Foundation
+      Trust, Manchester, UK.
+FAU - Sheen, A J
+AU  - Sheen AJ
+AUID- ORCID: http://orcid.org/0000-0001-6054-5385
+AD  - Department of Academic Hernia Surgery, Manchester University NHS Foundation
+      Trust, Manchester, UK. Aali.Sheen@mft.nhs.uk.
+AD  - Centre for Bioscience, Manchester Metropolitan University, Manchester, UK.
+      Aali.Sheen@mft.nhs.uk.
+AD  - Fortius Clinic, 17 Fitzhardinge street, London, UK. Aali.Sheen@mft.nhs.uk.
+LA  - eng
+PT  - Journal Article
+DEP - 20200909
+PL  - Germany
+TA  - Surg Endosc
+JT  - Surgical endoscopy
+JID - 8806653
+SB  - IM
+OTO - NOTNLM
+OT  - Athletic pubalgia
+OT  - Inguinal disruption
+OT  - Sportsman's groin
+OT  - Totally extraperitoneal (TEP) repair
+EDAT- 2020/09/11 06:00
+MHDA- 2020/09/11 06:00
+CRDT- 2020/09/10 05:38
+PHST- 2020/03/06 00:00 [received]
+PHST- 2020/08/19 00:00 [accepted]
+PHST- 2020/09/11 06:00 [pubmed]
+PHST- 2020/09/11 06:00 [medline]
+PHST- 2020/09/10 05:38 [entrez]
+AID - 10.1007/s00464-020-07930-9 [doi]
+AID - 10.1007/s00464-020-07930-9 [pii]
+PST - ppublish
+SO  - Surg Endosc. 2021 Aug;35(8):4371-4379. doi: 10.1007/s00464-020-07930-9. Epub 2020
+      Sep 9.
+
+PMID- 32673544
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20201125
+LR  - 20210702
+IS  - 1744-957X (Electronic)
+IS  - 1744-9561 (Linking)
+VI  - 16
+IP  - 7
+DP  - 2020 Jul
+TI  - Modelling the maximal active consumption rate and its plasticity in
+      humans-perspectives from hot dog eating competitions.
+PG  - 20200096
+LID - 10.1098/rsbl.2020.0096 [doi]
+AB  - Gut capacity and plasticity have been examined across multiple species, but are
+      not typically explored in the context of extreme human performance. Here, I
+      estimate the theoretical maximal active consumption rate (ACR) in humans, using
+      39 years of historical data from the annual Nathan's Famous Hot Dog Eating
+      Contest. Through nonlinear modelling and generalized extreme value analysis, I
+      show that humans are theoretically capable of achieving an ACR of approximately
+      832 g min(-1) fresh matter over 10 min duration. Modelling individual
+      performances across 5 years reveals that maximal ACR significantly increases over
+      time in 'elite' competitive eaters, likely owing to training effects. Extreme
+      digestive plasticity suggests that eating competition records are quite
+      biologically impressive, especially in the context of carnivorous species and
+      other human athletic competitions.
+FAU - Smoliga, James M
+AU  - Smoliga JM
+AD  - Department of Physical Therapy, One University Parkway, High Point University,
+      High Point, NC 27409, USA.
+LA  - eng
+SI  - figshare/10.6084/m9.figshare.c.5046797
+PT  - Journal Article
+DEP - 20200715
+PL  - England
+TA  - Biol Lett
+JT  - Biology letters
+JID - 101247722
+SB  - IM
+MH  - *Athletic Performance
+MH  - *Feeding Behavior
+MH  - *Gastrointestinal Tract/physiology
+MH  - Humans
+PMC - PMC7423035
+OTO - NOTNLM
+OT  - *diet
+OT  - *digestion
+OT  - *eating
+OT  - *nutrition
+OT  - *performance
+EDAT- 2020/07/17 06:00
+MHDA- 2020/11/26 06:00
+CRDT- 2020/07/17 06:00
+PHST- 2020/07/17 06:00 [entrez]
+PHST- 2020/07/17 06:00 [pubmed]
+PHST- 2020/11/26 06:00 [medline]
+AID - 10.1098/rsbl.2020.0096 [doi]
+PST - ppublish
+SO  - Biol Lett. 2020 Jul;16(7):20200096. doi: 10.1098/rsbl.2020.0096. Epub 2020 Jul
+      15.
+
+PMID- 32365765
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210211
+LR  - 20210211
+IS  - 1422-0067 (Electronic)
+IS  - 1422-0067 (Linking)
+VI  - 21
+IP  - 9
+DP  - 2020 Apr 30
+TI  - Molecular Markers Associated with Agro-Physiological Traits under Terminal
+      Drought Conditions in Bread Wheat.
+LID - E3156 [pii]
+LID - 10.3390/ijms21093156 [doi]
+AB  - Terminal drought stress poses a big challenge to sustain wheat grain production
+      in rain-fed environments. This study aimed to utilize the genetically diverse
+      pre-breeding lines for identification of genomic regions associated with
+      agro-physiological traits at terminal stage drought stress in wheat. A total of
+      339 pre-breeding lines panel derived from three-way crosses of 'exotics x elite x
+      elite' lines were evaluated in field conditions at Obregon, Mexico for two years 
+      under well irrigated as well as drought stress environments. Drought stress was
+      imposed at flowering by skipping the irrigations at pre and post anthesis stage. 
+      Results revealed that drought significantly reduced grain yield (Y), spike length
+      (SL), number of grains spikes(-1) (NGS) and thousand kernel weight (TKW), while
+      kernel abortion (KA) was increased. Population structure analysis in this panel
+      uncovered three sub-populations. Genome wide linkage disequilibrium (LD) decay
+      was observed at 2.5 centimorgan (cM). The haplotypes-based genome wide
+      association study (GWAS) identified significant associations of Y, SL, and TKW on
+      three chromosomes; 4A (HB10.7), 2D (HB6.10) and 3B (HB8.12), respectively.
+      Likewise, associations on chromosomes 6B (HB17.1) and 3A (HB7.11) were found for 
+      NGS while on chromosome 3A (HB7.12) for KA. The genomic analysis information
+      generated in the study can be efficiently utilized to improve Y and/or related
+      parameters under terminal stage drought stress through marker-assisted breeding.
+FAU - Shokat, Sajid
+AU  - Shokat S
+AUID- ORCID: 0000-0002-2736-8708
+AD  - Department of Plant and Environmental Sciences, University of Copenhagen,
+      Hojbakkegard Alle 13, 2630 Taastrup, Denmark.
+AD  - Wheat Breeding Group, Plant Breeding and Genetics Division, Nuclear Institute for
+      Agriculture and Biology, Faisalabad 38000, Pakistan.
+FAU - Sehgal, Deepmala
+AU  - Sehgal D
+AD  - International Maize and Wheat Improvement Centre (CIMMYT) km, 45, Carretera
+      Mex-Veracruz, El-Batan, Texcoco CP 56237, Mexico.
+FAU - Vikram, Prashant
+AU  - Vikram P
+AD  - International Potato Center, NASC Complex, Pusa, New Delhi 110012, India.
+FAU - Liu, Fulai
+AU  - Liu F
+AUID- ORCID: 0000-0002-5006-8965
+AD  - Department of Plant and Environmental Sciences, University of Copenhagen,
+      Hojbakkegard Alle 13, 2630 Taastrup, Denmark.
+FAU - Singh, Sukhwinder
+AU  - Singh S
+AUID- ORCID: 0000-0001-7103-5065
+AD  - International Maize and Wheat Improvement Centre (CIMMYT) km, 45, Carretera
+      Mex-Veracruz, El-Batan, Texcoco CP 56237, Mexico.
+AD  - Geneshifters, 222 Mary Jena Lane, Pullman, WA 99163, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20200430
+PL  - Switzerland
+TA  - Int J Mol Sci
+JT  - International journal of molecular sciences
+JID - 101092791
+RN  - 0 (Genetic Markers)
+SB  - IM
+MH  - *Adaptation, Biological
+MH  - Chromosome Mapping
+MH  - *Droughts
+MH  - Edible Grain/physiology
+MH  - Genetic Markers
+MH  - Genome-Wide Association Study
+MH  - Inheritance Patterns
+MH  - Plant Breeding
+MH  - Quantitative Trait Loci
+MH  - *Quantitative Trait, Heritable
+MH  - *Stress, Physiological
+MH  - Triticum/*physiology
+PMC - PMC7247584
+OTO - NOTNLM
+OT  - GWAS
+OT  - bread wheat
+OT  - grain yield
+OT  - haplotype blocks
+OT  - kernel abortion
+EDAT- 2020/05/06 06:00
+MHDA- 2021/02/12 06:00
+CRDT- 2020/05/06 06:00
+PHST- 2020/03/11 00:00 [received]
+PHST- 2020/04/19 00:00 [revised]
+PHST- 2020/04/28 00:00 [accepted]
+PHST- 2020/05/06 06:00 [entrez]
+PHST- 2020/05/06 06:00 [pubmed]
+PHST- 2021/02/12 06:00 [medline]
+AID - ijms21093156 [pii]
+AID - 10.3390/ijms21093156 [doi]
+PST - epublish
+SO  - Int J Mol Sci. 2020 Apr 30;21(9). pii: ijms21093156. doi: 10.3390/ijms21093156.
+
+PMID- 31100906
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20201001
+IS  - 2075-4663 (Electronic)
+IS  - 2075-4663 (Linking)
+VI  - 7
+IP  - 5
+DP  - 2019 May 16
+TI  - Effects of Cycling on Subsequent Running Performance, Stride Length, and Muscle
+      Oxygen Saturation in Triathletes.
+LID - E115 [pii]
+LID - 10.3390/sports7050115 [doi]
+AB  - Running performance is a determinant factor for victory in Sprint and Olympic
+      distance triathlon. Previous cycling may impair running performance in
+      triathlons, so brick training becomes an important part of training. Wearable
+      technology that is used by triathletes can offer several metrics for optimising
+      training in real-time. The aim of this study was to analyse the effect of
+      previous cycling on subsequent running performance in a field test, while using
+      kinematics metrics and SmO2 provided by wearable devices that are potentially
+      used by triathletes. Ten trained triathletes participated in a randomised
+      crossover study, performing two trial sessions that were separated by seven days:
+      the isolated run trial (IRT) and the bike-run trial (BRT). Running kinematics,
+      physiological outcomes, and perceptual parameters were assessed before and after 
+      each running test. The running distance was significantly lower in the BRT when
+      compared to the IRT, with a decrease in stride length of 0.1 m (p = 0.00) and
+      higher %SmO2 (p = 0.00) in spite of the maximal intensity of exercise. No effects
+      were reported in vertical oscillation, ground contact time, running cadence, and 
+      average heart rate. These findings may only be relevant to 'moderate level'
+      triathletes, but not to 'elite' ones. Triathletes might monitor their %SmO2 and
+      stride length during brick training and then compare it with isolated running to 
+      evaluate performance changes. Using wearable technology (near-infrared
+      spectroscopy, accelerometry) for specific brick training may be a good option for
+      triathletes.
+FAU - Olcina, Guillermo
+AU  - Olcina G
+AUID- ORCID: 0000-0002-8256-0882
+AD  - Sports Sciences Faculty, University of Extremadura, Caceres 10003, Spain.
+      golcina@unex.es.
+FAU - Perez-Sousa, Miguel Angel
+AU  - Perez-Sousa MA
+AUID- ORCID: 0000-0003-4392-6850
+AD  - Sports Sciences Faculty, University of Extremadura, Caceres 10003, Spain.
+      perezsousa@gmail.com.
+AD  - Education, Psychology and Sports Sciences Faculty, University of Huelva, Huelva
+      21007, Spain. perezsousa@gmail.com.
+FAU - Escobar-Alvarez, Juan Antonio
+AU  - Escobar-Alvarez JA
+AUID- ORCID: 0000-0002-8721-820X
+AD  - HE Department, South Essex College, Southend-on-Sea SS1 1ND, UK.
+      juan.escobaralvarez@southessex.ac.uk.
+FAU - Timon, Rafael
+AU  - Timon R
+AUID- ORCID: 0000-0002-2187-0465
+AD  - Sports Sciences Faculty, University of Extremadura, Caceres 10003, Spain.
+      rtimon@unex.es.
+LA  - eng
+GR  - GR18003/COUNCIL OF EXTREMADURA
+PT  - Journal Article
+DEP - 20190516
+PL  - Switzerland
+TA  - Sports (Basel)
+JT  - Sports (Basel, Switzerland)
+JID - 101722684
+PMC - PMC6572577
+OTO - NOTNLM
+OT  - NIRS
+OT  - SmO2
+OT  - monitoring
+OT  - stride length
+OT  - wearable
+EDAT- 2019/05/19 06:00
+MHDA- 2019/05/19 06:01
+CRDT- 2019/05/19 06:00
+PHST- 2019/02/27 00:00 [received]
+PHST- 2019/05/13 00:00 [revised]
+PHST- 2019/05/14 00:00 [accepted]
+PHST- 2019/05/19 06:00 [entrez]
+PHST- 2019/05/19 06:00 [pubmed]
+PHST- 2019/05/19 06:01 [medline]
+AID - sports7050115 [pii]
+AID - 10.3390/sports7050115 [doi]
+PST - epublish
+SO  - Sports (Basel). 2019 May 16;7(5). pii: sports7050115. doi: 10.3390/sports7050115.
+
+PMID- 31067746
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200930
+IS  - 2075-4663 (Electronic)
+IS  - 2075-4663 (Linking)
+VI  - 7
+IP  - 5
+DP  - 2019 May 7
+TI  - Recommendations for Measurement and Management of an Elite Athlete.
+LID - E105 [pii]
+LID - 10.3390/sports7050105 [doi]
+AB  - Athletes who merit the title 'elite' are rare and differ both quantitatively and 
+      qualitatively from athletes of lower qualifications. Serving and studying elite
+      athletes may demand non-traditional approaches. Research involving elite athletes
+      suffers because of the typical nomothetic requirements for large sample sizes and
+      other statistical assumptions that do not apply to this population. Ideographic
+      research uses single-athlete study designs, trend analyses, and statistical
+      process control. Single-athlete designs seek to measure differences in repeated
+      measurements under prescribed conditions, and trend analyses may permit
+      systematic monitoring and prediction of future outcomes. Statistical process
+      control uses control charting and other methods from management systems to assess
+      and modify training processes in near real-time. These methods bring assessment
+      and process control into the real world of elite athletics.
+FAU - Sands, William
+AU  - Sands W
+AD  - High Performance Department, USA Ski and Snowboard Association, Victory Ln, Park 
+      City, UT 84060, USA. wmasands@hotmail.com.
+FAU - Cardinale, Marco
+AU  - Cardinale M
+AD  - Head Sports Physiology and Research, Aspire Academy, Doha POB 22287, Quatar.
+      marco.cardinale@me.com.
+FAU - McNeal, Jeni
+AU  - McNeal J
+AD  - Department of Physical Education Health and Recreation, Eastern Washington
+      University, Cheney, WA 99004, USA. jeni_mcneal@hotmail.com.
+FAU - Murray, Steven
+AU  - Murray S
+AUID- ORCID: 0000-0001-5779-1497
+AD  - Physical Education Program, University of California, Berkeley, CA 94720, USA.
+      smurray@berkeley.edu.
+FAU - Sole, Christopher
+AU  - Sole C
+AD  - Department of Health and Human Performance, The Citadel(-)The Military College of
+      South Carolina, 171 Moultrie Street Charleston, Charleston, SC 29409, USA.
+      christopher.j.sole@gmail.com.
+FAU - Reed, Jacob
+AU  - Reed J
+AD  - Sport Science Department, WRC 121, University of Northern Iowa, Cedar Falls, IA
+      50613, USA. acob.reed@uni.edu.
+FAU - Apostolopoulos, Nikos
+AU  - Apostolopoulos N
+AD  - Kinesiology and Physical Education, University of Toronto, Toronto, ON M5S-2W6,
+      Canada. nikos.apostolopoulos@utoronto.ca.
+FAU - Stone, Michael
+AU  - Stone M
+AD  - Department of Sport, Exercise, and Recreation, East Tennessee State University,
+      Johnson City, TN 37614, USA. stonem@etsu.edu.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20190507
+PL  - Switzerland
+TA  - Sports (Basel)
+JT  - Sports (Basel, Switzerland)
+JID - 101722684
+PMC - PMC6572637
+OTO - NOTNLM
+OT  - elite athlete
+OT  - single-subject research
+OT  - statistical process control
+OT  - trend analysis
+EDAT- 2019/05/10 06:00
+MHDA- 2019/05/10 06:01
+CRDT- 2019/05/10 06:00
+PHST- 2019/03/08 00:00 [received]
+PHST- 2019/04/28 00:00 [revised]
+PHST- 2019/05/02 00:00 [accepted]
+PHST- 2019/05/10 06:00 [entrez]
+PHST- 2019/05/10 06:00 [pubmed]
+PHST- 2019/05/10 06:01 [medline]
+AID - sports7050105 [pii]
+AID - 10.3390/sports7050105 [doi]
+PST - epublish
+SO  - Sports (Basel). 2019 May 7;7(5). pii: sports7050105. doi: 10.3390/sports7050105.
+
+PMID- 31029179
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200518
+LR  - 20200518
+IS  - 1445-4416 (Electronic)
+IS  - 1445-4416 (Linking)
+VI  - 46
+IP  - 7
+DP  - 2019 Jun
+TI  - Root renovation: how an improved understanding of basic root biology could inform
+      the development of elite crops that foster sustainable soil health.
+PG  - 597-612
+LID - 10.1071/FP18200 [doi]
+AB  - A major goal in agricultural research is to develop 'elite' crops with stronger, 
+      resilient root systems. Within this context, breeding practices have focussed on 
+      developing plant varieties that are, primarily, able to withstand pathogen attack
+      and, secondarily, able to maximise plant productivity. Although great strides
+      towards breeding disease-tolerant or -resistant root stocks have been made, this 
+      has come at a cost. Emerging studies in certain crop species suggest that
+      domestication of crops, together with soil management practices aimed at
+      improving plant yield, may hinder beneficial soil microbial association or reduce
+      microbial diversity in soil. To achieve more sustainable management of
+      agricultural lands, we must not only shift our soil management practices but also
+      our breeding strategy to include contributions from beneficial microbes. For this
+      latter point, we need to advance our understanding of how plants communicate
+      with, and are able to differentiate between, microbes of different lifestyles.
+      Here, we present a review of the key findings on belowground plant-microbial
+      interactions that have been made over the past decade, with a specific focus on
+      how plants and microbes communicate. We also discuss the currently unresolved
+      questions in this area, and propose plausible ways to use currently available
+      research and integrate fast-emerging '-omics' technologies to tackle these
+      questions. Combining past and developing research will enable the development of 
+      new crop varieties that will have new, value-added phenotypes belowground.
+FAU - Wong, Johanna W-H
+AU  - Wong JW
+AD  - Hawkesbury Institute for the Environment, Western Sydney University, Richmond,
+      NSW 2753, Australia.
+FAU - Plett, Jonathan M
+AU  - Plett JM
+AD  - Hawkesbury Institute for the Environment, Western Sydney University, Richmond,
+      NSW 2753, Australia; and Corresponding author. Email:
+      j.plett@westernsydney.edu.au.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+PL  - Australia
+TA  - Funct Plant Biol
+JT  - Functional plant biology : FPB
+JID - 101154361
+RN  - 0 (Soil)
+SB  - IM
+MH  - Agriculture
+MH  - Breeding
+MH  - *Crops, Agricultural
+MH  - *Soil
+EDAT- 2019/04/29 06:00
+MHDA- 2020/05/19 06:00
+CRDT- 2019/04/29 06:00
+PHST- 2018/07/21 00:00 [received]
+PHST- 2019/03/08 00:00 [accepted]
+PHST- 2019/04/29 06:00 [pubmed]
+PHST- 2020/05/19 06:00 [medline]
+PHST- 2019/04/29 06:00 [entrez]
+AID - FP18200 [pii]
+AID - 10.1071/FP18200 [doi]
+PST - ppublish
+SO  - Funct Plant Biol. 2019 Jun;46(7):597-612. doi: 10.1071/FP18200.
+
+PMID- 30604488
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200106
+LR  - 20200106
+IS  - 2042-3306 (Electronic)
+IS  - 0425-1644 (Linking)
+VI  - 51
+IP  - 5
+DP  - 2019 Sep
+TI  - The contribution of myostatin (MSTN) and additional modifying genetic loci to
+      race distance aptitude in Thoroughbred horses racing in different geographic
+      regions.
+PG  - 625-633
+LID - 10.1111/evj.13058 [doi]
+AB  - BACKGROUND: Race distance aptitude in Thoroughbred horses is highly heritable and
+      is influenced largely by variation at the myostatin gene (MSTN). OBJECTIVES: In
+      addition to MSTN, we hypothesised that other modifying loci contribute to best
+      race distance. STUDY DESIGN: Using 3006 Thoroughbreds, including 835 'elite'
+      horses, which were >3 years old, had race records and were sampled from
+      Europe/Middle-East, Australia/New Zealand, North America and South Africa, we
+      performed genome-wide association (GWA) tests and separately developed a genomic 
+      prediction algorithm to comprehensively catalogue additive genetic variation
+      contributing to best race distance. METHODS: 48,896 single-nucleotide
+      polymorphism (SNP) genotypes were generated from high-density SNP genotyping
+      arrays. Heritability estimates, tests of GWA and genomic prediction models were
+      derived for the phenotypes: average race distance, best race distance for elite, 
+      nonelite and all winning horses. RESULTS: Heritability estimates were high ( h m 
+      2 = 0.51, best race distance - elite; h m 2 = 0.42, best race distance -
+      nonelite; h m 2 = 0.40, best race distance - all) and most of the variation was
+      attributed to the MSTN gene. MSTN locus SNPs were the most strongly associated
+      with the trait and included BIEC2-438999 (ECA18:66913090; P = 4.51 x 10(-110) ,
+      average race distance; P = 2.33 x 10(-42) , best race distance - elite). The
+      genomic prediction algorithm enabled the inclusion of variation from all SNPs in 
+      a model that partitioned horses into short and long cohorts following assignment 
+      of MSTN genotype. Additional genes with minor contributions to best race distance
+      were identified. MAIN LIMITATIONS: The nongenetic influence of owner/trainer
+      decisions on placement of horses in suitable races could not be controlled.
+      CONCLUSIONS: MSTN is the single most important genetic contributor to best race
+      distance in the Thoroughbred. Employment of genetic prediction models will lead
+      to more accurate placing of horses in races that are best suited to their
+      inherited genetic potential for distance aptitude.
+CI  - (c) 2019 EVJ Ltd.
+FAU - Hill, E W
+AU  - Hill EW
+AUID- ORCID: http://orcid.org/0000-0002-1805-2250
+AD  - Plusvital Ltd, Dun Laoghaire, Co. Dublin, Ireland.
+AD  - UCD School of Agriculture and Food Science, University College Dublin, Belfield, 
+      Dublin, Ireland.
+FAU - McGivney, B A
+AU  - McGivney BA
+AD  - Plusvital Ltd, Dun Laoghaire, Co. Dublin, Ireland.
+FAU - Rooney, M F
+AU  - Rooney MF
+AUID- ORCID: http://orcid.org/0000-0002-0693-6315
+AD  - School of Biochemistry and Immunology, Trinity Biomedical Sciences Institute
+      (TBSI), Trinity College Dublin, Dublin, Ireland.
+FAU - Katz, L M
+AU  - Katz LM
+AUID- ORCID: http://orcid.org/0000-0001-5547-2089
+AD  - UCD School of Veterinary Medicine, University College Dublin, Belfield, Dublin,
+      Ireland.
+FAU - Parnell, A
+AU  - Parnell A
+AD  - UCD Insight Centre for Data Analytics, University College Dublin, Belfield,
+      Dublin, Ireland.
+FAU - MacHugh, D E
+AU  - MacHugh DE
+AD  - UCD School of Agriculture and Food Science, University College Dublin, Belfield, 
+      Dublin, Ireland.
+AD  - UCD Conway Institute of Biomolecular and Biomedical Research, University College 
+      Dublin, Belfield, Dublin, Ireland.
+LA  - eng
+GR  - 11/PI/1166/Science Foundation Ireland/Ireland
+GR  - Plusvital Ltd
+PT  - Journal Article
+DEP - 20190105
+PL  - United States
+TA  - Equine Vet J
+JT  - Equine veterinary journal
+JID - 0173320
+RN  - 0 (Myostatin)
+SB  - IM
+MH  - Animal Distribution
+MH  - Animals
+MH  - Genome-Wide Association Study
+MH  - Horses/*genetics/physiology
+MH  - Myostatin/genetics/*metabolism
+MH  - Physical Conditioning, Animal
+MH  - Physical Endurance
+MH  - *Polymorphism, Single Nucleotide
+MH  - *Sports
+OTO - NOTNLM
+OT  - GWAS
+OT  - Thoroughbred
+OT  - genomics
+OT  - horse
+OT  - myostatin
+OT  - prediction
+OT  - race distance
+EDAT- 2019/01/04 06:00
+MHDA- 2020/01/07 06:00
+CRDT- 2019/01/04 06:00
+PHST- 2018/03/14 00:00 [received]
+PHST- 2018/11/14 00:00 [accepted]
+PHST- 2019/01/04 06:00 [pubmed]
+PHST- 2020/01/07 06:00 [medline]
+PHST- 2019/01/04 06:00 [entrez]
+AID - 10.1111/evj.13058 [doi]
+PST - ppublish
+SO  - Equine Vet J. 2019 Sep;51(5):625-633. doi: 10.1111/evj.13058. Epub 2019 Jan 5.
+
+PMID- 30455470
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190617
+LR  - 20200309
+IS  - 2058-5276 (Electronic)
+IS  - 2058-5276 (Linking)
+VI  - 4
+IP  - 1
+DP  - 2019 Jan
+TI  - Protective antibodies against Eastern equine encephalitis virus bind to epitopes 
+      in domains A and B of the E2 glycoprotein.
+PG  - 187-197
+LID - 10.1038/s41564-018-0286-4 [doi]
+AB  - Eastern equine encephalitis virus (EEEV) is a mosquito-transmitted alphavirus
+      with a high case mortality rate in humans. EEEV is a biodefence concern because
+      of its potential for aerosol spread and the lack of existing countermeasures.
+      Here, we identify a panel of 18 neutralizing murine monoclonal antibodies (mAbs) 
+      against the EEEV E2 glycoprotein, several of which have 'elite' activity with 50 
+      and 99% effective inhibitory concentrations (EC50 and EC99) of less than 10 and
+      100 ng ml(-1), respectively. Alanine-scanning mutagenesis and neutralization
+      escape mapping analysis revealed epitopes for these mAbs in domains A or B of the
+      E2 glycoprotein. A majority of the neutralizing mAbs blocked infection at a
+      post-attachment stage, with several inhibiting viral membrane fusion.
+      Administration of one dose of anti-EEEV mAb protected mice from lethal
+      subcutaneous or aerosol challenge. These experiments define the mechanistic basis
+      for neutralization by protective anti-EEEV mAbs and suggest a path forward for
+      treatment and vaccine design.
+FAU - Kim, Arthur S
+AU  - Kim AS
+AUID- ORCID: http://orcid.org/0000-0003-4101-6642
+AD  - Department of Medicine, Washington University School of Medicine, St. Louis, MO, 
+      USA.
+AD  - Pathology and Immunology, Washington University School of Medicine, St. Louis,
+      MO, USA.
+FAU - Austin, S Kyle
+AU  - Austin SK
+AD  - Department of Medicine, Washington University School of Medicine, St. Louis, MO, 
+      USA.
+FAU - Gardner, Christina L
+AU  - Gardner CL
+AD  - Center for Vaccine Research, Department of Immunology, University of Pittsburgh, 
+      Pittsburgh, PA, USA.
+AD  - United States Army Research Institute for Infectious Diseases, Fort Detrick, MD, 
+      USA.
+FAU - Zuiani, Adam
+AU  - Zuiani A
+AD  - Pathology and Immunology, Washington University School of Medicine, St. Louis,
+      MO, USA.
+FAU - Reed, Douglas S
+AU  - Reed DS
+AD  - Center for Vaccine Research, Department of Immunology, University of Pittsburgh, 
+      Pittsburgh, PA, USA.
+FAU - Trobaugh, Derek W
+AU  - Trobaugh DW
+AD  - Center for Vaccine Research, Department of Immunology, University of Pittsburgh, 
+      Pittsburgh, PA, USA.
+FAU - Sun, Chengqun
+AU  - Sun C
+AD  - Center for Vaccine Research, Department of Immunology, University of Pittsburgh, 
+      Pittsburgh, PA, USA.
+FAU - Basore, Katherine
+AU  - Basore K
+AD  - Pathology and Immunology, Washington University School of Medicine, St. Louis,
+      MO, USA.
+FAU - Williamson, Lauren E
+AU  - Williamson LE
+AD  - Vanderbilt Vaccine Center, Department of Pediatrics, and Department of Pathology,
+      Microbiology, and Immunology, Vanderbilt University Medical Center, Nashville,
+      TN, USA.
+FAU - Crowe, James E Jr
+AU  - Crowe JE Jr
+AUID- ORCID: http://orcid.org/0000-0002-0049-1079
+AD  - Vanderbilt Vaccine Center, Department of Pediatrics, and Department of Pathology,
+      Microbiology, and Immunology, Vanderbilt University Medical Center, Nashville,
+      TN, USA.
+FAU - Slifka, Mark K
+AU  - Slifka MK
+AD  - Division of Neuroscience, Oregon National Primate Research Center, Oregon Health 
+      & Science University, Beaverton, OR, USA.
+FAU - Fremont, Daved H
+AU  - Fremont DH
+AUID- ORCID: http://orcid.org/0000-0002-8544-2689
+AD  - Pathology and Immunology, Washington University School of Medicine, St. Louis,
+      MO, USA.
+AD  - Biochemistry and Molecular Biophysics, Washington University School of Medicine, 
+      St. Louis, MO, USA.
+AD  - Molecular Microbiology, Washington University School of Medicine, St. Louis, MO, 
+      USA.
+FAU - Klimstra, William B
+AU  - Klimstra WB
+AD  - Center for Vaccine Research, Department of Immunology, University of Pittsburgh, 
+      Pittsburgh, PA, USA.
+FAU - Diamond, Michael S
+AU  - Diamond MS
+AUID- ORCID: http://orcid.org/0000-0002-8791-3165
+AD  - Department of Medicine, Washington University School of Medicine, St. Louis, MO, 
+      USA. diamond@wusm.wustl.edu.
+AD  - Pathology and Immunology, Washington University School of Medicine, St. Louis,
+      MO, USA. diamond@wusm.wustl.edu.
+AD  - Molecular Microbiology, Washington University School of Medicine, St. Louis, MO, 
+      USA. diamond@wusm.wustl.edu.
+AD  - The Andrew M. and Jane M. Bursky Center for Human Immunology and Immunotherapy
+      Programs, Washington University School of Medicine, St. Louis, MO, USA.
+      diamond@wusm.wustl.edu.
+LA  - eng
+GR  - P51 OD011092/OD/NIH HHS/United States
+GR  - R01 AI095436/AI/NIAID NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20181119
+PL  - England
+TA  - Nat Microbiol
+JT  - Nature microbiology
+JID - 101674869
+RN  - 0 (Antibodies, Monoclonal)
+RN  - 0 (Antibodies, Neutralizing)
+RN  - 0 (Antibodies, Viral)
+RN  - 0 (Epitopes)
+RN  - 0 (Viral Envelope Proteins)
+RN  - 0 (glycoprotein E2, equine encephalitis virus)
+SB  - IM
+MH  - Animals
+MH  - Antibodies, Monoclonal/*immunology
+MH  - Antibodies, Neutralizing/immunology
+MH  - Antibodies, Viral/immunology
+MH  - Chlorocebus aethiops
+MH  - Cricetinae
+MH  - Encephalitis Virus, Eastern Equine/*immunology
+MH  - Encephalomyelitis, Equine/*immunology/*prevention & control/virology
+MH  - Epitope Mapping
+MH  - Epitopes/immunology
+MH  - Female
+MH  - HEK293 Cells
+MH  - Humans
+MH  - Mice
+MH  - Protein Domains/immunology
+MH  - Vero Cells
+MH  - Viral Envelope Proteins/*immunology
+PMC - PMC6294662
+MID - NIHMS1509440
+EDAT- 2018/11/21 06:00
+MHDA- 2019/06/18 06:00
+CRDT- 2018/11/21 06:00
+PHST- 2018/05/27 00:00 [received]
+PHST- 2018/10/10 00:00 [accepted]
+PHST- 2018/11/21 06:00 [pubmed]
+PHST- 2019/06/18 06:00 [medline]
+PHST- 2018/11/21 06:00 [entrez]
+AID - 10.1038/s41564-018-0286-4 [doi]
+AID - 10.1038/s41564-018-0286-4 [pii]
+PST - ppublish
+SO  - Nat Microbiol. 2019 Jan;4(1):187-197. doi: 10.1038/s41564-018-0286-4. Epub 2018
+      Nov 19.
+
+PMID- 30094844
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190219
+LR  - 20190320
+IS  - 1097-0010 (Electronic)
+IS  - 0022-5142 (Linking)
+VI  - 99
+IP  - 3
+DP  - 2019 Feb
+TI  - Micronutrient productivity: a comprehensive parameter for biofortification in
+      rice (Oryza sativa L.) grain.
+PG  - 1311-1321
+LID - 10.1002/jsfa.9306 [doi]
+AB  - BACKGROUND: Enhancing the micronutrient content of staple crops such as rice will
+      improve human nutrition and address the problem of hidden hunger globally. Rice
+      grains consumed after polishing lack adequate amounts of micronutrients. The
+      present study aims to reveal the effects of polishing on micronutrient content
+      and to identify superior genotype(s) to improve yield and micronutrient content
+      after polishing. RESULTS: AM65 exhibited the highest zinc content, and AM180 had 
+      the highest iron content, even after polishing. There was little or no difference
+      between the genotypes for zinc content in bran, indicating a possible threshold
+      for micronutrient accumulation in the aleurone layer. A comprehensive selection
+      criterion called 'micronutrient productivity' was used to select for both yield
+      and micronutrient parameters. AM65 and ARB6 showed high zinc and iron
+      productivity indices. OsZIP4b and OsZIP6c markers showed an association with iron
+      content on an agarose gel. Sequencing of markers revealed that OsYSL15 and
+      OsZIP6c were associated with grain zinc content and OsZIP3b, OsMTP1a, and OsYSL4b
+      with grain iron content. These markers can be used for selecting superior
+      accessions. CONCLUSION: AM65 was loaded with micronutrients and manifested a
+      positive correlation with the grain yield, and it is undoubtedly 'super elite'.
+      Bran does not drain the grain but rather acts as gateway for micronutrient
+      transportation to the endosperm. Micronutrient productivity is a comprehensive
+      parameter for the biofortification of grain. (c) 2018 Society of Chemical
+      Industry.
+CI  - (c) 2018 Society of Chemical Industry.
+FAU - Khan, Jameel A
+AU  - Khan JA
+AD  - Department of Plant Biotechnology, University of Agricultural Sciences,
+      Bengaluru, India.
+FAU - Narayana, Krupa Kuntanahalli
+AU  - Narayana KK
+AD  - Department of Plant Biotechnology, University of Agricultural Sciences,
+      Bengaluru, India.
+FAU - Holla, Sumantha
+AU  - Holla S
+AD  - Department of Plant Biotechnology, University of Agricultural Sciences,
+      Bengaluru, India.
+FAU - Shrinivas, Sowjanya Makkivalli
+AU  - Shrinivas SM
+AD  - Department of Plant Biotechnology, University of Agricultural Sciences,
+      Bengaluru, India.
+FAU - Dar, Zahoor A
+AU  - Dar ZA
+AD  - Sher-e-Kashmir University of Agricultural Science and Technology, Srinagar,
+      India.
+FAU - Shashidhar, Halagappa Eshwarappa
+AU  - Shashidhar HE
+AUID- ORCID: https://orcid.org/0000-0001-7725-797X
+AD  - Department of Plant Biotechnology, University of Agricultural Sciences,
+      Bengaluru, India.
+LA  - eng
+GR  - ABAC8270/Department of Biotechnology, Ministry of Science and Technology,
+      Government of India
+GR  - Department of Biotechnology, Government of India, New Delhi
+GR  - Department of Science and Technology, Government of India
+PT  - Journal Article
+DEP - 20181023
+PL  - England
+TA  - J Sci Food Agric
+JT  - Journal of the science of food and agriculture
+JID - 0376334
+RN  - 0 (Micronutrients)
+RN  - 0 (Plant Proteins)
+RN  - 0 (Trace Elements)
+RN  - E1UOL152H7 (Iron)
+RN  - J41CSQ7QDS (Zinc)
+SB  - IM
+MH  - Biofortification
+MH  - Genotype
+MH  - Iron/analysis
+MH  - Micronutrients/*analysis
+MH  - Oryza/*chemistry/genetics/metabolism
+MH  - Plant Proteins/genetics/metabolism
+MH  - Trace Elements/analysis
+MH  - Zinc/analysis
+OTO - NOTNLM
+OT  - biofortification
+OT  - micronutrient-productivity
+OT  - micronutrients
+OT  - polishing
+OT  - rice
+OT  - transporters
+EDAT- 2018/08/11 06:00
+MHDA- 2019/03/21 06:00
+CRDT- 2018/08/11 06:00
+PHST- 2017/01/13 00:00 [received]
+PHST- 2018/07/26 00:00 [revised]
+PHST- 2018/08/06 00:00 [accepted]
+PHST- 2018/08/11 06:00 [pubmed]
+PHST- 2019/03/21 06:00 [medline]
+PHST- 2018/08/11 06:00 [entrez]
+AID - 10.1002/jsfa.9306 [doi]
+PST - ppublish
+SO  - J Sci Food Agric. 2019 Feb;99(3):1311-1321. doi: 10.1002/jsfa.9306. Epub 2018 Oct
+      23.
+
+PMID- 29590405
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20191017
+LR  - 20191017
+IS  - 1460-2431 (Electronic)
+IS  - 0022-0957 (Linking)
+VI  - 69
+IP  - 15
+DP  - 2018 Jun 27
+TI  - Selection of host-plant genotype: the next step to increase grain legume N2
+      fixation activity.
+PG  - 3523-3530
+LID - 10.1093/jxb/ery115 [doi]
+AB  - Symbiotic N2 fixation research thus far has been primarily focused on selection
+      of bacteria. However, little progress in impacting crop yields has resulted from 
+      this approach. Bacteria introduced in field soils rarely compete well with
+      indigenous bacteria, including mutated lines selected for high nitrogen fixation 
+      capacity. Consequently, introduction of 'elite' bacteria in fields commonly does 
+      not result in crop yield increase. This review highlights that the primary
+      regulation of N2 fixation is a result of response of integrated physiological
+      activity at the plant level. Nitrogen feedback from the host plant plays an
+      important role in regulating the N2 fixation rate. Rapid sequestration of fixed
+      nitrogen by the plant is especially important for high N2 fixation activity. In
+      addition, water cycling in the plant between the shoot and nodules plays a key
+      role in sustaining high N2 fixation activity. Therefore, attention in selecting
+      the host-plant genotype is suggested to be the next step to increasing N2
+      fixation activity of grain legumes.
+FAU - Sinclair, Thomas R
+AU  - Sinclair TR
+AD  - Crop and Soil Sciences Department, North Carolina State University, Raleigh, USA.
+FAU - Nogueira, Marco A
+AU  - Nogueira MA
+AD  - Embrapa Soja, Londrina PR, Brazil.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - J Exp Bot
+JT  - Journal of experimental botany
+JID - 9882906
+RN  - 059QF0KO0R (Water)
+SB  - IM
+MH  - Agriculture
+MH  - *Bacteria
+MH  - *Bacterial Physiological Phenomena
+MH  - Fabaceae/cytology/*genetics/physiology
+MH  - Genotype
+MH  - Models, Biological
+MH  - Nitrogen Fixation/*genetics
+MH  - Plant Shoots/genetics/physiology
+MH  - Root Nodules, Plant/genetics/physiology
+MH  - Soil Microbiology
+MH  - Stress, Physiological
+MH  - Symbiosis
+MH  - Water/*metabolism
+EDAT- 2018/03/29 06:00
+MHDA- 2019/10/18 06:00
+CRDT- 2018/03/29 06:00
+PHST- 2017/11/04 00:00 [received]
+PHST- 2018/03/23 00:00 [accepted]
+PHST- 2018/03/29 06:00 [pubmed]
+PHST- 2019/10/18 06:00 [medline]
+PHST- 2018/03/29 06:00 [entrez]
+AID - 4953333 [pii]
+AID - 10.1093/jxb/ery115 [doi]
+PST - ppublish
+SO  - J Exp Bot. 2018 Jun 27;69(15):3523-3530. doi: 10.1093/jxb/ery115.
+
+PMID- 29436292
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180917
+LR  - 20181113
+IS  - 1087-2981 (Electronic)
+IS  - 1087-2981 (Linking)
+VI  - 23
+IP  - 1
+DP  - 2018 Dec
+TI  - Is it a match? a novel method of evaluating medical school success.
+PG  - 1432231
+LID - 10.1080/10872981.2018.1432231 [doi]
+AB  - BACKGROUND: Medical education program evaluation allows for curricular
+      improvements to both Undergraduate (UME) and Graduate Medical Education (GME).
+      UME programs are left with little more than match rates and self-report to
+      evaluate success of graduates in The Match. OBJECTIVE: This manuscript shares a
+      novel method of program evaluation through a systematic assessment of Match
+      outcomes. DESIGN: Surveys were developed and distributed to Program Training
+      Directors (PTDs) at our institution to classify residency programs into which our
+      UME graduates matched using an ordinal response scale and open-ended responses.
+      Outcomes-based measures for UME graduates were collected and analyzed. The
+      relationship between PTD survey data and UME graduates' outcomes were explored.
+      Open-ended response data were qualitatively analyzed using iterative cycles of
+      coding and identifying themes. RESULTS: The PTD survey response rate was 100%.
+      71% of our graduates matched to programs ranked as 'elite' (36%) or 'top' (35%)
+      tier. The mean total number of 'Honors' grades achieved by UME graduates was 2.6.
+      Data showed that graduates entering elite and top GME programs did not
+      consistently earn Honors in their associated clerkships. A positive correlation
+      was identified between USMLE Step 1 score, number of honors, and residency
+      program rankings for a majority of the programs. Qualitative analysis identified 
+      research, faculty, and clinical exposure as necessary characteristics of 'elite' 
+      programs:. Factors considered by PTDs in the rating of programs included
+      reputation, faculty, research, national presence and quality of graduates.
+      CONCLUSIONS: This study describes a novel outcomes-based method of evaluating the
+      success of UME programs. Results provided useful feedback about the quality of
+      our UME program and its ability to produce graduates who match in highly-regarded
+      GME programs. The findings from this study can benefit Clerkship Directors,
+      Student Affairs and Curriculam Deans, and residency PTDs as they help students
+      determine their competitiveness forspecialties and specific residency programs.
+FAU - Chang, Leslie L
+AU  - Chang LL
+AD  - a Duke University School of Medicine , Durham , NC , USA.
+FAU - Nagler, Alisa
+AU  - Nagler A
+AD  - b Division of Education , American College of Surgeons , Chicago , IL , USA.
+FAU - Rudd, Mariah
+AU  - Rudd M
+AD  - c Office of Continuing Professional Development , Virginia Tech Carilion School
+      of Medicine , Roanoke , VA , USA.
+FAU - Grochowski, Colleen O'Connor
+AU  - Grochowski CO
+AD  - d Office of Curricular Affairs , Duke University School of Medicine , Durham , NC
+      , USA.
+FAU - Buckley, Edward G
+AU  - Buckley EG
+AD  - e Department of Ophthalmology , Duke University School of Medicine , Durham , NC 
+      , USA.
+FAU - Chudgar, Saumil M
+AU  - Chudgar SM
+AUID- ORCID: http://orcid.org/0000-0003-3107-7919
+AD  - f Department of Medicine , Duke University School of Medicine , Durham , NC ,
+      USA.
+FAU - Engle, Deborah L
+AU  - Engle DL
+AUID- ORCID: http://orcid.org/0000-0003-1849-6828
+AD  - d Office of Curricular Affairs , Duke University School of Medicine , Durham , NC
+      , USA.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Med Educ Online
+JT  - Medical education online
+JID - 9806550
+SB  - IM
+MH  - Biomedical Research/organization & administration
+MH  - Clinical Clerkship/organization & administration
+MH  - Education, Medical, Graduate/standards/statistics & numerical data
+MH  - Education, Medical, Undergraduate/*organization &
+      administration/standards/*statistics & numerical data
+MH  - Faculty, Medical/organization & administration
+MH  - Humans
+MH  - Internship and Residency/standards/*statistics & numerical data
+MH  - Program Evaluation
+MH  - School Admission Criteria
+PMC - PMC5841542
+OTO - NOTNLM
+OT  - Match
+OT  - program evaluation
+OT  - reputation
+OT  - residency
+OT  - specialty
+OT  - undergraduate medical education
+EDAT- 2018/02/14 06:00
+MHDA- 2018/09/18 06:00
+CRDT- 2018/02/14 06:00
+PHST- 2018/02/14 06:00 [entrez]
+PHST- 2018/02/14 06:00 [pubmed]
+PHST- 2018/09/18 06:00 [medline]
+AID - 10.1080/10872981.2018.1432231 [doi]
+PST - ppublish
+SO  - Med Educ Online. 2018 Dec;23(1):1432231. doi: 10.1080/10872981.2018.1432231.
+
+PMID- 29414118
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190325
+LR  - 20190325
+IS  - 1873-4758 (Electronic)
+IS  - 0955-3959 (Linking)
+VI  - 53
+DP  - 2018 Mar
+TI  - The structured ambivalence of cannabis control in England & Wales.
+PG  - 125-132
+LID - S0955-3959(18)30005-7 [pii]
+LID - 10.1016/j.drugpo.2018.01.005 [doi]
+AB  - The two reclassifications of cannabis in England & Wales in 2004 and 2009 have
+      been subjected to a series of academic analyses which have largely been centred
+      on either the relationship to evidence, or in terms of the implications and
+      realities of policing and health under the changes. However, despite the wealth
+      of attention on this area, there have been relatively few attempts to understand 
+      these policy movements through broader criminological theoretical frameworks. One
+      recent exception is Shiner's (2015) utilisation of Garland's (2001) concept of
+      'structured ambivalence'. This paper seeks to test this application through
+      drawing upon an alternative source of evidence, namely, a series of 'elite'
+      qualitative interviews, and using Kingdon's (1995) Multiple Streams model to make
+      sense of the policy processes. In doing so, it largely corroborates Shiner's
+      conclusions whilst also further illuminating particular agentic aspects and their
+      intertwining with other structural and cultural forces which led to the
+      reclassifications. These findings demonstrate the value of triangulating
+      evidential sources and advances knowledge about the role of individuals in
+      pursuing policy agendas within a broader shifting political climate. This
+      provides greater scope to further test and understand how structured ambivalence 
+      manifests itself in other cultural contexts and policy domains.
+CI  - Copyright (c) 2018 Elsevier B.V. All rights reserved.
+FAU - Brewster, David
+AU  - Brewster D
+AD  - Criminology Research Centre, Ryukoku University, Japan. Electronic address:
+      david-brewster@ad.ryukoku.ac.jp.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20180202
+PL  - Netherlands
+TA  - Int J Drug Policy
+JT  - The International journal on drug policy
+JID - 9014759
+SB  - IM
+MH  - Attitude
+MH  - *Cannabis
+MH  - Drug and Narcotic Control/*legislation & jurisprudence
+MH  - England
+MH  - Health Policy
+MH  - Humans
+MH  - *Legislation, Drug
+MH  - Police
+MH  - Policy Making
+MH  - Public Policy
+MH  - Wales
+OTO - NOTNLM
+OT  - *Agency
+OT  - *Cannabis
+OT  - *Policy streams
+OT  - *Reclassification
+OT  - *Structured ambivalence
+EDAT- 2018/02/08 06:00
+MHDA- 2019/03/26 06:00
+CRDT- 2018/02/08 06:00
+PHST- 2017/07/03 00:00 [received]
+PHST- 2017/12/19 00:00 [revised]
+PHST- 2018/01/05 00:00 [accepted]
+PHST- 2018/02/08 06:00 [pubmed]
+PHST- 2019/03/26 06:00 [medline]
+PHST- 2018/02/08 06:00 [entrez]
+AID - S0955-3959(18)30005-7 [pii]
+AID - 10.1016/j.drugpo.2018.01.005 [doi]
+PST - ppublish
+SO  - Int J Drug Policy. 2018 Mar;53:125-132. doi: 10.1016/j.drugpo.2018.01.005. Epub
+      2018 Feb 2.
+
+PMID- 28605766
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171120
+LR  - 20181113
+IS  - 1758-0463 (Electronic)
+IS  - 1758-0463 (Linking)
+VI  - 2017
+DP  - 2017 Jan 1
+TI  - GeneHancer: genome-wide integration of enhancers and target genes in GeneCards.
+LID - 10.1093/database/bax028 [doi]
+AB  - A major challenge in understanding gene regulation is the unequivocal
+      identification of enhancer elements and uncovering their connections to genes. We
+      present GeneHancer, a novel database of human enhancers and their inferred target
+      genes, in the framework of GeneCards. First, we integrated a total of 434 000
+      reported enhancers from four different genome-wide databases: the Encyclopedia of
+      DNA Elements (ENCODE), the Ensembl regulatory build, the functional annotation of
+      the mammalian genome (FANTOM) project and the VISTA Enhancer Browser. Employing
+      an integration algorithm that aims to remove redundancy, GeneHancer portrays 285 
+      000 integrated candidate enhancers (covering 12.4% of the genome), 94 000 of
+      which are derived from more than one source, and each assigned an
+      annotation-derived confidence score. GeneHancer subsequently links enhancers to
+      genes, using: tissue co-expression correlation between genes and enhancer RNAs,
+      as well as enhancer-targeted transcription factor genes; expression quantitative 
+      trait loci for variants within enhancers; and capture Hi-C, a promoter-specific
+      genome conformation assay. The individual scores based on each of these four
+      methods, along with gene-enhancer genomic distances, form the basis for
+      GeneHancer's combinatorial likelihood-based scores for enhancer-gene pairing.
+      Finally, we define 'elite' enhancer-gene relations reflecting both a
+      high-likelihood enhancer definition and a strong enhancer-gene association.
+      GeneHancer predictions are fully integrated in the widely used GeneCards Suite,
+      whereby candidate enhancers and their annotations are displayed on every relevant
+      GeneCard. This assists in the mapping of non-coding variants to enhancers, and
+      via the linked genes, forms a basis for variant-phenotype interpretation of
+      whole-genome sequences in health and disease. Database URL:
+      http://www.genecards.org/.
+CI  - (c) The Author(s) 2017. Published by Oxford University Press.
+FAU - Fishilevich, Simon
+AU  - Fishilevich S
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Nudel, Ron
+AU  - Nudel R
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Rappaport, Noa
+AU  - Rappaport N
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Hadar, Rotem
+AU  - Hadar R
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Plaschkes, Inbar
+AU  - Plaschkes I
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Iny Stein, Tsippi
+AU  - Iny Stein T
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Rosen, Naomi
+AU  - Rosen N
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Kohn, Asher
+AU  - Kohn A
+AD  - LifeMap Sciences Inc, Marshfield, MA 02050, USA.
+FAU - Twik, Michal
+AU  - Twik M
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Safran, Marilyn
+AU  - Safran M
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Lancet, Doron
+AU  - Lancet D
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+FAU - Cohen, Dana
+AU  - Cohen D
+AD  - Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001,
+      Israel.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - England
+TA  - Database (Oxford)
+JT  - Database : the journal of biological databases and curation
+JID - 101517697
+SB  - IM
+MH  - *Databases, Nucleic Acid
+MH  - *Enhancer Elements, Genetic
+MH  - *Genome
+MH  - Genome-Wide Association Study
+MH  - Predictive Value of Tests
+MH  - Sequence Analysis, DNA/*methods
+MH  - *Web Browser
+PMC - PMC5467550
+EDAT- 2017/06/13 06:00
+MHDA- 2017/11/29 06:00
+CRDT- 2017/06/13 06:00
+PHST- 2016/11/15 00:00 [received]
+PHST- 2017/03/10 00:00 [accepted]
+PHST- 2017/06/13 06:00 [entrez]
+PHST- 2017/06/13 06:00 [pubmed]
+PHST- 2017/11/29 06:00 [medline]
+AID - 3737828 [pii]
+AID - 10.1093/database/bax028 [doi]
+PST - ppublish
+SO  - Database (Oxford). 2017 Jan 1;2017. pii: 3737828. doi: 10.1093/database/bax028.
+
+PMID- 27494731
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171004
+LR  - 20180221
+IS  - 1874-1754 (Electronic)
+IS  - 0167-5273 (Linking)
+VI  - 222
+DP  - 2016 Nov 1
+TI  - No evidence of adverse cardiac remodeling in former elite endurance athletes.
+PG  - 171-177
+LID - S0167-5273(16)31593-5 [pii]
+LID - 10.1016/j.ijcard.2016.07.197 [doi]
+AB  - BACKGROUND: The impact of high exercise loads on a previously healthy heart
+      remains controversial. We examined the consequences of decades of strenuous
+      endurance exercise at the highest competition level on heart dimensions and
+      volumes as well as on serum biomarkers of cardiac fibrosis/remodeling. METHODS
+      AND RESULTS: We compared echocardiographic measurements and serum biomarkers of
+      cardiac fibrosis/remodeling [troponin I, galectin-3, matrix metallopeptidase-2
+      and -9, N-terminal pro-brain natriuretic peptide, carboxy-terminal propeptide of 
+      type I procollagen, and soluble suppressor of tumorigenicity-2
+      (sST-2)/interleukin(IL)-1R4] in 53 male athletes [11 former professional
+      ('elite') and 42 amateur-level ('sub-elite') cyclists or runners, aged
+      40-70years] and 18 aged-matched controls. A subset of 15 subjects (5 controls, 3 
+      sub-elite and 7 elite athletes) also underwent cardiac magnetic resonance imaging
+      (cMRI). Elite and sub-elite athletes had greater echocardiography-determined left
+      ventricular myocardial mass indexed to body surface area than controls (113+/-22,
+      115.2+/-23.1 and 94.8+/-21g/m(2), respectively, p=0.008 for group effect), with
+      similar results for left (50.5+/-4.4, 48.2+/-4.3 and 46.4+/-5.2mm, p=0.008) and
+      right (38.6+/-3.8, 41.1+/-5.5 and 34.7+/-4.3mm, p<0.001) ventricular
+      end-diastolic diameter, and cMRI-determined left atrial volume indexed to body
+      surface area (62.7+/-8.1, 56.4+/-16.0 and 39.0+/-14.1ml/m(2), p=0.026). Two
+      athletes showed a non-coronary pattern of small, fibrotic left ventricular
+      patches detected by late gadolinium enhancement. No group effect was noted for
+      biomarkers. CONCLUSIONS: Regardless of their competition level at a younger age, 
+      veteran endurance athletes showed an overall healthy, non-pathological pattern of
+      cardiac remodeling. Nonetheless, the physiopathology of the ventricular fibrotic 
+      patches detected warrants further investigation.
+CI  - Copyright (c) 2016 Elsevier Ireland Ltd. All rights reserved.
+FAU - Sanchis-Gomar, Fabian
+AU  - Sanchis-Gomar F
+AD  - Research Institute Hospital 12 de Octubre ('i+12'), Madrid, Spain. Electronic
+      address: fabian.sanchis@uv.es.
+FAU - Lopez-Ramon, Marta
+AU  - Lopez-Ramon M
+AD  - Cardiology Service, Hospital Universitario Miguel Servet, Zaragoza, Spain.
+FAU - Alis, Rafael
+AU  - Alis R
+AD  - Research Institute "Dr. Vina Giner", Molecular and Mitochondrial Medicine,
+      Catholic University of Valencia San Vicente Martir, Valencia, Spain; Servicio de 
+      Nefrologia, Hospital Universitario y Politecnico La Fe, Valencia, Spain.
+FAU - Garatachea, Nuria
+AU  - Garatachea N
+AD  - Faculty of Health and Sport Science, University of Zaragoza, Huesca, Spain.
+FAU - Pareja-Galeano, Helios
+AU  - Pareja-Galeano H
+AD  - European University of Madrid, Madrid, Spain.
+FAU - Santos-Lozano, Alejandro
+AU  - Santos-Lozano A
+AD  - Research Institute Hospital 12 de Octubre ('i+12'), Madrid, Spain; GIDFYS,
+      European University Miguel de Cervantes, Valladolid, Spain.
+FAU - Catalan, Pilar
+AU  - Catalan P
+AD  - Hospital Universitario Miguel Servet, Zaragoza, Spain.
+FAU - Sansoni, Veronica
+AU  - Sansoni V
+AD  - Laboratory of Experimental Biochemistry & Molecular Biology, I.R.C.C.S. Istituto 
+      Ortopedico Galeazzi, Milano, Italy.
+FAU - Perego, Silvia
+AU  - Perego S
+AD  - Laboratory of Experimental Biochemistry & Molecular Biology, I.R.C.C.S. Istituto 
+      Ortopedico Galeazzi, Milano, Italy.
+FAU - Lombardi, Giovanni
+AU  - Lombardi G
+AD  - Laboratory of Experimental Biochemistry & Molecular Biology, I.R.C.C.S. Istituto 
+      Ortopedico Galeazzi, Milano, Italy.
+FAU - Lollgen, Herbert
+AU  - Lollgen H
+AD  - EFSMA and German Fed, Sports Medicine, Remscheid, Germany.
+FAU - Bueno, Hector
+AU  - Bueno H
+AD  - Research Institute Hospital 12 de Octubre ('i+12'), Madrid, Spain; Centro
+      Nacional de Investigaciones Cardiovasculares (CNIC) Carlos III, Madrid, Spain;
+      Cardiology Department. Hospital Universitario 12 de Octubre, Madrid, Spain;
+      Universidad Complutense de Madrid, Madrid, Spain.
+FAU - Serrano-Ostariz, Enrique
+AU  - Serrano-Ostariz E
+AD  - Faculty of Medicine, Physical Education and Sports Section, University of
+      Zaragoza, Zaragoza, Spain.
+FAU - Lucia, Alejandro
+AU  - Lucia A
+AD  - Research Institute Hospital 12 de Octubre ('i+12'), Madrid, Spain; European
+      University of Madrid, Madrid, Spain.
+LA  - eng
+PT  - Journal Article
+DEP - 20160730
+PL  - Netherlands
+TA  - Int J Cardiol
+JT  - International journal of cardiology
+JID - 8200291
+SB  - IM
+MH  - Adult
+MH  - Athletes
+MH  - Echocardiography/methods
+MH  - Exercise/*physiology
+MH  - Heart Function Tests/methods
+MH  - *Heart Ventricles/diagnostic imaging/pathology
+MH  - Humans
+MH  - Magnetic Resonance Imaging, Cine/methods
+MH  - Male
+MH  - Middle Aged
+MH  - Organ Size
+MH  - Physical Endurance/*physiology
+MH  - Physical Fitness/*physiology
+MH  - Reference Values
+MH  - Sports/*physiology
+MH  - Time
+MH  - Ventricular Function/physiology
+MH  - Ventricular Remodeling/physiology
+OTO - NOTNLM
+OT  - Cardiac fibrosis
+OT  - Cardiac remodeling
+OT  - Endurance exercise
+EDAT- 2016/08/06 06:00
+MHDA- 2017/10/05 06:00
+CRDT- 2016/08/06 06:00
+PHST- 2016/05/27 00:00 [received]
+PHST- 2016/07/28 00:00 [accepted]
+PHST- 2016/08/06 06:00 [entrez]
+PHST- 2016/08/06 06:00 [pubmed]
+PHST- 2017/10/05 06:00 [medline]
+AID - S0167-5273(16)31593-5 [pii]
+AID - 10.1016/j.ijcard.2016.07.197 [doi]
+PST - ppublish
+SO  - Int J Cardiol. 2016 Nov 1;222:171-177. doi: 10.1016/j.ijcard.2016.07.197. Epub
+      2016 Jul 30.

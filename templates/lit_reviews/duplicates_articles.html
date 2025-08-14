@@ -1,0 +1,721 @@
+{% extends 'base_lit_reviews.html' %}
+{% block 'head' %}
+{% load static %}
+<link href="{% static 'css/theme/articles_list.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %} 
+  <a href="https://citemed-io.gitbook.io/citemed.io-documentation/abstract-reviewing/the-1st-pass-abstract-review-screen"
+  target="_blank">
+    <span>Need help with this page? <br/> Read the Wiki</span>
+    <div>
+      <img src="{% static 'images/icons/wiki-icon.svg' %}">
+    </div>   
+</a>
+
+{% endblock %} 
+
+{% block 'body' %}
+  <div id="app" v-cloak> 
+    <div v-if="sharedState.prismaStatus === 'RUNNING'">
+        <toast 
+          id="prisma-deduplication-warning" 
+          ref="prisma-deduplication-warning"
+          ref=""
+          title="Deduplication is running" 
+          type="warning" 
+          :hidden="false"
+        >
+          <div style="font-size: 16; width: 400px;">
+            Deduplication is still running, please don't start your review until it's completed. This process can take a few minutes,
+            you can also check the prisma status on the bottom of the page.
+          </div>
+        </toast>
+    </div>
+
+    <div class="form-content">
+      <div class="section-header">
+        <h3 class="center-v">
+           Duplicates Articles
+          <page-wiki-helper wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/abstract-reviewing/the-1st-pass-abstract-review-screen"> </page-wiki-helper>
+        </h3>
+        <div>
+          <page-switcher
+            first-page-label="Duplicates"
+            second-page-label="Potential"
+            first-page-link="#"
+            second-page-link="#"
+            :active-page="viewType"
+            :switch-call-back="onSwitchView"
+          >
+          </page-switcher>
+        </div>
+        <div class="center-v">
+          <span class="mr"> Total Articles </span>
+          <span class="badge badge-squared secondary"> 
+            
+            <strong v-if="viewType === 'Duplicates'"> 
+              [[pagination.count]] 
+            </strong> 
+            <strong v-else> 
+              [[pagination_potential.count]] 
+            </strong> 
+
+        </span>
+        </div>
+      </div>
+
+      <div class="horizantal-devider"> </div>
+      <div class="content"> 
+
+        <div class="filters">
+          <div class="search-section">
+            <form v-on:submit="onSearch">
+              <input 
+                type="search" 
+                placeholder="Search For Articles by Title, Abstract ...etc" 
+                name="article-search" 
+                v-model="searchTerm"
+              />
+              <button type="submit" class="search-button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z" fill="#9BA5B9"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z" fill="#9BA5B9"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+          <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+            <div class="filter-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg v-if="isFiltersApplied" class="filter-applied" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                fill="none">
+                <circle cx="3" cy="3" r="2.5" fill="#F7154B" stroke="white" />
+              </svg>
+            </div>
+            Filter Results
+          </div>
+
+          <div class="field-sorting">
+            <div class="filter-button ml" v-on:click="onToggleSortingDropDown">
+              <img src="{% static 'images/icons/arrow-3.svg' %}" alt="sort icon" />
+              Sort
+            </div>
+  
+            <div class="sort-dropdown" ref="sorting-dropdown">
+              <custom-select
+                id="sort"
+                name="sort"
+                :options="sortOptions"
+                :on-change="onSortingChange"
+                :default-selected="appliedSort"
+              >
+              </custom-select>
+              <div class="mt mb"> </div>
+              <custom-select
+                id="sort-direction"
+                name="sort-direction"
+                :options="sortingDirectionOptions"
+                :on-change="onSortingDirectionChange"
+                :default-selected="sortingDirection"
+              >
+              </custom-select>
+              <div class="center-v mt-2">
+                <button v-on:click="onToggleSortingDropDown" class="secondary-gray-button ml-auto small-button"> Cancel </button>
+                <button v-on:click="onSort" class="primary-button ml small-button"> Apply </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="ml-auto"> </div>
+      
+
+          <!-- Data Bases Applied Filters -->
+          <div class="applied-filters ml" v-if="selectedDatabases.length && selectedDatabases.length < 3">
+            <span style="font-weight: 600;"> DataBase </span> 
+            <div class="item" v-for="db in selectedDatabases" :key="db">
+              [[db]]
+            </div>
+          </div>
+
+          <div class="applied-filters ml" v-else-if="selectedDatabases.length">
+            <span style="font-weight: 600;"> DataBase </span> 
+            
+            <div class="item">
+              [[ selectedDatabases[0] ]]
+            </div>
+            <div class="item">
+              [[ selectedDatabases[1] ]]
+            </div>
+            <div class="item">
+              +[[selectedDatabases.length-2]]
+            </div>
+          </div>
+
+          <div class="filter-button ml" v-if="isFiltersApplied || searchTerm" v-on:click="onClearFilters">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Clear Filters
+          </div>
+
+          <div class="slider" id="filters-slider">
+            <div class="slider-dialog">
+              <div class="slider-dialog-inner ">
+                <div class="slider-header">
+                  <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  Filters
+                </div>
+
+                <div class="slider-content">
+                  <div class="filter-section" v-if="dbs.length">
+                    <div class="header"> DATABASE </div>
+                    <h3 class="mt-3"> Clinical Trials Databases </h3>
+                    <div class="filter-checks"> 
+                      <div class="filter-check" v-for="db in dbs" :key="db.id" v-if="!db.is_ae && !db.is_recall"> 
+                        <label :for="db.entrez_enum"> 
+                          <img src="{% static 'assets/client_portal/img/db-icon-blue.svg' %}" class="db-icon-selection">
+                          [[db.displayed_name]]
+                        </label> 
+                        <input type="checkbox" v-model="selectedDatabases" name="database" :value="db.entrez_enum" :id="db.entrez_enum"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="slider-footer">
+                  <button class="primary-button" v-on:click="onSearch">
+                    Apply Filters
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>  
+
+        <table v-if="duplicate_articles.length && viewType === 'Duplicates'" class="custom-table" >
+          <thead>
+            <tr>          
+                <th style="width: 100px;">
+                    ID
+                </th>
+                <th>
+                    <span v-on:click="sortBy('article__title')" >
+                        Title
+                        <img src="{% static 'images/icons/filter.png' %}" />
+                    </span>
+                </th>
+                <th>
+                  Abstract
+                </th>
+                <th>
+                  Citation
+                </th>
+                <th style="width: 120px;">State</th>
+                <th style="width: 120px;"> Database </th>   
+                <th style="width: 120px;"> Number of Duplicates </th>   
+                <th style="width: 200px;">
+                  Actions
+                </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="duplicate_article in duplicate_articles" :id="'review-'+duplicate_article.original_article_review.id" :key="duplicate_article.original_article_review.id">
+              <td> 
+                 #[[ duplicate_article.original_article_review.id ]]
+              </td>
+
+              <td>
+                <a v-on:click="onShowArticleDetails(duplicate_article.original_article_review)" class="exclude-link c-pointer" :title="duplicate_article.original_article_review.article.title">
+                [[ truncateText(duplicate_article.original_article_review.article.title) ]]
+                </a> 
+                <div class="slider article-details-slider" :id="'article-details-'+duplicate_article.original_article_review.id">
+                  <div class="slider-dialog">
+                    <div class="slider-dialog-inner ">
+                      <div class="slider-header">
+                        <button v-on:click="hideArticleDetails(duplicate_article.original_article_review)" class="pagintaion-item mr" type="button">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72"
+                              stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </button>
+                        Detail View
+                      </div>
+  
+                      <div>
+                        <div class="slider-content">
+                          <h2 class="mb-2"> [[duplicate_article.original_article_review.article.title]]</h2>
+                          <div class="center-v mb-2"> 
+                            <div class="litreview-icon">
+                              <img
+                                src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                                alt="lit-review-icon"
+                              />
+                            </div>
+                            <div class="ml-2">
+                              <div class="center-v"> 
+                                <div> [[duplicate_article.original_article_review.database.displayed_name]]  </div>
+                                <a :href="duplicate_article.original_article_review.database.url" class="db-link tooltip" target="_blank">
+                                  <div 
+                                    class="c-pointer ml" style="width: 14px;"
+                                    title="link to source"
+                                  >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none" class="link-svg">
+                                      <path d="M5.4375 2H3.1875C2.25552 2 1.5 2.75552 1.5 3.68749V9.31251C1.5 10.2445 2.25552 11 3.1875 11H8.8125C9.74448 11 10.5 10.2445 10.5 9.31251V7.06247M7.68722 2.00014L10.5 2M10.5 2V4.5313M10.5 2L5.71834 6.78109" stroke="#9BA5B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                  </div>
+                                </a>
+                              </div>
+                              <div v-if="duplicate_article.original_article_review.database.is_ae || duplicate_article.original_article_review.database.is_recall" class="hint"> Adverse Event </div>
+                              <div v-else class="hint"> Clinical Literature </div>
+                            </div>
+                          </div> 
+                          
+                          <div class="abstract hint mb-2">
+                            {% autoescape off %}
+                              <span v-if="duplicate_article.original_article_review.processed_abstract" v-html="duplicate_article.original_article_review.processed_abstract">
+                              </span>
+                              <span v-else v-html="duplicate_article.original_article_review.article.abstract">
+                              </span>
+                            {% endautoescape %}
+                          </div>
+  
+                          <div v-if="duplicate_article.original_article_review.article.citation" class="info-card mb-2" v-html="duplicate_article.original_article_review.article.citation"></div>
+  
+                          <div v-if="duplicate_article.original_article_review.article.full_text" class="info-card mb-2">
+                            <a class="center-v" :href="duplicate_article.original_article_review.article.full_text" target="_blank">
+                                <div class="file-download-icon mr">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_213_6862)">
+                                        <path d="M4.46877 19.25L2.74658 17.5312H4.46877V19.25ZM17.5313 19.25L19.2535 17.5312H17.5313V19.25Z" fill="#A3313A"/>
+                                        <path d="M17.5312 4.46876H14.7847V1.7222L17.5312 4.46876Z" fill="#B2B2B2"/>
+                                        <path d="M14.7812 1.71875H5.01531C4.87036 1.71875 4.73133 1.77633 4.62883 1.87883C4.52633 1.98133 4.46875 2.12036 4.46875 2.26531V19.7966C4.46875 19.9418 4.52622 20.0812 4.62862 20.1843C4.73103 20.2873 4.87004 20.3457 5.01531 20.3466H16.9847C17.0581 20.3461 17.1307 20.331 17.1981 20.3021C17.2656 20.2732 17.3266 20.2311 17.3776 20.1782C17.4285 20.1254 17.4683 20.0628 17.4947 19.9943C17.5211 19.9258 17.5335 19.8527 17.5312 19.7794V4.46875H14.7812V1.71875Z" fill="#F1F1F1"/>
+                                        <path d="M3.09375 11.3438H18.9062C18.9974 11.3438 19.0849 11.38 19.1493 11.4444C19.2138 11.5089 19.25 11.5963 19.25 11.6875V17.5312H2.75V11.6875C2.75 11.5963 2.78622 11.5089 2.85068 11.4444C2.91515 11.38 3.00258 11.3438 3.09375 11.3438Z" fill="#C84D52"/>
+                                        <path d="M8.13672 14.8259V15.8125H7.44922V13.0006H8.54922C8.82664 12.9811 9.10063 13.0712 9.31234 13.2516C9.40371 13.3401 9.47471 13.4474 9.52042 13.5662C9.56613 13.6849 9.58544 13.8121 9.57703 13.9391C9.57883 14.1013 9.53856 14.2611 9.46016 14.4031C9.37963 14.5421 9.26012 14.6545 9.11641 14.7263C8.94171 14.8096 8.74954 14.8497 8.55609 14.8431L8.13672 14.8259ZM8.89297 13.9219C8.89297 13.6744 8.75547 13.5506 8.48047 13.5506H8.13672V14.2828H8.48047C8.75547 14.2828 8.89297 14.1625 8.89297 13.9219ZM12.2686 15.125C12.151 15.337 11.9742 15.5102 11.7598 15.6234C11.5189 15.7475 11.2505 15.809 10.9795 15.8022H9.91734V13.0006H10.9795C11.2501 12.9935 11.5183 13.0537 11.7598 13.1759C11.9749 13.2867 12.152 13.459 12.2686 13.6709C12.3892 13.8958 12.4496 14.148 12.4439 14.4031C12.447 14.6547 12.3867 14.9029 12.2686 15.125ZM11.5364 14.9841C11.6787 14.8193 11.7569 14.6088 11.7569 14.3911C11.7569 14.1734 11.6787 13.9629 11.5364 13.7981C11.3658 13.6495 11.1435 13.5742 10.9177 13.5884H10.598V15.1938H10.9177C11.1421 15.2109 11.3642 15.1393 11.5364 14.9944V14.9841ZM14.6645 13.0006V13.5438H13.5095V14.1591H14.3998V14.6747H13.5095V15.8125H12.822V13.0006H14.6645Z" fill="white"/>
+                                        <path d="M11.3092 3.61967C11.3345 3.85793 11.3111 4.09886 11.2404 4.3278C10.9345 5.38311 9.91013 9.22967 9.1367 9.77624C8.03326 10.56 7.4592 9.66967 8.04701 9.03717C8.63482 8.40467 12.1823 7.56249 13.3133 7.56249C14.7845 7.56249 14.5954 8.8653 13.7601 8.78624C12.8183 8.69686 10.4636 7.09155 10.3226 4.03905C10.2608 2.9528 11.2026 2.74999 11.3092 3.61967Z" stroke="#C84D52" stroke-miterlimit="10"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_213_6862">
+                                            <rect width="22" height="22" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                Article Full Text, Click To Preview.
+                            </a>
+                          </div>
+                          
+                          <div class="mt-2">
+                            <a v-if="duplicate_article.original_article_review.article.url":href="duplicate_article.original_article_review.article.url" class="link primary-link" target="_blank"> View Source Link </a>
+                            <span v-else class="badge warning w-max"> Source Link Unavailable. </span>
+                          </div>
+
+                          <div v-if="duplicate_article.original_article_review.state_symbole === 'I'">
+                            <a :href="duplicate_article.original_article_review.clinical_app_link" class="secondary-gray-button w-100 mt-2" target="_blank"> Clinical Appraisal Review </a>
+                          </div>
+                          
+                          <div v-if="duplicate_article.original_article_review.article.keywords_list" class="mt-2">
+                            <h4> Article Keywords </h4>
+                            <div class="abstract hint mt"> 
+                              <span v-for="kw in duplicate_article.original_article_review.article.keywords_list"> [[kw]] , </span>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="horizantal-devider mb-2 mt-2"> </div>
+                        
+                        <div class="slider-content">
+                          <h2 class="mb-2"> Article Reviews Duplicates </h2>
+                          <table class="custom-table">
+                              <thead>
+                                <tr>
+                                  <th style="width: 80px;"> Id </th>
+                                    <th style="width: 220px;"> Article </th>
+                                    <th> Database </th>
+                                    <th> State </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr v-for="duplicate_review in duplicate_article.duplicates" :key="duplicate_review.id">
+                                      <td> [[duplicate_review.id]] </td>
+                                      <td> 
+                                        <a :href="duplicate_review.absolute_url" target="_blank">
+                                        [[duplicate_review.article.title]]
+                                        </a> 
+                                      </td>
+                                      <td> [[duplicate_review.database.displayed_name]] </td>
+                                      <td> [[duplicate_review.state]] </td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                        </div>
+
+                      </div>  
+  
+                      <div class="slider-footer">
+                        <button v-on:click="hideArticleDetails(duplicate_article.original_article_review)" type="button" class="secondary-gray-button"> Cancel </button>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+
+              </td>
+              <td>
+                <div :title="duplicate_article.original_article_review.article.abstract" v-html="truncateText(duplicate_article.original_article_review.article.abstract)"></div>
+              </td>
+              <td>
+                <div :title="duplicate_article.original_article_review.article.citation" v-html="truncateText(duplicate_article.original_article_review.article.citation)"></div>
+              </td>
+              <td> 
+                <span :class="getStateClassName(duplicate_article.original_article_review.state_symbole)"> 
+                  [[ duplicate_article.original_article_review.state ]] 
+                </span>
+              </td>
+              
+              <td> 
+                <span> 
+                  [[ duplicate_article.original_article_review.database.displayed_name ]] 
+                </span>
+              </td>   
+              <td> 
+                <span class="badge info"> 
+                  [[ duplicate_article.duplication_count ]] 
+                </span>
+              </td>  
+              <td class="exclude-reason-body">
+                <div class="center-v" style="justify-content: center;">
+                  <button class="primary-button mr" v-on:click="onShowArticleDetails(duplicate_article.original_article_review)"> View Duplicates List</button>
+              </td>   
+            </tr>
+          </tbody>
+        </table>
+
+        <table v-else-if="potential_duplicate_articles.length && viewType === 'Potential'" class="custom-table">
+          <thead>
+            <tr>          
+                <th style="width: 100px;">
+                    ID
+                </th>
+                <th>
+                    <span v-on:click="sortBy('article__title')" >
+                        Title
+                        <img src="{% static 'images/icons/filter.png' %}" />
+                    </span>
+                </th>
+                <th>
+                  Abstract
+                </th>
+                <th>
+                  Citation
+                </th>
+                <th style="width: 120px;">State</th>
+                <th style="width: 120px;"> Database </th>   
+                <th style="width: 200px;"> Potential Duplicate For </th>   
+                <th style="width: 150px;">
+                  Actions
+                </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="potential_duplicate_article in potential_duplicate_articles" :id="'review-'+potential_duplicate_article.id" :key="potential_duplicate_article.id">
+              <td> 
+                 #[[ potential_duplicate_article.id ]]
+              </td>
+
+              <td>
+                <a v-on:click="onShowArticleDetails(potential_duplicate_article)" class="exclude-link c-pointer" :title="potential_duplicate_article.article.title">
+                [[ truncateText(potential_duplicate_article.article.title) ]]
+                </a> 
+                <div class="slider article-details-slider" :id="'article-details-'+potential_duplicate_article.id">
+                  <div class="slider-dialog">
+                    <div class="slider-dialog-inner ">
+                      <div class="slider-header">
+                        <button v-on:click="hideArticleDetails(potential_duplicate_article)" class="pagintaion-item mr" type="button">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72"
+                              stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </button>
+                        Detail View
+                      </div>
+  
+                      <div>
+                        <div class="slider-content">
+                          <h2 class="mb-2"> [[potential_duplicate_article.article.title]]</h2>
+                          <div class="center-v mb-2"> 
+                            <div class="litreview-icon">
+                              <img
+                                src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                                alt="lit-review-icon"
+                              />
+                            </div>
+                            <div class="ml-2">
+                              <div class="center-v"> 
+                                <div> [[potential_duplicate_article.database.displayed_name]]  </div>
+                                <a :href="potential_duplicate_article.database.url" class="db-link tooltip" target="_blank">
+                                  <div 
+                                    class="c-pointer ml" style="width: 14px;"
+                                    title="link to source"
+                                  >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none" class="link-svg">
+                                      <path d="M5.4375 2H3.1875C2.25552 2 1.5 2.75552 1.5 3.68749V9.31251C1.5 10.2445 2.25552 11 3.1875 11H8.8125C9.74448 11 10.5 10.2445 10.5 9.31251V7.06247M7.68722 2.00014L10.5 2M10.5 2V4.5313M10.5 2L5.71834 6.78109" stroke="#9BA5B9" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                  </div>
+                                </a>
+                              </div>
+                              <div v-if="potential_duplicate_article.database.is_ae || potential_duplicate_article.database.is_recall" class="hint"> Adverse Event </div>
+                              <div v-else class="hint"> Clinical Literature </div>
+                            </div>
+                          </div> 
+                          
+                          <div class="abstract hint mb-2">
+                            {% autoescape off %}
+                              <span v-if="potential_duplicate_article.processed_abstract" v-html="potential_duplicate_article.processed_abstract">
+                              </span>
+                              <span v-else v-html="potential_duplicate_article.article.abstract">
+                              </span>
+                            {% endautoescape %}
+                          </div>
+  
+                          <div v-if="potential_duplicate_article.article.citation" class="info-card mb-2" v-html="potential_duplicate_article.article.citation"></div>
+  
+                          <div v-if="potential_duplicate_article.article.full_text" class="info-card mb-2">
+                            <a class="center-v" :href="potential_duplicate_article.article.full_text" target="_blank">
+                                <div class="file-download-icon mr">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_213_6862)">
+                                        <path d="M4.46877 19.25L2.74658 17.5312H4.46877V19.25ZM17.5313 19.25L19.2535 17.5312H17.5313V19.25Z" fill="#A3313A"/>
+                                        <path d="M17.5312 4.46876H14.7847V1.7222L17.5312 4.46876Z" fill="#B2B2B2"/>
+                                        <path d="M14.7812 1.71875H5.01531C4.87036 1.71875 4.73133 1.77633 4.62883 1.87883C4.52633 1.98133 4.46875 2.12036 4.46875 2.26531V19.7966C4.46875 19.9418 4.52622 20.0812 4.62862 20.1843C4.73103 20.2873 4.87004 20.3457 5.01531 20.3466H16.9847C17.0581 20.3461 17.1307 20.331 17.1981 20.3021C17.2656 20.2732 17.3266 20.2311 17.3776 20.1782C17.4285 20.1254 17.4683 20.0628 17.4947 19.9943C17.5211 19.9258 17.5335 19.8527 17.5312 19.7794V4.46875H14.7812V1.71875Z" fill="#F1F1F1"/>
+                                        <path d="M3.09375 11.3438H18.9062C18.9974 11.3438 19.0849 11.38 19.1493 11.4444C19.2138 11.5089 19.25 11.5963 19.25 11.6875V17.5312H2.75V11.6875C2.75 11.5963 2.78622 11.5089 2.85068 11.4444C2.91515 11.38 3.00258 11.3438 3.09375 11.3438Z" fill="#C84D52"/>
+                                        <path d="M8.13672 14.8259V15.8125H7.44922V13.0006H8.54922C8.82664 12.9811 9.10063 13.0712 9.31234 13.2516C9.40371 13.3401 9.47471 13.4474 9.52042 13.5662C9.56613 13.6849 9.58544 13.8121 9.57703 13.9391C9.57883 14.1013 9.53856 14.2611 9.46016 14.4031C9.37963 14.5421 9.26012 14.6545 9.11641 14.7263C8.94171 14.8096 8.74954 14.8497 8.55609 14.8431L8.13672 14.8259ZM8.89297 13.9219C8.89297 13.6744 8.75547 13.5506 8.48047 13.5506H8.13672V14.2828H8.48047C8.75547 14.2828 8.89297 14.1625 8.89297 13.9219ZM12.2686 15.125C12.151 15.337 11.9742 15.5102 11.7598 15.6234C11.5189 15.7475 11.2505 15.809 10.9795 15.8022H9.91734V13.0006H10.9795C11.2501 12.9935 11.5183 13.0537 11.7598 13.1759C11.9749 13.2867 12.152 13.459 12.2686 13.6709C12.3892 13.8958 12.4496 14.148 12.4439 14.4031C12.447 14.6547 12.3867 14.9029 12.2686 15.125ZM11.5364 14.9841C11.6787 14.8193 11.7569 14.6088 11.7569 14.3911C11.7569 14.1734 11.6787 13.9629 11.5364 13.7981C11.3658 13.6495 11.1435 13.5742 10.9177 13.5884H10.598V15.1938H10.9177C11.1421 15.2109 11.3642 15.1393 11.5364 14.9944V14.9841ZM14.6645 13.0006V13.5438H13.5095V14.1591H14.3998V14.6747H13.5095V15.8125H12.822V13.0006H14.6645Z" fill="white"/>
+                                        <path d="M11.3092 3.61967C11.3345 3.85793 11.3111 4.09886 11.2404 4.3278C10.9345 5.38311 9.91013 9.22967 9.1367 9.77624C8.03326 10.56 7.4592 9.66967 8.04701 9.03717C8.63482 8.40467 12.1823 7.56249 13.3133 7.56249C14.7845 7.56249 14.5954 8.8653 13.7601 8.78624C12.8183 8.69686 10.4636 7.09155 10.3226 4.03905C10.2608 2.9528 11.2026 2.74999 11.3092 3.61967Z" stroke="#C84D52" stroke-miterlimit="10"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_213_6862">
+                                            <rect width="22" height="22" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                Article Full Text Click To Preview
+                            </a>
+                          </div>
+                          
+                          <div class="mt-2">
+                            <a v-if="potential_duplicate_article.article.url":href="potential_duplicate_article.article.url" class="link primary-link" target="_blank"> View Source Link </a>
+                            <span v-else class="badge warning w-max"> Source Link Unavailable. </span>
+                          </div>
+
+                          <div v-if="potential_duplicate_article.state_symbole === 'I'">
+                            <a :href="potential_duplicate_article.clinical_app_link" class="secondary-gray-button w-100 mt-2" target="_blank"> Clinical Appraisal Review </a>
+                          </div>
+                          
+                          <div v-if="potential_duplicate_article.article.keywords_list" class="mt-2">
+                            <h4> Article Keywords </h4>
+                            <div class="abstract hint mt"> 
+                              <span v-for="kw in potential_duplicate_article.article.keywords_list"> [[kw]] , </span>
+                            </div>
+                          </div>
+                        </div>
+                      
+                      
+
+                      </div>  
+  
+                      <div class="slider-footer">
+                        <button v-on:click="hideArticleDetails(potential_duplicate_article)" type="button" class="secondary-gray-button"> Cancel </button>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+
+              </td>
+              <td>
+                <div :title="potential_duplicate_article.article.abstract" v-html="truncateText(potential_duplicate_article.article.abstract)"></div>
+              </td>
+              <td>
+                <div :title="potential_duplicate_article.article.citation" v-html="truncateText(potential_duplicate_article.article.citation)"></div>
+              </td>
+              <td> 
+                <span :class="getStateClassName(potential_duplicate_article.state_symbole)"> 
+                  [[ potential_duplicate_article.state ]] 
+                </span>
+              </td>
+              
+              <td> 
+                <span> 
+                  [[ potential_duplicate_article.database.displayed_name ]] 
+                </span>
+              </td>  
+              <td> 
+                <a :href="potential_duplicate_article.potential_duplicate_for.absolute_url" target="_blank">
+                [[truncateText(potential_duplicate_article.potential_duplicate_for.article.title)]]
+                </a> 
+              </td> 
+              <td class="exclude-reason-body">
+                <div class="center-v" style="justify-content: center;">
+                  <button class="primary-button mr" v-on:click="onMarkasDuplicate(potential_duplicate_article.id)"> Mark As Duplicate</button>
+              </td>   
+            </tr>
+          </tbody>
+        </table>
+        <div v-else>
+          No reviews match this query.
+        </div>
+      
+        <div class="table-footer" v-if="duplicate_articles.length && viewType === 'Duplicates'">
+          <div class="left-section"> </div>
+          <div class="middle-section"> 
+            <div class="pagination">
+              <span> 
+                <button :class="pagination.previous ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadDuplicateArticles(pagination.current-1)">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </span>
+      
+              <div class="pagination-content">
+                
+                <button 
+                  class="pagintaion-item" 
+                  v-on:click="loadDuplicateArticles(1)" 
+                  v-if="pagination.current > 1"
+                > 1
+                </button>
+                <button class="seperator" v-if="pagination.current > 2"> ... </button>
+      
+                <button 
+                  v-for="page in pagination.page_range" 
+                  :class="page === pagination.current ? 'pagintaion-item selected' : 'pagintaion-item'"
+                  v-if="page === pagination.current || ( page < pagination.last && page > 1)" 
+                  v-on:click="loadDuplicateArticles(page)"
+                  :key="page"
+                > 
+                  [[page]]
+                </button>
+                <button class="seperator" v-if="pagination.current < pagination.last"> ... </button>
+                <button 
+                  class="pagintaion-item" 
+                  v-on:click="loadDuplicateArticles(pagination.last)" 
+                  v-if="pagination.current < pagination.last"
+                > [[pagination.last]]
+                </button>
+              </div>
+      
+              <span> 
+                <button :class="pagination.next ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadDuplicateArticles(pagination.current+1)" >
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.93994 13.28L10.2866 8.93333C10.7999 8.42 10.7999 7.58 10.2866 7.06667L5.93994 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="right-section"> 
+            [[tablePageIndicator]]
+          </div>
+        </div>
+        <div class="table-footer" v-if="potential_duplicate_articles.length && viewType === 'Potential'">
+          <div class="left-section"> </div>
+          <div class="middle-section"> 
+            <div class="pagination">
+              <span> 
+                <button :class="pagination_potential.previous ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadPotentialDuplicateArticles(pagination_potential.current-1)">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </span>
+      
+              <div class="pagination-content">
+                
+                <button 
+                  class="pagintaion-item" 
+                  v-on:click="loadPotentialDuplicateArticles(1)" 
+                  v-if="pagination_potential.current > 1"
+                > 1
+                </button>
+                <button class="seperator" v-if="pagination_potential.current > 2"> ... </button>
+      
+                <button 
+                  v-for="page in pagination_potential.page_range" 
+                  :class="page === pagination_potential.current ? 'pagintaion-item selected' : 'pagintaion-item'"
+                  v-if="page === pagination_potential.current || ( page < pagination_potential.last && page > 1)" 
+                  v-on:click="loadPotentialDuplicateArticles(page)"
+                  :key="page"
+                > 
+                  [[page]]
+                </button>
+                <button class="seperator" v-if="pagination_potential.current < pagination_potential.last"> ... </button>
+                <button 
+                  class="pagintaion-item" 
+                  v-on:click="loadPotentialDuplicateArticles(pagination_potential.last)" 
+                  v-if="pagination_potential.current < pagination_potential.last"
+                > [[pagination_potential.last]]
+                </button>
+              </div>
+      
+              <span> 
+                <button :class="pagination_potential.next ? 'pagintaion-item' : 'pagintaion-item disabled'" v-on:click="loadPotentialDuplicateArticles(pagination_potential.current+1)" >
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.93994 13.28L10.2866 8.93333C10.7999 8.42 10.7999 7.58 10.2866 7.06667L5.93994 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="right-section"> 
+            [[tablePageIndicatorPotential]]
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- loader section -->
+    <div class="update-loading-section" id="update-loading-section">
+      <div class="update-loading-popup">
+          <div class="mb-4">
+              <img
+              src="{% static 'images/new_logo.svg' %}"
+              class="d-inline-block align-top"
+              alt="citemed-logo"
+              />
+          </div>
+          <div class="mt-3">
+              Please don't refresh the page Until the process is completed.
+          </div>
+          <div class="update-loading-popup-progress"><div></div><div></div><div></div></div>
+      </div>
+    </div>
+
+  </div>
+{% endblock %}
+
+{% block 'scripts-block' %} 
+  <script>
+    const DuplicatesArticlesListAPI = "{% url 'lit_reviews:duplicates_articles_list_api' id=literature_review_id %}"; 
+    const PotentialDuplicatesArticlesListAPI = "{% url 'lit_reviews:potential_duplicates_articles_list_api' id=literature_review_id %}"; 
+    const ArticleReviewDuplicateAPI = "{% url 'lit_reviews:article_review_update_duplicate' id=literature_review_id review_id=0 %}"; 
+    
+  </script>
+  <script src="{% static "lit_reviews/vue/duplicates_articles.js" %}" > </script>
+{% endblock %}

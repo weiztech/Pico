@@ -1,0 +1,34 @@
+{% extends "base_client_portal.html" %}
+{% load static %}
+{% block title%}
+    <title>CiteMed - Intake Form</title>
+{% endblock %}
+{% block body %}
+    <div class="content__container" id="content">
+        <div class="sub-navbar-home">
+            <div class="sub-navbar-home-item-text">
+                {% if project %}
+                    Intake Form - {{project.lit_review.device.name}} - {{user.client.name}}
+                {% else %}
+                    Intake Form - {{user.username}}
+                {% endif %}
+            </div>
+        </div>
+        <div class="project-detail-section">
+            <div class="message-detail-section-body">
+                <div class="message-detail-section-header-item">
+                    <span class="message-detail-section-header-item-bold">Intake form:</span>
+                </div>
+                {% if project %}
+                <div class="message-detail-section-header-item-message">
+                    Intake form here
+                </div>
+                {% else %}
+                    <div class="no-project-text">Not found.</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block script %}
+{% endblock %}

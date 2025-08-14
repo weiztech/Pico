@@ -1,0 +1,387 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block 'head' %}
+<link href="{% static 'css/theme/manual_adverse_events.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block 'help_section' %} 
+    <a href="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/adverse-event-review#adding-manual-searched-adverse-events-non-maude-databases"
+        target="_blank">
+        <span>Need help with this page? <br/> Read the Wiki</span>
+        <div>
+         <img src="{% static 'images/icons/wiki-icon.svg' %}">
+        </div>
+    </a>
+{% endblock %} 
+{% block 'body' %}
+
+<div id="app" v-cloak>
+    <div v-if="isRecordsLoading"> Loading ... </div>
+    <div v-else> 
+        <div v-if="records.length > 0">
+            <div  v-for="item in records">                  
+                <div class="form-content">
+                    <div class="section-header mb">
+                        <div class="center-v w-100">
+                            <h3 class="center-h">
+                                [[ item.database.name ]]
+                                {% comment %} <div class="tooltip-elt" title="">
+                                    <img src="{% static 'images/icons/tooltip.svg' %}" alt="" srcset="">
+                                </div> {% endcomment %}
+                            </h3>
+                            <page-wiki-helper wiki-link="https://citemed-io.gitbook.io/citemed.io-documentation/advanced-topics/adverse-event-review#adding-manual-searched-adverse-events-non-maude-databases"> </page-wiki-helper>
+                        </div>
+                        <div class="ml-auto center-v">
+                            <a :href="item.database.url" target="_blank" class="secondary-gray-button" style="display: flex;">
+                                <div> Database </div>
+                                <div class="tooltip-elt" title="Open Database Website in new tab">
+                                    <img src="{% static 'images/icons/black-tooltip.svg' %}" alt="" srcset="">
+                                </div>
+                            </a>
+                            <a :href="item.database.instructions_for_search" target="_blank" class="primary-button ml" style="display: flex;">
+                                <div> Learn How </div>
+                                <div class="tooltip-elt" title="Learn How to Use This Database / Add Manual Adverse Events">
+                                    <img src="{% static 'images/icons/black-tooltip.svg' %}" alt="" srcset="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="horizantal-devider mt-2 mb-2"></div>
+
+                    <div v-if="item.adverse_events"> 
+                        <h3 class="mb-2"> Events </h3>
+                        <div>
+                            <table class="custom-table">
+                                <thead>
+                                    <tr>
+                                        <th>#ID </th>                                      
+                                        <th>Manual Type</th>
+                                        <th>Manual Severity</th>
+                                        <th>Manual link</th>
+                                        <th>Manual PDF</th>
+                                        <th style="width: 200px;">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align: center;">
+                                    <tr v-for="ae_event in item.adverse_events">
+                                        <td> [[ ae_event.ae.id ]] </td>                                       
+                                        <td> [[ ae_event.ae.manual_type ]] </td>
+                                        <td> [[ ae_event.ae.manual_severity ]] </td>
+                                        <td>  
+                                            <a
+                                                v-if="ae_event.ae.manual_link"
+                                                :href="ae_event.ae.manual_link" 
+                                                target="_blank"
+                                                class="link"
+                                            >
+                                                Review Link
+                                            </a>
+                                            <span v-else> Not Available. </span> </td>
+                                        <td> 
+                                            <a
+                                                v-if="ae_event.ae.manual_pdf"
+                                                :href="ae_event.ae.manual_pdf"
+                                                target="_blank"
+                                                class="link"
+                                            >
+                                                Review PDF
+                                            </a>
+                                            <span v-else>Not Available.</span>  
+                                        </td>                                        
+                                        <td>
+                                            <a 
+                                                v-on:click="showEditModal(item, ae_event, 'AE')"
+                                                :class="['secondary-gray-button w-100 mb-2', { 'disabled': isArchived }]"
+                                            > 
+                                                Edit 
+                                            </a>
+                                            <a 
+                                                v-on:click="onDeleteAdverseEvent(ae_event, false, $event)"
+                                                :class="['error-button w-100', { 'disabled': isArchived }]"
+                                            > 
+                                                Delete
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <h3 class="mb-2 mt-3"> Recalls </h3>
+                    <div v-if="item.adverse_recalls">
+                        <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <th> #ID </th>                                   
+                                    <th>Recall Type</th>
+                                    <th>Recall Severity</th>
+                                    <th>Recall link</th>
+                                    <th>Recall PDF</th>
+                                    <th style="width: 200px;"> Actions </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="ae_recall in item.adverse_recalls">
+                                    <td> [[ ae_recall.ae.id ]] </td>
+                                    
+                                    <td> [[ ae_recall.ae.manual_type ]] </td>
+                                    <td> [[ ae_recall.ae.manual_severity ]] </td>
+                                    <td> 
+                                        <a
+                                        v-if="ae_recall.ae.manual_link"
+                                        :href="ae_recall.ae.manual_link" 
+                                        target="_blank"
+                                        class="link"
+                                        >
+                                        Review Link
+                                        </a>
+                                        <span v-else> Not Available. </span> 
+                                    </td>
+                                    
+                                    <td> <a
+                                        v-if="ae_recall.ae.manual_pdf"
+                                        :href="ae_recall.ae.manual_pdf"
+                                        target="_blank"
+                                        class="link"
+                                    >
+                                        Review PDF
+                                    </a>
+                                    <span v-else>Not Available.</span> </td>
+                                   
+                                    <td >
+                                        <a 
+                                            v-on:click="showEditModal(item, ae_recall, 'AR')"
+                                            :class="['secondary-gray-button w-100 mb-2', { 'disabled': isArchived }]"
+                                        >
+                                            Edit 
+                                        </a>
+                                        <a 
+                                            v-on:click="onDeleteAdverseEvent(ae_recall, true, $event)"
+                                            :class="['error-button w-100', { 'disabled': isArchived }]"
+                                        > 
+                                            Delete 
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <form method="post" class="event_form" enctype="multipart/form-data" v-on:submit="onAddEventFormSubmit">
+                        {% csrf_token %}
+                        <input type="hidden" :value="item.database.name" name="db"> 
+                        
+                        <div class="info-card mt-2 mb-2 add-event-form" v-for="form in item.forms_count">
+                            <div id="type" class="form-group"> 
+                                <label :for="form+'-type'" class="">Type</label> 
+                                <div class=""> 
+                                    <input type="text" name="type" class="textinput textInput form-control" :id="form+'-type'" /> 
+                                </div> 
+                            </div> 
+
+                            <div id="severity" class="form-group"> 
+                                <label :for="form+'-severity'" class=""> Severity </label> 
+                                <div class=""> 
+                                    <select name="severity" class="select form-control" :id="form+'-severity'"> 
+                                        <option value="Death">Death</option> 
+                                        <option value="Injury">Injury</option> 
+                                        <option value="Malfunction">Malfunction</option> 
+                                        <option value="Other">Other</option> 
+                                        <option value="NA">NA</option> 
+                                        <option value="Mild">Mild</option> 
+                                        <option value="Medium">Medium</option> 
+                                        <option value="Severe">Severe</option>
+                                    </select> 
+                                </div> 
+                            </div> 
+
+                            <div id="link" class="form-group"> 
+                                <label :for="form+'link'" class=""> Link</label> 
+                                <div class=""> 
+                                    <input type="text" name="link" class="textinput textInput form-control" :id="form+'link'" /> 
+                                </div> 
+                            </div> 
+
+                            <div id="pdf" class="form-group"> 
+                                <label :for="form+'pdf'" class=""> Pdf </label> 
+                                <div class=""> 
+                                    <input type="file" name="pdf" class="clearablefileinput form-control" :id="form+'pdf'"> 
+                                </div> 
+                            </div> 
+                            <div id="ae_or_recall" class="form-group"> 
+                                <label :for="form+'ae_or_recall'" class=" requiredField">
+                                    Adverse Event or Recall<span class="asteriskField">*</span> 
+                                </label> 
+                                <div class=""> 
+                                    <select name="ae_or_recall" class="select form-control" :id="form+'ae_or_recall'"> 
+                                        <option value="AE">Adverse Event</option>
+                                        <option value="RE">Recall</option>
+                                    </select> 
+                                </div> 
+                            </div> 
+                            
+                            <div id="event_date" class="form-group"> 
+                                <label :for="form+'event_date'" class=""> Event date </label> 
+                                <div class=""> 
+                                    <input type="date" name="event_date" class="form-control dateinput form-control" placeholder="Select a date" :id="form+'event_date'"> 
+                                </div> 
+                            </div> 
+                            
+                            <div id="search" class="form-group"> 
+                                <label :for="form+'search'" class=" requiredField"> Search<span class="asteriskField">*</span> </label> 
+                                <div class=""> 
+                                    <select name="search" class="select form-control" :id="form+'search'"> 
+                                        <option v-for="search in item.searches" :value="search.id"> [[ search.term ]] - [[ item.database.name ]]</option>
+                                    </select> 
+                                </div> 
+                            </div>
+                        </div>
+                        
+                        <div class="center-v mt-2 mb-2">
+                            <button type="button" class="primary-button" v-on:click="addEventForm(item.database.entrez_enum)" :disabled="isArchived"> 
+                                Add Event Form 
+                            </button>
+                            <button type="button" class="error-button ml-2" v-on:click="removeEventForm(item.database.entrez_enum)" v-if="item.forms_count"> 
+                                Remove Event Form 
+                            </button>
+                        </div>
+                
+                        <div class="horizantal-devider mt-2 mb-2"></div>
+
+                        <div class="mt-3 mr-2">
+                            <div class="form-check">
+                                <div class="checkbox-wrapper center-v">
+                                    <input 
+                                        name="review-completed" type="checkbox"
+                                        :id="'complete_'+item.database.name" :checked="item.is_completed_review"
+                                    />
+                                    <label :for="'complete_'+item.database.name" style="margin: 0px; margin-left: 5px;"> 
+                                        Review had 0 Results 
+                                    </label>
+                                </div>
+                                <button 
+                                    type="submit" 
+                                    class="primary-button mt-2" 
+                                    :id="'submit-btn-'+item.database.name"
+                                    :disabled="isArchived"
+                                > 
+                                    Save All Events ([[ item.forms_count ]]) 
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="horizantal-devider mt-2 mb-2"></div>
+            </div>
+        </div>
+        <div v-else>
+            <h2 class="no-ae-text">
+                No AE Databases Requiring Manual Entry Are Selected For This Review. Read The Documentation On AE Reviews Here :  <a href="https://www.notion.so/citemedical/WI0414-Manual-Adverse-Event-Page-94379f33dc9045a4955c5e07a2b58b1f?pvs=4#a5e03da0dac64b65b9cc4673fb647069"
+                 target="_blank" class="no-ae-text-link">Wiki Documentation</a>.
+            </h2>
+        </div>
+    </div>
+
+
+    <div class="modal" id="update-ae-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header-icon-wrapper info-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                            <path d="M13.3754 10.4995H10.0004M10.0004 10.4995H6.62537M10.0004 10.4995V13.8744M10.0004 10.4995L10.0004 7.12447M19 4.87498L19 16.125C19 17.989 17.489 19.5 15.625 19.5H4.375C2.51104 19.5 1 17.989 1 16.125V4.87498C1 3.01103 2.51104 1.5 4.375 1.5H15.625C17.489 1.5 19 3.01103 19 4.87498Z" stroke="#014EE9" stroke-width="1.2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    Edit Adverse Event
+                </div>
+                <form 
+                    method="post" 
+                    class="event_form" 
+                    enctype="multipart/form-data" 
+                    v-on:submit="onUpdateAEFormSubmit" 
+                    v-if="currentEditedAE"
+                >
+                    <div class="modal-body"> 
+                        <input type="hidden" :value="currentEditedAE.db" name="db">
+                        <input type="hidden" :value="currentEditedAE.review.id" name="review_id">
+                        <input type="hidden" :value="currentEditedAE.review.ae.id" name="ae_id">
+                        <input type="hidden" :value="currentEditedAE.ae_type" name="ae_type"> 
+                        
+                        <div id="type" class="form-group"> 
+                            <label for="type" class="">Manual Type</label> 
+                            <div class=""> 
+                                <input type="text" name="type" :value="currentEditedAE.review.ae.manual_type" class="textinput textInput form-control" id="type" /> 
+                            </div> 
+                        </div> 
+        
+                        <div id="severity" class="form-group"> 
+                            <label for="severity" class=""> Manual Severity </label> 
+                            <div class=""> 
+                                <select name="severity" class="select form-control" id="severity" :value="currentEditedAE.review.ae.manual_severity"> 
+                                    <option value="Death">Death</option> 
+                                    <option value="Injury">Injury</option> 
+                                    <option value="Malfunction">Malfunction</option> 
+                                    <option value="Other">Other</option> 
+                                    <option value="NA">NA</option> 
+                                    <option value="Mild">Mild</option> 
+                                    <option value="Medium">Medium</option> 
+                                    <option value="Severe">Severe</option>
+                                </select> 
+                            </div> 
+                        </div> 
+        
+                        <div id="link" class="form-group"> 
+                            <label for="link" class=""> Manual Link</label> 
+                            <div class=""> 
+                                <input type="text" name="link" class="textinput textInput form-control" id="link" :value="currentEditedAE.review.ae.manual_link"/> 
+                            </div> 
+                        </div> 
+        
+                        <div id="pdf" class="form-group"> 
+                            <label for="'pdf'" class=""> Manual Pdf </label> 
+                            <div v-if="currentEditedAE.review.ae.manual_pdf"> 
+                                <a :href="currentEditedAE.review.ae.manual_pdf"> Current File </a> 
+                            </div>
+                            <div class=""> 
+                                <input type="file" name="pdf" class="clearablefileinput form-control" id="pdf"> 
+                            </div> 
+                        </div> 
+        
+                        <div id="event_date" class="form-group"> 
+                            <label for="event_date" class=""> Event date </label> 
+                            <div class=""> 
+                                <input type="date" name="event_date" class="form-control dateinput form-control" placeholder="Select a date" id="event_date" :value="currentEditedAE.review.ae.event_date"> 
+                            </div> 
+                        </div> 
+                        
+                        <div id="search" class="form-group"> 
+                            <label for="search" class=" requiredField"> Search<span class="asteriskField">*</span> </label> 
+                            <div class=""> 
+                                <select name="search" class="select form-control" id="search" :value="currentEditedAE.review.search"> 
+                                    <option v-for="search in currentEditedAE.searches" :value="search.id"> [[ search.term ]] - [[ currentEditedAE.db ]]</option>
+                                </select> 
+                            </div> 
+                        </div>                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="primary-button mr w-50" id="modal-submit-btn"> Save </button>
+                        <button class="secondary-gray-button w-50" v-on:click="hideModal('update-ae-modal')" type="button"> Close </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block 'scripts-block' %} 
+    <script>
+        const helpButtonUrl = "www.google.com"
+        const aeListURL = "{% url 'lit_reviews:manual_ae_searches_api' id=literature_review_id %}";
+        const litReviewID = "{{ literature_review_id }}";
+    </script>
+    <script src="{% static "lit_reviews/vue/manual_ae_searches.js" %}" > </script>
+{% endblock %}
+

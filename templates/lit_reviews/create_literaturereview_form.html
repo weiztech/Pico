@@ -1,0 +1,1185 @@
+{% extends 'base_lit_reviews.html' %} {% load static %} {% load
+crispy_forms_tags %} {% block 'head' %}
+<link
+  href="{% static 'css/theme/create_lit_review.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+{% endblock %} {% block 'body' %}
+<div id="app" v-cloak>
+  <div class="page-wrapper">
+    <div class="forms-section">
+      <div
+        :class="projectNameSectionStatus === 'open' ? 'form-content' : 'form-content completed-section'"
+        ref="project-name-section"
+      >
+        <div class="section-header section-header-with-button">
+          <h4>
+            <div class="complete-icon mr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M11 5.75L6.5253 10.25L5 8.71607"
+                  stroke="white"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Project Name
+            <span
+              class="tooltip-elt"
+              title="The project name helps in identifying the project easily. so make sure to give it a unique label"
+            >
+              <img
+                src="{% static 'images/icons/tooltip.svg' %}"
+                alt=""
+                srcset=""
+              />
+            </span>
+          </h4>
+          <button
+            class="primary-button"
+            :disabled="literatureReview.project.name === ''"
+            v-on:click="goToNextStep"
+            type="button"
+            v-if="projectNameSectionStatus === 'open' && !isEditProjectNameSection"
+          >
+            Next Step
+          </button>
+          <button
+            class="secondary-gray-button"
+            v-if="projectNameSectionStatus === 'completed'"
+            v-on:click="() => isEditProjectNameSection=true"
+          >
+            <div class="center-v">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Edit
+            </div>
+          </button>
+          <button
+            class="primary-button"
+            v-if="isEditProjectNameSection"
+            v-on:click="() => isEditProjectNameSection=false"
+            :disabled="literatureReview.project.name === ''"
+          >
+            Save
+          </button>
+        </div>
+
+        <div class="horizantal-devider"></div>
+
+        <div class="content">
+          <div class="form-group content-inner">
+            <label for="project-name"> Give your project a name </label>
+            <input
+              type="text"
+              name="project-name"
+              id="project-name"
+              v-model="literatureReview.project.name"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        :class="clientSectionStatus === 'open' ? 'form-content' : clientSectionStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+        ref="client-section"
+      >
+        <div class="section-header section-header-with-button">
+          <h4>
+            <div class="incomplete-icon mr"></div>
+            <div class="complete-icon mr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M11 5.75L6.5253 10.25L5 8.71607"
+                  stroke="white"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Choose a Company
+            <span
+              class="tooltip-elt"
+              title="General Information related to the client."
+            >
+              <img
+                src="{% static 'images/icons/tooltip.svg' %}"
+                alt=""
+                srcset=""
+              />
+            </span>
+          </h4>
+          <button
+            class="primary-button"
+            :disabled="!literatureReview.client"
+            v-on:click="goToNextStep"
+            type="button"
+            v-if="clientSectionStatus === 'open' && !isEditClientSection"
+          >
+            Next Step
+          </button>
+          <button
+            class="secondary-gray-button"
+            v-if="clientSectionStatus === 'completed'"
+            v-on:click="() => isEditClientSection=true"
+          >
+            <div class="center-v">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Edit
+            </div>
+          </button>
+          <button
+            class="primary-button"
+            v-if="isEditClientSection"
+            v-on:click="() => isEditClientSection=false"
+            :disabled="!literatureReview.client"
+          >
+            Save
+          </button>
+        </div>
+
+        <div class="horizantal-devider"></div>
+
+        <div class="content">
+          <div class="content-inner">
+            <div class="center-v">
+              <button
+                class="secondary-gray-button"
+                v-on:click="showModal('create-client')"
+              >
+                + Create New
+              </button>
+              <form class="search-form">
+                <input
+                  type="search"
+                  placeholder="Search For Client"
+                  name="article-search"
+                  v-model="clientSearchTerm"
+                />
+                <button type="button" class="search-button">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                      fill="#9BA5B9"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                      fill="#9BA5B9"
+                    />
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Create New Client Modal -->
+              <div class="modal modal-style-2" id="create-client">
+                <form v-on:submit="onCreateClient">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div>
+                          <div class="modal-header-icon-wrapper">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              viewBox="0 0 20 20"
+                              fill="none"
+                            >
+                              <path
+                                d="M1.4 17.9999C1.39996 18.3313 1.66856 18.6 1.99993 18.6C2.3313 18.6 2.59996 18.3314 2.6 18.0001L1.4 17.9999ZM2.00034 14.9997L2.60034 14.9997L2.00034 14.9997ZM10.5 12.6C10.8314 12.6 11.1 12.3314 11.1 12C11.1 11.6686 10.8314 11.4 10.5 11.4V12.6ZM18 13.6C18.3314 13.6 18.6 13.3314 18.6 13C18.6 12.6686 18.3314 12.4 18 12.4V13.6ZM13.5 12.4C13.1686 12.4 12.9 12.6686 12.9 13C12.9 13.3314 13.1686 13.6 13.5 13.6V12.4ZM15.15 15.2499C15.15 15.5813 15.4186 15.8499 15.75 15.8499C16.0814 15.8499 16.35 15.5813 16.35 15.2499H15.15ZM16.35 10.7499C16.35 10.4185 16.0814 10.1499 15.75 10.1499C15.4186 10.1499 15.15 10.4185 15.15 10.7499H16.35ZM11.4 5C11.4 6.32548 10.3255 7.4 9 7.4V8.6C10.9882 8.6 12.6 6.98822 12.6 5H11.4ZM9 7.4C7.67451 7.4 6.6 6.32548 6.6 5H5.4C5.4 6.98822 7.01177 8.6 9 8.6V7.4ZM6.6 5C6.6 3.67452 7.67451 2.6 9 2.6V1.4C7.01177 1.4 5.4 3.01177 5.4 5H6.6ZM9 2.6C10.3255 2.6 11.4 3.67452 11.4 5H12.6C12.6 3.01177 10.9882 1.4 9 1.4V2.6ZM2.6 18.0001L2.60034 14.9997L1.40034 14.9996L1.4 17.9999L2.6 18.0001ZM5.00034 11.4C3.01227 11.4 1.40056 13.0115 1.40034 14.9996L2.60034 14.9997C2.60049 13.6743 3.67496 12.6 5.00034 12.6V11.4ZM5.00034 12.6H10.5V11.4H5.00034V12.6ZM18 12.4H15.75V13.6H18V12.4ZM15.75 12.4H13.5V13.6H15.75V12.4ZM16.35 15.2499V13H15.15V15.2499H16.35ZM16.35 13V10.7499H15.15V13H16.35Z"
+                                fill="#3C404A"
+                              />
+                            </svg>
+                          </div>
+                          Create New Company
+                        </div>
+
+                        <button
+                          class="secondary-gray-button close-icon"
+                          v-on:click="hideModal('create-client')"
+                          type="button"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              d="M12 4L4 12M12 12L4 4"
+                              stroke="#4A505C"
+                              stroke-width="1.2"
+                              stroke-linecap="round"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+
+                      <div class="modal-body">
+                        <div style="text-align: left">
+                          <label class="text-left" for="client-name">
+                            Company Name<span class="invalid-feedback">*</span>
+                            <span
+                              class="tooltip-elt"
+                              title="The name we'll use in this application."
+                            >
+                              <img
+                                src="{% static 'images/icons/tooltip.svg' %}"
+                                alt=""
+                                srcset=""
+                              />
+                            </span>
+                          </label>
+                          <input
+                            type="text"
+                            name="client-name"
+                            id="client-name"
+                            v-model="newClient.name"
+                          />
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="short-name">
+                            Short Name<span class="invalid-feedback">*</span>
+                            <span
+                              class="tooltip-elt"
+                              title="The Full Company Name (Included on a title page)."
+                            >
+                              <img
+                                src="{% static 'images/icons/tooltip.svg' %}"
+                                alt=""
+                                srcset=""
+                              />
+                            </span>
+                          </label>
+                          <input
+                            type="text"
+                            name="short-name"
+                            id="short-name"
+                            v-model="newClient.short_name"
+                          />
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="long-name">
+                            Long Name<span class="invalid-feedback">*</span>
+                            <span
+                              class="tooltip-elt"
+                              title="Commonly referred company name, for example, 'CiteMed' vs.'Cite Medical Inc"
+                            >
+                              <img
+                                src="{% static 'images/icons/tooltip.svg' %}"
+                                alt=""
+                                srcset=""
+                              />
+                            </span>
+                          </label>
+                          <input type="text" name="long-name" id="long-name" v-model="newClient.long_name" />
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="client-address">
+                            Address<span class="invalid-feedback">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            name="client-address"
+                            id="client-address"
+                            v-model="newClient.full_address_string"
+                          />
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="client-logo">
+                            Logo
+                          </label>
+                          <file-uploader
+                            id="client-logo"
+                            :on-change="onClientLogoChange"
+                            drop-zone-image-url="{% static 'images/icons/download-icon.svg' %}"
+                            edit-file-image-url="{% static 'images/icons/edit-icon.svg' %}"
+                            :allowed-formats="['png', 'jpg', 'jpeg']"
+                          >
+                          </file-uploader>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="horizantal-devider mt-2"></div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="secondary-gray-button ml-auto mr"
+                        v-on:click="hideModal('create-client')"
+                      >
+                        Cancel
+                      </button>
+                      <button type="submit" class="primary-button" :disabled="!isCreateClientValid">
+                        Save Company
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div>
+              <ul class="clients-list mt">
+                <li
+                  v-for="client in searchedClients"
+                  :key="'client-'+client.id"
+                  :class="literatureReview.client === client.id ? 'selected' : ''"
+                  v-on:click="onSelectClient(client.id)"
+                >
+                  <span class="litreview-icon">
+                    <img
+                      src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                      alt="lit-review-icon"
+                    />
+                  </span>
+                  <span class="ml-2"> [[ client.name ]] </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        :class="projectTypeSectionStatus === 'open' ? 'form-content' : projectTypeSectionStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+        ref="literature-type-section"
+      >
+        <div class="section-header section-header-with-button">
+          <h4>
+            <div class="incomplete-icon mr"></div>
+            <div class="complete-icon mr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M11 5.75L6.5253 10.25L5 8.71607"
+                  stroke="white"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Literature Review Type
+            <span
+              class="tooltip-elt"
+              title="Choosing the literature review type will save you time and helps you generate the right outputs you're looking for!"
+            >
+              <img
+                src="{% static 'images/icons/tooltip.svg' %}"
+                alt=""
+                srcset=""
+              />
+            </span>
+          </h4>
+          <button
+            class="primary-button"
+            :disabled="!literatureReview.type"
+            v-on:click="goToNextStep"
+            type="button"
+            v-if="projectTypeSectionStatus === 'open' && !isEditProjectTypeSection"
+          >
+            Next Step
+          </button>
+          <button
+            class="secondary-gray-button"
+            v-if="projectTypeSectionStatus === 'completed'"
+            v-on:click="() => isEditProjectTypeSection=true"
+          >
+            <div class="center-v">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Edit
+            </div>
+          </button>
+          <button
+            class="primary-button"
+            v-if="isEditProjectTypeSection"
+            v-on:click="() => isEditProjectTypeSection=false"
+            :disabled="!literatureReview.type"
+          >
+            Save
+          </button>
+        </div>
+
+        <div class="horizantal-devider"></div>
+
+        <div class="content">
+          <div class="center-v content-inner">
+            <div
+              :class="literatureReview.type === 'STANDARD' ? 'litreview-type-box selected' : 'litreview-type-box mr-2'"
+              v-on:click="onProjectTypeChange('STANDARD')"
+            >
+              <img
+                src="{% static 'images/icons/review-type.png' %}"
+                alt="review-type"
+                srcset=""
+              />
+              <h3>Standard</h3>
+              <div>
+                Complex Literature Review.
+                <br />
+                Device info neeeds to be provided.
+                <br />
+                Simple Excel Outputs + Details LITR Document Reports.
+              </div>
+            </div>
+
+            <div
+              :class="literatureReview.type === 'SIMPLE' ? 'litreview-type-box selected' : 'litreview-type-box ml-2'"
+              v-on:click="onProjectTypeChange('SIMPLE')"
+            >
+              <img
+                src="{% static 'images/icons/review-type.png' %}"
+                alt="review-type"
+                srcset=""
+              />
+              <h3>Streamline</h3>
+              <div> 
+                Very Simple Literature Review.
+                <br />
+                No Device Info Needed.
+                <br />
+                Simple Excel Outputs.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        :class="deviceSectionStatus === 'open' ? 'form-content' : deviceSectionStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+        ref="device-section"
+      >
+        <div class="section-header section-header-with-button">
+          <h4>
+            <div class="incomplete-icon mr"></div>
+            <div class="complete-icon mr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M11 5.75L6.5253 10.25L5 8.71607"
+                  stroke="white"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Choose a Device
+            <span
+              class="tooltip-elt"
+              title="General Information related to the Medical Device."
+            >
+              <img
+                src="{% static 'images/icons/tooltip.svg' %}"
+                alt=""
+                srcset=""
+              />
+            </span>
+          </h4>
+          <button
+            class="primary-button"
+            :disabled="!literatureReview.device"
+            v-on:click="goToNextStep"
+            type="button"
+            v-if="deviceSectionStatus === 'open' && !isEditDeviceSection"
+          >
+            Next Step
+          </button>
+          <button
+            class="secondary-gray-button"
+            v-if="deviceSectionStatus === 'completed'"
+            v-on:click="() => isEditDeviceSection=true"
+          >
+            <div class="center-v">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Edit
+            </div>
+          </button>
+          <button
+            class="primary-button"
+            v-if="isEditDeviceSection"
+            v-on:click="() => isEditDeviceSection=false"
+            :disabled="!literatureReview.device"
+          >
+            Save
+          </button>
+        </div>
+
+        <div class="horizantal-devider"></div>
+
+        <div class="content">
+          <div class="content-inner">
+            <div class="center-v">
+              <button
+                class="secondary-gray-button"
+                v-on:click="showModal('create-device')"
+              >
+                + Create New
+              </button>
+              <form class="search-form">
+                <input
+                  type="search"
+                  placeholder="Search For Device"
+                  name="article-search"
+                  v-model="deviceSearchTerm"
+                />
+                <button type="button" class="search-button">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                      fill="#9BA5B9"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                      fill="#9BA5B9"
+                    />
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Create New Device Modal -->
+              <div class="modal modal-style-2" id="create-device">
+                <form v-on:submit="onCreateDevice">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div>
+                          <div class="modal-header-icon-wrapper">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              viewBox="0 0 20 20"
+                              fill="none"
+                            >
+                              <path
+                                d="M17 13V5.19231C17 4.25767 16.2165 3.5 15.25 3.5H4.75C3.7835 3.5 3 4.25767 3 5.19231V13M17 13C17.5523 13 18 13.4477 18 14V15.5C18 16.0523 17.5523 16.5 17 16.5H3C2.44772 16.5 2 16.0523 2 15.5V14C2 13.4477 2.44772 13 3 13M17 13H13.5L12 14H8.25L6.5 13H3"
+                                stroke="#3C404A"
+                                stroke-width="1.2"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          Create New Device
+                        </div>
+
+                        <button
+                          class="secondary-gray-button close-icon"
+                          v-on:click="hideModal('create-device')"
+                          type="button"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              d="M12 4L4 12M12 12L4 4"
+                              stroke="#4A505C"
+                              stroke-width="1.2"
+                              stroke-linecap="round"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+
+                      <div class="modal-body">
+                        <div style="text-align: left">
+                          <label class="text-left" for="device-name">
+                            Device Name<span class="invalid-feedback"
+                              >*</span
+                            ></label
+                          >
+                          <input
+                            type="text"
+                            name="device-name"
+                            id="device-name"
+                            v-model="newDevice.name"
+                          />
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="manufacturer*">
+                            Manufacturer<span class="invalid-feedback">*</span>
+                          </label>
+                          <div class="center-v">
+                            <input
+                              type="text"
+                              name="manufacturer*"
+                              id="manufacturer*"
+                              v-model="newDevice.manufacturer"
+                              v-if="isNewManufacturer"
+                            />
+                            <select v-else name="manufacturer*" v-model="newDevice.manufacturer">
+                              <option value=""> Select Manufacturer </option>
+                              <option v-for="manufacturer in manufacturers" :value="manufacturer.name"> [[manufacturer.name]] </option>
+                            </select>
+                            <button
+                              class="secondary-gray-button ml-2 no-break"
+                              type="button"
+                            >
+                              <span v-if="isNewManufacturer" v-on:click="onSwitchNewManufacturer(false)"> Choose Existing </span>
+                              <span v-else v-on:click="onSwitchNewManufacturer(true)"> Create New </span>
+                            </button>
+                          </div>
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="classification">
+                            Classification
+                            <span class="invalid-feedback">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            name="classification"
+                            id="classification"
+                            v-model="newDevice.classification"
+                          />
+                        </div>
+                        <div style="text-align: left">
+                          <label class="text-left" for="device-markets">
+                            Markets<span class="invalid-feedback">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            name="device-markets"
+                            id="device-markets"
+                            v-model="newDevice.markets"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="horizantal-devider mt-2"></div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="secondary-gray-button ml-auto mr"
+                        v-on:click="hideModal('create-device')"
+                      >
+                        Cancel
+                      </button>
+                      <button type="submit" class="primary-button" :disabled="!isCreateDeviceValid">
+                        Save Device
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div>
+              <ul class="devices-list mt">
+                <li
+                  v-for="device in searchedDevices"
+                  :key="'device-'+device.id"
+                  class="center-v mb-2"
+                >
+                  <input
+                    :value="device.id"
+                    :id="device.name"
+                    name="device"
+                    type="radio"
+                    class="mr"
+                    v-model="literatureReview.device"
+                    class="c-pointer"
+                  />
+                  <label :for="device.name" class="c-pointer">
+                    [[device.name]]
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        :class="litProjectTypeSectionStatus === 'open' ? 'form-content' : litProjectTypeSectionStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+        ref="project-type-section"
+      >
+        <div class="section-header section-header-with-button">
+          <h4>
+            <div class="incomplete-icon mr"></div>
+            <div class="complete-icon mr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M11 5.75L6.5253 10.25L5 8.71607"
+                  stroke="white"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Select Project Type
+            <span
+              class="tooltip-elt"
+              title="Project Type."
+            >
+              <img
+                src="{% static 'images/icons/tooltip.svg' %}"
+                alt=""
+                srcset=""
+              />
+            </span>
+          </h4>
+          <button
+            class="primary-button"
+            :disabled="!literatureReview.projectType"
+            v-on:click="goToNextStep"
+            type="button"
+            v-if="litProjectTypeSectionStatus === 'open' && !isEditLitProjectTypeSection"
+          >
+            Next Step
+          </button>
+          <button
+            class="secondary-gray-button"
+            v-if="litProjectTypeSectionStatus === 'completed'"
+            v-on:click="() => isEditLitProjectTypeSection=true"
+          >
+            <div class="center-v">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Edit
+            </div>
+          </button>
+          <button
+            class="primary-button"
+            v-if="isEditLitProjectTypeSection"
+            v-on:click="() => isEditLitProjectTypeSection=false"
+            :disabled="!literatureReview.projectType"
+          >
+            Save
+          </button>
+        </div>
+
+        <div class="horizantal-devider"></div>
+
+        <div class="content">
+          <div class="content-inner">
+            <div class="center-v">
+              <div
+                :class="literatureReview.projectType === 'lit_review' ? 'litreview-type-box selected' : 'litreview-type-box mr-2'"
+                v-on:click="onChangeLitProjectType('lit_review')"
+              >
+                <img
+                  src="{% static 'images/icons/review-type.png' %}"
+                  alt="review-type"
+                  srcset=""
+                />
+                <h3>Lit. Review</h3>
+                <div> Literature Review Report </div>
+              </div>
+
+              <div
+                :class="literatureReview.projectType === 'CER' ? 'litreview-type-box selected' : 'litreview-type-box mr-2 ml-2'"
+                v-on:click="onChangeLitProjectType('CER')"
+              >
+                <img
+                  src="{% static 'images/icons/review-type.png' %}"
+                  alt="review-type"
+                  srcset=""
+                />
+                <h3>CER</h3>
+                <div> Clinical Evaluation Report </div>
+              </div>
+
+              <div
+                :class="literatureReview.projectType === 'PMCF' ? 'litreview-type-box selected' : 'litreview-type-box mr-2 ml-2'"
+                v-on:click="onChangeLitProjectType('PMCF')"
+              >
+                <img
+                  src="{% static 'images/icons/review-type.png' %}"
+                  alt="review-type"
+                  srcset=""
+                />
+                <h3> PMCF </h3>
+                <div> Post-Market Clinical Follow-up </div>
+              </div>
+
+              <div
+                :class="literatureReview.projectType === 'Vigilance' ? 'litreview-type-box selected' : 'litreview-type-box ml-2'"
+                v-on:click="onChangeLitProjectType('Vigilance')"
+              >
+                <img
+                  src="{% static 'images/icons/review-type.png' %}"
+                  alt="review-type"
+                  srcset=""
+                />
+                <h3>Vigilance</h3>
+                <div> Vigilance </br> Report </div>
+              </div>
+
+              <div
+                :class="literatureReview.projectType === 'Custom' ? 'litreview-type-box selected' : 'litreview-type-box ml-2'"
+                v-on:click="onChangeLitProjectType('Custom')"
+              >
+                <img
+                  src="{% static 'images/icons/review-type.png' %}"
+                  alt="review-type"
+                  srcset=""
+                />
+                <h3>Custom</h3>
+                <div> Custom Project Type </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        :class="copyDataSectionStatus === 'open' ? 'form-content' : copyDataSectionStatus === 'closed' ? 'form-content closed-section' :'form-content completed-section'"
+        ref="copy-data-section"
+      >
+        <div class="section-header section-header-with-button">
+          <h4>
+            <div class="incomplete-icon mr"></div>
+            <div class="complete-icon mr">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M11 5.75L6.5253 10.25L5 8.71607"
+                  stroke="white"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            Copy Search Terms and Database Selections
+            <span
+              class="tooltip-elt"
+              title="You want to use the Protocol Data + the search terms from an older project rather than creating every thing from scratch ? "
+            >
+              <img
+                src="{% static 'images/icons/tooltip.svg' %}"
+                alt=""
+                srcset=""
+              />
+            </span>
+          </h4>
+          <button
+            class="primary-button"
+            :disabled="!(literatureReview.isCopyData === false || literatureReview.copyDataFrom)"
+            v-on:click="goToNextStep"
+            type="button"
+            v-if="copyDataSectionStatus === 'open' && !isEditCopyData"
+          >
+            Next Step
+          </button>
+          <button
+            class="secondary-gray-button"
+            v-if="copyDataSectionStatus === 'completed'"
+            v-on:click="() => isEditCopyData=true"
+          >
+            <div class="center-v">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="mr">
+                <path d="M10.5735 3.14001C10.7237 2.98989 10.9019 2.87081 11.098 2.78956C11.2942 2.70832 11.5044 2.6665 11.7167 2.6665C11.929 2.6665 12.1392 2.70832 12.3354 2.78956C12.5315 2.87081 12.7097 2.98989 12.8598 3.14001C13.0099 3.29013 13.129 3.46834 13.2103 3.66449C13.2915 3.86063 13.3333 4.07085 13.3333 4.28315C13.3333 4.49545 13.2915 4.70567 13.2103 4.90181C13.129 5.09795 13.0099 5.27617 12.8598 5.42629L5.14363 13.1425L2 13.9998L2.85735 10.8562L10.5735 3.14001Z" stroke="#848D9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Edit
+            </div>
+          </button>
+          <button
+            class="primary-button"
+            v-if="isEditCopyData"
+            v-on:click="() => isEditCopyData=false"
+            :disabled="!(literatureReview.isCopyData === false || literatureReview.copyDataFrom)"
+          >
+            Save
+          </button>
+        </div>
+
+        <div class="horizantal-devider"></div>
+
+        <div class="content copy-data-content-section">
+          <div class="content-inner">
+            <div class="content-inner-section">
+              <div class="mt mb inner-content-header">
+                Do you want to Copy The Search Terms Data and The Selected Database from an existing project?
+              </div>
+              <div class="center-v">
+                <div
+                  :class="literatureReview.isCopyData === true ? 'yes-no mr selected' : 'yes-no mr'"
+                  v-on:click="onChangeIsCopyData(true)"
+                >
+                  Yes, I want to!
+                </div>
+
+                <div
+                  :class="literatureReview.isCopyData === false ? 'yes-no mr selected' : 'yes-no ml'"
+                  v-on:click="onChangeIsCopyData(false)"
+                >
+                  No. Thank you!
+                </div>
+              </div>
+            </div>
+
+            <div class="horizantal-devider"></div>
+
+            <div
+              class="content-inner-section"
+              v-if="literatureReview.isCopyData === true"
+            >
+              <div class="center-v">
+                <div class="inner-content-header">
+                  Select Project to copy data from
+                </div>
+                <form class="search-form">
+                  <input
+                    type="search"
+                    placeholder="Search For Client"
+                    name="article-search"
+                    v-model="reviewSearchTerm"
+                  />
+                  <button type="button" class="search-button">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z"
+                        fill="#9BA5B9"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z"
+                        fill="#9BA5B9"
+                      />
+                    </svg>
+                  </button>
+                </form>
+              </div>
+
+              <div>
+                <ul class="clients-list mt">
+                  <li
+                    v-for="review in searchedReviews"
+                    :key="'review-'+review.id"
+                    :class="review.id === literatureReview.copyDataFrom ? 'selected' : ''"
+                    v-on:click="onChangeCopyDataFrom(review.id)"
+                  >
+                    <span class="litreview-icon">
+                      <img
+                        src="{% static 'images/icons/lit-review-icon-black.png' %}"
+                        alt="lit-review-icon"
+                      />
+                    </span>
+                    <span class="ml-2"> [[ review.label ]] </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="badge success ready-alert mt-2" v-if="isProjectCreationValid">
+        You are All Set! Please Click The 'Create Project' Button To Get Started.
+      </div>
+    </div>
+
+    <div class="form-content preview-section">
+      <div class="section-header">
+        <h4>Preview</h4>
+      </div>
+      <div class="horizantal-devider"></div>
+      <div class="content">
+        <div class="project-details">
+          <div class="client-profile-image">
+            <div class="client-logo-section">
+              <img
+                v-if="literatureReview.client && getClientWithID(literatureReview.client).logo"
+                id="client-img"
+                alt="client logo"
+                :src="getClientWithID(literatureReview.client).logo"
+              />
+              <img
+                v-else
+                id="client-img"
+                alt="client logo"
+                src="{% static 'images/icons/Protocol.png' %}"
+              />
+            </div>
+          </div>
+          <div class="client-names">
+            <h2 v-if="literatureReview.project.name" class="client-name">
+              [[ literatureReview.project.name ]]
+            </h2>
+            <div v-else class="empty-text" style="width: 150px"></div>
+            <h4
+              v-if="literatureReview.client"
+              class="client-short-name"
+              id="client-short-name"
+            >
+              [[ getClientWithID(literatureReview.client).name ]]
+            </h4>
+            <div v-else class="empty-text" style="width: 100px"></div>
+          </div>
+        </div>
+
+        <div class="horizantal-devider mt-3"></div>
+
+        <div class="mt-3">
+          <div class="details-section">
+            <h3>Literature Review Type</h3>
+            <h4 v-if="literatureReview.type">[[ literatureReview.type ]]</h4>
+            <div v-else class="empty-text" style="width: 150px"></div>
+          </div>
+
+          <div class="details-section">
+            <h3>Device</h3>
+            <h4 v-if="literatureReview.device">
+              [[ getDeviceWithID(literatureReview.device).name ]]
+            </h4>
+            <div v-else class="empty-text" style="width: 180px"></div>
+          </div>
+
+          <div class="details-section">
+            <h3>Project Type</h3>
+            <h4 v-if="literatureReview.projectType">
+              [[ literatureReview.projectType ]]
+            </h4>
+            <div v-else class="empty-text" style="width: 120px"></div>
+          </div>
+
+          <div class="details-section">
+            <h3>Copy Data From</h3>
+            <h4 v-if="literatureReview.isCopyData === false">
+              None
+            </h4>
+            <h4 v-else-if="literatureReview.copyDataFrom">
+              [[ getReviewWithID(literatureReview.copyDataFrom).label ]]
+            </h4>
+            <div v-else class="empty-text" style="width: 200px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <div class="form-progress center-v">
+        <div class="progress-bar mr-2">
+          <div
+            class="progress-inner"
+            :style="'width: '+progressPerccentage+'px'"
+          ></div>
+        </div>
+        [[currentStep]] of [[TOTAL_STEPS]]
+      </div>
+
+      <button class="secondary-gray-button ml-auto" type="button">
+        Cancel
+      </button>
+      <button
+        type="submit"
+        class="primary-button mr-3 center-v"
+        v-on:click="onCreateProject"
+        :disabled="!isProjectCreationValid"
+        :class="{ loading: isCreateProjectLoading }"
+        style="display: flex;"
+      >
+        <div class="center-v w-100 w-max m-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+            <path d="M14.5 8.5C14.5 11.8137 11.8137 14.5 8.5 14.5C5.18629 14.5 2.5 11.8137 2.5 8.5C2.5 5.18629 5.18629 2.5 8.5 2.5C9.44137 2.5 10.3321 2.71679 11.125 3.10317M13.375 4.75L8.125 10L6.625 8.5" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="ml"> Create Project </span>
+        </div> 
+      </button>
+    </div>
+  </div>
+</div>
+
+{% endblock %} {% block 'scripts-block' %}
+
+<script>
+  const CreateLiteratureReviewAPI =
+    "{% url 'lit_reviews:create_lit_review_api' %}";
+  const CreateDeviceAPI = "{% url 'lit_reviews:create_device_api' %}";
+  const CreateClientAPI = "{% url 'lit_reviews:create_client_api' %}";
+  const ClientsListAPI = "{% url 'lit_reviews:clients_list_api' %}";
+  const DevicesListAPI = "{% url 'lit_reviews:devices_list_api' %}";
+  const ManufacturerListAPI = "{% url 'lit_reviews:manufacturer_list_api' %}";
+  const LiteratureReviewListAPI = "{% url 'lit_reviews:reviews_list_api' %}";
+  const GetDevicesAPI = "{% url 'lit_reviews:get-devie-api' device_id=0 %}";
+
+  DEFAULT_CLIENT_LOGO = "{% static 'images/icons/Protocol.png' %}";
+</script>
+
+<script
+  type="application/javascript"
+  src="{% static 'lit_reviews/vue/create_litreview.js' %}"
+></script>
+
+{% endblock %}

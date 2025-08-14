@@ -1,0 +1,889 @@
+{% extends 'base_lit_reviews.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block 'head' %}
+<link href="{% static 'css/theme/reports.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block 'help_section' %} 
+    {% if 'protocol' in request.get_full_path %} 
+        <a 
+            href="https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/generate-your-search-protocol"
+            target="_blank"
+        >
+            <span>Need help with this page? <br/> Read the Wiki</span>
+            <div>
+                <img src="{% static 'images/icons/wiki-icon.svg' %}">
+            </div>
+        </a>
+    {% else %}
+        <a 
+            href="https://citemed-io.gitbook.io/citemed.io-documentation/report-generation-and-downloads/generating-final-reports"
+            target="_blank"
+        >
+            <span>Need help with this page? <br/> Read the Wiki</span>
+            <div>
+                <img src="{% static 'images/icons/wiki-icon.svg' %}">
+            </div>
+        </a>
+    {% endif %}
+{% endblock %}
+
+{% block 'body' %}
+
+<div id="app" class="" v-cloak>
+    <div v-if="isRecordsLoading"> Loading... </div>
+    <div v-else>
+        <div class="page-header">
+            <div class="header-left-section">
+                <span class="mr-2"> Report Builder </span>
+                <div v-if="reports && reports.length">
+                    <search-term-validator :init-validator="validator"> </search-term-validator>
+                </div>
+                <page-wiki-helper wiki-link="
+                    {% if 'type=' in request.get_full_path %}
+                    https://citemed-io.gitbook.io/citemed.io-documentation/protocol-set-up/generate-your-search-protocol
+                    {% else %}
+                    https://citemed-io.gitbook.io/citemed.io-documentation/report-generation-and-downloads/generating-final-reports
+                    {% endif %}
+                "> </page-wiki-helper>
+            </div>
+            <div class="report-length">
+                Total Reports: <span>[[ reports ? reports.length : 0 ]]</span>
+            </div>
+        </div>
+        
+        <div class="horizantal-devider"></div>
+        
+        <div v-if="project && project.type === 'Not Found'" class="alert alert-danger"> 
+            No Project created for this lit review, to create one please contact our support by submitting a ticket <a href="https://share.hsforms.com/1jqB4CJx9RxyvGL3qQYo2rgcq0hk" target=”_blank”> HERE.</a>
+        </div>
+        
+        <div v-else class="page-body">
+            <div v-if="(!reports || reports.length === 0) && !filterTypes.length" class="no-reports-message">
+                <img src="{% static 'images/icons/featured-icon.png' %}" />
+                <div class="alert-title">
+                    There are no created reports yet.
+                </div>
+                <div class="alert-subtitle">
+                    Generate a report to get results from your preliminary analyzes.
+                </div>
+                <button class="primary-button" v-on:click="showGenerateReportSlider" :disabled="isArchived">
+                    <svg width="3" height="12" viewBox="0 0 3 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.66667 7.33301C2.21896 7.33301 2.66667 6.88529 2.66667 6.33301C2.66667 5.78072 2.21896 5.33301 1.66667 5.33301C1.11439 5.33301 0.666672 5.78072 0.666672 6.33301C0.666672 6.88529 1.11439 7.33301 1.66667 7.33301Z" fill="white"/>
+                        <path d="M1.66667 2.6665C2.21896 2.6665 2.66667 2.21879 2.66667 1.6665C2.66667 1.11422 2.21896 0.666504 1.66667 0.666504C1.11439 0.666504 0.666672 1.11422 0.666672 1.6665C0.666672 2.21879 1.11439 2.6665 1.66667 2.6665Z" fill="white"/>
+                        <path d="M1.66667 12C2.21896 12 2.66667 11.5523 2.66667 11C2.66667 10.4477 2.21896 10 1.66667 10C1.11439 10 0.666672 10.4477 0.666672 11C0.666672 11.5523 1.11439 12 1.66667 12Z" fill="white"/>
+                    </svg>
+                    <span class="ml"> Generate Report </span> 
+                </button>
+            </div>
+            <div v-else>
+                <div class="filters">
+                    <div class="filter-search-section">
+                        <div class="search-section">
+                            <form v-on:submit="onSearch">
+                            <input 
+                                type="search" 
+                                placeholder="Search by report name or comment" 
+                                name="article-search" 
+                                v-model="searchTerm"
+                            />
+                            <button type="submit" class="search-button">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 3.125C5.78331 3.125 3.125 5.78331 3.125 9.0625C3.125 12.3417 5.78331 15 9.0625 15C12.3417 15 15 12.3417 15 9.0625C15 5.78331 12.3417 3.125 9.0625 3.125ZM1.875 9.0625C1.875 5.09295 5.09295 1.875 9.0625 1.875C13.032 1.875 16.25 5.09295 16.25 9.0625C16.25 13.032 13.032 16.25 9.0625 16.25C5.09295 16.25 1.875 13.032 1.875 9.0625Z" fill="#9BA5B9"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2611 13.2612C13.5051 13.0171 13.9009 13.0171 14.1449 13.2612L17.9418 17.0581C18.1859 17.3022 18.1859 17.6979 17.9418 17.942C17.6977 18.1861 17.302 18.1861 17.0579 17.942L13.2611 14.1451C13.017 13.901 13.017 13.5053 13.2611 13.2612Z" fill="#9BA5B9"/>
+                                </svg>
+                            </button>
+                            </form>
+                        </div>
+
+                        <div class="filter-button ml" v-on:click="showModal('filters-slider')">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.59993 1.40002H12.3999C13.1333 1.40002 13.7333 2.00002 13.7333 2.73336V4.20002C13.7333 4.73336 13.3999 5.40002 13.0666 5.73336L10.1999 8.26669C9.79993 8.60002 9.53327 9.26669 9.53327 9.80002V12.6667C9.53327 13.0667 9.2666 13.6 8.93327 13.8L7.99994 14.4C7.13327 14.9334 5.93327 14.3334 5.93327 13.2667V9.73336C5.93327 9.26669 5.6666 8.66669 5.39994 8.33336L2.8666 5.66669C2.53327 5.33336 2.2666 4.73336 2.2666 4.33336V2.80002C2.2666 2.00002 2.8666 1.40002 3.59993 1.40002Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Filter Results
+                        </div>
+                    
+                        <!-- Report Status Applied Filters -->
+                        <div class="applied-filters ml" v-if="appliedStatus.length && appliedStatus.length <2">
+                            <span style="font-weight: 600;"> Status </span> 
+                            <div class="item" v-for="status in appliedStatus" :key="status">
+                            [[status]]
+                            </div>
+                        </div>
+
+                        <div class="applied-filters ml" v-else-if="appliedStatus.length">
+                            <span style="font-weight: 600;"> Status </span> 
+                            <div class="item">
+                            [[ appliedStatus[0] ]]
+                            </div>
+                            <div class="item">
+                            +[[appliedStatus.length-1]]
+                            </div>
+                        </div>
+
+                        <!-- Report Types Applied Filters -->
+                        <div class="applied-filters ml" v-if="filterTypes.length && filterTypes.length < 2">
+                            <span style="font-weight: 600;"> Type </span> 
+                            <div class="item" v-for="type in filterTypes" :key="type">
+                            [[type]]
+                            </div>
+                        </div>
+
+                        <div class="applied-filters ml" v-else-if="filterTypes.length">
+                            <span style="font-weight: 600;"> Type </span> 
+                            <div class="item">
+                            [[ filterTypes[0] ]]
+                            </div>
+                            <div class="item">
+                            +[[filterTypes.length-1]]
+                            </div>
+                        </div>
+                
+                
+                        <div class="filter-button ml" v-on:click="onClearFilters">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 3.98665C11.78 3.76665 9.54667 3.65332 7.32 3.65332C6 3.65332 4.68 3.71999 3.36 3.85332L2 3.98665" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.6665 3.31331L5.81317 2.43998C5.91984 1.80665 5.99984 1.33331 7.1265 1.33331H8.87317C9.99984 1.33331 10.0865 1.83331 10.1865 2.44665L10.3332 3.31331" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.5664 6.09332L12.1331 12.8067C12.0598 13.8533 11.9998 14.6667 10.1398 14.6667H5.85977C3.99977 14.6667 3.93977 13.8533 3.86644 12.8067L3.43311 6.09332" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.88672 11H9.10672" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.3335 8.33331H9.66683" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Clear Filters
+                        </div>
+
+                        <div class="slider" id="filters-slider">
+                            <div class="slider-dialog">
+                            <div class="slider-dialog-inner ">
+                                <div class="slider-header">
+                                <button class="pagintaion-item mr" v-on:click="onCloseFilters">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0002 13.28L5.65355 8.93333C5.14022 8.42 5.14022 7.58 5.65355 7.06667L10.0002 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                                Filters
+                                </div>
+                
+                                <div class="slider-content">
+                
+                                <div class="filter-section">
+                                    <div class="header"> STATUS </div>
+                                    <div class="filter-selects"> 
+                                    <div :class="selectedStatus.includes('COMPLETE') ? 'filter-select selected' : 'filter-select'" v-on:click="toggleStatus('COMPLETE')">  
+                                        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="3" cy="3" r="3" fill="#D1F573"/>
+                                        </svg>
+                                        Complete 
+                                    </div>
+                                    <div :class="selectedStatus.includes('INCOMPLETE-ERROR') ? 'filter-select selected' : 'filter-select'" v-on:click="toggleStatus('INCOMPLETE-ERROR')"> 
+                                        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="3" cy="3" r="3" fill="#B42318"/>
+                                        </svg>
+                                        Error 
+                                    </div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="filter-section">
+                                    <div class="header"> REPORT TYPE </div>
+                                    <div class="filter-checks"> 
+                                    <div class="filter-check" v-for="report in reportTypes" :key="report.name"> 
+                                        <label :for="report.name"> 
+                                        [[report.displayedName]]
+                                        </label> 
+                                        <input 
+                                          type="checkbox" 
+                                          name="report-type" 
+                                          :value="report.name" 
+                                          :id="report.name" 
+                                          :checked="filterTypes.includes(report.name)"
+                                        />
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            
+                                <div class="slider-footer">
+                                <button class="primary-button" v-on:click="onSearch">
+                                    Apply Filters
+                                </button>
+                                </div>
+                
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ml-2">
+                      <button class="primary-button" v-on:click="showGenerateReportSlider" :disabled="isArchived">
+                          <svg width="3" height="12" viewBox="0 0 3 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1.66667 7.33301C2.21896 7.33301 2.66667 6.88529 2.66667 6.33301C2.66667 5.78072 2.21896 5.33301 1.66667 5.33301C1.11439 5.33301 0.666672 5.78072 0.666672 6.33301C0.666672 6.88529 1.11439 7.33301 1.66667 7.33301Z" fill="white"/>
+                              <path d="M1.66667 2.6665C2.21896 2.6665 2.66667 2.21879 2.66667 1.6665C2.66667 1.11422 2.21896 0.666504 1.66667 0.666504C1.11439 0.666504 0.666672 1.11422 0.666672 1.6665C0.666672 2.21879 1.11439 2.6665 1.66667 2.6665Z" fill="white"/>
+                              <path d="M1.66667 12C2.21896 12 2.66667 11.5523 2.66667 11C2.66667 10.4477 2.21896 10 1.66667 10C1.11439 10 0.666672 10.4477 0.666672 11C0.666672 11.5523 1.11439 12 1.66667 12Z" fill="white"/>
+                          </svg>
+                          <span class="ml"> Generate Report </span> 
+                      </button>
+                  </div>
+                  
+                </div>
+            
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 70px;">ID</th>
+                            <th v-on:click="onSort('report_type')" style="width: 200px;">
+                              Report (Version)
+                              <img src="{% static 'images/icons/filter.png' %}" />
+                            </th>
+                            <th style="width: 120px;">Format</th>
+                            <th v-on:click="onSort('timestamp')" style="width: 150px;">
+                                Creation Date 
+                                <img src="{% static 'images/icons/filter.png' %}" />
+                            </th>
+                            <th style="width: 140px;">Status</th>
+                            <th style="width: 80px;">Note</th>
+                            <th style="width: 162px;">Actions</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr v-for="report in reports" :key="report.id">
+                            <td> #[[ report.id ]]</td>
+                            <td> 
+                                <div class="center-v">
+                                    <div class="report-version mr">
+                                        [[ report.version_number ]]
+                                    </div>
+                                    <span> [[ getReportTypeText(report.report_type, report.is_simple) ]]</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="format-display">
+                                    <div v-if="getReportFormat(report) === 'excel'" class="format-icon">
+                                        <img src="{% static 'images/icons/excel-icon.png' %}" alt="Excel" class="format-icon-img">
+                                        <span>Excel</span>
+                                    </div>
+                                    <div v-else-if="getReportFormat(report) === 'docx' || getReportFormat(report) === 'word'" class="format-icon">
+                                        <img src="{% static 'images/icons/word-icon.png' %}" alt="Word" class="format-icon-img">
+                                        <span>Word</span>
+                                    </div>
+                                    <div v-else-if="getReportFormat(report) === 'zip'" class="format-icon">
+                                        <img src="{% static 'images/icons/collection-icon.png' %}" alt="Collection" class="format-icon-img">
+                                        <span>Collection</span>
+                                    </div>
+                                    <div v-else-if="getReportFormat(report) === 'ris'" class="format-icon">
+                                        <img src="{% static 'images/icons/collection-icon.png' %}" alt="RIS" class="format-icon-img">
+                                        <span>RIS</span>
+                                    </div>
+                                    <div v-else class="format-icon">
+                                        <span>N/A</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td> [[ convertTimeZone(report.timestamp) ]] </td>
+                            <td> 
+                                <div v-if="report.error_msg || report.generate_zip_error" class="center-v link">
+                                    <a 
+                                        v-if="report.error_msg"  
+                                        v-on:click="showModal('report-error-modal-'+report.id)"
+                                        class="badge error c-pointer w-100" 
+                                    > 
+                                        ERROR 
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.22901 3.5404L8.49001 3.54034M8.49001 3.54034L8.49001 7.74074M8.49001 3.54034L3.54026 8.49009" stroke="#B42318" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>  
+                                    </a>
+
+                                    <div class="modal" :id="'report-error-modal-'+report.id">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <div class="modal-header-icon-wrapper delete-icon">
+                                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </div>
+                                                    Report Generation Error
+                                                </div>
+                                                <div class="modal-body"> 
+                                                    <div v-html="report.error_msg"> </div>
+                                                    <br />
+                                                    <div> if you are still stuck please let us know by contacting our support team at support@citemedical.com </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="secondary-gray-button w-100" v-on:click="hideModal('report-error-modal-'+report.id)"> Close </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br />
+                                </div>
+                                <div v-else-if="report.missing_clinical_appraisals">
+                                    <a class="badge warning link c-pointer" v-on:click="showModal('missing-appraisals-'+report.id)"> 
+                                        WARNING
+                                    </a>   
+                                    <div class="modal" :id="'missing-appraisals-'+report.id">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <div class="modal-header-icon-wrapper delete-icon">
+                                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </div>
+                                                    Appraisals Missing Warning
+                                                </div>
+                                                <div class="modal-body"> 
+                                                    Your Report was generated successfully but some Appraisals are missing in the below report due to these appraisals were not
+                                                    completed during the 2nd Pass Review Please click 
+                                                    on the button below to download the link of Missing Appraisals.
+                                                    <a :href="report.missing_clinical_appraisals" class="secondary-gray-button mt-2 w-100">
+                                                        Missing Appraisals List
+                                                    </a>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="secondary-gray-button w-100" v-on:click="hideModal('missing-appraisals-'+report.id)"> Close </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div v-else-if="report.status==='COMPLETE'" class="badge success">
+                                    [[ report.status ]]
+                                </div>
+                                <div v-else class="badge secondary">
+                                    [[ report.status ]]
+                                </div>
+                            </td>
+                            <td>
+                                <button 
+                                    v-on:click="onShowCommentModal(report)" :ref="'comment-'+report.id"
+                                    :disabled="report.status === 'RUNNING'"
+                                    type="button"  
+                                    :class="['secondary-gray-button', 'note-btn', { 'disabled': isArchived }]"
+                                    :disabled="isArchived"
+                                > 
+                                    <img v-if="report.comment" src="{% static 'images/icons/note-opened-icon.svg' %}" alt="Note" class="note-opened-icon">
+                                    <img v-else src="{% static 'images/icons/note-icon.svg' %}" alt="Note" class="note-icon">
+                                    Note 
+                                </button>
+
+                                <side-slider 
+                                  :id="'comment-report-modal-'+report.id" 
+                                  :title="'Note'"
+                                  :is-open="activeCommentModal === report.id"
+                                  action-button-text="Save Note"
+                                  @close="hideCommentModal"
+                                  @action="onUpdateReportComment(report)"
+                                >
+                                  <div class="comment-form">
+                                    <label for="textAreaComment">Article Notes</label>
+                                    <textarea 
+                                      class="form-control" 
+                                      id="textAreaComment" 
+                                      rows="10" 
+                                      v-model="reportComment"
+                                      placeholder="Type your note here...."
+                                    ></textarea>
+                                  </div>
+                                </side-slider>
+                            </td>
+                            <td class="action-table-column">
+                                <div class="table-action-cell">
+                                    <a v-if="getReportFileLink(report)" :href="getReportFileLink(report)" class="download-report-button link">
+                                        <button class="primary-button download-report-button" :disabled="isArchived">
+                                            <img src="{% static 'images/icons/download-icon.png' %}" alt="Download" class="download-icon">
+                                            <span class="ml"> Download </span> 
+                                        </button>
+                                    </a>
+                                    <a v-else class="download-report-button">
+                                        <button class="primary-button download-report-button" disabled="true">
+                                            <img src="{% static 'images/icons/download-icon.png' %}" alt="Download" class="download-icon">
+                                            <span class="ml"> Download </span> 
+                                        </button>
+                                    </a>
+                                    <div class="vertical-divider"></div>
+                                    <div 
+                                        v-on:click="onDeleteReport(report.id)" 
+                                        :ref="'delete-'+report.id"
+                                        :disabled="isArchived"
+                                        class="delete-report-section"
+                                    > 
+                                        <img src="{% static 'images/icons/delete-icon.png' %}" alt="Delete" class="delete-btn-icon"> 
+                                    </div>
+        
+                                    <div class="modal" :id="'delete-report-modal-'+report.id">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <div class="modal-header-icon-wrapper delete-icon">
+                                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </div>
+                                                    Delete Report
+                                                </div>
+                                                <div class="modal-body"> 
+                                                    Are you Sure you want to delete this Report with ID <strong> [[ selectedReportID ]] </strong>?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="delete-error-button" v-on:click="onDeleteReportConfirmed"> Delete </button>
+                                                    <button class="primary-button delete-cancel-button ml" v-on:click="hideModal('delete-report-modal-'+report.id)"> Cancel </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>  
+
+            <side-slider 
+              id="generate-report-slider" 
+              title="Build Report"
+              :is-open="isGenerateReportSliderOpen"
+              :action-button-text="reportStep === 1 ? 'Next Step' : 'Generate Report'"
+              :action-disabled="reportStep === 1 ? !selectedFileForamt : !selectedReportType"
+              @close="hideGenerateReportSlider"
+              @action="onReportStepAction"
+            >
+              <!-- Format selection step -->
+              <div class="build-report-form" v-if="reportStep === 1">
+                <h3 class="format-selection-title">Select format</h3>
+                <p class="format-selection-subtitle">Select the format in which you would like the report to be generated.</p>
+                
+                <div class="format-options">
+                  <div 
+                    class="format-option" 
+                    :class="{ 'selected': selectedFileForamt === 'excel' }"
+                    @click="selectedFileForamt = 'excel'"
+                  >
+                    <div class="format-option-icon">
+                      <img src="{% static 'images/icons/excel-icon.png' %}" alt="Excel" class="format-icon-large">
+                    </div>
+                    <div class="format-option-content">
+                      <div class="format-option-title">Excel</div>
+                      <div class="format-option-description">Best for organizing datasets, tables, and numerical data with sorting and filtering.</div>
+                    </div>
+                  </div>
+                  
+                  <div 
+                    class="format-option" 
+                    :class="{ 'selected': selectedFileForamt === 'word' }"
+                    @click="selectedFileForamt = 'word'"
+                  >
+                    <div class="format-option-icon">
+                      <img src="{% static 'images/icons/word-icon.png' %}" alt="Word" class="format-icon-large">
+                    </div>
+                    <div class="format-option-content">
+                      <div class="format-option-title">Word</div>
+                      <div class="format-option-description">Ideal for structured reports, documentation, and detailed written analysis.</div>
+                    </div>
+                  </div>
+                  
+                  <div 
+                    class="format-option" 
+                    :class="{ 'selected': selectedFileForamt === 'zip' }"
+                    @click="selectedFileForamt = 'zip'"
+                  >
+                    <div class="format-option-icon">
+                      <img src="{% static 'images/icons/collection-icon.png' %}" alt="Collection" class="format-icon-large">
+                    </div>
+                    <div class="format-option-content">
+                      <div class="format-option-title">Collection</div>
+                      <div class="format-option-description">Some reports contain multiple files, either in the same format or a mix of Word and Excel.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Report type selection step -->
+              <div class="report-type-selection" v-else-if="reportStep === 2">
+                <div class="selected-format">
+                  <div class="selected-format-icon">
+                    <img v-if="selectedFileForamt === 'excel'" src="{% static 'images/icons/excel-icon.png' %}" alt="Excel" class="selected-format-img">
+                    <img v-else-if="selectedFileForamt === 'word'" src="{% static 'images/icons/word-icon.png' %}" alt="Word" class="selected-format-img">
+                    <img v-else-if="selectedFileForamt === 'zip'" src="{% static 'images/icons/collection-icon.png' %}" alt="Collection" class="selected-format-img">
+                  </div>
+                  <div class="selected-format-name">
+                    <span v-if="selectedFileForamt === 'excel'">Excel</span>
+                    <span v-else-if="selectedFileForamt === 'word'">Word</span>
+                    <span v-else-if="selectedFileForamt === 'zip'">Collection</span>
+                  </div>
+                </div>
+                
+                <h3 class="format-selection-title">Select Type</h3>
+                <p class="format-selection-subtitle">
+                  Select the type of the report you want to generate in 
+                  <span v-if="selectedFileForamt === 'excel'">Excel</span>
+                  <span v-else-if="selectedFileForamt === 'word'">Word</span>
+                  <span v-else-if="selectedFileForamt === 'zip'">Collection</span> 
+                  format.
+                </p>
+                
+                <div class="format-options">
+                  <!-- Excel Report Types -->
+                  <template v-if="selectedFileForamt === 'excel'">
+                    <div 
+                      v-for="type in filteredExcelReportTypes"
+                      :key="type.value"
+                      class="format-option format-option-file-type" 
+                      :class="{
+                        'selected': selectedReportType === type.value,
+                        'warning-option': type.value === 'report' && selectedReportType === type.value && !projectAppraisals.is_completed
+                      }"
+                      @click="selectReportType(type.value)"
+                    >
+                      <div class="format-option-content">
+                        <div class="format-option-title">[[type.name]]</div>
+                        <div class="format-option-description">[[type.description]]</div>
+                        
+                        <!-- The warning message inside your format option -->
+                        <div 
+                          v-if="type.value === 'report' && selectedReportType === type.value && !projectAppraisals.is_completed"
+                          class="format-option-warning-message"
+                        >
+                          <div class="warning-message-text">
+                            Error in Validating Report: there is a mismatching term count!
+                          </div>
+                          <button class="warning-details-button" @click.stop="showValidationErrorModal">
+                            Read Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                  
+                  <!-- Word Report Types -->
+                  <template v-if="selectedFileForamt === 'word'">
+                    <div 
+                      v-for="type in filteredWordReportTypes"
+                      :key="type.value"
+                      class="format-option format-option-file-type" 
+                      :class="{
+                        'selected': selectedReportType === type.value,
+                        'warning-option': type.value === 'report' && selectedReportType === type.value && !projectAppraisals.is_completed
+                      }"
+                      @click="selectReportType(type.value)"
+                    >
+                      <div class="format-option-content">
+                        <div class="format-option-title">[[type.name]]</div>
+                        <div class="format-option-description">[[type.description]]</div>
+                        
+                        <!-- The warning message inside your format option -->
+                        <div 
+                          v-if="type.value === 'report' && selectedReportType === type.value && !projectAppraisals.is_completed"
+                          class="format-option-warning-message"
+                        >
+                          <div class="warning-message-text">
+                            Error in Validating Report: there is a mismatching term count!
+                          </div>
+                          <button class="warning-details-button" @click.stop="showValidationErrorModal">
+                            Read Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                  
+                  <!-- Collection (ZIP) Report Types -->
+                  <template v-if="selectedFileForamt === 'zip'">
+                    <div 
+                      v-for="type in filteredZipReportTypes"
+                      :key="type.value"
+                      class="format-option format-option-file-type" 
+                      :class="{
+                        'selected': selectedReportType === type.value,
+                        'warning-option': type.value === 'report' && selectedReportType === type.value && !projectAppraisals.is_completed
+                      }"
+                      @click="selectReportType(type.value)"
+                    >
+                      <div class="format-option-content">
+                        <div class="format-option-title">[[type.name]]</div>
+                        <div class="format-option-description">[[type.description]]</div>
+                        
+                        <!-- The warning message inside your format option -->
+                        <div 
+                          v-if="type.value === 'report' && selectedReportType === type.value && !projectAppraisals.is_completed"
+                          class="format-option-warning-message"
+                        >
+                          <div class="warning-message-text">
+                            Error in Validating Report: there is a mismatching term count!
+                          </div>
+                          <button class="warning-details-button" @click.stop="showValidationErrorModal">
+                            Read Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                </div>
+              </div>
+            </side-slider>
+        </div>
+    </div>
+
+    <!-- Report Preview Panel -->
+    <div class="report-preview-panel" v-if="showPreviewPanel">
+      <div class="report-preview-header">
+        <div class="report-preview-header-left">
+          <div class="report-preview-title">Preview</div>
+          <div class="report-preview-subtitle">Your final result may differ from the preview</div>
+        </div>
+        <div class="report-preview-header-right">
+          <a href="https://citemedical-my.sharepoint.com/:f:/p/mohamed_belkahla/EiWlKbkZkctDn3kcO8tfwCIBvgk4knOgU5rLhyR4K3YQwA?e=Bz7q8r" target="_blank" class="more-examples-button">
+            <span>More Examples</span>
+            <img src="{% static 'images/icons/external-link-icon.svg' %}" alt="External link" class="external-link-icon" width="14" height="14">
+          </a>
+        </div>
+      </div>
+      
+      <div class="report-preview-body">
+        <div class="report-preview-content">
+          <!-- Empty space for future preview content -->
+          <div class="preview-placeholder">
+            
+            <!-- Content section with proper v-if / v-else conditions -->
+            <div v-if="selectedFileForamt !== 'zip' && getPreviewLink()" class="selected-report-iframe">
+              <!-- Loader shown while iframe is loading -->
+              <div class="iframe-loader" v-if="iframeLoading">
+                <div class="loader-spinner"></div>
+                <p class="loading-text">Loading preview...</p>
+              </div>
+              
+              <!-- Preview content - iframe for document preview -->
+              <div class="iframe-container" v-show="!iframeLoading">
+                <iframe 
+                  :src="getPreviewLink()" 
+                  width="700" 
+                  height="700" 
+                  frameborder="0" 
+                  @load="iframeLoaded"
+                  ref="previewIframe"
+                ></iframe>
+              </div>
+            </div>
+          
+            <!-- Special handling for ZIP files that contain multiple documents -->
+            <div v-else-if="selectedFileForamt === 'zip' && getPreviewLink()" class="zip-files-container">              
+              <!-- Add this condition at the top -->
+              <div v-if="hasDownloadLinkOnly" class="download-only-container">
+                <div class="no-preview-message">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="56" height="56" rx="28" fill="#F2F4F7"/>
+                        <path d="M31 21.5V17.5L39 25.5V37.5C39 38.2956 38.6839 39.0587 38.1213 39.6213C37.5587 40.1839 36.7956 40.5 36 40.5H20C19.2044 40.5 18.4413 40.1839 17.8787 39.6213C17.3161 39.0587 17 38.2956 17 37.5V20.5C17 19.7044 17.3161 18.9413 17.8787 18.3787C18.4413 17.8161 19.2044 17.5 20 17.5H27M31 21.5H36L27 21.5M31 21.5V17.5L27 21.5" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M24 29.5H32M24 33.5H32" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  <p class="no-preview-text">Preview is not available for this file.</p>
+                  <a :href="getDownloadLink" target="_blank" class="download-link-button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.5 12.5V13.5C17.5 14.9001 17.5 15.6002 17.2275 16.135C16.9878 16.6054 16.6054 16.9878 16.135 17.2275C15.6002 17.5 14.9001 17.5 13.5 17.5H6.5C5.09987 17.5 4.3998 17.5 3.86502 17.2275C3.39462 16.9878 3.01217 16.6054 2.77248 16.135C2.5 15.6002 2.5 14.9001 2.5 13.5V12.5M14.1667 8.33333L10 12.5M10 12.5L5.83333 8.33333M10 12.5V2.5" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Download Example File
+                  </a>
+                </div>
+              </div>
+
+              <!-- Keep your existing ZIP file preview code, but add a v-else to make it conditional -->
+              <div v-else class="zip-file-preview">
+                <!-- Horizontal file list with navigation controls -->
+                <div class="zip-files-navigation">
+                  <button 
+                    class="zip-nav-button zip-nav-prev" 
+                    @click="navigateZipFiles('prev')"
+                    :disabled="!canNavigatePrev()"
+                  >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15 18L9 12L15 6" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  
+                  <div class="zip-files-grid-container">
+                    <div class="zip-files-grid">
+                      <div 
+                        v-for="(file, index) in getPreviewLink().exampleLink" 
+                        :key="index"
+                        class="zip-file-box"
+                        :class="{ 'selected': selectedZipFileIndex === index || (selectedZipFileIndex === null && index === 0) }"
+                        @click="selectZipFile(index)"
+                      >
+                        <div class="zip-file-icon-container">
+                          <img 
+                            v-if="file.type === 'word'" 
+                            src="{% static 'images/icons/word-icon.png' %}" 
+                            alt="Word" 
+                            class="file-icon"
+                          >
+                          <img 
+                            v-else-if="file.type === 'excel'" 
+                            src="{% static 'images/icons/excel-icon.png' %}" 
+                            alt="Excel" 
+                            class="file-icon"
+                          >
+                          <img 
+                            v-else-if="file.type === 'pdf'" 
+                            src="{% static 'images/icons/pdf-icon.png' %}" 
+                            alt="PDF" 
+                            class="file-icon"
+                          >
+                          <img 
+                            v-else 
+                            src="{% static 'images/icons/text-icon.png' %}" 
+                            alt="Text" 
+                            class="file-icon"
+                          >
+                        </div>
+                        <div class="zip-file-name" :title="file.name">
+                          [[file.name.length > 15 ? file.name.substring(0, 15) + '...' : file.name]]
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <button 
+                    class="zip-nav-button zip-nav-next" 
+                    @click="navigateZipFiles('next')"
+                    :disabled="!canNavigateNext()"
+                  >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 18L15 12L9 6" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+                
+                <!-- Preview section -->
+                <div class="zip-file-preview-section">
+                  <!-- Loader shown while iframe is loading -->
+                  <div class="iframe-loader" v-if="zipIframeLoading">
+                    <div class="loader-spinner"></div>
+                    <p class="loading-text">Loading preview...</p>
+                  </div>
+                  
+                  <!-- Preview content - iframe for document preview -->
+                  <div class="iframe-container" v-show="!zipIframeLoading && getSelectedZipFileLink()">
+                    <iframe 
+                      v-if="getSelectedZipFileLink()"
+                      :src="getSelectedZipFileLink()"
+                      width="700" 
+                      height="600" 
+                      frameborder="0" 
+                      @load="zipIframeLoaded"
+                      ref="zipPreviewIframe"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Fallback when no preview available -->
+            <div class="no-preview-message mt-2" v-else>
+              <div class="no-preview-icon">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 16V32L42.6667 37.3333M56 32C56 45.2548 45.2548 56 32 56C18.7452 56 8 45.2548 8 32C8 18.7452 18.7452 8 32 8C45.2548 8 56 18.7452 56 32Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <p>Preview is not available for this report type</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="report-builder-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header-icon-wrapper delete-icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    Report Builder Warning
+                </div>
+                <div class="modal-body"> 
+                    <div v-html="projectAppraisals.error_message "> </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="error-button" v-on:click="onRunReport(hideWarning=true)"> Yes, Generate </button>
+                    <button class="secondary-gray-button ml"> 
+                        <a :href="projectAppraisals.complete_articles_link"> 
+                            No. Complete Appraisals 
+                        </a> 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="client-logo-warning">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header-icon-wrapper delete-icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12.5V8M12 15.8354V15.875M21 12.5C21 17.4706 16.9706 21.5 12 21.5C7.02944 21.5 3 17.4706 3 12.5C3 7.52944 7.02944 3.5 12 3.5C16.9706 3.5 21 7.52944 21 12.5Z" stroke="#D92D20" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    Report Builder Warning
+                </div>
+                <div class="modal-body"> 
+                    We cannot generate your report document without a Logo image uploaded. 
+                    Please upload an image of your company logo to be included. You can upload your logo 
+                    <a href="{% url 'literature_reviews:product_details' id=literature_review_id %}">Here</a>, 
+                    
+                    Still stuck? Get instant help from our team by submitting a ticket 
+                    <a href="https://share.hsforms.com/1jqB4CJx9RxyvGL3qQYo2rgcq0hk" target=”_blank”> HERE.</a>
+                </div>
+                <div class="modal-footer">
+                    <button class="secondary-gray-button w-100" v-on:click="hideModal('client-logo-warning')"> Close </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Validation Error Modal -->
+    <div class="validation-error-modal" v-if="isValidationErrorModalVisible">
+      <div class="validation-error-header">
+            <button class="pagintaion-item mr" v-on:click="closeValidationErrorModal">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.9998 13.28L10.3465 8.93333C10.8598 8.42 10.8598 7.58 10.3465 7.06667L5.9998 2.72" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="validation-error-title">Validation Error</div>
+      </div>
+      
+      <div class="validation-error-body">
+        <div class="validation-error-content">
+            <h1 class="validation-error-content-title">Search Report Validation Error</h1>
+            <p class="validation-error-message">
+                Some Clinical Literature Appraisals are not completed yet! Ideally, if you want a full report you must first complete all of the listed Clinical Literature Appraisals under 2nd Pass Extractions, but if you wish to generate a Report without completing this step please click 'Generate report'.
+            </p>
+        </div>
+        <div class="validation-error-actions">
+            <a :href="projectAppraisals.complete_articles_link" class="button validate-search-terms-button">
+                Validate Search Terms
+            </a>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block 'scripts-block' %} 
+    <script type="application/javascript">
+        const reportBuilderURL = "{% url 'lit_reviews:report_builder_api' id=literature_review_id %}";
+        const searchTermsValidatorURL = "{% url 'lit_reviews:search_terms_validator_api' id=literature_review_id %}";
+        const deleteReportURL = "{% url 'lit_reviews:delete_report_api' id=literature_review_id report_id=0 %}";
+        const reportStatusURL = "{% url 'lit_reviews:report_status_api' id=literature_review_id %}";
+        const fullTextZipURL = "{% url 'lit_reviews:full_text_zip_api' id=literature_review_id %}";
+        const updateConfigURL = "{% url 'lit_reviews:update_config_api' id=literature_review_id config_id=0 %}";
+        const updateCommentURL = "{% url 'lit_reviews:update_comment_api' id=literature_review_id report_id=0 %}";
+        window.staticUrl = "{% static 'report_files_examples/' %}";
+    </script>
+    <script type="application/javascript" src="{% static "lit_reviews/vue/terms_validator_component.js" %}" > </script>
+    <script type="application/javascript" src="{% static "lit_reviews/vue/report_builder.js" %}" > </script>
+{% endblock %}

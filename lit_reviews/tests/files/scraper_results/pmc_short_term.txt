@@ -1,0 +1,2771 @@
+
+PMC - PMC10910656
+PMID- 38429060
+IS  - 1757-790X (Electronic)
+VI  - 17
+IP  - 3
+DP  - 2024
+TI  - Tuberculous peritonitis diagnosed following laparoscopic examination for
+      suspected advanced ovarian cancer.
+LID - e257973
+AB  - Laparoscopy for intra-abdominal exploration and tissue sampling is useful in
+      advanced ovarian cancers, in which it is presumed to be difficult to achieve
+      complete tumour reduction in the initial surgery. This is a report of a case of
+      suspected advanced ovarian cancer in a patient, who underwent laparoscopic
+      screening and was later pathologically diagnosed with tuberculous peritonitis. A 
+      woman in her 50s visited her local doctor with constipation. Since imaging showed
+      massive ascites she was referred for further evaluation. We initially suspected
+      advanced ovarian cancer due to the presence of massive ascites and multiple
+      peritoneal nodules. However, histopathological examination indicated that the
+      nodules were tubercles, and the patient was subsequently diagnosed with
+      tuberculous peritonitis. It is important to be aware that tuberculosis
+      peritonitis can be misdiagnosed or mistaken for advanced ovarian cancer.
+      Preoperative diagnosis of tuberculous peritonitis is often difficult. Tuberculous
+      peritonitis should be considered if intraoperative findings show diffuse nodular 
+      disseminated lesions.
+FAU - Nonaka, Mizuki
+AU  - Nonaka M
+AD  - Department of Obstetrics and Gynecology, Toho University Medical Center, Sakura, 
+      Japan
+FAU - Ishida, Hiroaki
+AU  - Ishida H
+AUID- ORCID: 0000-0002-0629-3284
+AD  - Department of Obstetrics and Gynecology, Toho University Medical Center, Sakura, 
+      Japan
+FAU - Manrai, Megumi
+AU  - Manrai M
+AD  - Department of Obstetrics and Gynecology, Toho University Medical Center, Sakura, 
+      Japan
+FAU - Takashima, Akiko
+AU  - Takashima A
+AD  - Department of Obstetrics and Gynecology, Toho University Medical Center, Sakura, 
+      Japan
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2024/02/20 [accepted]
+TA  - BMJ Case Rep
+JT  - BMJ Case Reports
+AID - bcr-2023-257973 [pii]
+AID - 10.1136/bcr-2023-257973 [doi]
+SO  - BMJ Case Rep. 2024 Mar 1;17(3):. doi:10.1136/bcr-2023-257973.
+
+PMC - PMC10914074
+PMID- 38425030
+IS  - 1941-5923 (Electronic)
+VI  - 25
+DP  - 2024
+TI  - Conservative versus Surgical Treatment of Pneumatosis Intestinalis: Experience
+      from a Multidisciplinary Center.
+PG  - e943166-1-8
+AB  - Case series Patients: Male, 80-year-old • Male, 86-year-old • Male, 62-year-old
+      Final Diagnosis: Pneumatosis intestinalis Symptoms: Abdominal pain Clinical
+      Procedure: — Specialty: Gastroenterology and Hepatolog Objective:: Rare disease
+      Background:: Pneumatosis intestinalis (PI) is an uncommon condition that is not
+      specific to any particular disease. Currently, there is no specific clinical
+      guideline for treating and diagnosing PI. Furthermore, there are numerous causes 
+      of PI, which makes it difficult for clinicians – internal medicine physicians as 
+      well as surgeons – to take a clinical approach to diagnosis and treatment. Case
+      Reports:: We present 3 clinical scenarios with PI. In the first patient there was
+      a solitary image of PI, which was treated successfully with parenteral nutrition 
+      and intravenous antibiotics, and he was discharged after 5 days. The other 2
+      cases, which involve gas in the hepatic portal vein (HPVG), were handled in 2
+      distinct ways: surgically and conservatively. One needed diagnostic laparoscopy
+      with necrotic segmentectomy and was discharged from the hospital on postoperative
+      day 16. The last patient, received resuscitation treatment due to severe
+      comorbidities and inability to tolerate surgery. After 3 days, abdominal CT scan 
+      revealed no signs of remaining PI. However, the patient was terminally discharged
+      after 7 weeks of treatment due to septic shock caused by sacrococcygeal ulcer and
+      urinary tract infection. By drawing comparisons among these 3 scenarios, we aim
+      to highlight certain indicators for conservative treatment success. Conclusions::
+      PI with HPVG is a sign of severe prognosis, which often requires surgical
+      intervention. However, the decision to manage conservatively or surgically
+      depends on the patient’s condition and other criteria such as peritonitis, free
+      fluid in the abdominal cavity, and the presence of shock. Physicians should also 
+      weigh the benefits and risks of surgical intervention in critically ill patients.
+FAU - Tran, Huy Duc
+AU  - Tran HD
+FAU - Tran, Sang Thanh
+AU  - Tran ST
+FAU - Le, Triet Minh
+AU  - Le TM
+FAU - Pham, Vinh Ngoc Truong
+AU  - Pham VNT
+FAU - Le, Kien Trung
+AU  - Le KT
+FAU - Le, An Trinh Ngoc
+AU  - Le ATN
+FAU - Van Ung, Viet
+AU  - Van Ung V
+FAU - Hoang, Tan Danh
+AU  - Hoang TD
+FAU - Nguyen, Thinh Huu
+AU  - Nguyen TH
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2023/11/13 [received]
+PHST- 2024/01/24 [accepted]
+PHST- 2024/02/01 [revised]
+TA  - Am J Case Rep
+JT  - The American Journal of Case Reports
+AID - 10.12659/AJCR.943166 [doi]
+AID - 943166 [pii]
+SO  - Am J Case Rep. 2024 Mar 01;25:e943166-1-8. doi:10.12659/AJCR.943166.
+
+PMC - PMC10910664
+PMID- 38439060
+IS  - 1477-7819 (Electronic)
+VI  - 22
+DP  - 2024
+TI  - Application of hand-sewn esophagojejunostomy in laparoscopic total gastrectomy.
+LID - 73
+AB  - Objective: To investigate the clinical efficacy and prognostic implication of
+      hand-sewn anastomosis in laparoscopic total gastrectomy (LTG). Methods:
+      Retrospective analysis is adopted to the clinicopathologic data of 112 patients
+      with gastric cancer (GC) who went through LTG in the Department of General
+      Surgery, the Second Affiliated Hospital of Anhui Medical University between
+      October 2020 and October 2022. Among them, 60 individuals receiving medical care 
+      were split into the hand-sewn anastomosis group (Group H, N = 60); while, 52
+      individuals were split into the circular stapler anastomosis group (Group C,
+      N = 52) The clinical efficacy and prognostic conditions of hand-sewn anastomosis 
+      are compared with those of circular stapler anastomosis in the application of
+      LTG. Results: The analysis results indicated that no notable difference was
+      observed in intraoperative bleeding volume, time to first flatus (TFF),
+      postoperative hospitalization duration and postoperative complications among the 
+      two groups (P > 0.05). Group H had shorter esophagojejunal anastomosis duration
+      (20.0 min vs. 35.0 min) and surgery duration (252.6 ± 19.4 min vs.
+      265.9 ± 19.8 min), smaller incisions (5.0 cm vs. 10.5 cm), and lower
+      hospitalization costs (58415.0 CNY vs. 63382.5 CNY) compared to Group C
+      (P < 0.05). Conclusion: The clinical efficacy and the postoperative complications
+      of hand-sewn esophagojejunostomy are basically equivalent in comparison to the
+      circular stapler anastomosis in the application of LTG. Its advantage lies in
+      shorter esophagojejunal anastomosis duration, shorter surgery duration, smaller
+      incisions, lower hospitalization costs and wider adaptability of the location of 
+      the tumor.
+FAU - Gu, Hao
+AU  - Gu H
+AD  - grid.452696.a0000 0004 7533 3408Department of General Surgery, the Second
+      Affiliated Hospital of Anhui Medical University, Hefei, Anhui China
+FAU - Li, Weixiang
+AU  - Li W
+AD  - grid.452696.a0000 0004 7533 3408Department of General Surgery, the Second
+      Affiliated Hospital of Anhui Medical University, Hefei, Anhui China
+FAU - Zhou, Lianbang
+AU  - Zhou L
+AD  - grid.452696.a0000 0004 7533 3408Department of General Surgery, the Second
+      Affiliated Hospital of Anhui Medical University, Hefei, Anhui China
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240302
+GR  - 81902456
+PHST- 2023/12/29 [received]
+PHST- 2024/02/24 [accepted]
+TA  - World J Surg Oncol
+JT  - World Journal of Surgical Oncology
+AID - 3350 [pii]
+AID - 10.1186/s12957-024-03350-4 [doi]
+SO  - World J Surg Oncol. 2024 Mar 2;22:. doi:10.1186/s12957-024-03350-4.
+
+PMC - PMC10913797
+PMID- 38445065
+IS  - 1177-8881 (Electronic)
+VI  - 18
+DP  - 2024
+TI  - Penehyclidine for Prevention of Postoperative Nausea and Vomiting in Patients
+      Undergoing Gynecological Laparoscopic Surgery Under Combined Intravenous and
+      Inhalation Anesthesia: A Randomized, Double-Blind, Placebo-Controlled Trial.
+PG  - 685-97
+AB  - Purpose: We designed this study to investigate the effect of intravenous use of
+      penehyclidine on postoperative nausea and vomiting (PONV) after gynecological
+      laparoscopic surgery. Patients and Methods: Ninety-two Women Patients (Aged ≥ 18)
+      Scheduled for Elective Gynecologic Laparoscopy Were Enrolled in the Current
+      Study. Patients Were Equally Randomized Assigned Into Penehyclidine group (PHC
+      group: received a bolus of penehyclidine 10 μg/kg during the induction of
+      anesthesia, then followed by a continuous infusion of 10 μg/kg penehyclidine at a
+      fixed rate of 2.0 mL/h in postoperative intravenous analgesia pump over 48h, 0.5 
+      mg upper limit respectively) or Control group (received 0.9% saline in replace of
+      penehyclidine at the same time points). The primary outcome measure was the
+      incidence of postoperative nausea and vomiting in the postanesthesia care unit
+      and ward area. Quality of Recovery-15 (QoR-15) scores and general comfort
+      questionnaire (GCQ) scores were assessed on postoperative day (POD) 1, 2.
+      Results: Patients between two groups had comparable baseline characteristics.
+      Compared with the Control group, the incidence and severity of PONV,
+      postoperative nausea (PON), and postoperative vomiting (POV) were significantly
+      lower in the PHC group at 2h (PONV: P = 0.002, P = 0.004, respectively; PON: P = 
+      0.018, P = 0.038, respectively; POV: P = 0.011, P = 0.072, respectively), 24h
+      (PONV: P = 0.003, P = 0.001, respectively; PON: P = 0.010, P = 0.032,
+      respectively; POV: P = 0.006, P = 0.044, respectively), and 48h (PONV: P = 0.003,
+      P = 0.002, respectively; PON: P = 0.007, P = 0.019, respectively; POV: P = 0.002,
+      P = 0.013, respectively) after surgery. The QoR-15 and GCQ scores of the PHC
+      group were significantly higher than those of the Control group at POD 1, 2 (P < 
+      0.001; P < 0.001, respectively). Conclusion: Our findings suggest that
+      perioperative intravenous application of penehyclidine can effectively prevent
+      postoperative nausea and vomiting in gynecological laparoscopic surgery patients 
+      and improve postoperative recovery.
+FAU - Zhao, Kai
+AU  - Zhao K
+AUID- ORCID: 0000-0002-7943-1932
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+FAU - Gao, Yali
+AU  - Gao Y
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+FAU - Zhang, Jianping
+AU  - Zhang J
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+FAU - Wang, Shan
+AU  - Wang S
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+FAU - Chen, Jiaqi
+AU  - Chen J
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+FAU - Guo, Fenglin
+AU  - Guo F
+AUID- ORCID: 0000-0002-0037-7153
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+FAU - Wang, Sheng
+AU  - Wang S
+AD  - Department of Anesthesiology, the First Affiliated Hospital of USTC, Division of 
+      Life Sciences and Medicine, University of Science and Technology of China (USTC),
+      Hefei, Anhui, People’s Republic of China
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2023/12/07 [received]
+PHST- 2024/02/13 [accepted]
+TA  - Drug Des Devel Ther
+JT  - Drug Design, Development and Therapy
+AID - 453327 [pii]
+AID - 10.2147/DDDT.S453327 [doi]
+SO  - Drug Des Devel Ther. 2024 Mar 01;18:685-97. doi:10.2147/DDDT.S453327.
+
+PMC - PMC10940422
+PMID- 38496209
+IS  - 2296-875X (Electronic)
+VI  - 11
+DP  - 2024
+TI  - Shifting paradigms: a pivotal study on laparoscopic resection for colovesical
+      fistulas in diverticular disease.
+LID - 1370370
+AB  - Background: Colovesical fistulas (CVFs) pose a challenge in diverticulitis,
+      affecting 4% to 20% of sigmoid colon cases. Complicated diverticular disease
+      contributes significantly, accounting for 60%−70% of all CVFs. Existing studies
+      on laparoscopic CVF management lack clarity on its effectiveness in diverticular 
+      cases compared to open surgery. This study redefines paradigms by assessing the
+      potentiality, adequacy, and utility of laparoscopy in treating CVFs due to
+      complicated diverticular disease, marking a paradigm shift in surgical
+      approaches. Methods: Conducting a retrospective analysis at Ospedale Monaldi
+      A.O.R.N dei Colli and University Federico II, Naples, Italy, patients undergoing 
+      surgery for CVF secondary to diverticular disease between 2010 and 2020 were
+      examined. Comprehensive data, including demographics, clinical parameters,
+      preoperative diagnoses, operative and postoperative details, and
+      histopathological examination, were meticulously recorded. Patients were
+      classified into open surgery (Group A) and laparoscopy (Group B). Statistical
+      analysis used IBM SPSS Statistic 19.0. Results: From January 2010 to December
+      2020, 76 patients underwent surgery for colovesical fistula secondary to
+      diverticular disease. Laparoscopic surgery (Group B, n = 40) and open surgery
+      (Group A, n = 36) showed no statistically significant differences in operative
+      time, bladder suture, or associated procedures. Laparoscopy demonstrated
+      advantages, including lower intraoperative blood loss, reduced postoperative
+      primary ileus, and a significantly shorter length of stay. Postoperative
+      morbidity differed significantly between groups. Mortality occurred in Group A
+      but was unrelated to surgical complications. No reoperations were observed.
+      Two-year follow-up revealed no fistula recurrence. Conclusion: This pivotal study
+      marks a paradigm shift by emphasizing laparoscopic resection and primary
+      anastomosis as a safe and feasible option for managing CVF secondary to
+      diverticular disease. Comparable conversion, morbidity, and mortality rates to
+      the open approach underscore the transformative potential of these findings. The 
+      study's emphasis on patient selection and surgeon experience challenges existing 
+      paradigms, offering a progressive shift toward minimally invasive solutions.
+FAU - Rizzuto, Antonia
+AU  - Rizzuto A
+AD  - Department of Medical and Surgical Science, University of Magna Graecia,
+      Catanzaro, Italy
+FAU - Andreuccetti, Jacopo
+AU  - Andreuccetti J
+AD  - Department of General Surgery, Civil Hospital of Brescia, Brescia, Italy
+FAU - Bracale, Umberto
+AU  - Bracale U
+AD  - Department of Medicine, University of Salerno, Fisciano, Italy
+FAU - Silvestri, Vania
+AU  - Silvestri V
+AD  - Department of Public Health, School of Medicine and Surgery, University of Naples
+      Federico II, Naples, Italy
+FAU - Pontecorvi, Emanuele
+AU  - Pontecorvi E
+AD  - Department of Public Health, School of Medicine and Surgery, University of Naples
+      Federico II, Naples, Italy
+FAU - Reggio, Stefano
+AU  - Reggio S
+AD  - Department of General, Laparoscopic and Robotic Surgery, Monaldi Hospital,
+      Naples, Italy
+FAU - Sagnelli, Carlo
+AU  - Sagnelli C
+AD  - Department of General, Laparoscopic and Robotic Surgery, Monaldi Hospital,
+      Naples, Italy
+FAU - Peltrini, Roberto
+AU  - Peltrini R
+AD  - Department of Public Health, School of Medicine and Surgery, University of Naples
+      Federico II, Naples, Italy
+FAU - Amaddeo, Angela
+AU  - Amaddeo A
+AD  - Department of Medical and Surgical Science, University of Magna Graecia,
+      Catanzaro, Italy
+FAU - Bozzarello, Cristina
+AU  - Bozzarello C
+AD  - Department of Medical and Surgical Science, University of Magna Graecia,
+      Catanzaro, Italy
+FAU - Pignata, Giusto
+AU  - Pignata G
+AD  - Department of General Surgery, Civil Hospital of Brescia, Brescia, Italy
+FAU - Cuccurullo, Diego
+AU  - Cuccurullo D
+AD  - Department of General, Laparoscopic and Robotic Surgery, Monaldi Hospital,
+      Naples, Italy
+FAU - Corcione, Francesco
+AU  - Corcione F
+AD  - Department of Public Health, School of Medicine and Surgery, University of Naples
+      Federico II, Naples, Italy
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2024/01/14 [received]
+PHST- 2024/02/22 [accepted]
+TA  - Front Surg
+JT  - Frontiers in Surgery
+AID - 10.3389/fsurg.2024.1370370 [doi]
+SO  - Front Surg. 2024 Mar 01;11:. doi:10.3389/fsurg.2024.1370370.
+
+PMC - PMC11059562
+PMID- 39141510
+IS  - 1300-4948 (Print)
+IS  - 2148-5607 (Electronic)
+VI  - 35
+IP  - 3
+DP  - 2024 Mar
+TI  - Long-Term Efficacy of Single-Incision Laparoscopic Intragastric Resection in
+      Treating Gastrointestinal Stromal Tumors.
+PG  - 193-203
+AB  - Background/Aims:: Gastrointestinal stromal tumors (GISTs), the most common
+      mesenchymal tumors in the gastrointestinal tract, are increasingly treated with
+      minimally invasive surgeries. Developed techniques include laparoscopic,
+      endoscopic, and hybrid methods for gastric GIST resection. Our study, focusing on
+      single-incision laparoscopic intragastric resection for gastric GISTs, aims to
+      evaluate its safety, efficacy, and long-term outcomes. Materials and Methods:: In
+      a retrospective study of GIST surgery involving 14 patients who underwent
+      single-incision laparoscopic intragastric resections, we analyzed and compared
+      their preoperative demographics, American Society of Anesthesiologists (ASA)
+      scores, tumor size, neoadjuvant treatment, operation duration, hospital stay,
+      mitotic and Ki-67 indexes, and histological features with those of patients who
+      underwent open and laparoscopic wedge resections, to assess the impact on both
+      survival and disease-free survival. Results:: Average operation time was 93.07
+      minutes (range 81-120 minutes). Average blood loss: 67 ± 20 mL (range 40-110 mL).
+      Postoperative hospital stay averaged 6.79 days (range 4-16 days). Strong
+      correlations were observed between preoperative and pathological tumor sizes (P =
+      .001, P < .001). Survival analysis indicated a significant association with ASA
+      scores (P = .031), but not with mitotic index, Ki-67, or tumor size. Average
+      survival was 80.57 months, with no recurrence or metastasis during follow-up.
+      Conclusion:: Based on our experience, the single-incision laparoscopic
+      intragastric resection method emerges as a highly efficient, time-saving, and
+      gentle oncological procedure, providing a safe and minimally invasive alternative
+      resulting in shorter hospital stays and excellent long-term outcomes with minimal
+      recurrence. For more definitive conclusions, larger, multicenter, and prospective
+      studies are recommended.
+FAU - Umman, Veysel
+AU  - Umman V
+AUID- ORCID: 0000-0003-1760-7346
+FAU - Kılınçarslan, Özgür
+AU  - Kılınçarslan Ö
+AUID- ORCID: 0000-0001-5811-7808
+FAU - Temel, Recep
+AU  - Temel R
+AUID- ORCID: 0000-0003-2390-4806
+FAU - Bağdat, Yener
+AU  - Bağdat Y
+AUID- ORCID: 0000-0002-9378-1891
+FAU - Tunalı, Sarp
+AU  - Tunalı S
+AUID- ORCID: 0000-0001-9185-1676
+FAU - Ersin, Sinan
+AU  - Ersin S
+AUID- ORCID: 0000-0003-4263-1727
+FAU - Sezer, Taylan Özgür
+AU  - Sezer TÖ
+AUID- ORCID: 0000-0001-9030-6561
+FAU - Fırat, Özgür
+AU  - Fırat Ö
+AUID- ORCID: 0000-0002-1231-626X
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2024/02/08 [received]
+PHST- 2024/02/20 [accepted]
+TA  - Turk J Gastroenterol
+JT  - The Turkish Journal of Gastroenterology
+AID - 10.5152/tjg.2024.24080 [doi]
+AID - tjg-35-3-193 [pii]
+SO  - Turk J Gastroenterol. 2024 Mar 01;35(3):193-203. doi:10.5152/tjg.2024.24080.
+
+PMC - PMC10943424
+PMID- 38460292
+IS  - 2210-2612 (Electronic)
+VI  - 117
+DP  - 2024 Apr
+TI  - Secondary amenorrhea as the first presentation of Krukenberg tumor arising from
+      the gastroesophageal junction in a 34-year-old woman: A case report.
+LID - 109472
+AB  - Introduction: Krukenberg tumors account for 9 % of metastatic ovarian tumors,
+      they usually originate from the stomach and colon and are microscopically
+      characterized by the presence of mucus-filled signet-ring cells. Krukenberg tumor
+      originating from the gastroesophageal junction is extremely rare, which limits
+      establishing proper diagnosis and management. Presentation of case: A 34-year-old
+      women presented with a complaint of amenorrhea, ultrasonography showed bilateral 
+      ovarian masses, pathological studies revealed Krukenberg tumor,
+      immunohistochemistry of the tumor was positive for (CK1, and CK20). Upper GI
+      endoscopy revealed the primary lesion located at the inferior esophagus and
+      extending to the cardia. Despite marked improvement after introducing a
+      chemotherapy regimen of oxaliplatin, calcium folinate and fluorouracil, the
+      patient refused to complete her therapeutic course and died 5 months after
+      discontinuation. Discussion: Krukenberg tumor may be asymptomatic but may also
+      manifest as pelvic pain, bloating, and menstrual cycle abnormalities.
+      Immunohistochemistry of Krukenberg tumor is mandatory to determine the primary
+      tumor. Positivity of CK1, CK20 and negativity of CK7 indicates the
+      gastrointestinal origin of the tumor. Different choices are available for the
+      management of Krukenberg tumor but it still has a poor prognosis with an average 
+      survival rate of 14 months. Conclusion: Krukenberg tumor from the esophagus is
+      rare and still enigmatic in terms of management. In this article, we aim to draw 
+      attention into possible presentations of the tumor by providing the first case in
+      Syria of Krukenberg tumor originating from the esophagus and presenting as
+      secondary amenorrhea and bilateral adnexal masses.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Hassan, Bassam
+AU  - Hassan B
+AD  - Faculty of Medicine, Cancer Research Center, Tishreen University, Latakia, Syria
+FAU - Abdullah, Lava
+AU  - Abdullah L
+AD  - Department of Obstetrics and Gynecology, Police Hospital, Damascus, Syria
+FAU - Hussein, Firas
+AU  - Hussein F
+AD  - Department of Hematology and Oncology, Tishreen University Hospital, Syria
+FAU - Issa, Aghiad
+AU  - Issa A
+AD  - Faculty of Medicine, Cancer Research Center, Tishreen University, Latakia, Syria
+FAU - Al-Assi, Thanaa
+AU  - Al-Assi T
+AD  - Department of Gynecology, Alsaydeh Surgical Hospital, Latakia, Syria
+FAU - Alshehabi, Zuheir
+AU  - Alshehabi Z
+AD  - Faculty of Medicine, Cancer Research Center, Tishreen University, Latakia, Syria
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2024/01/22 [received]
+PHST- 2024/02/28 [revised]
+PHST- 2024/02/29 [accepted]
+TA  - Int J Surg Case Rep
+JT  - International Journal of Surgery Case Reports
+AID - S2210-2612(24)00253-0 [pii]
+AID - 10.1016/j.ijscr.2024.109472 [doi]
+SO  - Int J Surg Case Rep. 2024 Mar 01;117:. doi:10.1016/j.ijscr.2024.109472.
+
+PMC - PMC10984135
+PMID- 38562358
+IS  - 2168-8184 (Electronic)
+VI  - 16
+IP  - 3
+TI  - Hyperreactio Luteinalis: A Rare Phenomenon Complicating Gestational Trophoblastic
+      Disease Presenting as Acute Abdomen in the Convalescence Period.
+LID - e55382
+AB  - The hydatidiform mole is a rare gynaecological condition originating from
+      trophoblastic cells, with an incidence of 1-3 per 1000 pregnancies. Theca lutein 
+      cysts (TLCs) and an invasive mole are rarely observed in association with a
+      partial mole. This case describes an unusual case involving a 17-year-old
+      primigravida at 11 weeks of gestation. She presented with abdominal pain and was 
+      diagnosed with a molar pregnancy with post-evacuation rupture of TLC, presenting 
+      as an acute abdomen, subsequently undergoing laparoscopy. Post-molar pregnancies 
+      exhibit a highly variable course, ranging from recurrent pregnancy loss and
+      stillbirths to preterm deliveries and recurrent molar pregnancies. Few studies
+      are available on obstetric outcomes after a molar pregnancy; most available data 
+      originate from national databases and monocentric research.
+FAU - Rathod, Sachin
+AU  - Rathod S
+AD  - Department of Obstetrics and Gynaecology, Datta Meghe Institute of Higher
+      Education and Research, Wardha, IND
+FAU - Acharya, Neema
+AU  - Acharya N
+AD  - Department of Obstetrics and Gynaecology, Datta Meghe Institute of Higher
+      Education and Research, Wardha, IND
+FAU - Shanoo, Amardeep
+AU  - Shanoo A
+AD  - Department of Obstetrics and Gynaecology, Datta Meghe Institute of Higher
+      Education and Research, Wardha, IND
+FAU - Mishra, Preeti
+AU  - Mishra P
+AD  - Department of Pathology, Datta Meghe Institute of Higher Education and Research, 
+      Wardha, IND
+FAU - Dande, Anubha
+AU  - Dande A
+AD  - Department of Obstetrics and Gynaecology, Datta Meghe Institute of Higher
+      Education and Research, Wardha, IND
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+PHST- 2024/02/11 [received]
+PHST- 2024/03/02 [accepted]
+TA  - Cureus
+JT  - Cureus
+AID - 10.7759/cureus.55382 [doi]
+SO  - Cureus. ;16(3):. doi:10.7759/cureus.55382.
+
+PMC - PMC10931398
+PMID- 38473005
+IS  - 2075-4418 (Electronic)
+VI  - 14
+IP  - 5
+DP  - 2024 Mar
+TI  - Spontaneous Fistula and Abdominal Wall Endometriosis Due to Occult Existence of
+      Unicornuate Right Uterus with Rudimentary Non-Communicating Functioning Left
+      Horn.
+LID - 532
+AB  - Accurate diagnosis of Müllerian duct anomalies (MDA) remains a clinical challenge
+      even by direct surgical inspection. Although obstetrical complications are more
+      frequent in women with MDA, some subtypes allow normal reproduction, further
+      delaying the diagnosis. Unicornuate uterus with a rudimentary non-communicating
+      functioning horn is a rare form of MDA, susceptible to many gynecologic and
+      obstetric complications such as miscarriages, premature birth, hematosalpinx,
+      endometriosis, and chronic pelvic pain. We present an entire case pictorial assay
+      including preoperative imaging as well as the surgical correction of the uterine 
+      anomaly and the associated complication of an occult unicornuate right uterus
+      with rudimentary non-communicating functioning left horn (Class U4aC0V0/ European
+      Society of Human Reproduction and Embryology/European Society of Gastrointestinal
+      Endoscopy Classification) and its natural evolution following a previous
+      incomplete surgical treatment. The patient had an emergency left adnexectomy for 
+      hematosalpinx and ovarian endometrioma at her local county hospital. After five
+      years, the patient presented with severe dysmenorrhea and abdominal endometriosis
+      due to blocked retrograde menstruation from a rudimentary, non-communicating
+      functioning horn. Surgical treatment with the resection of the rudimentary
+      uterine horn, together with the abdominal wall endometriosis lesions, was carried
+      out with good outcomes.
+FAU - Cruciat, Gheorghe
+AU  - Cruciat G
+AUID- ORCID: https://orcid.org/0000-0001-8162-4103
+AD  - Obstetrics and Gynecology I, Mother and Child Department, “Iuliu Hatieganu”
+      University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania;
+      gheorghe.cruciat@elearn.umfcluj.ro (G.C.); florianandreea@ymail.com (A.F.);
+      georgiana.nemeti@elearn.umfcluj.ro (G.N.); dianasachelaru@yahoo.com (D.S.);
+      daniel.muresan@umfcluj.ro (D.M.)
+FAU - Staicu, Adelina
+AU  - Staicu A
+AUID- ORCID: https://orcid.org/0000-0003-3755-320X
+AD  - Obstetrics and Gynecology I, Mother and Child Department, “Iuliu Hatieganu”
+      University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania;
+      gheorghe.cruciat@elearn.umfcluj.ro (G.C.); florianandreea@ymail.com (A.F.);
+      georgiana.nemeti@elearn.umfcluj.ro (G.N.); dianasachelaru@yahoo.com (D.S.);
+      daniel.muresan@umfcluj.ro (D.M.)
+FAU - Florian, Andreea
+AU  - Florian A
+AD  - Obstetrics and Gynecology I, Mother and Child Department, “Iuliu Hatieganu”
+      University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania;
+      gheorghe.cruciat@elearn.umfcluj.ro (G.C.); florianandreea@ymail.com (A.F.);
+      georgiana.nemeti@elearn.umfcluj.ro (G.N.); dianasachelaru@yahoo.com (D.S.);
+      daniel.muresan@umfcluj.ro (D.M.)
+FAU - Nemeti, Georgiana
+AU  - Nemeti G
+AUID- ORCID: https://orcid.org/0000-0002-8567-1246
+AD  - Obstetrics and Gynecology I, Mother and Child Department, “Iuliu Hatieganu”
+      University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania;
+      gheorghe.cruciat@elearn.umfcluj.ro (G.C.); florianandreea@ymail.com (A.F.);
+      georgiana.nemeti@elearn.umfcluj.ro (G.N.); dianasachelaru@yahoo.com (D.S.);
+      daniel.muresan@umfcluj.ro (D.M.)
+FAU - Sachelaru, Diana
+AU  - Sachelaru D
+AD  - Obstetrics and Gynecology I, Mother and Child Department, “Iuliu Hatieganu”
+      University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania;
+      gheorghe.cruciat@elearn.umfcluj.ro (G.C.); florianandreea@ymail.com (A.F.);
+      georgiana.nemeti@elearn.umfcluj.ro (G.N.); dianasachelaru@yahoo.com (D.S.);
+      daniel.muresan@umfcluj.ro (D.M.)
+FAU - Andras, David
+AU  - Andras D
+AD  - Department of Surgery, “Iuliu Haţieganu” University of Medicine and Pharmacy,
+      400012 Cluj-Napoca, Romania; andrasdavid88@elearn.umfcluj.ro
+FAU - Muresan, Daniel
+AU  - Muresan D
+AUID- ORCID: https://orcid.org/0000-0002-7744-0501
+AD  - Obstetrics and Gynecology I, Mother and Child Department, “Iuliu Hatieganu”
+      University of Medicine and Pharmacy, 400012 Cluj-Napoca, Romania;
+      gheorghe.cruciat@elearn.umfcluj.ro (G.C.); florianandreea@ymail.com (A.F.);
+      georgiana.nemeti@elearn.umfcluj.ro (G.N.); dianasachelaru@yahoo.com (D.S.);
+      daniel.muresan@umfcluj.ro (D.M.)
+LA  - eng
+PT  - Journal Article
+DEP - 20240302
+PHST- 2024/01/29 [received]
+PHST- 2024/02/22 [revised]
+PHST- 2024/02/29 [accepted]
+TA  - Diagnostics (Basel)
+JT  - Diagnostics
+AID - 10.3390/diagnostics14050532 [doi]
+AID - diagnostics-14-00532 [pii]
+SO  - Diagnostics (Basel). 2024 Mar 02;14(5):. doi:10.3390/diagnostics14050532.
+
+PMC - PMC10906565
+PMID- 38428909
+IS  - 0025-7974 (Print)
+IS  - 1536-5964 (Electronic)
+VI  - 103
+IP  - 9
+DP  - 2024 Mar 01
+TI  - Dorsal approach in laparoscopic extended left hemi-hepatectomy: A case series.
+LID - e37336
+AB  - Rationale:: The utility of the dorsal approach has been reported for laparoscopic
+      left hemi-hepatectomy. Patient concerns:: The aim of the present study is to show
+      the usefulness of the dorsal approach for laparoscopic extended
+      left-hemi-hepatectomy while ensuring safe identification of hepatic veins and
+      dissection of the dorsal tumor margin. Diagnoses:: Tumors requiring extended left
+      hemi-hepatectomy. Interventions:: After mobilization of the lateral sector and
+      division of the Arantius plate, parenchyma above the Arantius plate is removed to
+      expose the root of the middle hepatic vein and left hepatic vein. Each of these
+      veins can be isolated separately either intra- or extra-hepatically. After
+      removing the parenchyma on the cranial side of the left Glissonean pedicle
+      continuous with the exposed hepatic veins, the left Glissonean pedicle is
+      isolated using the Glissonean pedicle transection method. After division of the
+      left hepatic vein and Glissonean pedicle, segment 4 (in which the main part of
+      the tumor is commonly located) is dissected from the anterior plane of the
+      paracaval portion of the caudate lobe by the dorsal approach, along with the
+      hepatic hilum. Following dissection of the dorsal side of the tumor, and division
+      of parenchyma from the anterior edge of the liver, the anterior Glissonean
+      branches and middle hepatic vein are divided safely and the specimen is resected.
+      Outcomes:: Three patients underwent laparoscopic extended left hemi-hepatectomy, 
+      with no open conversions. Operative time and blood loss were 331 (concomitant
+      with another partial hepatectomy), 277, and 315 minutes; and 200, 100, and 100 g,
+      respectively. The postoperative courses were uneventful. Lessons:: The dorsal
+      approach maximizes the advantages of laparoscopic extended left hemi-hepatectomy 
+      and can be performed safely.
+FAU - Sakamoto, Katsunori
+AU  - Sakamoto K
+AUID- ORCID: https://orcid.org/0000-0002-6431-0011
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Ogawa, Kohei
+AU  - Ogawa K
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Tamura, Kei
+AU  - Tamura K
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Honjo, Masahiko
+AU  - Honjo M
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Hikida, Takahiro
+AU  - Hikida T
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Ito, Chihiro
+AU  - Ito C
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Iwata, Miku
+AU  - Iwata M
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Sakamoto, Akimasa
+AU  - Sakamoto A
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Shine, Mikiya
+AU  - Shine M
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Nishi, Yusuke
+AU  - Nishi Y
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Uraoka, Mio
+AU  - Uraoka M
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Nagaoka, Tomoyuki
+AU  - Nagaoka T
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Funamizu, Naotake
+AU  - Funamizu N
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+FAU - Takada, Yasutsugu
+AU  - Takada Y
+AD  - Department of Hepato-Biliary-Pancreatic and Breast Surgery, Ehime University
+      Graduate School of Medicine, Shitsukawa, Toon, Ehime, Japan.
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2023/11/21 [received]
+PHST- 2024/02/01 [accepted]
+TA  - Medicine (Baltimore)
+JT  - Medicine
+AID - 10.1097/MD.0000000000037336 [doi]
+SO  - Medicine (Baltimore). 2024 Mar 01;103(9):. doi:10.1097/MD.0000000000037336.
+
+PMC - PMC10918479
+PMID- 38456168
+IS  - 2214-9112 (Electronic)
+VI  - 41
+DP  - 2024 Mar
+TI  - Ovarian vein and inferior vena cava thrombosis after vaginal delivery: A case
+      report.
+LID - e00592
+AB  - Ovarian vein thrombosis (OVT) is a rare but serious complication, most commonly
+      occurring in the postpartum period. This article reports the case of a
+      40-year-old woman who presented 12 days after a normal vaginal delivery with
+      fever and pelvic pain. An initial diagnosis of endometritis was made, and empiric
+      antibiotic therapy was administered, but the fever persisted. An ultrasound scan 
+      was then done to rule out appendicitis, which revealed a thrombosis of the right 
+      ovarian vein extended to the inferior vena cava. Appropriate anticoagulant
+      therapy was immediately started with spectacular clinical improvement.Ovarian
+      vein thrombosis is difficult to diagnose as the signs are nonspecific, like fever
+      and pelvic pain; radiological exploration, typically doppler ultrasound and
+      computerized tomography, are therefore required. Early treatment is crucial to
+      prevent severe complications, especially pulmonary embolism. This case emphasizes
+      the need for heightened clinical awareness and a multidisciplinary approach to
+      achieve optimal outcomes in managing ovarian vein thrombosis.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Mahfoud, Hounaida
+AU  - Mahfoud H
+AD  - Gynaecology-Obstetrics and Endoscopy Department, Maternity Souissi, University
+      Hospital Center IBN SINA, University Mohammed V, Rabat, Morocco
+FAU - Etber, Amina
+AU  - Etber A
+AD  - Gynaecology-Obstetrics and Endoscopy Department, Maternity Souissi, University
+      Hospital Center IBN SINA, University Mohammed V, Rabat, Morocco
+FAU - Errmili, Khadija
+AU  - Errmili K
+AD  - Gynaecology-Obstetrics and Endoscopy Department, Maternity Souissi, University
+      Hospital Center IBN SINA, University Mohammed V, Rabat, Morocco
+FAU - Khairoun, Saad
+AU  - Khairoun S
+AD  - Department of intensive care unit, Maternity Souissi, University Hospital Center 
+      IBN SINA, University Mohammed V, Rabat, Morocco
+FAU - Zeraidi, Najia
+AU  - Zeraidi N
+AD  - Gynaecology-Obstetrics and Endoscopy Department, Maternity Souissi, University
+      Hospital Center IBN SINA, University Mohammed V, Rabat, Morocco
+FAU - Baidada, Aziz
+AU  - Baidada A
+AD  - Gynaecology-Obstetrics and Endoscopy Department, Maternity Souissi, University
+      Hospital Center IBN SINA, University Mohammed V, Rabat, Morocco
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2024/02/22 [received]
+PHST- 2024/02/28 [revised]
+PHST- 2024/02/29 [accepted]
+TA  - Case Rep Womens Health
+JT  - Case Reports in Women's Health
+AID - S2214-9112(24)00013-4 [pii]
+AID - 10.1016/j.crwh.2024.e00592 [doi]
+SO  - Case Rep Womens Health. 2024 Mar 01;41:. doi:10.1016/j.crwh.2024.e00592.
+
+PMC - PMC10929538
+PMID- 38420740
+IS  - 2287-3260 (Print)
+IS  - 2287-3279 (Electronic)
+VI  - 36
+IP  - 1
+DP  - 2024 Mar 1
+TI  - Stress Fracture after Arthroscopic Lesser Trochanter Resection: Diagnosis and
+      Therapy.
+PG  - 70-5
+AB  - We report on the case of a 52-year-old female who presented with a stress
+      fracture after undergoing an endoscopic resection of the lesser trochanter in
+      ischiofemoral impingement, which was resistant to maximal conservative treatment.
+      To the best of our knowledge, this complication has not been previously
+      described. Non–weight-bearing and intravenous alendronic acid were prescribed for
+      management. No additional surgery was required. The patient was pain free with
+      the ability to perform sports on the same level as before and had no complaints.
+FAU - Baert, Matthieu
+AU  - Baert M
+AUID- ORCID: https://orcid.org/0000-0001-8068-9108
+AD  - Department of Orthopaedic Surgery, AZ Sint-Lucas, Brugge, Belgium
+FAU - Vandekerckhove, Maxence
+AU  - Vandekerckhove M
+AUID- ORCID: https://orcid.org/0000-0002-0537-8227
+AD  - Department of Orthopaedic Surgery, AZ Sint-Lucas, Brugge, Belgium
+FAU - Vanlommel, Jan
+AU  - Vanlommel J
+AUID- ORCID: https://orcid.org/0000-0002-5287-256X
+AD  - Department of Orthopaedic Surgery, AZ Sint-Lucas, Brugge, Belgium
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2022/08/25 [received]
+PHST- 2023/05/10 [revised]
+PHST- 2023/05/11 [accepted]
+PHST- 2024/03/01 [aheadofprint]
+TA  - Hip Pelvis
+JT  - Hip & Pelvis
+AID - 10.5371/hp.2024.36.1.70 [doi]
+AID - hp-36-1-70 [pii]
+SO  - Hip Pelvis. 2024 Mar 1;36(1):70-5. Epub 2024 Mar 1 doi:10.5371/hp.2024.36.1.70.
+
+PMC - PMC10910416
+PMID- 38440096
+IS  - 2397-5776 (Electronic)
+VI  - 9
+IP  - 1
+DP  - 2024
+TI  - Comparison of military and civilian surgeon outcomes with emergent trauma
+      laparotomy in a mature military-civilian partnership.
+LID - e001332
+AB  - Introduction: Medical readiness is of paramount concern for active-duty military 
+      providers. Low volumes of complex trauma in military treatment facilities has
+      driven the armed forces to embed surgeons in high-volume civilian centers to
+      maintain clinical readiness. It is unclear what impact this strategy may have on 
+      patient outcomes in these centers. We sought to compare emergent trauma
+      laparotomy (ETL) outcomes between active-duty Air Force Special Operations
+      Surgical Team (SOST) general surgeons and civilian faculty at an American College
+      of Surgeons verified level 1 trauma center with a well-established
+      military-civilian partnership. Methods: Retrospective review of a prospectively
+      maintained, single-center database of ETL from 2019 to 2022 was performed. ETL
+      was defined as laparotomy from trauma bay within 90 min of patient arrival. The
+      primary outcome was to assess for all-cause mortality differences at multiple
+      time points. Results: 514 ETL were performed during the study period. 22% (113 of
+      514) of patients were hypotensive (systolic blood pressure ≤90 mm Hg) on arrival.
+      Six SOST surgeons performed 43 ETL compared with 471 ETL by civilian faculty.
+      There were no differences in median ED length of stay (27 min vs 22 min; p=0.21),
+      but operative duration was significantly longer for SOST surgeons (129 min vs
+      110 min; p=0.01). There were no differences in intraoperative (5% vs 2%; p=0.30),
+      6-hour (3% vs 5%; p=0.64), 24-hour (5% vs 5%; p=1.0), or in-hospital mortality
+      rates (5% vs 8%; p=0.56) between SOST and civilian surgeons. SOST surgeons did
+      not significantly impact the odds of 24-hour mortality on multivariable analysis 
+      (OR 0.78; 95% CI 0.10, 6.09). Conclusion: Trauma-related mortality for patients
+      undergoing ETL was not impacted by SOST surgeons when compared with their
+      civilian counterparts. Military surgeons may benefit from the valuable clinical
+      experience and mentorship of experienced civilian trauma surgeons at high volume 
+      trauma centers without creating a deficit in the quality of care provided. Level 
+      of evidence: Level IV, therapeutic/care management.
+FAU - Lammers, Daniel
+AU  - Lammers D
+AUID- ORCID: 0000-0002-9489-3633
+AD  - Surgery, University of Alabama at Birmingham, Birmingham, Alabama, USA
+FAU - Uhlich, Rindi
+AU  - Uhlich R
+AD  - Surgery, University of Alabama at Birmingham, Birmingham, Alabama, USA
+FAU - Rokayak, Omar
+AU  - Rokayak O
+AD  - Surgery, University of Alabama at Birmingham, Birmingham, Alabama, USA
+FAU - Manley, Nathan
+AU  - Manley N
+AD  - Surgery, University of Alabama at Birmingham, Birmingham, Alabama, USA
+FAU - Betzold, Richard D
+AU  - Betzold RD
+AD  - Surgery, University of Alabama at Birmingham, Birmingham, Alabama, USA
+FAU - Hu, Parker
+AU  - Hu P
+AD  - Surgery, University of Alabama at Birmingham, Birmingham, Alabama, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2023/12/02 [received]
+PHST- 2024/02/05 [accepted]
+TA  - Trauma Surg Acute Care Open
+JT  - Trauma Surgery & Acute Care Open
+AID - tsaco-2023-001332 [pii]
+AID - 10.1136/tsaco-2023-001332 [doi]
+SO  - Trauma Surg Acute Care Open. 2024 Mar 1;9(1):. doi:10.1136/tsaco-2023-001332.
+
+PMC - PMC11117428
+PMID- 38798804
+IS  - 2757-8038 (Electronic)
+VI  - 25
+IP  - 2
+DP  - 2024 Mar
+TI  - Narrative Review and Consensus Recommendations for the Use of Transnasal
+      Humidified Rapid-Insufflation Ventilatory Exchange in Modified Electroconvulsive 
+      Therapy.
+PG  - 282-9
+AB  - Transnasal humidified rapid-insufflation ventilatory exchange (THRIVE) is a safe,
+      effective, and novel technique that is currently being used in electroconvulsive 
+      therapy (ECT). This study aimed to summarize the clinical practices of THRIVE use
+      in ECT to aid physicians and institutions in implementing the best practice
+      guidelines for ECT. Thus, we reviewed the current literature and presented our
+      consensus on the application of THRIVE in ECT in daily clinical practice. This
+      consensus provides information regarding THRIVE use in ECT, including its safety,
+      effectiveness, procedures, precautions, special case management, and application 
+      in special populations. Moreover, it guides the standardized use of THRIVE in
+      ECT.
+FAU - Deng, Can-Jin
+AU  - Deng CJ
+AUID- ORCID: 0009-0003-3119-8611
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+FAU - Nie, Sha
+AU  - Nie S
+AUID- ORCID: 0000-0003-2223-2606
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+FAU - Mai, Jian-Xin
+AU  - Mai JX
+AUID- ORCID: 0009-0008-7918-3618
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+FAU - Zou, De-Cheng
+AU  - Zou DC
+AUID- ORCID: 0009-0007-3540-8857
+AD  - Department of Psychiatry, The Third People’s Hospital of Foshan, Foshan,
+      Guangdong, China
+FAU - Deng, Wei
+AU  - Deng W
+AUID- ORCID: 0000-0001-5937-9877
+AD  - Department of Psychiatry, Affiliated Mental Health Center, Zhejiang University
+      School of Medicine, Hangzhou, China
+FAU - Huang, Xiong
+AU  - Huang X
+AUID- ORCID: 0009-0002-8413-2803
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+FAU - Xie, Qin
+AU  - Xie Q
+AUID- ORCID: 0009-0009-3600-5413
+AD  - Department of Psychiatry, Affiliated Wuhan Mental Health Center, Tongji Medical
+      College of Huazhong University of Science & Technology, Wuhan, Hubei, China
+FAU - Huang, Wei
+AU  - Huang W
+AUID- ORCID: 0009-0000-8858-4597
+AD  - Shenzhen Kangning Hospital and Shenzhen Mental Health Center, Shenzhen, China
+FAU - Jiang, Wei
+AU  - Jiang W
+AUID- ORCID: 0009-0005-2433-5512
+AD  - Shenzhen Kangning Hospital and Shenzhen Mental Health Center, Shenzhen, China
+FAU - Huang, Xing-Bing
+AU  - Huang XB
+AUID- ORCID: 0000-0002-2960-2502
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+FAU - Xiang, Yu-Tao
+AU  - Xiang YT
+AUID- ORCID: 0000-0002-2906-0029
+AD  - Department of Public Health and Medicinal Administration, Unit of Psychiatry,
+      Institute of Translational Medicine, University of Macau, Macao SAR, China
+FAU - Zheng, Wei
+AU  - Zheng W
+AUID- ORCID: 0000-0003-2371-4789
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+FAU - Ning, Yu-Ping
+AU  - Ning YP
+AUID- ORCID: 0000-0002-5727-2782
+AD  - Department of Psychiatry, The Affiliated Brain Hospital of Guangzhou Medical
+      University, Guangzhou, China
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2023/12/06 [received]
+PHST- 2024/03/08 [accepted]
+TA  - Alpha Psychiatry
+JT  - Alpha Psychiatry
+AID - 10.5152/alphapsychiatry.2024.231463 [doi]
+AID - ap-25-2-282 [pii]
+SO  - Alpha Psychiatry. 2024 Mar 01;25(2):282-9.
+      doi:10.5152/alphapsychiatry.2024.231463.
+
+PMC - PMC10906611
+PMID- 38428860
+IS  - 0025-7974 (Print)
+IS  - 1536-5964 (Electronic)
+VI  - 103
+IP  - 9
+DP  - 2024 Mar 01
+TI  - Assessment of risk factors of lymph node metastasis and prognosis of Siewert
+      II/III adenocarcinoma of esophagogastric junction: A retrospective study.
+LID - e37289
+AB  - Adenocarcinoma of the esophagogastric junction (AEG) has a high incidence, and
+      the extent of lymph node dissection (LND) and its impact on prognosis remain
+      controversial. This study aimed to explore the risk factors for lymph node
+      metastasis (LNM) and prognosis in Siewert II/III AEG patients. A retrospective
+      review of 239 Siewert II/III AEG patients surgically treated at Beijing
+      Friendship Hospital from July 2013 to December 2022 was conducted. Preoperative
+      staging was conducted via endoscopy, ultrasound gastroscopy, CT, and biopsy.
+      Depending on the stage, patients received radical gastrectomy with LND and
+      chemotherapy. Clinicopathological data were collected, and survival was monitored
+      semiannually until November 2023. Utilizing logistic regression for data analysis
+      and Cox regression for survival studies, multivariate analysis identified
+      infiltration depth (OR = 0.038, 95% CI: 0.011–0.139, P < .001), tumor deposit
+      (OR = 0.101, 95% CI: 0.011–0.904, P = .040), and intravascular cancer embolus
+      (OR = 0.234, 95% CI: 0.108–0.507, P < .001) as independent predictors of LNM.
+      Lymph nodes No. 1, 2, 3, 4, 7, 10, and 11 were more prone to metastasis in the
+      abdominal cavity. Notably, Siewert III AEG patients showed a higher metastatic
+      rate in nodes No. 5 and No. 6 compared to Siewert II. Mediastinal LNM was
+      predominantly found in nodes No. 110 and No. 111 for Siewert II AEG, with rates
+      of 5.45% and 3.64%, respectively. A 3-year survival analysis underscored LNM as a
+      significant prognostic factor (P = .001). Siewert II AEG patients should undergo 
+      removal of both celiac and mediastinal lymph nodes, specifically nodes No. 1, 2, 
+      3, 4, 7, 10, 11, 110, and 111. Dissection of nodes No. 5 and No. 6 is not
+      indicated for these patients. In contrast, Siewert III AEG patients do not
+      require mediastinal LND, but pyloric lymphadenectomy for nodes No. 5 and No. 6 is
+      essential. The presence of LNM is associated with poorer long-term prognosis.
+      Perioperative chemotherapy may offer a survival advantage for AEG patients.
+FAU - Huang, Yidong
+AU  - Huang Y
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+FAU - Zheng, Zhi
+AU  - Zheng Z
+AUID- ORCID: https://orcid.org/0000-0003-0390-9466
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+FAU - Xu, Rui
+AU  - Xu R
+AD  - Department of Pathology, Beijing Friendship Hospital, Capital Medical University,
+      Beijing, China.
+FAU - Zhang, Haiqiao
+AU  - Zhang H
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+FAU - Yin, Jie
+AU  - Yin J
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+FAU - Liu, Xiaoye
+AU  - Liu X
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+FAU - Zhang, Jun
+AU  - Zhang J
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+FAU - Chen, Guangyong
+AU  - Chen G
+AD  - Department of Pathology, Beijing Friendship Hospital, Capital Medical University,
+      Beijing, China.
+FAU - Zhang, Zhongtao
+AU  - Zhang Z
+AD  - Department of General Surgery, Beijing Friendship Hospital, Capital Medical
+      University, Beijing, China
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2020/06/10 [received]
+PHST- 2024/01/06 [received]
+PHST- 2024/01/26 [accepted]
+TA  - Medicine (Baltimore)
+JT  - Medicine
+AID - 10.1097/MD.0000000000037289 [doi]
+SO  - Medicine (Baltimore). 2024 Mar 01;103(9):. doi:10.1097/MD.0000000000037289.
+
+PMC - PMC10931181
+PMID- 38473385
+IS  - 2072-6694 (Electronic)
+VI  - 16
+IP  - 5
+DP  - 2024 Mar
+TI  - Recent Advances in Endometrial Cancer Prevention, Early Diagnosis and Treatment.
+LID - 1028
+AB  - Simple Summary: Endometrial cancer is the fourth most common female malignancy in
+      high socioeconomic index nations and the sixth most common cancer in women
+      worldwide. The disease incidence has increased globally by 132% in the last 30
+      years, and this trend is set to continue in light of an ageing population and
+      increasing levels of obesity and diabetes. Although more women than ever before
+      are dying of endometrial cancer, the mortality rates are falling due to recent
+      advances in early diagnosis and treatment. Our understanding of the molecular
+      drivers of endometrial cancer has increased substantially, and doctors are now,
+      for the first time, starting to translate this knowledge into the true
+      personalisation of care. This review summarises the recent advances in the field 
+      and identifies avenues for future exploration. Abstract: Endometrial cancer is
+      the sixth commonest cancer in women worldwide, with over 417,000 diagnoses in
+      2020. The disease incidence has increased by 132% over the last 30 years and is
+      set to continue to rise in response to an ageing population and increasing global
+      rates of obesity and diabetes. A greater understanding of the mechanisms driving 
+      endometrial carcinogenesis has led to the identification of potential strategies 
+      for primary disease prevention, although prospective evaluation of their efficacy
+      within clinical trials is still awaited. The early diagnosis of endometrial
+      cancer is associated with improved survival, but has historically relied on
+      invasive endometrial sampling. New, minimally invasive tests using protein and
+      DNA biomarkers and cytology have the potential to transform diagnostic pathways
+      and to allow for the surveillance of high-risk populations. The molecular
+      classification of endometrial cancers has been shown to not only have a
+      prognostic impact, but also to have therapeutic value and is increasingly used to
+      guide adjuvant treatment decisions. Advanced and recurrent disease management has
+      also been revolutionised by increasing the use of debulking surgery and targeted 
+      treatments, particularly immunotherapy. This review summarises the recent
+      advances in the prevention, diagnosis and treatment of endometrial cancer and
+      seeks to identify areas for future research.
+FAU - Baker-Rand, Holly
+AU  - Baker-Rand H
+AD  - Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University 
+      of Manchester, Manchester M13 9PL, UK; holly.baker-rand@manchester.ac.uk
+FAU - Kitson, Sarah J.
+AU  - Kitson SJ
+AUID- ORCID: https://orcid.org/0000-0003-2763-7370
+AD  - Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University 
+      of Manchester, Manchester M13 9PL, UK; holly.baker-rand@manchester.ac.uk
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240301
+GR  - CGCATF-2021/100007
+PHST- 2024/02/15 [received]
+PHST- 2024/02/26 [revised]
+PHST- 2024/02/27 [accepted]
+TA  - Cancers (Basel)
+JT  - Cancers
+AID - 10.3390/cancers16051028 [doi]
+AID - cancers-16-01028 [pii]
+SO  - Cancers (Basel). 2024 Mar 01;16(5):. doi:10.3390/cancers16051028.
+
+PMC - PMC10984243
+PMID- 38562316
+IS  - 2168-8184 (Electronic)
+VI  - 16
+IP  - 3
+TI  - Assessment of G10 Intraoperative Scoring System for Conversion in Patients
+      Undergoing Laparoscopic Cholecystectomy: A Cross-Sectional Study From Nepal.
+LID - e55392
+AB  - Introduction: Various preoperative risk factors for conversion in laparoscopic
+      cholecystectomy (LC) have been well studied. However, the assessment of
+      intraoperative factors for conversion in patients with cholecystitis is unclear. 
+      The G10 scoring system, which incorporates 10 parameters, has tried to fill this 
+      void by developing a scoring system for the most commonly encountered surgical
+      illnesses. So, we aimed to assess the utility of the G10 scoring system among
+      patients presenting for LC for symptomatic cholelithiasis (both acute and chronic
+      cholecystitis) in the clinical setting of a low- and middle-income
+      country.Methods: All the patients undergoing LC were assigned a G10 value.
+      Gallbladder surgery was considered easy if the G10 score was <2, moderate (2 ≦
+      4), difficult (5 ≦ 7), and extreme (8 ≦ 10). All 10 risk factors were analyzed
+      into a binary logistics model, and statistically significant risk factors were
+      assessed.Results: Among 177 patients, there were 36 males and 141 females. The
+      median age of the patient was 42 years (range 11-79). There were 70 easy, 89
+      moderate, and 18 difficult cases. The overall mean G10 score was 2.32±1.5, which 
+      significantly increased as the severity progressed, with a mean value of 5.5±0.51
+      for difficult cases (P=0.0001). The mean G10 score for surgeries completed
+      laparoscopically was 2.1±1.4, while it was 3.71±1.4 for open
+      conversions [P=0.0001, AUC=0.79, CI=0.70-0.87]. There were 18 patients with G10
+      ≥5 with a conversion rate of 27.7%, while the overall conversion rate was 13.6%. 
+      Multivariate analysis showed free bile or pus outside the gallbladder [P=0.02,
+      OR=5.1, CI=1.2-21.1] and fistula [P=0.01, OR=15.8, CI=1.9-129.8] as significant
+      risk factors for conversion.Conclusion: Intraoperative risk factors for the
+      prediction of conversion included the presence of free bile or pus outside the
+      gallbladder and cholecystoenteric fistula. Based on the F1 score analysis,
+      complemented with the Youden Index, the optimal cutoff value for conversion,
+      based on the G10 score, lies around 4. Broader application and validation of the 
+      G10 scoring system are mandated to assess the utilization of this novel
+      intraoperative scoring system.
+FAU - Baral, Suman
+AU  - Baral S
+AD  - Surgery, Lumbini Medical College and Teaching Hospital, Tansen, NPL
+FAU - Thapa, Neeraj
+AU  - Thapa N
+AD  - Surgery, Lumbini Medical College and Teaching Hospital, Tansen, NPL
+FAU - Babel, Shrinit
+AU  - Babel S
+AD  - Morsani College of Medicine, University of South Florida, Tampa, USA
+FAU - Poudel, Shasi
+AU  - Poudel S
+AD  - Emergency Medicine, Fewa City Hospital, Pokhara, NPL
+FAU - Chhetri, Raj K
+AU  - Chhetri RK
+AD  - Surgery, Lumbini Medical College and Teaching Hospital, Tansen, NPL
+LA  - eng
+PT  - Journal Article
+PHST- 2024/03/01 [accepted]
+TA  - Cureus
+JT  - Cureus
+AID - 10.7759/cureus.55392 [doi]
+SO  - Cureus. ;16(3):. doi:10.7759/cureus.55392.
+
+PMC - PMC10908077
+PMID- 38429816
+IS  - 1752-1947 (Electronic)
+VI  - 18
+DP  - 2024
+TI  - Inguinal endometriosis: a case series and review of the literature.
+LID - 83
+AB  - Background: Inguinal endometriosis is one of the most common forms of
+      endometriosis. The present study introduces 8 cases of inguinal endometriosis and
+      discusses probable theories of inguinal endometriosis by reviewing the
+      literature. Case presentation: 8 Iranian cases of inguinal endometriosis with a
+      mean age of 36 years were presented. Catamenial groin pain and swelling were the 
+      most common complications. Also, patients usually had accompanying symptoms such 
+      as pelvic pain and dysmenorrhea. One-half of patients had a history of previous
+      abdominal surgery. Ultrasound was diagnostic in 4 patients (50%), and magnetic
+      resonance imaging was used in two patients (25%). Among 6 patients who underwent 
+      hormonal therapy, 4 experienced an endometriosis size increase. Inguinal
+      endometriosis was right-sided in 87.5% of patients, and among 4 patients who
+      underwent surgery, 75% had proximal site involvement of the round ligament.
+      Conclusion: According to the rarity of inguinal endometriosis, it is more likely 
+      to be a misdiagnosis with other inguinal disorders such as inguinal hernia.
+      Inguinal endometriosis should be considered in patients who undergo inguinal
+      herniorrhaphy, with suspected findings such as thickening of the hernia sac wall,
+      bloody fluid inside the sac, or thickening of the extraperitoneal round ligament 
+      during the surgery.
+FAU - Haghgoo, Ameneh
+AU  - Haghgoo A
+AUID- ORCID: 0000-0002-7248-6199
+AD  - https://ror.org/03w04rv71grid.411746.10000 0004 4911 7066School of Medicine,
+      Nikan Hospital, Iran University of Medical Sciences, Aqdasiyeh, Army Boulevard,
+      22nd Bahman Street, Tehran, Iran
+FAU - Faegh, Ali
+AU  - Faegh A
+AUID- ORCID: 0000-0002-5033-8435
+AD  - https://ror.org/03hh69c200000 0004 4651 6731School of Medicine, Alborz University
+      of Medical Sciences, Karaj, Iran
+FAU - Mostafavi, Seyyed Reza Saadat
+AU  - Mostafavi SRS
+AD  - https://ror.org/03w04rv71grid.411746.10000 0004 4911 7066Department of Radiology,
+      Hazrat-e-Rasoul Hospital, Iran University of Medical Sciences, Tehran, Iran
+FAU - Zamani, Hamid Reza
+AU  - Zamani HR
+AD  - https://ror.org/034m2b326grid.411600.2Department of Radiology, Imam Hossein
+      Medical and Educational Center, Shahid Beheshti University of Medical Sciences,
+      Tehran, Iran
+FAU - Ghahremani, Mehran
+AU  - Ghahremani M
+AD  - Iranian Society of Pathology, Tehran, Iran
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240302
+PHST- 2023/12/26 [received]
+PHST- 2024/01/19 [accepted]
+TA  - J Med Case Rep
+JT  - Journal of Medical Case Reports
+AID - 4400 [pii]
+AID - 10.1186/s13256-024-04400-x [doi]
+SO  - J Med Case Rep. 2024 Mar 2;18:. doi:10.1186/s13256-024-04400-x.
+
+PMC - PMC11262606
+PMID- 39044926
+IS  - 1844-122X (Print)
+IS  - 1844-3117 (Electronic)
+VI  - 17
+IP  - 3
+DP  - 2024 Mar
+TI  - Reproductive outcome after in vitro fertilization in endometriosis – key factors 
+      and implications.
+PG  - 334-40
+AB  - Endometriosis is a benign chronic disease with a major impact on a woman’s
+      quality of life, mainly due to painful physical symptoms. Endometriosis is also a
+      common cause of infertility caused by low ovarian reserve, distorted pelvic
+      anatomy, and severe local inflammation with a direct negative impact on the
+      quality of oocytes, embryos, and endometrium. We conducted a retrospective study 
+      between January 2019 and December 2023, including women with a history of surgery
+      for endometriosis who underwent in vitro fertilization (IVF) to achieve
+      pregnancy. Their reproductive outcome was compared with a group of patients with 
+      documented tubal obstruction. The aim of our study was to identify the factors
+      associated with a positive impact on the pregnancy rate, specifically age,
+      anti-Mullerian hormone (AMH), ovarian stimulation protocol, and types of
+      gonadotropins used. We analyzed a group of 175 patients with endometriosis
+      compared with 189 patients with tubal obstruction. The average age was similar
+      between the two groups but with a difference in the average AMH value (1.63 ±
+      1.09 ng/mL vs. 2.55 ± 1.67 ng/mL). The most utilized ovarian stimulation protocol
+      in both groups was the short gonadotropin-releasing hormone (GnRH) antagonist.
+      The clinical pregnancy rate was 27.2% in the endometriosis group and 54.7% in the
+      tubal obstruction group. Our study revealed that treatment with corifollitropin
+      alfa in the endometriosis group was associated with a higher clinical pregnancy
+      rate. AMH and age proved to be significant independent factors for the
+      reproductive outcome.
+FAU - Nadă, Elena-Silvia
+AU  - Nadă ES
+AD  - Department of Obstetrics and Gynecology, Carol Davila University of Medicine and 
+      Pharmacy, Bucharest, Romania
+FAU - Coroleucă, Ciprian Andrei
+AU  - Coroleucă CA
+AD  - Department of Obstetrics and Gynecology, Carol Davila University of Medicine and 
+      Pharmacy, Bucharest, Romania
+FAU - Coroleucă, Cătălin Bogdan
+AU  - Coroleucă CB
+AD  - Department of Obstetrics and Gynecology, Prof. Dr. Panait Sîrbu Clinical Hospital
+      of Obstetrics and Gynecology, Bucharest, Romania
+FAU - Brătilă, Elvira
+AU  - Brătilă E
+AD  - Department of Obstetrics and Gynecology, Carol Davila University of Medicine and 
+      Pharmacy, Bucharest, Romania
+LA  - eng
+PT  - Journal Article
+PHST- 2024/02/28 [received]
+PHST- 2024/04/16 [accepted]
+TA  - J Med Life
+JT  - Journal of Medicine and Life
+AID - JMedLife-17-334 [pii]
+AID - 10.25122/jml-2024-0114 [doi]
+SO  - J Med Life. 2024 Mar;17(3):334-40. doi:10.25122/jml-2024-0114.
+
+PMC - PMC10940471
+PMID- 38495791
+IS  - 1664-2392 (Electronic)
+VI  - 15
+DP  - 2024
+TI  - Surgical treatment of cryptorchidism: current insights and future directions.
+LID - 1327957
+AB  - Cryptorchidism presents with an incidence of 1-5% with potential long-term
+      implications on future fertility and overall health. This review focuses on
+      surgical treatment modalities, their impact on testicular development, and
+      function while addressing the Nordic consensus statement as well as current
+      European Association of Urology (EAU) and American Urological Association (AUA)
+      guidelines. Congenital and acquired cryptorchidism present distinctive challenges
+      in surgical management, with different implications for fertility. While
+      congenital cryptorchidism entails a risk to fertility and warrants early
+      intervention, both retractile testes and acquired cryptorchidism also pose risks 
+      to fertility potential, underscoring the importance of evaluating treatment
+      options. Testicular location and the child’s age form the basis of a practical
+      classification system for undescended testicles. Early diagnosis by clinical
+      examination enables timely treatment. Imaging is reserved for selected cases
+      only. Following guidelines, orchidopexy is recommended between 6-12 months of age
+      for congenital cryptorchidism. Evidence increasingly suggests the benefits of
+      early surgery for promoting testicular health and fertility potential. Current
+      surgical options range from open to laparoscopic techniques, with the choice
+      largely determined by the location and accessibility of the undescended testicle.
+      The advancement in laparoscopic approaches for non-palpable testes underscores
+      the evolving landscape of surgical treatment. Sequential surgeries may be
+      required depending on the mobility of the undescended testes. More research is
+      needed to explore both the potential and limitations of hormonal therapy, which
+      is secondary to surgical treatment and can selectively have a role as adjunct to 
+      surgery. Long-term follow-up is imperative to evaluate fertility outcomes, risk
+      of testicular malignancy, and psychological impact. By integrating current
+      guidelines with the latest evidence, this review intends to facilitate a
+      comprehensive understanding of cryptorchidism, thereby optimizing patient
+      management and outcomes.
+FAU - Pakkasjärvi, Niklas
+AU  - Pakkasjärvi N
+FAU - Taskinen, Seppo
+AU  - Taskinen S
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240301
+PHST- 2023/10/25 [received]
+PHST- 2024/02/16 [accepted]
+TA  - Front Endocrinol (Lausanne)
+JT  - Frontiers in Endocrinology
+AID - 10.3389/fendo.2024.1327957 [doi]
+SO  - Front Endocrinol (Lausanne). 2024 Mar 01;15:. doi:10.3389/fendo.2024.1327957.
+
+PMC - PMC10907553
+PMID- 38427182
+IS  - 2198-7793 (Electronic)
+VI  - 10
+DP  - 2024 Dec
+TI  - Primary splenic abscess in an adult female patient: a case report.
+LID - 50
+AB  - Background: Primary splenic abscess is rare and typically presents in patients
+      who are immunocompromised. We present a case of a 47-year-old apparently
+      immunocompetent female patient who was diagnosed with primary splenic abscess
+      from a Salmonella Typhimurium infection following emergency laparotomy. Case
+      presentation: A 47-year-old female patient presented with subjective fever and
+      severe epigastric and left flank pain. She was treated empirically with
+      intravenous piperacillin/tazobactam and gentamicin and was resuscitated with
+      intravenous crystalloid infusion. A radiological diagnosis of splenic infarct
+      secondary to splenic artery aneurysm superimposed with splenic abscess was
+      presumed, however at emergency laparotomy, primary splenic abscess was
+      identified. This abscess had eroded the left hemidiaphragm and had ruptured the
+      splenic capsule leading to intra-abdominal pus in the pelvis which on culture
+      grew Salmonella Typhimurium. A splenectomy and primary repair of the left
+      hemidiaphragm were performed, with postoperative pancreatitis diagnosed following
+      the procedure. After intensive care treatment, this patient made a full recovery.
+      Conclusion: This case of primary splenic abscess was treated successfully with a 
+      combination of surgery (i.e.: splenectomy and surgical drainage), prolonged
+      antimicrobial therapy, and intensive care in the perioperative period.
+FAU - Isik, Burce
+AU  - Isik B
+AUID- ORCID: 0009-0005-5514-8576
+AD  - https://ror.org/00a0n9e72grid.10049.3c0000 0004 1936 9692University of Limerick
+      School of Medicine, Co. Limerick, Republic of Ireland
+FAU - Davey, Matthew G.
+AU  - Davey MG
+AD  - https://ror.org/04y3ze847grid.415522.50000 0004 0617 6840Department of Surgery,
+      University Hospital Limerick, Dooradoyle, Co. Limerick, Republic of Ireland
+FAU - Gaffney, Sarah
+AU  - Gaffney S
+AD  - https://ror.org/04y3ze847grid.415522.50000 0004 0617 6840Department of
+      Anaesthesia and Intensive Care, University Hospital Limerick, Dooradoyle,
+      Limerick, Ireland
+FAU - Stapleton, Patrick J.
+AU  - Stapleton PJ
+AD  - https://ror.org/04y3ze847grid.415522.50000 0004 0617 6840Department of
+      Microbiology, University Hospital Limerick, Dooradoyle, Co. Limerick, Republic of
+      Ireland
+FAU - Mohigefer, Javier
+AU  - Mohigefer J
+AD  - https://ror.org/04y3ze847grid.415522.50000 0004 0617 6840Department of
+      Histopathology, University Hospital Limerick, Dooradoyle, Co. Limerick, Republic 
+      of Ireland
+FAU - Koutroumanos, Efthymios
+AU  - Koutroumanos E
+AD  - https://ror.org/04y3ze847grid.415522.50000 0004 0617 6840Department of Surgery,
+      University Hospital Limerick, Dooradoyle, Co. Limerick, Republic of Ireland
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2023/11/30 [received]
+PHST- 2024/02/15 [accepted]
+TA  - Surg Case Rep
+JT  - Surgical Case Reports
+AID - 1849 [pii]
+AID - 10.1186/s40792-024-01849-2 [doi]
+SO  - Surg Case Rep. 2024 Mar 1;10:. doi:10.1186/s40792-024-01849-2.
+
+PMC - PMC10981919
+PMID- 38559517
+IS  - 2168-8184 (Electronic)
+VI  - 16
+IP  - 3
+TI  - Pancreatic Arteriovenous Malformations: A Case From Saudi Arabia.
+LID - e55340
+AB  - Arteriovenous malformation (AVM) of the gastrointestinal tract is a rare anomaly,
+      mostly due to congenital reasons. Patients with pancreatic AVM can live without
+      experiencing symptoms. It can present with gastrointestinal bleeding or portal
+      hypertension, and diagnosis can be made by computed tomography (CT) or
+      angiography. CT findings include multiple discrete intrapancreatic vessels.A
+      48-year-old man complained of abdominal pain with a sensation of fullness that
+      radiated to the back for a month, associated with shortness of breath, loss of
+      appetite, and unintentional weight loss of 33% in one month without nausea or
+      vomiting. On physical examination, the abdomen was soft and lax with epigastric
+      tenderness and a negative Murphy sign. Laboratory investigations showed high
+      amylase with normal liver and kidney functions. CT showed pancreatic AVM. He
+      underwent partial pancreatectomy and splenectomy. After the surgery, the patient 
+      reported an improvement in symptoms. All follow-up visits were
+      uneventful.Pancreatic AVM is a rare disease, and the most significant chief
+      complaint of most patients is gastrointestinal tract bleeding. It requires
+      imaging depending on the signs and symptoms. The primary imaging modality is CT, 
+      with subtraction angiography for confirmation. Surgical treatment is the standard
+      of management for most patients when tolerable. Additionally, early detection of 
+      these rare anomalies can avoid massive gastrointestinal tract bleeding and the
+      development of resistance portal hypertension and can save patients’ lives if
+      bleeding occurs.
+FAU - Alharbi, Ohud T
+AU  - Alharbi OT
+AD  - Neurological Surgery, King Fahad Medical City, Riyadh, SAU
+FAU - Alhuqaili, Mayar
+AU  - Alhuqaili M
+AD  - College of Medicine, Qassim University, Qassim, SAU
+FAU - Alotaibi, Daliyah
+AU  - Alotaibi D
+AD  - General Surgery, Buraidah Central Hospital, Qassim, SAU
+FAU - Alsaud, Jolan S
+AU  - Alsaud JS
+AD  - College of Medicine, Qassim University, Qassim, SAU
+FAU - Almohaimeed, Rayan
+AU  - Almohaimeed R
+AD  - General Surgery, King Fahad Specialist Hospital, Qassim, SAU
+FAU - Alomair, Abdulaziz
+AU  - Alomair A
+AD  - General Surgery, King Fahad Specialist Hospital, Qassim, SAU
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+PHST- 2024/02/29 [accepted]
+TA  - Cureus
+JT  - Cureus
+AID - 10.7759/cureus.55340 [doi]
+SO  - Cureus. ;16(3):. doi:10.7759/cureus.55340.
+
+PMC - PMC11059311
+PMID- 38454237
+IS  - 2757-6256 (Electronic)
+VI  - 59
+IP  - 2
+DP  - 2024 Mar
+TI  - A 9-Year-Old Female with an Abdominal Mass.
+PG  - 232-3
+FAU - Anderson, Justin E.
+AU  - Anderson JE
+AD  - Department of Emergency Medicine, Kirk Kerkorian School of Medicine at UNLV, Las 
+      Vegas, NV, USA
+FAU - Walker, Don
+AU  - Walker D
+AD  - Department of Emergency Medicine, Kirk Kerkorian School of Medicine at UNLV, Las 
+      Vegas, NV, USA
+FAU - Norozian, Farnaz
+AU  - Norozian F
+AD  - Department of Pediatric Emergency Medicine, University Medical Center Children’s 
+      Hospital, Las Vegas, NV, USA
+FAU - Domanski, Kristina
+AU  - Domanski K
+AUID- ORCID: 0000-0003-0344-0231
+AD  - Department of Emergency Medicine, Kirk Kerkorian School of Medicine at UNLV, Las 
+      Vegas, NV, USA
+LA  - eng
+PT  - Journal Article
+PT  - Letter
+DEP - 20240301
+PHST- 2024/02/06 [received]
+PHST- 2024/02/11 [accepted]
+TA  - Turk Arch Pediatr
+JT  - Turkish Archives of Pediatrics
+AID - 10.5152/TurkArchPediatr.2024.24025 [doi]
+AID - tap-59-2-232 [pii]
+SO  - Turk Arch Pediatr. 2024 Mar 01;59(2):232-3.
+      doi:10.5152/TurkArchPediatr.2024.24025.
+
+PMC - PMC10925976
+PMID- 38468951
+IS  - 2405-8440 (Electronic)
+VI  - 10
+IP  - 5
+DP  - 2024 Mar 15
+TI  - Eosinophilic enterocolitis in duodenum, ileum, and colon: A case report.
+LID - e26885
+AB  - Eosinophilic gastroenteritis (EGE) is a rare disease which mainly consists of an 
+      abnormal eosinophile infiltration of the gastrointestinal tract. It’s classified 
+      according to its location: eosinophilic esophagitis, eosinophilic gastritis,
+      eosinophilic enteritis (including duodenum, jejunum and/or ileum) and
+      eosinophilic colitis and degree of infiltration (mucosal, muscular, serosal).
+      Depending on eosinophile concentration, type of EGE and the patient’s condition
+      it may manifest with different clinical presentations such as functional
+      dyspepsia, abdominal pain, irritability, hypoproteinemia, diarrhea, anemia, among
+      others. Few research has been done on such an uncommon pathology to the extent
+      that treatment evidence is mostly limited to small case series. This case study
+      reports an infrequent presentation of EGE in the small and large intestine as an 
+      undifferentiated gastrointestinal disease and successful corticoid management
+      given to the patient in order to further broaden knowledge on this subject and
+      facilitate an established clinical conduct for the treating physician.
+FAU - Van-Londoño, Isabella
+AU  - Van-Londoño I
+AD  - Universidad del Rosario, Bogotá, Colombia
+FAU - Ramírez-Giraldo, Camilo
+AU  - Ramírez-Giraldo C
+AD  - Universidad del Rosario, Bogotá, Colombia
+FAU - Martínez Echeverri, Julio César
+AU  - Martínez Echeverri JC
+AD  - Hospital Universitario Mayor – Méderi, Bogotá, Colombia
+FAU - Villany-Sarmiento, Juan José
+AU  - Villany-Sarmiento JJ
+AD  - Universidad del Rosario, Bogotá, Colombia
+FAU - Fino-Velásquez, Laura Marcela
+AU  - Fino-Velásquez LM
+AD  - Hospital Universitario Mayor – Méderi, Bogotá, Colombia
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240302
+PHST- 2023/10/31 [received]
+PHST- 2024/02/20 [revised]
+PHST- 2024/02/21 [accepted]
+TA  - Heliyon
+JT  - Heliyon
+AID - S2405-8440(24)02916-5 [pii]
+AID - 10.1016/j.heliyon.2024.e26885 [doi]
+SO  - Heliyon. 2024 Mar 02;10(5):. doi:10.1016/j.heliyon.2024.e26885.
+
+PMC - PMC11059798
+PMID- 39128117
+IS  - 1300-4948 (Print)
+IS  - 2148-5607 (Electronic)
+VI  - 35
+IP  - 3
+DP  - 2024 Mar
+TI  - Prediction of Perianal Fistula in Crohn’s Disease by Computed Tomography
+      Enterography.
+PG  - 168-77
+AB  - Background/Aims:: The purpose of this study was to investigate whether computed
+      tomography enterography can be used to predict the presence of perianal fistula
+      in Crohn’s disease patients. Materials and Methods:: According to the
+      presentation of perianal fistula or not, this study divided retrospectively
+      included Crohn’s disease patients into 2 groups. The disease duration, incidence 
+      of involved intestinal segments, and scoring of the activity of the lesions in
+      all patients were statistically analyzed to explore significant factors between
+      the 2 groups. The statistically significant findings identified in the univariate
+      analysis were incorporated into the multivariate analysis. Logistic regression
+      models were subsequently constructed to assess the predictive factors associated 
+      with the occurrence of perianal fistula in individuals with Crohn’s disease.The
+      contribution of each factor to the outcome variable was confirmed by the
+      nomogram. The clinical utility of the nomogram was confirmed by calibration and
+      decision curves. Results:: There were 40 cases with perianal Crohn’s disease and 
+      58 without perianal Crohn’s disease. After univariate and multivariate analysis, 
+      disease duration (early stage of Crohn’s disease), ascending colon, and rectum
+      were identified as the independent predictive factors for perianal fistula in
+      Crohn’s disease patients. The clinical utility of the nomogram was effective,
+      which implied potential benefits for Crohn’s disease patients. Conclusion::
+      Computed tomography enterography can be used to predict the presence of perianal 
+      fistula in Crohn’s disease patients by analyzing the location and the stage of
+      the disease.
+FAU - Ni, Genghuan
+AU  - Ni G
+AUID- ORCID: 0000-0003-4668-2812
+AD  - Department of Radiology, The Second Affiliated Hospital of Jiaxing University,
+      Jiaxing, Zhejiang Province, China
+FAU - Zhao, Hongwei
+AU  - Zhao H
+AUID- ORCID: 0000-0002-0225-0375
+AD  - Department of Radiology, The Second Affiliated Hospital of Jiaxing University,
+      Jiaxing, Zhejiang Province, China
+FAU - Shen, Haiyan
+AU  - Shen H
+AUID- ORCID: 0000-0002-7427-8107
+AD  - Department of Inflammatory Bowel Disease Center, The Second Affiliated Hospital
+      of Jiaxing University, Jiaxing, Zhejiang Province, China
+FAU - Li, Senjuan
+AU  - Li S
+AUID- ORCID: 0000-0001-9558-6574
+AD  - Department of Anorectal Surgery, The Second Affiliated Hospital of Jiaxing
+      University, Jiaxing, Zhejiang Province, China
+FAU - Ao, Weiqun
+AU  - Ao W
+AUID- ORCID: 0000-0001-5496-4559
+AD  - Department of Radiology, Tongde Hospital of Zhejiang Province, Hangzhou, Zhejiang
+      Province, China
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2022/12/24 [received]
+PHST- 2023/06/08 [accepted]
+TA  - Turk J Gastroenterol
+JT  - The Turkish Journal of Gastroenterology
+AID - 10.5152/tjg.2024.22850 [doi]
+AID - tjg-35-3-168 [pii]
+SO  - Turk J Gastroenterol. 2024 Mar 01;35(3):168-77. doi:10.5152/tjg.2024.22850.
+
+PMC - PMC10904255
+PMID- 38423111
+IS  - 0035-8843 (Print)
+IS  - 1478-7083 (Electronic)
+VI  - 106
+IP  - 3
+DP  - 2024 Mar
+TI  - CORESS is an independent charity, supported by AXA Health, the MDU and the Kirby 
+      Laing Foundation.
+PG  - 201-4
+AB  - We are grateful to those who have provided the material for these reports. The
+      online reporting form is available on the website (coress.org.uk), which also
+      includes previous Feedback reports, and via the CORESS app. Published cases will 
+      be acknowledged by a Certificate of Contribution, which may be included in the
+      contributor’s record of continuing professional development, or which may form
+      part of appraisal or annual review of competence progression portfolio
+      documentation. Trainee contributions are particularly welcome.
+FAU - Corbett, H
+AU  - Corbett H
+AD  - on behalf of the CORESS Advisory Board
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2024/03/01 [aheadofprint]
+TA  - Ann R Coll Surg Engl
+JT  - Annals of The Royal College of Surgeons of England
+AID - 10.1308/rcsann.2023.0100 [doi]
+AID - rcsann.2023.0100 [pii]
+SO  - Ann R Coll Surg Engl. 2024 Mar;106(3):201-4. Epub 2024 Mar 1
+      doi:10.1308/rcsann.2023.0100.
+
+PMC - PMC10914556
+PMID- 38432123
+IS  - 1807-5932 (Print)
+IS  - 1980-5322 (Electronic)
+VI  - 79
+DP  - 2024 Jan-Dec
+TI  - Evaluation of HLA-DQ2 and HLA-DQ8 haplotypes in patients with endometriosis, A
+      case-control study.
+LID - 100317
+AB  - •Celiac disease and endometriosis share inflammatory markers and
+      pathophysiology.•HLA-DQ2 and/or HLA-DQ8 were similar between the control and
+      endometriosis groups.•Anti- transglutaminase igA was similar between the control 
+      and endometriosis groups.•HLA-DQ2 and DQ8 had no difference in age, symptoms,
+      endometriosis stage or location.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Andres, Marina P.
+AU  - Andres MP
+AD  - Divisão de Clínica Ginecológica, Departamento de Obstetrícia e Ginecologia,
+      Hospital das Clínicas, Faculdade de Medicina, Universidade de São Paulo
+      (HCFMUSP), São Paulo, SP, Brazil
+FAU - Peloggia, Alessandra
+AU  - Peloggia A
+AD  - Centro de Pesquisa em Saúde Reprodutiva de Campinas (CEMICAMP), Campinas, SP,
+      Brazil
+FAU - Abrao, Henrique M.
+AU  - Abrao HM
+AD  - Divisão de Clínica Ginecológica, BP ‒ A Beneficência Portuguesa de São Paulo, São
+      Paulo, SP, Brazil
+FAU - Magalhaes, Thais F.
+AU  - Magalhaes TF
+AD  - Divisão de Clínica Ginecológica, Departamento de Obstetrícia e Ginecologia,
+      Hospital das Clínicas, Faculdade de Medicina, Universidade de São Paulo
+      (HCFMUSP), São Paulo, SP, Brazil
+FAU - Neto, João Siufi
+AU  - Neto JS
+AD  - Divisão de Clínica Ginecológica, BP ‒ A Beneficência Portuguesa de São Paulo, São
+      Paulo, SP, Brazil
+FAU - Abrão, Mauricio Simões
+AU  - Abrão MS
+AD  - Divisão de Clínica Ginecológica, Departamento de Obstetrícia e Ginecologia,
+      Hospital das Clínicas, Faculdade de Medicina, Universidade de São Paulo
+      (HCFMUSP), São Paulo, SP, Brazil
+LA  - eng
+PT  - Journal Article
+DEP - 20240302
+PHST- 2023/04/27 [received]
+PHST- 2023/10/31 [revised]
+PHST- 2023/11/27 [accepted]
+TA  - Clinics (Sao Paulo)
+JT  - Clinics
+AID - S1807-5932(23)00153-9 [pii]
+AID - 10.1016/j.clinsp.2023.100317 [doi]
+SO  - Clinics (Sao Paulo). 2024 Mar 02;79:. doi:10.1016/j.clinsp.2023.100317.
+
+PMC - PMC11265535
+PMID- 38798006
+IS  - 2980-1478 (Electronic)
+VI  - 50
+IP  - 2
+DP  - 2024 Mar
+TI  - Can We Predict Renal Function Recovery After Pyeloplasty in Pediatrics with
+      Ureteropelvic Junction Obstruction? A Systematic Review.
+PG  - 85-93
+AB  - Chronic unilateral renal obstruction, primarily caused by ureteropelvic junction 
+      obstruction (UPJO), poses challenges in determining the optimal timing for
+      corrective surgery. The goal is to preserve renal function and alleviate
+      symptoms, but there is no definitive diagnostic test to reliably predict the
+      outcomes of surgery. This systematic review aimed to identify predictors for
+      renal function recovery after pyeloplasty in order to guide effective treatment
+      options. We conducted a systematic review following the Preferred Reporting Items
+      for Systematic Reviews and Meta-Analysis guidelines. A literature search was
+      performed on PubMed, Embase, and Scopus using keywords related to renal function,
+      pyeloplasty, and predictors. The search was conducted on March 10, 2022. The
+      quality of the included studies was assessed using the Newcastle–Ottawa Scale.
+      Out of 344 potentially relevant articles, 11 met the eligibility criteria for
+      this study. These included 6 retrospective and 5 prospective studies, with a
+      total of 925 participants. Most studies evaluated renal function using
+      differential renal function (DRF). The overall quality of the included studies
+      was considered average. The findings indicated that age at the time of surgery
+      and gender did not significantly influence functional recovery after pyeloplasty.
+      However, preoperative DRF consistently emerged as a critical predictor.
+      Preoperative DRF can serve as the most common predictors used for renal function 
+      recovery following pyeloplasty. These findings contribute to understanding
+      effective treatment options for chronic unilateral renal obstruction. However,
+      further research for each predictor is needed to validate these predictors and
+      their clinical utility.
+FAU - Siregar, Safendra
+AU  - Siregar S
+AUID- ORCID: 0000-0002-1733-8206
+FAU - Mustafa, Akhmad
+AU  - Mustafa A
+FAU - Steven, Steven
+AU  - Steven S
+AUID- ORCID: 0000-0003-1659-896X
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240301
+PHST- 2023/12/04 [received]
+PHST- 2024/02/19 [accepted]
+TA  - Urol Res Pract
+JT  - Urology Research and Practice
+AID - 10.5152/tud.2024.23220 [doi]
+AID - urp-50-2-85 [pii]
+SO  - Urol Res Pract. 2024 Mar 01;50(2):85-93. doi:10.5152/tud.2024.23220.
+
+PMC - PMC10963841
+PMID- 38545049
+IS  - 2223-4292 (Print)
+IS  - 2223-4306 (Electronic)
+VI  - 14
+IP  - 3
+DP  - 2024 Mar 15
+TI  - Clinical analysis of uterine parameters evaluated by preoperative magnetic
+      resonance imaging in patients treated by hysteroscopic approach with previous
+      cesarean scar defect-related abnormal uterine bleeding: a retrospective cohort
+      study.
+PG  - 2334-44
+AB  - Background: As the cesarean delivery rate continues to rise globally, the
+      treatment of previous cesarean scar defects (PCSD) remains challenging. This
+      study aimed to analyze the variables that may influence the clinical cure rate of
+      patients with PCSD-related abnormal uterine bleeding (AUB) as determined by
+      preoperative magnetic resonance imaging (MRI) following hysteroscopic therapy.
+      Methods: Women who underwent hysteroscopic surgery for PCSD-related AUB at the
+      Gynecology Department of Third Xiangya Hospital of Central South University from 
+      2018 to 2022 were recruited to this retrospective cohort investigation. A total
+      of 147 patients were enrolled in this study and underwent follow-up over 6
+      months. The significance of clinical characteristics linked to the clinical cure 
+      rate of AUB was examined by logistic regression. Results: There were 64
+      clinically cured (43.5%) and 83 non-clinically cured (56.5%) patients in the
+      study. There were no significant differences in the age, menstrual duration,
+      gravidity, parity, number of cesarean sections, time since the previous cesarean 
+      section, uterus position, width, depth, and thickness of the remaining muscle
+      layer of the defect by MRI T2-weighted images (T2WI) before hysteroscopic surgery
+      between the 2 groups. MRI T2WI of the myometrial thickness adjacent to the defect
+      [P=0.038, odds ratio (OR) =2.095, 95% confidence interval (CI): 1.047–4.261] and 
+      the distance from the defect to the external cervical os (P=0.021, OR =2.254, 95%
+      CI: 1.136–4.540) before hysteroscopic surgery are risk factors for the clinical
+      cure rate. Conclusions: The myometrial thickness adjacent to the defect and the
+      distance from the defect to the external cervical os in preoperative MRI are risk
+      factors for clinical cure rate in patients with PCSD-related AUB after
+      hysteroscopic treatment, which is helpful for evaluating the prognosis of
+      disease.
+FAU - Zhang, Qi
+AU  - Zhang Q
+AUID- ORCID: https://orcid.org/0009-0006-4573-4050
+AD  - Department of Gynecology, Third Xiangya Hospital of Central South University,
+      Changsha, China;
+FAU - Yi, Shuijing
+AU  - Yi S
+AD  - Department of Gynecology, Third Xiangya Hospital of Central South University,
+      Changsha, China;
+FAU - Yang, Yimin
+AU  - Yang Y
+AD  - Department of Gynecology, Third Xiangya Hospital of Central South University,
+      Changsha, China;
+FAU - Xiao, Songshu
+AU  - Xiao S
+AD  - Department of Gynecology, Third Xiangya Hospital of Central South University,
+      Changsha, China;
+FAU - Xu, Dabao
+AU  - Xu D
+AD  - Department of Gynecology, Third Xiangya Hospital of Central South University,
+      Changsha, China;
+FAU - Wu, Jiaoyang
+AU  - Wu J
+AD  - Department of Radiology, Third Xiangya Hospital of Central South University,
+      Changsha, China
+FAU - Jiang, Bin
+AU  - Jiang B
+AUID- ORCID: https://orcid.org/0000-0002-5901-2044
+AD  - Department of Gynecology, Third Xiangya Hospital of Central South University,
+      Changsha, China;
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+GR  - Grant No. kq2202425
+PHST- 2023/08/23 [received]
+PHST- 2024/01/10 [accepted]
+TA  - Quant Imaging Med Surg
+JT  - Quantitative Imaging in Medicine and Surgery
+AID - qims-14-03-2334 [pii]
+AID - 10.21037/qims-23-1205 [doi]
+SO  - Quant Imaging Med Surg. 2024 Mar 15;14(3):2334-44. Epub 2024 Mar 01
+      doi:10.21037/qims-23-1205.
+
+PMC - PMC10907327
+PMID- 38427141
+IS  - 2730-6011 (Electronic)
+VI  - 15
+DP  - 2024 Dec
+TI  - The impact of different clinicopathologic factors and salvage therapies on
+      cervical cancer patients with isolated para-aortic lymph node recurrence.
+LID - 54
+AB  - Background: Cervical cancer patients with isolated para-aortic lymph nodes (PALN)
+      recurrence were mainly associated with treatment failure. For these patients,
+      radiotherapy, chemotherapy, surgery ± adjuvant therapy or chemoradiotherapy may
+      be advised, however, no specific therapy has been proposed yet. This study aimed 
+      to explore factors influencing the prognosis of cervical cancer cases with
+      isolated PALN recurrence and to find out an effective salvage therapy. Methods:
+      Cervical cancer cases with isolated PALN recurrence who received therapies in
+      Zhejiang Cancer Hospital between January 2013 and June 2021 were analyzed
+      retrospectively. Results: Carcinoembryonic antigen (CEA) level > 10 ng/mL and
+      positron emission tomography/computed tomography (PET/CT) imaging method used to 
+      detect the recurrence were found to be associated with the local control rate.
+      PALN (positive), squamous-cell carcinoma-antigen (SCC-Ag) level (> 10 ng/mL) upon
+      initial diagnosis, and CEA level (> 10 ng/mL), number of metastatic lymph nodes
+      (several) at recurrence were associated with worse survival. Compared with
+      surgery ± adjuvant therapy, chemotherapy (CT) alone or sequential
+      chemoradiotherapy (SCRT) was associated with worse PFS or OS. Concurrent
+      chemoradiotherapy (CCRT) after PALN recurrence could reduce the risk of the
+      second recurrence. 3-year OS of cases after surgery ± adjuvant therapy was the
+      highest (65%), followed by CCRT (45.7%), SCRT (38.9%), radiotherapy (RT) (33.3%),
+      and CT (20.6%). Conclusion: In cervical cancer patients with isolated PALN
+      recurrence, chemoradiotherapy or surgery ± adjuvant therapy may be preferred as
+      the salvage treatment. Supplementary Information: The online version contains
+      supplementary material available at 10.1007/s12672-023-00825-w.
+FAU - Fang, Chenyan
+AU  - Fang C
+AD  - grid.417397.f0000 0004 1808 0985Zhejiang Cancer Hospital, Hangzhou Institute of
+      Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022 Zhejiang China
+FAU - Zhu, Yinfeng
+AU  - Zhu Y
+AD  - grid.417397.f0000 0004 1808 0985Zhejiang Cancer Hospital, Hangzhou Institute of
+      Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022 Zhejiang China
+FAU - Zhang, Ping
+AU  - Zhang P
+AD  - grid.417397.f0000 0004 1808 0985Zhejiang Cancer Hospital, Hangzhou Institute of
+      Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022 Zhejiang China
+FAU - Zhu, Tao
+AU  - Zhu T
+AD  - grid.417397.f0000 0004 1808 0985Zhejiang Cancer Hospital, Hangzhou Institute of
+      Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022 Zhejiang China
+FAU - Zhang, Yingli
+AU  - Zhang Y
+AD  - grid.417397.f0000 0004 1808 0985Zhejiang Cancer Hospital, Hangzhou Institute of
+      Medicine (HIM), Chinese Academy of Sciences, Hangzhou, 310022 Zhejiang China
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+GR  - LY14H160010
+GR  - 2017194140
+PHST- 2023/08/05 [received]
+PHST- 2023/11/10 [accepted]
+TA  - Discov Oncol
+JT  - Discover. Oncology
+AID - 825 [pii]
+AID - 10.1007/s12672-023-00825-w [doi]
+SO  - Discov Oncol. 2024 Mar 1;15:. doi:10.1007/s12672-023-00825-w.
+
+PMC - PMC11021343
+PMID- 38430323
+IS  - 1523-3790 (Print)
+IS  - 1534-6269 (Electronic)
+VI  - 26
+IP  - 4
+DP  - 2024
+TI  - Lymph Node Dissection in Testicular Cancer: The State of the Art and Future
+      Perspectives.
+PG  - 318-35
+AB  - Purpose of Review: This narrative review provides a comprehensive overview of the
+      evolving role of retroperitoneal lymph node dissection (RPLND) in the management 
+      of testicular cancer (TC). It explores the significance of RPLND as both a
+      diagnostic and therapeutic tool, highlighting its contribution to accurate
+      staging, its impact on oncological outcomes, and its influence on subsequent
+      treatment decisions. Recent Findings: RPLND serves as an essential diagnostic
+      procedure, aiding in the precise assessment of lymph node involvement and guiding
+      personalized treatment strategies. It has demonstrated therapeutic value,
+      particularly in patients with specific risk factors and disease stages,
+      contributing to improved oncological outcomes and survival rates. Recent studies 
+      have emphasized the importance of meticulous patient selection and nerve-sparing 
+      techniques to mitigate complications while optimizing outcomes. Additionally,
+      modern imaging and surgical approaches have expanded the potential applications
+      of RPLND. Summary: In the context of TC management, RPLND remains a valuable and 
+      evolving tool. Its dual role in staging and therapy underscores its relevance in 
+      contemporary urological practice. This review highlights the critical role of
+      RPLND in enhancing patient care and shaping treatment strategies, emphasizing the
+      need for further research to refine patient selection and surgical techniques.
+FAU - Małkiewicz, Bartosz
+AU  - Małkiewicz B
+AUID- ORCID: 0000-0002-5933-3753
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Świrkosz, Gabriela
+AU  - Świrkosz G
+AUID- ORCID: 0009-0000-1467-7619
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Lewandowski, Wojciech
+AU  - Lewandowski W
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Demska, Katarzyna
+AU  - Demska K
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Szczepaniak, Zuzanna
+AU  - Szczepaniak Z
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Karwacki, Jakub
+AU  - Karwacki J
+AUID- ORCID: 0009-0005-4441-1877
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Krajewski, Wojciech
+AU  - Krajewski W
+AUID- ORCID: 0000-0003-1727-2283
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XDepartment of Minimally
+      Invasive and Robotic Urology, University Center of Excellence in Urology, Wrocław
+      Medical University, Wrocław, Poland
+FAU - Szydełko, Tomasz
+AU  - Szydełko T
+AUID- ORCID: 0000-0002-1360-0422
+AD  - https://ror.org/01qpw1b93grid.4495.c0000 0001 1090 049XUniversity Center of
+      Excellence in Urology, Wrocław Medical University, Wrocław, Poland
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240302
+GR  - SUBZ.C090.23.080
+PHST- 2024/02/11 [accepted]
+TA  - Curr Oncol Rep
+JT  - Current Oncology Reports
+AID - 1511 [pii]
+AID - 10.1007/s11912-024-01511-y [doi]
+SO  - Curr Oncol Rep. 2024;26(4):318-35. Epub 2024 Mar 2
+      doi:10.1007/s11912-024-01511-y.
+
+PMC - PMC10984127
+PMID- 38562336
+IS  - 2168-8184 (Electronic)
+VI  - 16
+IP  - 3
+TI  - A Clinical Review and Experience of Splenic Trauma in North India: A
+      Retrospective Observational Study.
+LID - e55384
+AB  - Introduction: The spleen is one of the frequently injured solid organs in
+      abdominal blunt trauma. The standard of care is nonoperative nowadays depending
+      on the hemodynamic stability (World Society of Emergency Surgery (WSES) grade
+      I-III) of the patient due to advancements in treating modalities. Operative
+      interventions are required in hemodynamically unstable patients or failure of
+      nonoperative management. The study was planned to find the clinical spectrum of
+      abdominal blunt trauma, specifically those having splenic trauma, and their
+      subsequent management in an institution.Methods: This is a retrospective
+      observational study. All included patients with blunt abdominal injuries were
+      treated in a level 1 trauma center between July 2021 and December 2022. Data
+      regarding demographic profile, blood transfusion, pre- and postoperative
+      findings, and management including the period of hospital stay, morbidity, and
+      mortality were collected and analyzed.Results: One hundred sixty-four patients
+      were analyzed, of which 142 were males and 22 were females. The commonest
+      mechanism of injury was motor vehicle collision, followed by falls. Grade III
+      splenic injury was the most common injury, while the predominantly associated
+      injury was rib fracture. The patients were managed preferably through
+      nonoperative management, followed by angioembolization and operative management. 
+      The commonest postoperative complication was pneumonia.Conclusions: Nonoperative 
+      management of splenic trauma has evolved as the standard of care replacing
+      operative management in order to sustain its immune function, thereby preventing 
+      overwhelming post-splenectomy infection.
+FAU - Kumar, Sunil
+AU  - Kumar S
+AD  - Division of Trauma Surgery, Department of General Surgery, Institute of Medical
+      Sciences, Banaras Hindu University, Varanasi, IND
+FAU - Katiyar, Vivek
+AU  - Katiyar V
+AD  - Division of Trauma Surgery, Department of General Surgery, Institute of Medical
+      Sciences, Banaras Hindu University, Varanasi, IND
+FAU - Sharma, Sumit
+AU  - Sharma S
+AD  - Division of Trauma Surgery, Department of General Surgery, Institute of Medical
+      Sciences, Banaras Hindu University, Varanasi, IND
+FAU - Srivastava, Vipul K
+AU  - Srivastava VK
+AD  - Division of Trauma Surgery, Department of General Surgery, Institute of Medical
+      Sciences, Banaras Hindu University, Varanasi, IND
+FAU - Bhartiya, Satyanam K
+AU  - Bhartiya SK
+AD  - Division of Trauma Surgery, Department of General Surgery, Institute of Medical
+      Sciences, Banaras Hindu University, Varanasi, IND
+FAU - Mishra, Shashi P
+AU  - Mishra SP
+AD  - Division of Trauma Surgery, Department of General Surgery, Institute of Medical
+      Sciences, Banaras Hindu University, Varanasi, IND
+LA  - eng
+PT  - Journal Article
+PHST- 2024/02/28 [accepted]
+TA  - Cureus
+JT  - Cureus
+AID - 10.7759/cureus.55384 [doi]
+SO  - Cureus. ;16(3):. doi:10.7759/cureus.55384.
+
+PMC - PMC10952035
+PMID- 38510116
+IS  - 2589-0042 (Electronic)
+VI  - 27
+IP  - 4
+DP  - 2024 Apr 19
+TI  - Identifying therapeutic candidates for endometriosis through a
+      transcriptomics-based drug repositioning approach.
+LID - 109388
+AB  - Existing medical treatments for endometriosis-related pain are often ineffective,
+      underscoring the need for new therapeutic strategies. In this study, we applied a
+      computational drug repurposing pipeline to stratified and unstratified disease
+      signatures based on endometrial gene expression data to identify potential
+      therapeutics from existing drugs, based on expression reversal. Of 3,131 unique
+      genes differentially expressed by at least one of six endometriosis signatures,
+      only 308 (9.8%) were in common; however, 221 out of 299 drugs identified, (73.9%)
+      were shared. We selected fenoprofen, an uncommonly prescribed NSAID that was the 
+      top therapeutic candidate for further investigation. When testing fenoprofen in
+      an established rat model of endometriosis, fenoprofen successfully alleviated
+      endometriosis-associated vaginal hyperalgesia, a surrogate marker for
+      endometriosis-related pain. These findings validate fenoprofen as a therapeutic
+      that could be utilized more frequently for endometriosis and suggest the utility 
+      of the aforementioned computational drug repurposing approach for endometriosis.
+OAB - Publisher: Abstract available from the publisher.
+OAB - Publisher: Abstract available from the publisher.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Oskotsky, Tomiko T.
+AU  - Oskotsky TT
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Bhoja, Arohee
+AU  - Bhoja A
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Bunis, Daniel
+AU  - Bunis D
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Le, Brian L.
+AU  - Le BL
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Tang, Alice S.
+AU  - Tang AS
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Kosti, Idit
+AU  - Kosti I
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Li, Christine
+AU  - Li C
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+FAU - Houshdaran, Sahar
+AU  - Houshdaran S
+AD  - Department of Obstetrics, Gynecology and Reproductive Sciences, UCSF, San
+      Francisco, CA, USA
+FAU - Sen, Sushmita
+AU  - Sen S
+AD  - Department of Obstetrics, Gynecology and Reproductive Sciences, UCSF, San
+      Francisco, CA, USA
+FAU - Vallvé-Juanico, Júlia
+AU  - Vallvé-Juanico J
+AD  - Department of Obstetrics, Gynecology and Reproductive Sciences, UCSF, San
+      Francisco, CA, USA
+FAU - Wang, Wanxin
+AU  - Wang W
+AD  - Department of Obstetrics, Gynecology and Reproductive Sciences, UCSF, San
+      Francisco, CA, USA
+FAU - Arthurs, Erin
+AU  - Arthurs E
+AD  - Department of Gynecology and Obstetrics, Emory University, Atlanta, GA, USA
+FAU - Govil, Arpita
+AU  - Govil A
+AD  - Department of Gynecology and Obstetrics, Emory University, Atlanta, GA, USA
+FAU - Mahoney, Lauren
+AU  - Mahoney L
+AD  - Department of Gynecology and Obstetrics, Emory University, Atlanta, GA, USA
+FAU - Lang, Lindsey
+AU  - Lang L
+AD  - Department of Gynecology and Obstetrics, Emory University, Atlanta, GA, USA
+FAU - Gaudilliere, Brice
+AU  - Gaudilliere B
+AD  - Department of Anesthesiology, Pain and Perioperative Medicine, Stanford
+      University, Stanford, CA, USA
+FAU - Stevenson, David K.
+AU  - Stevenson DK
+AD  - Department of Pediatrics, Stanford University, Stanford, CA, USA
+FAU - Irwin, Juan C.
+AU  - Irwin JC
+AD  - Department of Obstetrics, Gynecology and Reproductive Sciences, UCSF, San
+      Francisco, CA, USA
+FAU - Giudice, Linda C.
+AU  - Giudice LC
+AD  - Department of Obstetrics, Gynecology and Reproductive Sciences, UCSF, San
+      Francisco, CA, USA
+FAU - McAllister, Stacy L.
+AU  - McAllister SL
+AD  - Department of Gynecology and Obstetrics, Emory University, Atlanta, GA, USA
+FAU - Sirota, Marina
+AU  - Sirota M
+AD  - Bakar Computational Health Sciences Institute, UCSF, San Francisco, CA, USA
+LA  - eng
+PT  - Journal Article
+DEP - 20240302
+PHST- 2023/10/06 [received]
+PHST- 2023/12/29 [revised]
+PHST- 2024/02/28 [accepted]
+TA  - iScience
+JT  - iScience
+AID - S2589-0042(24)00609-6 [pii]
+AID - 10.1016/j.isci.2024.109388 [doi]
+SO  - iScience. 2024 Mar 02;27(4):. doi:10.1016/j.isci.2024.109388.
+
+PMC - PMC10940931
+PMID- 38495915
+IS  - 2590-0064 (Electronic)
+VI  - 25
+DP  - 2024 Apr
+TI  - What else should hemostatic materials do beyond hemostasis: A review.
+LID - 101008
+AB  - Massive blood loss due to injury is the leading cause of prehospital deaths in
+      disasters and emergencies. Hemostatic materials are used to realize rapid
+      hemostasis and protect patients from death. Researchers have designed and
+      developed a variety of hemostatic materials. However, in addition to their
+      hemostatic effect, hemostatic materials must be endowed with additional functions
+      to meet the practical application requirements in different scenarios. Here,
+      strategies for modifications of hemostatic materials for use in different
+      application scenarios are listed: effective positioning at the site of deep and
+      narrow wounds to stop bleeding, resistance to high blood pressure and wound
+      movement to maintain wound formation, rapid and easy removal from the wound
+      without affecting further treatment after hemostasis is completed, and continued 
+      function when retained in the wound as a dressing (such as antibacterial,
+      antiadhesion, tissue repair, etc.). The problems encountered in the practical use
+      of hemostatic materials and the strategies and progress of researchers will be
+      further discussed in this review. We hope to provide valuable references for the 
+      design of more comprehensive and practical hemostatic materials.
+OAB - Publisher: Abstract available from the publisher.
+FAU - Yang, Xinran
+AU  - Yang X
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+FAU - Wang, Xiudan
+AU  - Wang X
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+FAU - Gao, Xing
+AU  - Gao X
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+FAU - Guo, Xiaoqin
+AU  - Guo X
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+FAU - Hou, Shike
+AU  - Hou S
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+FAU - Shi, Jie
+AU  - Shi J
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+FAU - Lv, Qi
+AU  - Lv Q
+AD  - Institution of Disaster and Emergency Medicine, Tianjin University, Tianjin
+      300072, China
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240302
+PHST- 2023/11/12 [received]
+PHST- 2024/01/27 [revised]
+PHST- 2024/02/21 [accepted]
+TA  - Mater Today Bio
+JT  - Materials Today Bio
+AID - S2590-0064(24)00067-X [pii]
+AID - 10.1016/j.mtbio.2024.101008 [doi]
+SO  - Mater Today Bio. 2024 Mar 02;25:. doi:10.1016/j.mtbio.2024.101008.
+
+PMC - PMC11501362
+PMID- 39634370
+IS  - 2192-8606 (Print)
+IS  - 2192-8614 (Electronic)
+VI  - 13
+IP  - 6
+TI  - Advanced visual components inspired by animal eyes.
+PG  - 859-79
+AB  - Artificial vision systems pervade our daily lives as a foremost sensing apparatus
+      in various digital technologies, from smartphones to autonomous cars and
+      robotics. The broad range of applications for conventional vision systems
+      requires facile adaptation under extreme and dynamic visual environments.
+      However, these current needs have complicated individual visual components for
+      high-quality image acquisition and processing, which indeed leads to a decline in
+      efficiency in the overall system. Here, we review recent advancements in visual
+      components for high-performance visual processing based on strategies of
+      biological eyes that execute diverse imaging functionalities and sophisticated
+      visual processes with simple and concise ocular structures. This review first
+      covers the structures and functions of biological eyes (i.e., single-lens eyes
+      and compound eyes), which contain micro-optic components and nanophotonic
+      structures. After that, we focus on their inspirations in imaging
+      optics/photonics, light-trapping and filtering components, and retinomorphic
+      devices. We discuss the remaining challenges and notable biological structures
+      waiting to be implemented.
+FAU - Chang, Sehui
+AU  - Chang S
+AUID- ORCID: https://orcid.org/0000-0002-2216-0166
+AD  - School of Electrical Engineering and Computer Science, 65419Gwangju Institute of 
+      Science and Technology (GIST), Gwangju61005, Republic of Korea
+FAU - Kong, Duk-Jo
+AU  - Kong DJ
+AD  - Artificial Intelligence (AI) Graduate School, Gwangju Institute of Science and
+      Technology (GIST), Gwangju61005, Republic of Korea
+FAU - Song, Young Min
+AU  - Song YM
+AUID- ORCID: https://orcid.org/0000-0002-4473-6883
+AD  - School of Electrical Engineering and Computer Science, 65419Gwangju Institute of 
+      Science and Technology (GIST), Gwangju61005, Republic of Korea
+LA  - eng
+PT  - Journal Article
+PT  - Review
+GR  - FA5209-22-P-0162
+PHST- 2024/01/09 [received]
+PHST- 2024/02/08 [accepted]
+TA  - Nanophotonics
+JT  - Nanophotonics
+AID - nanoph-2024-0014 [pii]
+AID - 10.1515/nanoph-2024-0014 [doi]
+SO  - Nanophotonics. ;13(6):859-79. doi:10.1515/nanoph-2024-0014.
+
+PMC - PMC10974144
+PMID- 38535927
+IS  - 2305-6304 (Electronic)
+VI  - 12
+IP  - 3
+DP  - 2024 Mar
+TI  - Effects of Indigo Carmine on Growth, Cell Division, and Morphology of Allium cepa
+      L. Root Tip.
+LID - 194
+AB  - Indigo carmine has a variety of uses in foods, textiles, medicine,
+      pharmaceuticals, and cosmetics. There are studies reporting the toxic potential
+      of indigo carmine on human health and the environment. In this study, we
+      investigated the cytogenotoxic effects of indigo carmine using apical root cells 
+      of Allium cepa. Allium cepa bulbs were subjected to four treatments with indigo
+      carmine (0.0032, 0.0064, 0.0125, and 0.2 mg/mL) and to ultrapure water as a
+      control. After 5 days, root growth, root length, mitotic index, mitotic
+      inhibition, chromosomal anomalies, and cell morphology were analyzed. According
+      to our results, a decrease in root length and mitotic index was observed at all
+      concentrations of indigo carmine. Additionally, several types of chromosomal
+      abnormalities were observed, such as disturbed metaphase, sticky chain metaphase,
+      anaphase bridge, and laggard chromosomes. Moreover, histological observation
+      indicated that indigo carmine induces alterations in various components of root
+      tip tissue, such as deformation and alteration of the cell wall, progressive
+      condensation of chromatin, shrinkage of the nuclei, and an increase in the number
+      of irregularly shaped nuclei and nuclear fragments. Our results indicate that the
+      tested concentrations of indigo carmine may have toxic effects and raise concerns
+      about its intensive use in many fields.
+FAU - Ristea, Madalina-Elena
+AU  - Ristea ME
+FAU - Zarnescu, Otilia
+AU  - Zarnescu O
+AUID- ORCID: https://orcid.org/0000-0001-6894-3281
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2024/01/09 [received]
+PHST- 2024/02/23 [revised]
+PHST- 2024/02/26 [accepted]
+TA  - Toxics
+JT  - Toxics
+AID - 10.3390/toxics12030194 [doi]
+AID - toxics-12-00194 [pii]
+SO  - Toxics. 2024 Mar 01;12(3):. doi:10.3390/toxics12030194.
+
+PMC - PMC10902551
+PMID- 38407150
+IS  - 1080-6040 (Print)
+IS  - 1080-6059 (Electronic)
+VI  - 30
+IP  - 3
+DP  - 2024 Mar
+TI  - Taenia martis Neurocysticercosis-Like Lesion in Child, Associated with Local
+      Source, the Netherlands.
+PG  - 555-9
+AB  - A neurocysticercosis-like lesion in an 11-year-old boy in the Netherlands was
+      determined to be caused by the zoonotic Taenia martis tapeworm. Subsequent
+      testing revealed that 15% of wild martens tested in that region were infected
+      with T. martis tapeworms with 100% genetic similarity; thus, the infection source
+      was most likely local.
+FAU - Eggink, Hendriekje
+AU  - Eggink H
+FAU - Maas, Miriam
+AU  - Maas M
+FAU - van den Brand, Judith M.A.
+AU  - van den Brand JM
+FAU - Dekker, Jasja
+AU  - Dekker J
+FAU - Franssen, Frits
+AU  - Franssen F
+FAU - Hoving, Eelco W.
+AU  - Hoving EW
+FAU - Kortbeek, Laetitia M.
+AU  - Kortbeek LM
+FAU - Kranendonk, Mariëtte E.G.
+AU  - Kranendonk ME
+FAU - Meiners, Linda C.
+AU  - Meiners LC
+FAU - Rittscher, Anne E.
+AU  - Rittscher AE
+FAU - Roelfsema, Jeroen
+AU  - Roelfsema J
+FAU - Schölvinck, Elisabeth H.
+AU  - Schölvinck EH
+LA  - eng
+PT  - Journal Article
+TA  - Emerg Infect Dis
+JT  - Emerging Infectious Diseases
+AID - 23-1402 [pii]
+AID - 10.3201/eid3003.231402 [doi]
+SO  - Emerg Infect Dis. 2024 Mar;30(3):555-9. doi:10.3201/eid3003.231402.
+
+PMC - PMC11097317
+PMID- 38685842
+IS  - 1029-2977 (Print)
+IS  - 1735-3947 (Electronic)
+VI  - 27
+IP  - 3
+DP  - 2024 Mar
+TI  - Synchronous Double Primary Angiosarcoma Originating from the Stomach and Rectum: 
+      A Case Report and a Literature Review.
+PG  - 168-73
+AB  - Angiosarcomas originating from the gastrointestinal tract are rare but highly
+      aggressive tumors with poor prognosis. These tumors can be misdiagnosed as benign
+      and malignant gastrointestinal tract lesions. The definitive histological
+      diagnosis of angiosarcomasis made by pathologists based on immunohistochemical
+      analysis demonstrating cluster of differentiation 31 (CD31), factor VIII-related 
+      antigen (FVIIIRAg), erythroblast transformation specific related gene (ERG), and 
+      cluster of differentiation 34 (CD34). Angiosarcomas are treated with a single or 
+      multimodality approach that may include resection, radiotherapy, chemotherapy,
+      and palliative care, depending on the stage of disease and the condition of the
+      patient. No matter the treatment option, metastasis and death rates are
+      substantially highin patients with angiosarcoma. In this context, a 59-year-old
+      male with synchronous double primary angiosarcoma arising from the gastric and
+      rectum who presented with the complaint of abdominal pain and distention to the
+      outpatient clinic is presented in this case report, along with a brief literature
+      review.
+FAU - Kapagan, Tanju
+AU  - Kapagan T
+AUID- ORCID: https://orcid.org/0000-0001-9381-1934
+AD  - Başakşehir Çam and Sakura City Hospital, Department of Medical Oncology, 34480
+      Istanbul, Turkey
+FAU - Bulut, Nilufer
+AU  - Bulut N
+AUID- ORCID: https://orcid.org/0000-0002-2406-1946
+AD  - Başakşehir Çam and Sakura City Hospital, Department of Medical Oncology, 34480
+      Istanbul, Turkey
+FAU - Erdem, Gokmen Umut
+AU  - Erdem GU
+AUID- ORCID: https://orcid.org/0000-0002-3375-9465
+AD  - Başakşehir Çam and Sakura City Hospital, Department of Medical Oncology, 34480
+      Istanbul, Turkey
+FAU - Yıldırım, Suleyman
+AU  - Yıldırım S
+AUID- ORCID: https://orcid.org/0000-0002-2607-6738
+AD  - Başakşehir Çam and Sakura City Hospital, Department of Gastroenterology, 34480
+      Istanbul, Turkey
+FAU - Erdem, Zeynep Betul
+AU  - Erdem ZB
+AUID- ORCID: https://orcid.org/0000-0002-0840-4689
+AD  - Başakşehir Çam and Sakura City Hospital, Department of Pathology, 34480 Istanbul,
+      Turkey
+FAU - Sahin, Halil
+AU  - Sahin H
+AUID- ORCID: https://orcid.org/0000-0002-2718-0326
+AD  - Başakşehir Çam and Sakura City Hospital, Department of Gastroenterology, 34480
+      Istanbul, Turkey
+LA  - eng
+PT  - Journal Article
+PT  - Case Report
+DEP - 20240301
+PHST- 2024/01/31 [received]
+PHST- 2024/02/12 [accepted]
+PHST- 2024/03/01 [aheadofprint]
+TA  - Arch Iran Med
+JT  - Archives of Iranian Medicine
+AID - 10.34172/aim.2024.25 [doi]
+SO  - Arch Iran Med. 2024 Mar;27(3):168-73. Epub 2024 Mar 01 doi:10.34172/aim.2024.25.
+
+PMC - PMC10968707
+PMID- 38431305
+IS  - 1945-4589 (Electronic)
+VI  - 16
+IP  - 5
+DP  - 2024 Mar 15
+TI  - The crucial role of age and site in incidence and prognosis of female
+      neuroendocrine neoplasms in the United States: a population-based study from 2000
+      to 2018.
+PG  - 4204-23
+AB  - Background: As the incidence continues to rise, global concern about
+      neuroendocrine neoplasms (NENs) is mounting. However, little is known about how
+      NENs affect women patients.Methods: The annual percentage change (APC) was
+      calculated to describe the incidence. Cox proportional hazards multivariable
+      regression was used to identify risk factors. The nomograms were employed to
+      estimate prognosis.Results: A total of 39,237 female NENs (fNENs) cases were
+      identified. The incidence of fNENs increased annually (APC = 4.5, 95% CI 4.1-4.8,
+      P < 0.05), and the incidence pattern and survival outcomes showed age and
+      site-specificity. Appendiceal, rectal, and pulmonary fNENs were major
+      contributors to the incidence of patients younger than 40, between 40-59, and
+      over 60 years old, respectively. The Cox proportional hazards regression model
+      revealed that age, tumor size, grade, stage, and primary sites were closely
+      related to survival. The worst survival outcomes appeared in breast, reproductive
+      system, and liver fNENs for patients under 40, between 40-49, and over 50 years
+      old, respectively. A nomogram based on these developed with higher predictive
+      accuracy of prognosis, with a C index of 0.906 in the training cohort and 0.901
+      in the validation cohort.Conclusions: Our findings revealed distinct
+      site-specific tendencies in the incidence and survival patterns among fNEN
+      patients across various age groups. Thus, reasonable patient screening and
+      stratification strategies should be implemented, especially for young patients.
+FAU - Xiao, Guixiu
+AU  - Xiao G
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+FAU - Xu, Zihan
+AU  - Xu Z
+AD  - Laboratory of Integrative Medicine, Clinical Research Center for Breast, State
+      Key Laboratory of Biotherapy, West China Hospital, Sichuan University and
+      Collaborative Innovation Center, Chengdu, Sichuan, China
+FAU - Zhang, Yong
+AU  - Zhang Y
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+FAU - Dai, Shuang
+AU  - Dai S
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+FAU - Ouyang, Ganlu
+AU  - Ouyang G
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+FAU - Huang, Yan
+AU  - Huang Y
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+FAU - Liu, Yanyang
+AU  - Liu Y
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+FAU - Cao, Dan
+AU  - Cao D
+AD  - Abdominal Oncology Ward, Division of Medical Oncology, Cancer Center, State Key
+      Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu,
+      Sichuan, China
+FAU - Luo, Feng
+AU  - Luo F
+AD  - Department of Medical Oncology, Cancer Center, West China Hospital, Sichuan
+      University, Chengdu, Sichuan, China
+LA  - eng
+PT  - Journal Article
+DEP - 20240301
+PHST- 2023/07/11 [received]
+PHST- 2023/11/17 [accepted]
+TA  - Aging (Albany NY)
+JT  - Aging (Albany NY)
+AID - 205573 [pii]
+AID - 10.18632/aging.205573 [doi]
+AID - 205573 [pii]
+SO  - Aging (Albany NY). 2024 Mar 01;16(5):4204-23. doi:10.18632/aging.205573.
+
+PMC - PMC11163234
+IS  - 0035-8843 (Print)
+IS  - 1478-7083 (Electronic)
+VI  - 106
+IP  - Suppl 1
+DP  - 2024 Mar
+TI  - e-Posters.
+PG  - S3-S52
+LA  - eng
+PT  - Journal Article
+TA  - Ann R Coll Surg Engl
+JT  - Annals of The Royal College of Surgeons of England
+AID - 10.1308/rcsann.2024.0026 [doi]
+AID - rcsann.2024.0026 [pii]
+SO  - Ann R Coll Surg Engl. 2024 Mar;106(Suppl 1):S3-S52. doi:10.1308/rcsann.2024.0026.
+
+PMC - PMC10982662
+IS  - 0972-5229 (Print)
+IS  - 1998-359X (Electronic)
+VI  - 28
+IP  - Suppl 1
+DP  - 2024 Mar
+TI  - ABSTRACTS CRITICARE – IJCCM2024.
+PG  - S1-S155
+LA  - eng
+PT  - Journal Article
+TA  - Indian J Crit Care Med
+JT  - Indian Journal of Critical Care Medicine : Peer-reviewed, Official Publication of
+      Indian Society of Critical Care Medicine
+AID - 10.5005/jaypee-journals-10071-24667 [doi]
+SO  - Indian J Crit Care Med. 2024 Mar;28(Suppl 1):S1-S155.
+      doi:10.5005/jaypee-journals-10071-24667.
+
+PMC - PMC11059620
+PMID- 38454235
+IS  - 2757-6256 (Electronic)
+VI  - 59
+IP  - 2
+DP  - 2024 Mar
+TI  - An Unexpected Diagnosis of The Rectal Polyp: Perivascular Epithelioid Cell Tumor.
+PG  - 227-9
+FAU - Çakmak, Muhammed Hamidullah
+AU  - Çakmak MH
+AUID- ORCID: 0000-0003-1618-4783
+AD  - Department of Pediatric Surgery, University of Health Sciences, Hamidiye Faculty 
+      of Medicine, İstanbul Zeynep Kamil Women and Children’s Diseases Health Training 
+      and Research Center, İstanbul, Turkey
+FAU - Bayrak, Nevzat Aykut
+AU  - Bayrak NA
+AUID- ORCID: 0000-0002-5553-6123
+AD  - Department of Pediatric Gastroenterology, İstanbul Zeynep Kamil Women and
+      Children’s Diseases Health Training and Research Center, İstanbul, Turkey
+FAU - Kökten, Şermin
+AU  - Kökten Ş
+AUID- ORCID: 0000-0003-1780-2942
+AD  - Department of Medical Pathology, İstanbul Provincial Directorate of Health Kartal
+      Dr. Lütfi Kırdar City Hospital, İstanbul, Turkey
+FAU - Turgutoğlu Yılmaz, Aslı
+AU  - Turgutoğlu Yılmaz A
+AUID- ORCID: 0000-0002-2320-8766
+AD  - Department of Pediatric Hematology and Oncology, İstanbul Provincial Directorate 
+      of Health Kartal Dr. Lütfi Kırdar City Hospital, İstanbul, Turkey
+FAU - Oğuz, Sümeyra
+AU  - Oğuz S
+AUID- ORCID: 0000-0003-4001-0505
+AD  - Department of Medical Genetics, İstanbul Zeynep Kamil Women and Children’s
+      Diseases Health Training and Research Center, İstanbul, Turkey
+FAU - Moralıoğlu, Serdar
+AU  - Moralıoğlu S
+AUID- ORCID: 0000-0003-3374-8229
+AD  - Department of Pediatric Surgery, University of Health Sciences, Hamidiye Faculty 
+      of Medicine, İstanbul Zeynep Kamil Women and Children’s Diseases Health Training 
+      and Research Center, İstanbul, Turkey
+LA  - eng
+PT  - Journal Article
+PT  - Letter
+DEP - 20240301
+PHST- 2023/10/25 [received]
+PHST- 2023/12/28 [accepted]
+TA  - Turk Arch Pediatr
+JT  - Turkish Archives of Pediatrics
+AID - 10.5152/TurkArchPediatr.2024.23261 [doi]
+AID - tap-59-2-227 [pii]
+SO  - Turk Arch Pediatr. 2024 Mar 01;59(2):227-9.
+      doi:10.5152/TurkArchPediatr.2024.23261.
+
+PMC - PMC10924161
+PMID- 38360050
+IS  - 0161-5505 (Print)
+IS  - 1535-5667 (Electronic)
+VI  - 65
+IP  - 3
+DP  - 2024 Mar
+TI  - Molecular Imaging of Acute Graft-Versus-Host Disease.
+PG  - 357-61
+AB  - Noninvasive molecular imaging of acute graft-versus-host disease (GvHD) after
+      allogeneic hematopoietic stem cell transplantation has great potential to detect 
+      GvHD at the early stages, aid in grading of the disease, monitor treatment
+      response, and guide therapeutic decisions. Although the specificity of currently 
+      available tracers appears insufficient for clinical GvHD diagnosis, recently,
+      several preclinical studies have identified promising new imaging agents
+      targeting one or more biologic processes involved in GvHD pathogenesis, ranging
+      from T-cell activation to tissue damage. In this review, we summarize the
+      different approaches reported to date for noninvasive detection of GvHD using
+      molecular imaging with a specific focus on the use of PET. We discuss possible
+      applications of molecular imaging for the detection of GvHD in the clinical
+      setting, as well as some of the predictable challenges that are faced during
+      clinical translation of these approaches.
+FAU - Bernardi, Chiara
+AU  - Bernardi C
+AD  - Division of Hematology, Department of Oncology, Geneva University Hospitals,
+      Geneva, Switzerland;
+FAU - Garibotto, Valentina
+AU  - Garibotto V
+AD  - Translational Research Center for Oncohematology, Department of Medicine,
+      University of Geneva, Geneva, Switzerland;
+FAU - Mobashwera, Behnaz
+AU  - Mobashwera B
+AD  - Department of Hematology, Southampton General Hospital, University Hospital
+      Southampton, Southampton, United Kingdom;
+FAU - Negrin, Robert S.
+AU  - Negrin RS
+AD  - Division of Blood and Marrow Transplantation and Cellular Therapy, Stanford
+      University, Stanford, California; and
+FAU - Alam, Israt S.
+AU  - Alam IS
+AD  - Molecular Imaging Program at Stanford, Department of Radiology, Stanford
+      University School of Medicine, Stanford, California
+FAU - Simonetta, Federico
+AU  - Simonetta F
+AD  - Division of Hematology, Department of Oncology, Geneva University Hospitals,
+      Geneva, Switzerland;
+LA  - eng
+PT  - Journal Article
+PHST- 2023/10/26 [received]
+PHST- 2024/01/11 [accepted]
+TA  - J Nucl Med
+JT  - Journal of Nuclear Medicine
+AID - 266552 [pii]
+AID - 10.2967/jnumed.123.266552 [doi]
+SO  - J Nucl Med. 2024 Mar;65(3):357-61. doi:10.2967/jnumed.123.266552.
+
+PMC - PMC11047158
+PMID- 38680168
+IS  - 1554-7914 (Print)
+VI  - 20
+IP  - 3
+DP  - 2024 Mar
+TI  - Update on the Screening, Diagnosis, and Management of Cholangiocarcinoma.
+PG  - 151-8
+AB  - Cholangiocarcinoma (CCA) is a neoplasm of the biliary tract that has become
+      increasingly prevalent throughout the world. Common risk factors for developing
+      CCA include cirrhosis, primary sclerosing cholangitis, and trematode fluke
+      infestation, although there are no set screening guidelines in high-risk groups. 
+      Lesions are typically identified via cross-sectional imaging and/or elevated
+      serum carbohydrate antigen 19-9 levels, often followed by cytology or brushings
+      with fluorescence in situ hybridization for confirmation. Treatments can vary
+      among CCA subtypes but frequently involve systemic therapies such as gemcitabine 
+      and cisplatin with durvalumab or pembrolizumab. Targeted therapies may also be
+      effective (eg, ivosidenib, pemigatinib, infigratinib, futibatinib) depending on
+      the molecular alterations present. Resection is the most common surgical
+      treatment for CCA, although liver transplantation is also an option in highly
+      selected patients with liver-limited unresectable disease. Radiotherapy may also 
+      be a treatment option, as well as transarterial radioembolization (eg,
+      yttrium-90), which is often utilized in combination with systemic therapy.
+      Although patients with CCA have traditionally had a poor prognosis, recent
+      advances in treatment, including new systemic therapies and increased utilization
+      of liver transplantation, have improved expected survival. This article reviews
+      screening modalities, pros and cons of diagnostic techniques, and therapies that 
+      are currently available to treat patients with CCA.
+FAU - Kodali, Sudha
+AU  - Kodali S
+AD  - Sherrie and Alan Conover Center for Liver Disease and Transplantation, J. C.
+      Walter Jr Transplant Center, Houston Methodist Hospital, Houston, Texas
+FAU - Connor, Ashton A.
+AU  - Connor AA
+AD  - Sherrie and Alan Conover Center for Liver Disease and Transplantation, J. C.
+      Walter Jr Transplant Center, Houston Methodist Hospital, Houston, Texas
+FAU - Brombosz, Elizabeth W.
+AU  - Brombosz EW
+AD  - Department of Surgery, Houston Methodist Hospital, Houston, Texas
+FAU - Ghobrial, R. Mark
+AU  - Ghobrial RM
+AD  - Sherrie and Alan Conover Center for Liver Disease and Transplantation, J. C.
+      Walter Jr Transplant Center, Houston Methodist Hospital, Houston, Texas
+LA  - eng
+PT  - Journal Article
+TA  - Gastroenterol Hepatol (N Y)
+JT  - Gastroenterology & Hepatology
+SO  - Gastroenterol Hepatol (N Y). 2024 Mar;20(3):151-8.
+
+PMC - PMC10907451
+PMID- 38427094
+IS  - 1863-2483 (Print)
+IS  - 1863-2491 (Electronic)
+VI  - 18
+IP  - 1
+DP  - 2024
+TI  - Clinical applications of artificial intelligence in robotic surgery.
+LID - 102
+AB  - Artificial intelligence (AI) is revolutionizing nearly every aspect of modern
+      life. In the medical field, robotic surgery is the sector with some of the most
+      innovative and impactful advancements. In this narrative review, we outline
+      recent contributions of AI to the field of robotic surgery with a particular
+      focus on intraoperative enhancement. AI modeling is allowing surgeons to have
+      advanced intraoperative metrics such as force and tactile measurements, enhanced 
+      detection of positive surgical margins, and even allowing for the complete
+      automation of certain steps in surgical procedures. AI is also Query
+      revolutionizing the field of surgical education. AI modeling applied to
+      intraoperative surgical video feeds and instrument kinematics data is allowing
+      for the generation of automated skills assessments. AI also shows promise for the
+      generation and delivery of highly specialized intraoperative surgical feedback
+      for training surgeons. Although the adoption and integration of AI show promise
+      in robotic surgery, it raises important, complex ethical questions. Frameworks
+      for thinking through ethical dilemmas raised by AI are outlined in this review.
+      AI enhancements in robotic surgery is some of the most groundbreaking research
+      happening today, and the studies outlined in this review represent some of the
+      most exciting innovations in recent years.
+FAU - Knudsen, J. Everett
+AU  - Knudsen JE
+AD  - https://ror.org/03taz7m60grid.42505.360000 0001 2156 6853Keck School of Medicine,
+      University of Southern California, Los Angeles, USA
+FAU - Ghaffar, Umar
+AU  - Ghaffar U
+AD  - https://ror.org/02pammg90grid.50956.3f0000 0001 2152 9905Cedars-Sinai Medical
+      Center, Los Angeles, USA
+FAU - Ma, Runzhuo
+AU  - Ma R
+AD  - https://ror.org/02pammg90grid.50956.3f0000 0001 2152 9905Cedars-Sinai Medical
+      Center, Los Angeles, USA
+FAU - Hung, Andrew J.
+AU  - Hung AJ
+AD  - https://ror.org/02pammg90grid.50956.3f0000 0001 2152 9905Cedars-Sinai Medical
+      Center, Los Angeles, USA
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20240301
+PHST- 2024/01/12 [received]
+PHST- 2024/02/10 [accepted]
+TA  - J Robot Surg
+JT  - Journal of Robotic Surgery
+AID - 1867 [pii]
+AID - 10.1007/s11701-024-01867-0 [doi]
+SO  - J Robot Surg. 2024;18(1):. Epub 2024 Mar 1 doi:10.1007/s11701-024-01867-0.

@@ -1,0 +1,40 @@
+.body-content {
+    padding: 0px;
+    background-color: transparent;
+}
+.form-content {
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.ae-switcher {
+    width: 230px;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.event-desc {
+    cursor: pointer;
+}
+
+.slider-footer {
+    position: absolute;
+}
+
+.tooltip .tooltiptext { 
+    max-width: 600px;
+}
+
+.search-section {
+    width: 360px;
+}
+
+/* .state-select .tooltip .tooltiptext { 
+    transform: translate(5px) !important;
+} */

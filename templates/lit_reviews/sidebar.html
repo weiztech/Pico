@@ -1,0 +1,557 @@
+{% load static %} 
+
+{% if literature_review_id != 'Unknown' %}
+  {% url 'literature_reviews:search_protocol' id=literature_review_id  as search_protocol_url %}
+  {% url 'literature_reviews:search_terms' id=literature_review_id as search_terms_url %}
+  {% url 'literature_reviews:exclusion_reason' id=literature_review_id as exclusion_reasons_url %}
+  {% url 'literature_reviews:report_builder' id=literature_review_id as protocol_repo_url %}
+  {% url 'literature_reviews:search_dashboard' id=literature_review_id as run_searches_url %}
+  {% url 'literature_reviews:duplicates_list_url' id=literature_review_id as duplicates_list_url %}
+  {% url 'literature_reviews:article_reviews_list' id=literature_review_id as articles_list_url %}
+  {% url 'literature_reviews:full_text_upload' id=literature_review_id as upload_full_text_url %}
+  {% url 'literature_reviews:citation_updater' id=literature_review_id as update_citations_url %}
+  {% url 'literature_reviews:clinical_literature_appraisal_list' id=literature_review_id as extractions_url %}
+  {% url 'literature_reviews:report_builder' id=literature_review_id as finale_report_url %}
+  {% url 'literature_reviews:extraction_fields' id=literature_review_id as config_extractions_url %}
+  {% url 'literature_reviews:keyword' id=literature_review_id as keywords %}
+  {% url 'literature_reviews:ae_list' id=literature_review_id as adverse_events %}
+  {% url 'literature_reviews:manual_ae_searches' id=literature_review_id as manual_ae %}
+  {% url 'literature_reviews:adverse_database_summary' id=literature_review_id as db_summaries %}
+  {% url 'literature_reviews:article_tags' id=literature_review_id as article_tags %}
+  {% url 'literature_reviews:living_reviews' as living_reviews %}
+{% else%}
+  {% url 'literature_reviews:literature_reviews_settings' as literature_reviews_settings %}
+  {% url 'literature_reviews:living_reviews' as living_reviews %}
+{% endif %}
+
+
+
+{% if subscription.licence_type == 'sandbox' or subscription.licence_type == 'credits' %}
+  <div class="sidebar-content sidebar-tour sidebar-content-sandbox"  id="menu-tour-step-0">
+{% else %}
+  <div class="sidebar-content sidebar-tour"  id="menu-tour-step-0">
+{% endif %}
+  <ul class="menu-list sidebar-menu-container">
+    <!-- <li>
+      <div class="switcher-container">
+        <div class="toggle-wrapper"> 
+          <span class="text" id="toggle-label" style="cursor: pointer;"> Simple / Advanced Mode </span>
+          <div class="toggle" id="toggle">
+            <div class="toggle-ball" id="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </li> -->
+    {% if literature_review_id != 'Unknown' %}
+    <li>
+      <div class="switcher-container sidebar-tour" id="menu-tour-step-1">
+        <page-switcher
+          first-page-label="Simple"
+          second-page-label="Advanced"
+          first-page-link="#"
+          second-page-link="#"
+          active-page="Simple"
+          type="ADVANCED_MODE"
+          :switch-call-back="onSwitchSimpleAdvanced"
+        >
+        </page-switcher>
+      </div>
+    </li>
+    {% endif %}
+    
+    <li class="menu-option-first sidebar-tour" id="menu-tour-step-2">
+      <a class="menu-option-content" href="{% url 'literature_reviews:literature_review_list' %}">
+        <div class="icon-section">
+          <img
+            src="{% static 'images/sidebar/Menu-Home-Icon.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          All Projects <span class="hint"> (Home) </span>
+        </span>
+      </a>
+    </li>
+    {% if literature_reviews_count > 2 and literature_review_id == 'Unknown' %}
+        <li class="menu-option-first">
+          <div class="menu-option-content" v-on:click="showModal('intro-video-popup')">
+            <div class="icon-section">
+              <img
+                src="{% static 'images/icons/video-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+              Watch an Intro Video
+            </span>
+          </div>
+        </li>
+        <div class="modal bg-modal" id="intro-video-popup">
+          <div class="modal-dialog modal-dialog-video">
+              <div class="modal-content">
+                  <div class="modal-header modal-header-video">
+                      Intro Video
+                  </div>
+                  <div class="modal-body"> 
+                    <iframe src="https://www.loom.com/embed/2d233c970c8441a5aa85432b5b47842f?sid=18e46bdc-9970-4bf8-a693-88435ae6c68a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width: 100%; height: 470px;"></iframe>
+                  </div>
+                  <div class="modal-footer modal-footer-video">
+                      <button 
+                          class="secondary-gray-button ml w-100" 
+                          v-on:click="hideModal('intro-video-popup')"
+                      > Close </button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <li class="menu-option-first">
+          <a class="menu-option-content" href="https://citemedical.notion.site/Complete-User-Guide-CiteMed-io-624483282e594f7d8bb71611100fd7cc" target="_blank">
+            <div class="icon-section">
+              <img
+                src="{% static 'images/icons/wiki-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+                Read Our Documentation
+            </span>
+          </a>
+        </li>
+        <li class="menu-option-first">
+          <div class="menu-option-content" v-on:click="showModal('letter-popup')">
+            <div class="icon-section">
+              <img
+                src="{% static 'images/sidebar/mail-icon.svg' %}"
+                alt="directory icon"
+              />
+            </div>
+            <span>
+                A Letter from our Founder
+            </span>
+          </div>
+        </li>
+        
+        <div class="modal bg-modal" id="letter-popup">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header modal-header-video">
+                      Letter From Our Founder
+                  </div>
+                  <div class="modal-body"> 
+                    <div class="onboarding-letter">
+                      <h2>Welcome, {{ user.username }}</h2>
+                      <p>Thanks for giving us a try. I’ll keep this brief.</p>
+                      <p>We’ve designed <a href="http://CiteMed.io" target="_blank">CiteMed.io</a> to do one thing only. Allow you to perform systematic literature reviews as quickly and accurately as possible, without over-complicating and over-selling the process.</p>
+                      <p>Search, review, extract, make an output. We’re confident we do this better than anyone else out there.</p>
+                      <p>There are loads of tools that claim to do that, but none you can simply sign up for and try your project out on. That’s where we differ. We want people to use our app, break it, and tell us about it. In an ideal world, things never break, but you will at least have a question or two about a confusing screen, or a ‘what do I do here?’ kind of moment.</p>
+                      <p>For these and more, we’re here for you.</p>
+                      <p>A few ways to get going as quickly and smoothly as possible:</p>
+                      <ol>
+                        <li>You can watch the video to the right where I set up a project.</li>
+                        <li>You can take a look at our example project filled with data.</li>
+                        <li>Or you can just create your own and get to work with some questions/answers along the way.</li>
+                      </ol>
+                      <p>If you have a team, or prefer the personal touch, you can book a time slot with me and the team right <a href="https://meetings.hubspot.com/ethan-drower/citemedio-onboarding" target="_blank">here at this link</a>. We’ll help you set up a real project and start reviewing. No charge.</p>
+                      <p>I could keep going, but at this point, we think it’s best for you to give the app a try and let us know your feedback. We’re a click or email away if you need us.</p>
+                      <p>Sincerely,</p>
+                      <p style="color: var(--Gray-500);">Ethan Drower & Team CiteMed.</p>
+                    </div>
+                  </div>
+                  <div class="modal-footer modal-footer-video">
+                      <button 
+                          class="secondary-gray-button ml w-100" 
+                          v-on:click="hideModal('letter-popup')"
+                      > Close </button>
+                  </div>
+              </div>
+          </div>
+        </div>
+    {% endif %}
+    {% if  literature_review_id == 'Unknown' or 'living_reviews' in request.path %}
+    <li class="menu-option-first sidebar-tour" id="menu-tour-step-03">
+      <a class="menu-option-content" href="{% url 'literature_reviews:documents_library' %}">
+        <div class="icon-section">
+          <img style="width: 16px;"
+            src="{% static 'images/icons/doc-icon.png' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          Manage Citations
+        </span>
+      </a>
+    </li>
+
+
+    <li class="menu-option-first sidebar-tour" id="menu-tour-step-03">
+      <a class="menu-option-content" href="{% url 'literature_reviews:search_notebook' %}">
+        <div class="icon-section">
+          <img style="width: 16px;"
+            src="{% static 'images/icons/doc-icon.png' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+          Search Notebook
+        </span>
+      </a>
+    </li>
+          
+    <li class="menu-option-first">
+      <a class="menu-option-content" href="{{literature_reviews_settings}}">
+        <div class="icon-section">
+          <img
+            src="{% static 'images/sidebar/configure-extraction-icon.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+            Global Settings
+        </span>
+      </a>
+    </li>
+
+    <li class="menu-option-first">
+      <a class="menu-option-content" href="{{living_reviews}}">
+        <div class="icon-section">
+          <img
+            src="{% static 'images/sidebar/glasses.svg' %}"
+            alt="directory icon"
+          />
+        </div>
+        <span>
+            Living Review
+        </span>
+      </a>
+    </li>
+    {% endif %}
+
+    {% if literature_review_id != 'Unknown' and 'living_reviews' not in request.path%}
+
+      <li class="menu-option">
+        <div class="menu-option-header">Protocol</div>
+        <ul class="">
+          <li id="menu-tour-step-3" class="sidebar-tour">
+            <a
+              class="menu-option-content {% if 'search_protocol' in request.path %} link-active {% endif %}"
+              href="{{search_protocol_url}}"
+            >
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/search-protocol-icon.svg' %}"
+                  alt="search protocol icon"
+                />
+              </div>
+              <span> search Protocol </span>
+            </a>
+          </li>
+          <li>
+            <a
+              id="search_terms_block"
+              class="menu-option-content {% if 'search_terms' in request.path %} link-active {% endif %}"
+              href="{{search_terms_url}}"
+            >
+              <div id="menu-tour-step-4" class="sidebar-tour">
+                <div class="icon-section">
+                  <img
+                    src="{% static 'images/sidebar/search-terms-icon.svg' %}"
+                    alt="search terms icon"
+                  />
+                </div>
+                <span> search terms </span>
+              </div>
+              <div class="icon-section filter">
+                <img
+                  src="{% static 'images/sidebar/filter-icon.svg' %}"
+                  alt="filter icon"
+                />
+              </div>
+            </a>
+            <ul class="menu-sub-option-list hide">
+              <div class="icon-section long-line">
+              </div>
+              <li class="menu-sub-option" id="menu-tour-step-11">
+                <a
+                  href="{{exclusion_reasons_url}}"
+                  class="{% if 'exclusion_reason' in request.path %} link-active {% endif %}"
+                >
+                  Exclusion Reasons
+                </a>
+              </li>
+              <li class="menu-sub-option"  id="menu-tour-step-12">
+                <a 
+                  href="{{keywords}}" 
+                  class="{% if 'keyword' in request.path %} link-active {% endif %}"
+                > 
+                  Update Keywords 
+                </a>
+              </li>
+              <li id="menu-tour-step-13" class="menu-sub-option">
+                <a 
+                  href="{{article_tags}}" 
+                  class="{% if 'article_tags' in request.path %} link-active {% endif %}"
+                > 
+                  Article Tags
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sidebar-tour" id="menu-tour-step-5">
+            <a 
+              class="menu-option-content {% if 'type=protocol' in request.get_full_path %} link-active {% endif %}"
+              href="{{protocol_repo_url}}?type=protocol"
+            >
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/protocol-repository-icon.svg' %}"
+                  alt="protocol repository icon"
+                />
+              </div>
+              <span> Protocol Repository </span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-option">
+        <div class="menu-option-header">Search</div>
+        <ul class="">
+          <li class="sidebar-tour" id="menu-tour-step-6">
+            <a
+              class="menu-option-content {% if 'search_dashboard' in request.path %} link-active {% endif %}"
+              href="{{run_searches_url}}"
+            >
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/run-searches-icon.svg' %}"
+                  alt="run searches icon"
+                />
+              </div>
+              <span> Run Searches </span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-option">
+        <div class="menu-option-header">1st pass review (Abstracts)</div>
+        <ul style="width: 191px">
+          <li class="sidebar-tour" id="menu-tour-step-7">
+            <a
+              class="menu-option-content {% if 'state=U' in request.get_full_path %} link-active {% endif %}"
+              href="{{articles_list_url}}?state=U"
+            >
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/unclassified-icon.svg' %}"
+                  alt="unclassified icon"
+                />
+              </div>
+              <span> Unclassified </span>
+            </a>
+
+            <ul class="menu-sub-option-list hide">
+              <div class="icon-section long-line">
+                <img src="{% static 'images/sidebar/line.svg' %}" alt="line" />
+              </div>
+              <li id="menu-tour-step-14" class="menu-sub-option">
+                <a
+                  href="{{articles_list_url}}"
+                  class="{% if 'articles' in request.path and not 'state=' in request.get_full_path and not 'duplicates' in request.get_full_path %} link-active {% endif %}"
+                >
+                  All Citations
+                </a>
+              </li>
+              <li id="menu-tour-step-14" class="menu-sub-option">
+                <a
+                  href="{{duplicates_list_url}}"
+                  class="{% if 'duplicates' in request.path and not 'state=' in request.get_full_path %} link-active {% endif %}"
+                >
+                  Duplicates
+                </a>
+              </li>
+              <li id="menu-tour-step-15" class="menu-sub-option">
+                <a
+                  href="{{upload_full_text_url}}"
+                  class="{% if 'full_text_upload' in request.path %} link-active {% endif %}"
+                >
+                  Upload Full Text
+                </a>
+              </li>
+              <li id="menu-tour-step-16" class="menu-sub-option">
+                <a
+                  href="{{update_citations_url}}"
+                  class="{% if 'citation_updater' in request.path %} link-active {% endif %}"
+                >
+                  Fix Bad Citations
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li></li>
+        </ul>
+      </li>
+
+      <li class="menu-option sidebar-tour" id="menu-tour-step-8">
+        <div class="menu-option-header"> Adverse Events </div>
+        <ul style="width: 191px">
+          <li>
+            <a
+              class="menu-option-content {% if 'adverse_events' in request.path %} link-active {% endif %}"
+              href="{{adverse_events}}"
+            >
+              <div class="icon-section" style="width: 18px;">
+                <img
+                  src="{% static 'images/sidebar/adverse-events.svg' %}"
+                  alt="unclassified icon"
+                />
+              </div>
+              <span> Maude Adverse Events </span>
+            </a>
+
+            <ul class="menu-sub-option-list hide">
+              <div class="icon-section line">
+                <img src="{% static 'images/sidebar/line.svg' %}" alt="line" />
+              </div>
+              <li id="menu-tour-step-17" class="menu-sub-option">
+                <a
+                  href="{{manual_ae}}"
+                  class="{% if 'manual_ae_searches' in request.path %} link-active {% endif %}"
+                >
+                  Manual AE Searches
+                </a>
+              </li>
+              <li id="menu-tour-step-18" class="menu-sub-option">
+                <a
+                  href="{{ db_summaries }}"
+                  class="{% if 'adverse_database_summary' in request.path %} link-active {% endif %}"
+                >
+                  AE DB Summaries
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li></li>
+        </ul>
+      </li>
+
+      <li class="menu-option" id="menu-tour-step-9">
+        <div class="menu-option-header">2nd pass review (Full Texts)</div>
+        <ul class="">
+          <li id="menu-tour-step-19" class="sidebar-tour">
+            <a class="menu-option-content" href="{{config_extractions_url}}">
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/configure-extraction-icon.svg' %}"
+                  alt="configure extraction icon"
+                />
+              </div>
+              <span> Configure Extraction Fields </span>
+            </a>
+          </li>
+
+          <li></li>
+          <li class="sidebar-tour">
+            <a
+              class="menu-option-content {% if 'clinical_literature_appraisals' in request.path %} link-active {% endif %}"
+              href="{{extractions_url}}"
+            >
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/extraction-icon.svg' %}"
+                  alt="extraction icon"
+                />
+              </div>
+              <span> Clinical Appraisals </span>
+            </a>
+          </li>
+
+          <li></li>
+        </ul>
+      </li>
+      <li class="menu-option">
+        <div class="menu-option-header">Finalize</div>
+        <ul class="">
+          <li class="sidebar-tour" id="menu-tour-step-10">
+            <a
+              class="menu-option-content {% if 'report_builder' in request.path and not 'type=' in request.get_full_path %} link-active {% endif %}"
+              href="{{finale_report_url}}"
+            >
+              <div class="icon-section">
+                <img
+                  src="{% static 'images/sidebar/generated-output-icon.svg' %}"
+                  alt="generated output icon"
+                />
+              </div>
+              <span> Generated Outputs </span>
+            </a>
+          </li>
+
+          <li></li>
+        </ul>
+      </li>
+
+    {% endif %}
+  </ul>
+
+  <div class="user-navigation">
+    {% if lit_review.client.logo %}
+      <div class="client-logo">
+        <img src="{{lit_review.client.logo.url}}" alt="client icon" />
+      </div>
+    {% else %}
+      <div class="client-icon">
+        <img src="{% static 'images/navbar/pen-edit.svg' %}" alt="client icon" />
+      </div>
+    {% endif %}
+    <div class="text user-name-email-section">
+      <div>{{ request.user.username }}</div>
+      <div>{{ request.user.email }}</div>
+    </div>
+
+    <div id="user-navigation-parent">
+      <drop-down
+        icon-source="{% static 'images/navbar/setting.svg' %}"
+        target-element="user-navigation-list"
+        parent-wrapper="user-navigation-parent"
+        position-right="20px"
+        position-bottom="40px"
+      >
+      </drop-down>
+      <div class="drop-down" id="user-navigation-list">
+        <ul>
+          {% if request.user.is_staff %}
+            <li class="drop-down-element">
+             <div class="drop-down-element-icon">
+                <img
+                  src="{% static 'images/navbar/lock.svg' %}"
+                  alt="Details Icon"
+                />
+              </div>
+              <a
+                href="{% url 'admin_side:admin-side-home' %}"
+                class="drop-down-element-text"
+              >
+                Admin Panel
+              </a>
+            </li>
+          {% endif %}
+          <li class="drop-down-element">
+            <div class="drop-down-element-icon">
+              <img
+                src="{% static 'images/navbar/pen-edit.svg' %}"
+                alt="Details Icon"
+              />
+            </div>
+            <a
+              href="{% url 'accounts:logout' %}"
+              class="drop-down-element-text"
+            >
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
