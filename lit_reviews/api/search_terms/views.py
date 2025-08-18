@@ -209,7 +209,12 @@ class UpdateSearchTermsView(APIView):
             return Response({"new_terms": terms_list}, status=status.HTTP_200_OK)
 
         elif request.data.get("update_type") == "bulk":
-            ser = UpdateSearchTermSerializer(data=request.data.get("rows"), many=True, context={"user_id": request.user.id})
+            pico_category = request.data.get("pico_category")
+            rows = request.data.get("rows")
+            if pico_category:
+                for row in rows:
+                    row["pico_category"] = pico_category
+            ser = UpdateSearchTermSerializer(data=rows, many=True, context={"user_id": request.user.id})
             ser.is_valid(raise_exception=True)
             ser.save()
             return Response("success", status=status.HTTP_200_OK)

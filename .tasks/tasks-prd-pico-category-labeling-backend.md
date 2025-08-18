@@ -27,10 +27,10 @@
   - [x] 2.7 Update `construct_search_terms_list` helper to pass `pico_category` to the `SearchTermSerializer`.
   - [x] 2.8 Update `construct_search_terms_list` helper to pass `pico_category` before append to `terms_list`
   - [x] 2.9 In `SearchTermsView`, add `pico_categories` choices to the response.
-- [ ] 3.0 Bulk PICO Updates
-  - [ ] 3.1 In `SearchTermsView`, ensure the optional `pico_category` is passed to the `CreateNewSearchTermSerializer` when creating a new search.
-  - [ ] 3.2 In `UpdateSearchTermsView`, modify the logic for `update_type == "single"` to pass the optional `pico_category` to the `UpdateSearchTermSerializer`.
-  - [ ] 3.3 In `UpdateSearchTermsView`, modify the logic for `update_type == "bulk"` to accept a `pico_category` and apply it to all selected `LiteratureSearch` instances.
+- [x] 3.0 Bulk PICO Updates
+  - [x] 3.1 In `SearchTermsView`, ensure the optional `pico_category` is passed to the `CreateNewSearchTermSerializer` when creating a new search.
+  - [x] 3.2 In `UpdateSearchTermsView`, modify the logic for `update_type == "single"` to pass the optional `pico_category` to the `UpdateSearchTermSerializer`.
+  - [x] 3.3 In `UpdateSearchTermsView`, modify the logic for `update_type == "bulk"` to accept a `pico_category` and apply it to all selected `LiteratureSearch` instances.
 - [ ] 4.0 Implement Unit Tests for PICO Category Functionality
   - [ ] 4.1 Create a new test file `lit_reviews/tests/api/test_search_terms.py`.
   - [ ] 4.2 Write a test case to verify that a `pico_category` can be added when creating a `LiteratureSearch`.

@@ -124,7 +124,7 @@ class CreateNewSearchTermSerializer(serializers.Serializer):
         lit_review = LiteratureReview.objects.get(id=lit_review_id)
         db = NCBIDatabase.objects.get(entrez_enum=validated_data.get("entrez_enums")[0])
         clinical_trials_search_field = validated_data.pop("clinical_trials_search_field", None)
-        maude_search_field = validated_data.pop("maude_search_field")
+        maude_search_field = validated_data.pop("maude_search_field", None)
         pico_category = validated_data.pop("pico_category", None)
         
         new_prop = LiteratureReviewSearchProposal.objects.create(
