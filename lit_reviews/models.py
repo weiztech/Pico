@@ -486,6 +486,12 @@ class LiteratureSearch(models.Model):
     """
     Many LiteratureSearches per LiteratureReview
     """
+    class PicoCategory(models.TextChoices):
+        POPULATION = "P", _("Population")
+        INTERVENTION = "I", _("Intervention")
+        COMPARISON = "C", _("Comparison")
+        OUTCOME = "O", _("Outcome")
+        
     status_choices = (
         ("COMPLETE", "COMPLETE"),
         ("INCOMPLETE-ERROR", "INCOMPLETE-ERROR"),
@@ -502,6 +508,9 @@ class LiteratureSearch(models.Model):
     is_sota_term = models.BooleanField(default=None, blank=True, null=True)
     is_archived = models.BooleanField(default=False, blank=True, null=True)
     import_status = models.CharField(max_length=30, choices=status_choices, default="NOT RUN")  # comes from import script
+    pico_category = models.CharField(
+        max_length=1, choices=PicoCategory.choices, null=True, blank=True
+    )
 
     # configuration fields
     search_label = models.CharField(default=None, blank=True, null=True, max_length=50)

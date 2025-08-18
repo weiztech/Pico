@@ -105,6 +105,7 @@ class CreateNewSearchTermSerializer(serializers.Serializer):
     clinical_trials_search_field = serializers.CharField(required=False)
     maude_search_field = serializers.CharField(required=False)
     term_type = serializers.CharField(required=False)
+    pico_category = serializers.CharField(required=False, allow_null=True, allow_blank=True)
 
     def validate(self, data):
         term = data.get("term")
@@ -124,6 +125,7 @@ class CreateNewSearchTermSerializer(serializers.Serializer):
         db = NCBIDatabase.objects.get(entrez_enum=validated_data.get("entrez_enums")[0])
         clinical_trials_search_field = validated_data.pop("clinical_trials_search_field", None)
         maude_search_field = validated_data.pop("maude_search_field")
+        pico_category = validated_data.pop("pico_category", None)
         
         new_prop = LiteratureReviewSearchProposal.objects.create(
             literature_review = lit_review,
@@ -137,6 +139,7 @@ class CreateNewSearchTermSerializer(serializers.Serializer):
             result_count = -1,
             term = validated_data.get("term"),
             search_label = validated_data.get("term_type"),
+            pico_category=pico_category,
         )
         new_prop.literature_search = new_search
         new_prop.save()
@@ -162,6 +165,7 @@ class UpdateSearchTermSerializer(serializers.Serializer):
     clinical_trials_search_field = serializers.CharField(required=False)
     maude_search_field = serializers.CharField(required=False)
     term_type = serializers.CharField(required=False)
+    pico_category = serializers.CharField(required=False, allow_null=True, allow_blank=True)
 
     def validate_entrez_enums(self, value):
         """
@@ -181,13 +185,15 @@ class UpdateSearchTermSerializer(serializers.Serializer):
         clinical_trials_search_field = validated_data.pop("clinical_trials_search_field", None)
         maude_search_field = validated_data.pop("maude_search_field", None)
         term_type = validated_data.pop("term_type")
+        pico_category = validated_data.pop("pico_category", None)
         # update_search_term.delay(**validated_data, user_id=user_id)
         update_search_terms(
             **validated_data, 
             user_id=user_id, 
             clinical_trials_search_field=clinical_trials_search_field, 
             maude_search_field=maude_search_field,
-            term_type=term_type
+            term_type=term_type,
+            pico_category=pico_category
         )
         return validated_data.get("term")
     
@@ -266,3 +272,4 @@ class SearchTermSerializer(serializers.Serializer):
     scraper_error = serializers.CharField()
     search_field = serializers.CharField()
     term_type = serializers.CharField()
+    pico_category = serializers.CharField()
