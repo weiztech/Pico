@@ -16,10 +16,9 @@
   - [x] 1.3 Ensure that when editing a search, the current `pico_category` is pre-selected in the dropdown.
   - [x] 1.4 In `search_terms.js`, update the `addSearchTerm` and `updateSearchTerm` methods to include the `pico_category` in the API request.
 
-- [ ] 2.0 Update Literature Search Table
-  - [ ] 2.1 In `search_terms.html`, add a "PICO Category" column to the literature searches table.
-  - [ ] 2.2 Display the `pico_category` for each search as a colored tag/pill, using the color scheme from the PRD.
-  - [ ] 2.3 Add a new section to group literature searches by PICO category. The groups should be "Unordered", "Population", "Intervention", "Comparator", and "Outcome".
+- [ ] 2.0 Update List Table
+  - [ ] 2.1 The groups  should be "Unordered", "Population", "Intervention", "Comparator", and "Outcome", and the table should be rendered by looping through these groups.
+  - [ ] 2.2 on each group section add colored tag/pill, as per the color scheme in the PRD's Design Considerations.
 
 - [ ] 3.0 Implement Filtering
   - [ ] 3.1 In `search_terms.html`, add a "PICO Category" filter dropdown to the filter section.
