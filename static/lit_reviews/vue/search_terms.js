@@ -170,6 +170,26 @@ var app = new Vue({
       }
       return true;
     },
+    groupedTerms: function() {
+      const groups = {
+        "Unordered": [],
+        "Population": [],
+        "Intervention": [],
+        "Comparator": [],
+        "Outcome": [],
+      };
+      const PicoMap = Object.fromEntries(this.picoCategories.map(item => [item.value, item.label]));
+
+      this.searchTerms.forEach(term => {
+        const category = PicoMap[term.pico_category] || "Unordered";
+        if (groups[category]) {
+          groups[category].push(term);
+        } else {
+          groups["Unordered"].push(term);
+        }
+      });
+      return groups;
+    }
   },
   watch: {
     // whenever isCheckAll changes, this function will run
@@ -252,6 +272,20 @@ var app = new Vue({
           return 'badge success';
         default:
           return 'badge secondary';
+      }
+    },
+    getGroupColor: function (groupName) {
+      switch (groupName) {
+        case 'Population':
+          return '#007bff';
+        case 'Intervention':
+          return '#28a745';
+        case 'Comparator':
+          return '#fd7e14';
+        case 'Outcome':
+          return '#6f42c1';
+        default:
+          return '#6c757d'; // default color for Unordered
       }
     },
     isTermIncluded: function (item) {

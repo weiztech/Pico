@@ -970,258 +970,264 @@
         </div>
 
 
-        <table class="custom-table section-wrapper">
-          <thead>
-            <tr>
-              <th style="width: 30px;"> <input type="checkbox" class="table-checkbox" ref="checkAll"
-                  v-model="isCheckAll" /> </th>
-              <th style="width: 50px;">ID</td>
-              <th style="width: 100px;"> Status </th>
-              <th style="cursor: pointer; width: 300px;" v-on:click="onSortTerm">
-                Search Query
-                <span
-                  class="tooltip-elt ml-2 mb"
-                  title="This is the exact query that will be run on the selected databases"
-                >
-                  <img
-                    src="{% static 'images/icons/tooltip.svg' %}"
-                    alt=""
-                    srcset=""
-                  />
-                </span>
-
-                <img src="{% static 'images/icons/filter.png' %}" />
-              </th>
-              <th style="width: 100px;"> 
-                Type 
-                <span
-                  class="tooltip-elt ml-2 mb"
-                  title="This is a label we apply to your search to help you group your results in the final report"
-                >
-                  <img
-                    src="{% static 'images/icons/tooltip.svg' %}"
-                    alt=""
-                    srcset=""
-                  />
-                </span>
-              </th>
-              <th style="width: 300px;"> 
-                Database Expected Result Count 
-                <span
-                  class="tooltip-elt ml-2 mb"
-                  title="These are our best-guess for the result counts from each database for the search query entered. You can click each one to review it directly on the database"
-                >
-                  <img
-                    src="{% static 'images/icons/tooltip.svg' %}"
-                    alt=""
-                    srcset=""
-                  />
-                </span>
-              </th>
-              <th v-if="!isArchived" style="width: 100px;"> Actions </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="item in searchTerms" :key="item.id">
-              <td>
-                <input class="table-checkbox" type="checkbox" ref="selectedRow" :value="isTermIncluded(item)"
-                  :checked="isTermIncluded(item)" v-on:change="onRowChecked(item)" />
-              </td>
-              <td> P[[item.index]] </td>
-              <td style="text-align: center;">
-                <div class="center-v">
-                  <span v-if="getReportStatus(item) === 'FAILED'">
-                    <a class="badge error c-pointer"
-                      v-on:click="onErrorDisplay(item.value[item.value.length-1].report.errors)">
-                      Failed
-                    </a>
+        <div v-for="(group, groupName) in groupedTerms">
+          <h3 class="mt-3">
+            <span class="badge" :style="{ backgroundColor: getGroupColor(groupName) }"></span>
+            [[ groupName ]]
+          </h3>
+          <table class="custom-table section-wrapper">
+            <thead>
+              <tr>
+                <th style="width: 30px;"> <input type="checkbox" class="table-checkbox" ref="checkAll"
+                    v-model="isCheckAll" /> </th>
+                <th style="width: 50px;">ID</td>
+                <th style="width: 100px;"> Status </th>
+                <th style="cursor: pointer; width: 300px;" v-on:click="onSortTerm">
+                  Search Query
+                  <span
+                    class="tooltip-elt ml-2 mb"
+                    title="This is the exact query that will be run on the selected databases"
+                  >
+                    <img
+                      src="{% static 'images/icons/tooltip.svg' %}"
+                      alt=""
+                      srcset=""
+                    />
                   </span>
-                  <span v-else-if="getReportStatus(item)" :class="getReportStatusClasses(getReportStatus(item))">
-                    [[ getReportStatus(item) ]]
+
+                  <img src="{% static 'images/icons/filter.png' %}" />
+                </th>
+                <th style="width: 100px;"> 
+                  Type 
+                  <span
+                    class="tooltip-elt ml-2 mb"
+                    title="This is a label we apply to your search to help you group your results in the final report"
+                  >
+                    <img
+                      src="{% static 'images/icons/tooltip.svg' %}"
+                      alt=""
+                      srcset=""
+                    />
                   </span>
-                </div>
-              </td>
-              <td>
-                <textarea class="border-less-textarea" type="text" :id="'term_'+[[item.value[0].proposal.id]]"
-                  :value="[[item.term]]" v-on:input="onTermChange(item.id, $event)" name="term" rows="4">
-                  [[item.term]] 
-                </textarea>
-              </td>
-              <td>
-                <div v-if="projectType == 'Custom'">
-                  <select v-model="item.value[0].proposal.search_label" :id="'sota-'+[[item.value[0].proposal.id]]">
-                    <option :value="type.label" v-for="type in SearchLabelOptions" :key="type.label"> [[type.label]] </option>
-                  </select>
-                </div>
-                <div v-else>
-                  <custom-select :id="'sota-'+[[item.value[0].proposal.id]]" :name="'sota-'+[[item.value[0].proposal.id]]"
-                    :options="typeSelcetOptions"
-                    :default-selected="item.value[0].proposal.is_sota_term == true ? true : false">
-                  </custom-select>
-                </div>
-              </td>
-              <td>
-                <div class="database-section-wrapper">
-                  <div class="databases-section" :ref="'db-section-'+item.id">
+                </th>
+                <th style="width: 300px;"> 
+                  Database Expected Result Count 
+                  <span
+                    class="tooltip-elt ml-2 mb"
+                    title="These are our best-guess for the result counts from each database for the search query entered. You can click each one to review it directly on the database"
+                  >
+                    <img
+                      src="{% static 'images/icons/tooltip.svg' %}"
+                      alt=""
+                      srcset=""
+                    />
+                  </span>
+                </th>
+                <th v-if="!isArchived" style="width: 100px;"> Actions </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="item in group" :key="item.id">
+                <td>
+                  <input class="table-checkbox" type="checkbox" ref="selectedRow" :value="isTermIncluded(item)"
+                    :checked="isTermIncluded(item)" v-on:change="onRowChecked(item)" />
+                </td>
+                <td> P[[item.index]] </td>
+                <td style="text-align: center;">
+                  <div class="center-v">
+                    <span v-if="getReportStatus(item) === 'FAILED'">
+                      <a class="badge error c-pointer"
+                        v-on:click="onErrorDisplay(item.value[item.value.length-1].report.errors)">
+                        Failed
+                      </a>
+                    </span>
+                    <span v-else-if="getReportStatus(item)" :class="getReportStatusClasses(getReportStatus(item))">
+                      [[ getReportStatus(item) ]]
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  <textarea class="border-less-textarea" type="text" :id="'term_'+[[item.value[0].proposal.id]]"
+                    :value="[[item.term]]" v-on:input="onTermChange(item.id, $event)" name="term" rows="4">
+                    [[item.term]] 
+                  </textarea>
+                </td>
+                <td>
+                  <div v-if="projectType == 'Custom'">
+                    <select v-model="item.value[0].proposal.search_label" :id="'sota-'+[[item.value[0].proposal.id]]">
+                      <option :value="type.label" v-for="type in SearchLabelOptions" :key="type.label"> [[type.label]] </option>
+                    </select>
+                  </div>
+                  <div v-else>
+                    <custom-select :id="'sota-'+[[item.value[0].proposal.id]]" :name="'sota-'+[[item.value[0].proposal.id]]"
+                      :options="typeSelcetOptions"
+                      :default-selected="item.value[0].proposal.is_sota_term == true ? true : false">
+                    </custom-select>
+                  </div>
+                </td>
+                <td>
+                  <div class="database-section-wrapper">
+                    <div class="databases-section" :ref="'db-section-'+item.id">
 
-                    <div v-for="termItem in item.value">
-                      <div v-if="item.value[0].report && item.value[0].report.status === 'FETCHING_PREVIEW'"
-                        class="center-v mb">
-                        <div class="center-v">
-                          <span class="database-type mr">
-                            <span v-if="termItem.proposal.db_is_ae || termItem.proposal.db_is_recall"> AE </span>
-                            <span v-else> LIT </span>
-                          </span>
-                          [[ termItem.proposal.db ]]
-                          <span v-if="dbPreviews.includes(termItem.proposal.db_entrez_enum)" class="badge secondary ml">
-                            Pending...
-                          </span>
-                          <span v-else class="ml">
-                            ( [[ termItem.count ]] )
-                          </span>
-                        </div>
-                      </div>
-
-                      <div v-else class="center-v mb" :key="termItem.proposal.db">
-                        <div class="center-v">
-                          <span class="database-type mr">
-                            <span v-if="termItem.proposal.db_is_ae || termItem.proposal.db_is_recall"> AE </span>
-                            <span v-else> LIT </span>
-                          </span>
-                          [[ termItem.proposal.db ]]
-                          <div class="tooltip">
-                            <button class="secondary-gray-button database-config-button"
-                              @click="showDatabaseConfig(termItem.proposal)">
-                              <img src="{% static 'images/icons/setting.svg' %}">
-                            </button>
-                            <span class="tooltiptext">Database Configurations</span>
+                      <div v-for="termItem in item.value">
+                        <div v-if="item.value[0].report && item.value[0].report.status === 'FETCHING_PREVIEW'"
+                          class="center-v mb">
+                          <div class="center-v">
+                            <span class="database-type mr">
+                              <span v-if="termItem.proposal.db_is_ae || termItem.proposal.db_is_recall"> AE </span>
+                              <span v-else> LIT </span>
+                            </span>
+                            [[ termItem.proposal.db ]]
+                            <span v-if="dbPreviews.includes(termItem.proposal.db_entrez_enum)" class="badge secondary ml">
+                              Pending...
+                            </span>
+                            <span v-else class="ml">
+                              ( [[ termItem.count ]] )
+                            </span>
                           </div>
-                          <span v-if="termItem.count === 'Failed'" class="ml">
-                            <a class="warning-db-icon c-pointer"
-                              v-on:click="onDisplayExpectCountFailedError(termItem.proposal.db, termItem.scraper_error)">                              
-                              <span
-                                class=""
-                                title="Preview Unavailable"
-                              >
-                                <svg 
-                                  width="16" 
-                                  height="16" 
-                                  viewBox="0 0 16 16" 
-                                  fill="none" 
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  style="height: 16px; margin-bottom: -3px;"
+                        </div>
+
+                        <div v-else class="center-v mb" :key="termItem.proposal.db">
+                          <div class="center-v">
+                            <span class="database-type mr">
+                              <span v-if="termItem.proposal.db_is_ae || termItem.proposal.db_is_recall"> AE </span>
+                              <span v-else> LIT </span>
+                            </span>
+                            [[ termItem.proposal.db ]]
+                            <div class="tooltip">
+                              <button class="secondary-gray-button database-config-button"
+                                @click="showDatabaseConfig(termItem.proposal)">
+                                <img src="{% static 'images/icons/setting.svg' %}">
+                              </button>
+                              <span class="tooltiptext">Database Configurations</span>
+                            </div>
+                            <span v-if="termItem.count === 'Failed'" class="ml">
+                              <a class="warning-db-icon c-pointer"
+                                v-on:click="onDisplayExpectCountFailedError(termItem.proposal.db, termItem.scraper_error)">                              
+                                <span
+                                  class=""
+                                  title="Preview Unavailable"
                                 >
-                                  <path 
-                                    d="M8 8V5M8 10.2236V10.25M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8Z" 
-                                    stroke="#B54708" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </span>
+                                  <svg 
+                                    width="16" 
+                                    height="16" 
+                                    viewBox="0 0 16 16" 
+                                    fill="none" 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    style="height: 16px; margin-bottom: -3px;"
+                                  >
+                                    <path 
+                                      d="M8 8V5M8 10.2236V10.25M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8Z" 
+                                      stroke="#B54708" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"
+                                    />
+                                  </svg>
+                                </span>
 
-                            </a>
-                          </span>
-                          <span v-else-if="termItem.count === 'Warning'" class="ml">
-                            <a class="badge warning c-pointer" v-on:click="onDIsplayMaudeWarning">
-                              Warning
-                            </a>
-                          </span>
-                          <span v-else class="ml">
-                             ( [[ termItem.count ]] )
-                          </span>
-                        </div>
+                              </a>
+                            </span>
+                            <span v-else-if="termItem.count === 'Warning'" class="ml">
+                              <a class="badge warning c-pointer" v-on:click="onDIsplayMaudeWarning">
+                                Warning
+                              </a>
+                            </span>
+                            <span v-else class="ml">
+                               ( [[ termItem.count ]] )
+                            </span>
+                          </div>
 
-                        <div
-                          v-if="dbPreviews.includes(termItem.proposal.db_entrez_enum) && termItem.count !== 'Failed'"
-                          v-on:click="onPreviewResults(termItem.preview, termItem.expected_result_count, termItem.proposal.db_entrez_enum)"
-                          class="c-pointer ml" style="width: 14px;" title="Preview"
-                        >
-                          <svg 
-                            v-if="urlDbPreviews.includes(termItem.proposal.db_entrez_enum)"
-                            xmlns="http://www.w3.org/2000/svg" width="12" height="13" 
-                            viewBox="0 0 12 13" fill="none" class="link-svg"
+                          <div
+                            v-if="dbPreviews.includes(termItem.proposal.db_entrez_enum) && termItem.count !== 'Failed'"
+                            v-on:click="onPreviewResults(termItem.preview, termItem.expected_result_count, termItem.proposal.db_entrez_enum)"
+                            class="c-pointer ml" style="width: 14px;" title="Preview"
                           >
-                            <path
-                              d="M5.4375 2H3.1875C2.25552 2 1.5 2.75552 1.5 3.68749V9.31251C1.5 10.2445 2.25552 11 3.1875 11H8.8125C9.74448 11 10.5 10.2445 10.5 9.31251V7.06247M7.68722 2.00014L10.5 2M10.5 2V4.5313M10.5 2L5.71834 6.78109"
-                              stroke="#9BA5B9" stroke-linecap="round" stroke-linejoin="round" 
-                            />
-                          </svg>
-                          <img v-else src="{% static 'images/icons/eye-link.png' %}" />
-                        </div>
+                            <svg 
+                              v-if="urlDbPreviews.includes(termItem.proposal.db_entrez_enum)"
+                              xmlns="http://www.w3.org/2000/svg" width="12" height="13" 
+                              viewBox="0 0 12 13" fill="none" class="link-svg"
+                            >
+                              <path
+                                d="M5.4375 2H3.1875C2.25552 2 1.5 2.75552 1.5 3.68749V9.31251C1.5 10.2445 2.25552 11 3.1875 11H8.8125C9.74448 11 10.5 10.2445 10.5 9.31251V7.06247M7.68722 2.00014L10.5 2M10.5 2V4.5313M10.5 2L5.71834 6.78109"
+                                stroke="#9BA5B9" stroke-linecap="round" stroke-linejoin="round" 
+                              />
+                            </svg>
+                            <img v-else src="{% static 'images/icons/eye-link.png' %}" />
+                          </div>
 
+                        </div>
                       </div>
+
+                      <button v-if="item.value.length > 3" v-on:click="expandDatabaseSection(item.id)"
+                        class="secondary-gray-button expand-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                          <path
+                            d="M8.28705 2.3335H11.6666M11.6666 2.3335V5.71281M11.6666 2.3335L7.7238 6.27603M5.71279 11.6668H2.33325M2.33325 11.6668V8.28752M2.33325 11.6668L6.27604 7.7243"
+                            stroke="#9BA5B9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </td>
+                <td v-if="!isArchived">
+                  <div class="center-v actions-terms-btns">
+                    <div :id="'single-update-'+item.value[0].proposal.id" :disabled="isArchived"
+                      v-on:click="onSignleTermUpdate(item.value[0].proposal.id)"
+                      :class="['c-pointer actions-terms-btns-item-edit', { 'disabled': isArchived }]"
+                      >
+                      <span class="actions-terms-btns-span">Edit</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none"
+                        class="actions-terms-btns-item-icon">
+                        <path
+                          class="actions-terms-btns-item-edit-icon"
+                          d="M9.25186 3.24763C9.38321 3.11627 9.53915 3.01208 9.71077 2.94099C9.8824 2.8699 10.0663 2.83331 10.2521 2.83331C10.4379 2.83331 10.6218 2.8699 10.7934 2.94099C10.9651 3.01208 11.121 3.11627 11.2524 3.24763C11.3837 3.37898 11.4879 3.53492 11.559 3.70655C11.6301 3.87817 11.6667 4.06211 11.6667 4.24788C11.6667 4.43364 11.6301 4.61758 11.559 4.78921C11.4879 4.96083 11.3837 5.11677 11.2524 5.24812L4.50068 11.9998L1.75 12.75L2.50019 9.9993L9.25186 3.24763Z"
+                          stroke="#4A505C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    
+                    <div 
+                      v-if="item.value.length > 1"
+                      :id="'split-'+item.value[0].proposal.id"
+                      v-on:click="onSplitTerm(item)" 
+                      class="c-pointer left-tooltip actions-terms-btns-item-split" 
+                      title="Do you have a slightly different syntax for a specific database for this search query? You can split it into a separate query by tweaking the syntax and selecting only the relevant databases"
+                      >
+                      <span class="actions-terms-btns-span">Split</span>
+                      <svg width="142" height="114" viewBox="0 0 142 114" fill="none" xmlns="http://www.w3.org/2000/svg" class="actions-terms-btns-item-icon-split">
+                        <path class="actions-terms-btns-item-split-icon" d="M8.61 1.1368C6.3025 -0.688983 2.95218 -0.265936 1.13281 2.04969C-0.686565 4.36531 -0.265003 7.72742 2.0425 9.55321L133.393 112.866C135.7 114.691 139.05 114.268 140.87 111.953C142.689 109.637 142.267 106.275 139.96 104.449L108.565 79.7567L128.644 59.6063C141.18 47.0263 141.18 26.6532 128.644 14.0731C117.551 2.94031 100.067 1.49305 87.3091 10.6442L86.9541 10.8891C83.7591 13.1825 83.0269 17.6356 85.3122 20.8196C87.5975 24.0036 92.035 24.7606 95.2078 22.4673L95.5628 22.2223C102.685 17.1235 112.425 17.9251 118.593 24.1372C125.582 31.1509 125.582 42.5063 118.593 49.52L97.2934 70.895L90.2156 65.3286C95.6072 53.3497 93.2109 38.9884 83.6481 29.3919C72.0662 17.747 53.8059 16.8786 41.2034 26.7868L8.61 1.1368ZM53.0294 36.0716C59.7078 32.754 68.0503 33.8673 73.6194 39.4782C78.0569 43.9313 79.7209 50.2325 78.4341 56.0661L53.0294 36.0716ZM90.2156 92.7153L49.0134 60.1184C48.5475 68.9802 51.7203 77.9532 58.3766 84.6106C67.0075 93.272 79.3216 95.9661 90.2378 92.693L90.2156 92.7153ZM25.8719 41.8384L13.3581 54.3962C0.822186 66.9762 0.822186 87.3493 13.3581 99.9294C24.4519 111.062 41.9356 112.509 54.6934 103.358L55.0484 103.113C58.2434 100.82 58.9756 96.3669 56.6903 93.1829C54.405 89.9989 49.9675 89.2419 46.7947 91.5352L46.4397 91.7802C39.3175 96.879 29.5772 96.0774 23.4091 89.8653C16.42 82.8294 16.42 71.4739 23.4091 64.4602L37.1209 50.7001L25.8941 41.8161L25.8719 41.8384Z"/>
+                      </svg>
                     </div>
 
-                    <button v-if="item.value.length > 3" v-on:click="expandDatabaseSection(item.id)"
-                      class="secondary-gray-button expand-button">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <div v-on:click="onDeleteTriggered(item.value[0].proposal.id, item.term, item.is_search_file, $event)"
+                      :id="'delete-'+item.term" :class="['c-pointer actions-terms-btns-item-delete', { 'disabled': isArchived }]">
+                      <span class="actions-terms-btns-span">Delete</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13" fill="none"
+                        class="actions-terms-btns-item-icon-delete">
+                        <path d="M0.75 3H1.91667H11.25" stroke="#4A505C" stroke-width="1.2" stroke-linecap="round"
+                          stroke-linejoin="round" class="actions-terms-btns-item-delete-icon"/>
                         <path
-                          d="M8.28705 2.3335H11.6666M11.6666 2.3335V5.71281M11.6666 2.3335L7.7238 6.27603M5.71279 11.6668H2.33325M2.33325 11.6668V8.28752M2.33325 11.6668L6.27604 7.7243"
-                          stroke="#9BA5B9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                          d="M3.66669 3.00002V1.83335C3.66669 1.52393 3.7896 1.22719 4.0084 1.0084C4.22719 0.789603 4.52393 0.666687 4.83335 0.666687H7.16669C7.47611 0.666687 7.77285 0.789603 7.99164 1.0084C8.21044 1.22719 8.33335 1.52393 8.33335 1.83335V3.00002M10.0834 3.00002V11.1667C10.0834 11.4761 9.96044 11.7729 9.74164 11.9916C9.52285 12.2104 9.22611 12.3334 8.91669 12.3334H3.08335C2.77393 12.3334 2.47719 12.2104 2.2584 11.9916C2.0396 11.7729 1.91669 11.4761 1.91669 11.1667V3.00002H10.0834Z"
+                          stroke="#4A505C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="actions-terms-btns-item-delete-icon"/>
                       </svg>
-                    </button>
-                  </div>
-                </div>
-              </td>
-              <td v-if="!isArchived">
-                <div class="center-v actions-terms-btns">
-                  <div :id="'single-update-'+item.value[0].proposal.id" :disabled="isArchived"
-                    v-on:click="onSignleTermUpdate(item.value[0].proposal.id)"
-                    :class="['c-pointer actions-terms-btns-item-edit', { 'disabled': isArchived }]"
-                    >
-                    <span class="actions-terms-btns-span">Edit</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none"
-                      class="actions-terms-btns-item-icon">
-                      <path
-                        class="actions-terms-btns-item-edit-icon"
-                        d="M9.25186 3.24763C9.38321 3.11627 9.53915 3.01208 9.71077 2.94099C9.8824 2.8699 10.0663 2.83331 10.2521 2.83331C10.4379 2.83331 10.6218 2.8699 10.7934 2.94099C10.9651 3.01208 11.121 3.11627 11.2524 3.24763C11.3837 3.37898 11.4879 3.53492 11.559 3.70655C11.6301 3.87817 11.6667 4.06211 11.6667 4.24788C11.6667 4.43364 11.6301 4.61758 11.559 4.78921C11.4879 4.96083 11.3837 5.11677 11.2524 5.24812L4.50068 11.9998L1.75 12.75L2.50019 9.9993L9.25186 3.24763Z"
-                        stroke="#4A505C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  
-                  <div 
-                    v-if="item.value.length > 1"
-                    :id="'split-'+item.value[0].proposal.id"
-                    v-on:click="onSplitTerm(item)" 
-                    class="c-pointer left-tooltip actions-terms-btns-item-split" 
-                    title="Do you have a slightly different syntax for a specific database for this search query? You can split it into a separate query by tweaking the syntax and selecting only the relevant databases"
-                    >
-                    <span class="actions-terms-btns-span">Split</span>
-                    <svg width="142" height="114" viewBox="0 0 142 114" fill="none" xmlns="http://www.w3.org/2000/svg" class="actions-terms-btns-item-icon-split">
-                      <path class="actions-terms-btns-item-split-icon" d="M8.61 1.1368C6.3025 -0.688983 2.95218 -0.265936 1.13281 2.04969C-0.686565 4.36531 -0.265003 7.72742 2.0425 9.55321L133.393 112.866C135.7 114.691 139.05 114.268 140.87 111.953C142.689 109.637 142.267 106.275 139.96 104.449L108.565 79.7567L128.644 59.6063C141.18 47.0263 141.18 26.6532 128.644 14.0731C117.551 2.94031 100.067 1.49305 87.3091 10.6442L86.9541 10.8891C83.7591 13.1825 83.0269 17.6356 85.3122 20.8196C87.5975 24.0036 92.035 24.7606 95.2078 22.4673L95.5628 22.2223C102.685 17.1235 112.425 17.9251 118.593 24.1372C125.582 31.1509 125.582 42.5063 118.593 49.52L97.2934 70.895L90.2156 65.3286C95.6072 53.3497 93.2109 38.9884 83.6481 29.3919C72.0662 17.747 53.8059 16.8786 41.2034 26.7868L8.61 1.1368ZM53.0294 36.0716C59.7078 32.754 68.0503 33.8673 73.6194 39.4782C78.0569 43.9313 79.7209 50.2325 78.4341 56.0661L53.0294 36.0716ZM90.2156 92.7153L49.0134 60.1184C48.5475 68.9802 51.7203 77.9532 58.3766 84.6106C67.0075 93.272 79.3216 95.9661 90.2378 92.693L90.2156 92.7153ZM25.8719 41.8384L13.3581 54.3962C0.822186 66.9762 0.822186 87.3493 13.3581 99.9294C24.4519 111.062 41.9356 112.509 54.6934 103.358L55.0484 103.113C58.2434 100.82 58.9756 96.3669 56.6903 93.1829C54.405 89.9989 49.9675 89.2419 46.7947 91.5352L46.4397 91.7802C39.3175 96.879 29.5772 96.0774 23.4091 89.8653C16.42 82.8294 16.42 71.4739 23.4091 64.4602L37.1209 50.7001L25.8941 41.8161L25.8719 41.8384Z"/>
-                    </svg>
-                  </div>
+                    </div>
 
-                  <div v-on:click="onDeleteTriggered(item.value[0].proposal.id, item.term, item.is_search_file, $event)"
-                    :id="'delete-'+item.term" :class="['c-pointer actions-terms-btns-item-delete', { 'disabled': isArchived }]">
-                    <span class="actions-terms-btns-span">Delete</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13" fill="none"
-                      class="actions-terms-btns-item-icon-delete">
-                      <path d="M0.75 3H1.91667H11.25" stroke="#4A505C" stroke-width="1.2" stroke-linecap="round"
-                        stroke-linejoin="round" class="actions-terms-btns-item-delete-icon"/>
-                      <path
-                        d="M3.66669 3.00002V1.83335C3.66669 1.52393 3.7896 1.22719 4.0084 1.0084C4.22719 0.789603 4.52393 0.666687 4.83335 0.666687H7.16669C7.47611 0.666687 7.77285 0.789603 7.99164 1.0084C8.21044 1.22719 8.33335 1.52393 8.33335 1.83335V3.00002M10.0834 3.00002V11.1667C10.0834 11.4761 9.96044 11.7729 9.74164 11.9916C9.52285 12.2104 9.22611 12.3334 8.91669 12.3334H3.08335C2.77393 12.3334 2.47719 12.2104 2.2584 11.9916C2.0396 11.7729 1.91669 11.4761 1.91669 11.1667V3.00002H10.0834Z"
-                        stroke="#4A505C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="actions-terms-btns-item-delete-icon"/>
-                    </svg>
-                  </div>
+                    <div :class="['c-pointer actions-terms-btns-item-reload', { 'disabled': isArchived }]"
+                      v-on:click="onUpdateTriggered(item.index,item.value[0].proposal.id, item.term, item.is_search_file, $event)"
+                      :disabled="getReportStatus(item) === 'SAVING' || getReportStatus(item) === 'Fetching Expected Count' || isArchived"
+                      title="Update Search Term & Reload Results Counts"
+                      >
+                      <span class="actions-terms-btns-span">Reload</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="actions-terms-btns-item-icon-reload" viewBox="0 0 14 15" fill="none">
+                        <path
+                          d="M11.1586 8.9585C10.5648 10.8216 8.86404 12.1668 6.85867 12.1668C4.35944 12.1668 2.33341 10.0775 2.33341 7.50016C2.33341 4.92283 4.35944 2.8335 6.85867 2.8335C8.53365 2.8335 9.99608 3.77196 10.7785 5.16683M9.40412 5.75016H11.6667V3.41683"
+                          stroke="#181A1E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="actions-terms-btns-item-reload-icon"/>
+                      </svg>
+                    </div>
 
-                  <div :class="['c-pointer actions-terms-btns-item-reload', { 'disabled': isArchived }]"
-                    v-on:click="onUpdateTriggered(item.index,item.value[0].proposal.id, item.term, item.is_search_file, $event)"
-                    :disabled="getReportStatus(item) === 'SAVING' || getReportStatus(item) === 'Fetching Expected Count' || isArchived"
-                    title="Update Search Term & Reload Results Counts"
-                    >
-                    <span class="actions-terms-btns-span">Reload</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="actions-terms-btns-item-icon-reload" viewBox="0 0 14 15" fill="none">
-                      <path
-                        d="M11.1586 8.9585C10.5648 10.8216 8.86404 12.1668 6.85867 12.1668C4.35944 12.1668 2.33341 10.0775 2.33341 7.50016C2.33341 4.92283 4.35944 2.8335 6.85867 2.8335C8.53365 2.8335 9.99608 3.77196 10.7785 5.16683M9.40412 5.75016H11.6667V3.41683"
-                        stroke="#181A1E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="actions-terms-btns-item-reload-icon"/>
-                    </svg>
                   </div>
-
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <div class="mt-2 mb-2 w-50 m-auto">
           <button class="primary-button w-100" 

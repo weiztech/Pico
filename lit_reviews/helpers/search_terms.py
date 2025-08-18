@@ -230,6 +230,7 @@ def update_search_terms(
         clinical_trials_search_field=None, 
         maude_search_field=None,
         term_type=None,
+        pico_category=None,
     ):
     """
     Update Review Terms given a Lit Review and a Search Term. 
@@ -281,6 +282,7 @@ def update_search_terms(
             clinical_trials_search_field=clinical_trials_search_field, 
             maude_search_field=maude_search_field,
             term_type=term_type,
+            pico_category=pico_category,
         )
 
     # create new LiteratureReviewSearchProposal && LiteratureReview if new db has been added
@@ -304,7 +306,8 @@ def update_search_terms(
                 db=db,
                 is_sota_term=is_sota_term,
                 term=term,
-                search_label = term_type
+                search_label = term_type,
+                pico_category=pico_category,
             )
             search.save() 
             new_prop.report = report
@@ -352,6 +355,7 @@ def update_search_proposal(
         clinical_trials_search_field=None, 
         maude_search_field=None,
         term_type=None,
+        pico_category=None,
     ):
     """
     Update a single search directly by updating the search term text ...etc. 
@@ -384,6 +388,7 @@ def update_search_proposal(
     lit_search.is_sota_term = is_sota_term
     lit_search.search_label= term_type
     prop.search_label = term_type
+    lit_search.pico_category = pico_category
     
     # udpating search field
     if clinical_trials_search_field and lit_search.db.entrez_enum == "ct_gov":

@@ -152,7 +152,7 @@ class CreateNewSearchTermSerializer(serializers.Serializer):
             new_search.advanced_options = {"search_field" : maude_search_field} 
             new_search.save()
 
-        update_search_terms(new_prop.id, lit_review_id, **validated_data, user_id=user_id)
+        update_search_terms(new_prop.id, lit_review_id, **validated_data, user_id=user_id, pico_category=pico_category)
         return validated_data.get("term")
 
 class UpdateSearchTermSerializer(serializers.Serializer):
