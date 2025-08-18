@@ -695,7 +695,7 @@ var app = new Vue({
         dbs: dbs,  
         clinicalTrialsSearchField: this.clinicalTrialsSearchFields[0],
         maudeSearchField: this.maudeSearchFields[0],
-        pico_category: termVal.value[0].proposal.pico_category,
+        pico_category: termVal.value[0].proposal.pico_category || "",
       };
       
       if (clinicalTrialsTerm && clinicalTrialsTerm.search_field) this.newTerm.clinicalTrialsSearchField = clinicalTrialsTerm.search_field;

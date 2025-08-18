@@ -725,7 +725,7 @@
                       <label for="pico-category"> PICO Category </label>
                       <select id="pico-category" name="pico-category" v-model="newTerm.pico_category">
                         <option value=""> Select a PICO Category </option>
-                        <option v-for="category in picoCategories" :value="category.id">[[ category.name ]]</option>
+                        <option v-for="category in picoCategories" :value="category.value">[[ category.label ]]</option>
                       </select>
                     </div>
 
