@@ -107,6 +107,7 @@ class SearchTermsView(APIView):
         search_labels = SearchLabelOption.objects.filter(customer_settings=customer_settings)
         search_labels_serializer = SearchLabelOptionSerializer(search_labels, many=True)
 
+        pico_categories = [{"value": choice[0], "label": choice[1]} for choice in LiteratureSearch.PicoCategory.choices]
         json_res =  {
             "validator": validator_ser.data,
             "lit_review_id": lit_review_id,
@@ -119,7 +120,8 @@ class SearchTermsView(APIView):
             "ae_dbs": ae_dbs_ser.data,
             "CLINICAL_TRIALS_SEARCH_FIELD_OPTIONS": CLINICAL_TRIALS_SEARCH_FIELD_OPTIONS,
             "FDA_MAUDE_SEARCH_FIELD_OPTIONS": FDA_MAUDE_SEARCH_FIELD_OPTIONS,
-            "search_labels":search_labels_serializer.data
+            "search_labels":search_labels_serializer.data,
+            "pico_categories": pico_categories
         }
 
         return Response(json_res, status=status.HTTP_200_OK)

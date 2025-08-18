@@ -21,28 +21,39 @@ This document outlines the requirements for a new feature that allows regulatory
 ## 4. Functional Requirements
 
 1.  **Database Schema:**
+    *   File to modify: `lit_reviews/models.py`
     *   The `lit_reviews_literaturesearch` table must be updated with a new optional field named `pico_category`.
     *   This field should store a value from a predefined set of choices (Enum): `POPULATION`, `INTERVENTION`, `COMPARATOR`, `OUTCOME`.
     *   The field can be `NULL`.
 
 2.  **PICO Category Enum:**
+    *   File to modify: `lit_reviews/models.py`
     *   A `PicoCategoryEnum` shall be created to define the available categories.
     *   The `pico_category` field is optional and will be `NULL` by default for all existing and newly created literature searches.
 
 3.  **API Updates:**
+    *   Files to modify:
+        *   `lit_reviews/api/search_terms/serializers.py`
+        *   `lit_reviews/api/search_terms/views.py`
     *   The `CreateNewSearchTermSerializer` and `UpdateSearchTermSerializer` must be updated to accept an optional `pico_category` parameter.
     *   The `SearchTermsView` (`/api/search-terms/<int:id>/`) will be modified for creating and editing single terms with `pico_category`.
     *   The existing bulk edit functionality in `UpdateSearchTermsView` (`/api/search-terms/update/<int:id>/`) will be extended to handle bulk assignment of `pico_category`.
-    *   The `SearchTermSerializer` must be updated to include the `pico_category` field in API responses.
+    *   The `SearchTermSerializer` must be updated to include the `pico_category` field in API responses. [Done]
 
 4.  **Frontend: Literature Search List View:**
-    *   A new column titled "PICO Category" must be added to the literature searches table.
-    *   The assigned PICO category for each search should be displayed in this column as a colored tag. If no category is assigned, this field should be blank.
-    *   Users must be able to sort the table by the "PICO Category" column.
-    *   A filter control (e.g., a dropdown) must be added to allow users to filter the list by one or more PICO categories.
-    *   A dropdown menu for quick editing of the PICO category should be available next to each literature search in the list.
+    *   Files to modify:
+        *   `templates/lit_reviews/search_terms.html`
+        *   `static/lit_reviews/vue/search_terms.js`
+    *   A new column titled "PICO Category" to Add & Edit search query modal
+    *   ensure on edit, the "PICO Category" still intact with the form
+    *   Add "PICO Category" to filters
+    *   Add section for Pico Group ensure using the current table to render the rows by loop ["unorder groups", ...pico_categories]
+        the rows should show based the group
 
 5.  **Frontend: Bulk Editing:**
+    *   Files to modify:
+        *   `templates/lit_reviews/search_terms.html`
+        *   `static/lit_reviews/vue/search_terms.js`
     *   The literature searches table must include checkboxes to select multiple searches.
     *   When one or more searches are selected, a "Bulk Edit" button shall become visible.
     *   Clicking "Bulk Edit" will reveal an option to "Assign PICO Category".

@@ -147,10 +147,12 @@ def construct_search_terms_list(search_proposals, total_start=0):
         preview = None
         scraper_error = ""
         search_label = ""
+        pico_category = None
         if prop.literature_search:
             preview = SearchTermPreview.objects.filter(literature_search=prop.literature_search).first()
             scraper_error = prop.literature_search.error_msg
             search_label = prop.literature_search.search_label
+            pico_category = prop.literature_search.pico_category
 
         if expected_result_count == 0:
             expected_count_str = str(0)
@@ -190,6 +192,7 @@ def construct_search_terms_list(search_proposals, total_start=0):
             "scraper_error": scraper_error,
             "search_field": search_field,
             "term_type": search_label,
+            "pico_category": pico_category,
         }
         prop_ser = SearchTermSerializer(row).data
         if terms.get(prop.term):
@@ -210,6 +213,7 @@ def construct_search_terms_list(search_proposals, total_start=0):
             # "index": total_terms + 1,
             "index": generate_number_from_text(key),
             "term_type": search_label,
+            "pico_category": value[0].get('pico_category'),
         })
         total_terms += 1
 

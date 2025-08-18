@@ -17,13 +17,17 @@
   - [x] 1.2 Add `pico_category` field to the `LiteratureSearch` model, making it optional (`null=True`, `blank=True`).
   - [x] 1.3 Run `python manage.py makemigrations` to generate the database migration file.
   - [x] 1.4 Run `python manage.py migrate` to apply the changes to the database schema.
-- [ ] 2.0 Update API Serializers to Handle `pico_category`
+- [x] 2.0 Update API Serializers to Handle `pico_category`
   - [x] 2.1 Add `pico_category` to the `CreateNewSearchTermSerializer` as an optional field.
   - [x] 2.2 Add `pico_category` to the `UpdateSearchTermSerializer` as an optional field.
   - [x] 2.3 Update the `create` method in `CreateNewSearchTermSerializer` to handle saving the `pico_category`.
   - [x] 2.4 Update the `create` method in `UpdateSearchTermSerializer` to handle updating the `pico_category`.
   - [x] 2.5 Add `pico_category` to the `SearchTermSerializer` to ensure it's included in API responses for listing.
-- [ ] 3.0 Modify API Views for Single and Bulk PICO Updates
+  - [x] 2.6 Fix `KeyError` in `SearchTermSerializer` by sourcing `pico_category` from the related `LiteratureSearch` model.
+  - [x] 2.7 Update `construct_search_terms_list` helper to pass `pico_category` to the `SearchTermSerializer`.
+  - [x] 2.8 Update `construct_search_terms_list` helper to pass `pico_category` before append to `terms_list`
+  - [x] 2.9 In `SearchTermsView`, add `pico_categories` choices to the response.
+- [ ] 3.0 Bulk PICO Updates
   - [ ] 3.1 In `SearchTermsView`, ensure the optional `pico_category` is passed to the `CreateNewSearchTermSerializer` when creating a new search.
   - [ ] 3.2 In `UpdateSearchTermsView`, modify the logic for `update_type == "single"` to pass the optional `pico_category` to the `UpdateSearchTermSerializer`.
   - [ ] 3.3 In `UpdateSearchTermsView`, modify the logic for `update_type == "bulk"` to accept a `pico_category` and apply it to all selected `LiteratureSearch` instances.
