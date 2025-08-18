@@ -58,6 +58,7 @@ var app = new Vue({
       totalTermsCount: null,
       lastTermIndex: null,
       validator: null,
+      picoCategories: [],
       
       // Fixed backend values
       clinicalTrialsSearchFields: [],
@@ -73,6 +74,7 @@ var app = new Vue({
         isSearchFile: null,
         clinicalTrialsSearchField: "",
         maudeSearchField: "",
+        pico_category: "",
       },
       splitTerm: SplitTermInit,
       dbBulkTerm: {
@@ -469,6 +471,7 @@ var app = new Vue({
         isSearchFile: null,
         clinicalTrialsSearchField: this.clinicalTrialsSearchFields[0],
         maudeSearchField: this.maudeSearchFields[0],
+        pico_category: "",
       };
       this.showModal('add-edit-term-modal');
     },
@@ -691,7 +694,8 @@ var app = new Vue({
         type: type,
         dbs: dbs,  
         clinicalTrialsSearchField: this.clinicalTrialsSearchFields[0],
-        maudeSearchField: this.maudeSearchFields[0],  
+        maudeSearchField: this.maudeSearchFields[0],
+        pico_category: termVal.value[0].proposal.pico_category,
       };
       
       if (clinicalTrialsTerm && clinicalTrialsTerm.search_field) this.newTerm.clinicalTrialsSearchField = clinicalTrialsTerm.search_field;
@@ -910,6 +914,7 @@ var app = new Vue({
           clinical_trials_search_field: this.newTerm.clinicalTrialsSearchField,
           maude_search_field: this.newTerm.maudeSearchField,
           term_type: this.newTerm.type,
+          pico_category: this.newTerm.pico_category,
         }
       }
       else {
@@ -1103,6 +1108,7 @@ var app = new Vue({
         maude_search_field: this.newTerm.maudeSearchField,
         entrez_enums: this.newTerm.dbs,
         term_type: this.newTerm.type,
+        pico_category: this.newTerm.pico_category,
       }
       // check term_quote_remove
       if (isRemoveTermQuote) {
@@ -1158,7 +1164,7 @@ var app = new Vue({
           console.log(res);
           const {
             terms, dbs, lit_dbs, ae_dbs, validator, lit_review_id, search_protocol, summary_doc, total_terms,
-            CLINICAL_TRIALS_SEARCH_FIELD_OPTIONS, FDA_MAUDE_SEARCH_FIELD_OPTIONS,search_labels
+            CLINICAL_TRIALS_SEARCH_FIELD_OPTIONS, FDA_MAUDE_SEARCH_FIELD_OPTIONS,search_labels, pico_categories
           } = res.data;
 
           this.isRecordsLoading = false;
@@ -1177,6 +1183,7 @@ var app = new Vue({
           this.totalTermsCount = total_terms;
           this.lastTermIndex = total_terms;
           this.SearchLabelOptions = search_labels;
+          this.picoCategories = pico_categories;
           
           for (let term of this.terms) {
             if (term.value[0].report && term.value[0].report.status === 'FETCHING_PREVIEW') {

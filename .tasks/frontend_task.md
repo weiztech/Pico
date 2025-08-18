@@ -11,10 +11,10 @@
 ## Tasks
 
 - [ ] 1.0 Update Add/Edit Modal
-  - [ ] 1.1 In `search_terms.html`, add a "PICO Category" dropdown to the "Add New Search Query" modal.
-  - [ ] 1.2 The dropdown should be populated with the `pico_categories` provided by the API.
-  - [ ] 1.3 Ensure that when editing a search, the current `pico_category` is pre-selected in the dropdown.
-  - [ ] 1.4 In `search_terms.js`, update the `addSearchTerm` and `updateSearchTerm` methods to include the `pico_category` in the API request.
+  - [x] 1.1 In `search_terms.html`, add a "PICO Category" dropdown to the "Add New Search Query" modal.
+  - [x] 1.2 The dropdown should be populated with the `pico_categories` provided by the API.
+  - [x] 1.3 Ensure that when editing a search, the current `pico_category` is pre-selected in the dropdown.
+  - [x] 1.4 In `search_terms.js`, update the `addSearchTerm` and `updateSearchTerm` methods to include the `pico_category` in the API request.
 
 - [ ] 2.0 Update Literature Search Table
   - [ ] 2.1 In `search_terms.html`, add a "PICO Category" column to the literature searches table.
